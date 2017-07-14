@@ -1,5 +1,5 @@
 
-<section>
+<section xml:id="ch01_2_differentials">
   <title>Differentials</title>
   <p>
     The derivative of a function gives us the slope of a tangent line to that function. We can use this tangent line to estimate how much the output (<m>y</m> values) will change if we change the input (<m>x</m>-value). If we rewrite the notation <m>\ds\frac{dy}{dx}=f'</m> in the form <m>dy=f' dx</m>, then we can read this as <q>A small change in <m>y</m> (called <m>dy</m>) equals the derivative (<m>f'</m>) times a small change in <m>x</m> (called <m>dx</m>).</q>
@@ -38,9 +38,9 @@
     <p>
       <!-- \extrafn{
       \thomasee{See 3.11:39-44. Also see problems 3.11:1-18.}
-      \stewarts{See 3.10:1-10 and 3.10:23-31.} 
+      \stewarts{See 3.10:1-10 and 3.10:23-31.} -->
 
-      The linearization of a function is just an equation of the tangent line where you solve for <m>y</m>.} -->Consider the function <m>y=f(x) = x^2</m>. This problem has multiple steps, but each is fairly short.
+      <!-- The linearization of a function is just an equation of the tangent line where you solve for <m>y</m>.} -->Consider the function <m>y=f(x) = x^2</m>. This problem has multiple steps, but each is fairly short.
       <ol>
         <li>
           <p>
