@@ -1,0 +1,12 @@
+
+openDate          = 09/08/2014 at 09:00am CDT
+dueDate           = 09/11/2014 at 09:00am CDT
+answerDate        = 09/12/2014 at 03:56pm CDT
+paperHeaderFile   = defaultHeader
+screenHeaderFile  = defaultHeader
+problemList       = 
+Library/maCalcDB/setVectors4PlanesLines/ur_vc_2_6.pg, 1, -1 
+Library/maCalcDB/setVectors3CrossProduct/ur_vc_2_2.pg, 1, -1 
+Library/maCalcDB/setVectors3CrossProduct/ur_vc_2_3.pg, 1, -1 
+Library/maCalcDB/setVectors4PlanesLines/ur_vc_2_9.pg, 1, -1 
+

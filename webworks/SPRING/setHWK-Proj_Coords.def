@@ -1,0 +1,14 @@
+
+openDate          = 01/27/2015 at 10:45am CST
+dueDate           = 01/29/2015 at 09:45pm CST
+answerDate        = 01/30/2015 at 10:20am CST
+paperHeaderFile   = defaultHeader
+screenHeaderFile  = defaultHeader
+problemList       = 
+Library/maCalcDB/setVectors2DotProduct/UR_VC_1_16.pg, 1, -1 
+Library/ASU-topics/setCalculus/stef12_5p1.pg, 1, -1 
+Library/maCalcDB/setVecFunction1Curves/urvc_3_10.pg, 1, -1 
+Library/maCalcDB/setVectors5Coordinates/urvc_3_5.pg, 1, 4 
+Library/maCalcDB/setVectors5Coordinates/urvc_3_6.pg, 1, 4 
+Library/maCalcDB/setVectors5Coordinates/urvc_3_1a.pg, 1, 4 
+

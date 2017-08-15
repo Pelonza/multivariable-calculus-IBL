@@ -1,0 +1,16 @@
+
+openDate          = 01/21/2015 at 08:00am CST
+dueDate           = 01/27/2015 at 09:30pm CST
+answerDate        = 01/29/2015 at 08:00am CST
+paperHeaderFile   = defaultHeader
+screenHeaderFile  = defaultHeader
+problemList       = 
+Library/Michigan/Chap13Sec2/Q09.pg, 1, -1 
+Library/maCalcDB/setVectors1space3D/UR_VC_1_6.pg, 1, -1 
+Library/Rochester/setVectors2DotProduct/UR_VC_1_11.pg, 1, -1 
+Library/maCalcDB/setVectors2DotProduct/UR_VC_1_12.pg, 1, -1 
+Library/maCalcDB/setVectors2DotProduct/UR_VC_1_13.pg, 1, -1 
+Library/maCalcDB/setVectors3CrossProduct/ur_vc_2_2.pg, 1, -1 
+Library/maCalcDB/setVectors3CrossProduct/ur_vc_2_3.pg, 1, -1 
+Library/maCalcDB/setVectors3CrossProduct/ur_vc_2_4.pg, 1, -1 
+
