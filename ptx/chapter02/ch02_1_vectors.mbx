@@ -1,8 +1,8 @@
 
-<section>
+<section xml:id="ch02_1_vectors">
   <title>Vectors and Lines</title>
-  <p>
-    <em>Topical Objectives:</em>
+  <objectives>
+    <title>Topical Objectives</title>
     <ul>
       <li>
         <p>
@@ -16,12 +16,13 @@
         </p>
       </li>
     </ul>
-  </p>
+  </objectives>
 
-  <p>
-    Learning to work with vectors will be key tool we need for our work in high dimensions. Let's start with some problems related to finding distance in 3D, drawing in 3D, and then we'll be ready to work with vectors.
-    `
-  </p>
+  <introduction>
+    <p>
+      Learning to work with vectors will be key tool we need for our work in high dimensions. Let's start with some problems related to finding distance in 3D, drawing in 3D, and then we'll be ready to work with vectors.
+    </p>
+  </introduction>
 
   <exploration>
     <p>
@@ -433,4 +434,27 @@
           </p>
       </task>
   </exploration>
+
+  <subsection>
+    <title>Computational Practice</title>
+    <exercises>
+      <exercise>
+        <webwork source="Library/Michigan/Chap13Sec2/Q09.pg" />
+      </exercise>
+
+      <exercise>
+        <webwork source="Library/maCalcDB/setVectors1space3D/UR_VC_1_1.pg" />
+      </exercise>
+
+      <exercise>
+        <webwork source="Library/maCalcDB/setVectors1space3D/UR_VC_1_6.pg" />
+      </exercise>
+
+      <exercise>
+        <webwork source="Library/WHFreeman/Rogawski_Calculus_Early_Transcendentals_Second_Edition/12_Vector_Geometry/12.2_Vectors_in_Three_Dimensions/12.2.35.pg" />
+      </exercise>   
+    </exercises>
+  </subsection>
+
+
 </section>

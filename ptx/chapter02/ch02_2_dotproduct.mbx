@@ -1,55 +1,57 @@
 
-<section>
+<section xml:id="ch02_2_dotproduct">
   <title>The Dot Product</title>
-  <p>
-    Topical Objectives:
-  </p>
+  <objectives>
+    <title>Topical Objectives</title>
+    <ul>
+      <li>
+        <p>perform the dot-product of two vectors</p>
+      </li>
+      <li>
+        <p>recognize when two vectors are orthogonal</p>
+      </li>
+    </ul>
+  </objectives>
 
-  <p>
-    <m>\bullet</m> perform the dot-product of two vectors
-  </p>
-
-  <p>
-    <m>\bullet</m> recognize when two vectors are orthogonal
-  </p>
-
-  <p>
-    Now that we've learned how to add and subtract vectors, stretch them by scalars, and use them to find lines, it's time to introduce a way of multiplying vectors called the dot product. We'll use the dot product to help us find find angles. First, we need to recall the law of cosines.
-  </p>
-
-  <theorem>
-    <title>The Law of Cosines</title>
-    <statement>
-      <p>
-        Consider a triangle with side lengths <m>a</m>, <m>b</m>, and <m>c</m>. Let <m>\theta</m> be the angle between the sides of <em>length</em> <m>a</m> and <m>b</m>. Then the law of cosines states that
-        <me>
-          c^2=a^2+b^2-2ab\cos\theta.
-        </me>
-      </p>
-
-      <p>
-        If <m>\theta=90^\circ</m>, then <m>\cos\theta=0</m> and this reduces to the Pythagorean theorem.
-      </p>
-    </statement>
-  </theorem>
-
-  <exploration>
+  <introduction>
     <p>
-      <!-- \extrafn{
-      \thomasee{See 12.3: 9-12.} 
-      \stewarts{See 12.3:15-20}
-      } -->Sketch in <m>\mathbb{R}^2</m> the vectors <m>\left\lt 1,2\right></m> and <m>\left\lt 3,5\right></m>. Use the law of cosines to find the angle between the vectors.
+      Now that we've learned how to add and subtract vectors, stretch them by scalars, and use them to find lines, it's time to introduce a way of multiplying vectors called the dot product. We'll use the dot product to help us find find angles. First, we need to recall the law of cosines.
     </p>
-  </exploration>
 
-  <exploration xml:id="prob_dot_angle_practice">
-    <p>
-      <!-- \extrafn{
-      \thomasee{See 12.3: 9-12.} 
-      \stewarts{See 12.3:15-20}
-      } -->Sketch in <m>\mathbb{R}^3</m> the vectors <m>\left\lt 1,2,3\right></m> and <m>\left\lt -2,1,0\right></m>. Use the law of cosines to find the angle between the vectors.
-    </p>
-  </exploration>
+    <theorem>
+      <title>The Law of Cosines</title>
+      <statement>
+        <p>
+          Consider a triangle with side lengths <m>a</m>, <m>b</m>, and <m>c</m>. Let <m>\theta</m> be the angle between the sides of <em>length</em> <m>a</m> and <m>b</m>. Then the law of cosines states that
+          <me>
+            c^2=a^2+b^2-2ab\cos\theta.
+          </me>
+        </p>
+
+        <p>
+          If <m>\theta=90^\circ</m>, then <m>\cos\theta=0</m> and this reduces to the Pythagorean theorem.
+        </p>
+      </statement>
+    </theorem>
+
+    <exploration>
+      <p>
+        <!-- \extrafn{
+        \thomasee{See 12.3: 9-12.} 
+        \stewarts{See 12.3:15-20}
+        } -->Sketch in <m>\mathbb{R}^2</m> the vectors <m>\left\lt 1,2\right></m> and <m>\left\lt 3,5\right></m>. Use the law of cosines to find the angle between the vectors.
+      </p>
+    </exploration>
+
+    <exploration xml:id="prob_dot_angle_practice">
+      <p>
+        <!-- \extrafn{
+        \thomasee{See 12.3: 9-12.} 
+        \stewarts{See 12.3:15-20}
+        } -->Sketch in <m>\mathbb{R}^3</m> the vectors <m>\left\lt 1,2,3\right></m> and <m>\left\lt -2,1,0\right></m>. Use the law of cosines to find the angle between the vectors.
+      </p>
+    </exploration>
+  </introduction>
 
   <definition>
     <title>The Dot Product</title>
@@ -186,4 +188,7 @@
   <p>
     The dot product provides a really easy way to find when two vectors meet at a right angle. The dot product is precisely zero when this happens.
   </p>
+
+  <subsection>
+    <title>Computational Practice</title>
 </section>
