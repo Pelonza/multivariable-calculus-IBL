@@ -49,7 +49,7 @@
     <exploration xml:id="x2d_div">
       <p>
         For each vector field:
-        <ol type="a">
+      </p>
         <task>
             <p>
               sketch a plot (you can graph it in Sage or WolframAlpha first)  <!-- \extrafn{See 
@@ -104,29 +104,29 @@
       <p>
         Compute the divergence for each of the following vector fields. [Suggestion: Again leave space]
       </p>
-        <task>
-            <p>
-              <m>\vec F(x,y,z) = \left(z,x,y \right)</m>
-            </p>
-        </task>
+      <task>
+          <p>
+            <m>\vec F(x,y,z) = \left(z,x,y \right)</m>
+          </p>
+      </task>
 
-        <task>
-            <p>
-              <m>\vec F(x,y,z) = \left(-y+x,x,z \right)</m>
-            </p>
-        </task>
+      <task>
+          <p>
+            <m>\vec F(x,y,z) = \left(-y+x,x,z \right)</m>
+          </p>
+      </task>
 
-        <task>
-            <p>
-              <m>\vec F(x,y,z) = \left(x^2+y^2,x^2+z^2,y^2+z^2 \right)</m>
-            </p>
-        </task>
+      <task>
+          <p>
+            <m>\vec F(x,y,z) = \left(x^2+y^2,x^2+z^2,y^2+z^2 \right)</m>
+          </p>
+      </task>
 
-        <task>
-            <p>
-              <m>\vec F(x,y,z) = \left(x^3+y,\tan^{-1}(1+y^2) + z^2,e^{z^2+\sin z} -2x\right)</m>
-            </p>
-        </task>
+      <task>
+          <p>
+            <m>\vec F(x,y,z) = \left(x^3+y,\tan^{-1}(1+y^2) + z^2,e^{z^2+\sin z} -2x\right)</m>
+          </p>
+      </task>
     </exploration>
   </subsection>
 

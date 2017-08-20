@@ -41,75 +41,73 @@
         For 1 and 2 the first derivative you take should yield a 1x2 vector (matrix).
       </p>
     </hint>
-  </p>
-  <task>
+    <task>
       <p>
         Let <m>f(x,y) = x^2+3xy+2y^2</m>.
       </p>
-        <task>
-            <p>
-              Find the gradient of <m>f</m>, i.e. find <m>Df(x,y)</m>.
-            </p>
-        </task>
+      <task>
+          <p>
+            Find the gradient of <m>f</m>, i.e. find <m>Df(x,y)</m>.
+          </p>
+      </task>
 
-        <task>
-            <p>
-              Next compute <m>D^2f(x,y)</m> (you should get a square matrix).
-            </p>
-        </task>
+      <task>
+          <p>
+            Next compute <m>D^2f(x,y)</m> (you should get a square matrix).
+          </p>
+      </task>
 
-        <task>
-            <p>
-              What are <m>f_{xy}</m> and <m>f_{yx}</m>?
-            </p>
-        </task>
-  </task>
+      <task>
+          <p>
+            What are <m>f_{xy}</m> and <m>f_{yx}</m>?
+          </p>
+      </task>
+    </task>
 
-  <task>
+    <task>
       <p>
         Consider the vector field <m>\vec F(x,y)=(2x+y,x+4y)</m>.
       </p>
-        <task>
-            <p>
-              Find the derivative of <m>\vec F(x,y)</m> (it should be a square matrix).
-            </p>
-        </task>
+      <task>
+          <p>
+            Find the derivative of <m>\vec F(x,y)</m> (it should be a square matrix).
+          </p>
+      </task>
 
-        <task>
-            <p>
-              Now find a function <m>f(x,y)</m> whose gradient is <m>\vec F</m> (i.e. <m>Df=\vec F</m>).
-            </p>
-        </task>
+      <task>
+          <p>
+            Now find a function <m>f(x,y)</m> whose gradient is <m>\vec F</m> (i.e. <m>Df=\vec F</m>).
+          </p>
+      </task>
 
-        <task>
-            <p>
-              What are <m>f_{xy}</m> and <m>f_{yx}</m>?
-            </p>
-        </task>
-  </task>
+      <task>
+          <p>
+            What are <m>f_{xy}</m> and <m>f_{yx}</m>?
+          </p>
+      </task>
+    </task>
 
-  <task>
+    <task>
       <p>
         <!-- \extrafn{See <xref ref="second_partials_agree">exercise</xref>.} -->Consider the vector field <m>\vec F(x,y)=(2x+y,3x+4y)</m>.
       </p>
-        <task>
-            <p>
-              Find the derivative of <m>\vec F</m>.
-            </p>
-        </task>
+      <task>
+          <p>
+            Find the derivative of <m>\vec F</m>.
+          </p>
+      </task>
 
-        <task>
-            <p>
-              Explain why is there no function <m>f(x,y)</m> so that <m>Df(x,y)=\vec F(x,y)</m>?
-              <hint>
-                <p>
-                  what would <m>f_{xy}</m> and <m>f_{yx}</m> have to equal?
-                </p>
-              </hint>
-            </p>
-        </task>
-  </task>
-  <p>
+      <task>
+          <p>
+            Explain why is there no function <m>f(x,y)</m> so that <m>Df(x,y)=\vec F(x,y)</m>?
+            <hint>
+              <p>
+                what would <m>f_{xy}</m> and <m>f_{yx}</m> have to equal?
+              </p>
+            </hint>
+          </p>
+      </task>
+    </task>
   </exploration>
 
   <p>
@@ -133,7 +131,6 @@
         Use <xref ref="thm_has_potential">Thm</xref>
       </p>
     </hint>
-  </p>
     <task>
         <p>
           <m>\vec F(x,y)=(2x-y, 3x+2y)</m>
@@ -169,7 +166,6 @@
           <m>\vec F(x,y,z)=(x+yz,xz+z,xy+y)</m>
         </p>
     </task>
-  <p>
   </exploration>
 
   <p>
@@ -277,7 +273,6 @@
         If you parametrize the curve, then you'll have done the exercise the HARD way. You don't need any parametrization at all.
       </p>
     </hint>
-  </p>
     <task>
         <p>
           <!-- \extrafn{See <url href="http://aleph.sagemath.org/?z=eJxz06jQqdS01TDSqtCu1KnQNtGq1OQqyMkviS9LTS7JL4pPy0zNSdFw01EAKtQ11jHSBLIqdQx0LDU1tUHqNCx1K-KMdGCymgDJPhZ0">Sage</url> for a picture.} -->Let <m>\vec F(x,y) = (2x+y,x+4y)</m> and <m>C</m> be the parabolic path <m>y=9-x^2</m> for <m>x</m> from <m>-3</m> to <m>2</m>.
@@ -289,7 +284,6 @@
           <!-- \extrafn{See <url href="http://aleph.sagemath.org/?z=eJwVi7EKgDAMRPd-hWPSRtCIo6s_IdJBKwhFRYo0_XrT6R5372bIJFRwArbZiS3Etris2bAVBUHzxDv5L2zpfv1xhrgPO8zU6LMnRgWhdqwEhToaEF08rwALcO27aqiow4rmBwN1HWM">Sage</url> for a picture.} -->Let <m>\vec F(x,y,z) = (2x+yz,2z+xz,2y+xy)</m> and <m>C</m> be the straight segment from <m>(2,-5,0)</m> to <m>(1,2,3)</m>.
         </p>
     </task>
-  <p>
     <hint>
       <p>
         Did you find a potential, and then plug in the end points?

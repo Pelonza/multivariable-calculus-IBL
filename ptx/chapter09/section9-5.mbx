@@ -45,7 +45,6 @@
           A picture of this will help
         </p>
       </hint>
-    </p>
       <task>
           <p>
             Without doing any computations, make an educated guess for the centroid <m>(\bar x, \bar y)</m> of this arc.
@@ -57,7 +56,7 @@
             Next compute the integrals given in <xref ref="prob_centroid_of_curve">exercise</xref> to find the actual centroid. Share with the class your guess, even if it was incorrect.
           </p>
       </task>
-    <p>
+
     </exploration>
   </subsection>
 
@@ -147,24 +146,22 @@
       <p>
         Suppose two objects are positioned at the points <m>P_1=(x_1,y_1,z_1)</m> and <m>P_2=(x_2,y_2,z_2)</m>. Our goal in this exercise is to understand the difference between the centroid and the center of mass.
       </p>
-    </p>
-    <task>
-        <p>
-          Find the centroid of two objects.
-        </p>
-    </task>
+      <task>
+          <p>
+            Find the centroid of two objects.
+          </p>
+      </task>
 
-    <task>
-        <p>
-          Suppose both objects have the same mass of 2 kg.  Find the center of mass.
-        </p>
-    </task>
+      <task>
+          <p>
+            Suppose both objects have the same mass of 2 kg.  Find the center of mass.
+          </p>
+      </task>
 
-    <task>
+      <task>
         <p>
           Now suppose the mass of the object at point <m>P_1</m> is 2 kg, and the mass of the object at point <m>P_2</m> is 5 kg.
         </p>
-        <ol type="a">
         <task>
             <p>
               Make a hypothesis (no calculations) about if the center of mass will be closer to <m>P_1</m> or <m>P_2</m>?
@@ -194,38 +191,38 @@
               } -->
             </p>
         </task>
-      <p>
-    </task>
-    <p>
+
+      </task>
+
     </exploration>
 
     <exploration>
       <p>
         This exercise reinforces what you just did with two points in the previous exercise. However, it now involves two people on a seesaw. <!-- \extrafn{See <url href="http://en.wikipedia.org/wiki/Seesaw">Wikipedia</url> for a seesaw picture.} -->Ignore the mass of the seesaw in your work below (pretend it's an extremely light seesaw, so its mass is negligible compared to the masses of the people).
       </p>
-        <task>
-            <p>
-              My daughter and her friend are sitting on a seesaw.  Both girls have the same mass of 30 kg. My wife stands about 1 m behind my daughter. We'll measure distance in this exercise from my wife's perspective.  We can think of my daughter as a point mass located at <m>(1\text{m} ,0)</m> whose mass is <m>30</m> kg. Suppose her friend is located at <m>(5\text{m} ,0)</m>. Suppose the kids are sitting just right so that the seesaw is perfectly balanced.  That means the the center of mass of the girls is precisely at the pivot point (or center) of the seesaw. Find the distance from my wife to the pivot point by finding the center of mass of the two girls.
-            </p>
-        </task>
+      <task>
+          <p>
+            My daughter and her friend are sitting on a seesaw.  Both girls have the same mass of 30 kg. My wife stands about 1 m behind my daughter. We'll measure distance in this exercise from my wife's perspective.  We can think of my daughter as a point mass located at <m>(1\text{m} ,0)</m> whose mass is <m>30</m> kg. Suppose her friend is located at <m>(5\text{m} ,0)</m>. Suppose the kids are sitting just right so that the seesaw is perfectly balanced.  That means the the center of mass of the girls is precisely at the pivot point (or center) of the seesaw. Find the distance from my wife to the pivot point by finding the center of mass of the two girls.
+          </p>
+      </task>
 
-        <task>
-            <p>
-              My daughter's friend has to leave, so I plan to take her place on the seesaw. My mass is 100 kg. Her friend was sitting at the point <m>(5,0)</m>. I would like to sit at the point <m>(a,0)</m> so that the seesaw is perfectly balanced. Without doing any computations, is <m>a>5</m> or <m>a\lt 5</m>? Explain.
-            </p>
-        </task>
+      <task>
+          <p>
+            My daughter's friend has to leave, so I plan to take her place on the seesaw. My mass is 100 kg. Her friend was sitting at the point <m>(5,0)</m>. I would like to sit at the point <m>(a,0)</m> so that the seesaw is perfectly balanced. Without doing any computations, is <m>a>5</m> or <m>a\lt 5</m>? Explain.
+          </p>
+      </task>
 
-        <task>
-            <p>
-              Suppose I sit at the spot <m>(x,0)</m> (perhaps causing my daughter or I to have a highly unbalanced ride). Find the center of mass of the two points <m>(1,0)</m> and <m>(x,0)</m> whose masses are <m>30</m> and <m>100</m>, respectively (units are meters and kilograms).
-            </p>
-        </task>
+      <task>
+          <p>
+            Suppose I sit at the spot <m>(x,0)</m> (perhaps causing my daughter or I to have a highly unbalanced ride). Find the center of mass of the two points <m>(1,0)</m> and <m>(x,0)</m> whose masses are <m>30</m> and <m>100</m>, respectively (units are meters and kilograms).
+          </p>
+      </task>
 
-        <task>
-            <p>
-              Where should I sit so that the seesaw is perfectly balanced (what is <m>a</m>)?
-            </p>
-        </task>
+      <task>
+          <p>
+            Where should I sit so that the seesaw is perfectly balanced (what is <m>a</m>)?
+          </p>
+      </task>
     </exploration>
 
     <exploration xml:id="center_of_mass_of_curve">
@@ -304,27 +301,27 @@
       <p>
         Suppose a wire with density <m>\delta(x,y)=x^2+y</m> lies along the curve <m>C</m> which is the upper half of a circle around the origin with radius <m>7</m>.
       </p>
-        <task>
-            <p>
-              Parametrize <m>C</m> (find <m>\vec r(t)</m> and the domain for <m>t</m>).
-            </p>
-        </task>
+      <task>
+          <p>
+            Parametrize <m>C</m> (find <m>\vec r(t)</m> and the domain for <m>t</m>).
+          </p>
+      </task>
 
-        <task>
-            <p>
-              Where is the wire heavier, at <m>(7,0)</m> or <m>(0,7)</m>? [Compute <m>\delta</m> at both.]
-            </p>
-        </task>
+      <task>
+          <p>
+            Where is the wire heavier, at <m>(7,0)</m> or <m>(0,7)</m>? [Compute <m>\delta</m> at both.]
+          </p>
+      </task>
 
       <p>
         In <xref ref="semicircle_centroid">exercise</xref>, we showed that the centroid of the wire is <m>(\bar x, \bar y) = \left(0,\frac{2(7)}{\pi})\right)</m>. We now seek the center of mass.
       </p>
-      <ol type="resume">
-    <task>
+      
+      <task>
         <p>
           Before computing:
         </p>
-        <ol type="a">
+
         <task>
             <p>
               Will <m>\bar x</m> change? Will <m>\bar y</m> change?
@@ -347,63 +344,62 @@
               </hint>
             </p>
         </task>
-      <p>
-    </task>
+      </task>
 
-    <task>
-        <p>
-          Set up the integrals needed to find the center of mass. Then use technology to compute the integrals. Give an exact answer (involving fractions), rather than a numerical approximation.
-        </p>
-    </task>
+      <task>
+          <p>
+            Set up the integrals needed to find the center of mass. Then use technology to compute the integrals. Give an exact answer (involving fractions), rather than a numerical approximation.
+          </p>
+      </task>
 
-    <task>
-        <p>
-          Change the radius from 7 to <m>a</m>, and guess what the center of mass will be.  (This is why you need the exact answer above, not a numerical answer).
-        </p>
-    </task>
-    <p>
+      <task>
+          <p>
+            Change the radius from 7 to <m>a</m>, and guess what the center of mass will be.  (This is why you need the exact answer above, not a numerical answer).
+          </p>
+      </task>
     </exploration>
 
-    <p>
+  </subsection>
 
+  <subsection>
+    <!-- Comment out the wrap-ups! -->
+
+      <!--
       <insight>
         <title>Wrap Up</title>
         <p>
           Once you have finished the problems in this \chaptername and feel comfortable with the ideas, create a short one page lesson plan that contains examples of the key ideas.  You will get a chance to teach from this lesson plan prior to taking the exam. Then log on to Brainhoney and download the quiz. Once you have taken the quiz, you can upload your work back to brainhoney and then download the key to see how you did. If you still need to work on mastering some of the ideas, please do so and then demonstrate your mastery though the quiz corrections.
         </p>
       </insight>
+      -->
 
-      <insight>
-        <title>Wrap Up</title>
-        <p>
-          This concludes the \chaptername .  Look at the objectives at the beginning of the unit . Can you now do all the things you were promised? 
+    <title>Wrap Up</title>
+    <p>
+      This concludes the \chaptername .  Look at the objectives at the beginning of the unit . Can you now do all the things you were promised? 
+      <!-- \instructor{TeX files for these are included in a separate folder in the GitHub Project} -->
+      <!-- \note{Those files should be cleaned up an generalized, i.e. remove specific instructor/course number from them. Possibly also make a master tex file to compile them all} -->
 
-          <!-- \instructor{TeX files for these are included in a separate folder in the GitHub Project} -->
-          <!-- \note{Those files should be cleaned up an generalized, i.e. remove specific instructor/course number from them. Possibly also make a master tex file to compile them all} -->
-
-          <em>Review Guide Creation</em>
-
-
-          Your assignment: organize what you've learned into a small collection of examples that illustrates the key concepts. I'll call this your unit<nbsp />review guide. I'll provide you with a template which includes the unit's key concepts from the objectives at the beginning. Once you finish your review guide, scan it into a PDF document (use any scanner on campus or photo software) and upload it to Gradescope. <!-- \instructor{Gradescope is a cool grading platform! \url{www.gradescope.com} } --> 
+      <em>Review Guide Creation</em>
 
 
-          As you create this review guide, consider the following:
-          <ul>
-            <li>
-              <p>
-                Before each Celebration of Knowledge <!-- \instructor{This is just an exam} --> we will devote a class period to review. With well created lesson plans, you will have 4-8 pages(for 2-4 Chapters) to review for each, instead of 50-100 problems.
-              </p>
-            </li>
+      Your assignment: organize what you've learned into a small collection of examples that illustrates the key concepts. I'll call this your unit<nbsp />review guide. I'll provide you with a template which includes the unit's key concepts from the objectives at the beginning. Once you finish your review guide, scan it into a PDF document (use any scanner on campus or photo software) and upload it to Gradescope. <!-- \instructor{Gradescope is a cool grading platform! \url{www.gradescope.com} } --> 
 
-            <li>
-              <p>
-                Think ahead 2-5 years. If you make these lesson plans correctly, you'll be able to look back at your lesson plans for this semester. In about 20-25 pages, you can have the entire course summarized and easy for you to recall.
-              </p>
-            </li>
-          </ul>
-        </p>
-      </insight>
 
+      As you create this review guide, consider the following:
+      <ul>
+        <li>
+          <p>
+            Before each Celebration of Knowledge <!-- \instructor{This is just an exam} --> we will devote a class period to review. With well created lesson plans, you will have 4-8 pages(for 2-4 Chapters) to review for each, instead of 50-100 problems.
+          </p>
+        </li>
+
+        <li>
+          <p>
+            Think ahead 2-5 years. If you make these lesson plans correctly, you'll be able to look back at your lesson plans for this semester. In about 20-25 pages, you can have the entire course summarized and easy for you to recall.
+          </p>
+        </li>
+      </ul>
     </p>
+
   </subsection>
 </section>

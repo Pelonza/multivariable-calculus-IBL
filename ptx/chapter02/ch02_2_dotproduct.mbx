@@ -72,7 +72,6 @@
   </definition>
 
   <exploration xml:id="prob_dot_angle_practice2">
-  </p>
     <task>
         <p>
           Use the formula <m>\vec u\cdot \vec v=|\vec u||\vec v|\cos\theta</m> to find the angle between the vectors <m>\left\lt 1,2,3\right></m> and <m>\left\lt -2,1,0\right></m>.
@@ -84,7 +83,6 @@
           Which was easier, <xref ref="prob_dot_angle_practice"></xref> or this method?  (You will derive this formula in a later problem)
         </p>
     </task>
-  <p>
   </exploration>
 
   <definition xml:id="def_orthogonal">
@@ -191,4 +189,9 @@
 
   <subsection>
     <title>Computational Practice</title>
+  
+  <!-- webwork stuff -->
+
+  </subsection>
+
 </section>

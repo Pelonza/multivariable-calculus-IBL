@@ -68,32 +68,32 @@
     <p>
       We've encountered the polar curve <m>r = 1-\sin\theta</m> before (we called it a cardioid, and it looked like heart). Recall that we can switch from polar to Cartesian using the coordinate transformation <m>x=r\cos\theta</m> and <m>y=r\sin\theta</m>.
     </p>
-      <task>
-          <p>
-            Draw the curve.
-          </p>
-      </task>
+    <task>
+        <p>
+          Draw the curve.
+        </p>
+    </task>
 
-      <task>
-          <p>
-            Give the parametrization of this curve: <m>\vec r(\theta) = ((1-\sin\theta)\cos\theta, ?)</m>.
-          </p>
-      </task>
+    <task>
+        <p>
+          Give the parametrization of this curve: <m>\vec r(\theta) = ((1-\sin\theta)\cos\theta, ?)</m>.
+        </p>
+    </task>
 
     <p>
       The parametrization is completely differentiable.
-      <ol type="resume">
-      <task>
-          <p>
-            Find <m>\dfrac{d\vec r}{d\theta}</m>.
-          </p>
-      </task>
+    </p>
+    <task>
+        <p>
+          Find <m>\dfrac{d\vec r}{d\theta}</m>.
+        </p>
+    </task>
 
-      <task>
-          <p>
-            You should notice a sharp cusp in the graph. At what <m>\theta</m> does this cusp occur?  What is the value of the derivative <m>\dfrac{d\vec r}{d\theta}</m> at this value of <m>\theta</m>.
-          </p>
-      </task>
+    <task>
+        <p>
+          You should notice a sharp cusp in the graph. At what <m>\theta</m> does this cusp occur?  What is the value of the derivative <m>\dfrac{d\vec r}{d\theta}</m> at this value of <m>\theta</m>.
+        </p>
+    </task>
   </exploration>
 
   <p>

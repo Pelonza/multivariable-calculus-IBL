@@ -120,7 +120,7 @@
 
     <p>
       For the results in part 1 and 4 to match you had to replace <m>r</m> and <m>h</m> with what they equaled in terms of <m>t</m>.
-      <ol type="resume">
+    </p>
       <task>
           <p>
             What part of the notation <m>\dfrac{dV}{dt}=DV((r,h)(t))\cdot D(r,h)(t)</m> tells you to replace <m>r</m> and <m>h</m> with what they equal in terms of <m>t</m>?
@@ -188,67 +188,67 @@
     <p>
       Consider again <m>f(x,y)=9-x^2-y^2</m> and <m>\vec r(t)=(2\cos t, 3\sin t)</m>, which means <m>x=2\cos t</m> and <m>y=3\sin t</m>.
     </p>
-      <task>
-          <p>
-            At the point <m>\vec r(t)</m>, we'd like a formula for the temperature <m>f(\vec r(t))</m>. What is the temperature of the horse at any time <m>t</m>? [In <m>f(x,y)</m>, replace <m>x</m> and <m>y</m> with what they are in terms of <m>t</m>.]
-          </p>
-      </task>
+    <task>
+        <p>
+          At the point <m>\vec r(t)</m>, we'd like a formula for the temperature <m>f(\vec r(t))</m>. What is the temperature of the horse at any time <m>t</m>? [In <m>f(x,y)</m>, replace <m>x</m> and <m>y</m> with what they are in terms of <m>t</m>.]
+        </p>
+    </task>
 
-      <task>
-          <p>
-            Compute <m>df/dt</m> (the derivative as you did in first-semester calculus).
-          </p>
-      </task>
+    <task>
+        <p>
+          Compute <m>df/dt</m> (the derivative as you did in first-semester calculus).
+        </p>
+    </task>
 
-      <task>
-          <p>
-            Construct a graph of <m>f(t)</m> (use software to draw this if you like). From your graph, at what time values do the maxima and minima occur?
-          </p>
-      </task>
+    <task>
+        <p>
+          Construct a graph of <m>f(t)</m> (use software to draw this if you like). From your graph, at what time values do the maxima and minima occur?
+        </p>
+    </task>
 
-      <task>
-          <p>
-            What is <m>df/dt</m> at <m>t=\pi/4</m>?
-          </p>
-      </task>
+    <task>
+        <p>
+          What is <m>df/dt</m> at <m>t=\pi/4</m>?
+        </p>
+    </task>
 
-      <task>
-          <p>
-            Compare your work with the previous exercise.
-          </p>
-      </task>
+    <task>
+        <p>
+          Compare your work with the previous exercise.
+        </p>
+    </task>
   </exploration>
 
   <exploration>
     <p>
       Consider again <m>f(x,y)=9-x^2-y^2</m> and <m>\vec r(t)=(2\cos t, 3\sin t)</m>.
     </p>
-      <task>
-          <p>
-            Compute both <m>Df(x,y)</m> and <m>D\vec r(t)</m> as matrices. One should have two columns.  The other should have one column (but two rows).
-          </p>
-      </task>
+    <task>
+        <p>
+          Compute both <m>Df(x,y)</m> and <m>D\vec r(t)</m> as matrices. One should have two columns.  The other should have one column (but two rows).
+        </p>
+    </task>
 
     <p>
       We can write the temperature at any time <m>t</m> symbolically as <m>f(r(t))</m>. First semester calculus suggests the derivative should be the product <m>(f(\vec r(t))) ' = f'(\vec r(t))\vec r'(t)</m>.
-      <ol type="resume">
-      <task>
-          <p>
-            Write this using <m>D</m> notation instead of prime notation.
-          </p>
-      </task>
+    </p>
+    <task>
+        <p>
+          Write this using <m>D</m> notation instead of prime notation.
+        </p>
+    </task>
 
-      <task>
-          <p>
-            Compute the matrix product <m>DfD\vec r</m>, and then substitute <m>x=2\cos t</m> and <m>y=3\sin t</m>.
-          </p>
-      </task>
+    <task>
+        <p>
+          Compute the matrix product <m>DfD\vec r</m>, and then substitute <m>x=2\cos t</m> and <m>y=3\sin t</m>.
+        </p>
+    </task>
 
-      <task>
-          <p>
-            What is the change in temperature with respect to time at <m>t=\pi/4</m>? Is it positive or negative? Compare with the previous exercise.
-          </p>
-      </task>
+    <task>
+        <p>
+          What is the change in temperature with respect to time at <m>t=\pi/4</m>? Is it positive or negative? Compare with the previous exercise.
+        </p>
+    </task>
   </exploration>
 
   <p>

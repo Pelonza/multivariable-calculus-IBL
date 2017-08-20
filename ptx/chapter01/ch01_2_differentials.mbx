@@ -79,38 +79,35 @@
     <p>
       <!-- \extrafn{\thomasee{See 3.11:45-62.} \stewarts{See 3.10}} -->The manufacturer of a spherical storage tank needs to create a tank with a radius of 3 m. Recall that the volume of a sphere is <m>V(r) = \frac{4}{3}\pi r^3</m>. No manufacturing process is perfect, so the resulting sphere will have a radius of 3 m, plus or minus some small amount <m>dr</m>. The actual radius will be <m>3+dr</m>.
     </p>
-  </p>
-  <task>
-      <p>
-        Find the differential <m>dV</m>. This should be a formula with <m>dV</m>, <m>r</m>, and <m>dr</m>.
-      </p>
-  </task>
+  
+    <task>
+        <p>
+          Find the differential <m>dV</m>. This should be a formula with <m>dV</m>, <m>r</m>, and <m>dr</m>.
+        </p>
+    </task>
 
-  <task>
-      <p>
-        If the actual radius is 3.02
-      </p>
-      <ol type="a">
-      <task>
-          <p>
-            What is <m>r</m>?
-          </p>
-      </task>
+    <task>
+        <p>
+          If the actual radius is 3.02
+        </p>
+        <task>
+            <p>
+              What is <m>r</m>?
+            </p>
+        </task>
 
-      <task>
-          <p>
-            What is <m>dr</m>?
-          </p>
-      </task>
-    <p>
-  </task>
+        <task>
+            <p>
+              What is <m>dr</m>?
+            </p>
+        </task>
+    </task>
 
-  <task>
-      <p>
-        What is <m>dV</m> equal to? What does <m>dV</m> tell you about the volume of the manufactured sphere?
-      </p>
-  </task>
-  <p>
+    <task>
+        <p>
+          What is <m>dV</m> equal to? What does <m>dV</m> tell you about the volume of the manufactured sphere?
+        </p>
+    </task>
   </exploration>
 
   <exploration>

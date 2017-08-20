@@ -25,23 +25,23 @@
 
         You could use Wolfram Alpha (use the links in the function chapter if you forgot how to graph).} -->Consider three functions:
         <ul>
-        <task>
-            <p>
-              <m>f(x,y)=9-x^2-y^2</m>
-            </p>
-        </task>
+          <li>
+              <p>
+                <m>f(x,y)=9-x^2-y^2</m>
+              </p>
+          </li>
 
-        <task>
-            <p>
-              <m>g(x,y)=2x-y</m>
-            </p>
-        </task>
+          <li>
+              <p>
+                <m>g(x,y)=2x-y</m>
+              </p>
+          </li>
 
-        <task>
-            <p>
-              <m>h(x,y)=\sin x\cos y</m>
-            </p>
-        </task>
+          <li>
+              <p>
+                <m>h(x,y)=\sin x\cos y</m>
+              </p>
+          </li>
         </ul>
       </p>
       <hint>
@@ -49,11 +49,10 @@
           If you need a reminder of how to draw level curves look back at <xref ref="prob_intro_to_contour_plots">exercise</xref>
         </p>
       </hint>
-    </p>
       <task>
-          <p>
-            Compute <m>\vec \nabla f(x,y)</m>.  Then draw both <m>\vec \nabla f</m> and several level curves of <m>f</m> on the same axes.  <!-- \extrafn{See <url href="http://aleph.sagemath.org/?z=eJxljLEOwiAURXe-oltBHybSyeFtjV_gXIIIEYM-QqmWvxejm8vNyc3J8XyFKvAg10nJOik2-u_Dpdqs0LWtgrGElh6FlqxTpMI9NEkOMAjg9Qc-xIhHE2cH9m4S9jdXerAUKZ9NxlNenGBpi5-AfjpbKGsfXLzw0UP312vubr7Si5s5NVlnUwLhXrwBPnA2AQ">Sage</url>.  You can modify these commands to help in the plots below too.} -->
-          </p>
+        <p>
+          Compute <m>\vec \nabla f(x,y)</m>.  Then draw both <m>\vec \nabla f</m> and several level curves of <m>f</m> on the same axes.  <!-- \extrafn{See <url href="http://aleph.sagemath.org/?z=eJxljLEOwiAURXe-oltBHybSyeFtjV_gXIIIEYM-QqmWvxejm8vNyc3J8XyFKvAg10nJOik2-u_Dpdqs0LWtgrGElh6FlqxTpMI9NEkOMAjg9Qc-xIhHE2cH9m4S9jdXerAUKZ9NxlNenGBpi5-AfjpbKGsfXLzw0UP312vubr7Si5s5NVlnUwLhXrwBPnA2AQ">Sage</url>.  You can modify these commands to help in the plots below too.} -->
+        </p>
       </task>
 
       <task>
@@ -86,16 +85,11 @@
             What relationships do you see between the gradient vector field and level curves?
           </p>
       </task>
-    <p>
-      <p>
-
-        <insight>
+      <insight>
         <p>
           When you present in class, be prepared to provide rough sketches of the level curves and gradients of each function.
         </p>
-        </insight>
-
-      </p>
+      </insight>
     </exploration>
 
     <p>
@@ -106,34 +100,34 @@
       <p>
         Suppose <m>\vec r(t)</m> is a level curve of <m>f(x,y)</m>.
       </p>
-        <task>
-            <p>
-              Suppose you know that at <m>t=0</m>, the value of <m>f</m> at <m>\vec r(0)</m> is 7.  What is the value of <m>f</m> at <m>\vec r(1)</m>?
-              <hint>
-                <p>
-                  What does it mean to be on a level curve?
-                </p>
-              </hint>
-            </p>
-        </task>
+      <task>
+          <p>
+            Suppose you know that at <m>t=0</m>, the value of <m>f</m> at <m>\vec r(0)</m> is 7.  What is the value of <m>f</m> at <m>\vec r(1)</m>?
+            <hint>
+              <p>
+                What does it mean to be on a level curve?
+              </p>
+            </hint>
+          </p>
+      </task>
 
-        <task>
-            <p>
-              As you move along the level curve <m>\vec r</m>, how much does <m>f</m> change?  What must <m>\ds\frac{df}{dt}</m> equal?
-            </p>
-        </task>
+      <task>
+          <p>
+            As you move along the level curve <m>\vec r</m>, how much does <m>f</m> change?  What must <m>\ds\frac{df}{dt}</m> equal?
+          </p>
+      </task>
 
-        <task>
-            <p>
-              At points along the level curve <m>\vec r</m>, we have the composite function <m>f(\vec r(t))</m>.  Compute the derivative <m>\ds\frac{df}{dt}</m> using the chain rule.
-            </p>
-        </task>
+      <task>
+          <p>
+            At points along the level curve <m>\vec r</m>, we have the composite function <m>f(\vec r(t))</m>.  Compute the derivative <m>\ds\frac{df}{dt}</m> using the chain rule.
+          </p>
+      </task>
 
-        <task>
-            <p>
-              Use your work from the previous parts to explain why the gradient always meets the level curve at a 90<m>^\circ</m> angle.
-            </p>
-        </task>
+      <task>
+          <p>
+            Use your work from the previous parts to explain why the gradient always meets the level curve at a 90<m>^\circ</m> angle.
+          </p>
+      </task>
 
       <p>
         We say that the gradient is <em>normal</em> to level curves (i.e., a gradient vector is orthogonal to the tangent vector of the curve).
@@ -163,12 +157,10 @@
       <p>
         Suppose the temperature at a point in the plane is given by the function {<m>T(x,y)=x^2-xy-y^2</m>} degrees Fahrenheit. A particle is at <m>P=(2,3)</m>.
       </p>
-    </p>
-    <task>
+      <task>
         <p>
           Use differentials to estimate the change in temperature if the particle moves 1 unit in the direction of <m>\vec u=\left(3,4\right)</m>.
         </p>
-        <ol type="labelalph">
         <task>
             <p>
               Find the unit vector <m>\hat{u}</m>. If the particle moves 1 unit in the direction of <m>\vec{u}</m> what is <m>dx</m> and <m>dy</m>?
@@ -186,33 +178,32 @@
               Estimate the change using differential notation (set-up the exercise, then compute).
             </p>
         </task>
-      <p>
-    </task>
+      </task>
 
-    <task>
+      <task>
         <p>
           What is the actual change in temperature if the particle moves 1 unit in the direction of <m>\vec u=\left(3,4\right)</m>?
-          <ol type="labelalph">
-          <task>
-              <p>
-                What is the particle's new position?
-              </p>
-          </task>
+        </p>
+        <task>
+            <p>
+              What is the particle's new position?
+            </p>
+        </task>
 
-          <task>
-              <p>
-                What is the particle's new temperature?
-              </p>
-          </task>
+        <task>
+            <p>
+              What is the particle's new temperature?
+            </p>
+        </task>
 
-          <task>
-              <p>
-                What is <m>\Delta T</m>?
-              </p>
-          </task>
-    </task>
+        <task>
+            <p>
+              What is <m>\Delta T</m>?
+            </p>
+        </task>
+      </task>
 
-    <task>
+      <task>
         <p>
           Use differentials to estimate the change in temperature if the particle moves about .2 units in the direction of <m>\vec u=\left(3,4\right)</m>.
           <hint>
@@ -221,8 +212,7 @@
             </p>
           </hint>
         </p>
-    </task>
-    <p>
+      </task>
     </exploration>
 
     <p>
@@ -475,44 +465,45 @@
       <p>
         Consider the function <m>f(x,y)=x^2+y^2</m>. Consider the level curve <m>C</m> given by <m>f(x,y)=25</m>. Our goal is to find an equation of the tangent line to <m>C</m> at <m>P=(3,-4)</m>.
       </p>
-        <task>
-            <p>
-              Draw <m>C</m>.
-            </p>
-        </task>
+      <task>
+          <p>
+            Draw <m>C</m>.
+          </p>
+      </task>
 
-        <task>
-            <p>
-              Compute <m>\vec \nabla f</m> and add to your graph the vector <m>\vec \nabla f(P)</m>.
-            </p>
-        </task>
+      <task>
+          <p>
+            Compute <m>\vec \nabla f</m> and add to your graph the vector <m>\vec \nabla f(P)</m>.
+          </p>
+      </task>
 
       <p>
         We know the point <m>P=(3,-4)</m> is on the tangent line. Let <m>Q=(x,y)</m> represent another point on the tangent line.
-        <ol type="resume">
-        <task>
-            <p>
-              Add to your graph the point <m>Q</m> and the vector <m>\vec {PQ} = (x-3,y+4)</m>.
-            </p>
-        </task>
+      </p>
+        
+      <task>
+          <p>
+            Add to your graph the point <m>Q</m> and the vector <m>\vec {PQ} = (x-3,y+4)</m>.
+          </p>
+      </task>
 
-        <task>
-            <p>
-              Why does the dot product <m>\vec \nabla f(P)\cdot\vec{PQ}</m> equal zero?
-            </p>
-        </task>
+      <task>
+          <p>
+            Why does the dot product <m>\vec \nabla f(P)\cdot\vec{PQ}</m> equal zero?
+          </p>
+      </task>
 
-        <task>
-            <p>
-              Compute this dot product and explain why this an equation of the tangent line?
-            </p>
-        </task>
+      <task>
+          <p>
+            Compute this dot product and explain why this an equation of the tangent line?
+          </p>
+      </task>
 
-        <task>
-            <p>
-              What is a normal vector to the line?
-            </p>
-        </task>
+      <task>
+          <p>
+            What is a normal vector to the line?
+          </p>
+      </task>
     </exploration>
 
     <p>
@@ -523,35 +514,35 @@
       <p>
         Consider the function <m>f(x,y,z)=x^2+y^2+z^2</m>. Consider the level surface <m>S</m> given by <m>f(x,y,z)=9</m>. Our goal is to find an equation of the tangent plane to <m>S</m> at <m>P=(1,2,-2)</m>.
       </p>
-        <task>
-            <p>
-              Draw <m>S</m>.
-            </p>
-        </task>
+      <task>
+          <p>
+            Draw <m>S</m>.
+          </p>
+      </task>
 
-        <task>
-            <p>
-              Compute <m>\vec \nabla f</m>. Add to your graph the vector <m>\vec \nabla f(P)</m>, with its base at <m>P</m>.
-            </p>
-        </task>
+      <task>
+          <p>
+            Compute <m>\vec \nabla f</m>. Add to your graph the vector <m>\vec \nabla f(P)</m>, with its base at <m>P</m>.
+          </p>
+      </task>
 
-        <task>
-            <p>
-              We know the point <m>P=(1,2,-2)</m> is on the tangent plane. Let <m>Q=(x,y,z)</m> be any other point on the tangent plane.  What is the component form of the vector <m>\vec {PQ}</m>?
-            </p>
-        </task>
+      <task>
+          <p>
+            We know the point <m>P=(1,2,-2)</m> is on the tangent plane. Let <m>Q=(x,y,z)</m> be any other point on the tangent plane.  What is the component form of the vector <m>\vec {PQ}</m>?
+          </p>
+      </task>
 
-        <task>
-            <p>
-              Why are  <m>\vec \nabla f(P)</m> and <m>\vec{PQ}</m> orthogonal? Use this fact to write an equation of the tangent plane.
-            </p>
-        </task>
+      <task>
+          <p>
+            Why are  <m>\vec \nabla f(P)</m> and <m>\vec{PQ}</m> orthogonal? Use this fact to write an equation of the tangent plane.
+          </p>
+      </task>
 
-        <task>
-            <p>
-              What is a normal vector to the plane?
-            </p>
-        </task>
+      <task>
+          <p>
+            What is a normal vector to the plane?
+          </p>
+      </task>
     </exploration>
 
     <exploration>

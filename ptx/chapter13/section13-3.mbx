@@ -44,17 +44,17 @@
       <me>
         \iint_S\vec F\cdot \vec n\ d\sigma = \iint\int_D \text{ div } (\vec F)dV.
       </me>
-      <ol type="resume">
-      <task>
-          <p>
-            Use the divergence theorem to compute the flux of <m>\vec F</m> across <m>S</m>.
-            <hint>
-              <p>
-                Just as the area is found by adding up little bits of area, which is what we mean by <m>A=\iint_R dA</m>, the volume is found by adding up little bits of volume.
-              </p>
-            </hint>
-          </p>
-      </task>
+    </p>
+    <task>
+        <p>
+          Use the divergence theorem to compute the flux of <m>\vec F</m> across <m>S</m>.
+          <hint>
+            <p>
+              Just as the area is found by adding up little bits of area, which is what we mean by <m>A=\iint_R dA</m>, the volume is found by adding up little bits of volume.
+            </p>
+          </hint>
+        </p>
+    </task>
   </exploration>
 
   <exploration>

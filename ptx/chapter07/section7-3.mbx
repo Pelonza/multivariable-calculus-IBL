@@ -21,12 +21,10 @@
     <p>
       Consider the function <m>y=f(x)=x^2</m>.
     </p>
-  </p>
-  <task>
+    <task>
       <p>
         The derivative is <m>f'(x) = ?</m>.
       </p>
-    </p>
       <task>
           <p>
             At the point <m>x=3</m> the derivative is <m>f'(3)=?</m>
@@ -38,38 +36,38 @@
             and the output <m>y</m> is <m>y=f(3)=?</m>.
           </p>
       </task>
-    <p>
-  </task>
-  <p>
+    </task>
+
     <p>
       If we move from the point <m>(3,f(3))</m> to the point <m>(x,y)</m> along the tangent line, then a small change in <m>x</m> is <m>dx=x-3</m>.
-      <ol type="resume">
-      <task>
-          <p>
-            What is <m>dy</m> in terms of <m>y</m>?
-          </p>
-      </task>
+    </p>
+    <task>
+        <p>
+          What is <m>dy</m> in terms of <m>y</m>?
+        </p>
+    </task>
 
     <p>
       Differential notation states that a change in the output <m>dy</m> equals the derivative times a change in the input <m>dx</m>, which gives us the equation <m>dy=f'(3)dx</m>.
-      <ol type="resume">
-      <task>
-          <p>
-            Replace <m>dx</m>, <m>dy</m>, and <m>f'(3)</m> with what we know they equal, to obtain an equation <m>y-?=?(x-?)</m>.
-          </p>
-      </task>
+    </p>
+    <task>
+        <p>
+          Replace <m>dx</m>, <m>dy</m>, and <m>f'(3)</m> with what we know they equal, to obtain an equation <m>y-?=?(x-?)</m>.
+        </p>
+    </task>
 
-      <task>
-          <p>
-            What does this equation represent?
-          </p>
-      </task>
+    <task>
+        <p>
+          What does this equation represent?
+        </p>
+    </task>
 
-      <task>
-          <p>
-            Draw both <m>f</m> and the equation from the previous part on the same axes.
-          </p>
-      </task>
+    <task>
+        <p>
+          Draw both <m>f</m> and the equation from the previous part on the same axes.
+        </p>
+    </task>
+
   </exploration>
 
   <p>

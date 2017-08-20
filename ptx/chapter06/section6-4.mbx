@@ -33,43 +33,41 @@
         } -->\larsonfive{ <!-- \extrafn{See Larson 13.1:33<ndash />40.} -->}
         A computer chip has been disconnected from electricity and sitting in cold storage for quite some time. The chip is connected to power, and a few moments later the temperature (in Celsius) at various points <m>(x,y)</m> on the chip is measured. From these measurements, statistics is used to create a temperature function <m>T=z=f(x,y)</m> to model the temperature at any point on the chip. Suppose that this chip's temperature function is given by the equation <m>T=z=f(x,y)=9-x^2-y^2</m>. Eventually we'll be creating a 3D model of this function in this problem, so you'll need to place all your graphs on the same <m>x,y,z</m> axes. However, to begin with you may find it easier to start with several 2-D plots.
       </p>
-    </p>
-    <task>
-        <p>
-          What is the temperature at <m>(0,0)</m>, <m>(1,2)</m>, and <m>(-4,3)</m>?  <!-- \extrafn{\thomasee{See 14.1: 1-4.} \stewarts{See 14.1: 2, 7}} -->
-        </p>
-    </task>
+      <task>
+          <p>
+            What is the temperature at <m>(0,0)</m>, <m>(1,2)</m>, and <m>(-4,3)</m>?  <!-- \extrafn{\thomasee{See 14.1: 1-4.} \stewarts{See 14.1: 2, 7}} -->
+          </p>
+      </task>
 
-    <task>
-        <p>
-          Let <m>y=0</m>, Substitute this value into the temperature function <m>T=z=f(x,y)=9-x^2-y^2</m>. Plot the resulting function in the <m>xz</m>-plane.
-          <hint>
-            <p>
-              Treat <m>z</m> as <q>y</q>. It should be a (upside-down) parabola
-            </p>
-          </hint>
-        </p>
-    </task>
+      <task>
+          <p>
+            Let <m>y=0</m>, Substitute this value into the temperature function <m>T=z=f(x,y)=9-x^2-y^2</m>. Plot the resulting function in the <m>xz</m>-plane.
+            <hint>
+              <p>
+                Treat <m>z</m> as <q>y</q>. It should be a (upside-down) parabola
+              </p>
+            </hint>
+          </p>
+      </task>
 
-    <task>
-        <p>
-          Now let <m>x=0</m>. Substitute this value into the temperature function and simplify. Plot the result. This plot should appear in the <m>yz</m> plane and be another parabola.
-        </p>
-    </task>
+      <task>
+          <p>
+            Now let <m>x=0</m>. Substitute this value into the temperature function and simplify. Plot the result. This plot should appear in the <m>yz</m> plane and be another parabola.
+          </p>
+      </task>
 
-    <task>
-        <p>
-          Now let <m>z=0</m>. Draw the resulting curve in the <m>xy</m> plane.
+      <task>
+          <p>
+            Now let <m>z=0</m>. Draw the resulting curve in the <m>xy</m> plane.
 
-          If you drew the above curves in 2-D it is time to combine them. You should end up with 3 lines or a basic wire frame. To make a more complete wireframe we need to add more curves.
-        </p>
-    </task>
+            If you drew the above curves in 2-D it is time to combine them. You should end up with 3 lines or a basic wire frame. To make a more complete wireframe we need to add more curves.
+          </p>
+      </task>
 
-    <task>
+      <task>
         <p>
           State the simplified equation, then plot and label the curves for:
         </p>
-      </p>
         <task>
             <p>
               <m>x=-2</m>
@@ -93,16 +91,16 @@
               <m>x=2</m>
             </p>
         </task>
-      <p>
-        Note: You could have done this with <m>y</m> also.</li>
+        Note: You could have done this with <m>y</m> also.
 
-    <task>
-        <p>
-          Describe the shape. Add any extra features to your graph to convey the 3D image you are constructing.  <!-- \extrafn{\thomasee{See 14.1: 37-48.}\stewarts{See 14.1: 23-31}} -->
-        </p>
-    </task>
-    <p>
+        <task>
+            <p>
+              Describe the shape. Add any extra features to your graph to convey the 3D image you are constructing.  <!-- \extrafn{\thomasee{See 14.1: 37-48.}\stewarts{See 14.1: 23-31}} -->
+            </p>
+        </task>
+      </task>
     </exploration>
+
   </subsection>
 
   <subsection>

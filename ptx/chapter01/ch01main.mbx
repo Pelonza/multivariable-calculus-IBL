@@ -41,7 +41,7 @@
 
   <xi:include  href="ch01_1_calc1review.mbx" />
   <xi:include  href="ch01_2_differentials.mbx" />
-  <xi:include  href="review_matrices.mbx" />
+  <!-- <xi:include  href="../review_matrices.mbx" /> -->
   <xi:include  href="ch01_3_systems.mbx" />
   <xi:include  href="ch01_5_taylorseries.mbx" />
 </chapter>

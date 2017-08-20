@@ -167,7 +167,6 @@
         Start by drawing the region.
       </p>
     </hint>
-  </p>
     <task>
         <p>
           Set up an iterated integral in Cartesian (rectangular) coordinates that would give the volume of <m>D</m>.
@@ -179,7 +178,6 @@
           Set up an iterated integral in cylindrical coordinates that would give the volume of <m>D</m>.
         </p>
     </task>
-  <p>
   </exploration>
 
   <exploration>
@@ -191,11 +189,10 @@
         Start by drawing the region.
       </p>
     </hint>
-  </p>
-  <task>
-      <p>
-        Set up two iterated integrals in cylindrical coordinates that would give the volume of <m>D</m>.
-        <ol type="a">
+    <task>
+        <p>
+          Set up two iterated integrals in cylindrical coordinates that would give the volume of <m>D</m>.
+        </p>
         <task>
             <p>
               For the first integral use the order <m>dzdrd\theta</m>.
@@ -207,14 +204,13 @@
               For the second, use the order <m>d\theta dr dz</m>.
             </p>
         </task>
-  </task>
+    </task>
 
-  <task>
-      <p>
-        Set up an iterated integral in spherical coordinates that would give the volume of <m>D</m>.
-      </p>
-  </task>
-  <p>
+    <task>
+        <p>
+          Set up an iterated integral in spherical coordinates that would give the volume of <m>D</m>.
+        </p>
+    </task>
   </exploration>
 
   <exploration>

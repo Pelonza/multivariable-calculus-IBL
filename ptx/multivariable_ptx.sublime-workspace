@@ -12,59 +12,56 @@
 	"buffers":
 	[
 		{
-			"file": "index.mbx",
-			"settings":
-			{
-				"buffer_size": 5282,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"contents": "<section xml:id=\"ch01_2_differentials\">\n  <title>Differentials</title>\n  <p>\n    The derivative of a function gives us the slope of a tangent line to that function. We can use this tangent line to estimate how much the output (<m>y</m> values) will change if we change the input (<m>x</m>-value). If we rewrite the notation <m>\\ds\\frac{dy}{dx}=f'</m> in the form <m>dy=f' dx</m>, then we can read this as <q>A small change in <m>y</m> (called <m>dy</m>) equals the derivative (<m>f'</m>) times a small change in <m>x</m> (called <m>dx</m>).</q>\n  </p>\n\n  <definition>\n    <statement>\n      <p>\n        We call <m>dx</m> the differential of <m>x</m>. If <m>f</m> is a function of <m>x</m>, then the differential of <m>f</m> is <m>df = f'(x) dx</m>. Since we often write <m>y=f(x)</m>, we'll interchangeably use <m>dy</m> and <m>df</m> to represent the differential of <m>f</m>.\n      </p>\n\n      <p>\n        We will often refer to the differential notation <m>dy=f'dx</m> as <q>a change in the output <m>y</m> equals the derivative times a change in the input <m>x</m>.</q>\n      </p>\n    </statement>\n  </definition>\n\n  <exploration>\n    <p>\n      <!-- \\extrafn{\n      \\thomasee{See 3.10:19-38.}\n      \\stewarts{See 3.10:11-22}\n      } -->If <m>f(x) = x^2\\ln(3x+2)</m> and <m>g(t) = e^{2t}\\tan(t^2)</m> then compute <m>df</m> and <m>dg</m>.\n    </p>\n  </exploration>\n\n  <p>\n    Most of higher dimensional calculus can quickly be developed from differential notation. Once we have the language of vectors and matrices at our command, we will develop calculus in higher dimensions by writing <m>d\\vec y = Df(\\vec x) d\\vec x</m>. Variables will become vectors, and the derivative will become a matrix.\n  </p>\n\n  <p>\n    This problem will help you see how the notion of differentials is used to develop equations of tangent lines. We'll use this same idea to develop tangent planes to surfaces in 3D and more.\n  </p>\n\n  <exploration xml:id=\"differentialtangentline\">\n    <p>\n      <!-- \\extrafn{\n      \\thomasee{See 3.11:39-44. Also see problems 3.11:1-18.}\n      \\stewarts{See 3.10:1-10 and 3.10:23-31.} -->\n\n      <insight>\n        The linearization of a function is just an equation of the tangent line where you solve for <m>y</m>.\n      </insight>\n      Consider the function <m>y=f(x) = x^2</m>. This problem has multiple steps, but each is fairly short.\n    </p>\n      <task>\n          <p>\n            Find the differential of <m>y</m> with respect to <m>x</m>.\n          </p>\n      </task>\n\n      <task>\n          <p>\n            Draw a graph of <m>f(x)</m>. Place a dot at the point <m>(3,9)</m> and label it on your graph. Sketch a tangent line to the graph at the point <m>(3,9)</m> on the same axes. Place another dot on the tangent line up and to the right of (3,9). Label the point <m>(x,y)</m>, as it will represent any point on the tangent line.\n          </p>\n      </task>\n\n      <task>\n          <p>\n            Using the two points <m>(3,9)</m> and <m>(x,y)</m>, compute the slope of the line connecting these two points. Your answer should involve <m>x</m> and <m>y</m>. What is the rise (i.e, the change in <m>y</m> called <m>dy</m>)? What is the run (i.e, the change in <m>x</m> called <m>dx</m>)?\n          </p>\n      </task>\n\n      <task>\n          <p>\n            We know the slope of the tangent line is the derivative <m>f'(3)=6</m>. We also know the slope from the previous part. These two must be equal. Use this fact to give an equation of the tangent line to <m>f(x)</m> at <m>x=3</m>. (Hint: do NOT simplify to slope-intercept form)\n          </p>\n      </task>\n\n      <task>\n          <p>\n            How is the equation for the tangent line related to the differentials <m>dy</m> and <m>dx</m>?\n          </p>\n      </task>\n  </exploration>\n\n  <exploration xml:id=\"diff-sphere\">\n    <p>\n      <!-- \\extrafn{\\thomasee{See 3.11:45-62.} \\stewarts{See 3.10}} -->The manufacturer of a spherical storage tank needs to create a tank with a radius of 3 m. Recall that the volume of a sphere is <m>V(r) = \\frac{4}{3}\\pi r^3</m>. No manufacturing process is perfect, so the resulting sphere will have a radius of 3 m, plus or minus some small amount <m>dr</m>. The actual radius will be <m>3+dr</m>.\n    </p>\n  </p>\n  <task>\n      <p>\n        Find the differential <m>dV</m>. This should be a formula with <m>dV</m>, <m>r</m>, and <m>dr</m>.\n      </p>\n  </task>\n\n  <task>\n      <p>\n        If the actual radius is 3.02\n      </p>\n      <ol type=\"a\">\n      <task>\n          <p>\n            What is <m>r</m>?\n          </p>\n      </task>\n\n      <task>\n          <p>\n            What is <m>dr</m>?\n          </p>\n      </task>\n    <p>\n  </task>\n\n  <task>\n      <p>\n        What is <m>dV</m> equal to? What does <m>dV</m> tell you about the volume of the manufactured sphere?\n      </p>\n  </task>\n  <p>\n  </exploration>\n\n  <exploration>\n    <p>\n      A forest ranger needs to estimate the height of a tree. The ranger stands 50 feet from the base of tree and measures the angle of elevation to the top of the tree to be about 60<m>^\\circ</m>. If this angle of 60<m>^\\circ</m> is correct, then what is the height of the tree? If the ranger's angle measurement could be off by as much as <m>5^\\circ</m>, then how much could his estimate of the height be off? Use differentials to give an answer.\n    </p>\n  </exploration>\n</section>\n",
 			"file": "chapter01/ch01_2_differentials.mbx",
-			"file_size": 5399,
-			"file_write_time": 131472085972797111,
 			"settings":
 			{
-				"buffer_size": 5349,
+				"buffer_size": 5361,
+				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"contents": "\n<section xml:id=\"taylorseries\">\n  <title>Optional: Higher Order Approximations</title>\n  <p>\n    When you ask a calculator to tell you what <m>e^{.1}</m> means, your calculator uses an extension of differentials to give you an approximation. The calculator only uses polynomials (multiplication and addition) to give you an answer. This same process is used to evaluate any function that is not a polynomial (so trig functions, square roots, inverse trig functions, logarithms, etc.)\n    The key idea needed to approximate functions is illustrated by the next problem.\n  </p>\n\n  <exploration>\n    <p>\n      Let <m>f(x)=e^x</m>. You should find that your work on each step can be reused to do the next step.\n      <ul>\n      <task>\n          <p>\n            Find a first degree polynomial <m>P_1(x)=a+bx</m> so that <m>P_1(0)=f(0)</m> and <m>P'_1(0)=f'(0)</m>. In other words, give me a line that passes through the same point and has the same slope as <m>f(x)=e^x</m> does at <m>x=0</m>. Set up a system of equations and then find the unknowns <m>a</m> and <m>b</m>. The next two are very similar.\n          </p>\n      </task>\n\n      <task>\n          <p>\n            Find a second degree polynomial <m>P_2(x)=a+bx+cx^2</m> so that <m>P_2(0)=f(0)</m>, <m>P'_2(0)=f'(0)</m>, and <m>P''_2(0)=f''(0)</m>. In other words, give me a parabola that passes through the same point, has the same slope, and has the same concavity as <m>f(x)=e^x</m> does at <m>x=0</m>.\n          </p>\n      </task>\n\n      <task>\n          <p>\n            Find a third degree polynomial <m>P_3(x)=a+bx+cx^2+dx^3</m> so that <m>P_3(0)=f(0)</m>, <m>P'_3(0)=f'(0)</m>, <m>P''_3(0)=f''(0)</m>, and <m>P'''_3(0)=f'''(0)</m>. In other words, give me a cubic that passes through the same point, has the same slope, the same concavity, and the same third derivative as <m>f(x)=e^x</m> does at <m>x=0</m>.\n          </p>\n      </task>\n\n      <task>\n          <p>\n            Now compute <m>e^{.1}</m> with a calculator.  Then compute <m>P_1(.1)</m>, <m>P_2(.1)</m>, and <m>P_3(.1)</m>. How accurate are the line, parabola, and cubic in approximating <m>e^{.1}</m>?\n          </p>\n      </task>\n      </ul>\n    </p>\n  </exploration>\n\n  <exploration>\n    <p>\n      <insight>\n        The polynomial you are creating is often called a Taylor polynomial. (I'm giving you the name so that you can search online for more information if you are interested.)\n      </insight>\n      Now let <m>f(x)=\\sin x</m>. Find a 7th degree polynomial so that the function and the polynomial have the same value and same first seven derivatives when evaluated at <m>x=0</m>. Evaluate the polynomial at <m>x=0.3</m>. How close is this value to your calculator's estimate of <m>\\sin(0.3)</m>? You may find it valuable to use the notation\n      <me>\n        P(x) = a_0+a_1x+a_2x^2+a_3x^3 +\\cdots+a_7 x^7.\n      </me>\n    </p>\n  </exploration>\n\n  <p>\n    The previous two problems involved finding polynomial approximations to the function at <m>x=0</m>. The next problem shows how to move this to any other point, such as <m>x=1</m>.\n  </p>\n\n  <exploration xml:id=\"Taylor_at_1\">\n    <p>\n      Let <m>f(x)=e^x</m>.\n      <ul>\n      <task>\n          <p>\n            Find a second degree polynomial\n            <me>\n              T(x)=a+bx+cx^2\n            </me>\n            so that <m>T(1)=f(1)</m>, <m>T'(1)=f'(1)</m>, and <m>T''(1)=f''(1)</m>. In other words, give me a parabola that passes through the same point, has the same slope, and the same concavity as <m>f(x)=e^x</m> does at <m>x=1</m>.\n          </p>\n      </task>\n\n      <task>\n          <p>\n            Find a second degree polynomial written in the form\n            <me>\n              S(x)=a+b(x-1)+c(x-1)^2\n            </me>\n            <!-- \\extrafn{Notice that we just replaced <m>x</m> with <m>x-1</m>. This centers, or shifts, the approximation to be at <m>x=1</m>. The first part will be much simpler now when you let <m>x=1</m>.} -->so that <m>S(1)=f(1)</m>, <m>S'(1)=f'(1)</m>, and <m>S''(1)=f''(1)</m>. In other words, find a quadratric that passes through the same point, has the same slope, and the same concavity as <m>f(x)=e^x</m> does at <m>x=1</m>.\n          </p>\n      </task>\n\n      <task>\n          <p>\n            Find a third degree polynomial written in the form\n            <me>\n              P(x)=a+b(x-1)+c(x-1)^2+d(x-1)^3\n            </me>\n            so that <m>P(1)=f(1)</m>, <m>P'(1)=f'(1)</m>, <m>P''(1)=f''(1)</m>, and <m>P'''(1)=f'''(1)</m>. In other words, give me a cubic that passes through the same point, has the same slope, the same concavity, and the same third derivative as <m>f(x)=e^x</m> does at <m>x=1</m>.\n          </p>\n      </task>\n      </ul>\n    </p>\n  </exploration>\n\n  <example>\n    <statement>\n      <p>\n        This example refers back to <xref ref=\"diff-sphere\">problem</xref>. We wanted a spherical tank of radius 3m, but due to manufacturing error the radius was slightly off. Let's now illustrate how we can use polynomials to give a first, second, and third order approximation of the volume if the radius is 3.02m instead of 3m.\n      </p>\n\n      <p>\n        We start with <m>V=\\frac{4}{3} \\pi r^3</m> and then compute the derivatives\n        <me>\n          V'=4\\pi r^2, V''=8\\pi r, \\text{ and }  V'''=8\\pi.\n        </me>\n      </p>\n\n      <p>\n        Because we are approximating the increase in volume from <m>r=3</m> to something new, we'll create our polynomial approximations centered at <m>r=3</m>. We'll consider the polynomial\n        <me>\n          P(r)=a_0+a_1(r-3)+a_2(r-3)^2+a_3(r-3)^3,\n        </me>\n        whose derivatives are\n        <me>\n          P'=a_1+2a_2(r-3)+3a_3(r-3)^2,\n          P''=2a_2+6a_3(r-3),\n          P'''=6a_3.\n        </me>\n      </p>\n\n      <p>\n        So that the derivatives of the volume function match the derivatives of the polynomial (at <m>r=3</m>), we need to satisfy the equations in the table below.\n      </p>\n      <tabular>\n        <row bottom=\"minor\">\n          <cell></cell>\n          <cell></cell>\n          <cell></cell>\n          <cell></cell>\n        </row>\n        <row>\n          <cell><m>k</m></cell>\n          <cell>Value of <m>V</m> at the <m>k</m>th derivative</cell>\n          <cell>Value of <m>P</m> at the the <m>k</m>th derivative</cell>\n          <cell>Equation</cell>\n        </row>\n        <row bottom=\"minor\">\n          <cell></cell>\n          <cell></cell>\n          <cell></cell>\n          <cell></cell>\n        </row>\n        <row>\n          <cell><m>0</m></cell>\n          <cell><m>V(3) = \\frac{4}{3}\\pi (3)^3 = 36\\pi</m></cell>\n          <cell><m>P(3) = a_0</m></cell>\n          <cell><m>a_0=36\\pi</m></cell>\n        </row>\n        <row bottom=\"minor\">\n          <cell></cell>\n          <cell></cell>\n          <cell></cell>\n          <cell></cell>\n        </row>\n        <row>\n          <cell><m>1</m></cell>\n          <cell><m>V'(3) = 4\\pi (3)^2=36\\pi</m></cell>\n          <cell><m>P'(3) = a_1</m></cell>\n          <cell><m>a_1=36\\pi</m></cell>\n        </row>\n        <row bottom=\"minor\">\n          <cell></cell>\n          <cell></cell>\n          <cell></cell>\n          <cell></cell>\n        </row>\n        <row>\n          <cell><m>2</m></cell>\n          <cell><m>V''(3) = 8\\pi (3)=24\\pi</m></cell>\n          <cell><m>P''(3) = 2a_2</m></cell>\n          <cell><m>2a_2=24\\pi</m></cell>\n        </row>\n        <row bottom=\"minor\">\n          <cell></cell>\n          <cell></cell>\n          <cell></cell>\n          <cell></cell>\n        </row>\n        <row>\n          <cell><m>3</m></cell>\n          <cell><m>V'''(3) = 8\\pi</m></cell>\n          <cell><m>P'''(3) = 6a_3</m></cell>\n          <cell><m>6a_3=8\\pi</m></cell>\n        </row>\n        <row bottom=\"minor\">\n          <cell></cell>\n          <cell></cell>\n          <cell></cell>\n          <cell></cell>\n        </row>\n      </tabular>\n      <p>\n        This tells us that the third order polynomial is\n        <me>\n          P(r)=a_0+a_1(r-3)+a_2(r-3)^2+a_3(r-3)^3\n          =36\\pi+36\\pi(r-3)+12\\pi(r-3)^2+\\frac{4}{3}\\pi(r-3)^3\n          .\n        </me>\n      </p>\n\n      <p>\n        We wanted to approximate the volume if <m>r=3.2</m>, so our change in <m>r</m> is <m>dr=3.2-3=0.2</m>. We can rewrite our polynomial as\n        <me>\n          P(r)=36\\pi+36\\pi(dr)+12\\pi(dr)^2+\\frac{4}{3}\\pi(dr)^3.\n        </me>\n      </p>\n\n      <p>\n        We are now prepared to approximate the volume using a first, second, and third order approximation.\n        <ol>\n          <li>\n            <p>\n              A first order approximation yields <m>P=36\\pi+ 36\\pi\\cdot 0.02 =36.72\\pi.</m> The volume increased by <m>0.72\\pi</m> m<m>^3</m>.\n            </p>\n          </li>\n\n          <li>\n            <p>\n              A second order approximation yields\n              <me>\n                P=36\\pi+ 36\\pi\\cdot 0.02 +12\\pi (0.02)^2 =36.7248\\pi.\n              </me>\n            </p>\n          </li>\n\n          <li>\n            <p>\n              A third order approximation yields\n              <me>\n                P=36\\pi+36\\pi\\cdot 0.02 +12\\pi (0.02)^2+\\frac{4}{3}\\pi(0.02)^3  =36.724810\\bar6\\pi.\n              </me>\n            </p>\n          </li>\n        </ol>\n      </p>\n\n      <p>\n        With each approximation, we add on a little more volume to get closer to the actual volume of a sphere with radius <m>r=3.02</m>. The actual volume of a sphere involves a cubic function, so when we approximate the volume with a cubic, we should get an exact approximation (and <m>V(3.02) = \\frac 43 \\pi (3.02)^3 =(36.724810\\bar6)\\pi</m>.)\n      </p>\n    </statement>\n  </example>\n\n  <p>\n    We'll end this section with a problem to practice the example above.\n  </p>\n\n  <exploration>\n    <p>\n      Suppose you are constructing a cube whose side length should be <m>s=2</m> units. The manufacturing process is not exact, but instead creates a cube with side lengths <m>s=2+ds</m> units. (You should assume that all sides are still the same, so any error on one side is replicated on all. We have to assume this for now, but before the semester ends we'll be able to do this with high dimensional calculus.)\n    </p>\n\n    <p>\n      <!-- \\extrafn{As a challenge, try to draw a 3D graph which illustrates the volume added on by each successive approximation. If you have it before we get here as a class, let me know and I'll let you share what you have discovered with the class.} -->Suppose that the machine creates a cube with side length <m>2.3</m> units instead of 2 units. Note that the volume of the cube is <m>V=s^3</m>. Use a first, second, and third order approximation to estimate the increase in volume caused by the .3 increase in side length. Then compute the actual increase in volume <m>V(2.3)-V(2)</m>.\n    </p>\n  </exploration>\n</section>\n",
-			"file": "chapter01/ch01_5_taylorseries.mbx",
-			"file_size": 10934,
-			"file_write_time": 131472085972641110,
+			"file": "chapter13/section13-2.mbx",
 			"settings":
 			{
-				"buffer_size": 10728,
+				"buffer_size": 7378,
+				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"contents": "\n<chapter xi:id=\"ch01_0_review\" xmlns:xi=\"http://www.w3.org/2001/XInclude\" >\n  <title>Review: Calculus I <ampersand /> II</title>\n  \n  <objectives>\n\n    <introduction>\n      <p>\n        When you complete this unit you should be able to:\n      </p>\n        <ol>\n          <li>\n            <p>\n              Summarize the ideas you learned in Calculus I and II, including graphing, derivatives (product, quotient, power, chain, trig, exponential, and logarithm rules), and integration (<m>u</m>-sub and integration by parts).\n            </p>\n          </li>\n\n          <li>\n            <p>\n              Compute the differential <m>dy</m> of a function and use it to approximate the change in a function.\n            </p>\n          </li>\n\n          <li>\n            <p>\n              Illustrate how to solve systems of linear equations, including how to express a solution parametrically (in terms of <m>t</m>) when there are infinitely many solutions.\n            </p>\n          </li>\n\n          <li>\n            <p>\n              Extend the idea of differentials to approximate functions using parabolas, cubics, and polynomials of any degree.\n            </p>\n          </li>\n        </ol>\n    \n    </introduction>\n  </objectives>\n  \n  <xi:include  href=\"ch01_1_calc1review.mbx\" />\n  <xi:include  href=\"ch01_2_differentials.mbx\" />\n  <xi:include  href=\"review_matrices.mbx\" />\n  <xi:include  href=\"ch01_3_systems.mbx\" />\n  <xi:include  href=\"ch01_5_taylorseries.mbx\" />\n</chapter>\n",
 			"file": "chapter01/ch01main.mbx",
-			"file_size": 1402,
-			"file_write_time": 131472085972797111,
 			"settings":
 			{
-				"buffer_size": 1483,
+				"buffer_size": 1445,
+				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "chapter01/ch01_1_calc1review.mbx",
+			"file": "chapter02/chapter2main.mbx",
 			"settings":
 			{
-				"buffer_size": 5592,
+				"buffer_size": 1187,
+				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "chapter01/ch01_2_differentials.mbx",
+			"file": "chapter02/ch02_1_vectors.mbx",
 			"settings":
 			{
-				"buffer_size": 5280,
+				"buffer_size": 15229,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "chapter02/ch02_2_dotproduct.mbx",
+			"settings":
+			{
+				"buffer_size": 6534,
+				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		}
@@ -134,11 +131,37 @@
 	"expanded_folders":
 	[
 		"/C/Users/Karl/Documents/GitHub/multivariable-calculus-IBL/ptx",
-		"/C/Users/Karl/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter01"
+		"/C/Users/Karl/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter01",
+		"/C/Users/Karl/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter02",
+		"/C/Users/Karl/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter13"
 	],
 	"file_history":
 	[
+		"/C/Users/Karl/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter13/section13-3.mbx",
+		"/C/Users/Karl/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter13/section13-1.mbx",
+		"/C/Users/Karl/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter12/section12-1.mbx",
+		"/C/Users/Karl/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter12/section12-2.mbx",
+		"/C/Users/Karl/Documents/GitHub/multivariable-calculus-IBL/ptx/index.mbx",
+		"/C/Users/Karl/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter11/section11-3.mbx",
+		"/C/Users/Karl/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter11/section11-1.mbx",
+		"/C/Users/Karl/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter10/section10-1.mbx",
+		"/C/Users/Karl/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter09/section9-5.mbx",
+		"/C/Users/Karl/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter09/section9-4.mbx",
+		"/C/Users/Karl/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter09/section9-3.mbx",
+		"/C/Users/Karl/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter09/section9-1.mbx",
+		"/C/Users/Karl/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter08/section8-2.mbx",
+		"/C/Users/Karl/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter08/section8-1.mbx",
+		"/C/Users/Karl/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter07/section7-4.mbx",
+		"/C/Users/Karl/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter07/section7-3.mbx",
+		"/C/Users/Karl/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter07/section7-2.mbx",
+		"/C/Users/Karl/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter06/section6-5.mbx",
+		"/C/Users/Karl/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter06/section6-4.mbx",
+		"/C/Users/Karl/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter06/section6-3.mbx",
+		"/C/Users/Karl/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter05/section5-2.mbx",
+		"/C/Users/Karl/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter01/ch01main.mbx",
 		"/C/Users/Karl/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter01/ch01_2_differentials.mbx",
+		"/C/Users/Karl/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter01/ch01_5_taylorseries.mbx",
+		"/C/Users/Karl/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter02/ch02_1_vectors.mbx",
 		"/C/Users/kschmit1/Documents/GitHub/IntroductoryDataScienceBook/README.md",
 		"/C/Users/kschmit1/Documents/GitHub/IntroductoryDataScienceBook/frontmatter.ptx",
 		"/C/Users/kschmit1/Documents/GitHub/IntroductoryDataScienceBook/chapter1.ptx",
@@ -148,13 +171,14 @@
 	],
 	"find":
 	{
-		"height": 0.0
+		"height": 26.0
 	},
 	"find_in_files":
 	{
-		"height": 0.0,
+		"height": 90.0,
 		"where_history":
 		[
+			""
 		]
 	},
 	"find_state":
@@ -162,6 +186,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"<ol type=\"resume\">"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -169,6 +194,7 @@
 		"regex": false,
 		"replace_history":
 		[
+			""
 		],
 		"reverse": false,
 		"show_context": true,
@@ -179,24 +205,84 @@
 	"groups":
 	[
 		{
-			"selected": 3,
+			"selected": 1,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "index.mbx",
+					"file": "chapter01/ch01_2_differentials.mbx",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 5282,
+						"buffer_size": 5361,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								4664,
+								4664
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/MBXTools/mbx.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1434.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "chapter13/section13-2.mbx",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 7378,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								6698,
+								6698
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/MBXTools/mbx.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 3414.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "chapter01/ch01main.mbx",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1445,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1340,
+								1340
 							]
 						],
 						"settings":
@@ -213,140 +299,20 @@
 					"type": "text"
 				},
 				{
-					"buffer": 1,
-					"file": "chapter01/ch01_2_differentials.mbx",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 5349,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								2255,
-								2255
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/MBXTools/mbx.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 1620.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "chapter01/ch01_5_taylorseries.mbx",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 10728,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								577,
-								577
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/MBXTools/mbx.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 3996.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
 					"buffer": 3,
-					"file": "chapter01/ch01main.mbx",
+					"file": "chapter02/chapter2main.mbx",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1483,
+						"buffer_size": 1187,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1235,
-								1235
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/MBXTools/mbx.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "chapter01/ch01_1_calc1review.mbx",
-					"semi_transient": true,
-					"settings":
-					{
-						"buffer_size": 5592,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/MBXTools/mbx.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "chapter01/ch01_2_differentials.mbx",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 5280,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								70,
-								72
+								1032,
+								1032
 							]
 						],
 						"settings":
@@ -361,13 +327,73 @@
 					},
 					"stack_index": 4,
 					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "chapter02/ch02_1_vectors.mbx",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 15229,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								6378,
+								6378
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/MBXTools/mbx.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 2940.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "chapter02/ch02_2_dotproduct.mbx",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6534,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								6504,
+								6504
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/MBXTools/mbx.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 2754.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
 				}
 			]
 		}
 	],
 	"incremental_find":
 	{
-		"height": 0.0
+		"height": 26.0
 	},
 	"input":
 	{
@@ -404,7 +430,7 @@
 	"project": "multivariable_ptx.sublime-project",
 	"replace":
 	{
-		"height": 0.0
+		"height": 48.0
 	},
 	"save_all_on_build": true,
 	"select_file":

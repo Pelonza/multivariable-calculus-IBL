@@ -58,34 +58,32 @@
       <p>
         An object moves from <m>A=(6,0)</m> to <m>B=(0,3)</m>. A parametrization of the objects path is <m>\vec r(t) = (-6,3)t+(6,0)</m> for <m>0\leq t\leq 1</m>. We are going to investigate what happens under a non-constant force.
       </p>
-    </p>
-    <task>
-        <p>
-          For <m>0\leq t\leq .5</m>, what is the displacement vector <m>\vec{d}</m> from <m>\vec{r}(0) \rightarrow \vec{r}(0.5)</m>?
+      <task>
+          <p>
+            For <m>0\leq t\leq .5</m>, what is the displacement vector <m>\vec{d}</m> from <m>\vec{r}(0) \rightarrow \vec{r}(0.5)</m>?
 
-          If the force encountered over this section is <m>\vec F = (2,5)</m> how much work is done?
-        </p>
-    </task>
+            If the force encountered over this section is <m>\vec F = (2,5)</m> how much work is done?
+          </p>
+      </task>
 
-    <task>
-        <p>
-          For <m>.5\leq t\leq 1</m>, what is the displacement vector <m>\vec{d}</m> from <m>\vec{r}(0.5) \rightarrow \vec{r}(1)</m>?
+      <task>
+          <p>
+            For <m>.5\leq t\leq 1</m>, what is the displacement vector <m>\vec{d}</m> from <m>\vec{r}(0.5) \rightarrow \vec{r}(1)</m>?
 
-          If the force encountered over this section is <m>\vec F = (2,6)</m> how much work is done?
-        </p>
-    </task>
+            If the force encountered over this section is <m>\vec F = (2,6)</m> how much work is done?
+          </p>
+      </task>
 
-    <task>
-        <p>
-          How much total work was done?
-        </p>
-    </task>
+      <task>
+          <p>
+            How much total work was done?
+          </p>
+      </task>
 
-    <task>
+      <task>
         <p>
           <!-- \extrafn{You can visualize what's happening in this exercise as follows.  Attach a clothesline between the points (maybe representing two trees in your backyard).  Put a cub scout space derby ship on the clothesline.  Then the wind starts to blow.  As the ship moves along the clothesline, the wind changes direction.} -->Suppose that the force constantly changes as we move along the curve. At <m>t</m>, we'll assume we encountered the force <m>F(t) = (2,5+2t)</m>.
         </p>
-        <ol type="labelroman">
         <task>
             <p>
               Find <m>\ds W=\int \vec F\cdot d\vec r = \int_0^{0.5} (2,5+2t)\cdot (-6,3)dt.</m>
@@ -99,16 +97,14 @@
               How does this compare to part (3)?
             </p>
         </task>
-      <p>
-    </task>
+      </task>
 
-    <task>
-        <p>
-          Explain why the total work done by this force along the path is 
-          <m>\ds W=\int \vec F\cdot d\vec r</m>. [What does <m>\vec{F} \cdot d\vec{r}</m> represent?]
-        </p>
-    </task>
-    <p>
+      <task>
+          <p>
+            Explain why the total work done by this force along the path is 
+            <m>\ds W=\int \vec F\cdot d\vec r</m>. [What does <m>\vec{F} \cdot d\vec{r}</m> represent?]
+          </p>
+      </task>
     </exploration>
 
     <p>
@@ -116,26 +112,26 @@
     </p>
 
     <blockquote>
-    If a force <m>F</m> acts through a displacement <m>d</m>, then the most basic definition of work is <m>W=Fd</m>, the product of the force and the displacement.  This basic definition has a few assumptions.
-    <ul>
-      <li>
-        <p>
-          The force <m>F</m> must act in the same direction as the displacement.
-        </p>
-      </li>
+      If a force <m>F</m> acts through a displacement <m>d</m>, then the most basic definition of work is <m>W=Fd</m>, the product of the force and the displacement.  This basic definition has a few assumptions.
+      <ul>
+        <li>
+          <p>
+            The force <m>F</m> must act in the same direction as the displacement.
+          </p>
+        </li>
 
-      <li>
-        <p>
-          The force <m>F</m> must be constant throughout the  displacement.
-        </p>
-      </li>
+        <li>
+          <p>
+            The force <m>F</m> must be constant throughout the  displacement.
+          </p>
+        </li>
 
-      <li>
-        <p>
-          The displacement must be in a straight line.
-        </p>
-      </li>
-    </ul>
+        <li>
+          <p>
+            The displacement must be in a straight line.
+          </p>
+        </li>
+      </ul>
     </blockquote>
 
     <p>
@@ -493,44 +489,44 @@
         </ul>
         } -->Consider the vector field <m>\vec F(x,y) = (2x+y,-x+2y)</m>.
       </p>
-        <task>
-            <p>
-              Use Sage or WolframAlpha to construct a plot of <m>\vec F</m>.
-            </p>
-        </task>
+      <task>
+          <p>
+            Use Sage or WolframAlpha to construct a plot of <m>\vec F</m>.
+          </p>
+      </task>
 
       <p>
         When you construct a plot of this vector field, you should notice that it causes objects to spin outwards in the clockwise direction. Suppose an object moves counterclockwise around a circle <m>C</m> of radius 3 that is centered at the origin. (You'll need to parametrize the curve.)
-        <ol type="resume">
-        <task>
-            <p>
-              Should the circulation of <m>\vec F</m> along <m>C</m> be positive or negative?  Make a guess, and then compute the circulation <m>\oint_C Mdx+Ndy</m>.
-            </p>
-        </task>
+      </p>
+      <task>
+          <p>
+            Should the circulation of <m>\vec F</m> along <m>C</m> be positive or negative?  Make a guess, and then compute the circulation <m>\oint_C Mdx+Ndy</m>.
+          </p>
+      </task>
 
-        <task>
-            <p>
-              Whether your guess was right or wrong, explain why you made the guess.
-            </p>
-        </task>
+      <task>
+          <p>
+            Whether your guess was right or wrong, explain why you made the guess.
+          </p>
+      </task>
 
-        <task>
-            <p>
-              Should the flux of <m>\vec F</m> across <m>C</m> be positive or negative? Make a guess, and then actually compute the flux <m>\oint_C Mdy-Ndx</m>.
-            </p>
-        </task>
+      <task>
+          <p>
+            Should the flux of <m>\vec F</m> across <m>C</m> be positive or negative? Make a guess, and then actually compute the flux <m>\oint_C Mdy-Ndx</m>.
+          </p>
+      </task>
 
-        <task>
-            <p>
-              Whether your guess was right or wrong, explain why you made the guess.
-            </p>
-        </task>
+      <task>
+          <p>
+            Whether your guess was right or wrong, explain why you made the guess.
+          </p>
+      </task>
 
-        <task>
-            <p>
-              Please use this <url href="\sageworkfluxurl">Sage link</url> to check both computations.
-            </p>
-        </task>
+      <task>
+          <p>
+            Please use this <url href="\sageworkfluxurl">Sage link</url> to check both computations.
+          </p>
+      </task>
     </exploration>
 
     <p>

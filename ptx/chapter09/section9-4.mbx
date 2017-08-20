@@ -97,12 +97,11 @@
     <p>
       <!-- \extrafn{<url href="http://www.youtube.com/watch?v=t7T0MzfgV0Q&amp;list=PL04DF68E73B7ECD54&amp;index=5&amp;feature=plpp_video">Watch a YouTube video.</url>} -->Consider the elliptical curve <m>C</m> given by the parametrization <m>\vec r(t) = (2\cos t, 3\sin t)</m>. Let <m>f</m> be the function <m>f(x,y)=9-x^2-y^2</m>.
     </p>
-  </p>
-  <task>
+
+    <task>
       <p>
         Draw the surface <m>f</m> in 3D.
       </p>
-    </p>
       <task>
           <p>
             Add to your drawing the curve <m>C</m> in the <m>xy</m> plane.
@@ -114,80 +113,79 @@
             Next draw the sheet whose area is given by the integral <m>\int_C f ds</m>.
           </p>
       </task>
-    <p>
-  </task>
 
-  <task>
-      <p>
-        What's the maximum height and minimum height of the sheet?  <!-- \extrafn{See <xref ref="horse_track_chain_rule_introduction">exercise</xref>.} -->
-      </p>
-  </task>
+    </task>
 
-  <task>
-      <p>
-        We'd like to find a constant height <m>\bar f</m> so that the area under <m>f</m>, above <m>C</m>, is the same as area under <m>\bar f</m>, above <m>C</m>. This height <m>\bar f</m> is called the average value of <m>f</m> along <m>C</m>. 
-        <!-- \extrafn{
-
-        <insight>
+    <task>
         <p>
-          Please read 
-          <url href="https://www.lds.org/scriptures/ot/isa/40.4?lang=eng#3">Isaiah 40:4</url> and
-          <url href="https://www.lds.org/scriptures/nt/luke/3.5?lang=eng#4">Luke 3:5</url>. These scriptures should help you remember how to find average value.
+          What's the maximum height and minimum height of the sheet?  <!-- \extrafn{See <xref ref="horse_track_chain_rule_introduction">exercise</xref>.} -->
         </p>
-        </insight>
+    </task>
 
-        <insight>
+    <task>
         <p>
-          Please read 
-          <url href="https://www.lds.org/scriptures/ot/isa/40.4?lang=eng#3">Isaiah 40:4</url> and
-          <url href="https://www.lds.org/scriptures/nt/luke/3.5?lang=eng#4">Luke 3:5</url>. These scriptures should help you remember how to find average value.
-        </p>
-        </insight>
+          We'd like to find a constant height <m>\bar f</m> so that the area under <m>f</m>, above <m>C</m>, is the same as area under <m>\bar f</m>, above <m>C</m>. This height <m>\bar f</m> is called the average value of <m>f</m> along <m>C</m>. 
+          <!-- \extrafn{
 
-        } -->Explain why the average value of <m>f</m> along <m>C</m> is
-        <me>
-          \bar f = \frac{\int_C f ds}{\int_C ds}.
-        </me>
-        Connect this formula with the ways of thinking about averages from <xref ref="average_value_methods">Exercise</xref>.
-        <hint>
+          <insight>
           <p>
-            The area under <m>\bar f</m> above <m>C</m> is <m>\int_C \bar f ds</m>. The area under <m>f</m> above <m>C</m> is <m>\int_C f ds</m>. Set them equal and solve for <m>\bar f</m>.
+            Please read 
+            <url href="https://www.lds.org/scriptures/ot/isa/40.4?lang=eng#3">Isaiah 40:4</url> and
+            <url href="https://www.lds.org/scriptures/nt/luke/3.5?lang=eng#4">Luke 3:5</url>. These scriptures should help you remember how to find average value.
           </p>
-        </hint>
-      </p>
-  </task>
+          </insight>
 
-  <task>
-      <p>
-        <!-- \extrafn{You can use the <url href="\sagelineintegral">Sage line integral calculator</url>.} -->Use a computer to evaluate the integrals <m>\int_C f ds</m> and <m>\int_C ds</m>, and then give an approximation to the average value of <m>f</m> along <m>C</m>. Is your average value between the maximum and minimum of <m>f</m> along <m>C</m>? Why should it be?
-      </p>
-  </task>
-  <p>
+          <insight>
+          <p>
+            Please read 
+            <url href="https://www.lds.org/scriptures/ot/isa/40.4?lang=eng#3">Isaiah 40:4</url> and
+            <url href="https://www.lds.org/scriptures/nt/luke/3.5?lang=eng#4">Luke 3:5</url>. These scriptures should help you remember how to find average value.
+          </p>
+          </insight>
+
+          } -->Explain why the average value of <m>f</m> along <m>C</m> is
+          <me>
+            \bar f = \frac{\int_C f ds}{\int_C ds}.
+          </me>
+          Connect this formula with the ways of thinking about averages from <xref ref="average_value_methods">Exercise</xref>.
+          <hint>
+            <p>
+              The area under <m>\bar f</m> above <m>C</m> is <m>\int_C \bar f ds</m>. The area under <m>f</m> above <m>C</m> is <m>\int_C f ds</m>. Set them equal and solve for <m>\bar f</m>.
+            </p>
+          </hint>
+        </p>
+    </task>
+
+    <task>
+        <p>
+          <!-- \extrafn{You can use the <url href="\sagelineintegral">Sage line integral calculator</url>.} -->Use a computer to evaluate the integrals <m>\int_C f ds</m> and <m>\int_C ds</m>, and then give an approximation to the average value of <m>f</m> along <m>C</m>. Is your average value between the maximum and minimum of <m>f</m> along <m>C</m>? Why should it be?
+        </p>
+    </task>
   </exploration>
 
   <exploration>
     <p>
       The temperature <m>T(x,y,z)</m> at points on a wire helix <m>C</m> given by <m>\vec r(t) = (\sin t, 2t, \cos t)</m> is known to be <m>T(x,y,z)=x^2+y+z^2</m>.
     </p>
-      <task>
-          <p>
-            What are the temperatures at <m>t=0</m>, <m>t=\pi/2</m>, <m>t=\pi</m>, <m>t=3\pi/2</m> and <m>t=2\pi</m>?
-          </p>
-      </task>
+    <task>
+        <p>
+          What are the temperatures at <m>t=0</m>, <m>t=\pi/2</m>, <m>t=\pi</m>, <m>t=3\pi/2</m> and <m>t=2\pi</m>?
+        </p>
+    </task>
 
     <p>
       You should notice the temperature is constantly changing.
-      <ol type="resume">
-      <task>
-          <p>
-            Make a guess as to what the average temperature is (share with the class why you made the guess you made<mdash />it's OK if you're wrong).
-          </p>
-      </task>
+    </p>
+    <task>
+        <p>
+          Make a guess as to what the average temperature is (share with the class why you made the guess you made<mdash />it's OK if you're wrong).
+        </p>
+    </task>
 
-      <task>
-          <p>
-            Next compute the average temperature of the wire using the integral formula from the previous exercises. (You can do all these computations by hand.)
-          </p>
-      </task>
+    <task>
+        <p>
+          Next compute the average temperature of the wire using the integral formula from the previous exercises. (You can do all these computations by hand.)
+        </p>
+    </task>
   </exploration>
 </section>

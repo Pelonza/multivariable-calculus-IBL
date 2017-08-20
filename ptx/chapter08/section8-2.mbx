@@ -217,33 +217,31 @@
         \end{array}
       </me>
     </p>
-      <task>
-          <p>
-            Show that <m>\vec v</m> and <m>\vec a</m> are not orthogonal, but that <m>\vec T</m> and <m>d\vec T/dt</m> are.
-          </p>
-      </task>
+    <task>
+        <p>
+          Show that <m>\vec v</m> and <m>\vec a</m> are not orthogonal, but that <m>\vec T</m> and <m>d\vec T/dt</m> are.
+        </p>
+    </task>
 
     <p>
       Because <m>\vec r (t)</m> includes periodic trig functinos at <m>(0,3)</m> we could have <m>t^2 = \frac{\pi}{2}</m>, <m>t^2=2\pi+frac{\pi}{2}</m> or <m>t^2=2\pi k + \frac{\pi}{2}</m> for any integer <m>k</m>.
     </p>
-    <ol type="resume">
-  <task>
-      <p>
-        Show that <m>\vec T</m> is the same at <m>(0,3)</m>, regardless of what time we pass through <m>(0,3)</m>.
-      </p>
-  </task>
+    <task>
+        <p>
+          Show that <m>\vec T</m> is the same at <m>(0,3)</m>, regardless of what time we pass through <m>(0,3)</m>.
+        </p>
+    </task>
 
-  <task>
-      <p>
-        Show the same is true for <m>d\vec T/ds</m>.
-      </p>
-  </task>
+    <task>
+        <p>
+          Show the same is true for <m>d\vec T/ds</m>.
+        </p>
+    </task>
 
-  <task>
+    <task>
       <p>
         When the speed is <m>\frac{ds}{dt}=6</m> (so <m>t=1</m>), how long are <m>d\vec T/dt</m> and <m>d\vec T/ds</m>?
       </p>
-    </p>
       <task>
           <p>
             When the speed is <m>\frac{ds}{dt}=12</m> (so <m>t=2</m>), how long are <m>d\vec T/dt</m> and <m>d\vec T/ds</m>?
@@ -261,9 +259,8 @@
             If the speed were some random number <m>v</m>, how long are <m>d\vec T/dt</m> and <m>d\vec T/ds</m>?
           </p>
       </task>
-    <p>
-  </task>
-  <p>
+    </task>
+    
   </exploration>
 
   <observation xml:id="curvature_observations">

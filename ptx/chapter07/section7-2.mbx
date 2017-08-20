@@ -46,126 +46,119 @@
     <p>
       <!-- \extrafn{\thomasee{See 3.10 for more practice.}\larsonfive{See Larson ?.} \stewarts{??} } -->The volume of a right circular cylinder is <m>V(r,h)= \pi r^2 h</m>. Imagine that each of <m>V</m>, <m>r</m>, and <m>h</m> depends on <m>t</m> (we might be collecting rain water in a can, or crushing a cylindrical concentrated juice can, etc.).
     </p>
-  </p>
-  <task>
-      <p>
-        Let's rewrite <m>V(r,h)</m>. For each of the following start with <m>V(r,h)=\pi r^2 h</m>
-      </p>
-    </p>
-      <task>
-          <p>
-            Substitute <m>r(t)</m> for <m>r</m>
-          </p>
-      </task>
+    <task>
+        <p>
+          Let's rewrite <m>V(r,h)</m>. For each of the following start with <m>V(r,h)=\pi r^2 h</m>
+        </p>
+        <task>
+            <p>
+              Substitute <m>r(t)</m> for <m>r</m>
+            </p>
+        </task>
 
-      <task>
-          <p>
-            Substitute <m>h(t)</m> for <m>h</m>
-          </p>
-      </task>
+        <task>
+            <p>
+              Substitute <m>h(t)</m> for <m>h</m>
+            </p>
+        </task>
 
-      <task>
-          <p>
-            Now replace both <m>r</m> and <m>t</m> with <m>r(t)</m> and <m>h(t)</m> respectively
-          </p>
-      </task>
-    <p>
-  </task>
+        <task>
+            <p>
+              Now replace both <m>r</m> and <m>t</m> with <m>r(t)</m> and <m>h(t)</m> respectively
+            </p>
+        </task>
+    </task>
 
-  <task>
-      <p>
-        In which of the equations from part 1 does <m>h</m> NOT change as time changes?
-      </p>
-  </task>
+    <task>
+        <p>
+          In which of the equations from part 1 does <m>h</m> NOT change as time changes?
+        </p>
+    </task>
 
-  <task>
-      <p>
-        If the height remains constant, what is <m>dV/dt</m> in terms of <m>dr/dt</m>? Times both sides by <m>dt</m> to obtain a formula for <m>dV</m> when <m>h</m> is constant.
-      </p>
-  </task>
+    <task>
+        <p>
+          If the height remains constant, what is <m>dV/dt</m> in terms of <m>dr/dt</m>? Times both sides by <m>dt</m> to obtain a formula for <m>dV</m> when <m>h</m> is constant.
+        </p>
+    </task>
 
-  <task>
-      <p>
-        If the radius remains constant, what is <m>dV/dt</m> in terms of <m>dh/dt</m>? What is <m>dV</m> when <m>r</m> is constant?
-      </p>
-  </task>
+    <task>
+        <p>
+          If the radius remains constant, what is <m>dV/dt</m> in terms of <m>dh/dt</m>? What is <m>dV</m> when <m>r</m> is constant?
+        </p>
+    </task>
 
-  <task>
-      <p>
-        If neither the radius nor height remains constant, what is <m>dV/dt</m> in terms of <m>dh/dt</m>? Solve for <m>dV</m>.
-      </p>
-  </task>
+    <task>
+        <p>
+          If neither the radius nor height remains constant, what is <m>dV/dt</m> in terms of <m>dh/dt</m>? Solve for <m>dV</m>.
+        </p>
+    </task>
 
-  <task>
-      <p>
-        <!-- \extrafn{The matrix <m>\begin{bmatrix}2\pi rh\amp  \pi r^2
-        \end{bmatrix}</m> is the derivative.  The columns we'll call the partial derivatives.  The partial derivatives make up the whole.} -->Show that we can write <m>dV</m> as the matrix product
-        <me>
-          dV = \begin{bmatrix}2\pi rh\amp  \pi r^2
-          \end{bmatrix} \begin{bmatrix}dr\\dh
-          \end{bmatrix} .
-        </me>
-        How do the columns of this matrix relate to the previous portions of the exercise.
-      </p>
-  </task>
-  <p>
+    <task>
+        <p>
+          <!-- \extrafn{The matrix <m>\begin{bmatrix}2\pi rh\amp  \pi r^2
+          \end{bmatrix}</m> is the derivative.  The columns we'll call the partial derivatives.  The partial derivatives make up the whole.} -->Show that we can write <m>dV</m> as the matrix product
+          <me>
+            dV = \begin{bmatrix}2\pi rh\amp  \pi r^2
+            \end{bmatrix} \begin{bmatrix}dr\\dh
+            \end{bmatrix} .
+          </me>
+          How do the columns of this matrix relate to the previous portions of the exercise.
+        </p>
+    </task>
   </exploration>
 
   <exploration xml:id="prob_volumebox">
     <p>
       The volume of a box is <m>V(x,y,z)=xyz</m>. Imagine that each variable depends on <m>t</m>.
     </p>
-  </p>
-  <task>
-      <p>
-        If both <m>y</m> and <m>z</m> remain constant we only need to replace <m>x</m> with <m>x(t)</m>
-      </p>
-    </p>
-      <task>
-          <p>
-            State the new equation for <m>V</m>
-          </p>
-      </task>
+    <task>
+        <p>
+          If both <m>y</m> and <m>z</m> remain constant we only need to replace <m>x</m> with <m>x(t)</m>
+        </p>
+        <task>
+            <p>
+              State the new equation for <m>V</m>
+            </p>
+        </task>
 
-      <task>
-          <p>
-            What is <m>dV/dt</m>?
-          </p>
-      </task>
+        <task>
+            <p>
+              What is <m>dV/dt</m>?
+            </p>
+        </task>
 
-      <task>
-          <p>
-            Times both sides by <m>dt</m> to obtain a formula for <m>dV</m> when all bur <m>x</m> is constant.
-          </p>
-      </task>
-    <p>
-  </task>
+        <task>
+            <p>
+              Times both sides by <m>dt</m> to obtain a formula for <m>dV</m> when all bur <m>x</m> is constant.
+            </p>
+        </task>
+    </task>
 
-  <task>
-      <p>
-        Repeat Part 1 for when <m>y</m> is the only non constant variable, and then for when <m>z</m> is the only non constant variable.
-      </p>
-  </task>
+    <task>
+        <p>
+          Repeat Part 1 for when <m>y</m> is the only non constant variable, and then for when <m>z</m> is the only non constant variable.
+        </p>
+    </task>
 
-  <task>
-      <p>
-        What is <m>dV/dt</m> in terms of <m>dx/dt</m>, <m>dy/dt</m>, and <m>dz/dt</m> when all three variables are not constant.
-      </p>
-  </task>
+    <task>
+        <p>
+          What is <m>dV/dt</m> in terms of <m>dx/dt</m>, <m>dy/dt</m>, and <m>dz/dt</m> when all three variables are not constant.
+        </p>
+    </task>
 
-  <task>
-      <p>
-        <!-- \extrafn{The matrix <m>\begin{bmatrix}yz\amp  ?\amp ?
-        \end{bmatrix}</m> is the derivative.  The columns we'll call the partial derivatives.  The partial derivatives make up the whole.} -->Show that we can write <m>dV</m> as the matrix product (fill in the blanks)
-        <me>
-          dV = \begin{bmatrix}yz\amp  ?\amp ?
-          \end{bmatrix} \begin{bmatrix}dx\\dy\\dz
-          \end{bmatrix} .
-        </me>
-        How do the columns of this matrix relate to the previous portions of the exercise.
-      </p>
-  </task>
-  <p>
+    <task>
+        <p>
+          <!-- \extrafn{The matrix <m>\begin{bmatrix}yz\amp  ?\amp ?
+          \end{bmatrix}</m> is the derivative.  The columns we'll call the partial derivatives.  The partial derivatives make up the whole.} -->Show that we can write <m>dV</m> as the matrix product (fill in the blanks)
+          <me>
+            dV = \begin{bmatrix}yz\amp  ?\amp ?
+            \end{bmatrix} \begin{bmatrix}dx\\dy\\dz
+            \end{bmatrix} .
+          </me>
+          How do the columns of this matrix relate to the previous portions of the exercise.
+        </p>
+    </task>
+
   </exploration>
 
   <p>
@@ -176,33 +169,33 @@
     <p>
       Use matrix multiplication to answer the following questions.
     </p>
-      <task>
+    <task>
+        <p>
+          <!-- \extrafn{
+
+          <insight>
           <p>
-            <!-- \extrafn{
-
-            <insight>
-            <p>
-              Make sure you ask me in class to show you physically exactly how you can see these differential formulas.
-            </p>
-            </insight>
-
-            } --><xref ref="prob_differential_volume_of_a_cylinder">In</xref> we showed that a change in the volume of a cylinder is approximately
-            <me>
-              dV = \begin{bmatrix}2\pi rh\amp  \pi r^2
-              \end{bmatrix} \begin{bmatrix}dr\\dh
-              \end{bmatrix} .
-            </me>
-            If we know that <m>r=3</m> and <m>h=4</m>, and we know that <m>r</m> could going to increase by about <m>.1</m> and <m>h</m> could increase by about <m>.2</m>, then by about how much will <m>V</m> increase by?
+            Make sure you ask me in class to show you physically exactly how you can see these differential formulas.
           </p>
-      </task>
+          </insight>
 
-      <task>
-          <p>
-            The volume of a box is given by <m>V=xyz</m>. <xref ref="prob_volumebox">From</xref> we know the differential of the volume is <m>V=\begin{bmatrix}yz\amp  xz \amp  xy
-            \end{bmatrix} \begin{bmatrix}dx\\dy\\dz
-            \end{bmatrix}</m>. If the current measurements are <m>x=2</m>, <m>y=3</m>, and <m>z=5</m>, and we know that <m>dx=.01</m>, <m>dy=.02</m>, and <m>dz=.03</m>, then by about how much will the volume increase.
-          </p>
-      </task>
+          } --><xref ref="prob_differential_volume_of_a_cylinder">In</xref> we showed that a change in the volume of a cylinder is approximately
+          <me>
+            dV = \begin{bmatrix}2\pi rh\amp  \pi r^2
+            \end{bmatrix} \begin{bmatrix}dr\\dh
+            \end{bmatrix} .
+          </me>
+          If we know that <m>r=3</m> and <m>h=4</m>, and we know that <m>r</m> could going to increase by about <m>.1</m> and <m>h</m> could increase by about <m>.2</m>, then by about how much will <m>V</m> increase by?
+        </p>
+    </task>
+
+    <task>
+        <p>
+          The volume of a box is given by <m>V=xyz</m>. <xref ref="prob_volumebox">From</xref> we know the differential of the volume is <m>V=\begin{bmatrix}yz\amp  xz \amp  xy
+          \end{bmatrix} \begin{bmatrix}dx\\dy\\dz
+          \end{bmatrix}</m>. If the current measurements are <m>x=2</m>, <m>y=3</m>, and <m>z=5</m>, and we know that <m>dx=.01</m>, <m>dy=.02</m>, and <m>dz=.03</m>, then by about how much will the volume increase.
+        </p>
+    </task>
   </exploration>
 
   <p>
@@ -213,34 +206,34 @@
     <p>
       Consider the function <m>f(x,y) = x^2y +3x+4\sin(5y)</m>.
     </p>
-      <task>
-          <p>
-            If both <m>x</m> and <m>y</m> depend on <m>t</m>, then use implicit differentiation to obtain a formula for <m>df/dt</m> in terms of <m>dx/dt</m> and <m>dy/dt</m>. This will be the last time we use implicit differentiation.
-          </p>
-      </task>
+    <task>
+        <p>
+          If both <m>x</m> and <m>y</m> depend on <m>t</m>, then use implicit differentiation to obtain a formula for <m>df/dt</m> in terms of <m>dx/dt</m> and <m>dy/dt</m>. This will be the last time we use implicit differentiation.
+        </p>
+    </task>
 
-      <task>
-          <p>
-            Solve for <m>df</m>, and write your answer as the matrix product (fill in the blank)
-            <me>
-              df = \begin{bmatrix}?\amp  x^2+20\cos(5y)
-              \end{bmatrix} \begin{bmatrix}dx\\dy
-              \end{bmatrix} .
-            </me>
-          </p>
-      </task>
+    <task>
+        <p>
+          Solve for <m>df</m>, and write your answer as the matrix product (fill in the blank)
+          <me>
+            df = \begin{bmatrix}?\amp  x^2+20\cos(5y)
+            \end{bmatrix} \begin{bmatrix}dx\\dy
+            \end{bmatrix} .
+          </me>
+        </p>
+    </task>
 
-      <task>
-          <p>
-            If you hold <m>y</m> constant, then what is <m>df/dx</m>?
-          </p>
-      </task>
+    <task>
+        <p>
+          If you hold <m>y</m> constant, then what is <m>df/dx</m>?
+        </p>
+    </task>
 
-      <task>
-          <p>
-            If you hold <m>x</m> constant, then what is <m>df/dy</m>?
-          </p>
-      </task>
+    <task>
+        <p>
+          If you hold <m>x</m> constant, then what is <m>df/dy</m>?
+        </p>
+    </task>
   </exploration>
 
   <p>
@@ -414,29 +407,27 @@
     <p>
       Consider the change of coordinates <m>\vec T(r,\theta) = (r\cos \theta, r\sin \theta)</m>.
     </p>
-  </p>
-  <task>
-      <p>
-        Compute the partial derivatives <m>\ds\frac{\partial \vec T}{\partial r}</m> and <m>\ds\frac{\partial \vec T}{\partial \theta}</m>
-      </p>
-  </task>
+    <task>
+        <p>
+          Compute the partial derivatives <m>\ds\frac{\partial \vec T}{\partial r}</m> and <m>\ds\frac{\partial \vec T}{\partial \theta}</m>
+        </p>
+    </task>
 
-  <task>
-      <p>
-        State the derivative <m>D\vec T(r,\theta)</m>.
-        <hint>
-          <p>
-            If you get a 2 by 2 matrix, then you're on the right track. Each partial derivative is a vector. (This one is in the <url href="http://db.tt/cSeKG8XO">handwritten file</url> with extra practice.)
-          </p>
-        </hint>
-      </p>
-  </task>
+    <task>
+        <p>
+          State the derivative <m>D\vec T(r,\theta)</m>.
+          <hint>
+            <p>
+              If you get a 2 by 2 matrix, then you're on the right track. Each partial derivative is a vector. (This one is in the <url href="http://db.tt/cSeKG8XO">handwritten file</url> with extra practice.)
+            </p>
+          </hint>
+        </p>
+    </task>
 
-  <task>
+    <task>
       <p>
         Consider the polar point <m>(r,\theta) = (4,\pi/2)</m>.
       </p>
-    </p>
       <task>
           <p>
             Compute <m>T(4,\pi/2)</m> (the Cartesian coordinate)
@@ -459,21 +450,20 @@
             At the point, draw both vectors.
           </p>
       </task>
-    <p>
-  </task>
+    </task>
 
-  <task>
-      <p>
-        If you were standing at the polar point <m>(4,\pi/2)</m> and someone said, <q>Hey you, keep your angle constant, but increase your radius,</q> then which direction would you move?  What if someone said, <q>Hey you, keep your radius constant, but increase your angle</q>?
-      </p>
-  </task>
+    <task>
+        <p>
+          If you were standing at the polar point <m>(4,\pi/2)</m> and someone said, <q>Hey you, keep your angle constant, but increase your radius,</q> then which direction would you move?  What if someone said, <q>Hey you, keep your radius constant, but increase your angle</q>?
+        </p>
+    </task>
 
-  <task>
-      <p>
-        Now change the polar point to <m>(r,\theta) = (2,3\pi/4)</m>.  Try, without doing  any computations, to repeat part 2 (at the point draw both partial derivatives). Explain.
-      </p>
-  </task>
-  <p>
+    <task>
+        <p>
+          Now change the polar point to <m>(r,\theta) = (2,3\pi/4)</m>.  Try, without doing  any computations, to repeat part 2 (at the point draw both partial derivatives). Explain.
+        </p>
+    </task>
+
   </exploration>
 
   <p>
@@ -493,49 +483,49 @@
     <p>
       Consider the parametric surface <m>\vec r(a,t) = (a\cos t, a\sin t, t)</m> for <m>2\leq a\leq 4</m> and <m>0\leq t\leq 4\pi</m>. We encountered this parametric surface in <xref ref="prob_parametric_surface_example"></xref> when we considered a smoke screen left by multiple jets.
     </p>
-      <task>
-          <p>
-            How many inputs does this function have? How many outputs?
-          </p>
-      </task>
+    <task>
+        <p>
+          How many inputs does this function have? How many outputs?
+        </p>
+    </task>
 
-      <task>
-          <p>
-            What dimensions does that make the derivative?
-          </p>
-      </task>
+    <task>
+        <p>
+          What dimensions does that make the derivative?
+        </p>
+    </task>
 
-      <task>
-          <p>
-            Compute the partial derivatives <m>\vec r_a</m> and <m>\vec r_t</m> (they are vectors), and state the total derivative.
-          </p>
-      </task>
+    <task>
+        <p>
+          Compute the partial derivatives <m>\vec r_a</m> and <m>\vec r_t</m> (they are vectors), and state the total derivative.
+        </p>
+    </task>
 
-      <task>
-          <p>
-            Look at a plot of the surface (use one of the links to the right). Now, suppose an object is on this surface at the point <m>\vec r(3,\pi) = (-3,0,\pi)</m>. At that point, please draw the partial derivatives <m>\vec r_a(3,\pi)</m> and <m>\vec r_t(3,\pi)</m>.
-            <!-- \extrafn{Please see <url href="http://aleph.sagemath.org/?z=eJxL0yjRUUjUtNVI1ErOL9Yo0QTytIoz88CsEk2ugsSixNzUkqLM5PiCnPwSjTQdBaAOAx0FE62CTKASjUQdBSMgT1OTCwBCiRSf">Sage</url> 
-            or <url href="http://www.wolframalpha.com/input/?i=parametric+plot+3D++%28a+cos+t%2C+a+sin+t%2C+t%29+for+t+from+0+to+4+pi+and+a+from+2+to+4">Wolfram Alpha</url> 
-            for a plot of the surface. Click on either link.} -->
-          </p>
-      </task>
+    <task>
+        <p>
+          Look at a plot of the surface (use one of the links to the right). Now, suppose an object is on this surface at the point <m>\vec r(3,\pi) = (-3,0,\pi)</m>. At that point, please draw the partial derivatives <m>\vec r_a(3,\pi)</m> and <m>\vec r_t(3,\pi)</m>.
+          <!-- \extrafn{Please see <url href="http://aleph.sagemath.org/?z=eJxL0yjRUUjUtNVI1ErOL9Yo0QTytIoz88CsEk2ugsSixNzUkqLM5PiCnPwSjTQdBaAOAx0FE62CTKASjUQdBSMgT1OTCwBCiRSf">Sage</url> 
+          or <url href="http://www.wolframalpha.com/input/?i=parametric+plot+3D++%28a+cos+t%2C+a+sin+t%2C+t%29+for+t+from+0+to+4+pi+and+a+from+2+to+4">Wolfram Alpha</url> 
+          for a plot of the surface. Click on either link.} -->
+        </p>
+    </task>
 
-      <task>
-          <p>
-            If you were standing at <m>\vec r(3,\pi)</m> and someone told you, <q>Hey you, hold <m>t</m> constant and increase <m>a</m>,</q> then in which direction would you move. What if f someone told you, <q>Hey you, hold <m>a</m> constant and increase <m>t</m></q>?
-          </p>
-      </task>
+    <task>
+        <p>
+          If you were standing at <m>\vec r(3,\pi)</m> and someone told you, <q>Hey you, hold <m>t</m> constant and increase <m>a</m>,</q> then in which direction would you move. What if f someone told you, <q>Hey you, hold <m>a</m> constant and increase <m>t</m></q>?
+        </p>
+    </task>
 
-      <task>
-          <p>
-            Give vector equations for two tangent lines to the surface at <m>\vec r(3,\pi)</m>.
-            <hint>
-              <p>
-                You've got the point by plugging <m>(3,\pi)</m> into <m>\vec r</m>, and you've got two different direction vectors from <m>D\vec r</m>. Once you have a point and a vector, we <xref ref="prob_horseline">know</xref> how to get an equation of a line.
-              </p>
-            </hint>
-          </p>
-      </task>
+    <task>
+        <p>
+          Give vector equations for two tangent lines to the surface at <m>\vec r(3,\pi)</m>.
+          <hint>
+            <p>
+              You've got the point by plugging <m>(3,\pi)</m> into <m>\vec r</m>, and you've got two different direction vectors from <m>D\vec r</m>. Once you have a point and a vector, we <xref ref="prob_horseline">know</xref> how to get an equation of a line.
+            </p>
+          </hint>
+        </p>
+    </task>
   </exploration>
 
   <p>
@@ -555,26 +545,26 @@
       Consider again the parametric surface <m>\vec r(a,t) = (a\cos t, a\sin t, t)</m> for <m>2\leq a\leq 4</m> and <m>0\leq t\leq 4\pi</m>.
       We'd like to obtain an equation of the tangent plane to this surface at the point <m>\vec r(3,\pi)</m>. To find a plane we need a point and a normal (orthogonal) vector to the [tangent] plane.
     </p>
-      <task>
-          <p>
-            State the coordinates for <m>\vec r (3,\pi)</m>
-          </p>
-      </task>
+    <task>
+        <p>
+          State the coordinates for <m>\vec r (3,\pi)</m>
+        </p>
+    </task>
 
     <p>
       Since <m>\vec r_a (3,\pi)</m> and <m>\vec r_t (3, \pi)</m> (the two partial derivatives) are tangent to the surface they must be in our tangent plane also. So a vector orthogonal to <m>\vec r_a</m> and <m>\vec r_t</m> will be normal to the tangent plane.
-      <ol type="resume">
-      <task>
-          <p>
-            Find this normal vector.
-          </p>
-      </task>
+    </p>
+    <task>
+        <p>
+          Find this normal vector.
+        </p>
+    </task>
 
-      <task>
-          <p>
-            Give an equation for the tangent plane.
-          </p>
-      </task>
+    <task>
+        <p>
+          Give an equation for the tangent plane.
+        </p>
+    </task>
     <hint>
       <p>
         How do I obtain a vector orthogonal to both? Is it the scalar, dot, or cross product?
@@ -600,29 +590,29 @@
       \larsonfive{ <!-- \extrafn{See Larson 13.3:71<ndash />80 for more practice.} -->}
       Complete the following:
     </p>
-      <task>
-          <p>
-            Let <m>f(x,y)=3xy^3+e^{x}.</m>
-            Compute the four second partials
-            <me>
-              \ds \frac{\partial^2 f}{ \partial x^2}, \ds\frac{\partial^2 f}{\partial y \partial x}, \ds\frac{\partial^2 f}{\partial y^2},  \text{ and } \ds\frac{\partial^2 f}{\partial x \partial y}.
-            </me>
-          </p>
-      </task>
+    <task>
+        <p>
+          Let <m>f(x,y)=3xy^3+e^{x}.</m>
+          Compute the four second partials
+          <me>
+            \ds \frac{\partial^2 f}{ \partial x^2}, \ds\frac{\partial^2 f}{\partial y \partial x}, \ds\frac{\partial^2 f}{\partial y^2},  \text{ and } \ds\frac{\partial^2 f}{\partial x \partial y}.
+          </me>
+        </p>
+    </task>
 
-      <task>
-          <p>
-            For <m>f(x,y)=x^2\sin(y)+y^3</m>, compute both <m>f_{xy}</m> and <m>f_{yx}</m>.
-          </p>
-      </task>
+    <task>
+        <p>
+          For <m>f(x,y)=x^2\sin(y)+y^3</m>, compute both <m>f_{xy}</m> and <m>f_{yx}</m>.
+        </p>
+    </task>
 
-      <task>
-          <p>
-            Make a conjecture about a relationship between <m>f_{xy}</m> and <m>f_{yx}</m>. Then use your conjecture to quickly compute <m>f_{xy}</m> if
-            <me>
-              f(x,y)=3xy^2+\tan^{2}(\cos(x)) (x^{49}+x)^{1000}.
-            </me>
-          </p>
-      </task>
+    <task>
+        <p>
+          Make a conjecture about a relationship between <m>f_{xy}</m> and <m>f_{yx}</m>. Then use your conjecture to quickly compute <m>f_{xy}</m> if
+          <me>
+            f(x,y)=3xy^2+\tan^{2}(\cos(x)) (x^{49}+x)^{1000}.
+          </me>
+        </p>
+    </task>
   </exploration>
 </section>

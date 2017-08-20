@@ -24,7 +24,6 @@
         </li>
       </ul>
     </p>
-
     <p>
       In first-semester calculus, we learned how to compute integrals of the form <m>\int_a^b f dx</m> along straight (flat) segments <m>[a,b]</m>. This semester, in the line integral unit, we learned how to change the segment to a curve, which allowed us to compute integrals of the form <m>\int_C fds</m> along any curve <m>C</m>, instead of just along curves (segments) on the <m>x</m>-axis.
     </p>
@@ -62,41 +61,42 @@
 
       <p>
         You should have an upside down paraboloid, with at least 6 different parabolas drawn on the surface. These parabolas should divide the surface up into a bunch of different patches. Our goal is to find the area of each patch, where each patch is almost like a parallelogram.
-        <ol type="resume">
-        <task>
-            <p>
-              Find <m>\ds \frac{\partial \vec r}{\partial x}</m> and <m>\ds\frac{\partial \vec r}{\partial y}</m>.
-            </p>
-        </task>
+      </p>
+        
+      <task>
+          <p>
+            Find <m>\ds \frac{\partial \vec r}{\partial x}</m> and <m>\ds\frac{\partial \vec r}{\partial y}</m>.
+          </p>
+      </task>
 
-        <task>
-            <p>
-              At the point <m>(2,1)</m>, draw both vectors.
-            </p>
-        </task>
+      <task>
+          <p>
+            At the point <m>(2,1)</m>, draw both vectors.
+          </p>
+      </task>
 
-        <task>
-            <p>
-              These vectors form the edges of a parallelogram. Add that parallelogram to your picture.
-            </p>
-        </task>
+      <task>
+          <p>
+            These vectors form the edges of a parallelogram. Add that parallelogram to your picture.
+          </p>
+      </task>
 
-        <task>
-            <p>
-              Show that the area of a parallelogram whose edges are the vectors <m>\ds\frac{\partial \vec r}{\partial x}(x,y)</m> and <m>\ds\frac{\partial \vec r}{\partial y}</m> is <m>\sqrt{1+4x^2+4y^2}</m>.
-              <hint>
-                <p>
-                  What was one part of the definition/meanings for the cross product.
-                </p>
-              </hint>
-            </p>
-        </task>
+      <task>
+          <p>
+            Show that the area of a parallelogram whose edges are the vectors <m>\ds\frac{\partial \vec r}{\partial x}(x,y)</m> and <m>\ds\frac{\partial \vec r}{\partial y}</m> is <m>\sqrt{1+4x^2+4y^2}</m>.
+            <hint>
+              <p>
+                What was one part of the definition/meanings for the cross product.
+              </p>
+            </hint>
+          </p>
+      </task>
 
-        <task>
-            <p>
-              Find the area of the parallelogram whose edges are the vectors <m>\ds\frac{\partial \vec r}{\partial x}dx</m> and <m>\ds\frac{\partial \vec r}{\partial y}dy</m>, where <m>dx</m> and <m>dy</m> are not yet determined.
-            </p>
-        </task>
+      <task>
+          <p>
+            Find the area of the parallelogram whose edges are the vectors <m>\ds\frac{\partial \vec r}{\partial x}dx</m> and <m>\ds\frac{\partial \vec r}{\partial y}dy</m>, where <m>dx</m> and <m>dy</m> are not yet determined.
+          </p>
+      </task>
     </exploration>
 
     <p>
@@ -229,7 +229,6 @@
     </exploration>
 
     <exploration>
-    </p>
       <task>
           <p>
             If a surface <m>S</m> is parametrized by <m>\vec r(x,y) = (x,y,f(x,y))</m>, show that <m>d\sigma = \sqrt{1+f_x^2+f_y^2}\ dxdy</m> (compute a cross product).
@@ -253,41 +252,40 @@
             Set up an iterated double integral that would give the surface area of <m>S</m> for <m>x\geq 0</m>.
           </p>
       </task>
-    <p>
     </exploration>
 
     <exploration xml:id="sphere_surface_area_element">
       <p>
         Consider the sphere <m>x^2+y^2+z^2=a^2</m>. We'll find <m>d\sigma</m> using two different parameterizations.
       </p>
-        <task>
-            <p>
-              If you use the rectangular parametrization <m>\vec r(x,y) = (x,y,\sqrt{a^2-x^2-y^2})</m>, what is <m>d\sigma</m>? [Hint, use the previous problem.]
-            </p>
-        </task>
+      <task>
+          <p>
+            If you use the rectangular parametrization <m>\vec r(x,y) = (x,y,\sqrt{a^2-x^2-y^2})</m>, what is <m>d\sigma</m>? [Hint, use the previous problem.]
+          </p>
+      </task>
 
-        <task>
-            <p>
-              Why can this parametrization only be use if the surface has positive <m>z</m>-values?
-            </p>
-        </task>
+      <task>
+          <p>
+            Why can this parametrization only be use if the surface has positive <m>z</m>-values?
+          </p>
+      </task>
 
-        <task>
-            <p>
-              <!-- \extrafn{You'll want to memorize this result.} -->If you use the spherical parametrization
-              <me>
-                \vec r(\phi,\theta) = (a\sin\phi\cos\theta,a\sin\phi\sin\theta,a\cos\phi),
-              </me>
-              show that
-              <me>
-                d\sigma = (a^2|\sin\phi|)d\phi d\theta= (a^2\sin\phi) d\phi d\theta,
-              </me>
-              where we can ignore the absolute values if we require <m>0\leq \phi\leq \pi</m>. Along the way, you'll show that
-              <me>
-                \vec r_\phi\times \vec r_\theta = a^2\sin \phi (\sin\phi\cos\theta,\sin\phi\sin\theta,\cos\phi).
-              </me>
-            </p>
-        </task>
+      <task>
+          <p>
+            <!-- \extrafn{You'll want to memorize this result.} -->If you use the spherical parametrization
+            <me>
+              \vec r(\phi,\theta) = (a\sin\phi\cos\theta,a\sin\phi\sin\theta,a\cos\phi),
+            </me>
+            show that
+            <me>
+              d\sigma = (a^2|\sin\phi|)d\phi d\theta= (a^2\sin\phi) d\phi d\theta,
+            </me>
+            where we can ignore the absolute values if we require <m>0\leq \phi\leq \pi</m>. Along the way, you'll show that
+            <me>
+              \vec r_\phi\times \vec r_\theta = a^2\sin \phi (\sin\phi\cos\theta,\sin\phi\sin\theta,\cos\phi).
+            </me>
+          </p>
+      </task>
     </exploration>
 
     <p>
@@ -344,16 +342,13 @@
       <p>
         For both parts of this exercise, the computations involved were actually done in previous problems. You just need to compile the information here.
       </p>
-
       <p>
         Consider again the surface <m>z=9-x^2-y^2</m>.
       </p>
-    </p>
-    <task>
+      <task>
         <p>
           Using the parametrization <m>\vec r(x,y) =(x,y,9-x^2-y^2)</m>
         </p>
-      </p>
         <task>
             <p>
               Find a unit normal vector <m>\vec n</m> to the surface so that <m>\vec n</m> points upwards away from the <m>z</m>-axis. Make sure you explain how you know the normal vector you give is pointing upwards away from the <m>z</m> axis.
@@ -365,26 +360,24 @@
               State what <m>d\sigma</m> equals, as well as <m>\vec n d\sigma</m>.
             </p>
         </task>
-      <p>
-    </task>
+      </task>
 
-    <task>
+      <task>
         <p>
           Using the parametrization <m>\vec r(r,\theta) =(r\cos \theta,r\sin\theta ,9-r^2)</m>
         </p>
-          <task>
-              <p>
-                Find a unit normal vector <m>\vec n</m> to the surface so that <m>\vec n</m> points downwards towards the <m>z</m>-axis. Make sure you explain how you know the normal vector you give is pointing downwards towards the <m>z</m> axis.
-              </p>
-          </task>
+        <task>
+            <p>
+              Find a unit normal vector <m>\vec n</m> to the surface so that <m>\vec n</m> points downwards towards the <m>z</m>-axis. Make sure you explain how you know the normal vector you give is pointing downwards towards the <m>z</m> axis.
+            </p>
+        </task>
 
-          <task>
-              <p>
-                State what <m>d\sigma</m> equals, as well as <m>\vec n d\sigma</m>.
-              </p>
-          </task>
-    </task>
-    <p>
+        <task>
+            <p>
+              State what <m>d\sigma</m> equals, as well as <m>\vec n d\sigma</m>.
+            </p>
+        </task>
+      </task>
     </exploration>
 
     <p>

@@ -9,7 +9,6 @@
     <p>
       Consider the coordinate transformation <m>T(a,\omega)=(a\cos\omega,a^2\sin \omega)</m>.
     </p>
-  </p>
   <task>
       <p>
         <!-- \extrafn{See
@@ -35,7 +34,6 @@
       <p>
         <!-- \extrafn{Use Sage to check your answer.} -->To the same axes as above, add the graphs of:
       </p>
-    </p>
       <task>
           <p>
             <m>\vec T(1,\omega), \vec T(2,\omega), \vec T(4,\omega)</m>  for <m>\omega\in[0,2\pi]</m>
@@ -47,9 +45,7 @@
             <m>\vec T(a,0), \vec T(a,\pi/2), \vec T(a,-\pi/6)</m> for <m>a\in[0,4]</m>.
           </p>
       </task>
-    <p>
   </task>
-  <p>
     <hint>
       <p>
         when you're done, you should have a bunch of parabolas and ellipses.

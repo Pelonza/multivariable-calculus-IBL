@@ -229,7 +229,6 @@
         read the paragraph above.
       </p>
     </hint>
-  </p>
     <task>
         <p>
           <!-- \extrafn{Use <url href="http://aleph.sagemath.org">Sage</url> or <url href="http://www.wolframalpha.com/">Wolfram Alpha</url> to plot each parametrization  (<xref ref="x3d_parametric_plot">see</xref> for examples).} -->What bounds should you use to obtain the portion of the surface between <m>y=-2</m> and <m>y=3</m>?
@@ -247,7 +246,6 @@
           What bounds should you use to obtain the portion of the surface with <m>x\geq 0</m> and <m>y\in[2,5]</m>?
         </p>
     </task>
-  <p>
   </exploration>
 
   <exploration>

@@ -37,7 +37,7 @@
     
   <xi:include  href="ch02_1_vectors.mbx" />
   <xi:include  href="ch02_2_dotproduct.mbx" />
-  <xi:include  href="review_matrices.mbx" />
+  <xi:include  href="../review_matrices.mbx" />
   <xi:include  href="section2-4.mbx" />
   <xi:include  href="section2-5.mbx" />
   <xi:include  href="section2-6.mbx" />

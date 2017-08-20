@@ -15,7 +15,6 @@
     <p>
       The position of two of the many other jets is given by <m>\vec r_3(t)=(3\cos t, 3\sin t, t)</m> and <m>\vec r_4(t)=(4\cos t,4\sin t,t)</m>. A function which represents the smoke stream is <m>\vec r(a,t)=(a\cos t, a\sin t, t)</m> for <m>0\leq t\leq 4\pi</m> and <m>2\leq a\leq 4</m>.
     </p>
-  </p>
   <task>
       <p>
         What are <m>n</m> (inputs) and <m>m</m> (outputs) when we write the function <m>\vec r(a,t)=(a\cos t, a\sin t, t)</m> in the form  <m>\vec r\colon {\mathbb{R}}^n\to {\mathbb{R}}^m</m>?
@@ -26,7 +25,6 @@
       <p>
         Start by graphing the position of the three jets. For <m>t=0, \frac{\pi}{2}, \pi, \frac{3\pi}{2}</m> plot the position of each jet:
       </p>
-    </p>
       <task>
           <p>
             <m>\vec r_2(2,t)=(2\cos t, 2\sin t, t)</m>
@@ -44,7 +42,6 @@
             <m>\vec r_4(4,t)=(4\cos t, 4\sin t, t)</m>
           </p>
       </task>
-    <p>
   </task>
 
   <task>
@@ -75,7 +72,6 @@
         Describe the resulting surface.
       </p>
   </task>
-  <p>
   </exploration>
 
   <p>
