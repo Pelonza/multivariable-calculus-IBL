@@ -2,7 +2,7 @@
 <section xml:id="ch02_1_vectors">
   <title>Vectors and Lines</title>
   <objectives>
-    <title>Topical Objectives</title>
+    
     <ul>
       <li>
         <p>
@@ -24,6 +24,8 @@
     </p>
   </introduction>
 
+  <subsection>
+    <title>Finding Distances</title>
   <exploration>
     <p>
       To find the distance between two points <m>(x_1,y_1)</m> and <m>(x_2,y_2)</m> in the plane, we create a triangle connecting the two points. The base of the triangle has length <m>\Delta x=(x_2-x_1)</m> and the vertical side has length <m>\Delta y=(y_2-y_1)</m>. The Pythagorean theorem gives us the distance between the two points as <m>\sqrt{\Delta x^2+\Delta y^2}=\sqrt{(x_2-x_1)^2+(y_2-y_1)^2}</m>.
@@ -113,6 +115,8 @@
     Note that <m>(v_1,v_2,v_3)</m> could refer to either the point <m>V</m> or the vector <m>\vec v</m>. The context of the problem we are working on will help us know if we are dealing with a point or a vector.
   </p>
 
+  </subsection>
+  
   <definition>
     <statement>
       <p>

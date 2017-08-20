@@ -18,12 +18,10 @@
       <p>
         Then use a computer algebra system, such as <url href="http://http://www.wolframalpha.com/">Wolfram Alpha</url>, to verify your work. I suggest Wolfram Alpha, because it is now built into Mathematica 8.0+. If you can learn to use Wolfram Alpha, you will be able to use Mathematica. 
         <insight>
-        <p>
+          <p>
           You are also welcome to use Maple or Sage. On the surface both Mathematica and Maple are very similar, while Sage is meant to be more multi-purpose.
         </p>
         </insight>
-
-        }
       </p>
     </exploration>
   </subsection>
@@ -92,7 +90,10 @@
         <!-- \extrafn{
         \thomasee{See sections 3.7-3.9 for more examples involving inverse trig functions and implicit differentiation.}
         \stewarts{See section 3.5 for more examples involving inverse trig functions and implicit differentiation.}
-        } -->Use implicit differentiation to explain why the derivative of <m>y=\arcsin x</m> is <m>\ds y'=\frac{1}{\sqrt{1-x^2}}</m>. [Rewrite <m>y=\arcsin x</m> as <m>x=\sin y</m>, differentiate both sides, solve for <m>y'</m>, and then write the answer in terms of <m>x</m>].
+        } -->Use implicit differentiation to explain why the derivative of <m>y=\arcsin x</m> is <m>\ds y'=\frac{1}{\sqrt{1-x^2}}</m>. 
+        <hint>
+            Rewrite <m>y=\arcsin x</m> as <m>x=\sin y</m>, differentiate both sides, solve for <m>y'</m>, and then write the answer in terms of <m>x</m>.
+        </hint>
       </p>
     </exploration>
   </subsection>

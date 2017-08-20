@@ -9,12 +9,11 @@
       <p>
         We call <m>dx</m> the differential of <m>x</m>. If <m>f</m> is a function of <m>x</m>, then the differential of <m>f</m> is <m>df = f'(x) dx</m>. Since we often write <m>y=f(x)</m>, we'll interchangeably use <m>dy</m> and <m>df</m> to represent the differential of <m>f</m>.
       </p>
-
-      <p>
-        We will often refer to the differential notation <m>dy=f'dx</m> as <q>a change in the output <m>y</m> equals the derivative times a change in the input <m>x</m>.</q>
-      </p>
     </statement>
   </definition>
+  <p>
+    We will often refer to the differential notation <m>dy=f'dx</m> as <q>a change in the output <m>y</m> equals the derivative times a change in the input <m>x</m>.</q>
+  </p>
 
   <exploration>
     <p>
@@ -58,7 +57,10 @@
 
       <task>
           <p>
-            Using the two points <m>(3,9)</m> and <m>(x,y)</m>, compute the slope of the line connecting these two points. Your answer should involve <m>x</m> and <m>y</m>. What is the rise (i.e, the change in <m>y</m> called <m>dy</m>)? What is the run (i.e, the change in <m>x</m> called <m>dx</m>)?
+            Using the two points <m>(3,9)</m> and <m>(x,y)</m>, compute the slope of the line connecting these two points. Your answer should involve <m>x</m> and <m>y</m>. 
+          </p>
+          <p>
+            What is the rise (i.e, the change in <m>y</m> called <m>dy</m>)? What is the run (i.e, the change in <m>x</m> called <m>dx</m>)?
           </p>
       </task>
 
@@ -88,8 +90,9 @@
 
     <task>
         <p>
-          If the actual radius is 3.02
+          If the actual radius is 3.02...
         </p>
+
         <task>
             <p>
               What is <m>r</m>?

@@ -89,9 +89,7 @@
       } -->Let <m>P=(2,0,0)</m>, <m>Q=(0,3,0)</m>, and <m>R=(0,0,4)</m>. Find a vector that orthogonal to both <m>\vec {PQ}</m> and <m>\vec {PR}</m>. Then find the area of the triangle <m>PQR</m>
     </p>
     <hint>
-      <p>
         What shape does two triangles side-by-side make?
-      </p>
     </hint>
     <p>
       . Construct a 3D graph of this triangle.
