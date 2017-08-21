@@ -7,9 +7,11 @@
   </p>
 
   <exploration>
-    <p>
-      Let <m>f(x)=e^x</m>. You should find that your work on each step can be reused to do the next step.
-    </p>
+    <introduction>
+      <p>
+        Let <m>f(x)=e^x</m>. You should find that your work on each step can be reused to do the next step.
+      </p>
+    </introduction>
     <task>
         <p>
           Find a first degree polynomial <m>P_1(x)=a+bx</m> so that <m>P_1(0)=f(0)</m> and <m>P'_1(0)=f'(0)</m>. In other words, give me a line that passes through the same point and has the same slope as <m>f(x)=e^x</m> does at <m>x=0</m>. Set up a system of equations and then find the unknowns <m>a</m> and <m>b</m>. The next two are very similar.
@@ -38,14 +40,15 @@
 
   <exploration>
     <p>
-      <aside>
-        The polynomial you are creating is often called a Taylor polynomial. (I'm giving you the name so that you can search online for more information if you are interested.)
-      </aside>
+
       Now let <m>f(x)=\sin x</m>. Find a 7th degree polynomial so that the function and the polynomial have the same value and same first seven derivatives when evaluated at <m>x=0</m>. Evaluate the polynomial at <m>x=0.3</m>. How close is this value to your calculator's estimate of <m>\sin(0.3)</m>? You may find it valuable to use the notation
       <me>
         P(x) = a_0+a_1x+a_2x^2+a_3x^3 +\cdots+a_7 x^7.
       </me>
     </p>
+    <aside>
+      <p>The polynomial you are creating is often called a Taylor polynomial. (I'm giving you the name so that you can search online for more information if you are interested.)</p>
+    </aside>
   </exploration>
 
   <p>
@@ -53,9 +56,11 @@
   </p>
 
   <exploration xml:id="Taylor_at_1">
-    <p>
-      Let <m>f(x)=e^x</m>.
-    </p>
+    <introduction>
+      <p>
+        Let <m>f(x)=e^x</m>.
+      </p>
+    </introduction>
     <task>
         <p>
           Find a second degree polynomial
@@ -117,74 +122,77 @@
       <p>
         So that the derivatives of the volume function match the derivatives of the polynomial (at <m>r=3</m>), we need to satisfy the equations in the table below.
       </p>
-      <tabular>
-        <row bottom="minor">
-          <cell></cell>
-          <cell></cell>
-          <cell></cell>
-          <cell></cell>
-        </row>
-        <row>
-          <cell><m>k</m></cell>
-          <cell>Value of <m>V</m> at the <m>k</m>th derivative</cell>
-          <cell>Value of <m>P</m> at the the <m>k</m>th derivative</cell>
-          <cell>Equation</cell>
-        </row>
-        <row bottom="minor">
-          <cell></cell>
-          <cell></cell>
-          <cell></cell>
-          <cell></cell>
-        </row>
-        <row>
-          <cell><m>0</m></cell>
-          <cell><m>V(3) = \frac{4}{3}\pi (3)^3 = 36\pi</m></cell>
-          <cell><m>P(3) = a_0</m></cell>
-          <cell><m>a_0=36\pi</m></cell>
-        </row>
-        <row bottom="minor">
-          <cell></cell>
-          <cell></cell>
-          <cell></cell>
-          <cell></cell>
-        </row>
-        <row>
-          <cell><m>1</m></cell>
-          <cell><m>V'(3) = 4\pi (3)^2=36\pi</m></cell>
-          <cell><m>P'(3) = a_1</m></cell>
-          <cell><m>a_1=36\pi</m></cell>
-        </row>
-        <row bottom="minor">
-          <cell></cell>
-          <cell></cell>
-          <cell></cell>
-          <cell></cell>
-        </row>
-        <row>
-          <cell><m>2</m></cell>
-          <cell><m>V''(3) = 8\pi (3)=24\pi</m></cell>
-          <cell><m>P''(3) = 2a_2</m></cell>
-          <cell><m>2a_2=24\pi</m></cell>
-        </row>
-        <row bottom="minor">
-          <cell></cell>
-          <cell></cell>
-          <cell></cell>
-          <cell></cell>
-        </row>
-        <row>
-          <cell><m>3</m></cell>
-          <cell><m>V'''(3) = 8\pi</m></cell>
-          <cell><m>P'''(3) = 6a_3</m></cell>
-          <cell><m>6a_3=8\pi</m></cell>
-        </row>
-        <row bottom="minor">
-          <cell></cell>
-          <cell></cell>
-          <cell></cell>
-          <cell></cell>
-        </row>
-      </tabular>
+      <table>
+        <caption></caption>
+        <tabular>
+              <row bottom="minor">
+                <cell></cell>
+                <cell></cell>
+                <cell></cell>
+                <cell></cell>
+              </row>
+              <row>
+                <cell><m>k</m></cell>
+                <cell>Value of <m>V</m> at the <m>k</m>th derivative</cell>
+                <cell>Value of <m>P</m> at the the <m>k</m>th derivative</cell>
+                <cell>Equation</cell>
+              </row>
+              <row bottom="minor">
+                <cell></cell>
+                <cell></cell>
+                <cell></cell>
+                <cell></cell>
+              </row>
+              <row>
+                <cell><m>0</m></cell>
+                <cell><m>V(3) = \frac{4}{3}\pi (3)^3 = 36\pi</m></cell>
+                <cell><m>P(3) = a_0</m></cell>
+                <cell><m>a_0=36\pi</m></cell>
+              </row>
+              <row bottom="minor">
+                <cell></cell>
+                <cell></cell>
+                <cell></cell>
+                <cell></cell>
+              </row>
+              <row>
+                <cell><m>1</m></cell>
+                <cell><m>V'(3) = 4\pi (3)^2=36\pi</m></cell>
+                <cell><m>P'(3) = a_1</m></cell>
+                <cell><m>a_1=36\pi</m></cell>
+              </row>
+              <row bottom="minor">
+                <cell></cell>
+                <cell></cell>
+                <cell></cell>
+                <cell></cell>
+              </row>
+              <row>
+                <cell><m>2</m></cell>
+                <cell><m>V''(3) = 8\pi (3)=24\pi</m></cell>
+                <cell><m>P''(3) = 2a_2</m></cell>
+                <cell><m>2a_2=24\pi</m></cell>
+              </row>
+              <row bottom="minor">
+                <cell></cell>
+                <cell></cell>
+                <cell></cell>
+                <cell></cell>
+              </row>
+              <row>
+                <cell><m>3</m></cell>
+                <cell><m>V'''(3) = 8\pi</m></cell>
+                <cell><m>P'''(3) = 6a_3</m></cell>
+                <cell><m>6a_3=8\pi</m></cell>
+              </row>
+              <row bottom="minor">
+                <cell></cell>
+                <cell></cell>
+                <cell></cell>
+                <cell></cell>
+              </row>
+            </tabular>
+          </table>
       <p>
         This tells us that the third order polynomial is
         <me>

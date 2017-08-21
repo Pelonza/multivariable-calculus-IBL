@@ -12,19 +12,57 @@
 	"buffers":
 	[
 		{
-			"file": "chapter01/ch01_2_differentials.mbx",
+			"file": "chapter01/ch01_5_taylorseries.mbx",
 			"settings":
 			{
-				"buffer_size": 5361,
+				"buffer_size": 11143,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "chapter13/section13-2.mbx",
+			"file": "chapter01/ch01_1_calc1review.mbx",
 			"settings":
 			{
-				"buffer_size": 7378,
+				"buffer_size": 5768,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "index.mbx",
+			"settings":
+			{
+				"buffer_size": 5416,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "\n<section xml:id=\"ch02_1_vectors\">\n  <title>Vectors and Lines</title>\n  <objectives>\n    \n    <ul>\n      <li>\n        <p>\n          understand vectors as quantities having length and direction, independent of position\n        </p>\n      </li>\n\n      <li>\n        <p>\n          express curves with parametric (vector) equations\n        </p>\n      </li>\n    </ul>\n  </objectives>\n\n  <introduction>\n    <p>\n      Learning to work with vectors will be key tool we need for our work in high dimensions. Let's start with some problems related to finding distance in 3D, drawing in 3D, and then we'll be ready to work with vectors.\n    </p>\n  </introduction>\n\n  <subsection>\n    <title>Finding Distances</title>\n  <exploration>\n    <introduction>\n      <p>\n          To find the distance between two points <m>(x_1,y_1)</m> and <m>(x_2,y_2)</m> in the plane, we create a triangle connecting the two points. The base of the triangle has length <m>\\Delta x=(x_2-x_1)</m> and the vertical side has length <m>\\Delta y=(y_2-y_1)</m>. The Pythagorean theorem gives us the distance between the two points as <m>\\sqrt{\\Delta x^2+\\Delta y^2}=\\sqrt{(x_2-x_1)^2+(y_2-y_1)^2}</m>.\n      </p>\n    </introduction>\n      <task>\n          <p>\n            Draw a 3-D axis then plot the points <m>(1,5)</m> and <m>(2,3)</m>\n          </p>\n      </task>\n\n      <task>\n          <p>\n            Sketch the triangle that connects these two points and the origin <mdash /> <m>(0,0)</m>\n          </p>\n      </task>\n\n      <task>\n          <p>\n            Find <m>\\Delta x</m> and <m>\\Delta y</m>\n          </p>\n      </task>\n\n      <task>\n          <p>\n            Now extend your picture into 3 and use it to show that the distance between two points <m>(x_1,y_1,z_1)</m> and <m>(x_2,y_2,z_2)</m> in 3-dimensions is <m>\\sqrt{\\Delta x^2+\\Delta y^2+\\Delta z^2}=\\sqrt{(x_2-x_1)^2+(y_2-y_1)^2+(z_2-z_1)^2}</m>.\n          </p>\n      </task>\n\n      <task>\n          <p>\n            Use this formula to find the distance between the points <m>(1,5,2)</m> and <m>(2,3,3)</m>\n          </p>\n      </task>\n  </exploration>\n\n  <exploration>\n    <p>\n      <!-- \\extrafn{\n      \\thomasee{See 12.1:41-58.} \n      \\stewarts{See 12.1:11-18}\n      } -->Recall that a circle (or sphere in 3-D) is just a collection of points which are all equal distance away from a center point.\n    </p>\n      <task>\n          <p>\n            If the center of a circle is the point <m>(1,5)</m> what is the equation for a circle which passes through the point <m>(2,3)</m>?\n          </p>\n      </task>\n\n      <task>\n          <p>\n            Find the distance between the two points <m>P=(2,3,-4)</m> and <m>Q=(0,-1,1)</m>.\n          </p>\n      </task>\n\n      <task>\n          <p>\n            Now find an equation of the sphere passing though point <m>Q</m> whose center is at <m>P</m>. \n\n            Hint: Each point on the surface of a sphere is <m>r</m> distance away from the center.\n          </p>\n      </task>\n  </exploration>\n\n  <definition>\n    <statement>\n      <p>\n        A vector is a magnitude in a certain direction.\n        If <m>P</m> and <m>Q</m> are points, then the vector <m>\\vec{PQ}</m> is the directed line segment from <m>P</m> to <m>Q</m>. This definition holds in 1D, 2D, 3D, and beyond.\n        If <m>V=(v_1,v_2,v_3)</m> is a point in space, then to talk about the vector <m>\\vec v</m> from the origin <m>O</m> to <m>V</m> we'll use any of the following notations:\n        <me>\n          \\vec v = \\vec{OV}=\\left\\lt v_1,v_2,v_3\\right> \n          = v_1\\mathbf{i}+v_2\\mathbf{j}+v_3\\mathbf{k} \n          = (v_1,v_2,v_3) \n          = \\begin{pmatrix}v_1\\\\ v_2\\\\ v_3\n          \\end{pmatrix} \n          .\n        </me>\n      </p>\n\n      <p>\n        The entries of the vector are called the <m>x</m>, <m>y</m>, and <m>z</m> (or i, j, k) components of the vector.\n      </p>\n    </statement>\n  </definition>\n\n  <p>\n    Note that <m>(v_1,v_2,v_3)</m> could refer to either the point <m>V</m> or the vector <m>\\vec v</m>. The context of the problem we are working on will help us know if we are dealing with a point or a vector.\n  </p>\n\n  </subsection>\n  \n  <definition>\n    <statement>\n      <p>\n        Let <m>\\mathbb{R}</m> represent the set real numbers. Real numbers are actually 1D vectors.\n      </p>\n\n      <p>\n        Let <m>\\mathbb{R}^2</m> represent the set of vectors <m>(x_1,x_2)</m> in the plane.\n      </p>\n\n      <p>\n        Let <m>\\mathbb{R}^3</m> represent the set of vectors <m>(x_1,x_2,x_3)</m> in space. There's no reason to stop at 3, so let <m>\\mathbb{R}^n</m> represent the set of vectors <m>(x_1,x_2,\\ldots,x_n)</m> in <m>n</m> dimensions.\n      </p>\n    </statement>\n  </definition>\n\n  <p>\n    In first semester calculus and before, most of our work dealt with problem in <m>\\mathbb{R}</m> and <m>\\mathbb{R}^2</m>. Most of our work now will involve problems in <m>\\mathbb{R}^2</m> and <m>\\mathbb{R}^3</m>. We've got to learn to visualize in <m>\\mathbb{R}^3</m>.\n  </p>\n\n  <definition xml:id=\"def_vecadd\">\n    <statement>\n      <p>\n        Suppose <m>\\vec x=\\left\\lt x_1,x_2,x_3\\right></m> and <m>\\vec y=\\left\\lt y_1,y_2,y_3\\right></m> are two vectors in 3D, and <m>c</m> is a real number. We define vector addition and scalar multiplication as follows:\n        <ul>\n          <li>\n            <p>\n              Vector addition: <m>\\vec x+\\vec y = (x_1+y_1,x_2+y_2,x_3+y_3)</m> (add component-wise).\n            </p>\n          </li>\n\n          <li>\n            <p>\n              Scalar multiplication: <m>c\\vec x = (cx_1,cx_2,cx_3)</m>.\n            </p>\n          </li>\n        </ul>\n      </p>\n    </statement>\n  </definition>\n\n  <exploration>\n    <p>\n      <!-- \\extrafn{\n      \\thomasee{See 12.2:23-24.} \n      \\stewarts{See 12.2:5-6}\n      } -->Consider the vectors <m>\\vec u=\\langle 1,2 \\rangle</m> and <m>\\vec v=\\left\\lt 3,1\\right></m>. Draw <m>\\vec u</m>, <m>\\vec v</m>, <m>\\vec u+\\vec v</m>, and <m>\\vec u-\\vec v</m> with their tail placed at the origin. Then draw <m>\\vec v</m> with its tail at the head of <m>\\vec u</m>.\n    </p>\n  </exploration>\n\n  <exploration xml:id=\"prob_donkey\">\n    <p>\n      <!-- \\extrafn{\n      \\thomasee{See 11.1: 3,4.}\n      } -->Consider the vector <m>\\vec v=\\langle 3,-1 \\rangle</m>.\n    </p>\n    <task>\n        <p>\n          Draw <m>\\vec v</m>, <m>-\\vec v</m>, and <m>3\\vec v</m>.\n        </p>\n    </task>\n\n    <p>\n      Suppose a donkey travels along the path given by <m>(x,y)=\\vec v t = (3t,-t)</m>, where <m>t</m> represents time.\n    </p>\n    <task>\n      <p>\n        At the following times, where is the donkey?\n      </p>\n      <task>\n          <p>\n            <m>t=0</m> ?\n          </p>\n      </task>\n\n      <task>\n          <p>\n            <m>t=1</m> ?\n          </p>\n      </task>\n\n      <task>\n          <p>\n            <m>t=2</m> ?\n          </p>\n      </task>\n    </task>\n\n    <task>\n        <p>\n          Draw an axis, then sketch the path followed by the donkey.\n        </p>\n    </task>\n\n    <task>\n        <p>\n          Where is the donkey at time <m>t=0,1,2</m>? Put markers with labels on your graph to show the donkey's location.\n        </p>\n    </task>\n\n  </exploration>\n\n  <p>\n    In a previous problem <xref ref=\"prob_donkey\" /> you encountered <m>(x,y)=(3t,-t)</m>. This is an example of a function where the input is <m>t</m> and the output is a vector <m>(x,y)</m>. For each input <m>t</m>, you get a single vector output <m>(x,y)</m>. Such a function is called a parametrization of the donkey's path. Because the output is a vector, we call the function a vector-valued function. Often, we'll use the variable <m>\\vec r</m> to represent the radial vector <m>(x,y)</m>, or <m>(x,y,z)</m> in 3D. So we could rewrite the position of the donkey as <m>\\vec r(t)=(3,-1)t</m>. We use <m>\\vec r</m> instead of <m>r</m> to remind us that the output is a vector.\n  </p>\n\n  <p>\n    Let's look at another, similar problem.\n  </p>\n\n  <exploration xml:id=\"prob_horseline\">\n    <p>\n      <!-- \\extrafn{\n      \\thomasee{See 12.2: 1.}\n      } -->Suppose a horse races down a path given by the vector-valued function <m>\\vec r(t) = (1,2)t+(3,4)</m>. (Remember this is the same as writing <m>(x,y) =  (1,2)t+(3,4)</m> or similarly <m>(x,y)=(1t+3,2t+4)</m>.)\n    </p>\n    <task>\n        <p>\n          Where is the horse at time <m>t=0,1,2</m>?\n        </p>\n    </task>\n\n    <task>\n        <p>\n          Draw an set of axis and put markers on your graph to show the horse's location.\n        </p>\n    </task>\n\n    <task>\n        <p>\n          Draw the path followed by the horse.\n        </p>\n    </task>\n  </exploration>\n\n  <p>\n    In the last two problems we described the donkey and horse's paths using vectors. The use of vectors actually lets us do a lot more like give a generalized direction or easily compute their speed at any point along the path. To do that we need to define two more mathematical ideas, the magnitude and unit-vector.\n  </p>\n\n  <definition>\n    <statement>\n      <p>\n        The magnitude, or length, or norm of a vector <m>\\vec v = \\left\\lt v_1,v_2,v_3\\right></m> is <m>|\\vec v| = \\sqrt{v_1^2+v_2^2+v_3^2}</m>. It is just the distance from the point <m>(v_1,v_2,v_3)</m> to the origin.\n      </p>\n\n      <p>\n        Note that in 1D, the length of the vector <m>\\left\\lt -2\\right></m> is simply <m>|-2|=\\sqrt{(-2)^2}=2</m>, the distance to 0. Our use of the absolute value symbols is appropriate, as it generalizes the concept of absolute value (distance to zero) to all dimensions.\n      </p>\n    </statement>\n  </definition>\n\n  <p>\n    In the special circumstance where a vector represents an object's velocity, the magnitude of the vector gives the objects <em>speed</em> or non-directional velocity.\n  </p>\n\n  <definition>\n    <statement>\n      <p>\n        A unit vector is a vector whose length is one unit. The notation for a unit vector is generally a <q><m>\\hat{\\ }</m></q> or <term>bold face</term>. Equivalently, the unit vector of a vector <m>\\vec{v}</m> is: <m>\\hat{v}=\\frac{\\vec{v}}{|\\vec{v}|}</m>\n      </p>\n\n      <p>\n        The standard unit vectors are <m>\\mathbf{i}=\\left\\lt 1,0,0\\right></m>, <m>\\mathbf{j}=\\left\\lt 0,1,0\\right></m>, <m>\\mathbf{k}=\\left\\lt 0,0,1\\right></m>.\n      </p>\n    </statement>\n  </definition>\n\n  <exploration>\n    <title>Magnitude and Unit Vector Practice</title>\n    <p>\n      For each of the following vectors, compute the magnitude and unit vector in the same direction.\n    </p>\n      <task>\n          <p>\n            <m>-3\\ii + 7 \\jj</m>\n          </p>\n      </task>\n\n      <task>\n          <p>\n            <m>\\lt -4,2,4></m>\n          </p>\n      </task>\n\n      <task>\n          <p>\n            <m>8\\ii - \\jj + 4 \\kk</m>\n          </p>\n      </task>\n  </exploration>\n\n  <exploration>\n    <p>\n      <!-- \\extrafn{\n      \\thomasee{See 12.2: 9,17,25,33 and surrounding.} \n      \\stewarts{See 12.2: 23-26, 41, 42}\n      } -->Consider the two points <m>P=(1,2,3)</m> and <m>Q=(2,-1,0)</m>.\n    </p>\n      <task>\n          <p>\n            Write the vector <m>\\vec {PQ}</m> in component form <m>\\lt a,b,c)\\rangle</m>.\n          </p>\n      </task>\n\n      <task>\n          <p>\n            Find the length (magnitude) of vector <m>\\vec {PQ}</m>.\n          </p>\n      </task>\n\n      <task>\n          <p>\n            Find a unit vector for <m>\\vec{PQ}</m>.\n          </p>\n      </task>\n\n      <task>\n          <p>\n            Finally, find a vector of length 7 units that points in the same direction as <m>\\vec{PQ}</m>.\n          </p>\n      </task>\n  </exploration>\n\n  <exploration>\n    <p>\n      Let's return to <xref ref=\"prob_donkey\">problems</xref> and <xref ref=\"prob_horseline\"></xref>. We now have the tools to determine the donkey's and horse's speed and direction.\n    </p>\n    <task>\n      <p>\n        The donkey's path was given by <m>(x,y)=\\vec v t = (3t,-t)</m>. Find\n      </p>\n      <task>\n          <p>\n            The donkey's speed\n          </p>\n      </task>\n\n      <task>\n          <p>\n            A unit vector that gives the donkey's direction of travel.\n          </p>\n      </task>\n    </task>\n\n    <task>\n        <p>\n          The horse's path was given by <m>\\vec r(t) = (1,2)t + (3,4)</m>.\n        </p>\n        <task>\n            <p>\n              State the part of <m>\\vec r(t)</m> which gives the direction of travel.\n            </p>\n        </task>\n\n        <task>\n            <p>\n              What is a unit vector in the same direction?\n            </p>\n        </task>\n\n        <task>\n            <p>\n              what is the speed of the horse?\n            </p>\n        </task>\n    </task>\n  </exploration>\n\n  <exploration>\n    <p>\n      <!-- \\extrafn{\n      \\thomasee{See 12.5: 1-12.} \n      \\stewarts{Look at 12.2:34-40}\n      } -->A raccoon is sitting at point <m>P=(0,2,3)</m>. It starts to climb in the direction <m>\\vec v=\\left\\lt 1,-1,2\\right></m>.\n    </p>\n\n    <p>\n      Write a vector equation <m>(x,y,z)=(?,?,?)</m> for the line that passes through the point <m>P</m> and is parallel to <m>\\vec v</m>. [Hint, study <xref ref=\"prob_horseline\">problem</xref>, and base your work off of what you saw there. It's almost identical.]\n    </p>\n\n    <p>\n      Generalize your work to give an equation of the line that passes through the point <m>P=(x_1,y_1,z_1)</m> and is parallel to the vector <m>\\vec v=\\langle v_1,v_2,v_3 \\rangle</m>.\n    </p>\n  </exploration>\n\n  <p>\n    Make sure you ask me in class to show you how to connect the equation developed above to what you have been doing since middle school. If you can remember <m>y=mx+b</m>, then you can quickly remember the equation of a line. If I don't show you in class, make sure you ask me (or feel free to come by early and ask before class).\n  </p>\n\n  <exploration xml:id=\"first_line_between_two_points\">\n    <p>\n      <!-- \\extrafn{\n      \\thomasee{See 12.5: 13-20.} \n      \\stewarts{12.5: 6-15}\n      } -->Let <m>P=(3,1)</m> and <m>Q=(-1,4)</m>.\n    </p>\n      <task>\n          <p>\n            Write a vector equation <m>\\vec r(t)=(x,y)</m> for (i.e, give a parametrization of) the line that passes through <m>P</m> and <m>Q</m>, with <m>\\vec r(0)=P</m> and <m>\\vec r(1)=Q</m>.\n          </p>\n      </task>\n\n      <task>\n          <p>\n            Write a vector equation for the line that passes through <m>P</m> and <m>Q</m>, with <m>\\vec r(0)=P</m> but whose speed is twice the speed of the first line.\n          </p>\n      </task>\n\n      <task>\n          <p>\n            Write a vector equation for the line that passes through <m>P</m> and <m>Q</m>, with <m>\\vec r(0)=P</m> but whose speed is one unit per second.\n          </p>\n      </task>\n  </exploration>\n\n  <subsection>\n    <title>Computational Practice</title>\n    <p> These are provided to help you achieve better skills in basic computational answers </p>\n    <exercises>\n      <exercise>\n        <webwork source=\"Library/Michigan/Chap13Sec2/Q09.pg\" />\n      </exercise>\n\n      <exercise>\n        <webwork source=\"Library/maCalcDB/setVectors1space3D/UR_VC_1_1.pg\" />\n      </exercise>\n\n      <exercise>\n        <webwork source=\"Library/maCalcDB/setVectors1space3D/UR_VC_1_6.pg\" />\n      </exercise>\n\n      <exercise>\n        <webwork source=\"Library/WHFreeman/Rogawski_Calculus_Early_Transcendentals_Second_Edition/12_Vector_Geometry/12.2_Vectors_in_Three_Dimensions/12.2.35.pg\" />\n      </exercise>   \n    </exercises>\n  </subsection>\n\n\n</section>\n",
+			"file": "chapter02/ch02_1_vectors.mbx",
+			"file_size": 15725,
+			"file_write_time": 131477299649896066,
+			"settings":
+			{
+				"buffer_size": 15314,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "review_matrices.mbx",
+			"settings":
+			{
+				"buffer_size": 10206,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "sec_functionlist.mbx",
+			"settings":
+			{
+				"buffer_size": 4264,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -33,34 +71,7 @@
 			"file": "chapter01/ch01main.mbx",
 			"settings":
 			{
-				"buffer_size": 1445,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "chapter02/chapter2main.mbx",
-			"settings":
-			{
-				"buffer_size": 1187,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "chapter02/ch02_1_vectors.mbx",
-			"settings":
-			{
-				"buffer_size": 15229,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "chapter02/ch02_2_dotproduct.mbx",
-			"settings":
-			{
-				"buffer_size": 6534,
+				"buffer_size": 1411,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -132,36 +143,61 @@
 	[
 		"/C/Users/Karl/Documents/GitHub/multivariable-calculus-IBL/ptx",
 		"/C/Users/Karl/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter01",
-		"/C/Users/Karl/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter02",
-		"/C/Users/Karl/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter13"
+		"/C/Users/Karl/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter02"
 	],
 	"file_history":
 	[
-		"/C/Users/Karl/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter13/section13-3.mbx",
+		"/C/Users/Karl/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter01/ch01_3_systems.mbx",
+		"/C/Users/Karl/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter01/ch01_2_differentials.mbx",
+		"/C/Users/Karl/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter13/section13-2.mbx",
 		"/C/Users/Karl/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter13/section13-1.mbx",
+		"/C/Users/Karl/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter12/section12-3.mbx",
+		"/C/Users/Karl/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter12/chapter12.mbx",
+		"/C/Users/Karl/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter11/section11-5.mbx",
+		"/C/Users/Karl/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter11/section11-4.mbx",
+		"/C/Users/Karl/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter11/section11-3.mbx",
+		"/C/Users/Karl/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter11/section11-2.mbx",
+		"/C/Users/Karl/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter11/chapter11.mbx",
+		"/C/Users/Karl/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter10/section10-3.mbx",
+		"/C/Users/Karl/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter10/section10-2.mbx",
+		"/C/Users/Karl/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter10/section10-1.mbx",
+		"/C/Users/Karl/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter10/chapter10.mbx",
+		"/C/Users/Karl/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter09/section9-5.mbx",
+		"/C/Users/Karl/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter09/section9-4.mbx",
+		"/C/Users/Karl/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter09/chapter9.mbx",
+		"/C/Users/Karl/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter08/section8-4x.mbx",
+		"/C/Users/Karl/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter08/section8-4.mbx",
+		"/C/Users/Karl/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter02/section2-6.mbx",
+		"/C/Users/Karl/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter03/section3-1.mbx",
+		"/C/Users/Karl/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter04/section4-1.mbx",
+		"/C/Users/Karl/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter05/section5-1.mbx",
+		"/C/Users/Karl/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter07/section7-4.mbx",
+		"/C/Users/Karl/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter07/section7-2.mbx",
+		"/C/Users/Karl/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter06/section6-5.mbx",
+		"/C/Users/Karl/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter06/section6-4.mbx",
+		"/C/Users/Karl/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter05/section5-2.mbx",
+		"/C/Users/Karl/Documents/GitHub/multivariable-calculus-IBL/ptx/review_matrices.mbx",
+		"/C/Users/Karl/Documents/GitHub/multivariable-calculus-IBL/ptx/sec_functionlist.mbx",
+		"/C/Users/Karl/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter02/ch02_1_vectors.mbx",
+		"/C/Users/Karl/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter02/section2-4.mbx",
+		"/C/Users/Karl/Documents/GitHub/multivariable-calculus-IBL/ptx/frontmatter.ptx",
+		"/C/Users/Karl/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter01/ch01_1_calc1review.mbx",
+		"/C/Users/Karl/Documents/GitHub/mathbook/xsl/mathbook-IBLhtml.xsl",
+		"/C/Users/Karl/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter02/chapter2main.mbx",
+		"/C/Users/Karl/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter02/ch02_2_dotproduct.mbx",
+		"/C/Users/Karl/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter13/section13-3.mbx",
 		"/C/Users/Karl/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter12/section12-1.mbx",
 		"/C/Users/Karl/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter12/section12-2.mbx",
 		"/C/Users/Karl/Documents/GitHub/multivariable-calculus-IBL/ptx/index.mbx",
-		"/C/Users/Karl/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter11/section11-3.mbx",
 		"/C/Users/Karl/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter11/section11-1.mbx",
-		"/C/Users/Karl/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter10/section10-1.mbx",
-		"/C/Users/Karl/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter09/section9-5.mbx",
-		"/C/Users/Karl/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter09/section9-4.mbx",
 		"/C/Users/Karl/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter09/section9-3.mbx",
 		"/C/Users/Karl/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter09/section9-1.mbx",
 		"/C/Users/Karl/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter08/section8-2.mbx",
 		"/C/Users/Karl/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter08/section8-1.mbx",
-		"/C/Users/Karl/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter07/section7-4.mbx",
 		"/C/Users/Karl/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter07/section7-3.mbx",
-		"/C/Users/Karl/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter07/section7-2.mbx",
-		"/C/Users/Karl/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter06/section6-5.mbx",
-		"/C/Users/Karl/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter06/section6-4.mbx",
 		"/C/Users/Karl/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter06/section6-3.mbx",
-		"/C/Users/Karl/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter05/section5-2.mbx",
 		"/C/Users/Karl/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter01/ch01main.mbx",
-		"/C/Users/Karl/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter01/ch01_2_differentials.mbx",
 		"/C/Users/Karl/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter01/ch01_5_taylorseries.mbx",
-		"/C/Users/Karl/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter02/ch02_1_vectors.mbx",
 		"/C/Users/kschmit1/Documents/GitHub/IntroductoryDataScienceBook/README.md",
 		"/C/Users/kschmit1/Documents/GitHub/IntroductoryDataScienceBook/frontmatter.ptx",
 		"/C/Users/kschmit1/Documents/GitHub/IntroductoryDataScienceBook/chapter1.ptx",
@@ -171,7 +207,7 @@
 	],
 	"find":
 	{
-		"height": 26.0
+		"height": 34.0
 	},
 	"find_in_files":
 	{
@@ -186,6 +222,17 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"</insight>",
+			"<insight>",
+			"<p><insight>",
+			"</insight></p>",
+			"</insight>",
+			"<insight>",
+			"insight",
+			"<hint> <p>",
+			"<hint>",
+			"project",
+			"insight",
 			"<ol type=\"resume\">"
 		],
 		"highlight": true,
@@ -194,6 +241,13 @@
 		"regex": false,
 		"replace_history":
 		[
+			"</aside>",
+			"<aside>",
+			"<insight>",
+			"</insight>",
+			"</insight></p>",
+			"<p><insight>",
+			"aside",
 			""
 		],
 		"reverse": false,
@@ -205,24 +259,24 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 3,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "chapter01/ch01_2_differentials.mbx",
+					"file": "chapter01/ch01_5_taylorseries.mbx",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 5361,
+						"buffer_size": 11143,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								4664,
-								4664
+								5911,
+								5911
 							]
 						],
 						"settings":
@@ -232,27 +286,87 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1434.0,
+						"translation.y": 2034.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "chapter01/ch01_1_calc1review.mbx",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5768,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4527,
+								4527
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/MBXTools/mbx.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 2268.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "index.mbx",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5416,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4789,
+								4789
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/MBXTools/mbx.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1792.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
 					"type": "text"
 				},
 				{
-					"buffer": 1,
-					"file": "chapter13/section13-2.mbx",
+					"buffer": 3,
+					"file": "chapter02/ch02_1_vectors.mbx",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 7378,
+						"buffer_size": 15314,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								6698,
-								6698
+								2106,
+								2342
 							]
 						],
 						"settings":
@@ -262,27 +376,57 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 3414.0,
+						"translation.y": 864.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
 					"type": "text"
 				},
 				{
-					"buffer": 2,
-					"file": "chapter01/ch01main.mbx",
+					"buffer": 4,
+					"file": "review_matrices.mbx",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1445,
+						"buffer_size": 10206,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1340,
-								1340
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/MBXTools/mbx.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "sec_functionlist.mbx",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4264,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
 							]
 						],
 						"settings":
@@ -299,20 +443,20 @@
 					"type": "text"
 				},
 				{
-					"buffer": 3,
-					"file": "chapter02/chapter2main.mbx",
+					"buffer": 6,
+					"file": "chapter01/ch01main.mbx",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1187,
+						"buffer_size": 1411,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1032,
-								1032
+								1111,
+								1111
 							]
 						],
 						"settings":
@@ -322,67 +466,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 4,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "chapter02/ch02_1_vectors.mbx",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 15229,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								6378,
-								6378
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/MBXTools/mbx.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 2940.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "chapter02/ch02_2_dotproduct.mbx",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 6534,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								6504,
-								6504
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/MBXTools/mbx.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 2754.0,
+						"translation.y": 378.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 3,
