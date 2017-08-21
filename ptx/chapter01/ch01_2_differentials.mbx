@@ -33,16 +33,19 @@
   </p>
 
   <exploration xml:id="differentialtangentline">
-    <p>
+    <introduction>
+      <p>
       <!-- \extrafn{
       \thomasee{See 3.11:39-44. Also see problems 3.11:1-18.}
       \stewarts{See 3.10:1-10 and 3.10:23-31.} -->
-
-      <insight>
-        The linearization of a function is just an equation of the tangent line where you solve for <m>y</m>.
-      </insight>
       Consider the function <m>y=f(x) = x^2</m>. This problem has multiple steps, but each is fairly short.
-    </p>
+      </p>
+      <aside>
+          <p>
+            The linearization of a function is just an equation of the tangent line where you solve for <m>y</m>.
+          </p>
+      </aside>
+    </introduction>
       <task>
           <p>
             Find the differential of <m>y</m> with respect to <m>x</m>.
@@ -78,9 +81,11 @@
   </exploration>
 
   <exploration xml:id="diff-sphere">
-    <p>
-      <!-- \extrafn{\thomasee{See 3.11:45-62.} \stewarts{See 3.10}} -->The manufacturer of a spherical storage tank needs to create a tank with a radius of 3 m. Recall that the volume of a sphere is <m>V(r) = \frac{4}{3}\pi r^3</m>. No manufacturing process is perfect, so the resulting sphere will have a radius of 3 m, plus or minus some small amount <m>dr</m>. The actual radius will be <m>3+dr</m>.
-    </p>
+    <introduction>
+      <p>
+        <!-- \extrafn{\thomasee{See 3.11:45-62.} \stewarts{See 3.10}} -->The manufacturer of a spherical storage tank needs to create a tank with a radius of 3 m. Recall that the volume of a sphere is <m>V(r) = \frac{4}{3}\pi r^3</m>. No manufacturing process is perfect, so the resulting sphere will have a radius of 3 m, plus or minus some small amount <m>dr</m>. The actual radius will be <m>3+dr</m>.
+      </p>
+    </introduction>
   
     <task>
         <p>
@@ -89,9 +94,11 @@
     </task>
 
     <task>
-        <p>
-          If the actual radius is 3.02...
-        </p>
+        <introduction>
+          <p>
+            If the actual radius is 3.02...
+          </p>
+        </introduction>
 
         <task>
             <p>

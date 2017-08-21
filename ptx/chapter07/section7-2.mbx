@@ -173,11 +173,11 @@
         <p>
           <!-- \extrafn{
 
-          <insight>
+          <aside>
           <p>
             Make sure you ask me in class to show you physically exactly how you can see these differential formulas.
           </p>
-          </insight>
+          </aside>
 
           } --><xref ref="prob_differential_volume_of_a_cylinder">In</xref> we showed that a change in the volume of a cylinder is approximately
           <me>

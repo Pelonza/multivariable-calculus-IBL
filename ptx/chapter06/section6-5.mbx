@@ -169,14 +169,14 @@
     <p>
       }
 
-      <insight>
+      <aside>
       <p>
         <me>
           \vec T(\rho,\phi,\theta) = (\rho\sin\phi\cos \theta, \rho\sin\phi\sin \theta,\rho \cos \phi).
         </me>
       </p>
 
-      </insight>
+      </aside>
 
       \larsonfive{
       <me>

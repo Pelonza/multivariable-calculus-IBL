@@ -38,9 +38,9 @@
 
   <exploration>
     <p>
-      <insight>
+      <aside>
         The polynomial you are creating is often called a Taylor polynomial. (I'm giving you the name so that you can search online for more information if you are interested.)
-      </insight>
+      </aside>
       Now let <m>f(x)=\sin x</m>. Find a 7th degree polynomial so that the function and the polynomial have the same value and same first seven derivatives when evaluated at <m>x=0</m>. Evaluate the polynomial at <m>x=0.3</m>. How close is this value to your calculator's estimate of <m>\sin(0.3)</m>? You may find it valuable to use the notation
       <me>
         P(x) = a_0+a_1x+a_2x^2+a_3x^3 +\cdots+a_7 x^7.

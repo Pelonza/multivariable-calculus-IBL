@@ -285,11 +285,11 @@
     <p>
       Most of our examples of function of the form <m>w=f(x,y,z)</m> can be drawn by using our knowledge about conic sections. <!-- \extrafn{
 
-      <insight>
+      <aside>
         <p>
           If you feel a little lost and skipped the review unit on conic sections, now would be a good time to go back and go through it.
         </p>
-      </insight>
+      </aside>
 
       } -->We can graph ellipses and hyperbolas if there are only two variables. So the key idea is to set one of the variables equal to a constant and then graph the resulting curve. Repeat this with a few variables and a few constants, and you'll know what the surface is. Sometimes when you set a specific variable equal to a constant, you'll get an ellipse. If this occurs, try setting that variable equal to other constants, as ellipses are generally the easiest curves to draw.
     </p>
@@ -440,8 +440,8 @@
 
       <p>
 
-        <insight>
-        </insight>
+        <aside>
+        </aside>
 
         <me>
           \vec T(\rho,\phi,\theta)=(\rho\sin\phi\cos\theta,\rho\sin\phi\sin\theta,\rho\cos\phi),

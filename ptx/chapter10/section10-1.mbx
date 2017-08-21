@@ -17,11 +17,11 @@
       <p>
         <!-- \extrafn{You'll want a computer to help you construct the graphs, particularly <m>h</m>.
 
-        <insight>
+        <aside>
         <p>
           Please use the Mathematica introduction in Brainhoney.
         </p>
-        </insight>
+        </aside>
 
         You could use Wolfram Alpha (use the links in the function chapter if you forgot how to graph).} -->Consider three functions:
         <ul>
@@ -65,17 +65,17 @@
           <p>
             Compute <m>\vec \nabla h(x,y)</m>.
 
-            <insight>
+            <aside>
             <p>
               You do not need to plot this one, I'll show you the plot.
             </p>
-            </insight>
+            </aside>
 
-            <insight>
+            <aside>
             <p>
               Then draw both <m>\vec \nabla h</m> and several level curves of <m>h</m> on the same axes.
             </p>
-            </insight>
+            </aside>
 
           </p>
       </task>
@@ -85,11 +85,11 @@
             What relationships do you see between the gradient vector field and level curves?
           </p>
       </task>
-      <insight>
+      <aside>
         <p>
           When you present in class, be prepared to provide rough sketches of the level curves and gradients of each function.
         </p>
-      </insight>
+      </aside>
     </exploration>
 
     <p>

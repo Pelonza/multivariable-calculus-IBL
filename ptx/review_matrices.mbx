@@ -9,17 +9,17 @@
     <p>
       We perform matrix multiplication <q>row by column</q>. Wikipedia has an excellent visual illustration of how to do this. See <!-- \extrafn{
 
-      <insight>
+      <aside>
         <p>
           The electronic version has links that will open your browser and take you to the web.
         </p>
-      </insight>
+      </aside>
 
-      <insight>
+      <aside>
         <p>
           The electronic version has links that will open your browser and take you to the web.
         </p>
-      </insight>
+      </aside>
 
       } --><url href="http://en.wikipedia.org/wiki/Matrix_multiplication">Wikipedia</url> for an explanation. Alternatively see <url href="http://www.texample.net/tikz/examples/matrix-multiplication/">texample.net</url> for a visualization of the idea.
     </p>
@@ -28,7 +28,7 @@
       <p>
         <!-- \extrafn{
 
-        <insight>
+        <aside>
         <p>
           For extra practice, make up two small matrices and multiply them.  Use 
           <url href="http://aleph.sagemath.org/?z=eJxztM1NLCnKrNCIjjbUMdYxiY3V5HJCiJnrGMXqKICkQJSukY4BSIGjlhMA16EPQw">Sage</url>
@@ -37,9 +37,9 @@
           Alpha</url> to see if you are correct (click the links to see how to do
           matrix multiplication in each system).
         </p>
-        </insight>
+        </aside>
 
-        <insight>
+        <aside>
         <p>
           For extra practice, make up two small matrices and multiply them.  Use 
           <url href="http://aleph.sagemath.org/?z=eJxztM1NLCnKrNCIjjbUMdYxiY3V5HJCiJnrGMXqKICkQJSukY4BSIGjlhMA16EPQw">Sage</url>
@@ -48,7 +48,7 @@
           Alpha</url> to see if you are correct (click the links to see how to do
           matrix multiplication in each system).
         </p>
-        </insight>
+        </aside>
 
         } -->Compute the following matrix products.
         <ul>

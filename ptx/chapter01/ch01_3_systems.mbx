@@ -4,9 +4,9 @@
   <exploration>
     <p>
         Solve the following linear systems of equations.
-        <insight>
+        <aside>
           <p> For additional practice, make up your own systems of equations. Use \wolfA<nbsp /> or the SageCell below to check your work. </p>
-        </insight>
+        </aside>
     </p>
 
     <task>
@@ -42,11 +42,11 @@
       <m>\begin{cases}x+y+z\amp =3\\2x-y\amp =4
       \end{cases}</m>.
       Since there are more variables than equations, this suggests there is probably not just one solution, but perhaps infinitely many. One common way to deal with solving such a system is to let one variable equal <m>t</m>, and then solve for the other variables in terms of <m>t</m>. Do this three different ways. 
-      <insight>
+      <aside>
         <p> 
           This <url href="http://www.wolframalpha.com/input/?i=Solve+x%2B2y%3D3+and+4x-y%2Bz%3D7+and+x%3Dt">link</url> will show you how to specify which variable is <m>t</m> when using Wolfram Alpha.
         </p>
-      </insight>
+      </aside>
     </p>
 
     <task>

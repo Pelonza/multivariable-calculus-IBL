@@ -167,11 +167,11 @@
     <p>
       <!-- \extrafn{
 
-      <insight>
+      <aside>
       <p>
         This is problem 7 in section 15.8.
       </p>
-      </insight>
+      </aside>
 
       } -->Use the transformation <m>u=3x+2y</m> and <m>v=x+4y</m> to evaluate the integral
       <me>

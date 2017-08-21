@@ -166,11 +166,11 @@
 
     <p>
 
-      <insight>
+      <aside>
       <p>
         After doing this, in class we'll set up the integral formulas needed to find <m>R_y</m>, the radius of gyration about the <m>y</m>-axis, assuming the density is <m>\delta(x,y)=x^2+y^2</m>.
       </p>
-      </insight>
+      </aside>
 
     </p>
   </exploration>

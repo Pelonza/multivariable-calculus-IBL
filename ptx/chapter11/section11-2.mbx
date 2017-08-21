@@ -43,8 +43,8 @@
 
     <p>
 
-      <insight>
-      </insight>
+      <aside>
+      </aside>
 
     </p>
 
@@ -231,7 +231,7 @@
                   Sketch the region
                 </p>
               </hint>
-            <insight>
+            <aside>
 
             <task>
                 <p>
@@ -245,7 +245,7 @@
                 </p>
             </task>
               
-            </insight>
+            </aside>
 
             </p>
         </task>
@@ -315,8 +315,8 @@
 
     <p>
 
-      <insight>
-      </insight>
+      <aside>
+      </aside>
 
     </p>
   </introduction>

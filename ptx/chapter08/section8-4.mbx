@@ -212,11 +212,11 @@
     <p>
       We can use the above formula for curvature to get a quick way to compute the curvature of a function <m>y=f(x)</m>. If you use the previous exercise, this formula falls out almost instantly. You'd see this formula in dynamics
 
-      <insight>
+      <aside>
         <p>
           , and it shows up on the Fundamentals of Engineering exam (where you just have to use the formula, not prove where it comes from)
         </p>
-      </insight>
+      </aside>
 
       . This is the culminating idea from this chapter that you'll use again and again in engineering courses.
     </p>
@@ -239,11 +239,11 @@
     <title>Optional: Torsion</title>
     <p>
 
-      <insight>
+      <aside>
         <p>
           We will be skipping this section, however, if you want to see more tie-in to physics and engineering, this skim this section.
         </p>
-      </insight>
+      </aside>
 
     </p>
 
@@ -344,14 +344,14 @@
 
     <p>
 
-      <insight>
+      <aside>
         <title>Wrap Up</title>
         <p>
           Once you have finished the problems in this \chaptername and feel comfortable with the ideas, create a short one page lesson plan that contains examples of the key ideas.  You will get a chance to teach from this lesson plan prior to taking the exam. Then log on to Brainhoney and download the quiz. Once you have taken the quiz, you can upload your work back to brainhoney and then download the key to see how you did. If you still need to work on mastering some of the ideas, please do so and then demonstrate your mastery though the quiz corrections.
         </p>
-      </insight>
+      </aside>
 
-      <insight>
+      <aside>
         <title>Wrap Up</title>
         <p>
           This concludes the \chaptername .  Look at the objectives at the beginning of the unit . Can you now do all the things you were promised? 
@@ -380,7 +380,7 @@
             </li>
           </ul>
         </p>
-      </insight>
+      </aside>
 
     </p>
   </subsection>

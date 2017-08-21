@@ -134,11 +134,11 @@
     <p>
       Set up an integral in the coordinate system of your choice that would give the volume of the solid ball that is inside the sphere <m>a^2=x^2+y^2+z^2</m>. Compute the integral to give a formula for the volume of a sphere of radius <m>a</m>.
 
-      <insight>
+      <aside>
       <p>
         Then set up (don't evaluate) an iterated integral that would give the moment of inertia <m>I_x</m> about the <m>x</m>-axis, if the density is a constant, so <m>\delta =c</m>.
       </p>
-      </insight>
+      </aside>
 
     </p>
   </exploration>

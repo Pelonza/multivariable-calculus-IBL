@@ -65,17 +65,17 @@
     <p>
       Density is generally a mass per unit volume. However, when talking about a curve or wire, as in this chapter, it's simpler to let density be the mass per unit length. Sometimes an object is made out of a composite material, and the density of the object is different at different places in the object. For example, we might have a straight wire where one end is steel and the other end is nickel. In the middle, the wire slowly transitions from being all steel to all nickel. The centroid is the midpoint of the wire. However, since nickel has a higher density than steel, the balance point (the center of mass) would not be at the midpoint of the wire, but would be closer to the denser and heavier nickel end. In this sub-section, we'll develop formulas for the mass and in the next sub-section formulas for the center of mass of such a wire. Such composite materials are engineered all the time (though probably not our example wire).
 
-      <insight>
+      <aside>
         <p>
           In future mechanical engineering courses, you would learn how to determine the density <m>\delta</m> (mass per unit length) at each point on such a composite wire.
         </p>
-      </insight>
+      </aside>
 
-      <insight>
+      <aside>
         <p>
           In future mechanical engineering courses, you may would learn how to determine the density <m>\delta</m> (mass per unit length) at each point on such a composite wire.
         </p>
-      </insight>
+      </aside>
 
     </p>
 
@@ -84,11 +84,11 @@
       <p>
         <!-- \extrafn{<url href="http://www.youtube.com/watch?v=mz-Udq5TeS4&amp;list=PL04DF68E73B7ECD54&amp;index=6&amp;feature=plpp_video">Watch a YouTube video.</url>} -->Suppose a wire <m>C</m> has the parameterization <m>\vec r(t)</m> for <m>t\in[a,b]</m>. Suppose the wire's density at a point <m>(x,y,z)</m> on the wire is given by the function <m>\delta(x,y,z)</m>.
 
-        <insight>
+        <aside>
         <p>
           You'll learn to calculate this function in a future class. For the purposes of our class, we'll just assume we know what <m>\delta(x,y,z)</m> is.
         </p>
-        </insight>
+        </aside>
 
       </p>
         <task>
@@ -365,12 +365,12 @@
     <!-- Comment out the wrap-ups! -->
 
       <!--
-      <insight>
+      <aside>
         <title>Wrap Up</title>
         <p>
           Once you have finished the problems in this \chaptername and feel comfortable with the ideas, create a short one page lesson plan that contains examples of the key ideas.  You will get a chance to teach from this lesson plan prior to taking the exam. Then log on to Brainhoney and download the quiz. Once you have taken the quiz, you can upload your work back to brainhoney and then download the key to see how you did. If you still need to work on mastering some of the ideas, please do so and then demonstrate your mastery though the quiz corrections.
         </p>
-      </insight>
+      </aside>
       -->
 
     <title>Wrap Up</title>

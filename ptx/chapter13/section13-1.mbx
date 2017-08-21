@@ -244,11 +244,11 @@
         <p>
           If the density is <m>\delta(x,y,z) = 3x+2yz</m>, set up iterated integrals that would give the mass <m>m</m>.
 
-          <insight>
+          <aside>
             <p>
               and moment of inertia <m>I_y</m> about the <m>y</m>-axis
             </p>
-          </insight>
+          </aside>
 
         </p>
     </task>
