@@ -187,9 +187,31 @@
     The dot product provides a really easy way to find when two vectors meet at a right angle. The dot product is precisely zero when this happens.
   </p>
 
-  <subsection>
+  <exercises>
     <title>Computational Practice</title>
-  
+    <introduction>
+       <p> These are provided to help you achieve better skills in basic computational answers </p>
+    </introduction>
+
+    <exercise>
+      <webwork source="Library/maCalcDB/setVectors2DotProduct/UR_VC_1_12.pg" />
+    </exercise>
+
+    <exercise>
+      <webwork source="Library/maCalcDB/setVectors2DotProduct/UR_VC_1_13.pg" />
+    </exercise>
+
+    <exercise>
+      <webwork source="Library/Rochester/setVectors2DotProduct/UR_VC_1_11.pg" />
+    </exercise>
+
+    <exercise>
+      <webwork source="Library/Rochester/setVectors2DotProduct/UR_VC_1_16.pg" />
+    </exercise>
+
+    <exercise>
+      <webwork source="Library/Rochester/setVectors2DotProduct/UR_VC_1_17.pg" />
+    </exercise>
   <!-- webwork stuff -->
 
   </subsection>
