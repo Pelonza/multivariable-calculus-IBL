@@ -2,7 +2,7 @@
 <section xml:id="ch02_2_dotproduct">
   <title>The Dot Product</title>
   <objectives>
-    <title>Topical Objectives</title>
+    <title>Topical</title>
     <ul>
       <li>
         <p>perform the dot-product of two vectors</p>
@@ -18,7 +18,7 @@
       Now that we've learned how to add and subtract vectors, stretch them by scalars, and use them to find lines, it's time to introduce a way of multiplying vectors called the dot product. We'll use the dot product to help us find find angles. First, we need to recall the law of cosines.
     </p>
 
-    <theorem>
+    <theorem xml:id="law_of_cosines">
       <title>The Law of Cosines</title>
       <statement>
         <p>
@@ -53,57 +53,65 @@
     </exploration>
   </introduction>
 
-  <definition>
-    <title>The Dot Product</title>
-    <statement>
-      <p>
-        If <m>\vec u = (u_1,u_2,u_3)</m> and <m>\vec v= (v_1,v_2,v_3)</m> are vectors in <m>\mathbb{R}^3</m>, then we define the dot product of these two vectors to be
-        <me>
-          \vec u\cdot \vec v = u_1 v_1+ u_2 v_2+ u_3 v_3.
-        </me>
-      </p>
+  <subsection>
+    <title>Introducing the Dot Product</title>
 
-      <p>
-        A similar definition holds for vectors in <m>\mathbb{R}^n</m>, where
-        <m>\vec u\cdot \vec v = u_1 v_1+ u_2 v_2+\cdots+ u_n v_n.</m>
-        You just multiply corresponding components together and then add. It is the same process used in matrix multiplication.
-      </p>
-    </statement>
-  </definition>
-
-  <exploration xml:id="prob_dot_angle_practice2"><introduction>
-    </introduction><task>
+    <definition xml:id="dot_def">
+      <title>The Dot Product</title>
+      <statement>
         <p>
-          Use the formula <m>\vec u\cdot \vec v=|\vec u||\vec v|\cos\theta</m> to find the angle between the vectors <m>\left\lt 1,2,3\right></m> and <m>\left\lt -2,1,0\right></m>.
+          If <m>\vec u = (u_1,u_2,u_3)</m> and <m>\vec v= (v_1,v_2,v_3)</m> are vectors in <m>\mathbb{R}^3</m>, then we define the dot product of these two vectors to be
+          <me>
+            \vec u\cdot \vec v = u_1 v_1+ u_2 v_2+ u_3 v_3.
+          </me>
         </p>
-    </task>
 
-    <task>
         <p>
-          Which was easier, <xref ref="prob_dot_angle_practice"></xref> or this method?  (You will derive this formula in a later problem)
+          A similar definition holds for vectors in <m>\mathbb{R}^n</m>, where
+          <m>\vec u\cdot \vec v = u_1 v_1+ u_2 v_2+\cdots+ u_n v_n.</m>
+          You just multiply corresponding components together and then add. It is the same process used in matrix multiplication.
         </p>
-    </task><conclusion>
-  </conclusion></exploration>
+      </statement>
+    </definition>
 
-  <definition xml:id="def_orthogonal">
-    <statement>
+    <exploration xml:id="prob_dot_angle_practice2">
+      <task>
+          <p>
+            Use the formula <m>\vec u\cdot \vec v=|\vec u||\vec v|\cos\theta</m> to find the angle between the vectors <m>\left\lt 1,2,3\right></m> and <m>\left\lt -2,1,0\right></m>.
+          </p>
+      </task>
+
+      <task>
+          <p>
+            Which was easier, <xref ref="prob_dot_angle_practice"></xref> or this method?  (You will derive this formula in a later problem)
+          </p>
+      </task>
+    </exploration>
+
+    <definition xml:id="def_orthogonal">
+      <statement>
+        <p>
+          We say that the vectors <m>\vec u</m> and <m>\vec v</m> are orthogonal if <m>\vec u\cdot \vec v=0</m>.
+        </p>
+      </statement>
+    </definition>
+
+    <exploration>
       <p>
-        We say that the vectors <m>\vec u</m> and <m>\vec v</m> are orthogonal if <m>\vec u\cdot \vec v=0</m>.
+        Find two vectors orthogonal to <m>(1,2)</m>. Then find 4 vectors orthogonal to <m>(3,2,1)</m>.
       </p>
-    </statement>
-  </definition>
+    </exploration>
+  </subsection>
 
-  <exploration>
-    <p>
-      Find two vectors orthogonal to <m>(1,2)</m>. Then find 4 vectors orthogonal to <m>(3,2,1)</m>.
-    </p>
-  </exploration>
-
-  <exploration xml:id="dot_product_facts"><introduction>
-    <p>
-      Mark each statement true or false. Use <xref ref="def_vecadd">Definitions</xref> - <xref ref="def_orthogonal"></xref> to explain and justify or prove your claim. You can assume that <m>\vec u,\vec v,\vec w\in\mathbb{R}^3</m> and that <m>c\in\mathbb{R}</m>.
-    </p>
-      </introduction><task>
+  <subsection>
+    <title>Using the Dot Product</title>
+    <exploration xml:id="dot_product_facts">
+      <introduction>
+        <p>
+          Mark each statement true or false. Use <xref ref="def_vecadd">Definitions</xref> - <xref ref="def_orthogonal"></xref> to explain and justify or prove your claim. You can assume that <m>\vec u,\vec v,\vec w\in\mathbb{R}^3</m> and that <m>c\in\mathbb{R}</m>.
+        </p>
+      </introduction>
+      <task>
           <p>
             <m>\vec u\cdot \vec v=\vec v\cdot \vec u</m>.
           </p>
@@ -137,28 +145,30 @@
           <p>
             <m>\vec u\cdot \vec u= |\vec u|^2</m>.
           </p>
-      </task><conclusion>
-  </conclusion></exploration>
+      </task>
+    </exploration>
 
-  <exploration xml:id="prob_dot_prep">
-    <p>
-      <!-- \extrafn{
-      \thomasee{Page 693 has the solution if you are struggling.} 
-      } -->If <m>\vec u = (u_1,u_2,u_3)</m> and <m>\vec v= (v_1,v_2,v_3)</m> are vectors in <m>\mathbb{R}^3</m> (which is often written <m>\vec u,\vec v\in\mathbb{R}^3</m>), then show that
-      <me>
-        |\vec u-\vec v|^2 = |\vec u|^2-2\vec u\cdot \vec v +|\vec v|^2.
-      </me>
-    </p>
-  </exploration>
+    <exploration xml:id="prob_dot_prep">
+      <p>
+        <!-- \extrafn{
+        \thomasee{Page 693 has the solution if you are struggling.} 
+        } -->If <m>\vec u = (u_1,u_2,u_3)</m> and <m>\vec v= (v_1,v_2,v_3)</m> are vectors in <m>\mathbb{R}^3</m> (which is often written <m>\vec u,\vec v\in\mathbb{R}^3</m>), then show that
+        <me>
+          |\vec u-\vec v|^2 = |\vec u|^2-2\vec u\cdot \vec v +|\vec v|^2.
+        </me>
+      </p>
+    </exploration>
 
-  <exploration xml:id="prob_dot_angle_formula"><introduction>
-    <p>
-      <!-- \extrafn{
-      \thomasee{See page 693.} 
-      \stewarts{See pages 801-802 if you are struggling}
-      } -->Let <m>\vec u,\vec v\in\mathbb{R}^3</m>. Let <m>\theta</m> be the angle between <m>\vec u</m> and <m>\vec v</m>.
-    </p>
-      </introduction><task>
+    <exploration xml:id="prob_dot_angle_formula">
+      <introduction>
+        <p>
+          <!-- \extrafn{
+          \thomasee{See page 693.} 
+          \stewarts{See pages 801-802 if you are struggling}
+          } -->Let <m>\vec u,\vec v\in\mathbb{R}^3</m>. Let <m>\theta</m> be the angle between <m>\vec u</m> and <m>\vec v</m>.
+        </p>
+      </introduction>
+      <task>
           <p>
             Use the law of cosines to explain why <m>|\vec u-\vec v|^2=|\vec u|^2+|\vec v|^2-2|\vec u||\vec v|\cos\theta</m>.
           </p>
@@ -171,21 +181,23 @@
               \vec u\cdot \vec v=|\vec u||\vec v|\cos\theta.
             </me>
           </p>
-      </task><conclusion>
-  </conclusion></exploration>
+      </task>
+    </exploration>
 
-  <exploration>
+    <exploration>
+      <p>
+        <!-- \extrafn{
+        \thomasee{See page 694.} 
+        \stewarts{See page 804}
+        } -->Show that if two nonzero vectors <m>\vec u</m> and <m>\vec v</m> are orthogonal, then the angle between them is 90<m>^\circ</m>. Then show that if the angle between them is 90<m>^\circ</m>, then the vectors are orthogonal. I.E. expand and compute both sides of the formula <m>\vec u\cdot \vec v=|\vec u||\vec v|\cos\theta</m> with non-zero, orthogonal vectors.
+      </p>
+    </exploration>
+   
     <p>
-      <!-- \extrafn{
-      \thomasee{See page 694.} 
-      \stewarts{See page 804}
-      } -->Show that if two nonzero vectors <m>\vec u</m> and <m>\vec v</m> are orthogonal, then the angle between them is 90<m>^\circ</m>. Then show that if the angle between them is 90<m>^\circ</m>, then the vectors are orthogonal. I.E. expand and compute both sides of the formula <m>\vec u\cdot \vec v=|\vec u||\vec v|\cos\theta</m> with non-zero, orthogonal vectors.
+      The dot product provides a really easy way to find when two vectors meet at a right angle. The dot product is precisely zero when this happens.
     </p>
-  </exploration>
-
-  <p>
-    The dot product provides a really easy way to find when two vectors meet at a right angle. The dot product is precisely zero when this happens.
-  </p>
+ 
+</subsection>
 
   <exercises>
     <title>Computational Practice</title>
@@ -212,8 +224,8 @@
     <exercise>
       <webwork source="Library/Rochester/setVectors2DotProduct/UR_VC_1_17.pg" />
     </exercise>
+    
+  </exercises>
   <!-- webwork stuff -->
-
-  </subsection>
 
 </section>

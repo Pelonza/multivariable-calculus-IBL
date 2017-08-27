@@ -111,7 +111,8 @@
 
 <xi:include href="./chapter02/chapter2main.mbx" />
 
-<!-- <xi:include href="./chapter03/chapter3.mbx" />
+<!--
+<xi:include href="./chapter03/chapter3.mbx" />
 
 <xi:include href="./chapter04/chapter4.mbx" />
 
@@ -137,7 +138,7 @@
 
 <backmatter>
 
-<xi:include href="./bibliography.mbx" />
+<!-- <xi:include href="./bibliography.mbx" /> -->
 
 </backmatter>
 </book>

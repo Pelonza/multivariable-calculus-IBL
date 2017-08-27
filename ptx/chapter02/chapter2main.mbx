@@ -1,8 +1,7 @@
 
-<chapter xmlns:xi="http://www.w3.org/2001/XInclude" >
+<chapter xml:id="ch02_vectors" xmlns:xi="http://www.w3.org/2001/XInclude" >
   <title>Vectors</title>
   <objectives>
-    <title>Learning Objectives</title>
     <introduction>
       <p>
         In this unit you will learn how to...
@@ -33,12 +32,13 @@
           </p>
         </li>
       </ol>
-    </objectives>
-    
+  </objectives>
+  
   <xi:include  href="ch02_1_vectors.mbx" />
   <xi:include  href="ch02_2_dotproduct.mbx" />
-  <xi:include  href="../review_matrices.mbx" />
-  <xi:include  href="section2-4.mbx" />
+  <xi:include  href="./../review_matrices.mbx" />
+  <xi:include  href="ch02_4_crossproduct.mbx" />
   <xi:include  href="section2-5.mbx" />
   <xi:include  href="section2-6.mbx" />
+  
 </chapter>
