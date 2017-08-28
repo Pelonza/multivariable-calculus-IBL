@@ -484,10 +484,6 @@
     </exercise>
 
     <exercise>
-      <webwork source="Library/WHFreeman/Rogawski_Calculus_Early_Transcendentals_Second_Edition/12_Vector_Geometry/12.2_Vectors_in_Three_Dimensions/12.2.35.pg" />
-    </exercise>
-
-    <exercise>
       <webwork source="Library/maCalcDB/setVectors1space3D/UR_VC_1_2.pg"  />
     </exercise>
 

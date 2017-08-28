@@ -4,6 +4,14 @@
 		"selected_items":
 		[
 			[
+				"intro",
+				"introduction"
+			],
+			[
+				"in",
+				"introduction"
+			],
+			[
 				"sub",
 				"subsection"
 			],
@@ -19,19 +27,16 @@
 			"file": "index.mbx",
 			"settings":
 			{
-				"buffer_size": 5416,
+				"buffer_size": 5418,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"contents": "\n<section xml:id=\"ch02_2_dotproduct\">\n  <title>The Dot Product</title>\n  <objectives>\n    <title>Topical</title>\n    <ul>\n      <li>\n        <p>perform the dot-product of two vectors</p>\n      </li>\n      <li>\n        <p>recognize when two vectors are orthogonal</p>\n      </li>\n    </ul>\n  </objectives>\n\n  <introduction>\n    <p>\n      Now that we've learned how to add and subtract vectors, stretch them by scalars, and use them to find lines, it's time to introduce a way of multiplying vectors called the dot product. We'll use the dot product to help us find find angles. First, we need to recall the law of cosines.\n    </p>\n\n    <theorem xml:id=\"law_of_cosines\">\n      <title>The Law of Cosines</title>\n      <statement>\n        <p>\n          Consider a triangle with side lengths <m>a</m>, <m>b</m>, and <m>c</m>. Let <m>\\theta</m> be the angle between the sides of <em>length</em> <m>a</m> and <m>b</m>. Then the law of cosines states that\n          <me>\n            c^2=a^2+b^2-2ab\\cos\\theta.\n          </me>\n        </p>\n\n        <p>\n          If <m>\\theta=90^\\circ</m>, then <m>\\cos\\theta=0</m> and this reduces to the Pythagorean theorem.\n        </p>\n      </statement>\n    </theorem>\n\n    <exploration>\n      <p>\n        <!-- \\extrafn{\n        \\thomasee{See 12.3: 9-12.} \n        \\stewarts{See 12.3:15-20}\n        } -->Sketch in <m>\\mathbb{R}^2</m> the vectors <m>\\left\\lt 1,2\\right></m> and <m>\\left\\lt 3,5\\right></m>. Use the law of cosines to find the angle between the vectors.\n      </p>\n    </exploration>\n\n    <exploration xml:id=\"prob_dot_angle_practice\">\n      <p>\n        <!-- \\extrafn{\n        \\thomasee{See 12.3: 9-12.} \n        \\stewarts{See 12.3:15-20}\n        } -->Sketch in <m>\\mathbb{R}^3</m> the vectors <m>\\left\\lt 1,2,3\\right></m> and <m>\\left\\lt -2,1,0\\right></m>. Use the law of cosines to find the angle between the vectors.\n      </p>\n    </exploration>\n  </introduction>\n\n  <subsection>\n    <title>Introducing the Dot Product</title>\n\n    <definition xml:id=\"dot_def\">\n      <title>The Dot Product</title>\n      <statement>\n        <p>\n          If <m>\\vec u = (u_1,u_2,u_3)</m> and <m>\\vec v= (v_1,v_2,v_3)</m> are vectors in <m>\\mathbb{R}^3</m>, then we define the dot product of these two vectors to be\n          <me>\n            \\vec u\\cdot \\vec v = u_1 v_1+ u_2 v_2+ u_3 v_3.\n          </me>\n        </p>\n\n        <p>\n          A similar definition holds for vectors in <m>\\mathbb{R}^n</m>, where\n          <m>\\vec u\\cdot \\vec v = u_1 v_1+ u_2 v_2+\\cdots+ u_n v_n.</m>\n          You just multiply corresponding components together and then add. It is the same process used in matrix multiplication.\n        </p>\n      </statement>\n    </definition>\n\n    <exploration xml:id=\"prob_dot_angle_practice2\">\n      <task>\n          <p>\n            Use the formula <m>\\vec u\\cdot \\vec v=|\\vec u||\\vec v|\\cos\\theta</m> to find the angle between the vectors <m>\\left\\lt 1,2,3\\right></m> and <m>\\left\\lt -2,1,0\\right></m>.\n          </p>\n      </task>\n\n      <task>\n          <p>\n            Which was easier, <xref ref=\"prob_dot_angle_practice\"></xref> or this method?  (You will derive this formula in a later problem)\n          </p>\n      </task>\n    </exploration>\n\n    <definition xml:id=\"def_orthogonal\">\n      <statement>\n        <p>\n          We say that the vectors <m>\\vec u</m> and <m>\\vec v</m> are orthogonal if <m>\\vec u\\cdot \\vec v=0</m>.\n        </p>\n      </statement>\n    </definition>\n\n    <exploration>\n      <p>\n        Find two vectors orthogonal to <m>(1,2)</m>. Then find 4 vectors orthogonal to <m>(3,2,1)</m>.\n      </p>\n    </exploration>\n  </subsection>\n\n  <subsection>\n    <title>Using the Dot Product</title>\n    <exploration xml:id=\"dot_product_facts\">\n      <introduction>\n        <p>\n          Mark each statement true or false. Use <xref ref=\"def_vecadd\">Definitions</xref> - <xref ref=\"def_orthogonal\"></xref> to explain and justify or prove your claim. You can assume that <m>\\vec u,\\vec v,\\vec w\\in\\mathbb{R}^3</m> and that <m>c\\in\\mathbb{R}</m>.\n        </p>\n      </introduction>\n      <task>\n          <p>\n            <m>\\vec u\\cdot \\vec v=\\vec v\\cdot \\vec u</m>.\n          </p>\n      </task>\n\n      <task>\n          <p>\n            <m>\\vec u\\cdot (\\vec v\\cdot \\vec w)=(\\vec u\\cdot\\vec v)\\cdot\\vec w</m>.\n          </p>\n      </task>\n\n      <task>\n          <p>\n            <m>c(\\vec u\\cdot \\vec v)=(c\\vec u)\\cdot \\vec v=\\vec u\\cdot (c\\vec v)</m>.\n          </p>\n      </task>\n\n      <task>\n          <p>\n            <m>\\vec u+(\\vec v\\cdot \\vec w)=(\\vec u+\\vec v)\\cdot(\\vec u+\\vec w)</m>.\n          </p>\n      </task>\n\n      <task>\n          <p>\n            <m>\\vec u\\cdot (\\vec v+ \\vec w)=(\\vec u\\cdot \\vec v)+(\\vec u\\cdot\\vec w)</m>.\n          </p>\n      </task>\n\n      <task>\n          <p>\n            <m>\\vec u\\cdot \\vec u= |\\vec u|^2</m>.\n          </p>\n      </task>\n    </exploration>\n\n    <exploration xml:id=\"prob_dot_prep\">\n      <p>\n        <!-- \\extrafn{\n        \\thomasee{Page 693 has the solution if you are struggling.} \n        } -->If <m>\\vec u = (u_1,u_2,u_3)</m> and <m>\\vec v= (v_1,v_2,v_3)</m> are vectors in <m>\\mathbb{R}^3</m> (which is often written <m>\\vec u,\\vec v\\in\\mathbb{R}^3</m>), then show that\n        <me>\n          |\\vec u-\\vec v|^2 = |\\vec u|^2-2\\vec u\\cdot \\vec v +|\\vec v|^2.\n        </me>\n      </p>\n    </exploration>\n\n    <exploration xml:id=\"prob_dot_angle_formula\">\n      <introduction>\n        <p>\n          <!-- \\extrafn{\n          \\thomasee{See page 693.} \n          \\stewarts{See pages 801-802 if you are struggling}\n          } -->Let <m>\\vec u,\\vec v\\in\\mathbb{R}^3</m>. Let <m>\\theta</m> be the angle between <m>\\vec u</m> and <m>\\vec v</m>.\n        </p>\n      </introduction>\n      <task>\n          <p>\n            Use the law of cosines to explain why <m>|\\vec u-\\vec v|^2=|\\vec u|^2+|\\vec v|^2-2|\\vec u||\\vec v|\\cos\\theta</m>.\n          </p>\n      </task>\n\n      <task>\n          <p>\n            Use the above together with <xref ref=\"prob_dot_prep\">problem</xref> to derive\n            <me>\n              \\vec u\\cdot \\vec v=|\\vec u||\\vec v|\\cos\\theta.\n            </me>\n          </p>\n      </task>\n    </exploration>\n\n    <exploration>\n      <p>\n        <!-- \\extrafn{\n        \\thomasee{See page 694.} \n        \\stewarts{See page 804}\n        } -->Show that if two nonzero vectors <m>\\vec u</m> and <m>\\vec v</m> are orthogonal, then the angle between them is 90<m>^\\circ</m>. Then show that if the angle between them is 90<m>^\\circ</m>, then the vectors are orthogonal. I.E. expand and compute both sides of the formula <m>\\vec u\\cdot \\vec v=|\\vec u||\\vec v|\\cos\\theta</m> with non-zero, orthogonal vectors.\n      </p>\n    </exploration>\n   \n    <p>\n      The dot product provides a really easy way to find when two vectors meet at a right angle. The dot product is precisely zero when this happens.\n    </p>\n \n</subsection>\n\n  <exercises>\n    <title>Computational Practice</title>\n    <introduction>\n       <p> These are provided to help you achieve better skills in basic computational answers </p>\n    </introduction>\n\n    <exercise>\n      <webwork source=\"Library/maCalcDB/setVectors2DotProduct/UR_VC_1_12.pg\" />\n    </exercise>\n\n    <exercise>\n      <webwork source=\"Library/maCalcDB/setVectors2DotProduct/UR_VC_1_13.pg\" />\n    </exercise>\n\n    <exercise>\n      <webwork source=\"Library/Rochester/setVectors2DotProduct/UR_VC_1_11.pg\" />\n    </exercise>\n\n    <exercise>\n      <webwork source=\"Library/Rochester/setVectors2DotProduct/UR_VC_1_16.pg\" />\n    </exercise>\n\n    <exercise>\n      <webwork source=\"Library/Rochester/setVectors2DotProduct/UR_VC_1_17.pg\" />\n    </exercise>\n  <!-- webwork stuff -->\n\n  </subsection>\n\n</section>\n",
 			"file": "chapter02/ch02_2_dotproduct.mbx",
-			"file_size": 7910,
-			"file_write_time": 131483157643860160,
 			"settings":
 			{
-				"buffer_size": 7668,
+				"buffer_size": 7447,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -40,7 +45,16 @@
 			"file": "review_matrices.mbx",
 			"settings":
 			{
-				"buffer_size": 10206,
+				"buffer_size": 10358,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "chapter01/ch01_3_systems.mbx",
+			"settings":
+			{
+				"buffer_size": 2252,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -58,18 +72,44 @@
 			"file": "chapter02/chapter2main.mbx",
 			"settings":
 			{
-				"buffer_size": 1187,
+				"buffer_size": 3675,
+				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"contents": "\n<section xml:id=\"ch02_4_crossproduct\">\n  <title>The Cross Product</title>\n  <objectives>\n    <title>Topical</title>\n  <p>\n    perform the cross-product of vectors\n  </p>\n\n  <p>\n    The dot product gave us a way of multiplying two vectors together, but the result was a number, not a vectors. We now define the cross product, which will allow us to multiply two vectors together to give us another vector. We were able to define the dot product in all dimensions. The cross product is only defined in <m>\\mathbb{R}^3</m>.\n  </p>\n\n  <definition>\n    <title>The Cross Product</title>\n    <statement>\n      <p>\n        <!-- \\extrafn{This definition is not really a definition.  It is actually a theorem.  If you use the formula given as the definition, then you would need to prove the three facts. We have the tools to give a complete proof of (1) and (3), but we would need a course in linear algebra to prove (2). It shouldn't be too much of a surprise that the cross product is related to area, since it is defined in terms of determinants} -->The cross product of two vectors <m>\\vec u = \\left\\lt u_1,u_2,u_3\\right></m> and <m>\\vec v = \\left\\lt v_1,v_2,v_3\\right></m> is a new vector <m>\\vec u\\times \\vec v</m>. This new vector is (1) orthogonal to both <m>\\vec u</m> and <m>\\vec v</m>, (2) has a length equal to the area of the parallelogram whose sides are these two vectors, and (3) points in the direction your thumb points as you curl the base of your right hand from <m>\\vec u</m> to <m>\\vec v</m>. The formula for the cross product is\n        <me>\n          \\vec u\\times \\vec v = \\left\\lt u_2v_3-u_3v_2,-(u_1v_3-u_3v_1),u_1v_2-u_2v_1\\right> = \\det\\begin{bmatrix}\\vec i \\amp  \\vec j\\amp \\vec k\\\\ u_1\\amp u_2\\amp u_3\\\\ v_1\\amp v_2\\amp v_3\n          \\end{bmatrix} .\n        </me>\n      </p>\n    </statement>\n  </definition>\n\n  <exploration><introduction>\n    <p>\n      <!-- \\extrafn{\n      \\thomasee{See 12.4: 1-8.} \n      \\stewarts{See 12.4:1-7}\n      } -->Let <m>\\vec u=\\langle 1,-2,3\\rangle</m> and <m>\\vec v=\\langle 2,0,-1\\rangle</m>.\n    </p>\n      </introduction><task>\n          <p>\n            Compute <m>\\vec u\\times \\vec v</m> and <m>\\vec v\\times \\vec u</m>.  How are they related?\n          </p>\n      </task>\n\n      <task>\n          <p>\n            Compute <m>\\vec u \\cdot (\\vec u\\times \\vec v)</m> and <m>\\vec v \\cdot (\\vec u\\times \\vec v)</m>. Why did you get the answer you got?\n          </p>\n      </task>\n\n      <task>\n          <p>\n            Compute <m>\\vec u \\times (2\\vec u)</m>.  Why did you get the answer you got?\n          </p>\n      </task><conclusion>\n  </conclusion></exploration>\n\n  <exploration><introduction>\n    <p>\n      <!-- \\extrafn{\n      \\thomasee{See 12.4: 9-14.} \n      } -->Consider the vectors <m>{\\ii}=(1,0,0)</m>, <m>{2\\jj}=(0,2,0)</m>, and <m>{3\\kk}=(0,0,3)</m>.\n    </p>\n      </introduction><task>\n          <p>\n            Compute <m>\\ii\\times {2\\jj}</m> and <m>{2\\jj}\\times {\\ii}</m>.\n          </p>\n      </task>\n\n      <task>\n          <p>\n            Compute <m>{\\ii}\\times {3\\kk}</m> and <m>{3\\kk}\\times {\\ii}</m>.\n          </p>\n      </task>\n\n      <task>\n          <p>\n            Compute <m>{2\\jj}\\times {3\\kk}</m> and <m>{3\\kk}\\times {2\\jj}</m>.\n          </p>\n      </task><conclusion>\n\n    <p>\n      Give a geometric reason as to why some vectors above have a plus sign, and some have a minus sign.\n    </p>\n  </conclusion></exploration>\n\n  <exploration><introduction>\n    <p>\n      <!-- \\extrafn{\n      \\thomasee{See 12.4: 15-18.} \n      \\stewarts{See 12.4: 29-32}\n      } -->Let <m>P=(2,0,0)</m>, <m>Q=(0,3,0)</m>, and <m>R=(0,0,4)</m>. Find a vector that orthogonal to both <m>\\vec {PQ}</m> and <m>\\vec {PR}</m>. Then find the area of the triangle <m>PQR</m>\n    </p>\n    </introduction><hint>\n        What shape does two triangles side-by-side make?\n    </hint><conclusion>\n    <p>\n      . Construct a 3D graph of this triangle.\n    </p>\n  </conclusion></exploration>\n</section>\n",
-			"file": "chapter02/section2-4.mbx",
-			"file_size": 4029,
-			"file_write_time": 131482263412275706,
+			"file": "chapter02/ch02_6_projection.mbx",
 			"settings":
 			{
-				"buffer_size": 3950,
+				"buffer_size": 7665,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "chapter02/ch02_1_vectors.mbx",
+			"settings":
+			{
+				"buffer_size": 16615,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "chapter02/ch02_5_crossplanes.mbx",
+			"settings":
+			{
+				"buffer_size": 4487,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "chapter02/ch02_4_crossproduct.mbx",
+			"settings":
+			{
+				"buffer_size": 4959,
+				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		}
@@ -144,8 +184,9 @@
 	],
 	"file_history":
 	[
-		"/C/Users/Karl/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter02/ch02_1_vectors.mbx",
+		"/C/Users/Karl/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter02/ch02_4_crossproduct.mbx",
 		"/C/Users/Karl/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter01/ch01main.mbx",
+		"/C/Users/Karl/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter02/ch02_1_vectors.mbx",
 		"/C/Users/Karl/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter01/ch01_5_taylorseries.mbx",
 		"/C/Users/Karl/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter01/ch01_1_calc1review.mbx",
 		"/C/Users/Karl/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter02_new/ch02_1_vectors.mbx",
@@ -220,6 +261,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"project",
 			"</insight>",
 			"<insight>",
 			"<p><insight>",
@@ -239,6 +281,7 @@
 		"regex": false,
 		"replace_history":
 		[
+			"exploration",
 			"</aside>",
 			"<aside>",
 			"<insight>",
@@ -257,7 +300,7 @@
 	"groups":
 	[
 		{
-			"selected": 5,
+			"selected": 7,
 			"sheets":
 			[
 				{
@@ -266,15 +309,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 5416,
+						"buffer_size": 5418,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								4789,
-								4789
+								5317,
+								5317
 							]
 						],
 						"settings":
@@ -284,10 +327,10 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1486.0,
+						"translation.y": 1774.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 4,
 					"type": "text"
 				},
 				{
@@ -296,15 +339,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 7668,
+						"buffer_size": 7447,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								104,
-								104
+								7389,
+								7389
 							]
 						],
 						"settings":
@@ -314,10 +357,10 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 3564.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 3,
 					"type": "text"
 				},
 				{
@@ -326,15 +369,45 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 10206,
+						"buffer_size": 10358,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								7950,
+								7950
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/MBXTools/mbx.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 2376.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "chapter01/ch01_3_systems.mbx",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2252,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								926,
+								926
 							]
 						],
 						"settings":
@@ -347,11 +420,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 5,
+					"stack_index": 8,
 					"type": "text"
 				},
 				{
-					"buffer": 3,
+					"buffer": 4,
 					"file": "sec_functionlist.mbx",
 					"semi_transient": false,
 					"settings":
@@ -377,24 +450,24 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 4,
+					"stack_index": 9,
 					"type": "text"
 				},
 				{
-					"buffer": 4,
+					"buffer": 5,
 					"file": "chapter02/chapter2main.mbx",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1187,
+						"buffer_size": 3675,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								3649,
+								3649
 							]
 						],
 						"settings":
@@ -404,27 +477,117 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 750.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "chapter02/ch02_6_projection.mbx",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 7665,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								7653,
+								7653
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/MBXTools/mbx.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 696.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "chapter02/ch02_1_vectors.mbx",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 16615,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								16368,
+								16368
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/MBXTools/mbx.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 8538.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "chapter02/ch02_5_crossplanes.mbx",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4487,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4122,
+								3941
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/MBXTools/mbx.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1782.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 2,
 					"type": "text"
 				},
 				{
-					"buffer": 5,
-					"file": "chapter02/section2-4.mbx",
+					"buffer": 9,
+					"file": "chapter02/ch02_4_crossproduct.mbx",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3950,
+						"buffer_size": 4959,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								119,
-								171
+								2048,
+								2048
 							]
 						],
 						"settings":
@@ -434,10 +597,10 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 270.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 6,
 					"type": "text"
 				}
 			]
@@ -482,7 +645,7 @@
 	"project": "multivariable_ptx.sublime-project",
 	"replace":
 	{
-		"height": 48.0
+		"height": 62.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -520,7 +683,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 208.0,
+	"side_bar_width": 283.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{

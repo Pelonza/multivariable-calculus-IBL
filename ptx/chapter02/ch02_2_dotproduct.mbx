@@ -217,13 +217,7 @@
       <webwork source="Library/Rochester/setVectors2DotProduct/UR_VC_1_11.pg" />
     </exercise>
 
-    <exercise>
-      <webwork source="Library/Rochester/setVectors2DotProduct/UR_VC_1_16.pg" />
-    </exercise>
 
-    <exercise>
-      <webwork source="Library/Rochester/setVectors2DotProduct/UR_VC_1_17.pg" />
-    </exercise>
     
   </exercises>
   <!-- webwork stuff -->

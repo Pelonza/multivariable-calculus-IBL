@@ -29,7 +29,10 @@
         </p>
       </statement>
     </definition>
+  </introduction>
 
+  <subsection>
+    <title>Basics with the Cross Product</title>
     <exploration>
       <introduction>
         <p>
@@ -105,7 +108,7 @@
       </hint>
     </exploration>
 
-  </introduction>
+  </subsection>
 
   <exercises>
     <title>Computational Practice</title>
