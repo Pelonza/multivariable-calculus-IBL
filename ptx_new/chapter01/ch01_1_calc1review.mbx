@@ -7,8 +7,8 @@
       We'll need to know how to graph by hand some basic functions. If you have not spent much time graphing functions by hand before this class, then you should spend some time graphing the following functions by hand. When we start drawing functions in 3D, we'll have to piece together infinitely many 2D graphs. Knowing the basic shape of graphs will help us do this.
     </p>
 
-    <exploration xml:id="firstreview"><introduction>
-      </introduction><task>
+    <exploration xml:id="firstreview">
+      <task>
         <p>
           Provide a rough sketch of the following functions, showing their basic shapes:
           <me>
@@ -26,8 +26,8 @@
             You are also welcome to use Maple or Sage. On the surface both Mathematica and Maple are very similar, while Sage is meant to be more multi-purpose.
           </p>
         </aside>
-      </task><conclusion>
-    </conclusion></exploration>
+      </task>
+    </exploration>
   </subsection>
 
   <subsection>
@@ -89,7 +89,7 @@
       The following problem will help you review some of your trigonometry, inverse functions, as well as implicit differentiation.
     </p>
 
-    <exploration><introduction>
+    <exploration>
       <statement>
         <p>
           <!-- \extrafn{
@@ -98,12 +98,12 @@
           } -->Use implicit differentiation to explain why the derivative of <m>y=\arcsin x</m> is <m>\ds y'=\frac{1}{\sqrt{1-x^2}}</m>.         
         </p>
       </statement>
-      </introduction><hint>
+      <hint>
         <p>
           Rewrite <m>y=\arcsin x</m> as <m>x=\sin y</m>, differentiate both sides, solve for <m>y'</m>, and then write the answer in terms of <m>x</m>.
         </p>
-      </hint><conclusion>
-    </conclusion></exploration>
+      </hint>
+    </exploration>
   </subsection>
 
   <subsection>

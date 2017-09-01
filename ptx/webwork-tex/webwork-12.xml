@@ -1,0 +1,21 @@
+<webwork-tex seed="123567890">
+<preamble>
+
+			
+%%% BEGIN PROBLEM PREAMBLE
+
+</preamble>
+<statement>
+If \(\mathbf{a} = \mathbf{i} + 10 \mathbf{j} + \mathbf{k}\) and 
+\(\mathbf{b} = \mathbf{i} + 19 \mathbf{j} + \mathbf{k}\), 
+find a unit vector with positive first coordinate orthogonal to both 
+\(\mathbf{a}\) and \(\mathbf{b}\).
+\leavevmode\\\relax 
+\mbox{\parbox[t]{7.5ex}{\hrulefill}} \(\mathbf{i}\) + 
+\mbox{\parbox[t]{7.5ex}{\hrulefill}} \(\mathbf{j}\) +
+\mbox{\parbox[t]{7.5ex}{\hrulefill}} \(\mathbf{k}\)
+\par 
+
+
+</statement>
+</webwork-tex>

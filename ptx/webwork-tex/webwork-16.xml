@@ -1,0 +1,18 @@
+<webwork-tex seed="123567890">
+<preamble>
+
+			
+%%% BEGIN PROBLEM PREAMBLE
+
+</preamble>
+<statement>
+A constant force \({\mathbf F} = 8 {\mathbf i} + 7 {\mathbf j} + 8 {\mathbf k}\) moves an object
+along a straight line from point \((-6, -2, 4)\) to point \((-3, 13, -8)\).  
+\par  Find the work done if the distance is measured in meters and the magnitude of the force
+is measured in newtons.
+
+\leavevmode\\\relax \leavevmode\\\relax  Work: \mbox{\parbox[t]{20ex}{\hrulefill}} Nm
+
+
+</statement>
+</webwork-tex>

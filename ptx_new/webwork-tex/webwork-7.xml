@@ -1,0 +1,18 @@
+<webwork-tex seed="123567890">
+<preamble>
+
+			
+%%% BEGIN PROBLEM PREAMBLE
+
+</preamble>
+<statement>
+\par 
+What is the angle in radians between the vectors 
+\leavevmode\\\relax  \({\mathbf a}\) = (9, 8, 9)
+and \leavevmode\\\relax  \({\mathbf b}\) = (-8, -3, 5)?
+
+\par  Angle: \mbox{\parbox[t]{30ex}{\hrulefill}} (radians)
+
+
+</statement>
+</webwork-tex>

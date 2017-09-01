@@ -75,8 +75,11 @@
 
       <task>
           <p>
-            If we still want to evaluate at the time corresponding to the point <m>(0,3)</m>, what is <m>t=</m>?. \begin{hint}It should be smaller than <m>\frac{\pi}{2}</m>
+            If we still want to evaluate at the time corresponding to the point <m>(0,3)</m>, what is <m>t=</m>?.
           </p>
+          <hint>
+            It should be smaller than <m>\frac{\pi}{2}</m>
+          </hint>
       </task>
 
       <task>
@@ -119,7 +122,7 @@
   <definition xml:id="def_curvature">
     <statement>
       <p>
-        Curvature <m>\kappa</m> and The Curvature Vector <m>\vec \kappa</m>\end{hint} Let <m>\vec r(t)</m> be a smooth curve (so that <m>\vec v</m> is never zero).
+        Curvature <m>\kappa</m> and The Curvature Vector <m>\vec \kappa</m> Let <m>\vec r(t)</m> be a smooth curve (so that <m>\vec v</m> is never zero).
         <ul>
           <li>
             <p>

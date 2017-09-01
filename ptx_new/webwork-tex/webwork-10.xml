@@ -1,0 +1,17 @@
+<webwork-tex seed="123567890">
+<preamble>
+
+			
+%%% BEGIN PROBLEM PREAMBLE
+
+</preamble>
+<statement>
+Let \(\mathbf{a} = (10, 9, 10)\) and \(\mathbf{b}  = (2, 4, 8)\) 
+be vectors. \leavevmode\\\relax 
+Compute the cross product \(\mathbf{a} \times \mathbf{b}\).
+\leavevmode\\\relax  \leavevmode\\\relax 
+\(\mathbf{a} \times \mathbf{b}=\)(\mbox{\parbox[t]{3ex}{\hrulefill}}, \mbox{\parbox[t]{3ex}{\hrulefill}}, \mbox{\parbox[t]{3ex}{\hrulefill}})
+
+
+</statement>
+</webwork-tex>
