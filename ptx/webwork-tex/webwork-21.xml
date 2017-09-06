@@ -1,0 +1,19 @@
+<webwork-tex seed="123567890">
+<preamble>
+
+			
+%%% BEGIN PROBLEM PREAMBLE
+
+</preamble>
+<statement>
+Write the parametric equations \leavevmode\\\relax \leavevmode\\\relax 
+
+\[x = \sqrt{t}, \quad y = 9- t\]
+
+in Cartesian form.
+\leavevmode\\\relax \leavevmode\\\relax 
+\(y =\) \mbox{\parbox[t]{5ex}{\hrulefill}} with \(x\ge 0\)
+
+
+</statement>
+</webwork-tex>
