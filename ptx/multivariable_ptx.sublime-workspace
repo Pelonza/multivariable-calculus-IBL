@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"ob",
+				"objectives"
+			],
+			[
 				"intro",
 				"introduction"
 			],
@@ -33,83 +37,43 @@
 			}
 		},
 		{
-			"file": "chapter02/ch02_2_dotproduct.mbx",
-			"settings":
-			{
-				"buffer_size": 7447,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "review_matrices.mbx",
-			"settings":
-			{
-				"buffer_size": 10358,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "chapter01/ch01_3_systems.mbx",
-			"settings":
-			{
-				"buffer_size": 2252,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "sec_functionlist.mbx",
-			"settings":
-			{
-				"buffer_size": 4264,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "chapter02/chapter2main.mbx",
-			"settings":
-			{
-				"buffer_size": 3675,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "chapter02/ch02_6_projection.mbx",
-			"settings":
-			{
-				"buffer_size": 7665,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
 			"file": "chapter02/ch02_1_vectors.mbx",
 			"settings":
 			{
 				"buffer_size": 16615,
-				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "chapter02/ch02_5_crossplanes.mbx",
+			"contents": "\n<chapter xml:id=\"ch04_parametric\" xmlns:xi=\"http://www.w3.org/2001/XInclude\" >\n  <title>Parametric Equations</title>\n  <introduction>\n    <p>\n      After completing this unit you will be able to...\n      <ol>\n        <li>\n          <p>\n            Model motion in the plane using parametric equations. In particular, describe conic sections using parametric equations.\n          </p>\n        </li>\n\n        <li>\n          <p>\n            Find derivatives and tangent lines for parametric equations. Explain how to find velocity, speed, and acceleration from parametric equations.\n          </p>\n        </li>\n\n        <li>\n          <p>\n            Use integrals to find the lengths of parametric curves.\n          </p>\n        </li>\n      </ol>\n    </p>\n  </introduction>\n  <xi:include  href=\"section4-1.mbx\" />\n</chapter>\n",
+			"file": "chapter04/chapter4.mbx",
+			"file_size": 829,
+			"file_write_time": 131492093003891842,
 			"settings":
 			{
-				"buffer_size": 4487,
-				"encoding": "UTF-8",
+				"buffer_size": 825,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "chapter02/ch02_4_crossproduct.mbx",
+			"contents": "\n<chapter xml:id=\"ch05_coordinates\" xmlns:xi=\"http://www.w3.org/2001/XInclude\" >\n  <title>Polar and New Coordinate Systems</title>\n  <objectives>\n    <introduction>\n      <p>\n        After completing this unit you will be able to...\n      </p>\n    </introduction>\n    <ol>\n      <li>\n        <p>\n          Convert between rectangular and polar coordinates in 2D. Convert between rectangular and cylindrical or spherical in 3D.\n        </p>\n      </li>\n\n      <li>\n        <p>\n          Graph polar functions in the plane. Find intersections of polar equations, and illustrate that not every intersection can be obtained algebraically (you may have to graph the curves).\n        </p>\n      </li>\n\n      <li>\n        <p>\n          Find derivatives and tangent lines in polar coordinates.\n        </p>\n      </li>\n\n      <li>\n        <p>\n          Find area and arc length using polar equations.\n        </p>\n      </li>\n    </ol>\n    \n  </objectives>\n  \n  <xi:include  href=\"ch05_01_polar_coordinates.mbx\" />\n  <xi:include  href=\"section5-2.mbx\" />\n</chapter>\n",
+			"file": "chapter05/chapter5.mbx",
+			"file_size": 1048,
+			"file_write_time": 131443631923186671,
 			"settings":
 			{
-				"buffer_size": 4959,
-				"encoding": "UTF-8",
+				"buffer_size": 1058,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "\n<section xml:id=\"ch05_01_polar_coordinates\">\n  <title>Polar Coordinates</title>\n  <introduction>\n    <p>\n      Up to now, we have most often given the location of a point (or coordiantes of a vector) by stating the <m>(x,y)</m> coordinates. These are called the Cartesian (or rectangular) coordinates. Some problems are much easier to work with if we know how far a point is from the origin, together with the angle between the <m>x</m>-axis and a ray from the origin to the point.\n    </p>\n\n    <exploration>\n      <p>\n        <!-- \\extrafn{\n        \\thomasee{See 11.3:5-10.}\n        } -->Consider the point <m>P</m> with Cartesian (rectangular) coordinates <m>(2,1)</m>.\n      </p>\n        <task>\n            <p>\n              Find the distance <m>r</m> from <m>P</m> to the origin.\n            </p>\n        </task>\n\n        <task>\n            <p>\n              Consider the ray <m>\\stackrel{\\rightarrow}{OP}</m> from the origin through <m>P</m>. Find an angle between <m>\\vec{OP}</m> and the <m>x</m>-axis.\n              <hint>\n                <p>\n                  Use a triangle and trigonometry\n                </p>\n              </hint>\n            </p>\n        </task>\n    </exploration>\n\n    <exploration>\n      <p>\n        Suppose that a point <m>Q=(a,b)</m> is 6 units from the origin, and the angle the ray <m>\\vec{OQ}</m> makes with the <m>x</m>-axis is <m>\\pi/4</m> radians. Find the Cartesian (rectangular) coordinates <m>(a,b)</m> of <m>Q</m>.\n      </p>\n    </exploration>\n\n    <definition>\n      <statement>\n        <p>\n          Let <m>Q</m> be be a point in the plane with Cartesian coordinates <m>(x,y)</m>. Let <m>O=(0,0)</m> be the origin. We define the polar coordinates of <m>Q</m> to be the ordered pair <m>(r,\\theta)</m> where <m>r</m> is the displacement from the origin to <m>Q</m>, and <m>\\theta</m> is an angle of rotation (counter-clockwise) from the <m>x</m>-axis to the ray <m>\\vec {OP}</m>.\n        </p>\n      </statement>\n    </definition>\n\n    <exploration>\n      <p>\n        <!-- \\extrafn{\n        \\thomasee{See 11.3:5-10.}\n        } -->The following points are given using their polar coordinates. Plot the points in the Cartesian plane, and give the Cartesian (rectangular) coordinates of each point. The points are\n        <me>\n          (1,\\pi), \n          \\ds \\left( 3,\\frac{5\\pi}{4}\\right),\n          \\ds \\left( -3,\\frac{\\pi}{4}\\right),\\text{ and } \n          \\ds \\left( -2,-\\frac{\\pi}{6}\\right).\n        </me>\n      </p>\n    </exploration>\n\n    <p>\n      The next problem provides general formulas for converting between the Cartesian (rectangular) and polar coordinate systems.\n    </p>\n\n    <exploration xml:id=\"prob_polar_coordinate_equations\">\n      <p>\n        <!-- \\extrafn{\n        \\thomasee{See page 647.}\n        } -->Suppose that <m>Q</m> is a point in the plane with Cartesian coordinates <m>(x,y)</m> and polar coordinates <m>(r,\\theta)</m>.\n      </p>\n        <task>\n            <p>\n              Write formulas for <m>x</m> and <m>y</m> in terms of <m>r</m> and <m>\\theta</m>.\n            </p>\n        </task>\n\n        <task>\n            <p>\n              Write a formula to find the distance <m>r</m> from <m>Q</m> to the origin (in terms of <m>x</m> and <m>y</m>)\n            </p>\n        </task>\n\n        <task>\n            <p>\n              Write a formula to find the angle <m>\\theta</m> between the <m>x</m>-axis and a line connecting <m>Q</m> to the origin. \n\n              <em>\n              <hint>\n                <p>\n                  A picture of a triangle will help here.\n                </p>\n              </hint>\n              </em>\n            </p>\n        </task>\n    </exploration>\n\n    <p>\n      In <xref ref=\"prob_polar_coordinate_equations\">problem</xref>, you should have obtained the equations\n      <me>\n        x=r\\cos\\theta,  y=r\\sin\\theta.\n      </me>\n    </p>\n\n    <p>\n      We can write this in vector notation as <m>\\begin{pmatrix}x\\\\y\n      \\end{pmatrix} =\\begin{pmatrix}r\\cos\\theta\\\\ r\\sin\\theta\n      \\end{pmatrix}</m>.\n      This is a vector equation in which you input polar coordinates <m>(r,\\theta)</m> and get out Cartesian coordinates <m>(x,y)</m>.\n      So you input one thing to get out one thing, which means that we have a function.\n      We could write <m>\\vec T(r,\\theta) = (r\\cos\\theta,r\\sin\\theta)</m>, where we've used the letter <m>T</m> as the name of the function because it is a transformation between coordinate systems.\n      To emphasize that the domain and range are both two dimensional systems, we could also write <m>T:\\mathbb{R}^2\\to\\mathbb{R}^2</m>. In the next chapter, we'll spend more time with this notation.\n    </p>\n\n    <p>\n      The following problem will show you how to graph a coordinate transformation. When you're done, you should essentially have polar graph paper.\n    </p>\n\n    <exploration xml:id=\"polar_coordinate_transformation_graph\">\n      <introduction>\n        <p>\n          Consider the coordinate transformation\n          <me>\n            \\vec T(r,\\theta) = (r\\cos\\theta,r\\sin\\theta).\n          </me>\n        </p>\n        <aside>\n          <p>\n            For this problem, you are just drawing many parametric curves.\n            This is what we did in the previous chapter.\n          </p>\n        </aside>\n      </introduction>\n      <task>\n          <p>\n            Let <m>r=3</m> and then graph <m>\\vec T(3,\\theta)=(3\\cos\\theta,3\\sin\\theta)</m> for <m>\\theta\\in[0,2\\pi]</m>.\n          </p>\n      </task>\n\n      <task>\n          <p>\n            Let <m>\\theta=\\frac{\\pi}{4}</m> and then, on the same axes as above, add the graph of \n            <m>\\vec T\\left(r,\\frac{\\pi}{4}\\right)=\\left(r\\frac{\\sqrt 2}{2},r \\frac{\\sqrt 2}{2}\\right)</m> for <m>r\\in[0,5]</m>.\n          </p>\n      </task>\n\n      <task>\n          <p>\n            To the same axes as above, add the graphs of \n            <m>\\vec T(1,\\theta), \\vec T(2,\\theta), \\vec T(4,\\theta)</m>  for <m>\\theta\\in[0,2\\pi]</m>\n          </p>\n      </task>\n\n      <task>\n          <p>\n            To the same axes as above, add the graphs of <m>\\vec T(r,0), \\vec T(r,\\pi/2), \\vec T(r,3\\pi/4), \\vec T(r,\\pi)</m> for <m>r\\in[0,5]</m>.\n          </p>\n      </task>\n    </exploration>\n\n    <exploration>\n      <introduction>\n        <p>\n          In the plane,\n        </p>\n      </introduction>\n      <task>\n          <p>\n            Graph the curve <m>y=\\sin x</m> for <m>x\\in[0,2\\pi]</m> (make an <m>x,y</m> table)\n          </p>\n      </task>\n\n      <task>\n          <p>\n            Graph the curve <m>r=\\sin\\theta</m> for <m>\\theta\\in[0,2\\pi]</m> (an <m>r,\\theta</m> table).\n          </p>\n      </task>\n      <conclusion>\n        <p>\n          The graphs should look very different. If one looks like a circle, you're on the right track.\n        </p>\n      </conclusion>\n    </exploration>\n\n    <exploration>\n      <introduction>\n        <p>\n          <!-- \\extrafn{\n          \\thomasee{See 11.3: 53-66.}\n          } -->Each of the following equations is written in the Cartesian (rectangular) coordinate system. Convert each to an equation in polar coordinates by substituting in the formulas from <xref ref=\"prob_polar_coordinate_equations\"></xref>, and then solve for <m>r</m> so that the equation is in the form <m>r=f(\\theta)</m>.\n        </p>\n      </introduction>\n      <task>\n          <p>\n            <m>x^2+y^2=7</m>\n          </p>\n      </task>\n\n      <task>\n          <p>\n            <m>2x+3y=5</m>\n          </p>\n      </task>\n\n      <task>\n          <p>\n            <m>x^2=y</m>\n          </p>\n      </task>\n    </exploration>\n\n    <exploration>\n      <p>\n        <!-- \\extrafn{\n        \\thomasee{See 11.3: 27-52. I strongly suggest that you do many of these as practice.}\n        } -->Each of the following equations is written in the polar coordinate system. Convert each to an equation in the Cartesian coordinates.\n      </p>\n        <task>\n            <p>\n              <m>r=9\\cos\\theta</m>\n            </p>\n        </task>\n\n        <task>\n            <p>\n              <m>\\ds r=\\frac{4}{2\\cos\\theta+3\\sin\\theta}</m>\n            </p>\n        </task>\n\n        <task>\n            <p>\n              <m>\\theta = 3\\pi/4</m>\n            </p>\n        </task>\n    </exploration>\n  </introduction>\n\n  <subsection>\n    <title>Graphing and Intersections</title>\n    <p>\n      To construct a graph of a polar curve, just create an <m>r,\\theta</m> table. Choose values for <m>\\theta</m> that will make it easy to compute any trig functions involved. Then connect the points in a smooth manner, making sure that your radius grows or shrinks appropriately as your angle increases.\n    </p>\n\n    <exploration>\n      <p>\n        Graph the polar curve <m>r=2\\sin 3\\theta</m>.\n      </p>\n    </exploration>\n\n    <exploration>\n      <p>\n        Graph the polar curve <m>r=3\\cos 2\\theta</m>.\n      </p>\n    </exploration>\n\n    <p>\n      Be sure you actually plot out the next two problems, otherwise you'll probably miss a few points of intersection.\n    </p>\n\n    <exploration>\n      <p>\n        Find the points of intersection of <m>r=3-3\\cos\\theta</m> and <m>r=3\\cos\\theta</m>.\n      </p>\n    </exploration>\n\n    <exploration>\n      <p>\n        Find the points of intersection of <m>r=2\\cos 2\\theta</m> and <m>r=\\sqrt 3</m>.\n      </p>\n    </exploration>\n  </subsection>\n\n  <subsection>\n    <title>Calculus with Polar Coordinates</title>\n    <p>\n      Recall that for parametric curves <m>\\vec r(t) = (x(t),y(t))</m>, to find the slope of the curve we compute\n      <me>\n        \\frac{dy}{dx}=\\frac{dy/dt}{dx/dt}.\n      </me>\n    </p>\n\n    <p>\n      A polar curve of the form <m>r=f(\\theta)</m> can be thought of as the parametric curve <m>(x,y) = (f(\\theta)\\cos\\theta,f(\\theta)\\sin\\theta)</m>. So you can find the slope by computing\n      <me>\n        \\frac{dy}{dx}=\\frac{dy/d\\theta}{dx/d\\theta}.\n      </me>\n    </p>\n\n    <exploration>\n      <p>\n        <!-- \\extrafn{\n        \\thomasee{See 11.2: 1-14.}\n        } -->Consider the polar curve <m>r=1+2\\cos \\theta</m>. (It wouldn't hurt to provide a quick sketch of the curve.)\n      </p>\n        <task>\n            <p>\n              Compute both <m>dx/d\\theta</m> and <m>dy/d\\theta</m>.\n            </p>\n        </task>\n\n        <task>\n            <p>\n              Find the slope <m>dy/dx</m> of the curve at <m>\\theta=\\pi/2</m>.\n            </p>\n        </task>\n\n        <task>\n            <p>\n              Give both a vector equation of the tangent line, and a Cartesian equation of the tangent line at <m>\\theta=\\pi/2</m>.\n            </p>\n        </task>\n    </exploration>\n\n    <p>\n      You can find arc length for parametric curves using the formula:\n      <me>\n        s=\\int_a^b\\sqrt{\\left(\\frac{dx}{dt}\\right)^2+\\left(\\frac{dy}{dt}\\right)^2}.\n      </me>\n    </p>\n\n    <p>\n      If we replace <m>t</m> with <m>\\theta</m>, this becomes a formula for arc length in polar coordinates. However, the formula can be simplified.\n    </p>\n\n    <exploration>\n      <p>\n        <!-- \\extrafn{\n        \\thomasee{See 11.5: 29.}\n        } -->Recall that <m>x=r\\cos\\theta</m> and <m>y=r\\sin\\theta</m>. Suppose that <m>r=f(\\theta)</m> for <m>\\theta\\in[\\alpha,\\beta]</m> is a continuous function, and that <m>f'</m> is continuous.\n        Show that the arc length formula can be simplified to\n        <me>\n          s=\\int_{\\alpha}^{\\beta}\\sqrt{\\left(\\frac{dx}{d\\theta}\\right)^2+\\left(\\frac{dy}{d\\theta}\\right)^2} \n          = \\int_{\\alpha}^{\\beta}\\sqrt{r^2+\\left(\\frac{dr}{d\\theta}\\right)^2} .\n        </me>\n      </p>\n      <hint>\n        <p>\n          the product rule and Pythagorean identity will help.\n        </p>\n      </hint>\n    </exploration>\n\n    <exploration>\n      <p>\n        <!-- \\extrafn{\n        \\thomasee{See 11.5: 21-28.}\n        } -->Set up <em>(do not evaluate)</em> an integral formula to compute the length of\n      </p>\n        <task>\n            <p>\n              the rose <m>r=2\\cos 3\\theta</m>, and\n            </p>\n        </task>\n\n        <task>\n            <p>\n              the rose <m>r=3\\sin 2\\theta</m>.\n            </p>\n        </task>\n    </exploration>\n  </subsection>\n</section>\n",
+			"file": "chapter05/ch05_01_polar_coordinates.mbx",
+			"file_size": 12292,
+			"file_write_time": 131479976402778115,
+			"settings":
+			{
+				"buffer_size": 12066,
 				"line_ending": "Windows"
 			}
 		}
@@ -178,12 +142,31 @@
 	},
 	"expanded_folders":
 	[
-		"/C/Users/Karl/Documents/GitHub/multivariable-calculus-IBL/ptx",
-		"/C/Users/Karl/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter01",
-		"/C/Users/Karl/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter02"
+		"/C/Users/kschmit1/Documents/GitHub/multivariable-calculus-IBL/ptx",
+		"/C/Users/kschmit1/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter02",
+		"/C/Users/kschmit1/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter04",
+		"/C/Users/kschmit1/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter05",
+		"/C/Users/kschmit1/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter06",
+		"/C/Users/kschmit1/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter07",
+		"/C/Users/kschmit1/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter13"
 	],
 	"file_history":
 	[
+		"/C/Users/kschmit1/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter05/section5-1.mbx",
+		"/C/Users/kschmit1/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter04/chapter4.mbx",
+		"/C/Users/kschmit1/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter13/section13-1.mbx",
+		"/C/Users/kschmit1/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter01/ch01_5_taylorseries.mbx",
+		"/C/Users/kschmit1/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter02/ch02_1_vectors.mbx",
+		"/C/Users/kschmit1/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter02/ch02_2_dotproduct.mbx",
+		"/C/Users/kschmit1/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter02/ch02_4_crossproduct.mbx",
+		"/C/Users/kschmit1/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter02/ch02_5_crossplanes.mbx",
+		"/C/Users/kschmit1/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter02/ch02_6_projection.mbx",
+		"/C/Users/kschmit1/Documents/GitHub/multivariable-calculus-IBL/ptx/review_matrices.mbx",
+		"/C/Users/kschmit1/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter01/ch01_1_calc1review.mbx",
+		"/C/Users/kschmit1/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter01/ch01_2_differentials.mbx",
+		"/C/Users/kschmit1/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter02/chapter2main.mbx",
+		"/C/Users/kschmit1/Documents/GitHub/multivariable-calculus-IBL/ptx/sec_functionlist.mbx",
+		"/C/Users/kschmit1/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter01/ch01_3_systems.mbx",
 		"/C/Users/Karl/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter02/ch02_4_crossproduct.mbx",
 		"/C/Users/Karl/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter01/ch01main.mbx",
 		"/C/Users/Karl/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter02/ch02_1_vectors.mbx",
@@ -261,6 +244,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"<!--",
 			"project",
 			"</insight>",
 			"<insight>",
@@ -300,7 +284,7 @@
 	"groups":
 	[
 		{
-			"selected": 7,
+			"selected": 4,
 			"sheets":
 			[
 				{
@@ -316,8 +300,8 @@
 						"selection":
 						[
 							[
-								5317,
-								5317
+								656,
+								656
 							]
 						],
 						"settings":
@@ -327,7 +311,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1774.0,
+						"translation.y": 135.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 4,
@@ -335,186 +319,6 @@
 				},
 				{
 					"buffer": 1,
-					"file": "chapter02/ch02_2_dotproduct.mbx",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 7447,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								7389,
-								7389
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/MBXTools/mbx.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 3564.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "review_matrices.mbx",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 10358,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								7950,
-								7950
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/MBXTools/mbx.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 2376.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 7,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "chapter01/ch01_3_systems.mbx",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2252,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								926,
-								926
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/MBXTools/mbx.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 8,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "sec_functionlist.mbx",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 4264,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/MBXTools/mbx.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 9,
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "chapter02/chapter2main.mbx",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 3675,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								3649,
-								3649
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/MBXTools/mbx.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 750.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 5,
-					"type": "text"
-				},
-				{
-					"buffer": 6,
-					"file": "chapter02/ch02_6_projection.mbx",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 7665,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								7653,
-								7653
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/MBXTools/mbx.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 696.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 7,
 					"file": "chapter02/ch02_1_vectors.mbx",
 					"semi_transient": false,
 					"settings":
@@ -526,8 +330,8 @@
 						"selection":
 						[
 							[
-								16368,
-								16368
+								6324,
+								6324
 							]
 						],
 						"settings":
@@ -537,27 +341,27 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 8538.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 3,
 					"type": "text"
 				},
 				{
-					"buffer": 8,
-					"file": "chapter02/ch02_5_crossplanes.mbx",
+					"buffer": 2,
+					"file": "chapter04/chapter4.mbx",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 4487,
+						"buffer_size": 825,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								4122,
-								3941
+								35,
+								35
 							]
 						],
 						"settings":
@@ -567,27 +371,27 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1782.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 2,
 					"type": "text"
 				},
 				{
-					"buffer": 9,
-					"file": "chapter02/ch02_4_crossproduct.mbx",
+					"buffer": 3,
+					"file": "chapter05/chapter5.mbx",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 4959,
+						"buffer_size": 1058,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2048,
-								2048
+								998,
+								998
 							]
 						],
 						"settings":
@@ -597,10 +401,40 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 270.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 6,
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "chapter05/ch05_01_polar_coordinates.mbx",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 12066,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								7566,
+								7839
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/MBXTools/mbx.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1954.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
 					"type": "text"
 				}
 			]

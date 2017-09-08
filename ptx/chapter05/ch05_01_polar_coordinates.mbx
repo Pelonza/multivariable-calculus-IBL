@@ -1,5 +1,5 @@
 
-<section>
+<section xml:id="ch05_01_polar_coordinates">
   <title>Polar Coordinates</title>
   <introduction>
     <p>
@@ -117,116 +117,123 @@
     </p>
 
     <exploration xml:id="polar_coordinate_transformation_graph">
-      <p>
-        <!-- \extrafn{For this problem, you are just drawing many parametric curves.
-
-        <aside>
+      <introduction>
         <p>
-          This is what we did in the previous chapter.
+          Consider the coordinate transformation
+          <me>
+            \vec T(r,\theta) = (r\cos\theta,r\sin\theta).
+          </me>
         </p>
+        <aside>
+          <p>
+            For this problem, you are just drawing many parametric curves.
+            This is what we did in the previous chapter.
+          </p>
         </aside>
+      </introduction>
+      <task>
+          <p>
+            Let <m>r=3</m> and then graph <m>\vec T(3,\theta)=(3\cos\theta,3\sin\theta)</m> for <m>\theta\in[0,2\pi]</m>.
+          </p>
+      </task>
 
-        } -->Consider the coordinate transformation
-        <me>
-          \vec T(r,\theta) = (r\cos\theta,r\sin\theta).
-        </me>
-      </p>
-        <task>
-            <p>
-              Let <m>r=3</m> and then graph <m>\vec T(3,\theta)=(3\cos\theta,3\sin\theta)</m> for <m>\theta\in[0,2\pi]</m>.
-            </p>
-        </task>
+      <task>
+          <p>
+            Let <m>\theta=\frac{\pi}{4}</m> and then, on the same axes as above, add the graph of 
+            <m>\vec T\left(r,\frac{\pi}{4}\right)=\left(r\frac{\sqrt 2}{2},r \frac{\sqrt 2}{2}\right)</m> for <m>r\in[0,5]</m>.
+          </p>
+      </task>
 
-        <task>
-            <p>
-              Let <m>\theta=\frac{\pi}{4}</m> and then, on the same axes as above, add the graph of 
-              <m>\vec T\left(r,\frac{\pi}{4}\right)=\left(r\frac{\sqrt 2}{2},r \frac{\sqrt 2}{2}\right)</m> for <m>r\in[0,5]</m>.
-            </p>
-        </task>
+      <task>
+          <p>
+            To the same axes as above, add the graphs of 
+            <m>\vec T(1,\theta), \vec T(2,\theta), \vec T(4,\theta)</m>  for <m>\theta\in[0,2\pi]</m>
+          </p>
+      </task>
 
-        <task>
-            <p>
-              To the same axes as above, add the graphs of 
-              <m>\vec T(1,\theta), \vec T(2,\theta), \vec T(4,\theta)</m>  for <m>\theta\in[0,2\pi]</m>
-            </p>
-        </task>
-
-        <task>
-            <p>
-              To the same axes as above, add the graphs of <m>\vec T(r,0), \vec T(r,\pi/2), \vec T(r,3\pi/4), \vec T(r,\pi)</m> for <m>r\in[0,5]</m>.
-            </p>
-        </task>
+      <task>
+          <p>
+            To the same axes as above, add the graphs of <m>\vec T(r,0), \vec T(r,\pi/2), \vec T(r,3\pi/4), \vec T(r,\pi)</m> for <m>r\in[0,5]</m>.
+          </p>
+      </task>
     </exploration>
 
     <exploration>
-      <p>
-        In the plane,
-      </p>
-        <task>
-            <p>
-              Graph the curve <m>y=\sin x</m> for <m>x\in[0,2\pi]</m> (make an <m>x,y</m> table)
-            </p>
-        </task>
+      <introduction>
+        <p>
+          In the plane,
+        </p>
+      </introduction>
+      <task>
+          <p>
+            Graph the curve <m>y=\sin x</m> for <m>x\in[0,2\pi]</m> (make an <m>x,y</m> table)
+          </p>
+      </task>
 
-        <task>
-            <p>
-              Graph the curve <m>r=\sin\theta</m> for <m>\theta\in[0,2\pi]</m> (an <m>r,\theta</m> table).
-            </p>
-        </task>
-
-      <p>
-        The graphs should look very different. If one looks like a circle, you're on the right track.
-      </p>
+      <task>
+          <p>
+            Graph the curve <m>r=\sin\theta</m> for <m>\theta\in[0,2\pi]</m> (an <m>r,\theta</m> table).
+          </p>
+      </task>
+      <conclusion>
+        <p>
+          The graphs should look very different. If one looks like a circle, you're on the right track.
+        </p>
+      </conclusion>
     </exploration>
 
     <exploration>
-      <p>
-        <!-- \extrafn{
-        \thomasee{See 11.3: 53-66.}
-        } -->Each of the following equations is written in the Cartesian (rectangular) coordinate system. Convert each to an equation in polar coordinates by substituting in the formulas from <xref ref="prob_polar_coordinate_equations"></xref>, and then solve for <m>r</m> so that the equation is in the form <m>r=f(\theta)</m>.
-      </p>
-        <task>
-            <p>
-              <m>x^2+y^2=7</m>
-            </p>
-        </task>
+      <introduction>
+        <p>
+          <!-- \extrafn{
+          \thomasee{See 11.3: 53-66.}
+          } -->Each of the following equations is written in the Cartesian (rectangular) coordinate system. Convert each to an equation in polar coordinates by substituting in the formulas from <xref ref="prob_polar_coordinate_equations"></xref>, and then solve for <m>r</m> so that the equation is in the form <m>r=f(\theta)</m>.
+        </p>
+      </introduction>
+      <task>
+          <p>
+            <m>x^2+y^2=7</m>
+          </p>
+      </task>
 
-        <task>
-            <p>
-              <m>2x+3y=5</m>
-            </p>
-        </task>
+      <task>
+          <p>
+            <m>2x+3y=5</m>
+          </p>
+      </task>
 
-        <task>
-            <p>
-              <m>x^2=y</m>
-            </p>
-        </task>
+      <task>
+          <p>
+            <m>x^2=y</m>
+          </p>
+      </task>
     </exploration>
 
     <exploration>
-      <p>
-        <!-- \extrafn{
-        \thomasee{See 11.3: 27-52. I strongly suggest that you do many of these as practice.}
-        } -->Each of the following equations is written in the polar coordinate system. Convert each to an equation in the Cartesian coordinates.
-      </p>
-        <task>
-            <p>
-              <m>r=9\cos\theta</m>
-            </p>
-        </task>
+      <introduction>
+        <p>
+              <!-- \extrafn{
+              \thomasee{See 11.3: 27-52. I strongly suggest that you do many of these as practice.}
+              } -->Each of the following equations is written in the polar coordinate system. Convert each to an equation in the Cartesian coordinates.
+        </p>
+      </introduction>
+      <task>
+          <p>
+            <m>r=9\cos\theta</m>
+          </p>
+      </task>
 
-        <task>
-            <p>
-              <m>\ds r=\frac{4}{2\cos\theta+3\sin\theta}</m>
-            </p>
-        </task>
+      <task>
+          <p>
+            <m>\ds r=\frac{4}{2\cos\theta+3\sin\theta}</m>
+          </p>
+      </task>
 
-        <task>
-            <p>
-              <m>\theta = 3\pi/4</m>
-            </p>
-        </task>
+      <task>
+          <p>
+            <m>\theta = 3\pi/4</m>
+          </p>
+      </task>
     </exploration>
   </introduction>
 
@@ -282,28 +289,30 @@
     </p>
 
     <exploration>
-      <p>
-        <!-- \extrafn{
-        \thomasee{See 11.2: 1-14.}
-        } -->Consider the polar curve <m>r=1+2\cos \theta</m>. (It wouldn't hurt to provide a quick sketch of the curve.)
-      </p>
-        <task>
-            <p>
-              Compute both <m>dx/d\theta</m> and <m>dy/d\theta</m>.
-            </p>
-        </task>
+      <introduction>
+        <p>
+              <!-- \extrafn{
+              \thomasee{See 11.2: 1-14.}
+              } -->Consider the polar curve <m>r=1+2\cos \theta</m>. (It wouldn't hurt to provide a quick sketch of the curve.)
+        </p>
+      </introduction>
+      <task>
+          <p>
+            Compute both <m>dx/d\theta</m> and <m>dy/d\theta</m>.
+          </p>
+      </task>
 
-        <task>
-            <p>
-              Find the slope <m>dy/dx</m> of the curve at <m>\theta=\pi/2</m>.
-            </p>
-        </task>
+      <task>
+          <p>
+            Find the slope <m>dy/dx</m> of the curve at <m>\theta=\pi/2</m>.
+          </p>
+      </task>
 
-        <task>
-            <p>
-              Give both a vector equation of the tangent line, and a Cartesian equation of the tangent line at <m>\theta=\pi/2</m>.
-            </p>
-        </task>
+      <task>
+          <p>
+            Give both a vector equation of the tangent line, and a Cartesian equation of the tangent line at <m>\theta=\pi/2</m>.
+          </p>
+      </task>
     </exploration>
 
     <p>
@@ -318,16 +327,18 @@
     </p>
 
     <exploration>
-      <p>
-        <!-- \extrafn{
-        \thomasee{See 11.5: 29.}
-        } -->Recall that <m>x=r\cos\theta</m> and <m>y=r\sin\theta</m>. Suppose that <m>r=f(\theta)</m> for <m>\theta\in[\alpha,\beta]</m> is a continuous function, and that <m>f'</m> is continuous.
-        Show that the arc length formula can be simplified to
-        <me>
-          s=\int_{\alpha}^{\beta}\sqrt{\left(\frac{dx}{d\theta}\right)^2+\left(\frac{dy}{d\theta}\right)^2} 
-          = \int_{\alpha}^{\beta}\sqrt{r^2+\left(\frac{dr}{d\theta}\right)^2} .
-        </me>
-      </p>
+      <statement>
+        <p>
+          <!-- \extrafn{
+          \thomasee{See 11.5: 29.}
+          } -->Recall that <m>x=r\cos\theta</m> and <m>y=r\sin\theta</m>. Suppose that <m>r=f(\theta)</m> for <m>\theta\in[\alpha,\beta]</m> is a continuous function, and that <m>f'</m> is continuous.
+          Show that the arc length formula can be simplified to
+          <me>
+            s=\int_{\alpha}^{\beta}\sqrt{\left(\frac{dx}{d\theta}\right)^2+\left(\frac{dy}{d\theta}\right)^2} 
+            = \int_{\alpha}^{\beta}\sqrt{r^2+\left(\frac{dr}{d\theta}\right)^2} .
+          </me>
+        </p>
+      </statement>
       <hint>
         <p>
           the product rule and Pythagorean identity will help.
@@ -336,22 +347,40 @@
     </exploration>
 
     <exploration>
-      <p>
-        <!-- \extrafn{
-        \thomasee{See 11.5: 21-28.}
-        } -->Set up <em>(do not evaluate)</em> an integral formula to compute the length of
-      </p>
-        <task>
-            <p>
-              the rose <m>r=2\cos 3\theta</m>, and
-            </p>
-        </task>
+      <introduction>
+        <p>
+          <!-- \extrafn{
+          \thomasee{See 11.5: 21-28.}
+          } -->Set up <em>(do not evaluate)</em> an integral formula to compute the length of
+        </p>
+      </introduction>
+      <task>
+          <p>
+            the rose <m>r=2\cos 3\theta</m>, and
+          </p>
+      </task>
 
-        <task>
-            <p>
-              the rose <m>r=3\sin 2\theta</m>.
-            </p>
-        </task>
+      <task>
+          <p>
+            the rose <m>r=3\sin 2\theta</m>.
+          </p>
+      </task>
     </exploration>
   </subsection>
+
+  <exercises>
+    <title>Computational Practice</title>
+    <introduction>
+      There are multiple copies of several exercises for your practice. You don't need to do them all. Do as many as it takes to get one right quickly.
+    </introduction>
+    <exercisegroup>
+
+<!-- Place my webwork exercises here! -->
+
+    </exercisegroup>
+
+  </exercises>
+
+
+    
 </section>
