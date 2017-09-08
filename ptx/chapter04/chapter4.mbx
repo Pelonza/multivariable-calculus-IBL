@@ -1,5 +1,5 @@
 
-<chapter xmlns:xi="http://www.w3.org/2001/XInclude" >
+<chapter xml:id="ch04_parametric" xmlns:xi="http://www.w3.org/2001/XInclude" >
   <title>Parametric Equations</title>
   <introduction>
     <p>
