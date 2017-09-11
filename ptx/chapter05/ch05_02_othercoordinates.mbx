@@ -216,6 +216,27 @@
     </p>
   </exploration>
   -->
+  <exercises>
+    <title>Computational Practice</title>
+    <introduction>
+      <p> 
+        There are multiple copies of several exercises for your practice. You don't need to do them all. Do as many as it takes to get one right quickly.
+      </p>
+    </introduction>
+    <exercisegroup>
+      <exercise>
+        <webwork source="Library/Rochester/setVectors5Coordinates/urvc_3_7.pg" />
+      </exercise>
 
-  
+      <exercise>
+        <webwork source="Library/Michigan/Chap16Sec5/Q03.pg" />
+      </exercise>
+      
+      <exercise>
+        <webwork source="Library/Michigan/Chap16Sec5/Q05.pg" />
+      </exercise>
+    </exercisegroup>
+
+  </exercises>
+      
 </section>
