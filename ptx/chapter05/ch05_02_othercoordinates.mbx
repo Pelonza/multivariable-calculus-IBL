@@ -14,7 +14,7 @@
   <task>
     <statement>
       <p>
-        <!-- See --original web link below--
+        <!-- See -original web link below-
         <url href="http://aleph.sagemath.org/?z=eJwti7sKwCAMAHe_IjglkqHY2b9wbgkiJVAfqP9PB7vdHVxE4VbyIxRQXGoTtzHI5d3U-juZPrQusBElnAQ6LcNm02VIyWtouvvbFu7MsFeGg8G7rkQfMv4giA">Sage</url>.
         Click on the link to see how to check your answer in Sage. -->Let <m>a=3</m> and then graph the curve <m>\vec T(3,\omega)=(3\cos\omega,9\sin\omega)</m> for <m>\omega\in[0,2\pi]</m>.
         
