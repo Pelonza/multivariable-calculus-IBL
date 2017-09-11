@@ -371,13 +371,56 @@
   <exercises>
     <title>Computational Practice</title>
     <introduction>
-      There are multiple copies of several exercises for your practice. You don't need to do them all. Do as many as it takes to get one right quickly.
+      <p> 
+        There are multiple copies of several exercises for your practice. You don't need to do them all. Do as many as it takes to get one right quickly.
+      </p>
     </introduction>
     <exercisegroup>
+      <introduction>
+        <p>
+          These practice problems test your ability to find/identify bounds using polar coordinates
+        </p>
+      </introduction>
 
-<!-- Place my webwork exercises here! -->
+      <exercise>
+        <webwork source="Library/FortLewis/Calc2/8-3-Polar/HGM5-08-03-17.pg"/>
+      </exercise>
 
+      <exercise>
+        <webwork source="Library/FortLewis/Calc2/8-3-Polar/HGM5-08-03-19.pg"/>
+      </exercise>
+
+      <exercise>
+        <webwork source="Library/FortLewis/Calc2/8-3-Polar/polar-regions.pg"/>
+      </exercise>
     </exercisegroup>
+
+    <exercisegroup>
+      <introduction>
+        <p>
+          These practice problems test your ability to find arc-lengths
+        </p>
+      </introduction>
+      <exercise>
+        <webwork source="Library/maCalcDB/setPolarCoord2Curves/ur_pc_2_10.pg" />
+      </exercise>
+
+      <exercise>
+        <webwork source="Library/Wiley/setAnton_Section_10.3/Question22.pg" />
+      </exercise>
+
+      <exercise>
+        <webwork source="Library/WHFreeman/Rogawski_Calculus_Early_Transcendentals_Second_Edition/11_Parametric_Equations_Polar_Coordinates_and_Conic_Sections/11.2_Arc_Length_and_Speed/11.2.1.pg" />
+      </exercise>
+    </exercisegroup>
+
+  </exercises>
+
+
+
+
+
+    
 
   </exercises>
 
