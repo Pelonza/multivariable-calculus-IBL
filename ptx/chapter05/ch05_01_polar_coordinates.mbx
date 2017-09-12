@@ -21,14 +21,16 @@
         </task>
 
         <task>
+          <statement>
             <p>
               Consider the ray <m>\stackrel{\rightarrow}{OP}</m> from the origin through <m>P</m>. Find an angle between <m>\vec{OP}</m> and the <m>x</m>-axis.
             </p>
-                <hint>
-                <p>
-                  Use a triangle and trigonometry
-                </p>
-              </hint>
+          </statement>
+          <hint>
+            <p>
+              Use a triangle and trigonometry
+            </p>
+          </hint>
         </task>
     </exploration>
 
@@ -85,17 +87,16 @@
         </task>
 
         <task>
+          <statement>
             <p>
-              Write a formula to find the angle <m>\theta</m> between the <m>x</m>-axis and a line connecting <m>Q</m> to the origin. 
-
-              <em>
-              <hint>
-                <p>
-                  A picture of a triangle will help here.
-                </p>
-              </hint>
-              </em>
+              Write a formula to find the angle <m>\theta</m> between the <m>x</m>-axis and a line connecting <m>Q</m> to the origin.
             </p>
+          </statement>
+          <hint>
+            <p>
+              A picture of a triangle will help here.
+            </p>
+          </hint>
         </task>
     </exploration>
 

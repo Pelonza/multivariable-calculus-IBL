@@ -1,221 +1,233 @@
 
-<section>
+<section xml:id="ch05_02_othercoordinates">
   <title>Other Coordinate Systems</title>
-  <p>
-    Sometimes a problem can't be solved until the correct coordinate system is chosen. You have previously done problems which showed you how to graph the coordinate transformation given by polar coordinates. The following problem shows you how to graph in a different coordinate system.
-  </p>
+  <introduction>
+    <p>
+      Sometimes a problem can't be solved until the correct coordinate system is chosen. You have previously done problems which showed you how to graph the coordinate transformation given by polar coordinates. The following problem shows you how to graph in a different coordinate system.
+    </p>
 
-  <exploration xml:id="prob_transform1">
-    <introduction>
-      <p>
-        Consider the coordinate transformation <m>T(a,\omega)=(a\cos\omega,a^2\sin \omega)</m>.
-      </p>
-    </introduction>
-  <task>
-    <statement>
-      <p>
-        <!-- See -original web link below-
-        <url href="http://aleph.sagemath.org/?z=eJwti7sKwCAMAHe_IjglkqHY2b9wbgkiJVAfqP9PB7vdHVxE4VbyIxRQXGoTtzHI5d3U-juZPrQusBElnAQ6LcNm02VIyWtouvvbFu7MsFeGg8G7rkQfMv4giA">Sage</url>.
-        Click on the link to see how to check your answer in Sage. -->Let <m>a=3</m> and then graph the curve <m>\vec T(3,\omega)=(3\cos\omega,9\sin\omega)</m> for <m>\omega\in[0,2\pi]</m>.
-        
-      </p>
-      <p>
-        You can use the following SageMath Cell to check your answer.
-      </p>
-      <sage>
-        <input>
-          T(a,omega)=(a*cos(omega), a^2*sin(omega))
-          print "T(a=3) is", T(a=3)
-          parametric_plot(T(a=3), (omega, 0, 2*pi))
-        </input>
-      </sage>
-    </statement>
-    <hint>
-      <p>
-        You can start by making a <m>\omega,x,y</m> table.
-      </p>
-    </hint>
-  </task>
-
-  <task>
-      <p>
-        <!-- See
-        <url href="http://aleph.sagemath.org/?z=eJxlzEEKg0AMBdC9pwiukmmgRd3OLVxbgkgJqBNm5v5UTGmF7vKT9zOicNqWl1BECXMq6IlBpi4U3T-ZGsu6V2hHlNgTaGkZfP5dThpN78MXXFaNSZZtqVnnp62potcZHDE8GLpgSgQ3-LeXT0fF-UD0BkVHOdw">Sage</url>. Notice that you can add the two plots together to superimpose them on each other. -->Let <m>\omega=\frac{\pi}{4}</m> and then, on the same axes as above, add the graph of 
-        <m>\vec T\left(a,\frac{\pi}{4}\right)=\left(a\frac{\sqrt 2}{2},a^2 \frac{\sqrt 2}{2}\right)</m> for <m>a\in[0,4]</m>.
-      </p>
-      <p>
-        Again, you can use the SageMath Cell to check your answer. Notice that you can add the two plots together to superimpose them on each other.
-      </p>
-      <sage>
-        <input>
-          T(a,omega)=(a*cos(omega), a^2*sin(omega))
-          print "T(a=3) is", T(a=3)
-          print "T(omega=pi/4) is", T(omega=pi/4)
-          parametric_plot(T(a=3), (omega, 0, 2*pi)) + parametric_plot(T(omega=pi/4), (a, 0, 4))
-        </input>
-      </sage>
-  </task>
-
-  <task>
-    <introduction>
-      <p>
-        To the same axes as above, add the graphs of:
-      </p>
-      <aside>
+    <exploration xml:id="prob_transform1">
+      <introduction>
         <p>
-          Use the SageMath Cells above to check your answer.
+          Consider the coordinate transformation <m>T(a,\omega)=(a\cos\omega,a^2\sin \omega)</m>.
         </p>
-      </aside>
+      </introduction>
+    <task>
+      <statement>
+        <p>
+          <!-- See -original web link below-
+          <url href="http://aleph.sagemath.org/?z=eJwti7sKwCAMAHe_IjglkqHY2b9wbgkiJVAfqP9PB7vdHVxE4VbyIxRQXGoTtzHI5d3U-juZPrQusBElnAQ6LcNm02VIyWtouvvbFu7MsFeGg8G7rkQfMv4giA">Sage</url>.
+          Click on the link to see how to check your answer in Sage. -->Let <m>a=3</m> and then graph the curve <m>\vec T(3,\omega)=(3\cos\omega,9\sin\omega)</m> for <m>\omega\in[0,2\pi]</m>.
+          
+        </p>
+        <p>
+          You can use the following SageMath Cell to check your answer.
+        </p>
+        <sage>
+          <input>
+            T(a,omega)=(a*cos(omega), a^2*sin(omega))
+            print "T(a=3) is", T(a=3)
+            parametric_plot(T(a=3), (omega, 0, 2*pi))
+          </input>
+        </sage>
+      </statement>
       <hint>
         <p>
-          when you're done, you should have a bunch of parabolas and ellipses.
+          You can start by making a <m>\omega,x,y</m> table.
         </p>
       </hint>
-    </introduction>
-    <task>
-        <p>
-          <m>\vec T(1,\omega), \vec T(2,\omega), \vec T(4,\omega)</m>  for <m>\omega\in[0,2\pi]</m>
-        </p>
     </task>
 
     <task>
         <p>
-          <m>\vec T(a,0), \vec T(a,\pi/2), \vec T(a,-\pi/6)</m> for <m>a\in[0,4]</m>.
+          <!-- See
+          <url href="http://aleph.sagemath.org/?z=eJxlzEEKg0AMBdC9pwiukmmgRd3OLVxbgkgJqBNm5v5UTGmF7vKT9zOicNqWl1BECXMq6IlBpi4U3T-ZGsu6V2hHlNgTaGkZfP5dThpN78MXXFaNSZZtqVnnp62potcZHDE8GLpgSgQ3-LeXT0fF-UD0BkVHOdw">Sage</url>. Notice that you can add the two plots together to superimpose them on each other. -->Let <m>\omega=\frac{\pi}{4}</m> and then, on the same axes as above, add the graph of 
+          <m>\vec T\left(a,\frac{\pi}{4}\right)=\left(a\frac{\sqrt 2}{2},a^2 \frac{\sqrt 2}{2}\right)</m> for <m>a\in[0,4]</m>.
         </p>
+        <p>
+          Again, you can use the SageMath Cell to check your answer. Notice that you can add the two plots together to superimpose them on each other.
+        </p>
+        <sage>
+          <input>
+            T(a,omega)=(a*cos(omega), a^2*sin(omega))
+            print "T(a=3) is", T(a=3)
+            print "T(omega=pi/4) is", T(omega=pi/4)
+            parametric_plot(T(a=3), (omega, 0, 2*pi)) + parametric_plot(T(omega=pi/4), (a, 0, 4))
+          </input>
+        </sage>
     </task>
-  </task>
 
-  </exploration>
+    <task>
+      <introduction>
+        <p>
+          To the same axes as above, add the graphs of:
+        </p>
+        <aside>
+          <p>
+            Use the SageMath Cells above to check your answer.
+          </p>
+        </aside>
+        <hint>
+          <p>
+            when you're done, you should have a bunch of parabolas and ellipses.
+          </p>
+        </hint>
+      </introduction>
+      <task>
+          <p>
+            <m>\vec T(1,\omega), \vec T(2,\omega), \vec T(4,\omega)</m>  for <m>\omega\in[0,2\pi]</m>
+          </p>
+      </task>
 
-  <p>
-    In 3 dimensions, the most common coordinate systems are cylindrical and spherical. The equations for these coordinate systems are in the table below.
-  </p>
-  <tabular>
-    <row>
-      <cell>Cylindrical Coordinates</cell>
-      <cell>Spherical Coordinates</cell>
-    </row>
-    <row bottom="minor">
-      <cell></cell>
-      <cell></cell>
-    </row>
-    <row>
-      <cell><m>\begin{array}{l}
-      x=r\cos\theta\\
-      y=r\sin\theta\\
-      z=z
-      \end{array}</m></cell>
-      <cell><m>\begin{array}{l}
-      x=\rho\sin\phi\cos\theta\\
-      y=\rho\sin\phi\sin\theta\\
-      z=\rho\cos\phi
-      \end{array}</m></cell>
-    </row>
-  </tabular>
- 
-  <tabular>
-    <row>
-      <cell>Cylindrical Coordinates</cell>
-      <cell>Spherical Coordinates(Math)</cell>
-      <cell>Spherical (Physics/Engineering)</cell>
-    </row>
-    <row bottom="minor">
-      <cell></cell>
-      <cell></cell>
-      <cell></cell>
-    </row>
-    <row>
-      <cell><m>\begin{array}{l}
-      x=r\cos\theta\\
-      y=r\sin\theta\\
-      z=z
-      \end{array}</m></cell>
-      <cell><m>\begin{array}{l}
-      x=\rho\sin\theta\cos\phi\\
-      y=\rho\sin\theta\sin\phi\\
-      z=\rho\cos\theta
-      \end{array}</m></cell>
-      <cell><m>\begin{array}{l}
-      x=r\sin\phi\cos\theta\\
-      y=r\sin\phi\sin\theta\\
-      z=r\cos\phi
-      \end{array}</m></cell>
-    </row>
-  </tabular>
+      <task>
+          <p>
+            <m>\vec T(a,0), \vec T(a,\pi/2), \vec T(a,-\pi/6)</m> for <m>a\in[0,4]</m>.
+          </p>
+      </task>
+    </task>
 
-  <exploration>
-    <p>
-      <!-- \extrafn{
-      \thomasee{See page 893.} 
-      \stewarts{See pages 827-833} 
-      \larsonfive{See Larson 11.7.}
-      } -->Let <m>P=(x,y,z)</m> be a point in space. This point lies on a cylinder of radius <m>r</m>, where the cylinder has the <m>z</m> axis as its axis of symmetry. The height of the point is <m>z</m> units up from the <m>xy</m> plane. The point casts a shadow in the <m>xy</m> plane at <m>Q=(x,y,0)</m>. The angle between the ray <m>\vec{OQ}</m> and the <m>x</m>-axis is <m>\theta</m>. Construct a graph in 3D of this information, and use it to develop the equations for cylindrical coordinates given above.
-    </p>
-  </exploration>
-
-  <exploration xml:id="derive_spherical_coordinates">
-    <p>      
-      <!-- \extrafn{
-      \thomasee{See page 897.}
-      \larsonfive{See Larson 11.7.}
-      } -->
-      Let <m>P=(x,y,z)</m> be a point in space. This point lies on a sphere of
-      radius <m>\rho</m> (<q>rho</q>), where the sphere's center is at the origin
-      <m>O=(0,0,0)</m>. The point casts a shadow in the <m>xy</m> plane at
-      <m>Q=(x,y,0)</m>. The angle between the ray <m>\vec{OQ}</m> and the <m>x</m>-axis
-      is <m>\theta</m>, and is called the azimuth angle. The angle between
-      the ray <m>\vec{OP}</m> and the <m>z</m> axis is <m>\phi</m> (<q>phi</q>), and is
-      called the inclination angle, polar angle, or zenith angle. Construct
-      a graph in 3D of this information, and use it to develop the
-      equations for spherical coordinates given above.
-    </p>
-  </exploration>
-
-  <aside>
-    <p>
-      See the articles on <url href="http://en.wikipedia.org/wiki/Spherical_coordinate_system">Wikipedia</url>
-      or <url href="http://mathworld.wolfram.com/SphericalCoordinates.html">MathWorld</url>
-      for a discussion of conventions in different disciplines.
-    </p>
-  </aside>
-
-  <p>
-    There is some disagreement between different fields about the notation
-    for spherical coordinates. In some fields (like physics), <m>\phi</m>
-    represents the azimuth angle and <m>\theta</m> represents the inclination
-    angle. In some fields, like geography, instead of the inclination angle, the
-    <em>elevation</em> angle is given<mdash />the angle from the <m>xy</m>-plane (lines
-    of lattitude are from the elevation angle).
-    Additionally, sometimes the coordinates are written in a different
-    order. You should always check the notation for spherical coordinates
-    before communicating using them.
-  </p>
-
-
-  <todo> Below exploration is commented out right now because the lab isn't really refined and has been cut from Valpo's curriculum. </todo>
-  <!--
-  <exploration>
-    <p>
-      If you have never worked in Maple, you will want to spend some time familiarizing yourself with the program before our Lab day (keep reading if you are!). The link here takes you to a set of modules which will review several of the vector concepts we learned last week, but also introduce you to Maple. The Vector exploration contains a very nice visual on vector projections, which you should look at even if you are comfortable in Maple.
-    </p>
+    </exploration>
+  </introduction>
+  <subsection>
+    <title>Exploring Other Coordinates</title>
 
     <p>
-      The Connected Curriculum Project:
+      In 3 dimensions, the most common coordinate systems are cylindrical and spherical. The equations for these coordinate systems are in the table below.
     </p>
+    <table>
+      <caption>Conversion between coordinate systems</caption>
+
+      <tabular>
+        <row>
+          <cell>Cylindrical Coordinates</cell>
+          <cell>Spherical Coordinates</cell>
+        </row>
+        <row bottom="minor">
+          <cell></cell>
+          <cell></cell>
+        </row>
+        <row>
+          <cell><m>\begin{array}{l}
+          x=r\cos\theta\\
+          y=r\sin\theta\\
+          z=z
+          \end{array}</m></cell>
+          <cell><m>\begin{array}{l}
+          x=\rho\sin\phi\cos\theta\\
+          y=\rho\sin\phi\sin\theta\\
+          z=\rho\cos\phi
+          \end{array}</m></cell>
+        </row>
+      </tabular>
+    </table>
+
+    <table>
+      <caption></caption>
+      <tabular>
+        <row>
+          <cell>Cylindrical Coordinates</cell>
+          <cell>Spherical Coordinates(Math)</cell>
+          <cell>Spherical (Physics/Engineering)</cell>
+        </row>
+        <row bottom="minor">
+          <cell></cell>
+          <cell></cell>
+          <cell></cell>
+        </row>
+        <row>
+          <cell><m>\begin{array}{l}
+          x=r\cos\theta\\
+          y=r\sin\theta\\
+          z=z
+          \end{array}</m></cell>
+          <cell><m>\begin{array}{l}
+          x=\rho\sin\theta\cos\phi\\
+          y=\rho\sin\theta\sin\phi\\
+          z=\rho\cos\theta
+          \end{array}</m></cell>
+          <cell><m>\begin{array}{l}
+          x=r\sin\phi\cos\theta\\
+          y=r\sin\phi\sin\theta\\
+          z=r\cos\phi
+          \end{array}</m></cell>
+        </row>
+      </tabular>
+    </table>
+
+    <exploration>
+      <p>
+        <!-- \extrafn{
+        \thomasee{See page 893.} 
+        \stewarts{See pages 827-833} 
+        \larsonfive{See Larson 11.7.}
+        } -->Let <m>P=(x,y,z)</m> be a point in space. This point lies on a cylinder of radius <m>r</m>, where the cylinder has the <m>z</m> axis as its axis of symmetry. The height of the point is <m>z</m> units up from the <m>xy</m> plane. The point casts a shadow in the <m>xy</m> plane at <m>Q=(x,y,0)</m>. The angle between the ray <m>\vec{OQ}</m> and the <m>x</m>-axis is <m>\theta</m>. Construct a graph in 3D of this information, and use it to develop the equations for cylindrical coordinates given above.
+      </p>
+    </exploration>
+
+    <exploration xml:id="derive_spherical_coordinates">
+      <p>      
+        <!-- \extrafn{
+        \thomasee{See page 897.}
+        \larsonfive{See Larson 11.7.}
+        } -->
+        Let <m>P=(x,y,z)</m> be a point in space. This point lies on a sphere of
+        radius <m>\rho</m> (<q>rho</q>), where the sphere's center is at the origin
+        <m>O=(0,0,0)</m>. The point casts a shadow in the <m>xy</m> plane at
+        <m>Q=(x,y,0)</m>. The angle between the ray <m>\vec{OQ}</m> and the <m>x</m>-axis
+        is <m>\theta</m>, and is called the azimuth angle. The angle between
+        the ray <m>\vec{OP}</m> and the <m>z</m> axis is <m>\phi</m> (<q>phi</q>), and is
+        called the inclination angle, polar angle, or zenith angle. Construct
+        a graph in 3D of this information, and use it to develop the
+        equations for spherical coordinates given above.
+      </p>
+    </exploration>
+
+    <aside>
+      <p>
+        See the articles on <url href="http://en.wikipedia.org/wiki/Spherical_coordinate_system">Wikipedia</url>
+        or <url href="http://mathworld.wolfram.com/SphericalCoordinates.html">MathWorld</url>
+        for a discussion of conventions in different disciplines.
+      </p>
+    </aside>
 
     <p>
-      <url href="https://www.math.duke.edu/education/ccp/resources/learn/index.html">Introduction to Modules</url>
+      There is some disagreement between different fields about the notation
+      for spherical coordinates. In some fields (like physics), <m>\phi</m>
+      represents the azimuth angle and <m>\theta</m> represents the inclination
+      angle. In some fields, like geography, instead of the inclination angle, the
+      <em>elevation</em> angle is given<mdash />the angle from the <m>xy</m>-plane (lines
+      of lattitude are from the elevation angle).
+      Additionally, sometimes the coordinates are written in a different
+      order. You should always check the notation for spherical coordinates
+      before communicating using them.
     </p>
 
-    <p>
-      <url href="https://www.math.duke.edu/education/ccp/materials/mvcalc/javamaptutor/contents.html">Maple Tutorial</url>
-    </p>
 
-    <p>
-      <url href="https://www.math.duke.edu/education/ccp/materials/mvcalc/vectors/index.html">Vectors Exploration</url>
-    </p>
-  </exploration>
-  -->
+    <todo> Below exploration is commented out right now because the lab isn't really refined and has been cut from Valpo's curriculum. </todo>
+    <!--
+    <exploration>
+      <p>
+        If you have never worked in Maple, you will want to spend some time familiarizing yourself with the program before our Lab day (keep reading if you are!). The link here takes you to a set of modules which will review several of the vector concepts we learned last week, but also introduce you to Maple. The Vector exploration contains a very nice visual on vector projections, which you should look at even if you are comfortable in Maple.
+      </p>
+
+      <p>
+        The Connected Curriculum Project:
+      </p>
+
+      <p>
+        <url href="https://www.math.duke.edu/education/ccp/resources/learn/index.html">Introduction to Modules</url>
+      </p>
+
+      <p>
+        <url href="https://www.math.duke.edu/education/ccp/materials/mvcalc/javamaptutor/contents.html">Maple Tutorial</url>
+      </p>
+
+      <p>
+        <url href="https://www.math.duke.edu/education/ccp/materials/mvcalc/vectors/index.html">Vectors Exploration</url>
+      </p>
+    </exploration>
+    -->
+  </subsection>
   <exercises>
     <title>Computational Practice</title>
     <introduction>

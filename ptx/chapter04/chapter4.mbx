@@ -25,5 +25,5 @@
       </ol>
     </p>
   </introduction>
-  <xi:include  href="section4-1.mbx" />
+  <xi:include  href="parametric-eqns.mbx" />
 </chapter>
