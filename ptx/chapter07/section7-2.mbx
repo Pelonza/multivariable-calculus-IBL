@@ -95,8 +95,7 @@
 
     <task>
         <p>
-          <!-- \extrafn{The matrix <m>\begin{bmatrix}2\pi rh\amp  \pi r^2
-          \end{bmatrix}</m> is the derivative.  The columns we'll call the partial derivatives.  The partial derivatives make up the whole.} -->Show that we can write <m>dV</m> as the matrix product
+         Show that we can write <m>dV</m> as the matrix product
           <me>
             dV = \begin{bmatrix}2\pi rh\amp  \pi r^2
             \end{bmatrix} \begin{bmatrix}dr\\dh
@@ -104,6 +103,12 @@
           </me>
           How do the columns of this matrix relate to the previous portions of the exercise.
         </p>
+    <aside>
+     <p>
+      The matrix <m>\begin{bmatrix}2\pi rh\amp  \pi r^2
+          \end{bmatrix}</m> is the derivative.  The columns we'll call the partial derivatives.  The partial derivatives make up the whole.
+     </p>
+    </aside>
     </task>
   </exploration>
 
@@ -148,8 +153,7 @@
 
     <task>
         <p>
-          <!-- \extrafn{The matrix <m>\begin{bmatrix}yz\amp  ?\amp ?
-          \end{bmatrix}</m> is the derivative.  The columns we'll call the partial derivatives.  The partial derivatives make up the whole.} -->Show that we can write <m>dV</m> as the matrix product (fill in the blanks)
+          Show that we can write <m>dV</m> as the matrix product (fill in the blanks)
           <me>
             dV = \begin{bmatrix}yz\amp  ?\amp ?
             \end{bmatrix} \begin{bmatrix}dx\\dy\\dz
@@ -157,6 +161,12 @@
           </me>
           How do the columns of this matrix relate to the previous portions of the exercise.
         </p>
+     <aside>
+      <p>
+       The matrix <m>\begin{bmatrix}yz\amp  ?\amp ?
+          \end{bmatrix}</m> is the derivative.  The columns we'll call the partial derivatives.  The partial derivatives make up the whole.
+      </p>
+     </aside>
     </task>
 
   </exploration>
@@ -170,16 +180,14 @@
       Use matrix multiplication to answer the following questions.
     </p>
     <task>
-        <p>
-          <!-- \extrafn{
-
           <aside>
           <p>
             Make sure you ask me in class to show you physically exactly how you can see these differential formulas.
           </p>
           </aside>
 
-          } --><xref ref="prob_differential_volume_of_a_cylinder">In</xref> we showed that a change in the volume of a cylinder is approximately
+        <p>
+          <xref ref="prob_differential_volume_of_a_cylinder">In</xref> we showed that a change in the volume of a cylinder is approximately
           <me>
             dV = \begin{bmatrix}2\pi rh\amp  \pi r^2
             \end{bmatrix} \begin{bmatrix}dr\\dh
