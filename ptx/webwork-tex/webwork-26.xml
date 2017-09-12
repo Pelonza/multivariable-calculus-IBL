@@ -1,0 +1,32 @@
+<webwork-tex seed="123567890">
+<preamble>
+
+			
+%%% BEGIN PROBLEM PREAMBLE
+
+</preamble>
+<statement>
+\par\medskip\hbox{\qquad\vtop{\advance\hsize by -3em Give inequalities for \(r\) and \(\theta\) which
+describe the region shown in the figure in polar coordinates. 
+The two arcs shown are circular, and the region is between the two
+arcs and between the \(y\)-axis and line graphed, which is \(y = {\sqrt{3}} x\).
+The two labeled points on the graph are \((3,3\sqrt{3})\) and
+\((6,6\sqrt{3})\).\leavevmode\\\relax \leavevmode\\\relax \mbox{\parbox[t]{7.5ex}{\hrulefill}} \(\le r \le\) \mbox{\parbox[t]{7.5ex}{\hrulefill}}\leavevmode\\\relax \mbox{\parbox[t]{7.5ex}{\hrulefill}} \(\le \theta \le\) \mbox{\parbox[t]{7.5ex}{\hrulefill}}\leavevmode\\\relax {\it (Write}  {\bf infinity} {\it to indicate
+a boundary at infinity.)} }}\medskip\hbox{\qquad\vtop{\advance\hsize by -3em \begin{center} \includegraphics[width=0.7\linewidth]{webwork-tex/webwork-26-image-1.png}
+\par {\it (Click on the graph for a larger version.)} \end{center} }}\medskip
+
+
+</statement>
+<solution>
+\par \par {\bf Solution: }\par  SOLUTION \par 
+
+The region is given by 
+\(\sqrt{(3)^2 + (3\sqrt{3})^2} \le r\le \sqrt{(6)^2 + (6\sqrt{3})^2}\),
+or
+\(6 \le r\le 12\), and 
+\(\pi/3 \le \theta\le \pi/2\).
+
+
+\par 
+</solution>
+</webwork-tex>
