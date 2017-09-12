@@ -20,14 +20,13 @@
 
       <task>
           <p>
-            At the point <m>P</m>, let <m>\vec F(x,y,z)</m> be the vector which points from <m>P</m> to the origin.  Give a formula for <m>\vec F(x,y,z)</m>
+            At the point <m>P</m>, let <m>\vec F(x,y,z)</m> be the vector which points from <m>P</m> to the origin.  Give a formula for <m>\vec F(x,y,z)</m>.
+          </p>
             <hint>
               <p>
                 An object following this vector would travel from the point to the origin
               </p>
             </hint>
-            .
-          </p>
       </task>
 
       <task>
@@ -106,12 +105,12 @@
             <me>
               x=x, y=y, z=?.
             </me>
+          </p>
             <hint>
               <p>
                 Use the surface equation to eliminate the input variable <m>z</m> in <m>T</m>.
               </p>
             </hint>
-          </p>
       </task>
 
       <task>
@@ -164,28 +163,24 @@
       <me>
         \vec T(\rho,\phi,\theta) = (\rho\sin\phi\cos \theta, \rho\sin\phi\sin \theta,\rho \cos \phi).
       </me>
-    </p>
-
-    <p>
       }
-
+    </p>
       <aside>
       <p>
         <me>
           \vec T(\rho,\phi,\theta) = (\rho\sin\phi\cos \theta, \rho\sin\phi\sin \theta,\rho \cos \phi).
         </me>
       </p>
-
       </aside>
 
       \larsonfive{
       <me>
         \vec T(\rho,\theta, \phi) = (\rho\sin\phi\cos \theta, \rho\sin\phi\sin \theta,\rho \cos \phi).
       </me>
-    </p>
+      }
 
     <p>
-      }This is a function of the form <m>\vec T\colon \mathbb{R}^3\to\mathbb{R}^3</m>. If we hold one of the three inputs constant, then we have a function of the form <m>\vec r\colon \mathbb{R}^2\to\mathbb{R}^3</m>, which is a parametric surface.
+      This is a function of the form <m>\vec T\colon \mathbb{R}^3\to\mathbb{R}^3</m>. If we hold one of the three inputs constant, then we have a function of the form <m>\vec r\colon \mathbb{R}^2\to\mathbb{R}^3</m>, which is a parametric surface.
     </p>
       <task>
           <p>

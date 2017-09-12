@@ -226,12 +226,12 @@
         <task>
             <p>
               State <m>\bar x</m> from geometric reasoning.
+            </p>
               <hint>
                 <p>
                   Sketch the region
                 </p>
               </hint>
-            <aside>
 
             <task>
                 <p>
@@ -244,10 +244,7 @@
                   Set up an integral to give the <m>R_x</m> if the density is <m>\delta(x,y)=xy^2</m>.
                 </p>
             </task>
-              
-            </aside>
 
-            </p>
         </task>
     </exploration>
 
