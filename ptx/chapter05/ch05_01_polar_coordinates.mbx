@@ -219,8 +219,13 @@
         <p>
               <!-- \extrafn{
               \thomasee{See 11.3: 27-52. I strongly suggest that you do many of these as practice.}
-              } -->Each of the following equations is written in the polar coordinate system. Convert each to an equation in the Cartesian coordinates.
+              } -->Each of the following equations is written in the polar coordinate system. Convert each to an equation in the Cartesian coordinates. Again, you will probably want to use the formulas from <xref ref="prob_polar_coordinate_equations"></xref>.
         </p>
+        <hint>
+          <p>
+            Don't substitute directly for <me>\theta</me>. Instead try substituting for <me>\cos\theta</me> and <me>\cos\theta</me>
+          </p>
+        </hint>
       </introduction>
       <task>
           <p>
