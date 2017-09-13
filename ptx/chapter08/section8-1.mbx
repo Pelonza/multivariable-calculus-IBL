@@ -39,16 +39,17 @@
         A space ship travels through the galaxy. Let <m>\vec r(t) = (x,y,z)</m>
         be the position of the space ship at time <m>t</m>, with the earth at the origin <m>(0,0,0)</m>.
       </p>
-    </introduction>
-    <aside>
-      <p>
-        Watch a <url href="http://www.youtube.com/watch?v=jZpAU2T6iI4&amp;list=PL30EE81142B1ED1F0&amp;index=3&amp;feature=plpp_video">YouTube video</url>.
-      </p>
 
-      <p>
-        Technically, we should write <m>\vec r(t) = (x(t),y(t),z(t))</m>. However, we already know that <m>x</m>, <m>y</m>, and <m>z</m> depend on <m>t</m>, hence we'll just leave the dependence on <m>t</m> off.
-      </p>
-    </aside>
+      <aside>
+        <p>
+          Watch a <url href="http://www.youtube.com/watch?v=jZpAU2T6iI4&amp;list=PL30EE81142B1ED1F0&amp;index=3&amp;feature=plpp_video">YouTube video</url>.
+        </p>
+
+        <p>
+          Technically, we should write <m>\vec r(t) = (x(t),y(t),z(t))</m>. However, we already know that <m>x</m>, <m>y</m>, and <m>z</m> depend on <m>t</m>, hence we'll just leave the dependence on <m>t</m> off.
+        </p>
+      </aside>
+    </introduction>
     <task>
       <p>
         What are the velocity and speed of the space ship at time <m>t</m>? You answers should involve some derivatives (such as <m>\frac{dx}{dt}</m>).
@@ -126,12 +127,13 @@
       <p>
         Consider the helical space curve <m>C</m> with parameterization <m>\vec r(t)=(\cos t, \sin t, t)</m>.
       </p>
+
+      <aside>
+        <p>
+          Watch TWO <url href="http://www.youtube.com/watch?v=m25oxYTfXfU&amp;list=PL30EE81142B1ED1F0&amp;index=4&amp;feature=plpp_video">YouTube Videos</url> (Arc-Length Parameter and Unit Tangent Vector).
+        </p>
+      </aside>
     </introduction>
-    <aside>
-      <p>
-        Watch TWO <url href="http://www.youtube.com/watch?v=m25oxYTfXfU&amp;list=PL30EE81142B1ED1F0&amp;index=4&amp;feature=plpp_video">YouTube Videos</url> (Arc-Length Parameter and Unit Tangent Vector).
-      </p>
-    </aside>
     <task>
       <p>
         Is C a smooth curve?
@@ -180,12 +182,13 @@
       <p>
         Let <m>\vec r(t)=(x,y,z)</m> be a parametrization of a smooth space curve. Let <m>\ds s(t)=\int_0^t \left|\frac {d\vec r}{d\tau} \right|\ d\tau</m>.
       </p>
+
+      <aside>
+        <p>
+          You can remember <m>\ds\frac{ds}{dt} = \left|\frac {d\vec r}{dt} \right|</m> as follows. We use the differential <m>ds</m> to represents a change in distance, and <m>dt</m> represents a change in time. So the speed of an object is the change in distance <m>ds</m> over the change in time <m>dt</m>.
+        </p>
+      </aside>
     </introduction>
-    <aside>
-      <p>
-        You can remember <m>\ds\frac{ds}{dt} = \left|\frac {d\vec r}{dt} \right|</m> as follows. We use the differential <m>ds</m> to represents a change in distance, and <m>dt</m> represents a change in time. So the speed of an object is the change in distance <m>ds</m> over the change in time <m>dt</m>.
-      </p>
-    </aside>
     <task>
       <p>
         Explain why <m>\ds\frac{ds}{dt} = \left|\frac {d\vec r}{dt} \right|</m>, the speed.

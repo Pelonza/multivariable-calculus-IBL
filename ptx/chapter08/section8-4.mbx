@@ -165,12 +165,13 @@
       <p>
         Prove that <m>\ds \vec a(t) = a_T\vec T+a_N\vec N=\frac{d}{dt}|\vec v| \vec T + \kappa |\vec v|^2 \vec N.</m> Here's some hints.
       </p>
+
+      <aside>
+        <p>
+          Watch a <url href="http://www.youtube.com/watch?v=cSh2Bdd-yTg&amp;feature=bf_next&amp;list=PL30EE81142B1ED1F0&amp;lf=plpp_video">YouTube Video</url>.
+        </p>
+      </aside>
     </introduction>
-    <aside>
-      <p>
-        Watch a <url href="http://www.youtube.com/watch?v=cSh2Bdd-yTg&amp;feature=bf_next&amp;list=PL30EE81142B1ED1F0&amp;lf=plpp_video">YouTube Video</url>.
-      </p>
-    </aside>
     <task>
       <p>
         Rewrite the velocity <m>\vec v</m> as a magnitude <m>|\vec v|</m> times a direction <m>\vec T</m>, so <m>\vec v = |v|\vec T</m>.
@@ -321,12 +322,13 @@
         <p>
           Suppose a curve <m>\vec r(t)</m> has the frame <m>\vec T(t)</m>, <m>\vec N(t)</m>, and <m>\vec B(t)</m>. Prove that <m>\dfrac{d\vec B}{ds}</m> is either parallel to <m>\vec N</m>, or points opposite <m>\vec N</m>. Here are some steps.
         </p>
+
+        <aside>
+          <p>
+            Watch a <url href="http://www.youtube.com/watch?v=MVtUc2peJn0&amp;feature=bf_next&amp;list=PL30EE81142B1ED1F0&amp;lf=plpp_video">YouTube Video</url>.
+          </p>
+        </aside>
       </introduction>
-      <aside>
-        <p>
-          Watch a <url href="http://www.youtube.com/watch?v=MVtUc2peJn0&amp;feature=bf_next&amp;list=PL30EE81142B1ED1F0&amp;lf=plpp_video">YouTube Video</url>.
-        </p>
-      </aside>
       <task>
         <statement>
           <p>

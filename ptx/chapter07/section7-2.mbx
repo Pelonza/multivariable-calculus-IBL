@@ -334,12 +334,13 @@
       <p>
         Compute the requested partial and total derivatives.
       </p>
+
+      <aside>
+        <p>
+          I strongly suggest you practice a lot of this type of exercise until you can compute partial derivatives with ease.
+        </p>
+      </aside>
     </introduction>
-    <aside>
-      <p>
-        I strongly suggest you practice a lot of this type of exercise until you can compute partial derivatives with ease.
-      </p>
-    </aside>
     <task>
       <p>
         For <m>f(x,y)=x^2+2xy+3y^2</m>, compute both <m>\ds\frac{\partial f}{\partial x}</m> and <m>f_y</m>. Then state <m>Df(x,y)</m>.
@@ -613,12 +614,13 @@
         \larsonfive{ }
         Complete the following:
       </p>
+
+      <aside>
+        <p>
+          See Larson 13.3:71<ndash />80 for more practice.
+        </p>
+      </aside>
     </introduction>
-    <aside>
-      <p>
-        See Larson 13.3:71<ndash />80 for more practice.
-      </p>
-    </aside>
     <task>
       <p>
         Let <m>f(x,y)=3xy^3+e^{x}.</m>

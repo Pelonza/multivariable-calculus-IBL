@@ -327,12 +327,13 @@
         <p>
           For each curve below, set up an integral formula which would give the length, and sketch the curve. Do not worry about integrating them.
         </p>
+
+        <aside>
+          <p>
+            The reason I don't want you to actually compute the integrals is that they will get ugly really fast. Try doing one in Wolfram Alpha and see what the computer gives.
+          </p>
+        </aside>
       </introduction>
-      <aside>
-        <p>
-          The reason I don't want you to actually compute the integrals is that they will get ugly really fast. Try doing one in Wolfram Alpha and see what the computer gives.
-        </p>
-      </aside>
       <task>
         <p>
           The parabola <m>\vec p(t) = (t,t^2)</m> for <m>t\in[0,3]</m>.

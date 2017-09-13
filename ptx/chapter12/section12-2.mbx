@@ -190,12 +190,13 @@
         <p>
           for each vector field:
         </p>
+
+        <aside>
+          <p>
+            See <url href="http://mathinsight.org/curl_components">MathInsight.org</url> for a really nice animation of the curl of a vector field.
+          </p>
+        </aside>
       </introduction>
-      <aside>
-        <p>
-          See <url href="http://mathinsight.org/curl_components">MathInsight.org</url> for a really nice animation of the curl of a vector field.
-        </p>
-      </aside>
       <task>
         <p>
           <m>\vec{F}(x,y)=(x,y)</m>

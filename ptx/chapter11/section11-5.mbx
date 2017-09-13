@@ -105,17 +105,18 @@
       <p>
         Consider a rectangle <m>C</m> where the boundary of the rectangle are <m>2\leq x\leq 7</m> and <m>0\leq y\leq 3</m>. The rectangle is subject to a vector field <m>\vec F=(2x+3y,4x+5y)</m>.
       </p>
-    </introduction>
-    <aside>
-    <p>
 
       <aside>
-        <p>
-          See 16.4 for more practice.  Try doing a bunch of these, as they get really fast.
-        </p>
+      <p>
+
+        <aside>
+          <p>
+            See 16.4 for more practice.  Try doing a bunch of these, as they get really fast.
+          </p>
+        </aside>
+      </p>
       </aside>
-    </p>
-    </aside>
+    </introduction>
     <task>
       <p>
         Compute <m>N_x-M_y</m>

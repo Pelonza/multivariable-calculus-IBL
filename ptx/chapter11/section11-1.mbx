@@ -160,12 +160,13 @@
           -3\leq y\leq 3 \text{ and }  0\leq x\leq \sqrt{9-y^2}.
         </me>
       </p>
+
+      <aside>
+        <p>
+          <url href="http://bmw.byuimath.com/dokuwiki/doku.php?id=cross_sections_of_solid_by_letting_x_equal_a_constant">Click on this Sage link</url> to see a picture of how you could obtain this answer by considering cross sections.
+        </p>
+      </aside>
     </introduction>
-    <aside>
-      <p>
-        <url href="http://bmw.byuimath.com/dokuwiki/doku.php?id=cross_sections_of_solid_by_letting_x_equal_a_constant">Click on this Sage link</url> to see a picture of how you could obtain this answer by considering cross sections.
-      </p>
-    </aside>
     <task>
       <p>
         Draw this region <m>R</m> in the <m>xy</m>-plane.
@@ -192,12 +193,13 @@
       <p>
         Consider the solid domain <m>D</m> in space that is beneath the surface <m>f(x,y)=9-x^2-y^2</m> and above the <m>xy</m>-plane, where the <m>x</m> values satisfy <m>x\geq 0</m>. The region is half of a parabolic solid. Our goal in this exercise is to find the volume of the solid <m>D</m>. This is the same solid referred to in the previous two exercises.
       </p>
+
+      <aside>
+        <p>
+          See <url href="http://aleph.sagemath.org/?z=eJx9kMtugzAQRfd8BVIXjJ2BElAWWfAlVYOQgWKJYHfsNsDX17xaRKtu_JJ1zp37WRAEI9qmsgVSwLwaehxwZNmyc7iG_S0Jh1vCmGdUK8tcaWuyUgoLQrWKsmCo2lY9AlS6ENIOWRyl2983KnST6YKKe2VJily3yqYlAHGhDMxehsSN7LbLNSQnQx8IY0wZLu8Yavmc4LQw5PwnCfOedqrT0QUQb3PMMzjugGE6g0cnOB9p_8NcKdy8k11qYRhPwH4N6sDn30BPkDImN5WwUnVrI-bjDkd4DXKufom4WuRk2Z2_YzO_VuRLX3b-S4zRBaMIk-jy6oSmUQ_Yz_FHAuZ9Aa-ooss">Sage</url>.
+        </p>
+      </aside>
     </introduction>
-    <aside>
-      <p>
-        See <url href="http://aleph.sagemath.org/?z=eJx9kMtugzAQRfd8BVIXjJ2BElAWWfAlVYOQgWKJYHfsNsDX17xaRKtu_JJ1zp37WRAEI9qmsgVSwLwaehxwZNmyc7iG_S0Jh1vCmGdUK8tcaWuyUgoLQrWKsmCo2lY9AlS6ENIOWRyl2983KnST6YKKe2VJily3yqYlAHGhDMxehsSN7LbLNSQnQx8IY0wZLu8Yavmc4LQw5PwnCfOedqrT0QUQb3PMMzjugGE6g0cnOB9p_8NcKdy8k11qYRhPwH4N6sDn30BPkDImN5WwUnVrI-bjDkd4DXKufom4WuRk2Z2_YzO_VuRLX3b-S4zRBaMIk-jy6oSmUQ_Yz_FHAuZ9Aa-ooss">Sage</url>.
-      </p>
-    </aside>
     <task>
       <p>
         Draw the solid <m>D</m>.

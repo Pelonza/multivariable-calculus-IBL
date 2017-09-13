@@ -94,12 +94,13 @@
       <p>
         Suppose that an object, whose mass is <m>m</m>, is attached to a string (whose mass is so small we'll ignore it). We rotate the object about a point, where the angular velocity is <m>\omega</m> radians per second. The length of the string (distance from the point to the center of rotation) is <m>d</m>.
       </p>
+
+      <aside>
+        <p>
+          <url href="http://www.youtube.com/watch?v=Zyqk9SWlTyQ&amp;list=PL04DF68E73B7ECD54&amp;index=7&amp;feature=plpp_video">Watch a YouTube video.</url>
+        </p>
+      </aside>
     </introduction>
-    <aside>
-      <p>
-        <url href="http://www.youtube.com/watch?v=Zyqk9SWlTyQ&amp;list=PL04DF68E73B7ECD54&amp;index=7&amp;feature=plpp_video">Watch a YouTube video.</url>
-      </p>
-    </aside>
     <task>
       <p>
         Explain why the speed of the object <m>v=\omega d</m>.
@@ -313,12 +314,13 @@
       <p>
         Let <m>R</m> be the region in the plane with <m>a\leq x\leq b</m> and <m>g(x)\leq y\leq f(x)</m>. Let <m>A</m> be the area of <m>R</m>.
       </p>
+
+      <aside>
+        <p>
+          When you use double integrals to find centroids, the formulas for the centroid are the same for both <m>\bar x</m> and <m>\bar y</m>. In other courses, you may see the formulas on the left, because the ideas will be presented without requiring knowledge of double integrals. Integrating the inside integral from the double integral formula gives the single variable formulas.
+        </p>
+      </aside>
     </introduction>
-    <aside>
-      <p>
-        When you use double integrals to find centroids, the formulas for the centroid are the same for both <m>\bar x</m> and <m>\bar y</m>. In other courses, you may see the formulas on the left, because the ideas will be presented without requiring knowledge of double integrals. Integrating the inside integral from the double integral formula gives the single variable formulas.
-      </p>
-    </aside>
     <task>
       <p>
         Set up an iterated integral to compute the area of <m>R</m>.  Then compute the inside integral. You should obtain a familiar formula from first-semester calculus.
@@ -394,12 +396,13 @@
         <p>
           Suppose that an object, whose mass is <m>m</m>, is attached to a string (whose mass is so small we'll ignore it). We rotate the object about a point, where the angular velocity is <m>\omega</m> radians per second. The length of the string (distance from the point to the center of rotation) is <m>d</m>.
         </p>
+
+        <aside>
+          <p>
+            <url href="http://www.youtube.com/watch?v=Zyqk9SWlTyQ&amp;list=PL04DF68E73B7ECD54&amp;index=7&amp;feature=plpp_video">Watch a YouTube video.</url>
+          </p>
+        </aside>
       </introduction>
-      <aside>
-        <p>
-          <url href="http://www.youtube.com/watch?v=Zyqk9SWlTyQ&amp;list=PL04DF68E73B7ECD54&amp;index=7&amp;feature=plpp_video">Watch a YouTube video.</url>
-        </p>
-      </aside>
       <task>
         <p>
           Explain why the speed of the object <m>v=\omega d</m>.

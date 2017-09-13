@@ -16,12 +16,13 @@
       <p>
         Do the following:
       </p>
+
+      <aside>
+        <p>
+          Use <url href="http://aleph.sagemath.org/?z=eJxz06jQqdSp0lSwVdAA0joVmlwFOfkl8WWpySX5RfFpmak5KcYpGm46CkCFusY6xpo6IIUQlkYVhKEJAOGFExs">Sage</url> to plot your vector fields.
+        </p>
+      </aside>
     </introduction>
-    <aside>
-      <p>
-        Use <url href="http://aleph.sagemath.org/?z=eJxz06jQqdSp0lSwVdAA0joVmlwFOfkl8WWpySX5RfFpmak5KcYpGm46CkCFusY6xpo6IIUQlkYVhKEJAOGFExs">Sage</url> to plot your vector fields.
-      </p>
-    </aside>
     <task>
       <p>
         Let <m>P=(x,y,z)</m> be a point in space. At that point, what is the <m>x</m>, <m>y</m>, and <m>z</m> distance to the origin?
@@ -105,14 +106,15 @@
       <p>
         Consider the surface <m>z=9-x^2-y^2</m> plotted in <xref ref="prob_3dsurface_plot">problem</xref>.
       </p>
+
+      <aside>
+        <p>
+          Use <url href="http://aleph.sagemath.org/?z=eJwL0ajQqdSp0lSwVYCyuAqKMvNKFJRCNKpsK7QrNRUyi5V0FGA8roLEosTc1JKizOT4gpz8Eg2YhA5Iv66xjjGIVQlhaQIALhka5w">Sage</url> or
+          <url href="http://wolfr.am/zk2KTu">Wolfram Alpha</url> 
+          to plot your parametrization.
+        </p>
+      </aside>
     </introduction>
-    <aside>
-      <p>
-        Use <url href="http://aleph.sagemath.org/?z=eJwL0ajQqdSp0lSwVYCyuAqKMvNKFJRCNKpsK7QrNRUyi5V0FGA8roLEosTc1JKizOT4gpz8Eg2YhA5Iv66xjjGIVQlhaQIALhka5w">Sage</url> or
-        <url href="http://wolfr.am/zk2KTu">Wolfram Alpha</url> 
-        to plot your parametrization.
-      </p>
-    </aside>
     <task>
       <statement>
         <p>
@@ -151,12 +153,13 @@
       <p>
         Again consider the surface <m>z=9-x^2-y^2</m>.
       </p>
+
+      <aside>
+        <p>
+          Use <url href="http://aleph.sagemath.org">Sage</url> or <url href="http://wolframalpha.com">Wolfram Alpha</url> to plot your parametrization with your bounds (<xref ref="x3d_parametric_plot">see</xref> for examples).
+        </p>
+      </aside>
     </introduction>
-    <aside>
-      <p>
-        Use <url href="http://aleph.sagemath.org">Sage</url> or <url href="http://wolframalpha.com">Wolfram Alpha</url> to plot your parametrization with your bounds (<xref ref="x3d_parametric_plot">see</xref> for examples).
-      </p>
-    </aside>
     <task>
       <p>
         Using cylindrical coordinates, <m>\vec T(r,\theta,z) = (r\cos \theta, r\sin\theta, z)</m>, obtain a parametrization <m>\vec r(r,\theta)=(?,?,?)</m> of the surface using the input variables <m>r</m> and <m>\theta</m>. In other words, if we let <m>x=r\cos \theta, y=r\sin\theta, z=z</m>, write <m>z=9-x^2-y^2</m> in terms of <m>r</m> and <m>\theta</m>.
@@ -199,12 +202,13 @@
       <p>
         This is a function of the form <m>\vec T\colon \mathbb{R}^3\to\mathbb{R}^3</m>. If we hold one of the three inputs constant, then we have a function of the form <m>\vec r\colon \mathbb{R}^2\to\mathbb{R}^3</m>, which is a parametric surface.
       </p>
+
+      <aside>
+        <p>
+          We did very similar things in <xref ref="graphing_spherical_coordinates">problem</xref>.
+        </p>
+      </aside>
     </introduction>
-    <aside>
-      <p>
-        We did very similar things in <xref ref="graphing_spherical_coordinates">problem</xref>.
-      </p>
-    </aside>
     <task>
       <aside>
         <p>

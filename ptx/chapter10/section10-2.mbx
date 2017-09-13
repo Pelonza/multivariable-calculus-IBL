@@ -146,17 +146,18 @@
       <p>
         Consider the function <m>f(x,y)=x^2+4xy+y^2</m>.
       </p>
-    </introduction>
-    <aside>
-    <p>
 
       <aside>
-        <p>
-          See 14.7 for more practice.
-        </p>
+      <p>
+
+        <aside>
+          <p>
+            See 14.7 for more practice.
+          </p>
+        </aside>
+      </p>
       </aside>
-    </p>
-    </aside>
+    </introduction>
     <task>
       <p>
         Find the critical points of <m>f</m> by finding when <m>Df(x,y)</m> is the zero matrix.

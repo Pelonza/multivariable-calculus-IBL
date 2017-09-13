@@ -300,12 +300,13 @@
       <p>
         Consider the curve <m>\vec r(t) = (t, t^2)</m>. The computations get intense, so let's use a computer algebra system, such as Sage (<url href="\sageurlforcurvature">follow this link</url>) to help us. If we don't use a computer, we could spend hours on this exercise. The computer will do all the computations, and give graphs, in seconds.
       </p>
+
+      <aside>
+        <p>
+          Use the <url href="\sageurlforcurvature">Sage link</url>.
+        </p>
+      </aside>
     </introduction>
-    <aside>
-      <p>
-        Use the <url href="\sageurlforcurvature">Sage link</url>.
-      </p>
-    </aside>
     <task>
       <p>
         Use this <url href="\sageurlforcurvature">Sage link</url> to compute <m>\vec v</m>, <m>\vec a</m>, <m>\dfrac{ds}{dt}</m>, <m>\vec T</m>, <m>\dfrac{d\vec T}{dt}</m>, <m>\dfrac{d\vec T}{ds}</m>, <m>\left|\dfrac{d\vec T}{ds}\right|</m>, and the unit vector <m>\vec N</m> that is orthogonal to <m>\vec T</m>. Evaluate each at <m>t=1</m> and <m>t=\sqrt{3}/2</m> (use <q>sqrt(3)/2</q>). Record your answers in the provided table.
@@ -491,12 +492,13 @@
       <p>
         Consider the helix <m>\vec r(t)=(4\cos t,4\sin t, 3t)</m>. Compute <m>\vec v</m>, <m>\vec T</m>, <m>\dfrac{d\vec T}{dt}</m>, and <m>\dfrac{d\vec T}{ds}</m>. Then do the following:
       </p>
+
+      <aside>
+        <p>
+          Because the speed is constant, many of the computations are simplified. You can use the <url href="\sageurlforcurvature">Sage link</url> to check your work.
+        </p>
+      </aside>
     </introduction>
-    <aside>
-      <p>
-        Because the speed is constant, many of the computations are simplified. You can use the <url href="\sageurlforcurvature">Sage link</url> to check your work.
-      </p>
-    </aside>
     <task>
       <p>
         Show that <m>\vec T</m> and <m>\dfrac{d\vec T}{dt}</m> are orthogonal. (Do this for any time <m>t</m>.)

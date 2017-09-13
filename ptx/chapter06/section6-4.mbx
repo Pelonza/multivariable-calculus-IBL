@@ -33,17 +33,18 @@
           \larsonfive{ }
           A computer chip has been disconnected from electricity and sitting in cold storage for quite some time. The chip is connected to power, and a few moments later the temperature (in Celsius) at various points <m>(x,y)</m> on the chip is measured. From these measurements, statistics is used to create a temperature function <m>T=z=f(x,y)</m> to model the temperature at any point on the chip. Suppose that this chip's temperature function is given by the equation <m>T=z=f(x,y)=9-x^2-y^2</m>. Eventually we'll be creating a 3D model of this function in this problem, so you'll need to place all your graphs on the same <m>x,y,z</m> axes. However, to begin with you may find it easier to start with several 2-D plots.
         </p>
-      </introduction>
-      <aside>
-        <p>
-          See <url href="http://aleph.sagemath.org/?z=eJxL06jQqdS0tdStiDPSrYwz4irIyS8xTtFI01EAyuga6xhrAlmVEJYmADAVC84">Sage</url> or 
-          <url href="http://wolfr.am/wny0IF">Wolfram Alpha</url>.
-        </p>
 
-        <p>
-          See Larson 13.1:33<ndash />40.
-        </p>
-      </aside>
+        <aside>
+          <p>
+            See <url href="http://aleph.sagemath.org/?z=eJxL06jQqdS0tdStiDPSrYwz4irIyS8xTtFI01EAyuga6xhrAlmVEJYmADAVC84">Sage</url> or 
+            <url href="http://wolfr.am/wny0IF">Wolfram Alpha</url>.
+          </p>
+
+          <p>
+            See Larson 13.1:33<ndash />40.
+          </p>
+        </aside>
+      </introduction>
       <task>
         <p>
           What is the temperature at <m>(0,0)</m>, <m>(1,2)</m>, and <m>(-4,3)</m>?
@@ -118,17 +119,18 @@
         <p>
           \larsonfive{ }We'll be using the same function <m>T=z=f(x,y)=9-x^2-y^2</m> as the previous problem. However, this time we'll construct a graph of the function by only studying places where the temperature is constant. We'll do this by creating a graph in 2D of the surface (similar to a topographical map).
         </p>
-      </introduction>
-      <aside>
-        <p>
-          See <url href="http://aleph.sagemath.org/?z=eJydj81qwzAQhO9-iiWXWCCHJqbQHHTtExR6KI1RnBVWWWuNVibR21fOH_Ta2-7M7PCtqy86K7NvLoddkw-7aiJO7al2GorTtLpVZcq3SW1k4HOtqiGNVK8-EZY0pDPDyTuHEUMCSZlQgB30HBLP8RoSEIbMM_Q2gCCWdcQllAb8EwSekucgm5Wq7nq36IXoCfTg0Y9LMV8veqtf9Zvefy8qcTzaaD7ijLof7WTWP5jWT_7_FpM9IsmtFpwnMu-WBPVV73wgH_DuWpmwT1205RuzVdUvSwN0NA">Sage</url> or 
-          <url href="http://wolfr.am/wny0IF">Wolfram Alpha</url>.
-        </p>
 
-        <p>
-          See Larson 13.1:45<ndash />56.
-        </p>
-      </aside>
+        <aside>
+          <p>
+            See <url href="http://aleph.sagemath.org/?z=eJydj81qwzAQhO9-iiWXWCCHJqbQHHTtExR6KI1RnBVWWWuNVibR21fOH_Ta2-7M7PCtqy86K7NvLoddkw-7aiJO7al2GorTtLpVZcq3SW1k4HOtqiGNVK8-EZY0pDPDyTuHEUMCSZlQgB30HBLP8RoSEIbMM_Q2gCCWdcQllAb8EwSekucgm5Wq7nq36IXoCfTg0Y9LMV8veqtf9Zvefy8qcTzaaD7ijLof7WTWP5jWT_7_FpM9IsmtFpwnMu-WBPVV73wgH_DuWpmwT1205RuzVdUvSwN0NA">Sage</url> or 
+            <url href="http://wolfr.am/wny0IF">Wolfram Alpha</url>.
+          </p>
+
+          <p>
+            See Larson 13.1:45<ndash />56.
+          </p>
+        </aside>
+      </introduction>
       <task>
         <statement>
           <p>
@@ -191,13 +193,14 @@
         <p>
           Consider the function <m>f(x,y)=x-y^2</m>.
         </p>
+
+        <aside>
+          <p>
+            See <url href="http://aleph.sagemath.org/?z=eJxL06jQqdS0rdCtjDPiKs7IL9coyMkvMU7RSNNRAErpGusYawJZlRCWpiZETXJ-Xkl-aVE8SC12lToKybmJBbbqWakl6kB2fk5-UVJikW1IUWmqTk5iUmpOMZitqQkAhh0mmg">Sage</url> or 
+            <url href="http://wolfr.am/wBOk1b">Wolfram Alpha</url>.
+          </p>
+        </aside>
       </introduction>
-      <aside>
-        <p>
-          See <url href="http://aleph.sagemath.org/?z=eJxL06jQqdS0rdCtjDPiKs7IL9coyMkvMU7RSNNRAErpGusYawJZlRCWpiZETXJ-Xkl-aVE8SC12lToKybmJBbbqWakl6kB2fk5-UVJikW1IUWmqTk5iUmpOMZitqQkAhh0mmg">Sage</url> or 
-          <url href="http://wolfr.am/wBOk1b">Wolfram Alpha</url>.
-        </p>
-      </aside>
       <task>
         <p>
           Use the same process as <xref ref="prob_3dsurface_plot">problem</xref> to construct a 3D surface plot of <m>f</m>. [So just graph in 3D the curves given by <m>x=0</m> and <m>y=0</m> and then try setting <m>x</m> or <m>y</m> equal to some other constants, like <m>x=1</m>, <m>x=2</m>, <m>y=1</m>, <m>y=2</m>, etc.]
@@ -233,14 +236,15 @@
         <p>
           Suppose that an explosion occurs at the origin <m>(0,0,0)</m>. Heat from the explosion starts to radiate outwards. Now suppose that a few moments after the explosion, the temperature at any point in space is given by <m>w=T(x,y,z)=100-x^2-y^2-z^2.</m>
         </p>
-      </introduction>
-      <aside>
-        <p>
-          See <url href="http://aleph.sagemath.org/?z=eJwrSyzSUK_QqdSpUtfkCtEAszRtDQ0MdCvijHQrgbgqzogrM7cgJzM5syS-ICe_xDhFA67Q1tJSRwHIUdA11lEw1gSyK8FsMLMKytRUAADtWRrw">Sage</url>.  
 
-          Wolfram Alpha currently does not support drawing level surfaces.  You could also use Mathematica or <url href="http://demonstrations.wolfram.com/LevelSurfacesAndQuadraticSurfaces/">Wolfram Demonstrations</url>.
-        </p>
-      </aside>
+        <aside>
+          <p>
+            See <url href="http://aleph.sagemath.org/?z=eJwrSyzSUK_QqdSpUtfkCtEAszRtDQ0MdCvijHQrgbgqzogrM7cgJzM5syS-ICe_xDhFA67Q1tJSRwHIUdA11lEw1gSyK8FsMLMKytRUAADtWRrw">Sage</url>.  
+
+            Wolfram Alpha currently does not support drawing level surfaces.  You could also use Mathematica or <url href="http://demonstrations.wolfram.com/LevelSurfacesAndQuadraticSurfaces/">Wolfram Demonstrations</url>.
+          </p>
+        </aside>
+      </introduction>
       <task>
         <statement>
           <p>
@@ -288,12 +292,13 @@
         <p>
           Consider the function <m>w=f(x,y,z)=x^2+z^2</m>. This function has an input <m>y</m>, but notice that changing the input <m>y</m> does not change the output of the function. This means that when <m>y=0</m> you can draw one curve. When <m>y=1</m>, you should draw the same curve. When <m>y=2</m>, again you draw the same curve, etc.
         </p>
+
+        <aside>
+          <p>
+            See <url href="http://aleph.sagemath.org/?z=eJwrSyzSUK_QqdSpUtfkStMAszRtK-KMtKvijLgycwtyMpMzS-ILcvJLjFM04ApsTXQUgGwFXWMdBWNNILsSzAYzq6BMTQUAEvYY4A">Sage</url>.
+          </p>
+        </aside>
       </introduction>
-      <aside>
-        <p>
-          See <url href="http://aleph.sagemath.org/?z=eJwrSyzSUK_QqdSpUtfkStMAszRtK-KMtKvijLgycwtyMpMzS-ILcvJLjFM04ApsTXQUgGwFXWMdBWNNILsSzAYzq6BMTQUAEvYY4A">Sage</url>.
-        </p>
-      </aside>
       <task>
         <p>
           Draw a graph of the level surface <m>w=4</m>.
@@ -358,16 +363,17 @@
         <p>
           Consider the function <m>w=f(x,y,z)=x^2-y^2+z^2</m>.
         </p>
-      </introduction>
-      <aside>
-        <p>
-          See <url href="http://aleph.sagemath.org/?z=eJwrSyzSUK_QqdSpUtfkStMAszRtK-KMdCvjjLSr4oy4MnMLcjKTM0viC3LyS4xTNOCKbA11FIBsBV1jHQVjTSC7EswGM6ugTE0FAIXAGhM">Sage</url>.
-        </p>
 
-        <p>
-          We'll have a few people present this problem.
-        </p>
-      </aside>
+        <aside>
+          <p>
+            See <url href="http://aleph.sagemath.org/?z=eJwrSyzSUK_QqdSpUtfkStMAszRtK-KMdCvjjLSr4oy4MnMLcjKTM0viC3LyS4xTNOCKbA11FIBsBV1jHQVjTSC7EswGM6ugTE0FAIXAGhM">Sage</url>.
+          </p>
+
+          <p>
+            We'll have a few people present this problem.
+          </p>
+        </aside>
+      </introduction>
       <task>
         <p>
           Draw a graph of the level surface <m>w=1</m>. [You need to graph <m>1=x^2-y^2+z^2</m>. Let <m>x=0</m> and draw the resulting curve. Then let <m>y=0</m> and draw the resulting curve. Let either <m>x</m> or <m>y</m> equal some more constants (whichever gave you an ellipse), and then draw the resulting ellipses.]
@@ -511,16 +517,17 @@
         <p>
           Graphing this transformation requires <m>3+3=6</m> dimensions. In this problem we'll construct parts of this graph by graphing various surfaces. We did something similar for the polar coordinate transformation in <xref ref="polar_coordinate_transformation_graph">problem</xref>.
         </p>
-      </introduction>
-      <aside>
-        <p>
-          Recall that <m>\phi</m> (<q>phi</q>) is the angle down from the <m>z</m> axis, <m>\theta</m> (<q>theta</q>) is the angle counterclockwise from the <m>x</m>-axis in the <m>xy</m>-plane, and <m>\rho</m> (<q>rho</q>) is the distance from the origin. Review <xref ref="derive_spherical_coordinates">problem</xref> if you need a refresher.
-        </p>
 
-        <p>
-          See Larson 11.7:89<ndash />94, 111<ndash />114.
-        </p>
-      </aside>
+        <aside>
+          <p>
+            Recall that <m>\phi</m> (<q>phi</q>) is the angle down from the <m>z</m> axis, <m>\theta</m> (<q>theta</q>) is the angle counterclockwise from the <m>x</m>-axis in the <m>xy</m>-plane, and <m>\rho</m> (<q>rho</q>) is the distance from the origin. Review <xref ref="derive_spherical_coordinates">problem</xref> if you need a refresher.
+          </p>
+
+          <p>
+            See Larson 11.7:89<ndash />94, 111<ndash />114.
+          </p>
+        </aside>
+      </introduction>
       <task>
         <aside>
           <p>
@@ -587,15 +594,16 @@
         <p>
           Consider the vector field <m>\vec F(x,y)=(2x+y,x+2y)</m>. In this problem, you will construct a graph of this vector field by hand.
         </p>
+
+        <aside>
+          <p>
+            See 
+            <url href="http://aleph.sagemath.org/?z=eJxz06jQqdRUsFXQMNKq0K7UqdA20qrU5CrIyS-JL0tNLskvik_LTM1J0XDTUQAq1TU00DE00ASyK2FsTQCKaxIN">Sage</url> or
+            <url href="http://wolfr.am/y4gIgX">Wolfram Alpha</url>. 
+            The computer will shrink the largest vector down in size so it does not overlap any of the others, and then reduce the size of all the vectors accordingly.
+          </p>
+        </aside>
       </introduction>
-      <aside>
-        <p>
-          See 
-          <url href="http://aleph.sagemath.org/?z=eJxz06jQqdRUsFXQMNKq0K7UqdA20qrU5CrIyS-JL0tNLskvik_LTM1J0XDTUQAq1TU00DE00ASyK2FsTQCKaxIN">Sage</url> or
-          <url href="http://wolfr.am/y4gIgX">Wolfram Alpha</url>. 
-          The computer will shrink the largest vector down in size so it does not overlap any of the others, and then reduce the size of all the vectors accordingly.
-        </p>
-      </aside>
       <task>
         <p>
           Compute <m>\vec F(1,0)</m>. Then draw the vector <m>F(1,0)</m> with its base at <m>(1,0)</m>.

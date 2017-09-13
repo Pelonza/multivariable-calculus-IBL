@@ -123,12 +123,13 @@
       <p>
         Consider the elliptical curve <m>C</m> given by the parametrization <m>\vec r(t) = (2\cos t, 3\sin t)</m>. Let <m>f</m> be the function <m>f(x,y)=9-x^2-y^2</m>.
       </p>
+
+      <aside>
+        <p>
+          <url href="http://www.youtube.com/watch?v=t7T0MzfgV0Q&amp;list=PL04DF68E73B7ECD54&amp;index=5&amp;feature=plpp_video">Watch a YouTube video.</url>
+        </p>
+      </aside>
     </introduction>
-    <aside>
-      <p>
-        <url href="http://www.youtube.com/watch?v=t7T0MzfgV0Q&amp;list=PL04DF68E73B7ECD54&amp;index=5&amp;feature=plpp_video">Watch a YouTube video.</url>
-      </p>
-    </aside>
     <task>
     <p>
       Draw the surface <m>f</m> in 3D.

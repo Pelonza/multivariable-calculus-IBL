@@ -45,12 +45,13 @@
       <p>
         Suppose we know that <m>\ds f'(x) = \frac{\sin(x)}{2x^2+3}</m> and <m>g(x)=\sqrt{x^2+1}</m>. Notice we don't know <m>f(x)</m>.
       </p>
+
+      <aside>
+        <p>
+          Not knowing a function <m>f</m> is actually quite common in real life. We can often measure how something changes (a derivative) without knowing the function itself.
+        </p>
+      </aside>
     </introduction>
-    <aside>
-      <p>
-        Not knowing a function <m>f</m> is actually quite common in real life. We can often measure how something changes (a derivative) without knowing the function itself.
-      </p>
-    </aside>
     <task>
       <p>
         State <m>f'(x)</m> and <m>g'(x)</m>.
@@ -510,12 +511,13 @@
       <p>
         Suppose <m>x=x</m> and <m>y=y(x)</m>, so <m>y</m> is a function of <m>x</m>. We can write this in parametric form as <m>\vec r(x) = (x,y(x))</m>. We now have <m>z=f(x,y)</m> and <m>\vec r(x)=(x,y(x))</m>.
       </p>
+
+      <aside>
+        <p>
+          To practice the idea developed in this exercise, show that if <m>w=F(x,y,z)</m> is held constant at <m>w=c</m> and we assume that <m>z=f(x,y)</m> depends on <m>x</m> and <m>y</m>, then <m>\frac{\partial z}{\partial x} = -\frac{F_x}{F_z}</m> and <m>\frac{\partial z}{\partial y} = -\frac{F_y}{F_z}</m>.
+        </p>
+      </aside>
     </introduction>
-    <aside>
-      <p>
-        To practice the idea developed in this exercise, show that if <m>w=F(x,y,z)</m> is held constant at <m>w=c</m> and we assume that <m>z=f(x,y)</m> depends on <m>x</m> and <m>y</m>, then <m>\frac{\partial z}{\partial x} = -\frac{F_x}{F_z}</m> and <m>\frac{\partial z}{\partial y} = -\frac{F_y}{F_z}</m>.
-      </p>
-    </aside>
     <task>
       <p>
         Compute both <m>Df(x,y)</m> and <m>D\vec r(x)</m> symbolically.  Don't use the function <m>f(x,y)=x^2+3xy-y^3</m> until the last step.

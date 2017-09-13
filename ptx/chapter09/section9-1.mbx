@@ -154,12 +154,13 @@
       <p>
         Suppose that we move along the circle <m>\vec r(t) = (3\cos t,3\sin t)</m>. As we move along this circle, we encounter a rotation force <m>\vec F(x,y) = (-2y,2x)</m>.
       </p>
+
+      <aside>
+        <p>
+          <url href="http://www.youtube.com/watch?v=9TGZIIpEaHw&amp;list=PL04DF68E73B7ECD54&amp;index=2&amp;feature=plpp_video">Watch a YouTube video</url> about work.
+        </p>
+      </aside>
     </introduction>
-    <aside>
-      <p>
-        <url href="http://www.youtube.com/watch?v=9TGZIIpEaHw&amp;list=PL04DF68E73B7ECD54&amp;index=2&amp;feature=plpp_video">Watch a YouTube video</url> about work.
-      </p>
-    </aside>
     <task>
       <p>
         Draw the curve <m>\vec r(t)</m>. Then at several points on the curve, draw the vector field <m>\vec F(x,y)</m>.  For example, at the point <m>(3,0)</m> you should have the vector <m>\vec F(3,0)=(-2(0),2(3))=(0,6)</m>, a vector sticking straight up 6 units. Are we moving with the vector field, or against the vector field?
@@ -223,12 +224,13 @@
       <p>
         Consider the parabolic curve <m>y=4-x^2</m> for <m>-1\leq x\leq 2</m>, and the vector field <m>\vec F(x,y) = (2x+y,-x)</m>.
       </p>
+
+      <aside>
+        <p>
+          Please use this <url href="\sageworkurl">Sage link</url> to check your work.
+        </p>
+      </aside>
     </introduction>
-    <aside>
-      <p>
-        Please use this <url href="\sageworkurl">Sage link</url> to check your work.
-      </p>
-    </aside>
     <task>
       <p>
         Give a parametrization <m>\vec r(t)</m> of the parabolic curve that starts at <m>(-1,3)</m> and ends at <m>(2,0)</m>.  See the review exercise above if you need a hint.
@@ -508,29 +510,30 @@
         <p>
           Consider the vector field <m>\vec F(x,y) = (2x+y,-x+2y)</m>.
         </p>
+
+        <aside>
+          <p>
+            If you haven't yet, please watch the YouTube videos for
+            <ul>
+              <task>
+                <p>
+                  <url href="http://www.youtube.com/watch?v=9TGZIIpEaHw&amp;list=PL04DF68E73B7ECD54&amp;index=2&amp;feature=plpp_video">work</url>,
+                </p>
+              </task>
+              <task>
+                <p>
+                  <url href="http://www.youtube.com/watch?v=6WcN36FbeWc&amp;list=PL04DF68E73B7ECD54">flow and circulation</url>, and
+                </p>
+              </task>
+              <task>
+                <p>
+                  <url href="http://www.youtube.com/watch?v=5DNdI72XEYY&amp;list=PL04DF68E73B7ECD54&amp;index=4&amp;feature=plpp_video">flux</url>.
+                </p>
+              </task>
+            </ul>
+          </p>
+        </aside>
       </introduction>
-      <aside>
-        <p>
-          If you haven't yet, please watch the YouTube videos for
-          <ul>
-            <task>
-              <p>
-                <url href="http://www.youtube.com/watch?v=9TGZIIpEaHw&amp;list=PL04DF68E73B7ECD54&amp;index=2&amp;feature=plpp_video">work</url>,
-              </p>
-            </task>
-            <task>
-              <p>
-                <url href="http://www.youtube.com/watch?v=6WcN36FbeWc&amp;list=PL04DF68E73B7ECD54">flow and circulation</url>, and
-              </p>
-            </task>
-            <task>
-              <p>
-                <url href="http://www.youtube.com/watch?v=5DNdI72XEYY&amp;list=PL04DF68E73B7ECD54&amp;index=4&amp;feature=plpp_video">flux</url>.
-              </p>
-            </task>
-          </ul>
-        </p>
-      </aside>
       <task>
         <p>
           Use Sage or WolframAlpha to construct a plot of <m>\vec F</m>.

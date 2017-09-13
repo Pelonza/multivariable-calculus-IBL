@@ -62,12 +62,13 @@
           \vec T(r,\theta)=(r\cos\theta,r\sin\theta).
         </me>
       </p>
+
+      <aside>
+        <p>
+          If you need a reminder of how to compute determinants, refer to <xref ref="sec_Determinants">Section</xref>
+        </p>
+      </aside>
     </introduction>
-    <aside>
-      <p>
-        If you need a reminder of how to compute determinants, refer to <xref ref="sec_Determinants">Section</xref>
-      </p>
-    </aside>
     <task>
       <p>
         Compute the derivative <m>D\vec T(r,\theta)</m>.  You should have a 2 by 2 matrix.
@@ -142,12 +143,13 @@
           \iint_R f dA = \ds\int_{y=-3}^{y=3} \int_{x=0}^{x=\sqrt{9-y^2}}9-x^2-y^2 dx dy.
         </me>
       </p>
+
+      <aside>
+        <p>
+          See <url href="http://aleph.sagemath.org/?q=60eb3051-6680-4031-afba-893277d1ec90">Sage.</url>
+        </p>
+      </aside>
     </introduction>
-    <aside>
-      <p>
-        See <url href="http://aleph.sagemath.org/?q=60eb3051-6680-4031-afba-893277d1ec90">Sage.</url>
-      </p>
-    </aside>
     <task>
       <p>
         Write bounds for the region <m>R</m> by giving bounds for <m>r</m> and <m>\theta</m>.

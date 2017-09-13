@@ -18,12 +18,13 @@
       <p>
         The position of two of the many other jets is given by <m>\vec r_3(t)=(3\cos t, 3\sin t, t)</m> and <m>\vec r_4(t)=(4\cos t,4\sin t,t)</m>. A function which represents the smoke stream is <m>\vec r(a,t)=(a\cos t, a\sin t, t)</m> for <m>0\leq t\leq 4\pi</m> and <m>2\leq a\leq 4</m>.
       </p>
+
+      <aside>
+        <p>
+          See <url href="http://aleph.sagemath.org/?z=eJxL0yjRUUjUtNVI1ErOL9Yo0QTytIoz88CsEk2ugsSixNzUkqLM5PiCnPwSjTQdBaAOAx0FE62CTKASjUQdBSMgT1OTCwBCiRSf">Sage</url> or <url href="http://www.wolframalpha.com/input/?i=parametric+plot+3D++%28a+cos+t%2C+a+sin+t%2C+t%29+for+t+from+0+to+4+pi+and+a+from+2+to+4">Wolfram Alpha</url>.
+        </p>
+      </aside>
     </introduction>
-    <aside>
-      <p>
-        See <url href="http://aleph.sagemath.org/?z=eJxL0yjRUUjUtNVI1ErOL9Yo0QTytIoz88CsEk2ugsSixNzUkqLM5PiCnPwSjTQdBaAOAx0FE62CTKASjUQdBSMgT1OTCwBCiRSf">Sage</url> or <url href="http://www.wolframalpha.com/input/?i=parametric+plot+3D++%28a+cos+t%2C+a+sin+t%2C+t%29+for+t+from+0+to+4+pi+and+a+from+2+to+4">Wolfram Alpha</url>.
-      </p>
-    </aside>
     <task>
       <p>
         What are <m>n</m> (inputs) and <m>m</m> (outputs) when we write the function <m>\vec r(a,t)=(a\cos t, a\sin t, t)</m> in the form  <m>\vec r\colon {\mathbb{R}}^n\to {\mathbb{R}}^m</m>?
@@ -97,12 +98,13 @@
       <p>
         You'll need a graph of this function to complete this problem.
       </p>
+
+      <aside>
+        <p>
+          See <xref ref="differentialtangentline">Section</xref> and <xref ref="def_velocity_acceleration">Definition</xref>.
+        </p>
+      </aside>
     </introduction>
-    <aside>
-      <p>
-        See <xref ref="differentialtangentline">Section</xref> and <xref ref="def_velocity_acceleration">Definition</xref>.
-      </p>
-    </aside>
     <task>
       <p>
         Find the first and second derivative of <m>\vec r(t)</m>. 
@@ -132,12 +134,13 @@
       <p>
         Consider the pebble from <xref ref="prob_pebble">problem</xref>. The pebble's height was given by <m>y=64-16t^2</m>. The pebble also has some horizontal velocity (it's moving at 3 ft/s to the right). If we let the origin be the base of the 64 ft building, then the position of the pebble at time <m>t</m> is given by <m>\vec r(t) = (3t, 64-16t^2)</m>.
       </p>
+
+      <aside>
+        <p>
+          See <url href="http://aleph.sagemath.org/?z=eJwNxksKgCAUBdB5q3Dmh2eQfWZuJXmIgpAodtt_Dg6crKC92g1IXIfdLoPb6aXz4JowSgz9aVCZhAJZt540aRL89hQRBqM0L_lDq7NR6h-iAhhm">Sage</url> or <url href="http://wolfr.am/ynm3kD">Wolfram Alpha</url>.
+        </p>
+      </aside>
     </introduction>
-    <aside>
-      <p>
-        See <url href="http://aleph.sagemath.org/?z=eJwNxksKgCAUBdB5q3Dmh2eQfWZuJXmIgpAodtt_Dg6crKC92g1IXIfdLoPb6aXz4JowSgz9aVCZhAJZt540aRL89hQRBqM0L_lDq7NR6h-iAhhm">Sage</url> or <url href="http://wolfr.am/ynm3kD">Wolfram Alpha</url>.
-      </p>
-    </aside>
     <task>
       <p>
         What are <m>n</m> and <m>m</m> when we write this function in the form  <m>\vec r\colon {\mathbb{R}}^n\to {\mathbb{R}}^m</m>?
