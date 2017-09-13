@@ -1,4 +1,5 @@
 
+
 <section>
   <title>Changing Coordinate Systems: The Jacobian</title>
   <p>
@@ -33,48 +34,49 @@
   </p>
 
   <exploration>
-    <p>
-      The cylindrical change of coordinates is:
-      <md>
-        <mrow>x\amp =r\cos\theta, y=r\sin\theta, z=z</mrow>
-        <mrow>\text{ or in vector form } \amp \</mrow>
-        <mrow>\vec C(r,\theta,z) \amp = (r\cos\theta,r\sin\theta, z)</mrow>
-      </md>
-    </p>
+    <introduction>
+      <p>
+        The cylindrical change of coordinates is:
+        <md>
+          <mrow>x\amp =r\cos\theta, y=r\sin\theta, z=z</mrow>
+          <mrow>\text{ or in vector form } \amp \</mrow>
+          <mrow>\vec C(r,\theta,z) \amp = (r\cos\theta,r\sin\theta, z)</mrow>
+        </md>
+      </p>
 
+      <p>
+        The spherical change of coordinates is:
+        <md>
+          <mrow>x\amp =\rho\sin\phi\cos\theta,\ y=\rho\sin\phi\sin\theta,\ z=\rho\cos\phi</mrow>
+          <mrow>\text{ or in vector form } \amp \</mrow>
+          <mrow>\vec S(\rho,\phi,\theta) \amp = (\rho\sin\phi\cos\theta,\rho\sin\phi\sin\theta,\rho\cos\phi).</mrow>
+        </md>
+      </p>
+    </introduction>
+    <task>
     <p>
-      The spherical change of coordinates is:
-      <md>
-        <mrow>x\amp =\rho\sin\phi\cos\theta,\ y=\rho\sin\phi\sin\theta,\ z=\rho\cos\phi</mrow>
-        <mrow>\text{ or in vector form } \amp \</mrow>
-        <mrow>\vec S(\rho,\phi,\theta) \amp = (\rho\sin\phi\cos\theta,\rho\sin\phi\sin\theta,\rho\cos\phi).</mrow>
-      </md>
+      Verify that the Jacobian of the cylindrical transformation is <m>\ds\frac{\partial(x,y,z)}{\partial(r,\theta,z)} = |r|</m>.
+      <ul>
+        <task>
+          <p>
+            If you want to make sure you don't have to use absolute values, what must you require?
+          </p>
+        </task>
+      </ul>
     </p>
-      <task>
+    </task>
+    <task>
+    <p>
+      Verify that the Jacobian of the spherical transformation is <m>\ds\frac{\partial(x,y,z)}{\partial(\rho,\phi,\theta)} = |\rho^2\sin\phi|</m>.
+      <ul>
+        <task>
           <p>
-            Verify that the Jacobian of the cylindrical transformation is <m>\ds\frac{\partial(x,y,z)}{\partial(r,\theta,z)} = |r|</m>.
-            <ul>
-            <task>
-                <p>
-                  If you want to make sure you don't have to use absolute values, what must you require?
-                </p>
-            </task>
-            </ul>
+            If you want to make sure you don't have to use absolute values, what must you require?
           </p>
-      </task>
-
-      <task>
-          <p>
-            Verify that the Jacobian of the spherical transformation is <m>\ds\frac{\partial(x,y,z)}{\partial(\rho,\phi,\theta)} = |\rho^2\sin\phi|</m>.
-            <ul>
-            <task>
-                <p>
-                  If you want to make sure you don't have to use absolute values, what must you require?
-                </p>
-            </task>
-            </ul>
-          </p>
-      </task>
+        </task>
+      </ul>
+    </p>
+    </task>
   </exploration>
 
   <p>
@@ -125,8 +127,14 @@
   </p>
 
   <exploration>
+
+    <aside>
+      <p>
+        See <url href="http://aleph.sagemath.org/?z=eJytjkEOgjAQRfecojvaMBKsYIxhOEpNFaNNgDZItO3pRaguSExcuJo_8_Jf5i57Gltw4GMW9eeL0h02sj3WkkzXPfElWsETJziRXU18hdkcBP-Q0OSLaqAV5lMjrCWut5FB1ZpGndRwMI0eNjUNFEcK1MKqgIIBde_gIYOcQXhxHqCNHA0Os3THIpN8d-Z_U_qXLnh_lfKFNb1d9YOyJ0VbdCM">Sage</url>.
+      </p>
+    </aside>
     <p>
-      <!-- \extrafn{See <url href="http://aleph.sagemath.org/?z=eJytjkEOgjAQRfecojvaMBKsYIxhOEpNFaNNgDZItO3pRaguSExcuJo_8_Jf5i57Gltw4GMW9eeL0h02sj3WkkzXPfElWsETJziRXU18hdkcBP-Q0OSLaqAV5lMjrCWut5FB1ZpGndRwMI0eNjUNFEcK1MKqgIIBde_gIYOcQXhxHqCNHA0Os3THIpN8d-Z_U_qXLnh_lfKFNb1d9YOyJ0VbdCM">Sage</url>.} -->The double cone <m>z^2=x^2+y^2</m> has two halves. Each half is called a nappe. Set up an integral in the coordinate system of your choice that would give the volume of the region that is between the <m>xy</m> plane and the upper nappe of the double cone <m>z^2=x^2+y^2</m>, and between the cylinders <m>x^2+y^2=4</m> and <m>x^2+y^2=16</m>. Then evaluate the integral.
+      The double cone <m>z^2=x^2+y^2</m> has two halves. Each half is called a nappe. Set up an integral in the coordinate system of your choice that would give the volume of the region that is between the <m>xy</m> plane and the upper nappe of the double cone <m>z^2=x^2+y^2</m>, and between the cylinders <m>x^2+y^2=4</m> and <m>x^2+y^2=16</m>. Then evaluate the integral.
     </p>
   </exploration>
 
@@ -135,17 +143,22 @@
       Set up an integral in the coordinate system of your choice that would give the volume of the solid ball that is inside the sphere <m>a^2=x^2+y^2+z^2</m>. Compute the integral to give a formula for the volume of a sphere of radius <m>a</m>.
 
       <aside>
-      <p>
-        Then set up (don't evaluate) an iterated integral that would give the moment of inertia <m>I_x</m> about the <m>x</m>-axis, if the density is a constant, so <m>\delta =c</m>.
-      </p>
+        <p>
+          Then set up (don't evaluate) an iterated integral that would give the moment of inertia <m>I_x</m> about the <m>x</m>-axis, if the density is a constant, so <m>\delta =c</m>.
+        </p>
       </aside>
-
     </p>
   </exploration>
 
   <exploration>
+
+    <aside>
+      <p>
+        See <url href="http://aleph.sagemath.org/?z=eJxty00OgyAQQOF9L-IQB6PSnxUnMWqImpTEBgqTFji900V35m3e5vuYAFXCjKUSF6_ty-92sTT73ZFaoWgd34EgTX2dp14gJJQKFU_-T8EWr4J1fcbvkq1ke0675oaPH27i033BRL8tNAdD1umhQ24UB9CiL84">Sage</url>.
+      </p>
+    </aside>
     <p>
-      <!-- \extrafn{See <url href="http://aleph.sagemath.org/?z=eJxty00OgyAQQOF9L-IQB6PSnxUnMWqImpTEBgqTFji900V35m3e5vuYAFXCjKUSF6_ty-92sTT73ZFaoWgd34EgTX2dp14gJJQKFU_-T8EWr4J1fcbvkq1ke0675oaPH27i033BRL8tNAdD1umhQ24UB9CiL84">Sage</url>.} -->Find the volume of the solid domain <m>D</m> in space which is above the cone <m>z=\sqrt{x^2+y^2}</m> and below the paraboloid <m>z=6-x^2-y^2</m>. Use cylindrical coordinates to set up and then evaluate your integral.
+      Find the volume of the solid domain <m>D</m> in space which is above the cone <m>z=\sqrt{x^2+y^2}</m> and below the paraboloid <m>z=6-x^2-y^2</m>. Use cylindrical coordinates to set up and then evaluate your integral.
     </p>
     <hint>
       <p>
@@ -159,57 +172,58 @@
   </p>
 
   <exploration>
-    <p>
-      Consider the region <m>D</m> in space that is inside both the sphere <m>x^2+y^2+z^2=9</m> and the cylinder <m>x^2+y^2=4</m>.
-    </p>
-    <hint>
+    <introduction>
       <p>
-        Start by drawing the region.
+        Consider the region <m>D</m> in space that is inside both the sphere <m>x^2+y^2+z^2=9</m> and the cylinder <m>x^2+y^2=4</m>.
       </p>
-    </hint>
-    <task>
+      <hint>
         <p>
-          Set up an iterated integral in Cartesian (rectangular) coordinates that would give the volume of <m>D</m>.
+          Start by drawing the region.
         </p>
+      </hint>
+    </introduction>
+    <task>
+      <p>
+        Set up an iterated integral in Cartesian (rectangular) coordinates that would give the volume of <m>D</m>.
+      </p>
     </task>
-
     <task>
-        <p>
-          Set up an iterated integral in cylindrical coordinates that would give the volume of <m>D</m>.
-        </p>
+      <p>
+        Set up an iterated integral in cylindrical coordinates that would give the volume of <m>D</m>.
+      </p>
     </task>
   </exploration>
 
   <exploration>
-    <p>
-      Consider the region <m>D</m> in space that is both inside the sphere <m>x^2+y^2+z^2=9</m> and yet outside the cylinder <m>x^2+y^2=4</m>.
-    </p>
-    <hint>
+    <introduction>
       <p>
-        Start by drawing the region.
+        Consider the region <m>D</m> in space that is both inside the sphere <m>x^2+y^2+z^2=9</m> and yet outside the cylinder <m>x^2+y^2=4</m>.
       </p>
-    </hint>
-    <task>
+      <hint>
         <p>
-          Set up two iterated integrals in cylindrical coordinates that would give the volume of <m>D</m>.
+          Start by drawing the region.
         </p>
-        <task>
-            <p>
-              For the first integral use the order <m>dzdrd\theta</m>.
-            </p>
-        </task>
-
-        <task>
-            <p>
-              For the second, use the order <m>d\theta dr dz</m>.
-            </p>
-        </task>
+      </hint>
+    </introduction>
+    <task>
+    <p>
+      Set up two iterated integrals in cylindrical coordinates that would give the volume of <m>D</m>.
+    </p>
+    <task>
+      <p>
+        For the first integral use the order <m>dzdrd\theta</m>.
+      </p>
     </task>
-
     <task>
-        <p>
-          Set up an iterated integral in spherical coordinates that would give the volume of <m>D</m>.
-        </p>
+      <p>
+        For the second, use the order <m>d\theta dr dz</m>.
+      </p>
+    </task>
+    </task>
+    <task>
+      <p>
+        Set up an iterated integral in spherical coordinates that would give the volume of <m>D</m>.
+      </p>
     </task>
   </exploration>
 
@@ -225,3 +239,4 @@
     </p>
   </exploration>
 </section>
+

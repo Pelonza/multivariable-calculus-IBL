@@ -1,238 +1,238 @@
 
+
 <section xml:id="ch05_01_polar_coordinates">
   <title>Polar Coordinates</title>
   <introduction>
-    <p>
-      Up to now, we have most often given the location of a point (or coordiantes of a vector) by stating the <m>(x,y)</m> coordinates. These are called the Cartesian (or rectangular) coordinates. Some problems are much easier to work with if we know how far a point is from the origin, together with the angle between the <m>x</m>-axis and a ray from the origin to the point.
-    </p>
+  <p>
+    Up to now, we have most often given the location of a point (or coordiantes of a vector) by stating the <m>(x,y)</m> coordinates. These are called the Cartesian (or rectangular) coordinates. Some problems are much easier to work with if we know how far a point is from the origin, together with the angle between the <m>x</m>-axis and a ray from the origin to the point.
+  </p>
 
-    <exploration>
+  <todo>\thomasee{See 11.3:5-10.}
+  </todo>
+
+  <exploration>
+    <introduction>
       <p>
-        <!-- \extrafn{
-        \thomasee{See 11.3:5-10.}
-        } -->Consider the point <m>P</m> with Cartesian (rectangular) coordinates <m>(2,1)</m>.
+        Consider the point <m>P</m> with Cartesian (rectangular) coordinates <m>(2,1)</m>.
       </p>
-        <task>
-            <p>
-              Find the distance <m>r</m> from <m>P</m> to the origin.
-            </p>
-        </task>
-
-        <task>
-            <p>
-              Consider the ray <m>\stackrel{\rightarrow}{OP}</m> from the origin through <m>P</m>. Find an angle between <m>\vec{OP}</m> and the <m>x</m>-axis.
-              <hint>
-                <p>
-                  Use a triangle and trigonometry
-                </p>
-              </hint>
-            </p>
-        </task>
-    </exploration>
-
-    <exploration>
+    </introduction>
+    <task>
       <p>
-        Suppose that a point <m>Q=(a,b)</m> is 6 units from the origin, and the angle the ray <m>\vec{OQ}</m> makes with the <m>x</m>-axis is <m>\pi/4</m> radians. Find the Cartesian (rectangular) coordinates <m>(a,b)</m> of <m>Q</m>.
+        Find the distance <m>r</m> from <m>P</m> to the origin.
       </p>
-    </exploration>
-
-    <definition>
+    </task>
+    <task>
       <statement>
         <p>
-          Let <m>Q</m> be be a point in the plane with Cartesian coordinates <m>(x,y)</m>. Let <m>O=(0,0)</m> be the origin. We define the polar coordinates of <m>Q</m> to be the ordered pair <m>(r,\theta)</m> where <m>r</m> is the displacement from the origin to <m>Q</m>, and <m>\theta</m> is an angle of rotation (counter-clockwise) from the <m>x</m>-axis to the ray <m>\vec {OP}</m>.
+          Consider the ray <m>\stackrel{\rightarrow}{OP}</m> from the origin through <m>P</m>. Find an angle between <m>\vec{OP}</m> and the <m>x</m>-axis.
         </p>
       </statement>
-    </definition>
+      <hint>
+        <p>
+          Use a triangle and trigonometry
+        </p>
+      </hint>
+    </task>
+  </exploration>
 
-    <exploration>
-      <p>
-        <!-- \extrafn{
-        \thomasee{See 11.3:5-10.}
-        } -->The following points are given using their polar coordinates. Plot the points in the Cartesian plane, and give the Cartesian (rectangular) coordinates of each point. The points are
-        <me>
-          (1,\pi), 
-          \ds \left( 3,\frac{5\pi}{4}\right),
-          \ds \left( -3,\frac{\pi}{4}\right),\text{ and } 
-          \ds \left( -2,-\frac{\pi}{6}\right).
-        </me>
-      </p>
-    </exploration>
-
+  <exploration>
     <p>
-      The next problem provides general formulas for converting between the Cartesian (rectangular) and polar coordinate systems.
+      Suppose that a point <m>Q=(a,b)</m> is 6 units from the origin, and the angle the ray <m>\vec{OQ}</m> makes with the <m>x</m>-axis is <m>\pi/4</m> radians. Find the Cartesian (rectangular) coordinates <m>(a,b)</m> of <m>Q</m>.
     </p>
+  </exploration>
 
-    <exploration xml:id="prob_polar_coordinate_equations">
+  <definition>
+    <statement>
       <p>
-        <!-- \extrafn{
-        \thomasee{See page 647.}
-        } -->Suppose that <m>Q</m> is a point in the plane with Cartesian coordinates <m>(x,y)</m> and polar coordinates <m>(r,\theta)</m>.
+        Let <m>Q</m> be be a point in the plane with Cartesian coordinates <m>(x,y)</m>. Let <m>O=(0,0)</m> be the origin. We define the polar coordinates of <m>Q</m> to be the ordered pair <m>(r,\theta)</m> where <m>r</m> is the displacement from the origin to <m>Q</m>, and <m>\theta</m> is an angle of rotation (counter-clockwise) from the <m>x</m>-axis to the ray <m>\vec {OP}</m>.
       </p>
-        <task>
-            <p>
-              Write formulas for <m>x</m> and <m>y</m> in terms of <m>r</m> and <m>\theta</m>.
-            </p>
-        </task>
+    </statement>
+  </definition>
 
-        <task>
-            <p>
-              Write a formula to find the distance <m>r</m> from <m>Q</m> to the origin (in terms of <m>x</m> and <m>y</m>)
-            </p>
-        </task>
-
-        <task>
-            <p>
-              Write a formula to find the angle <m>\theta</m> between the <m>x</m>-axis and a line connecting <m>Q</m> to the origin. 
-
-              <hint>
-                <p>
-                  A picture of a triangle will help here.
-                </p>
-              </hint>
-            </p>
-        </task>
-    </exploration>
-
+  <exploration>
     <p>
-      In <xref ref="prob_polar_coordinate_equations">problem</xref>, you should have obtained the equations
+      The following points are given using their polar coordinates. Plot the points in the Cartesian plane, and give the Cartesian (rectangular) coordinates of each point. The points are
       <me>
-        x=r\cos\theta,  y=r\sin\theta.
+        (1,\pi), 
+        \ds \left( 3,\frac{5\pi}{4}\right),
+        \ds \left( -3,\frac{\pi}{4}\right),\text{ and } 
+        \ds \left( -2,-\frac{\pi}{6}\right).
       </me>
     </p>
+  </exploration>
+
+  <p>
+    The next problem provides general formulas for converting between the Cartesian (rectangular) and polar coordinate systems.
+  </p>
+
+  <todo>\thomasee{See page 647.}
+  </todo>
+
+  <exploration xml:id="prob_polar_coordinate_equations">
+    <introduction>
+      <p>
+        Suppose that <m>Q</m> is a point in the plane with Cartesian coordinates <m>(x,y)</m> and polar coordinates <m>(r,\theta)</m>.
+      </p>
+    </introduction>
+    <task>
+      <p>
+        Write formulas for <m>x</m> and <m>y</m> in terms of <m>r</m> and <m>\theta</m>.
+      </p>
+    </task>
+    <task>
+      <p>
+        Write a formula to find the distance <m>r</m> from <m>Q</m> to the origin (in terms of <m>x</m> and <m>y</m>)
+      </p>
+    </task>
+    <task>
+      <statement>
+        <p>
+          Write a formula to find the angle <m>\theta</m> between the <m>x</m>-axis and a line connecting <m>Q</m> to the origin.
+        </p>
+      </statement>
+      <hint>
+        <p>
+          A picture of a triangle will help here.
+        </p>
+      </hint>
+    </task>
+  </exploration>
+
+  <p>
+    In <xref ref="prob_polar_coordinate_equations">problem</xref>, you should have obtained the equations
+    <me>
+      x=r\cos\theta,  y=r\sin\theta.
+    </me>
+  </p>
+
+  <p>
+    We can write this in vector notation as <m>\begin{pmatrix}x\\y
+    \end{pmatrix} =\begin{pmatrix}r\cos\theta\\ r\sin\theta
+    \end{pmatrix}</m>.
+    This is a vector equation in which you input polar coordinates <m>(r,\theta)</m> and get out Cartesian coordinates <m>(x,y)</m>.
+    So you input one thing to get out one thing, which means that we have a function.
+    We could write <m>\vec T(r,\theta) = (r\cos\theta,r\sin\theta)</m>, where we've used the letter <m>T</m> as the name of the function because it is a transformation between coordinate systems.
+    To emphasize that the domain and range are both two dimensional systems, we could also write <m>T:\mathbb{R}^2\to\mathbb{R}^2</m>. In the next chapter, we'll spend more time with this notation.
+  </p>
+
+  <p>
+    The following problem will show you how to graph a coordinate transformation. When you're done, you should essentially have polar graph paper.
+  </p>
+
+  <exploration xml:id="polar_coordinate_transformation_graph">
+    <introduction>
+      <p>
+        Consider the coordinate transformation
+        <me>
+          \vec T(r,\theta) = (r\cos\theta,r\sin\theta).
+        </me>
+      </p>
+
+      <aside>
+        <p>
+          For this problem, you are just drawing many parametric curves.
+          This is what we did in the previous chapter.
+        </p>
+      </aside>
+    </introduction>
+    <task>
+      <p>
+        Let <m>r=3</m> and then graph <m>\vec T(3,\theta)=(3\cos\theta,3\sin\theta)</m> for <m>\theta\in[0,2\pi]</m>.
+      </p>
+    </task>
+    <task>
+      <p>
+        Let <m>\theta=\frac{\pi}{4}</m> and then, on the same axes as above, add the graph of 
+        <m>\vec T\left(r,\frac{\pi}{4}\right)=\left(r\frac{\sqrt 2}{2},r \frac{\sqrt 2}{2}\right)</m> for <m>r\in[0,5]</m>.
+      </p>
+    </task>
+    <task>
+      <p>
+        To the same axes as above, add the graphs of 
+        <m>\vec T(1,\theta), \vec T(2,\theta), \vec T(4,\theta)</m>  for <m>\theta\in[0,2\pi]</m>
+      </p>
+    </task>
+    <task>
+      <p>
+        To the same axes as above, add the graphs of <m>\vec T(r,0), \vec T(r,\pi/2), \vec T(r,3\pi/4), \vec T(r,\pi)</m> for <m>r\in[0,5]</m>.
+      </p>
+    </task>
+  </exploration>
+
+  <exploration>
+    <introduction>
+      <p>
+        In the plane,
+      </p>
+    </introduction>
+    <task>
+      <p>
+        Graph the curve <m>y=\sin x</m> for <m>x\in[0,2\pi]</m> (make an <m>x,y</m> table)
+      </p>
+    </task>
+    <task>
+      <p>
+        Graph the curve <m>r=\sin\theta</m> for <m>\theta\in[0,2\pi]</m> (an <m>r,\theta</m> table).
+      </p>
+    </task>
+    <conclusion>
 
     <p>
-      We can write this in vector notation as <m>\begin{pmatrix}x\\y
-      \end{pmatrix} =\begin{pmatrix}r\cos\theta\\ r\sin\theta
-      \end{pmatrix}</m>.
-      This is a vector equation in which you input polar coordinates <m>(r,\theta)</m> and get out Cartesian coordinates <m>(x,y)</m>.
-      So you input one thing to get out one thing, which means that we have a function.
-      We could write <m>\vec T(r,\theta) = (r\cos\theta,r\sin\theta)</m>, where we've used the letter <m>T</m> as the name of the function because it is a transformation between coordinate systems.
-      To emphasize that the domain and range are both two dimensional systems, we could also write <m>T:\mathbb{R}^2\to\mathbb{R}^2</m>. In the next chapter, we'll spend more time with this notation.
+      The graphs should look very different. If one looks like a circle, you're on the right track.
     </p>
 
-    <p>
-      The following problem will show you how to graph a coordinate transformation. When you're done, you should essentially have polar graph paper.
-    </p>
+    </conclusion>
+  </exploration>
 
-    <exploration xml:id="polar_coordinate_transformation_graph">
-      <introduction>
-        <p>
-          Consider the coordinate transformation
-          <me>
-            \vec T(r,\theta) = (r\cos\theta,r\sin\theta).
-          </me>
-        </p>
-        <aside>
-          <p>
-            For this problem, you are just drawing many parametric curves.
-            This is what we did in the previous chapter.
-          </p>
-        </aside>
-      </introduction>
-      <task>
-          <p>
-            Let <m>r=3</m> and then graph <m>\vec T(3,\theta)=(3\cos\theta,3\sin\theta)</m> for <m>\theta\in[0,2\pi]</m>.
-          </p>
-      </task>
+  <exploration>
+    <introduction>
+      <p>
+        <!-- \extrafn{
+        \thomasee{See 11.3: 53-66.}
+        } -->Each of the following equations is written in the Cartesian (rectangular) coordinate system. Convert each to an equation in polar coordinates by substituting in the formulas from <xref ref="prob_polar_coordinate_equations"></xref>, and then solve for <m>r</m> so that the equation is in the form <m>r=f(\theta)</m>.
+      </p>
+    </introduction>
+    <task>
+      <p>
+        <m>x^2+y^2=7</m>
+      </p>
+    </task>
+    <task>
+      <p>
+        <m>2x+3y=5</m>
+      </p>
+    </task>
+    <task>
+      <p>
+        <m>x^2=y</m>
+      </p>
+    </task>
+  </exploration>
 
-      <task>
-          <p>
-            Let <m>\theta=\frac{\pi}{4}</m> and then, on the same axes as above, add the graph of 
-            <m>\vec T\left(r,\frac{\pi}{4}\right)=\left(r\frac{\sqrt 2}{2},r \frac{\sqrt 2}{2}\right)</m> for <m>r\in[0,5]</m>.
-          </p>
-      </task>
-
-      <task>
-          <p>
-            To the same axes as above, add the graphs of 
-            <m>\vec T(1,\theta), \vec T(2,\theta), \vec T(4,\theta)</m>  for <m>\theta\in[0,2\pi]</m>
-          </p>
-      </task>
-
-      <task>
-          <p>
-            To the same axes as above, add the graphs of <m>\vec T(r,0), \vec T(r,\pi/2), \vec T(r,3\pi/4), \vec T(r,\pi)</m> for <m>r\in[0,5]</m>.
-          </p>
-      </task>
-    </exploration>
-
-    <exploration>
-      <introduction>
-        <p>
-          In the plane,
-        </p>
-      </introduction>
-      <task>
-          <p>
-            Graph the curve <m>y=\sin x</m> for <m>x\in[0,2\pi]</m> (make an <m>x,y</m> table)
-          </p>
-      </task>
-
-      <task>
-          <p>
-            Graph the curve <m>r=\sin\theta</m> for <m>\theta\in[0,2\pi]</m> (an <m>r,\theta</m> table).
-          </p>
-      </task>
-      <conclusion>
-        <p>
-          The graphs should look very different. If one looks like a circle, you're on the right track.
-        </p>
-      </conclusion>
-    </exploration>
-
-    <exploration>
-      <introduction>
-        <p>
-          <!-- \extrafn{
-          \thomasee{See 11.3: 53-66.}
-          } -->Each of the following equations is written in the Cartesian (rectangular) coordinate system. Convert each to an equation in polar coordinates by substituting in the formulas from <xref ref="prob_polar_coordinate_equations"></xref>, and then solve for <m>r</m> so that the equation is in the form <m>r=f(\theta)</m>.
-        </p>
-      </introduction>
-      <task>
-          <p>
-            <m>x^2+y^2=7</m>
-          </p>
-      </task>
-
-      <task>
-          <p>
-            <m>2x+3y=5</m>
-          </p>
-      </task>
-
-      <task>
-          <p>
-            <m>x^2=y</m>
-          </p>
-      </task>
-    </exploration>
-
-    <exploration>
-      <introduction>
-        <p>
-              <!-- \extrafn{
-              \thomasee{See 11.3: 27-52. I strongly suggest that you do many of these as practice.}
-              } -->Each of the following equations is written in the polar coordinate system. Convert each to an equation in the Cartesian coordinates.
-        </p>
-      </introduction>
-      <task>
-          <p>
-            <m>r=9\cos\theta</m>
-          </p>
-      </task>
-
-      <task>
-          <p>
-            <m>\ds r=\frac{4}{2\cos\theta+3\sin\theta}</m>
-          </p>
-      </task>
-
-      <task>
-          <p>
-            <m>\theta = 3\pi/4</m>
-          </p>
-      </task>
-    </exploration>
+  <exploration>
+    <introduction>
+      <p>
+        <!-- \extrafn{
+        \thomasee{See 11.3: 27-52. I strongly suggest that you do many of these as practice.}
+        } -->Each of the following equations is written in the polar coordinate system. Convert each to an equation in the Cartesian coordinates.
+      </p>
+    </introduction>
+    <task>
+      <p>
+        <m>r=9\cos\theta</m>
+      </p>
+    </task>
+    <task>
+      <p>
+        <m>\ds r=\frac{4}{2\cos\theta+3\sin\theta}</m>
+      </p>
+    </task>
+    <task>
+      <p>
+        <m>\theta = 3\pi/4</m>
+      </p>
+    </task>
+  </exploration>
   </introduction>
 
   <subsection>
@@ -289,27 +289,25 @@
     <exploration>
       <introduction>
         <p>
-              <!-- \extrafn{
-              \thomasee{See 11.2: 1-14.}
-              } -->Consider the polar curve <m>r=1+2\cos \theta</m>. (It wouldn't hurt to provide a quick sketch of the curve.)
+          <!-- \extrafn{
+          \thomasee{See 11.2: 1-14.}
+          } -->Consider the polar curve <m>r=1+2\cos \theta</m>. (It wouldn't hurt to provide a quick sketch of the curve.)
         </p>
       </introduction>
       <task>
-          <p>
-            Compute both <m>dx/d\theta</m> and <m>dy/d\theta</m>.
-          </p>
+        <p>
+          Compute both <m>dx/d\theta</m> and <m>dy/d\theta</m>.
+        </p>
       </task>
-
       <task>
-          <p>
-            Find the slope <m>dy/dx</m> of the curve at <m>\theta=\pi/2</m>.
-          </p>
+        <p>
+          Find the slope <m>dy/dx</m> of the curve at <m>\theta=\pi/2</m>.
+        </p>
       </task>
-
       <task>
-          <p>
-            Give both a vector equation of the tangent line, and a Cartesian equation of the tangent line at <m>\theta=\pi/2</m>.
-          </p>
+        <p>
+          Give both a vector equation of the tangent line, and a Cartesian equation of the tangent line at <m>\theta=\pi/2</m>.
+        </p>
       </task>
     </exploration>
 
@@ -327,9 +325,7 @@
     <exploration>
       <statement>
         <p>
-          <!-- \extrafn{
-          \thomasee{See 11.5: 29.}
-          } -->Recall that <m>x=r\cos\theta</m> and <m>y=r\sin\theta</m>. Suppose that <m>r=f(\theta)</m> for <m>\theta\in[\alpha,\beta]</m> is a continuous function, and that <m>f'</m> is continuous.
+          Recall that <m>x=r\cos\theta</m> and <m>y=r\sin\theta</m>. Suppose that <m>r=f(\theta)</m> for <m>\theta\in[\alpha,\beta]</m> is a continuous function, and that <m>f'</m> is continuous.
           Show that the arc length formula can be simplified to
           <me>
             s=\int_{\alpha}^{\beta}\sqrt{\left(\frac{dx}{d\theta}\right)^2+\left(\frac{dy}{d\theta}\right)^2} 
@@ -353,15 +349,14 @@
         </p>
       </introduction>
       <task>
-          <p>
-            the rose <m>r=2\cos 3\theta</m>, and
-          </p>
+        <p>
+          the rose <m>r=2\cos 3\theta</m>, and
+        </p>
       </task>
-
       <task>
-          <p>
-            the rose <m>r=3\sin 2\theta</m>.
-          </p>
+        <p>
+          the rose <m>r=3\sin 2\theta</m>.
+        </p>
       </task>
     </exploration>
   </subsection>
@@ -372,13 +367,8 @@
       There are multiple copies of several exercises for your practice. You don't need to do them all. Do as many as it takes to get one right quickly.
     </introduction>
     <exercisegroup>
-
-<!-- Place my webwork exercises here! -->
-
+      <!-- Place my webwork exercises here! -->
     </exercisegroup>
-
   </exercises>
-
-
-    
 </section>
+

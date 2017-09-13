@@ -1,4 +1,5 @@
 
+
 <section>
   <title>Other Coordinate Systems</title>
   <p>
@@ -6,59 +7,73 @@
   </p>
 
   <exploration xml:id="prob_transform1">
-    <p>
-      Consider the coordinate transformation <m>T(a,\omega)=(a\cos\omega,a^2\sin \omega)</m>.
-    </p>
-  <task>
+    <introduction>
       <p>
-        <!-- \extrafn{See
-        <url href="http://aleph.sagemath.org/?z=eJwti7sKwCAMAHe_IjglkqHY2b9wbgkiJVAfqP9PB7vdHVxE4VbyIxRQXGoTtzHI5d3U-juZPrQusBElnAQ6LcNm02VIyWtouvvbFu7MsFeGg8G7rkQfMv4giA">Sage</url>.
-        Click on the link to see how to check your answer in Sage.} -->Let <m>a=3</m> and then graph the curve <m>\vec T(3,\omega)=(3\cos\omega,9\sin\omega)</m> for <m>\omega\in[0,2\pi]</m>.
-        <hint>
-          <p>
-            You can start by making a <m>\omega,x,y</m> table.
-          </p>
-        </hint>
+        Consider the coordinate transformation <m>T(a,\omega)=(a\cos\omega,a^2\sin \omega)</m>.
       </p>
-  </task>
-
-  <task>
+    </introduction>
+    <task>
+      <statement>
+        <p>
+          Let <m>a=3</m> and then graph the curve <m>\vec T(3,\omega)=(3\cos\omega,9\sin\omega)</m> for <m>\omega\in[0,2\pi]</m>.
+        </p>
+      </statement>
+      <aside>
+        <p>
+          See
+          <url href="http://aleph.sagemath.org/?z=eJwti7sKwCAMAHe_IjglkqHY2b9wbgkiJVAfqP9PB7vdHVxE4VbyIxRQXGoTtzHI5d3U-juZPrQusBElnAQ6LcNm02VIyWtouvvbFu7MsFeGg8G7rkQfMv4giA">Sage</url>.
+          Click on the link to see how to check your answer in Sage.
+        </p>
+      </aside>
+      <hint>
+        <p>
+          You can start by making a <m>\omega,x,y</m> table.
+        </p>
+      </hint>
+    </task>
+    <task>
+      <aside>
+        <p>
+          See
+          <url href="http://aleph.sagemath.org/?z=eJxlzEEKg0AMBdC9pwiukmmgRd3OLVxbgkgJqBNm5v5UTGmF7vKT9zOicNqWl1BECXMq6IlBpi4U3T-ZGsu6V2hHlNgTaGkZfP5dThpN78MXXFaNSZZtqVnnp62potcZHDE8GLpgSgQ3-LeXT0fF-UD0BkVHOdw">Sage</url>. Notice that you can add the two plots together to superimpose them on each other.
+        </p>
+      </aside>
       <p>
-        <!-- \extrafn{See
-        <url href="http://aleph.sagemath.org/?z=eJxlzEEKg0AMBdC9pwiukmmgRd3OLVxbgkgJqBNm5v5UTGmF7vKT9zOicNqWl1BECXMq6IlBpi4U3T-ZGsu6V2hHlNgTaGkZfP5dThpN78MXXFaNSZZtqVnnp62potcZHDE8GLpgSgQ3-LeXT0fF-UD0BkVHOdw">Sage</url>. Notice that you can add the two plots together to superimpose them on each other.} -->Let <m>\omega=\frac{\pi}{4}</m> and then, on the same axes as above, add the graph of 
+        Let <m>\omega=\frac{\pi}{4}</m> and then, on the same axes as above, add the graph of 
         <m>\vec T\left(a,\frac{\pi}{4}\right)=\left(a\frac{\sqrt 2}{2},a^2 \frac{\sqrt 2}{2}\right)</m> for <m>a\in[0,4]</m>.
       </p>
-  </task>
-
-  <task>
+    </task>
+    <task>
+    <aside>
       <p>
-        <!-- \extrafn{Use Sage to check your answer.} -->To the same axes as above, add the graphs of:
+        Use Sage to check your answer.
       </p>
-      <task>
-          <p>
-            <m>\vec T(1,\omega), \vec T(2,\omega), \vec T(4,\omega)</m>  for <m>\omega\in[0,2\pi]</m>
-          </p>
-      </task>
-
-      <task>
-          <p>
-            <m>\vec T(a,0), \vec T(a,\pi/2), \vec T(a,-\pi/6)</m> for <m>a\in[0,4]</m>.
-          </p>
-      </task>
-  </task>
+    </aside>
+    <p>
+      To the same axes as above, add the graphs of:
+    </p>
+    <task>
+      <p>
+        <m>\vec T(1,\omega), \vec T(2,\omega), \vec T(4,\omega)</m>  for <m>\omega\in[0,2\pi]</m>
+      </p>
+    </task>
+    <task>
+      <p>
+        <m>\vec T(a,0), \vec T(a,\pi/2), \vec T(a,-\pi/6)</m> for <m>a\in[0,4]</m>.
+      </p>
+    </task>
+    </task>
+    <conclusion>
     <hint>
       <p>
         when you're done, you should have a bunch of parabolas and ellipses.
       </p>
     </hint>
+    </conclusion>
   </exploration>
 
   <p>
     In 3 dimensions, the most common coordinate systems are cylindrical and spherical. The equations for these coordinate systems are in the table below.
-
-    <aside>
-    </aside>
-
   </p>
   <tabular>
     <row>
@@ -82,12 +97,6 @@
       \end{array}</m></cell>
     </row>
   </tabular>
-  <p>
-
-    <aside>
-    </aside>
-
-  </p>
   <tabular>
     <row>
       <cell>Cylindrical Coordinates</cell>
@@ -123,21 +132,14 @@
 
   <exploration>
     <p>
-      <!-- \extrafn{
-      \thomasee{See page 893.} 
-      \stewarts{See pages 827-833} 
-      \larsonfive{See Larson 11.7.}
-      } -->Let <m>P=(x,y,z)</m> be a point in space. This point lies on a cylinder of radius <m>r</m>, where the cylinder has the <m>z</m> axis as its axis of symmetry. The height of the point is <m>z</m> units up from the <m>xy</m> plane. The point casts a shadow in the <m>xy</m> plane at <m>Q=(x,y,0)</m>. The angle between the ray <m>\vec{OQ}</m> and the <m>x</m>-axis is <m>\theta</m>. Construct a graph in 3D of this information, and use it to develop the equations for cylindrical coordinates given above.
+      Let <m>P=(x,y,z)</m> be a point in space. This point lies on a cylinder of radius <m>r</m>, where the cylinder has the <m>z</m> axis as its axis of symmetry. The height of the point is <m>z</m> units up from the <m>xy</m> plane. The point casts a shadow in the <m>xy</m> plane at <m>Q=(x,y,0)</m>. The angle between the ray <m>\vec{OQ}</m> and the <m>x</m>-axis is <m>\theta</m>. Construct a graph in 3D of this information, and use it to develop the equations for cylindrical coordinates given above.
     </p>
   </exploration>
 
   <exploration xml:id="derive_spherical_coordinates">
     <p>
       Let
-      <!-- \extrafn{
-      \thomasee{See page 897.}
-      \larsonfive{See Larson 11.7.}
-      } --><m>P=(x,y,z)</m> be a point in space. This point lies on a sphere of
+      <m>P=(x,y,z)</m> be a point in space. This point lies on a sphere of
       radius <m>\rho</m> (<q>rho</q>), where the sphere's center is at the origin
       <m>O=(0,0,0)</m>. The point casts a shadow in the <m>xy</m> plane at
       <m>Q=(x,y,0)</m>. The angle between the ray <m>\vec{OQ}</m> and the <m>x</m>-axis
@@ -167,13 +169,6 @@
     Additionally, sometimes the coordinates are written in a different
     order. You should always check the notation for spherical coordinates
     before communicating using them.
-  </p>
-
-  <p>
-
-    <aside>
-    </aside>
-
   </p>
 
   <exploration>
@@ -206,7 +201,6 @@
         Once you have finished the problems in this \chaptername and feel comfortable with the ideas, create a short one page lesson plan that contains examples of the key ideas.  You will get a chance to teach from this lesson plan prior to taking the exam. Then log on to Brainhoney and download the quiz. Once you have taken the quiz, you can upload your work back to brainhoney and then download the key to see how you did. If you still need to work on mastering some of the ideas, please do so and then demonstrate your mastery though the quiz corrections.
       </p>
     </aside>
-
     <aside>
       <title>Wrap Up</title>
       <p>
@@ -237,6 +231,6 @@
         </ul>
       </p>
     </aside>
-
   </p>
 </section>
+

@@ -1,4 +1,5 @@
 
+
 <section>
   <title>Green's Theorem</title>
   <p>
@@ -100,40 +101,42 @@
   </p>
 
   <exploration>
+    <introduction>
+      <p>
+        Consider a rectangle <m>C</m> where the boundary of the rectangle are <m>2\leq x\leq 7</m> and <m>0\leq y\leq 3</m>. The rectangle is subject to a vector field <m>\vec F=(2x+3y,4x+5y)</m>.
+      </p>
+    </introduction>
+    <aside>
     <p>
-      <!-- \extrafn{
 
       <aside>
-      <p>
-        See 16.4 for more practice.  Try doing a bunch of these, as they get really fast.
-      </p>
+        <p>
+          See 16.4 for more practice.  Try doing a bunch of these, as they get really fast.
+        </p>
       </aside>
-
-      } -->Consider a rectangle <m>C</m> where the boundary of the rectangle are <m>2\leq x\leq 7</m> and <m>0\leq y\leq 3</m>. The rectangle is subject to a vector field <m>\vec F=(2x+3y,4x+5y)</m>.
     </p>
-      <task>
-          <p>
-            Compute <m>N_x-M_y</m>
-          </p>
-      </task>
-
-      <task>
-          <p>
-            Compute <m>M_x+N_y</m>.
-          </p>
-      </task>
-
-      <task>
-          <p>
-            Find the circulation of <m>\vec F</m> along <m>C</m>
-          </p>
-      </task>
-
-      <task>
-          <p>
-            Find the flux of <m>\vec F</m> along <m>C</m>
-          </p>
-      </task>
+    </aside>
+    <task>
+      <p>
+        Compute <m>N_x-M_y</m>
+      </p>
+    </task>
+    <task>
+      <p>
+        Compute <m>M_x+N_y</m>.
+      </p>
+    </task>
+    <task>
+      <p>
+        Find the circulation of <m>\vec F</m> along <m>C</m>
+      </p>
+    </task>
+    <task>
+      <p>
+        Find the flux of <m>\vec F</m> along <m>C</m>
+      </p>
+    </task>
+    <conclusion>
     <hint>
       <p>
         The last two should reduce to facts about area.
@@ -142,28 +145,33 @@
     <p>
       Note: If you tried doing this without Green's theorem, you would have to parametrize 4 line segments, compute 4 integrals, and then sum the results.
     </p>
+
+    </conclusion>
   </exploration>
 
   <exploration>
-    <p>
-      Consider the vector field <m>\vec F=(x^2+y^2,3x+5y)</m> and <m>C</m>, the circle <m>(x-3)^2+(y+1)^2=4</m> (oriented counterclockwise).
-    </p>
-      <task>
-          <p>
-            Start by computing <m>N_x-M_y</m> and <m>M_x+N_y</m>.
-          </p>
-      </task>
-
-      <task>
-          <p>
-            Now find both the circulation and flux of <m>\vec F</m> along <m>C</m>.
-          </p>
-      </task>
+    <introduction>
+      <p>
+        Consider the vector field <m>\vec F=(x^2+y^2,3x+5y)</m> and <m>C</m>, the circle <m>(x-3)^2+(y+1)^2=4</m> (oriented counterclockwise).
+      </p>
+    </introduction>
+    <task>
+      <p>
+        Start by computing <m>N_x-M_y</m> and <m>M_x+N_y</m>.
+      </p>
+    </task>
+    <task>
+      <p>
+        Now find both the circulation and flux of <m>\vec F</m> along <m>C</m>.
+      </p>
+    </task>
+    <conclusion>
     <hint>
       <p>
         You should be able to reduce the integrals to facts about the area and centroid.
       </p>
     </hint>
+    </conclusion>
   </exploration>
 
   <exploration>
@@ -187,7 +195,6 @@
         Once you have finished the problems in this \chaptername and feel comfortable with the ideas, create a short one page lesson plan that contains examples of the key ideas.  You will get a chance to teach from this lesson plan prior to taking the exam. Then log on to Brainhoney and download the quiz. Once you have taken the quiz, you can upload your work back to brainhoney and then download the key to see how you did. If you still need to work on mastering some of the ideas, please do so and then demonstrate your mastery though the quiz corrections.
       </p>
     </aside>
-
     <aside>
       <title>Wrap Up</title>
       <p>
@@ -218,6 +225,6 @@
         </ul>
       </p>
     </aside>
-
   </p>
 </section>
+
