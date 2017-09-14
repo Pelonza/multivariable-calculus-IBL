@@ -7,7 +7,7 @@
   </p>
 
   <todo>\thomasee{See 16.2: 39-44 for more practice.}
-  \larsonfive{See Larson 15.1:1<ndash />19.}
+  \larsonfive{See Larson 15.1:119.}
   </todo>
 
   <exploration>
@@ -98,7 +98,7 @@
 
   <todo>\stewarts{See section 16.6 for more examples}
   \thomasee{See 16.5: 1-16 for more practice.}
-  \larsonfive{See Larson 15.5:21<ndash />30 and 15.5, Example 3.}
+  \larsonfive{See Larson 15.5:2130 and 15.5, Example 3.}
   </todo>
 
   <exploration xml:id="x3d_parametric_plot">
@@ -145,7 +145,7 @@
   </exploration>
 
   <todo>\thomasee{See 16.5: 1-16 for more practice.}
-  \larsonfive{See Larson 15.5:1<ndash />10}
+  \larsonfive{See Larson 15.5:110}
   </todo>
 
   <exploration>
@@ -178,7 +178,7 @@
   </me>
   }
   \thomasee{See 16.5: 1-16 for more practice.}
-  \larsonfive{See Larson 15.5:1<ndash />10}
+  \larsonfive{See Larson 15.5:110}
   \larsonfive{
   <me>
     \vec T(\rho,\theta, \phi) = (\rho\sin\phi\cos \theta, \rho\sin\phi\sin \theta,\rho \cos \phi).
@@ -249,7 +249,7 @@
     Sometimes you'll have to invent your own coordinate system when constructing parametric equations for a surface. If you notice that there are lots of circles parallel to one of the coordinate planes, try using a modified version of cylindrical coordinates. Instead of circles in the <m>xy</m> plane (<m>x=r\cos\theta,y=r\sin\theta,z=z</m>), maybe you need circles in the <m>yz</m>-plane (<m>x=x,y=r\sin\theta,z=r\sin\theta</m>) or the <m>xz</m> plane. Just look for lots of circles, and then construct your parametrization accordingly.
   </p>
 
-  <todo>\larsonfive{See Larson 15.5:21<ndash />30.}
+  <todo>\larsonfive{See Larson 15.5:2130.}
   </todo>
 
   <exploration>

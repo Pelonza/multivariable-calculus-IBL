@@ -29,7 +29,7 @@
     <title>3-D Surface Plots</title>
 
     <todo>
-      \larsonfive{See Larson 13.1:33<ndash />40}
+      \larsonfive{See Larson 13.1:3340}
     </todo>
 
     <exploration xml:id="prob_3dsurface_plot">
@@ -113,7 +113,7 @@
     <todo>
       \stewarts{See 14.1: Examples 9-13, for more practice problems 14.1:43-50}
       \thomasee{See 14.1: 13-16 and 31-36.}
-      \larsonfive{See Larson 13.1:45<ndash />56.}
+      \larsonfive{See Larson 13.1:4556.}
     </todo>
 
     <exploration xml:id="prob_intro_to_contour_plots">
@@ -183,7 +183,7 @@
     <title>Parametric Surfaces Continued</title>
     <todo>\stewarts{More practice is in 14.1:51-52, 55-58}
     \thomasee{More practice is in 14.1: 37-48.}
-    \larsonfive{See Larson 13.1:45<ndash />56.}
+    \larsonfive{See Larson 13.1:4556.}
     </todo>
 
     <exploration>
@@ -226,7 +226,7 @@
 
     <todo>\stewarts{For more practice see 14.1:65-68 }
     \thomasee{You can access more problems on drawing level surfaces in 12.6:1-44 or 14.1:53-60.}
-    \larsonfive{See Larson 11.6 and 13.1:69<ndash />74, as well as 13.1, Example 6.}
+    \larsonfive{See Larson 11.6 and 13.1:6974, as well as 13.1, Example 6.}
     </todo>
 
     <exploration>
@@ -282,7 +282,7 @@
       </task>
     </exploration>
 
-    <todo>\larsonfive{See Larson 11.6:7<ndash />16.}
+    <todo>\larsonfive{See Larson 11.6:716.}
     </todo>
 
     <exploration>
@@ -352,7 +352,7 @@
 
     <todo>\stewarts{Remember you can find more practice in 14.1:65-68}
     \thomasee{Remember you can find more practice in 12.6:1-44 or 14.1: 53-64.}
-    \larsonfive{See Larson 11.6 and 13.1:69<ndash />74, as well as 13.1, Example 6.}
+    \larsonfive{See Larson 11.6 and 13.1:6974, as well as 13.1, Example 6.}
     </todo>
 
     <exploration>
@@ -498,7 +498,7 @@
     </todo>
 
     <todo>
-      \larsonfive{See Larson 11.7:89<ndash />94, 111<ndash />114.}
+      \larsonfive{See Larson 11.7:8994, 111114.}
     </todo>
 
     <exploration xml:id="graphing_spherical_coordinates">
@@ -585,7 +585,7 @@
 
     <todo>\stewarts{See 16.1: 1-14 for more practice.}
     \thomasee{See 16.2: 39-44 for more practice.}
-    \larsonfive{See Larson 15.1:1<ndash />19.}
+    \larsonfive{See Larson 15.1:119.}
     </todo>
 
     <exploration>
