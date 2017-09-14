@@ -7,11 +7,13 @@
     </p>
 
     <exploration>
+      <introduction>
       <p>
         <!-- \extrafn{
         \thomasee{See 11.3:5-10.}
         } -->Consider the point <m>P</m> with Cartesian (rectangular) coordinates <m>(2,1)</m>.
       </p>
+    </introduction>
         <task>
             <p>
               Find the distance <m>r</m> from <m>P</m> to the origin.
@@ -19,14 +21,16 @@
         </task>
 
         <task>
+          <statement>
             <p>
               Consider the ray <m>\stackrel{\rightarrow}{OP}</m> from the origin through <m>P</m>. Find an angle between <m>\vec{OP}</m> and the <m>x</m>-axis.
-              <hint>
-                <p>
-                  Use a triangle and trigonometry
-                </p>
-              </hint>
             </p>
+          </statement>
+          <hint>
+            <p>
+              Use a triangle and trigonometry
+            </p>
+          </hint>
         </task>
     </exploration>
 
@@ -63,11 +67,13 @@
     </p>
 
     <exploration xml:id="prob_polar_coordinate_equations">
+      <introduction>
       <p>
         <!-- \extrafn{
         \thomasee{See page 647.}
         } -->Suppose that <m>Q</m> is a point in the plane with Cartesian coordinates <m>(x,y)</m> and polar coordinates <m>(r,\theta)</m>.
       </p>
+    </introduction>
         <task>
             <p>
               Write formulas for <m>x</m> and <m>y</m> in terms of <m>r</m> and <m>\theta</m>.
@@ -81,15 +87,16 @@
         </task>
 
         <task>
+          <statement>
             <p>
-              Write a formula to find the angle <m>\theta</m> between the <m>x</m>-axis and a line connecting <m>Q</m> to the origin. 
-
-              <hint>
-                <p>
-                  A picture of a triangle will help here.
-                </p>
-              </hint>
+              Write a formula to find the angle <m>\theta</m> between the <m>x</m>-axis and a line connecting <m>Q</m> to the origin.
             </p>
+          </statement>
+          <hint>
+            <p>
+              A picture of a triangle will help here.
+            </p>
+          </hint>
         </task>
     </exploration>
 
@@ -212,8 +219,13 @@
         <p>
               <!-- \extrafn{
               \thomasee{See 11.3: 27-52. I strongly suggest that you do many of these as practice.}
-              } -->Each of the following equations is written in the polar coordinate system. Convert each to an equation in the Cartesian coordinates.
+              } -->Each of the following equations is written in the polar coordinate system. Convert each to an equation in the Cartesian coordinates. Again, you will probably want to use the formulas from <xref ref="prob_polar_coordinate_equations"></xref>.
         </p>
+        <hint>
+          <p>
+            Don't substitute directly for <me>\theta</me>. Instead try substituting for <me>\cos\theta</me> and <me>\cos\theta</me>
+          </p>
+        </hint>
       </introduction>
       <task>
           <p>
@@ -369,12 +381,48 @@
   <exercises>
     <title>Computational Practice</title>
     <introduction>
-      There are multiple copies of several exercises for your practice. You don't need to do them all. Do as many as it takes to get one right quickly.
+      <p> 
+        There are multiple copies of several exercises for your practice. You don't need to do them all. Do as many as it takes to get one right quickly.
+      </p>
     </introduction>
+
     <exercisegroup>
+      <introduction>
+        <p>
+          These practice problems test your ability to find/identify bounds using polar coordinates
+        </p>
+      </introduction>
 
-<!-- Place my webwork exercises here! -->
+      <exercise>
+        <webwork source="Library/FortLewis/Calc2/8-3-Polar/HGM5-08-03-17.pg"/>
+      </exercise>
 
+      <exercise>
+        <webwork source="Library/FortLewis/Calc2/8-3-Polar/HGM5-08-03-19.pg"/>
+      </exercise>
+
+      <exercise>
+        <webwork source="Library/FortLewis/Calc2/8-3-Polar/polar-regions.pg"/>
+      </exercise>
+    </exercisegroup>
+
+    <exercisegroup>
+      <introduction>
+        <p>
+          These practice problems test your ability to find arc-lengths
+        </p>
+      </introduction>
+      <exercise>
+        <webwork source="Library/maCalcDB/setPolarCoord2Curves/ur_pc_2_10.pg" />
+      </exercise>
+
+      <exercise>
+        <webwork source="Library/Wiley/setAnton_Section_10.3/Question22.pg" />
+      </exercise>
+
+      <exercise>
+        <webwork source="Library/WHFreeman/Rogawski_Calculus_Early_Transcendentals_Second_Edition/11_Parametric_Equations_Polar_Coordinates_and_Conic_Sections/11.2_Arc_Length_and_Speed/11.2.1.pg" />
+      </exercise>
     </exercisegroup>
 
   </exercises>

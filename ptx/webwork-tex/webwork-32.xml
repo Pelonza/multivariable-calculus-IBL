@@ -1,0 +1,36 @@
+<webwork-tex seed="123567890">
+<preamble>
+
+			
+%%% BEGIN PROBLEM PREAMBLE
+
+</preamble>
+<statement>
+Match the given equation with the verbal description of the surface:
+\begin{enumerate}
+\item[A.] Elliptic or Circular Paraboloid
+\item[B.] Cone
+\item[C.] Half plane
+\item[D.] Plane
+\item[E.] Sphere
+\item[F.] Circular Cylinder
+\end{enumerate}
+
+
+\par\begin{enumerate}
+\item[\mbox{\parbox[t]{3ex}{\hrulefill}}1.] \(\phi = \frac{\pi}{3}\)
+\item[\mbox{\parbox[t]{3ex}{\hrulefill}}2.] \(\rho = 4\)
+\item[\mbox{\parbox[t]{3ex}{\hrulefill}}3.] \(r =4\)
+\item[\mbox{\parbox[t]{3ex}{\hrulefill}}4.] \(\rho \cos(\phi )= 4\)
+\item[\mbox{\parbox[t]{3ex}{\hrulefill}}5.] \(\theta = \frac{\pi}{3}\)
+\item[\mbox{\parbox[t]{3ex}{\hrulefill}}6.] \(\rho = 2\cos(\phi )\)
+\item[\mbox{\parbox[t]{3ex}{\hrulefill}}7.] \(r^2 + z^2 =16\)
+\item[\mbox{\parbox[t]{3ex}{\hrulefill}}8.] \(r = 2\cos(\theta )\)
+\item[\mbox{\parbox[t]{3ex}{\hrulefill}}9.] \(z = r^2\)
+\end{enumerate}
+
+ 
+
+
+</statement>
+</webwork-tex>

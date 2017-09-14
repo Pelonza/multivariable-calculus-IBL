@@ -1,0 +1,26 @@
+<webwork-tex seed="123567890">
+<preamble>
+
+			
+%%% BEGIN PROBLEM PREAMBLE
+
+</preamble>
+<statement>
+\par 
+Calculate the length of the path over the given interval.
+\[c(t) = (9 t + 1, 9 - 8 t), \, 0 \le t \le 2\]
+\par 
+\mbox{\parbox[t]{10ex}{\hrulefill}}
+\par 
+
+
+</statement>
+<solution>
+\par \par {\bf Solution: }\par 
+\par {\bf Solution: }
+Since \(x = 9 t + 1\) and \(y = 9 - 8 t\) we have \(x' = 9\) and \(y' = - 8\).  Hence, the length of the path is
+\[S = \int ^2 _0 \sqrt{9^2 + (- 8)^2} \, dt = 12.0416 \int ^2 _0 \, dt = 2\sqrt{145} = 24.0832\]
+
+\par 
+</solution>
+</webwork-tex>

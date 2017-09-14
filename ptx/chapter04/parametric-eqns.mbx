@@ -331,6 +331,7 @@
             \text{ Arc Length } =s=\int ds=\int_a^b \left|\frac{d\vec r}{dt}\right| dt=\int_a^b \sqrt{\left(\frac{dx}{dt}\right)^2+\left(\frac{dy}{dt}\right)^2}dt.
           </me>
         </p>
+
       </task>
     </exploration>
 
@@ -374,7 +375,9 @@
   <exercises>
     <title>Computational Practice</title>
     <introduction>
-      There are multiple copies of several exercises for your practice. You don't need to do them all. Do as many as it takes to get one right quickly.
+      <p>
+        There are multiple copies of several exercises for your practice. You don't need to do them all. Do as many as it takes to get one right quickly.
+      </p>
     </introduction>
     <exercisegroup>
       <introduction>

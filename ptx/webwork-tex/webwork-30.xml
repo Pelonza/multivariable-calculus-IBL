@@ -1,0 +1,42 @@
+<webwork-tex seed="123567890">
+<preamble>
+
+			
+%%% BEGIN PROBLEM PREAMBLE
+
+</preamble>
+<statement>
+\par 
+Find the arc length of the polar curve \(\small{r = e^{9\theta}}\) from \(\small{\theta = 0}\)
+to \(\small{\theta = 5}\). Keep all radicals in your answer, and enter \(\small{e}\) if
+appropriate.
+\par 
+Arc Length = \mbox{\parbox[t]{12.5ex}{\hrulefill}}
+
+
+</statement>
+<solution>
+\par \par {\bf Solution: }\par  SOLUTION \par 
+The arc length of a polar curve is given by,
+\leavevmode\\\relax 
+\begin{center} 
+\(\int_\alpha^\beta \sqrt{r^2 + \large{\frac{dr}{d\theta}}} \,d\theta\)
+\end{center} 
+\leavevmode\\\relax 
+In this problem, we are asked to integrate from 0 to 5. Using the integral above, the arc length will be,
+\leavevmode\\\relax 
+\leavevmode\\\relax 
+\begin{center} 
+\(\small{\int_{0}^{5} \sqrt{(e^{9\theta})^2 + (9 e^{9\theta})^2} \,d\theta}\) =
+\(\small{\int_{0}^{5} e^{9\theta} \sqrt{1 + 9^2} \,d\theta}\) =
+\(\small{\sqrt{82}\int_{0}^{5} e^{9\theta} \,d\theta}\).
+\end{center} 
+\par 
+Evaluating this integral, we get,
+\[\small{\sqrt{82}\int_{0}^{5} e^{9\theta} \,d\theta} =
+   \sqrt{82}\left. \frac{1}{9} e^{9\theta} \right|_{0}^{5}= \left(\frac{\sqrt{82}}{9}\right) \left(e^{45} - 1\right).\]
+\par 
+
+\par 
+</solution>
+</webwork-tex>

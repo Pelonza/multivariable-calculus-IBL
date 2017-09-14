@@ -1,0 +1,41 @@
+<webwork-tex seed="123567890">
+<preamble>
+
+			
+%%% BEGIN PROBLEM PREAMBLE
+
+</preamble>
+<statement>
+\par\medskip\hbox{\qquad\vtop{\advance\hsize by -3em Match each pair of inequalities with the graph 
+of the polar region it describes.\leavevmode\\\relax \leavevmode\\\relax 
+\par\begin{enumerate}
+\item[\fbox{?}1.] \(4 \leq r \leq 5\) and \(\pi/2 \leq \theta \leq 3\pi/2\)
+\item[\fbox{?}2.] \(0 \leq r \leq 4\) and \(3\pi/4 \leq \theta \leq 3\pi/2\)
+\item[\fbox{?}3.] \(4 \leq r \leq 5\) and \(-\pi/2 \leq \theta \leq \pi/2\)
+\item[\fbox{?}4.] \(0 \leq r \leq 4\) and \(-\pi/2 \leq \theta \leq 3\pi/4\)
+\item[\fbox{?}5.] \(0 \leq r \leq 4\) and \(0 \leq \theta \leq 2\pi\)
+\item[\fbox{?}6.] \(0 \leq r \leq 5\) and \(3\pi/2 \leq \theta \leq 2\pi\)
+\item[\fbox{?}7.] \(4 \leq r \leq 5\) and \(0 \leq \theta \leq 2\pi\)
+\item[\fbox{?}8.] \(0 \leq r \leq 4\) and \(0 \leq \theta \leq 3\pi/4\)
+\end{enumerate}
+}}\medskip\hbox{\qquad\vtop{\advance\hsize by -3em \par\medskip\centerline{\kern 5pt\vbox{\halign{#\hfil&amp;&amp;\kern 5pt #\hfil\cr
+\includegraphics[width=0.25\linewidth]{webwork-tex/webwork-28-image-1.png}
+&amp; \includegraphics[width=0.25\linewidth]{webwork-tex/webwork-28-image-2.png}
+&amp; \includegraphics[width=0.25\linewidth]{webwork-tex/webwork-28-image-3.png}
+\cr
+\hfil \textbf{A}&amp; \hfil \textbf{B}&amp; \hfil \textbf{C}\vadjust{\kern 6pt}
+\cr
+\includegraphics[width=0.25\linewidth]{webwork-tex/webwork-28-image-4.png}
+&amp; \includegraphics[width=0.25\linewidth]{webwork-tex/webwork-28-image-5.png}
+&amp; \includegraphics[width=0.25\linewidth]{webwork-tex/webwork-28-image-6.png}
+\cr
+\hfil \textbf{D}&amp; \hfil \textbf{E}&amp; \hfil \textbf{F}\cr
+\includegraphics[width=0.25\linewidth]{webwork-tex/webwork-28-image-7.png}
+&amp; \includegraphics[width=0.25\linewidth]{webwork-tex/webwork-28-image-8.png}
+\cr
+\hfil \textbf{G}&amp; \hfil \textbf{H}\cr}}\kern 5pt}\medskip
+}}\medskip
+
+
+</statement>
+</webwork-tex>
