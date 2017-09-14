@@ -27,10 +27,14 @@
 
   <subsection>
     <title>3-D Surface Plots</title>
+
+    <todo>
+      \larsonfive{See Larson 13.1:33<ndash />40}
+    </todo>
+
     <exploration xml:id="prob_3dsurface_plot">
       <introduction>
         <p>
-          \larsonfive{ }
           A computer chip has been disconnected from electricity and sitting in cold storage for quite some time. The chip is connected to power, and a few moments later the temperature (in Celsius) at various points <m>(x,y)</m> on the chip is measured. From these measurements, statistics is used to create a temperature function <m>T=z=f(x,y)</m> to model the temperature at any point on the chip. Suppose that this chip's temperature function is given by the equation <m>T=z=f(x,y)=9-x^2-y^2</m>. Eventually we'll be creating a 3D model of this function in this problem, so you'll need to place all your graphs on the same <m>x,y,z</m> axes. However, to begin with you may find it easier to start with several 2-D plots.
         </p>
 
@@ -38,10 +42,6 @@
           <p>
             See <url href="http://aleph.sagemath.org/?z=eJxL06jQqdS0tdStiDPSrYwz4irIyS8xTtFI01EAyuga6xhrAlmVEJYmADAVC84">Sage</url> or 
             <url href="http://wolfr.am/wny0IF">Wolfram Alpha</url>.
-          </p>
-
-          <p>
-            See Larson 13.1:33<ndash />40.
           </p>
         </aside>
       </introduction>
@@ -110,24 +110,22 @@
 
   <subsection>
     <title>2-D Contour Plots</title>
-    <todo>\stewarts{See 14.1: Examples 9-13, for more practice problems 14.1:43-50}
-    \thomasee{See 14.1: 13-16 and 31-36.}
+    <todo>
+      \stewarts{See 14.1: Examples 9-13, for more practice problems 14.1:43-50}
+      \thomasee{See 14.1: 13-16 and 31-36.}
+      \larsonfive{See Larson 13.1:45<ndash />56.}
     </todo>
 
     <exploration xml:id="prob_intro_to_contour_plots">
       <introduction>
         <p>
-          \larsonfive{ }We'll be using the same function <m>T=z=f(x,y)=9-x^2-y^2</m> as the previous problem. However, this time we'll construct a graph of the function by only studying places where the temperature is constant. We'll do this by creating a graph in 2D of the surface (similar to a topographical map).
+          We'll be using the same function <m>T=z=f(x,y)=9-x^2-y^2</m> as the previous problem. However, this time we'll construct a graph of the function by only studying places where the temperature is constant. We'll do this by creating a graph in 2D of the surface (similar to a topographical map).
         </p>
 
         <aside>
           <p>
             See <url href="http://aleph.sagemath.org/?z=eJydj81qwzAQhO9-iiWXWCCHJqbQHHTtExR6KI1RnBVWWWuNVibR21fOH_Ta2-7M7PCtqy86K7NvLoddkw-7aiJO7al2GorTtLpVZcq3SW1k4HOtqiGNVK8-EZY0pDPDyTuHEUMCSZlQgB30HBLP8RoSEIbMM_Q2gCCWdcQllAb8EwSekucgm5Wq7nq36IXoCfTg0Y9LMV8veqtf9Zvefy8qcTzaaD7ijLof7WTWP5jWT_7_FpM9IsmtFpwnMu-WBPVV73wgH_DuWpmwT1205RuzVdUvSwN0NA">Sage</url> or 
             <url href="http://wolfr.am/wny0IF">Wolfram Alpha</url>.
-          </p>
-
-          <p>
-            See Larson 13.1:45<ndash />56.
           </p>
         </aside>
       </introduction>
@@ -499,10 +497,14 @@
 
     </todo>
 
+    <todo>
+      \larsonfive{See Larson 11.7:89<ndash />94, 111<ndash />114.}
+    </todo>
+
     <exploration xml:id="graphing_spherical_coordinates">
       <introduction>
         <p>
-          \larsonfive{ }Consider the spherical coordinates transformation as defined in
+          Consider the spherical coordinates transformation as defined in
           <me>
             \vec T(\rho,\theta,\phi)=(\rho\sin\phi\cos\theta,\rho\sin\phi\sin\theta,\rho\cos\phi),
           </me>
@@ -521,12 +523,9 @@
         <aside>
           <p>
             Recall that <m>\phi</m> (<q>phi</q>) is the angle down from the <m>z</m> axis, <m>\theta</m> (<q>theta</q>) is the angle counterclockwise from the <m>x</m>-axis in the <m>xy</m>-plane, and <m>\rho</m> (<q>rho</q>) is the distance from the origin. Review <xref ref="derive_spherical_coordinates">problem</xref> if you need a refresher.
-          </p>
-
-          <p>
-            See Larson 11.7:89<ndash />94, 111<ndash />114.
-          </p>
+          </p>          
         </aside>
+        
       </introduction>
       <task>
         <aside>

@@ -161,20 +161,19 @@
     </p>
   </exploration>
 
+  <todo>
+    \larsonfive{ See Larson 15.2: 1<ndash />20, 63<ndash />70.  Some exercises give you a parametrization, some expect you to come up with one on your own.}
+  </todo>
+
   <exploration>
     <introduction>
       <p>
-        \larsonfive{ }
         Let <m>f(x,y)=x^2+y^2-25</m>. Let <m>C</m> be the portion of the parabola <m>y^2=x</m> between <m>(1,-1)</m> and <m>(4,2)</m>. We want to compute <m>\int_C fds</m>.
       </p>
 
       <aside>
         <p>
           <xref ref="prob_parametric_curve_in_plane">See</xref> if you forgot how to parametrize plane curves.
-        </p>
-
-        <p>
-          See Larson 15.2: 1<ndash />20, 63<ndash />70.  Some exercises give you a parametrization, some expect you to come up with one on your own.
         </p>
 
         <p>

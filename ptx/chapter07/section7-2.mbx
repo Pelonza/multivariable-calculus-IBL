@@ -607,20 +607,18 @@
     The shorthand notation <m>f_{xy}</m> is easiest to write. In upper-level courses, we will use subscripts to mean other things. At that point, we'll have to use the fractional partial notation to avoid confusion.
   </p>
 
+  <todo>
+    \larsonfive{See Larson 13.3:71<ndash />80 for more practice.}
+  </todo>
+
   <exploration xml:id="prob_second_partials_agree">
     <title>Mixed Partials Agree</title>
     <introduction>
       <p>
-        \larsonfive{ }
         Complete the following:
       </p>
-
-      <aside>
-        <p>
-          See Larson 13.3:71<ndash />80 for more practice.
-        </p>
-      </aside>
     </introduction>
+
     <task>
       <p>
         Let <m>f(x,y)=3xy^3+e^{x}.</m>

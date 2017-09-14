@@ -448,15 +448,13 @@
     </task>
   </exploration>
 
-  <exploration>
 
-    <aside>
-      <p>
-        See Larson 13.5:19<ndash />26 for more practice.
-      </p>
-    </aside>
+  <todo>
+    \larsonfive{See Larson 13.5:19<ndash />26 for more practice.}
+  </todo>
+
+  <exploration>
     <p>
-      \larsonfive{ }
       Suppose <m>z=f(s,t)</m> and <m>s</m> and <m>t</m> are functions of <m>u</m>, <m>v</m> and <m>w</m>. Use the chain rule to give a general formula for <m>\partial z/\partial u</m>, <m>\partial z/\partial v</m>, and <m>\partial z/\partial w</m>.
     </p>
   </exploration>
