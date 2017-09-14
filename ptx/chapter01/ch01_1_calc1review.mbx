@@ -1,4 +1,5 @@
 
+
 <section xml:id="ch01_1_calc1review">
   <title>Review of First Semester Calculus</title>
   <subsection>
@@ -16,11 +17,11 @@
           </me>
         </p>
       </task>
-
       <task>
         <p>
-          Use a computer algebra system, such as <url href="http://http://www.wolframalpha.com/">Wolfram Alpha</url>, to verify your work. I suggest Wolfram Alpha, because it is now built into Mathematica 8.0+. If you can learn to use Wolfram Alpha, you will be able to use Mathematica. 
+          Use a computer algebra system, such as <url href="http://http://www.wolframalpha.com/">Wolfram Alpha</url>, to verify your work. I suggest Wolfram Alpha, because it is now built into Mathematica 8.0+. If you can learn to use Wolfram Alpha, you will be able to use Mathematica.
         </p>
+
         <aside>
           <p>
             You are also welcome to use Maple or Sage. On the surface both Mathematica and Maple are very similar, while Sage is meant to be more multi-purpose.
@@ -64,10 +65,7 @@
 
     <exploration>
       <p>
-        <!-- \extrafn{
-        \thomasee{See sections 3.2-3.6 for more practice with derivatives. The later problems in 3.6 review of most of the entire differentiation chapter.}
-        \stewarts{See sections 3.1-3.6 for more practice with derivatives.}
-        } -->Compute the derivative of <m>e^{\sec x}\cos(\tan(x)+\ln(x^2+4))</m>.
+        Compute the derivative of <m>e^{\sec x}\cos(\tan(x)+\ln(x^2+4))</m>.
       </p>
 
       <p>
@@ -92,10 +90,7 @@
     <exploration>
       <statement>
         <p>
-          <!-- \extrafn{
-          \thomasee{See sections 3.7-3.9 for more examples involving inverse trig functions and implicit differentiation.}
-          \stewarts{See section 3.5 for more examples involving inverse trig functions and implicit differentiation.}
-          } -->Use implicit differentiation to explain why the derivative of <m>y=\arcsin x</m> is <m>\ds y'=\frac{1}{\sqrt{1-x^2}}</m>.         
+          Use implicit differentiation to explain why the derivative of <m>y=\arcsin x</m> is <m>\ds y'=\frac{1}{\sqrt{1-x^2}}</m>.
         </p>
       </statement>
       <hint>
@@ -111,9 +106,23 @@
     <p>
       Each derivative rule from the front cover of your calculus text is also an integration rule. In addition to these basic rules, we'll need to know three integration techniques. They are
       <ol>
-        <li><p>{<m>u</m>}-substitution,</p></li>
-        <li><p>integration-by-parts, and</p></li>
-        <li><p>integration by using software.</p></li>
+        <li>
+          <p>
+            {<m>u</m>}-substitution,
+          </p>
+        </li>
+
+        <li>
+          <p>
+            integration-by-parts, and
+          </p>
+        </li>
+
+        <li>
+          <p>
+            integration by using software.
+          </p>
+        </li>
       </ol>
     </p>
 
@@ -123,12 +132,7 @@
 
     <exploration>
       <p>
-        <!-- \extrafn{
-        \thomasee{For practice with <m>u</m>-substitution, see section 5.5 and 5.6.  
-        For practice with integration by parts, see section 8.2.}
-        \stewarts{For practice with <m>u</m>-substitution, see sections 5.5. 
-        For practice with integration by parts, see section 7.1}
-        } -->Compute <m>\ds\int x\sqrt{x^2+4}dx</m>.
+        Compute <m>\ds\int x\sqrt{x^2+4}dx</m>.
       </p>
     </exploration>
 
@@ -151,3 +155,4 @@
     </exploration>
   </subsection>
 </section>
+

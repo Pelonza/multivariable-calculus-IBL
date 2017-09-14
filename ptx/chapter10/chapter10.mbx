@@ -1,4 +1,5 @@
 
+
 <chapter xmlns:xi="http://www.w3.org/2001/XInclude" >
   <title>Optimization</title>
   <introduction>
@@ -10,13 +11,11 @@
           In preparation for the quiz and exam, make sure you have a review packet containing examples that explain and illustrate the following concepts.
         </p>
       </aside>
-
       <aside>
         <p>
           In preparation for the quiz and exam, make sure you have a lesson plan containing examples that explain and illustrate the following concepts.
         </p>
       </aside>
-
       <ol>
         <li>
           <p>
@@ -51,7 +50,6 @@
           The following homework exercises line up with the topics we will discuss in class.
         </p>
       </aside>
-
     </p>
     <tabular>
       <row bottom="minor">
@@ -238,3 +236,4 @@
   <xi:include  href="section10-2.mbx" />
   <xi:include  href="section10-3.mbx" />
 </chapter>
+

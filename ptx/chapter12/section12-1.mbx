@@ -1,319 +1,319 @@
 
+
 <section>
   <title>Surface Area and Surface Integrals</title>
   <introduction>
-    <p>
-      After completing this section you will...
-      <ul>
-        <li>
-          <p>
-            Understand how to compute a little bit of surface area
-          </p>
-        </li>
+  <p>
+    After completing this section you will...
+    <ul>
+      <li>
+        <p>
+          Understand how to compute a little bit of surface area
+        </p>
+      </li>
 
-        <li>
-          <p>
-            Revisit parameterizing surfaces
-          </p>
-        </li>
+      <li>
+        <p>
+          Revisit parameterizing surfaces
+        </p>
+      </li>
 
-        <li>
-          <p>
-            Revisit finding vectors normal to a surface
-          </p>
-        </li>
-      </ul>
-    </p>
-    <p>
-      In first-semester calculus, we learned how to compute integrals of the form <m>\int_a^b f dx</m> along straight (flat) segments <m>[a,b]</m>. This semester, in the line integral unit, we learned how to change the segment to a curve, which allowed us to compute integrals of the form <m>\int_C fds</m> along any curve <m>C</m>, instead of just along curves (segments) on the <m>x</m>-axis.
-    </p>
+      <li>
+        <p>
+          Revisit finding vectors normal to a surface
+        </p>
+      </li>
+    </ul>
+  </p>
 
-    <p>
-      The integral <m>\int_a^b dx=b-a</m> gives the length of the segment <m>[a,b]</m>.
-    </p>
+  <p>
+    In first-semester calculus, we learned how to compute integrals of the form <m>\int_a^b f dx</m> along straight (flat) segments <m>[a,b]</m>. This semester, in the line integral unit, we learned how to change the segment to a curve, which allowed us to compute integrals of the form <m>\int_C fds</m> along any curve <m>C</m>, instead of just along curves (segments) on the <m>x</m>-axis.
+  </p>
 
-    <p>
-      The integral <m>\int_C ds</m> gives the length <m>s</m> of the curve <m>C</m>.
-    </p>
+  <p>
+    The integral <m>\int_a^b dx=b-a</m> gives the length of the segment <m>[a,b]</m>.
+  </p>
 
-    <p>
-      In the double integral unit we learned how to compute double integrals <m>\iint_R fdA</m> along flat regions <m>R</m> in the plane. In this unit we will now learn how to change the flat region <m>R</m> into a curved surface <m>S</m>, and then compute integrals of the form <m>\iint_S fd\sigma</m> along curved surfaces. The differential <m>d\sigma</m> stands for a little bit of surface area. We already know that <m>\iint_R dA</m> gives the area of <m>R</m>. We'll define <m>\iint_S d\sigma</m> so that it gives the surface area of <m>S</m>.
-    </p>
+  <p>
+    The integral <m>\int_C ds</m> gives the length <m>s</m> of the curve <m>C</m>.
+  </p>
 
-    <exploration>
+  <p>
+    In the double integral unit we learned how to compute double integrals <m>\iint_R fdA</m> along flat regions <m>R</m> in the plane. In this unit we will now learn how to change the flat region <m>R</m> into a curved surface <m>S</m>, and then compute integrals of the form <m>\iint_S fd\sigma</m> along curved surfaces. The differential <m>d\sigma</m> stands for a little bit of surface area. We already know that <m>\iint_R dA</m> gives the area of <m>R</m>. We'll define <m>\iint_S d\sigma</m> so that it gives the surface area of <m>S</m>.
+  </p>
+
+  <exploration>
+    <introduction>
       <p>
         Consider the surface <m>S</m> given by <m>z=9-x^2-y^2</m> (we've seen this surface many times). A parametrization of this surface is
         <me>
           \vec r(x,y) = (x,y,9-x^2-y^2).
         </me>
       </p>
-        <task>
-            <p>
-              Draw the surface <m>S</m>.
-            </p>
-        </task>
-
-        <task>
-            <p>
-              Add to your surface plot the parabolas given by <m>\vec r(x,0)</m>, <m>\vec r(x,1)</m>, and <m>\vec r(x,2)</m>, as well as the parabolas given by <m>\vec r(0,y)</m>, <m>\vec r(1,y)</m>, and <m>\vec r(2,y)</m>.
-            </p>
-        </task>
-
+    </introduction>
+    <task>
       <p>
-        You should have an upside down paraboloid, with at least 6 different parabolas drawn on the surface. These parabolas should divide the surface up into a bunch of different patches. Our goal is to find the area of each patch, where each patch is almost like a parallelogram.
+        Draw the surface <m>S</m>.
       </p>
-        
-      <task>
-          <p>
-            Find <m>\ds \frac{\partial \vec r}{\partial x}</m> and <m>\ds\frac{\partial \vec r}{\partial y}</m>.
-          </p>
-      </task>
-
-      <task>
-          <p>
-            At the point <m>(2,1)</m>, draw both vectors.
-          </p>
-      </task>
-
-      <task>
-          <p>
-            These vectors form the edges of a parallelogram. Add that parallelogram to your picture.
-          </p>
-      </task>
-
-      <task>
-          <p>
-            Show that the area of a parallelogram whose edges are the vectors <m>\ds\frac{\partial \vec r}{\partial x}(x,y)</m> and <m>\ds\frac{\partial \vec r}{\partial y}</m> is <m>\sqrt{1+4x^2+4y^2}</m>.
-            <hint>
-              <p>
-                What was one part of the definition/meanings for the cross product.
-              </p>
-            </hint>
-          </p>
-      </task>
-
-      <task>
-          <p>
-            Find the area of the parallelogram whose edges are the vectors <m>\ds\frac{\partial \vec r}{\partial x}dx</m> and <m>\ds\frac{\partial \vec r}{\partial y}dy</m>, where <m>dx</m> and <m>dy</m> are not yet determined.
-          </p>
-      </task>
-    </exploration>
-
+    </task>
+    <task>
+      <p>
+        Add to your surface plot the parabolas given by <m>\vec r(x,0)</m>, <m>\vec r(x,1)</m>, and <m>\vec r(x,2)</m>, as well as the parabolas given by <m>\vec r(0,y)</m>, <m>\vec r(1,y)</m>, and <m>\vec r(2,y)</m>.
+      </p>
+    </task>
     <p>
-      In the previous problem, you showed that the area of the parallelogram with edges given by <m>\frac{\partial \vec r}{\partial x}dx</m> and <m>\frac{\partial \vec r}{\partial y}dy</m> is
-      <me>
-        d\sigma =\left |\frac{\partial \vec r}{\partial x} \times \frac{\partial \vec r}{\partial y}\right| dxdy.
-      </me>
+      You should have an upside down paraboloid, with at least 6 different parabolas drawn on the surface. These parabolas should divide the surface up into a bunch of different patches. Our goal is to find the area of each patch, where each patch is almost like a parallelogram.
     </p>
-
-    <p>
-      This little bit of area approximates the area of a tiny patch on the surface. If we add all these areas up, we should obtain the surface area.
-    </p>
-
-    <definition>
+    <task>
+      <p>
+        Find <m>\ds \frac{\partial \vec r}{\partial x}</m> and <m>\ds\frac{\partial \vec r}{\partial y}</m>.
+      </p>
+    </task>
+    <task>
+      <p>
+        At the point <m>(2,1)</m>, draw both vectors.
+      </p>
+    </task>
+    <task>
+      <p>
+        These vectors form the edges of a parallelogram. Add that parallelogram to your picture.
+      </p>
+    </task>
+    <task>
       <statement>
         <p>
-          Let <m>S</m> be a surface. Let <m>\vec r(u,v)=(x,y,z)</m> be a parametrization of the surface, where the bounds on <m>u</m> and <m>v</m> form a region <m>R</m> in the <m>uv</m> plane. Then the surface area element (representing a little bit of surface) is
-          <me>
-            d\sigma =\left |\frac{\partial \vec r}{\partial u} \times \frac{\partial \vec r}{\partial v}\right| dudv = \left|\vec r_u\times\vec r_v\right|dudv.
-          </me>
-        </p>
-
-        <p>
-          The surface integral of a continuous function <m>f(x,y,z)</m> along the surface <m>S</m> is
-          <me>
-            \iint_S f(x,y,z) d\sigma = \iint_R f(\vec r(u,v)) \left |\frac{\partial \vec r}{\partial u} \times \frac{\partial \vec r}{\partial v}\right| dudv.
-          </me>
-        </p>
-
-        <p>
-          If we let <m>f=1</m>, then the surface area of <m>S</m> is simply
-          <me>
-            \sigma = \iint_S d\sigma = \iint_R \left |\frac{\partial \vec r}{\partial u} \times \frac{\partial \vec r}{\partial v}\right| dudv.
-          </me>
+          Show that the area of a parallelogram whose edges are the vectors <m>\ds\frac{\partial \vec r}{\partial x}(x,y)</m> and <m>\ds\frac{\partial \vec r}{\partial y}</m> is <m>\sqrt{1+4x^2+4y^2}</m>.
         </p>
       </statement>
-    </definition>
+      <hint>
+        <p>
+          What was one part of the definition/meanings for the cross product.
+        </p>
+      </hint>
+    </task>
+    <task>
+      <p>
+        Find the area of the parallelogram whose edges are the vectors <m>\ds\frac{\partial \vec r}{\partial x}dx</m> and <m>\ds\frac{\partial \vec r}{\partial y}dy</m>, where <m>dx</m> and <m>dy</m> are not yet determined.
+      </p>
+    </task>
+  </exploration>
 
-    <p>
-      This definition tells us how to compute any surface integral. The steps are almost identical to the line integral steps.
-      <ol>
-        <li>
-          <p>
-            Start by getting a parametrization <m>\vec r</m> of the surface <m>S</m> where the bounds form a region <m>R</m>.
-          </p>
-        </li>
+  <p>
+    In the previous problem, you showed that the area of the parallelogram with edges given by <m>\frac{\partial \vec r}{\partial x}dx</m> and <m>\frac{\partial \vec r}{\partial y}dy</m> is
+    <me>
+      d\sigma =\left |\frac{\partial \vec r}{\partial x} \times \frac{\partial \vec r}{\partial y}\right| dxdy.
+    </me>
+  </p>
 
-        <li>
-          <p>
-            Find a little bit of surface area by computing <m>d\sigma =\left |\frac{\partial \vec r}{\partial u} \times \frac{\partial \vec r}{\partial v}\right| dudv.</m>
-          </p>
-        </li>
+  <p>
+    This little bit of area approximates the area of a tiny patch on the surface. If we add all these areas up, we should obtain the surface area.
+  </p>
 
-        <li>
-          <p>
-            Multiply <m>f</m> by <m>d\sigma</m>, and replace each <m>x</m>, <m>y</m>, <m>z</m> with what they equals from the parametrization.
-          </p>
-        </li>
+  <definition>
+    <statement>
+      <p>
+        Let <m>S</m> be a surface. Let <m>\vec r(u,v)=(x,y,z)</m> be a parametrization of the surface, where the bounds on <m>u</m> and <m>v</m> form a region <m>R</m> in the <m>uv</m> plane. Then the surface area element (representing a little bit of surface) is
+        <me>
+          d\sigma =\left |\frac{\partial \vec r}{\partial u} \times \frac{\partial \vec r}{\partial v}\right| dudv = \left|\vec r_u\times\vec r_v\right|dudv.
+        </me>
+      </p>
 
-        <li>
-          <p>
-            Integrate the previous function along <m>R</m>, your parameterization's bounds.
-          </p>
-        </li>
-      </ol>
-    </p>
+      <p>
+        The surface integral of a continuous function <m>f(x,y,z)</m> along the surface <m>S</m> is
+        <me>
+          \iint_S f(x,y,z) d\sigma = \iint_R f(\vec r(u,v)) \left |\frac{\partial \vec r}{\partial u} \times \frac{\partial \vec r}{\partial v}\right| dudv.
+        </me>
+      </p>
 
-    <exploration>
+      <p>
+        If we let <m>f=1</m>, then the surface area of <m>S</m> is simply
+        <me>
+          \sigma = \iint_S d\sigma = \iint_R \left |\frac{\partial \vec r}{\partial u} \times \frac{\partial \vec r}{\partial v}\right| dudv.
+        </me>
+      </p>
+    </statement>
+  </definition>
+
+  <p>
+    This definition tells us how to compute any surface integral. The steps are almost identical to the line integral steps.
+    <ol>
+      <li>
+        <p>
+          Start by getting a parametrization <m>\vec r</m> of the surface <m>S</m> where the bounds form a region <m>R</m>.
+        </p>
+      </li>
+
+      <li>
+        <p>
+          Find a little bit of surface area by computing <m>d\sigma =\left |\frac{\partial \vec r}{\partial u} \times \frac{\partial \vec r}{\partial v}\right| dudv.</m>
+        </p>
+      </li>
+
+      <li>
+        <p>
+          Multiply <m>f</m> by <m>d\sigma</m>, and replace each <m>x</m>, <m>y</m>, <m>z</m> with what they equals from the parametrization.
+        </p>
+      </li>
+
+      <li>
+        <p>
+          Integrate the previous function along <m>R</m>, your parameterization's bounds.
+        </p>
+      </li>
+    </ol>
+  </p>
+
+  <exploration>
+    <introduction>
       <p>
         Consider the surface <m>S</m> given by <m>z=9-x^2-y^2</m>, for <m>z\geq 0</m>. A parametrization of this surface is
         <me>
           \vec r(x,y) = (x,y,9-x^2-y^2), \text{ where }  9-x^2-y^2\geq 0.
         </me>
       </p>
-        <task>
-            <p>
-              Give a set of inequalities for <m>x</m> and <m>y</m> that describe the region <m>R</m> over which we need to integrate. The inequalities you give should be in a form that you can use them as the bounds of a double integral.
-            </p>
-        </task>
+    </introduction>
+    <task>
+      <p>
+        Give a set of inequalities for <m>x</m> and <m>y</m> that describe the region <m>R</m> over which we need to integrate. The inequalities you give should be in a form that you can use them as the bounds of a double integral.
+      </p>
+    </task>
+    <task>
+      <p>
+        Find <m>d\sigma = \left|\vec r_x\times \vec r_y\right|dxdy</m>.
+      </p>
+    </task>
+    <task>
+      <p>
+        Set up the surface integral <m>\iint_S d\sigma</m> as an iterated double integral over <m>R</m>.
+      </p>
+    </task>
+    <task>
+      <p>
+        Convert the integral above to an integral in polar coordinates (don't forget the Jacobian).
+      </p>
+    </task>
+  </exploration>
 
-        <task>
-            <p>
-              Find <m>d\sigma = \left|\vec r_x\times \vec r_y\right|dxdy</m>.
-            </p>
-        </task>
-
-        <task>
-            <p>
-              Set up the surface integral <m>\iint_S d\sigma</m> as an iterated double integral over <m>R</m>.
-            </p>
-        </task>
-
-        <task>
-            <p>
-              Convert the integral above to an integral in polar coordinates (don't forget the Jacobian).
-            </p>
-        </task>
-    </exploration>
-
-    <exploration>
+  <exploration>
+    <introduction>
       <p>
         Consider the surface <m>S</m> given by <m>z=9-x^2-y^2</m>, for <m>z\geq 0</m>. A different parametrization of this surface is
         <me>
           \vec r(r,\theta) = (r\cos\theta,r\sin\theta,9-r^2), \text{ where }  9-r^2\geq 0.
         </me>
       </p>
-        <task>
-            <p>
-              Give a set of inequalities for <m>r</m> and <m>\theta</m> that describe the region <m>R_{r\theta}</m> over which we need to integrate. The inequalities you give should be in a form that you can use them as the bounds of a double integral.
-            </p>
-        </task>
-
-        <task>
-            <p>
-              Find <m>d\sigma = \left|\vec r_r\times \vec r_\theta \right|drd\theta</m>.
-            </p>
-        </task>
-
-        <task>
-            <p>
-              Set up the surface integral <m>\iint_S d\sigma</m> as an iterated double integral over <m>R_{r\theta}</m>.
-            </p>
-        </task>
-    </exploration>
-
-    <exploration>
+    </introduction>
+    <task>
       <p>
-        Find, that is actually compute, the surface area of the surface <m>S</m> given by <m>z=9-x^2-y^2</m>, for <m>z\geq 0</m>. Do this by computing any of the integrals from the previous two problems.
+        Give a set of inequalities for <m>r</m> and <m>\theta</m> that describe the region <m>R_{r\theta}</m> over which we need to integrate. The inequalities you give should be in a form that you can use them as the bounds of a double integral.
       </p>
-    </exploration>
+    </task>
+    <task>
+      <p>
+        Find <m>d\sigma = \left|\vec r_r\times \vec r_\theta \right|drd\theta</m>.
+      </p>
+    </task>
+    <task>
+      <p>
+        Set up the surface integral <m>\iint_S d\sigma</m> as an iterated double integral over <m>R_{r\theta}</m>.
+      </p>
+    </task>
+  </exploration>
 
-    <exploration>
-      <task>
-          <p>
-            If a surface <m>S</m> is parametrized by <m>\vec r(x,y) = (x,y,f(x,y))</m>, show that <m>d\sigma = \sqrt{1+f_x^2+f_y^2}\ dxdy</m> (compute a cross product).
-          </p>
-      </task>
+  <exploration>
+    <p>
+      Find, that is actually compute, the surface area of the surface <m>S</m> given by <m>z=9-x^2-y^2</m>, for <m>z\geq 0</m>. Do this by computing any of the integrals from the previous two problems.
+    </p>
+  </exploration>
 
-      <task>
-          <p>
-            If <m>\vec r(x,z) = (x,f(x,z),z)</m>, what does <m>d\sigma</m> equal (compute a cross product - you should see a pattern)?
-          </p>
-      </task>
+  <exploration>
+    <task>
+      <p>
+        If a surface <m>S</m> is parametrized by <m>\vec r(x,y) = (x,y,f(x,y))</m>, show that <m>d\sigma = \sqrt{1+f_x^2+f_y^2}\ dxdy</m> (compute a cross product).
+      </p>
+    </task>
+    <task>
+      <p>
+        If <m>\vec r(x,z) = (x,f(x,z),z)</m>, what does <m>d\sigma</m> equal (compute a cross product - you should see a pattern)?
+      </p>
+    </task>
+    <task>
+      <p>
+        Use the pattern you've discovered to quickly compute <m>d\sigma</m> for the surface <m>x=4-y^2-z^2</m>.
+      </p>
+    </task>
+    <task>
+      <p>
+        Set up an iterated double integral that would give the surface area of <m>S</m> for <m>x\geq 0</m>.
+      </p>
+    </task>
+  </exploration>
 
-      <task>
-          <p>
-            Use the pattern you've discovered to quickly compute <m>d\sigma</m> for the surface <m>x=4-y^2-z^2</m>.
-          </p>
-      </task>
-
-      <task>
-          <p>
-            Set up an iterated double integral that would give the surface area of <m>S</m> for <m>x\geq 0</m>.
-          </p>
-      </task>
-    </exploration>
-
-    <exploration xml:id="sphere_surface_area_element">
+  <exploration xml:id="sphere_surface_area_element">
+    <introduction>
       <p>
         Consider the sphere <m>x^2+y^2+z^2=a^2</m>. We'll find <m>d\sigma</m> using two different parameterizations.
       </p>
-      <task>
-          <p>
-            If you use the rectangular parametrization <m>\vec r(x,y) = (x,y,\sqrt{a^2-x^2-y^2})</m>, what is <m>d\sigma</m>? [Hint, use the previous problem.]
-          </p>
-      </task>
+    </introduction>
+    <task>
+      <p>
+        If you use the rectangular parametrization <m>\vec r(x,y) = (x,y,\sqrt{a^2-x^2-y^2})</m>, what is <m>d\sigma</m>? [Hint, use the previous problem.]
+      </p>
+    </task>
+    <task>
+      <p>
+        Why can this parametrization only be use if the surface has positive <m>z</m>-values?
+      </p>
+    </task>
+    <task>
+      <aside>
+        <p>
+          You'll want to memorize this result.
+        </p>
+      </aside>
+      <p>
+        If you use the spherical parametrization
+        <me>
+          \vec r(\phi,\theta) = (a\sin\phi\cos\theta,a\sin\phi\sin\theta,a\cos\phi),
+        </me>
+        show that
+        <me>
+          d\sigma = (a^2|\sin\phi|)d\phi d\theta= (a^2\sin\phi) d\phi d\theta,
+        </me>
+        where we can ignore the absolute values if we require <m>0\leq \phi\leq \pi</m>. Along the way, you'll show that
+        <me>
+          \vec r_\phi\times \vec r_\theta = a^2\sin \phi (\sin\phi\cos\theta,\sin\phi\sin\theta,\cos\phi).
+        </me>
+      </p>
+    </task>
+  </exploration>
 
-      <task>
-          <p>
-            Why can this parametrization only be use if the surface has positive <m>z</m>-values?
-          </p>
-      </task>
+  <p>
+    We can compute average value, centroids, center of mass, moments of inertia, and radii of gyration as before. We just replace <m>dA</m> with <m>d\sigma</m>, and all the formulas are the same.
+  </p>
 
-      <task>
-          <p>
-            <!-- \extrafn{You'll want to memorize this result.} -->If you use the spherical parametrization
-            <me>
-              \vec r(\phi,\theta) = (a\sin\phi\cos\theta,a\sin\phi\sin\theta,a\cos\phi),
-            </me>
-            show that
-            <me>
-              d\sigma = (a^2|\sin\phi|)d\phi d\theta= (a^2\sin\phi) d\phi d\theta,
-            </me>
-            where we can ignore the absolute values if we require <m>0\leq \phi\leq \pi</m>. Along the way, you'll show that
-            <me>
-              \vec r_\phi\times \vec r_\theta = a^2\sin \phi (\sin\phi\cos\theta,\sin\phi\sin\theta,\cos\phi).
-            </me>
-          </p>
-      </task>
-    </exploration>
-
-    <p>
-      We can compute average value, centroids, center of mass, moments of inertia, and radii of gyration as before. We just replace <m>dA</m> with <m>d\sigma</m>, and all the formulas are the same.
-    </p>
-
-    <exploration>
+  <exploration>
+    <introduction>
       <p>
         Consider the hemisphere <m>x^2+y^2+z^2=a^2</m> for <m>z\geq 0</m>.
       </p>
-        <task>
-            <p>
-              Set up a formula that would give <m>\bar z</m> for the centroid of the hemisphere. I suggest you use a spherical parametrization, as then the bounds are fairly simple, and we know <m>d\sigma = (a^2\sin\phi) d\phi d\theta</m> from the previous problem.
-            </p>
-        </task>
-
-        <task>
-            <p>
-              Compute the two integrals in your formula.
-            </p>
-        </task>
-
-        <task>
-            <p>
-              Set up an integral formula for <m>R_z</m>, the radius of gyration about the <m>z</m> axis, provided the density is constant.
-            </p>
-        </task>
-    </exploration>
+    </introduction>
+    <task>
+      <p>
+        Set up a formula that would give <m>\bar z</m> for the centroid of the hemisphere. I suggest you use a spherical parametrization, as then the bounds are fairly simple, and we know <m>d\sigma = (a^2\sin\phi) d\phi d\theta</m> from the previous problem.
+      </p>
+    </task>
+    <task>
+      <p>
+        Compute the two integrals in your formula.
+      </p>
+    </task>
+    <task>
+      <p>
+        Set up an integral formula for <m>R_z</m>, the radius of gyration about the <m>z</m> axis, provided the density is constant.
+      </p>
+    </task>
+  </exploration>
   </introduction>
 
   <subsection>
@@ -339,44 +339,44 @@
     </p>
 
     <exploration>
+      <introduction>
+        <p>
+          For both parts of this exercise, the computations involved were actually done in previous problems. You just need to compile the information here.
+        </p>
+
+        <p>
+          Consider again the surface <m>z=9-x^2-y^2</m>.
+        </p>
+      </introduction>
+      <task>
       <p>
-        For both parts of this exercise, the computations involved were actually done in previous problems. You just need to compile the information here.
-      </p>
-      <p>
-        Consider again the surface <m>z=9-x^2-y^2</m>.
+        Using the parametrization <m>\vec r(x,y) =(x,y,9-x^2-y^2)</m>
       </p>
       <task>
         <p>
-          Using the parametrization <m>\vec r(x,y) =(x,y,9-x^2-y^2)</m>
+          Find a unit normal vector <m>\vec n</m> to the surface so that <m>\vec n</m> points upwards away from the <m>z</m>-axis. Make sure you explain how you know the normal vector you give is pointing upwards away from the <m>z</m> axis.
         </p>
-        <task>
-            <p>
-              Find a unit normal vector <m>\vec n</m> to the surface so that <m>\vec n</m> points upwards away from the <m>z</m>-axis. Make sure you explain how you know the normal vector you give is pointing upwards away from the <m>z</m> axis.
-            </p>
-        </task>
-
-        <task>
-            <p>
-              State what <m>d\sigma</m> equals, as well as <m>\vec n d\sigma</m>.
-            </p>
-        </task>
       </task>
-
       <task>
         <p>
-          Using the parametrization <m>\vec r(r,\theta) =(r\cos \theta,r\sin\theta ,9-r^2)</m>
+          State what <m>d\sigma</m> equals, as well as <m>\vec n d\sigma</m>.
         </p>
-        <task>
-            <p>
-              Find a unit normal vector <m>\vec n</m> to the surface so that <m>\vec n</m> points downwards towards the <m>z</m>-axis. Make sure you explain how you know the normal vector you give is pointing downwards towards the <m>z</m> axis.
-            </p>
-        </task>
-
-        <task>
-            <p>
-              State what <m>d\sigma</m> equals, as well as <m>\vec n d\sigma</m>.
-            </p>
-        </task>
+      </task>
+      </task>
+      <task>
+      <p>
+        Using the parametrization <m>\vec r(r,\theta) =(r\cos \theta,r\sin\theta ,9-r^2)</m>
+      </p>
+      <task>
+        <p>
+          Find a unit normal vector <m>\vec n</m> to the surface so that <m>\vec n</m> points downwards towards the <m>z</m>-axis. Make sure you explain how you know the normal vector you give is pointing downwards towards the <m>z</m> axis.
+        </p>
+      </task>
+      <task>
+        <p>
+          State what <m>d\sigma</m> equals, as well as <m>\vec n d\sigma</m>.
+        </p>
+      </task>
       </task>
     </exploration>
 
@@ -401,35 +401,34 @@
     </exploration>
 
     <exploration>
-      <p>
-        Consider the cone <m>z^2=x^2+y^2</m> and vector field <m>\vec F = (2x+3y, x-2y, yz)</m>. We want to set up an iterated integral that would give the flux of <m>\vec F</m> outwards (away from the <m>z</m>-axis) for the portion of the cone between <m>z=1</m> and <m>z=3</m>.
-      </p>
-        <task>
-            <p>
-              Start by  parameterizing the cone by using a polar parametrization
-              <me>
-                x=r\cos\theta, y=r\sin\theta, z=?.
-              </me>
-            </p>
-        </task>
-
-        <task>
-            <p>
-              Next obtain bounds for <m>r</m> and <m>\theta</m> that are constants.
-            </p>
-        </task>
-
-        <task>
-            <p>
-              Compute the normal vector and look at the third component to determine if it points up or down.
-            </p>
-        </task>
-
-        <task>
-            <p>
-              Finally just plug everything into the formula.
-            </p>
-        </task>
+      <introduction>
+        <p>
+          Consider the cone <m>z^2=x^2+y^2</m> and vector field <m>\vec F = (2x+3y, x-2y, yz)</m>. We want to set up an iterated integral that would give the flux of <m>\vec F</m> outwards (away from the <m>z</m>-axis) for the portion of the cone between <m>z=1</m> and <m>z=3</m>.
+        </p>
+      </introduction>
+      <task>
+        <p>
+          Start by  parameterizing the cone by using a polar parametrization
+          <me>
+            x=r\cos\theta, y=r\sin\theta, z=?.
+          </me>
+        </p>
+      </task>
+      <task>
+        <p>
+          Next obtain bounds for <m>r</m> and <m>\theta</m> that are constants.
+        </p>
+      </task>
+      <task>
+        <p>
+          Compute the normal vector and look at the third component to determine if it points up or down.
+        </p>
+      </task>
+      <task>
+        <p>
+          Finally just plug everything into the formula.
+        </p>
+      </task>
     </exploration>
 
     <p>
@@ -574,3 +573,4 @@
     </exploration>
   </subsection>
 </section>
+

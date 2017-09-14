@@ -1,288 +1,311 @@
 
+
 <section>
   <title>Work, Flow, Circulation, and Flux</title>
   <introduction>
+  <ul>
+    <li>
+      <p>
+        Define and practice a more general calculation for Work
+      </p>
+    </li>
+
+    <li>
+      <p>
+        Practice applications of vector calculus
+      </p>
+    </li>
+  </ul>
+  <p>
+    Now that we can describe motion, let's turn our attention to the work done by a vector field as we move through the field. Work is a transfer of energy.
     <ul>
       <li>
         <p>
-          Define and practice a more general calculation for Work
+          A tornado picks might pick up a couch, and applies forces to the couch as the couch swirls around the center. Work transfers the energy from the tornado to then couch, giving the cough it's kinetic energy.
         </p>
       </li>
 
       <li>
         <p>
-          Practice applications of vector calculus
+          When an object falls, gravity does work on the object. The work done by gravity converts potential energy to kinetic energy.
+        </p>
+      </li>
+
+      <li>
+        <p>
+          If we consider the flow of water down a river, it's gravity that gives the water its kinetic energy. We can place a hydro electric dam next to river to capture a lot of this kinetic energy.  Work transfers the kinetic energy of the river to rotational energy of the turbine, which eventually ends up as electrical energy available in our homes.
         </p>
       </li>
     </ul>
-    <p>
-      Now that we can describe motion, let's turn our attention to the work done by a vector field as we move through the field. Work is a transfer of energy.
-      <ul>
-        <li>
-          <p>
-            A tornado picks might pick up a couch, and applies forces to the couch as the couch swirls around the center. Work transfers the energy from the tornado to then couch, giving the cough it's kinetic energy.
-          </p>
-        </li>
+  </p>
 
-        <li>
-          <p>
-            When an object falls, gravity does work on the object. The work done by gravity converts potential energy to kinetic energy.
-          </p>
-        </li>
+  <p>
+    When we study work, we are really studying how energy is transferred. This is one of the key components of modern life.
+  </p>
 
-        <li>
-          <p>
-            If we consider the flow of water down a river, it's gravity that gives the water its kinetic energy. We can place a hydro electric dam next to river to capture a lot of this kinetic energy.  Work transfers the kinetic energy of the river to rotational energy of the turbine, which eventually ends up as electrical energy available in our homes.
-          </p>
-        </li>
-      </ul>
-    </p>
+  <p>
+    Let's start with simple review. Recall that the work done by a vector field <m>\vec F</m> through a displacement <m>\vec d</m> is the dot product <m>\vec F\cdot \vec d</m>. We saw this in <xref ref="first_work_problem">Exercise</xref>.
+  </p>
 
-    <p>
-      When we study work, we are really studying how energy is transferred. This is one of the key components of modern life.
-    </p>
+  <review>
 
-    <p>
-      Let's start with simple review. Recall that the work done by a vector field <m>\vec F</m> through a displacement <m>\vec d</m> is the dot product <m>\vec F\cdot \vec d</m>. We saw this in <xref ref="first_work_problem">Exercise</xref>.
-    </p>
+  <p>
+    An object moves from <m>A=(6,0)</m> to <m>B=(0,3)</m>. Along the way, it encounters the constant force <m>\vec F = (2,5)</m>. How much work is done by <m>\vec F</m> as the object moves from <m>A</m> to <m>B</m>? See<fn>The displacement is <m>B-A=(-6,3)</m>. The work is <m>\vec F\cdot \vec d = (2,5)\cdot(-6,3) = -12+15=3</m>.</fn>.
+  </p>
 
-    <review>
+  </review>
 
-    <p>
-      An object moves from <m>A=(6,0)</m> to <m>B=(0,3)</m>. Along the way, it encounters the constant force <m>\vec F = (2,5)</m>. How much work is done by <m>\vec F</m> as the object moves from <m>A</m> to <m>B</m>? See<fn>The displacement is <m>B-A=(-6,3)</m>. The work is <m>\vec F\cdot \vec d = (2,5)\cdot(-6,3) = -12+15=3</m>.</fn>.
-    </p>
-
-    </review>
-
-    <exploration>
+  <exploration>
+    <introduction>
       <p>
         An object moves from <m>A=(6,0)</m> to <m>B=(0,3)</m>. A parametrization of the objects path is <m>\vec r(t) = (-6,3)t+(6,0)</m> for <m>0\leq t\leq 1</m>. We are going to investigate what happens under a non-constant force.
       </p>
-      <task>
-          <p>
-            For <m>0\leq t\leq .5</m>, what is the displacement vector <m>\vec{d}</m> from <m>\vec{r}(0) \rightarrow \vec{r}(0.5)</m>?
-
-            If the force encountered over this section is <m>\vec F = (2,5)</m> how much work is done?
-          </p>
-      </task>
-
-      <task>
-          <p>
-            For <m>.5\leq t\leq 1</m>, what is the displacement vector <m>\vec{d}</m> from <m>\vec{r}(0.5) \rightarrow \vec{r}(1)</m>?
-
-            If the force encountered over this section is <m>\vec F = (2,6)</m> how much work is done?
-          </p>
-      </task>
-
-      <task>
-          <p>
-            How much total work was done?
-          </p>
-      </task>
-
-      <task>
-        <p>
-          <!-- \extrafn{You can visualize what's happening in this exercise as follows.  Attach a clothesline between the points (maybe representing two trees in your backyard).  Put a cub scout space derby ship on the clothesline.  Then the wind starts to blow.  As the ship moves along the clothesline, the wind changes direction.} -->Suppose that the force constantly changes as we move along the curve. At <m>t</m>, we'll assume we encountered the force <m>F(t) = (2,5+2t)</m>.
-        </p>
-        <task>
-            <p>
-              Find <m>\ds W=\int \vec F\cdot d\vec r = \int_0^{0.5} (2,5+2t)\cdot (-6,3)dt.</m>
-              How does this compare to part (1)?
-            </p>
-        </task>
-
-        <task>
-            <p>
-              Find <m>\ds W=\int \vec F\cdot d\vec r = \int_0^1 (2,5+2t)\cdot (-6,3)dt.</m>
-              How does this compare to part (3)?
-            </p>
-        </task>
-      </task>
-
-      <task>
-          <p>
-            Explain why the total work done by this force along the path is 
-            <m>\ds W=\int \vec F\cdot d\vec r</m>. [What does <m>\vec{F} \cdot d\vec{r}</m> represent?]
-          </p>
-      </task>
-    </exploration>
-
-    <p>
-      We know how to compute work when we move along a straight line. Prior to <xref ref="first_work_problem">exercise</xref> on <xref ref="first_work_problem">page</xref>, we made the following statements.
-    </p>
-
-    <blockquote>
-      If a force <m>F</m> acts through a displacement <m>d</m>, then the most basic definition of work is <m>W=Fd</m>, the product of the force and the displacement.  This basic definition has a few assumptions.
-      <ul>
-        <li>
-          <p>
-            The force <m>F</m> must act in the same direction as the displacement.
-          </p>
-        </li>
-
-        <li>
-          <p>
-            The force <m>F</m> must be constant throughout the  displacement.
-          </p>
-        </li>
-
-        <li>
-          <p>
-            The displacement must be in a straight line.
-          </p>
-        </li>
-      </ul>
-    </blockquote>
-
-    <p>
-      We used the dot product to remove the first assumption, and we showed in <xref ref="first_work_problem">exercise</xref> that the work is simply the dot product
-      <me>
-        W=\vec F\cdot \vec r,
-      </me>
-      where <m>\vec F</m> is a force acting through a displacement <m>\vec r</m>. The previous exercise showed that we can remove the assumption that <m>\vec F</m> is constant, by integrating to obtain
-      <me>
-        W=\int \vec F \cdot d\vec r = \int_a^b F\cdot \frac{d\vec r}{dt}dt,
-      </me>
-      provided we have a parametrization of <m>\vec r</m> with <m>a\leq t\leq b</m>. The next exercise gets rid of the assumption that <m>\vec r</m> is a straight line.
-    </p>
-
-    <exploration>
+    </introduction>
+    <task>
       <p>
-        <!-- \extrafn{<url href="http://www.youtube.com/watch?v=9TGZIIpEaHw&amp;list=PL04DF68E73B7ECD54&amp;index=2&amp;feature=plpp_video">Watch a YouTube video</url> about work.} -->Suppose that we move along the circle <m>\vec r(t) = (3\cos t,3\sin t)</m>. As we move along this circle, we encounter a rotation force <m>\vec F(x,y) = (-2y,2x)</m>.
+        For <m>0\leq t\leq .5</m>, what is the displacement vector <m>\vec{d}</m> from <m>\vec{r}(0) \rightarrow \vec{r}(0.5)</m>?
+
+        If the force encountered over this section is <m>\vec F = (2,5)</m> how much work is done?
       </p>
-        <task>
-            <p>
-              Draw the curve <m>\vec r(t)</m>. Then at several points on the curve, draw the vector field <m>\vec F(x,y)</m>.  For example, at the point <m>(3,0)</m> you should have the vector <m>\vec F(3,0)=(-2(0),2(3))=(0,6)</m>, a vector sticking straight up 6 units. Are we moving with the vector field, or against the vector field?
-            </p>
-        </task>
+    </task>
+    <task>
+      <p>
+        For <m>.5\leq t\leq 1</m>, what is the displacement vector <m>\vec{d}</m> from <m>\vec{r}(0.5) \rightarrow \vec{r}(1)</m>?
 
-        <task>
-            <p>
-              Explain why we can state that a little bit of work done over a small displacement is <m>dW = \vec F\cdot d\vec r</m>. Why does it not matter that <m>\vec r</m> moves in a straight line?
-            </p>
-        </task>
-
-        <task>
-            <p>
-              Explain why the work done by <m>\vec F</m> along the circle <m>C</m>  <!-- \extrafn{We put the <m>C</m> under the integral <m>\int_C</m> to remind us that we are integrating along the curve <m>C</m>.  This means we need to get a parametrization of the curve <m>C</m>, and give bounds before we can integrate with respect to <m>t</m>.} -->is
-              <me>
-                W = \int_C\left(-2y,2x\right)\cdot d\vec r
-                = \int_0^{2\pi}\left(-2(3\sin t),2(3\cos t)\right)\cdot(-3\sin t, 3\cos t)dt.
-              </me>
-              Then integrate to show that the work done by <m>\vec F</m> along this circle is <m>36\pi</m>.
-            </p>
-        </task>
-    </exploration>
-
+        If the force encountered over this section is <m>\vec F = (2,6)</m> how much work is done?
+      </p>
+    </task>
+    <task>
+      <p>
+        How much total work was done?
+      </p>
+    </task>
+    <task>
+    <aside>
+      <p>
+        You can visualize what's happening in this exercise as follows.  Attach a clothesline between the points (maybe representing two trees in your backyard).  Put a cub scout space derby ship on the clothesline.  Then the wind starts to blow.  As the ship moves along the clothesline, the wind changes direction.
+      </p>
+    </aside>
     <p>
-      It's time for a definition.
+      Suppose that the force constantly changes as we move along the curve. At <m>t</m>, we'll assume we encountered the force <m>F(t) = (2,5+2t)</m>.
     </p>
+    <task>
+      <p>
+        Find <m>\ds W=\int \vec F\cdot d\vec r = \int_0^{0.5} (2,5+2t)\cdot (-6,3)dt.</m>
+        How does this compare to part (1)?
+      </p>
+    </task>
+    <task>
+      <p>
+        Find <m>\ds W=\int \vec F\cdot d\vec r = \int_0^1 (2,5+2t)\cdot (-6,3)dt.</m>
+        How does this compare to part (3)?
+      </p>
+    </task>
+    </task>
+    <task>
+      <p>
+        Explain why the total work done by this force along the path is 
+        <m>\ds W=\int \vec F\cdot d\vec r</m>. [What does <m>\vec{F} \cdot d\vec{r}</m> represent?]
+      </p>
+    </task>
+  </exploration>
 
-    <definition>
+  <p>
+    We know how to compute work when we move along a straight line. Prior to <xref ref="first_work_problem">exercise</xref> on <xref ref="first_work_problem">page</xref>, we made the following statements.
+  </p>
+
+  <blockquote>
+  If a force <m>F</m> acts through a displacement <m>d</m>, then the most basic definition of work is <m>W=Fd</m>, the product of the force and the displacement.  This basic definition has a few assumptions.
+  <ul>
+    <li>
+      <p>
+        The force <m>F</m> must act in the same direction as the displacement.
+      </p>
+    </li>
+
+    <li>
+      <p>
+        The force <m>F</m> must be constant throughout the  displacement.
+      </p>
+    </li>
+
+    <li>
+      <p>
+        The displacement must be in a straight line.
+      </p>
+    </li>
+  </ul>
+  </blockquote>
+
+  <p>
+    We used the dot product to remove the first assumption, and we showed in <xref ref="first_work_problem">exercise</xref> that the work is simply the dot product
+    <me>
+      W=\vec F\cdot \vec r,
+    </me>
+    where <m>\vec F</m> is a force acting through a displacement <m>\vec r</m>. The previous exercise showed that we can remove the assumption that <m>\vec F</m> is constant, by integrating to obtain
+    <me>
+      W=\int \vec F \cdot d\vec r = \int_a^b F\cdot \frac{d\vec r}{dt}dt,
+    </me>
+    provided we have a parametrization of <m>\vec r</m> with <m>a\leq t\leq b</m>. The next exercise gets rid of the assumption that <m>\vec r</m> is a straight line.
+  </p>
+
+  <exploration>
+    <introduction>
+      <p>
+        Suppose that we move along the circle <m>\vec r(t) = (3\cos t,3\sin t)</m>. As we move along this circle, we encounter a rotation force <m>\vec F(x,y) = (-2y,2x)</m>.
+      </p>
+
+      <aside>
+        <p>
+          <url href="http://www.youtube.com/watch?v=9TGZIIpEaHw&amp;list=PL04DF68E73B7ECD54&amp;index=2&amp;feature=plpp_video">Watch a YouTube video</url> about work.
+        </p>
+      </aside>
+    </introduction>
+    <task>
+      <p>
+        Draw the curve <m>\vec r(t)</m>. Then at several points on the curve, draw the vector field <m>\vec F(x,y)</m>.  For example, at the point <m>(3,0)</m> you should have the vector <m>\vec F(3,0)=(-2(0),2(3))=(0,6)</m>, a vector sticking straight up 6 units. Are we moving with the vector field, or against the vector field?
+      </p>
+    </task>
+    <task>
+      <p>
+        Explain why we can state that a little bit of work done over a small displacement is <m>dW = \vec F\cdot d\vec r</m>. Why does it not matter that <m>\vec r</m> moves in a straight line?
+      </p>
+    </task>
+    <task>
+      <aside>
+        <p>
+          We put the <m>C</m> under the integral <m>\int_C</m> to remind us that we are integrating along the curve <m>C</m>.  This means we need to get a parametrization of the curve <m>C</m>, and give bounds before we can integrate with respect to <m>t</m>.
+        </p>
+      </aside>
+      <p>
+        Explain why the work done by <m>\vec F</m> along the circle <m>C</m>  is
+        <me>
+          W = \int_C\left(-2y,2x\right)\cdot d\vec r
+          = \int_0^{2\pi}\left(-2(3\sin t),2(3\cos t)\right)\cdot(-3\sin t, 3\cos t)dt.
+        </me>
+        Then integrate to show that the work done by <m>\vec F</m> along this circle is <m>36\pi</m>.
+      </p>
+    </task>
+  </exploration>
+
+  <p>
+    It's time for a definition.
+  </p>
+
+  <definition>
+    <statement>
+      <p>
+        The work done by a vector field <m>\vec F</m>, along a curve <m>C</m> with parametrization <m>\vec r(t)</m> for <m>a\leq t\leq b</m> is
+        <me>
+          W = \int_C \vec F\cdot d\vec r= \int_a^b \vec F\cdot \frac{d\vec r}{dt}dt.
+        </me>
+      </p>
+
+      <p>
+        If we let <m>\vec F = (M,N)</m> and we let <m>\vec r(t)=(x,y)</m>, so that <m>d\vec r = (dx,dy)</m>,
+        then we can write work in the differential form
+        <me>
+          W = \int_C \vec F\cdot d\vec r= \int_C (M,N)\cdot (dx,dy) = \int_C Mdx+Ndy.
+        </me>
+      </p>
+    </statement>
+  </definition>
+
+  <review>
+
+  <p>
+    Consider the curve <m>y=3x^2-5x</m> for <m>-2\leq x\leq 1</m>. Give a parametrization of this curve. See<fn>Whenever you have a function of the form <m>y=f(x)</m>, you can always use <m>x=t</m> and <m>y=f(t)</m> to parametrize the curve.  So we can use <m>\vec r(t) = (t, 3t^2-5t)</m> for <m>-2\leq t\leq 1</m> as a parametrization.</fn>.
+  </p>
+
+  </review>
+
+  <exploration>
+    <introduction>
+      <p>
+        Consider the parabolic curve <m>y=4-x^2</m> for <m>-1\leq x\leq 2</m>, and the vector field <m>\vec F(x,y) = (2x+y,-x)</m>.
+      </p>
+
+      <aside>
+        <p>
+          Please use this <url href="\sageworkurl">Sage link</url> to check your work.
+        </p>
+      </aside>
+    </introduction>
+    <task>
+      <p>
+        Give a parametrization <m>\vec r(t)</m> of the parabolic curve that starts at <m>(-1,3)</m> and ends at <m>(2,0)</m>.  See the review exercise above if you need a hint.
+      </p>
+    </task>
+    <task>
+      <p>
+        Compute <m>d\vec r</m> and state <m>dx</m> and <m>dy</m>.
+      </p>
+    </task>
+    <task>
       <statement>
         <p>
-          The work done by a vector field <m>\vec F</m>, along a curve <m>C</m> with parametrization <m>\vec r(t)</m> for <m>a\leq t\leq b</m> is
-          <me>
-            W = \int_C \vec F\cdot d\vec r= \int_a^b \vec F\cdot \frac{d\vec r}{dt}dt.
-          </me>
-        </p>
-
-        <p>
-          If we let <m>\vec F = (M,N)</m> and we let <m>\vec r(t)=(x,y)</m>, so that <m>d\vec r = (dx,dy)</m>,
-          then we can write work in the differential form
-          <me>
-            W = \int_C \vec F\cdot d\vec r= \int_C (M,N)\cdot (dx,dy) = \int_C Mdx+Ndy.
-          </me>
+          What are <m>M</m> and <m>N</m> in terms of <m>t</m>?
         </p>
       </statement>
-    </definition>
-
-    <review>
-
-    <p>
-      Consider the curve <m>y=3x^2-5x</m> for <m>-2\leq x\leq 1</m>. Give a parametrization of this curve. See<fn>Whenever you have a function of the form <m>y=f(x)</m>, you can always use <m>x=t</m> and <m>y=f(t)</m> to parametrize the curve.  So we can use <m>\vec r(t) = (t, 3t^2-5t)</m> for <m>-2\leq t\leq 1</m> as a parametrization.</fn>.
-    </p>
-
-    </review>
-
-    <exploration>
+      <hint>
+        <p>
+          Use <m>\vec r (t)</m> and substitution
+        </p>
+      </hint>
+    </task>
+    <task>
       <p>
-        <!-- \extrafn{Please use this <url href="\sageworkurl">Sage link</url> to check your work.} -->Consider the parabolic curve <m>y=4-x^2</m> for <m>-1\leq x\leq 2</m>, and the vector field <m>\vec F(x,y) = (2x+y,-x)</m>.
+        Compute the work done by <m>\vec F</m> to move an object along the parabola from <m>(-1,3)</m> to <m>(2,0)</m> (i.e. compute <m>\int _C Mdx+Ndy</m>). Check your answer with <url href="\sageworkurl">Sage</url>.
       </p>
-        <task>
-            <p>
-              Give a parametrization <m>\vec r(t)</m> of the parabolic curve that starts at <m>(-1,3)</m> and ends at <m>(2,0)</m>.  See the review exercise above if you need a hint.
-            </p>
-        </task>
+    </task>
+    <task>
+      <p>
+        How much work is done by <m>\vec F</m> to move an object along the parabola from <m>(2,0)</m> to <m>(-1,3)</m>.
+      </p>
+    </task>
+    <task>
+      <p>
+        In general, if you traverse along a path backwards, how much work is done?
+      </p>
+    </task>
+  </exploration>
 
-        <task>
-            <p>
-              Compute <m>d\vec r</m> and state <m>dx</m> and <m>dy</m>.
-            </p>
-        </task>
-
-        <task>
-            <p>
-              What are <m>M</m> and <m>N</m> in terms of <m>t</m>?
-              <hint>
-                <p>
-                  Use <m>\vec r (t)</m> and substitution
-                </p>
-              </hint>
-            </p>
-        </task>
-
-        <task>
-            <p>
-              Compute the work done by <m>\vec F</m> to move an object along the parabola from <m>(-1,3)</m> to <m>(2,0)</m> (i.e. compute <m>\int _C Mdx+Ndy</m>). Check your answer with <url href="\sageworkurl">Sage</url>.
-            </p>
-        </task>
-
-        <task>
-            <p>
-              How much work is done by <m>\vec F</m> to move an object along the parabola from <m>(2,0)</m> to <m>(-1,3)</m>.
-            </p>
-        </task>
-
-        <task>
-            <p>
-              In general, if you traverse along a path backwards, how much work is done?
-            </p>
-        </task>
-    </exploration>
-
-    <exploration>
+  <exploration>
+    <introduction>
       <p>
         Again consider the vector field <m>\vec F(x,y) = (2x+y,-x)</m>. In the previous exercise we considered how much work was done by <m>\vec F</m> as an object moved along the the parabolic curve <m>y=4-x^2</m> for <m>-1\leq x\leq 2</m>. We now want to know how much work is done to move an object along a straight line from <m>(-1,3)</m> to <m>(2,0)</m>.
       </p>
-        <task>
-            <p>
-              Give a parametrization <m>\vec r(t)</m> of the straight line curve that starts at <m>(-1,3)</m> and ends at <m>(2,0)</m>. The opening exercise of this chapter shows you the key to parameterizing a straight line segment.  Make sure you give bounds for <m>t</m>.
-            </p>
-        </task>
+    </introduction>
+    <task>
+      <p>
+        Give a parametrization <m>\vec r(t)</m> of the straight line curve that starts at <m>(-1,3)</m> and ends at <m>(2,0)</m>. The opening exercise of this chapter shows you the key to parameterizing a straight line segment.  Make sure you give bounds for <m>t</m>.
+      </p>
+    </task>
+    <task>
+      <p>
+        Compute <m>d\vec r</m> and state <m>dx</m> and <m>dy</m>. What are <m>M</m> and <m>N</m> in terms of <m>t</m>?
+      </p>
+    </task>
+    <task>
+      <aside>
+        <p>
+          When you enter your curve in Sage, remember to type the times symbol in <q>(3*t-1, ...)</q>.  Otherwise, you'll get an error.
+        </p>
+      </aside>
+      <p>
+        Compute the work done by <m>\vec F</m> to move an object along the straight line path from <m>(-1,3)</m> to <m>(2,0)</m>. Check your answer with <url href="\sageworkurl">Sage</url>.
+      </p>
+    </task>
+    <task>
+      <p>
+        Optional (we'll discuss this in class if you don't have it).  How much work does it take to go along the closed path that starts at <m>(2,0)</m>, follows the parabola <m>y=4-x^2</m> to <m>(-3,1)</m>, and then returns to <m>(2,0)</m> along a straight line. Show that this total work is <m>W=-9</m>.
+      </p>
+    </task>
+  </exploration>
 
-        <task>
-            <p>
-              Compute <m>d\vec r</m> and state <m>dx</m> and <m>dy</m>. What are <m>M</m> and <m>N</m> in terms of <m>t</m>?
-            </p>
-        </task>
-
-        <task>
-            <p>
-              Compute the work done by <m>\vec F</m> to move an object along the straight line path from <m>(-1,3)</m> to <m>(2,0)</m>. Check your answer with <url href="\sageworkurl">Sage</url>.  <!-- \extrafn{When you enter your curve in Sage, remember to type the times symbol in <q>(3*t-1, ...)</q>.  Otherwise, you'll get an error.} -->
-            </p>
-        </task>
-
-        <task>
-            <p>
-              Optional (we'll discuss this in class if you don't have it).  How much work does it take to go along the closed path that starts at <m>(2,0)</m>, follows the parabola <m>y=4-x^2</m> to <m>(-3,1)</m>, and then returns to <m>(2,0)</m> along a straight line. Show that this total work is <m>W=-9</m>.
-            </p>
-        </task>
-    </exploration>
-
-    <p>
-      The examples above showed us that we can compute work along any closed curve. All we have to do is parametrize the curve, take a derivative, and then compute <m>dW = \vec F \cdot d\vec r</m>. This gives us a little bit of work along a curve, and we sum up the little bits of work (integrate) to find the total work.
-    </p>
+  <p>
+    The examples above showed us that we can compute work along any closed curve. All we have to do is parametrize the curve, take a derivative, and then compute <m>dW = \vec F \cdot d\vec r</m>. This gives us a little bit of work along a curve, and we sum up the little bits of work (integrate) to find the total work.
+  </p>
   </introduction>
 
   <subsection>
@@ -313,93 +336,110 @@
     </review>
 
     <exploration>
-      <p>
-        We used the formulas
-        <me>
-          W = \int_C \vec F\cdot d\vec r  = \int_C (M,N)\cdot(dx,dy)
-        </me>
-        to compute the work done by <m>\vec F</m> along a curve <m>C</m> parametrized by <m>\vec r = (x,y)</m>.
-      </p>
-        <task>
-            <p>
-              Explain why <m>W = \int_C \vec F\cdot \vec T ds</m>. [Why does <m>\vec T ds = d\vec r</m>?  Look up <m>\vec T</m> in the last chapter.]
-              <!-- \extrafn{Watch a 
-              <url href="http://www.youtube.com/watch?v=6WcN36FbeWc&amp;list=PL04DF68E73B7ECD54">YouTube video</url> about flow and circulation.
-              } -->
-            </p>
-        </task>
-
-        <task>
-            <p>
-              Show that <m>\vec F\cdot \vec T</m> is the projection of <m>\vec F</m> onto the vector <m>T</m> (the amount of work in the tangential direction). [Just write down the formula for a projection.  How long is <m>\vec T</m>?  This should be really fast.]
-            </p>
-        </task>
-
-        <task>
-            <p>
-              <!-- \extrafn{Watch a  <url href="http://www.youtube.com/watch?v=5DNdI72XEYY&amp;list=PL04DF68E73B7ECD54&amp;index=4&amp;feature=plpp_video">YouTube video</url> about flux.
-              } -->We know that <m>\vec T = \dfrac{(dx, dy)}{\sqrt{(dx)^2+(dy)^2}}</m>.  Suppose <m>\vec n</m> is a unit normal vector to the curve. Give two options for <m>\vec n</m>.
-              <hint>
-                <p>
-                  Look at the review exercise.
-                </p>
-              </hint>
-            </p>
-        </task>
-
-        <task>
-            <p>
-              We know  <m>\vec T ds = (dx,dy)</m>. Why does <m>\vec n ds</m> equal <m>(dy,-dx)</m> or <m>(-dy,dx)</m>?
-            </p>
-        </task>
-
-        <task>
-            <p>
-              The integral <m>W = \int_C \vec F\cdot \vec T ds</m> measures how much of the vector field flows along the curve.  What does the integral <m>\Phi = \int_C \vec F\cdot \vec n ds</m> measure?
-            </p>
-        </task>
+      <introduction>
+        <p>
+          We used the formulas
+          <me>
+            W = \int_C \vec F\cdot d\vec r  = \int_C (M,N)\cdot(dx,dy)
+          </me>
+          to compute the work done by <m>\vec F</m> along a curve <m>C</m> parametrized by <m>\vec r = (x,y)</m>.
+        </p>
+      </introduction>
+      <task>
+        <aside>
+          <p>
+            Watch a 
+            <url href="http://www.youtube.com/watch?v=6WcN36FbeWc&amp;list=PL04DF68E73B7ECD54">YouTube video</url> about flow and circulation.
+          </p>
+        </aside>
+        <p>
+          Explain why <m>W = \int_C \vec F\cdot \vec T ds</m>. [Why does <m>\vec T ds = d\vec r</m>?  Look up <m>\vec T</m> in the last chapter.]
+        </p>
+      </task>
+      <task>
+        <p>
+          Show that <m>\vec F\cdot \vec T</m> is the projection of <m>\vec F</m> onto the vector <m>T</m> (the amount of work in the tangential direction). [Just write down the formula for a projection.  How long is <m>\vec T</m>?  This should be really fast.]
+        </p>
+      </task>
+      <task>
+        <statement>
+          <p>
+            We know that <m>\vec T = \dfrac{(dx, dy)}{\sqrt{(dx)^2+(dy)^2}}</m>.  Suppose <m>\vec n</m> is a unit normal vector to the curve. Give two options for <m>\vec n</m>.
+          </p>
+        </statement>
+        <aside>
+          <p>
+            Watch a  <url href="http://www.youtube.com/watch?v=5DNdI72XEYY&amp;list=PL04DF68E73B7ECD54&amp;index=4&amp;feature=plpp_video">YouTube video</url> about flux.
+          </p>
+        </aside>
+        <hint>
+          <p>
+            Look at the review exercise.
+          </p>
+        </hint>
+      </task>
+      <task>
+        <p>
+          We know  <m>\vec T ds = (dx,dy)</m>. Why does <m>\vec n ds</m> equal <m>(dy,-dx)</m> or <m>(-dy,dx)</m>?
+        </p>
+      </task>
+      <task>
+        <p>
+          The integral <m>W = \int_C \vec F\cdot \vec T ds</m> measures how much of the vector field flows along the curve.  What does the integral <m>\Phi = \int_C \vec F\cdot \vec n ds</m> measure?
+        </p>
+      </task>
     </exploration>
 
     <exploration>
       <title>Intro to Flux</title>
-      <p>
-        Consider the curve <m>\vec r(t) = (5\cos t, 5\sin t)</m>, and the vector field <m>\vec F(x,y) = (3x, 3y)</m>. This is a radial field that pushes things straight outwards (away from the origin).
-      </p>
-        <task>
-            <p>
-              Sketch a picture of the curve and vector field. Feel free to use Sage or WolframAlpha to help visualize it.
-            </p>
-        </task>
-
-        <task>
-            <p>
-              Compute the work <m>\ds W= \int_C (M,N)\cdot (dx,dy)</m> and show that is equals zero. (Can you give a reason why it should be zero?)  <!-- \extrafn{See <url href="\sageworkurl">Sage</url> for the work calculation.} -->
-            </p>
-        </task>
-
-        <task>
-            <p>
-              To get a normal vector, we could change <m>(dx,dy)</m> to <m>(dy,-dx)</m> or to <m>(-dy,dx)</m>. Compute both 
-              <m>\ds \int_C (M,N)\cdot (dy,-dx)</m> and <m>\ds \int_C (M,N)\cdot (-dy,dx)</m>. (They should differ by a sign.) Both integrals measure the flow of the field across the curve, instead of along the curve.
-            </p>
-        </task>
-
-        <task>
-            <p>
-              If we want flux to measure the flow of a vector field outwards across a curve, then the flux of this vector field should be positive.  Which vector, <m>(dy,-dx)</m> or <m>(-dy,dx)</m>,  should we choose above for <m>n</m>.  <!-- \extrafn{See <url href="\sagefluxurl">Sage</url> for the flux computation} -->
-            </p>
-        </task>
-
-        <task>
-            <p>
-              (Challenge, we'll discuss in class.) Suppose <m>\vec r</m> is a counterclockwise parametrization of a closed curve.  The outward normal vector would always point to the right as you move along the curve.  Prove that <m>(dy,-dx)</m> always points to the right of the curve.
-              <hint>
-                <p>
-                  If you want a right pointing vector, what should <m>\vec B=\vec T\times \vec n</m> always equal (either <m>(0,0,1)</m> or <m>(0,0,-1)</m>). Use the fact that <m>\vec B\times \vec T = \vec n</m> to get <m>\vec n</m>.
-                </p>
-              </hint>
-            </p>
-        </task>
+      <introduction>
+        <p>
+          Consider the curve <m>\vec r(t) = (5\cos t, 5\sin t)</m>, and the vector field <m>\vec F(x,y) = (3x, 3y)</m>. This is a radial field that pushes things straight outwards (away from the origin).
+        </p>
+      </introduction>
+      <task>
+        <p>
+          Sketch a picture of the curve and vector field. Feel free to use Sage or WolframAlpha to help visualize it.
+        </p>
+      </task>
+      <task>
+        <aside>
+          <p>
+            See <url href="\sageworkurl">Sage</url> for the work calculation.
+          </p>
+        </aside>
+        <p>
+          Compute the work <m>\ds W= \int_C (M,N)\cdot (dx,dy)</m> and show that is equals zero. (Can you give a reason why it should be zero?)
+        </p>
+      </task>
+      <task>
+        <p>
+          To get a normal vector, we could change <m>(dx,dy)</m> to <m>(dy,-dx)</m> or to <m>(-dy,dx)</m>. Compute both 
+          <m>\ds \int_C (M,N)\cdot (dy,-dx)</m> and <m>\ds \int_C (M,N)\cdot (-dy,dx)</m>. (They should differ by a sign.) Both integrals measure the flow of the field across the curve, instead of along the curve.
+        </p>
+      </task>
+      <task>
+        <aside>
+          <p>
+            See <url href="\sagefluxurl">Sage</url> for the flux computation
+          </p>
+        </aside>
+        <p>
+          If we want flux to measure the flow of a vector field outwards across a curve, then the flux of this vector field should be positive.  Which vector, <m>(dy,-dx)</m> or <m>(-dy,dx)</m>,  should we choose above for <m>n</m>.
+        </p>
+      </task>
+      <task>
+        <statement>
+          <p>
+            (Challenge, we'll discuss in class.) Suppose <m>\vec r</m> is a counterclockwise parametrization of a closed curve.  The outward normal vector would always point to the right as you move along the curve.  Prove that <m>(dy,-dx)</m> always points to the right of the curve.
+          </p>
+        </statement>
+        <hint>
+          <p>
+            If you want a right pointing vector, what should <m>\vec B=\vec T\times \vec n</m> always equal (either <m>(0,0,1)</m> or <m>(0,0,-1)</m>). Use the fact that <m>\vec B\times \vec T = \vec n</m> to get <m>\vec n</m>.
+          </p>
+        </hint>
+      </task>
     </exploration>
 
     <definition>
@@ -466,66 +506,66 @@
     </definition>
 
     <exploration>
-      <p>
-        <!-- \extrafn{If you haven't yet, please watch the YouTube videos for
-        <ul>
-        <task>
-            <p>
-              <url href="http://www.youtube.com/watch?v=9TGZIIpEaHw&amp;list=PL04DF68E73B7ECD54&amp;index=2&amp;feature=plpp_video">work</url>,
-            </p>
-        </task>
+      <introduction>
+        <p>
+          Consider the vector field <m>\vec F(x,y) = (2x+y,-x+2y)</m>.
+        </p>
 
-        <task>
-            <p>
-              <url href="http://www.youtube.com/watch?v=6WcN36FbeWc&amp;list=PL04DF68E73B7ECD54">flow and circulation</url>, and
-            </p>
-        </task>
-
-        <task>
-            <p>
-              <url href="http://www.youtube.com/watch?v=5DNdI72XEYY&amp;list=PL04DF68E73B7ECD54&amp;index=4&amp;feature=plpp_video">flux</url>.
-            </p>
-        </task>
-        </ul>
-        } -->Consider the vector field <m>\vec F(x,y) = (2x+y,-x+2y)</m>.
-      </p>
-      <task>
+        <aside>
           <p>
-            Use Sage or WolframAlpha to construct a plot of <m>\vec F</m>.
+            If you haven't yet, please watch the YouTube videos for
+            <ul>
+              <task>
+                <p>
+                  <url href="http://www.youtube.com/watch?v=9TGZIIpEaHw&amp;list=PL04DF68E73B7ECD54&amp;index=2&amp;feature=plpp_video">work</url>,
+                </p>
+              </task>
+              <task>
+                <p>
+                  <url href="http://www.youtube.com/watch?v=6WcN36FbeWc&amp;list=PL04DF68E73B7ECD54">flow and circulation</url>, and
+                </p>
+              </task>
+              <task>
+                <p>
+                  <url href="http://www.youtube.com/watch?v=5DNdI72XEYY&amp;list=PL04DF68E73B7ECD54&amp;index=4&amp;feature=plpp_video">flux</url>.
+                </p>
+              </task>
+            </ul>
           </p>
+        </aside>
+      </introduction>
+      <task>
+        <p>
+          Use Sage or WolframAlpha to construct a plot of <m>\vec F</m>.
+        </p>
       </task>
-
       <p>
         When you construct a plot of this vector field, you should notice that it causes objects to spin outwards in the clockwise direction. Suppose an object moves counterclockwise around a circle <m>C</m> of radius 3 that is centered at the origin. (You'll need to parametrize the curve.)
       </p>
       <task>
-          <p>
-            Should the circulation of <m>\vec F</m> along <m>C</m> be positive or negative?  Make a guess, and then compute the circulation <m>\oint_C Mdx+Ndy</m>.
-          </p>
+        <p>
+          Should the circulation of <m>\vec F</m> along <m>C</m> be positive or negative?  Make a guess, and then compute the circulation <m>\oint_C Mdx+Ndy</m>.
+        </p>
       </task>
-
       <task>
-          <p>
-            Whether your guess was right or wrong, explain why you made the guess.
-          </p>
+        <p>
+          Whether your guess was right or wrong, explain why you made the guess.
+        </p>
       </task>
-
       <task>
-          <p>
-            Should the flux of <m>\vec F</m> across <m>C</m> be positive or negative? Make a guess, and then actually compute the flux <m>\oint_C Mdy-Ndx</m>.
-          </p>
+        <p>
+          Should the flux of <m>\vec F</m> across <m>C</m> be positive or negative? Make a guess, and then actually compute the flux <m>\oint_C Mdy-Ndx</m>.
+        </p>
       </task>
-
       <task>
-          <p>
-            Whether your guess was right or wrong, explain why you made the guess.
-          </p>
+        <p>
+          Whether your guess was right or wrong, explain why you made the guess.
+        </p>
       </task>
-
       <task>
-          <p>
-            Please use this <url href="\sageworkfluxurl">Sage link</url> to check both computations.
-          </p>
+        <p>
+          Please use this <url href="\sageworkfluxurl">Sage link</url> to check both computations.
+        </p>
       </task>
     </exploration>
 
@@ -534,3 +574,4 @@
     </p>
   </subsection>
 </section>
+
