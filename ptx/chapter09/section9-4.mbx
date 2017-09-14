@@ -11,28 +11,49 @@
     </p>
       <task>
           <p>
-            <!-- \extrafn{<m>\bar s=\frac{\sum \text{ values } }{\text{ number of values } }</m>} -->Compute the average by adding 11 numbers together and dividing by the number of scores.  Write down the whole computation before doing any arithmetic.
+            Compute the average by adding 11 numbers together and dividing by the number of scores.  Write down the whole computation before doing any arithmetic.
           </p>
       </task>
+      <aside>
+          <p>
+            <m>\bar s=\frac{\sum \text{ values } }{\text{ number of values } }</m>
+          </p>
+      </aside>
+
 
       <task>
           <p>
-            <!-- \extrafn{<m>\bar s=\frac{\sum (\text{ value } \cdot\text{ weight } )}{\sum \text{ weight } }</m>} -->Compute the numerator of the fraction in the previous part by multiplying each score by how many times it occurs, rather than adding it in the sum that many times.  Again, write down the calculation for <m>\bar s</m> before doing any arithmetic.
+           Compute the numerator of the fraction in the previous part by multiplying each score by how many times it occurs, rather than adding it in the sum that many times.  Again, write down the calculation for <m>\bar s</m> before doing any arithmetic.
           </p>
       </task>
+       <aside>
+          <p>
+            <m>\bar s=\frac{\sum (\text{ value } \cdot\text{ weight } )}{\sum \text{ weight } }</m>}
+          </p>
+      </aside>
 
       <task>
           <p>
-            <!-- \extrafn{<m>\bar s=\sum (\text{ value } \cdot\text{ (\% of stuff) } )=\sum (\text{ value }  \cdot \frac{\text{ weight } }{\text{ \# of values } } )</m>} -->Compute <m>\bar s</m> by splitting up the fraction in the previous part into the sum of four numbers.  This is called a <q>weighted average</q> because we are multiplying each score value by a weight.
+           Compute <m>\bar s</m> by splitting up the fraction in the previous part into the sum of four numbers.  This is called a <q>weighted average</q> because we are multiplying each score value by a weight.
           </p>
       </task>
+       <aside>
+          <p>
+            <m>\bar s=\sum (\text{ value } \cdot\text{ (\% of stuff) } )=\sum (\text{ value }  \cdot \frac{\text{ weight } }{\text{ \# of values } } )</m>}
+          </p>
+      </aside>
 
       <task>
           <p>
-            <!-- \extrafn{<m>\text{ (number of values) } \bar s = \sum \text{ values }</m>
-            <m>(\sum \text{ weight } )\bar s = \sum (\text{ value } \cdot\text{ weight } )</m>} -->Another way of thinking about the average <m>\bar s</m> is that <m>\bar s</m> is the number so that if all 11 scores were the same value <m>\bar s</m>, you'd have the same sum of scores.  Write this way of thinking about these computations by taking the formulas for <m>\bar s</m> in the first two parts and multiplying both sides by the denominator.
+           Another way of thinking about the average <m>\bar s</m> is that <m>\bar s</m> is the number so that if all 11 scores were the same value <m>\bar s</m>, you'd have the same sum of scores.  Write this way of thinking about these computations by taking the formulas for <m>\bar s</m> in the first two parts and multiplying both sides by the denominator.
           </p>
       </task>
+       <aside>
+          <p>
+            <m>\text{ (number of values) } \bar s = \sum \text{ values }</m>
+            <m>(\sum \text{ weight } )\bar s = \sum (\text{ value } \cdot\text{ weight } )</m>}
+          </p>
+      </aside>
   </exploration>
 
   <p>
@@ -125,8 +146,7 @@
     <task>
         <p>
           We'd like to find a constant height <m>\bar f</m> so that the area under <m>f</m>, above <m>C</m>, is the same as area under <m>\bar f</m>, above <m>C</m>. This height <m>\bar f</m> is called the average value of <m>f</m> along <m>C</m>. 
-          <!-- \extrafn{
-
+        </p>
           <aside>
           <p>
             Please read 
@@ -142,8 +162,8 @@
             <url href="https://www.lds.org/scriptures/nt/luke/3.5?lang=eng#4">Luke 3:5</url>. These scriptures should help you remember how to find average value.
           </p>
           </aside>
-
-          } -->Explain why the average value of <m>f</m> along <m>C</m> is
+         <p>
+          Explain why the average value of <m>f</m> along <m>C</m> is
           <me>
             \bar f = \frac{\int_C f ds}{\int_C ds}.
           </me>

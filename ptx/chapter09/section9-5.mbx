@@ -177,19 +177,15 @@
         <task>
             <p>
               Now find the center of mass <m>(\bar x, \bar y, \bar z)</m> of the two points.
+            </p>
               <hint>
                 <p>
                   Think of it as a weighted average. If you are still stuck, see the margin
                 </p>
               </hint>
               <!-- \extrafn{
-              <hint>
-                <p>
                   You should get <m>\bar x= \frac{2x_1+5x_2}{2+5}</m>.
-                </p>
-              </hint>
               } -->
-            </p>
         </task>
 
       </task>

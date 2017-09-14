@@ -29,7 +29,7 @@
       <title>Optional Proof of <xref ref="vector_valued_functions_of_constant_length">Theorem</xref></title>
       <p>
         <!-- \extrafn{Watch a <url href="http://www.youtube.com/watch?v=08Ygw_M-4yM&amp;list=PL30EE81142B1ED1F0&amp;index=6&amp;feature=plpp_video">YouTube Video</url> for the answer.  } -->Prove the theorem above. Here are some hints [as an alternative to watching the YouTube video].
-        <ul>
+      </p>
         <task>
             <p>
               We know that <m>\vec r(t)</m> has constant length, so we write <m>|\vec r|=c</m> for some constant <m>c</m>.
@@ -47,8 +47,6 @@
               After writing <m>|\vec r(t)|=c</m> in terms of a dot product (squaring both sides may help), take the derivative of both sides. Apply the product rule to the dot product.
             </p>
         </task>
-        </ul>
-      </p>
     </exploration>
 
     <p>

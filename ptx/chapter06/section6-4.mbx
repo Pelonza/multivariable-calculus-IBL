@@ -42,12 +42,12 @@
       <task>
           <p>
             Let <m>y=0</m>, Substitute this value into the temperature function <m>T=z=f(x,y)=9-x^2-y^2</m>. Plot the resulting function in the <m>xz</m>-plane.
+          </p>
             <hint>
               <p>
                 Treat <m>z</m> as <q>y</q>. It should be a (upside-down) parabola
               </p>
             </hint>
-          </p>
       </task>
 
       <task>
@@ -117,12 +117,12 @@
         <task>
             <p>
               How can we find all the points which have zero temperature?
+            </p>
               <hint>
                 <p>
                   Think about what a temperature of zero means in the function
                 </p>
               </hint>
-            </p>
         </task>
 
         <task>
@@ -428,10 +428,9 @@
     </p>
 
     </review>
-
-    <exploration xml:id="graphing_spherical_coordinates">
+<todo>
       <p>
-        <!-- \extrafn{Recall that <m>\phi</m> (<q>phi</q>) is the angle down from the <m>z</m> axis, <m>\theta</m> (<q>theta</q>) is the angle counterclockwise from the <m>x</m>-axis in the <m>xy</m>-plane, and <m>\rho</m> (<q>rho</q>) is the distance from the origin. Review <xref ref="derive_spherical_coordinates">problem</xref> if you need a refresher.} -->\larsonfive{ <!-- \extrafn{See Larson 11.7:89<ndash />94, 111<ndash />114.} -->}Consider the spherical coordinates transformation as defined in
+[[removed by DF from the next exploration.  Check that it now parses correctly ]]
         \stewarts{
         <me>
           \vec T(\rho,\phi,\theta)=(\rho\sin\phi\cos\theta,\rho\sin\phi\sin\theta,\rho\cos\phi),
@@ -440,16 +439,14 @@
 
       <p>
 
-        <aside>
-        </aside>
-
         <me>
           \vec T(\rho,\phi,\theta)=(\rho\sin\phi\cos\theta,\rho\sin\phi\sin\theta,\rho\cos\phi),
         </me>
       </p>
-
+</todo>
+    <exploration xml:id="graphing_spherical_coordinates">
       <p>
-        \larsonfive{
+        <!-- \extrafn{Recall that <m>\phi</m> (<q>phi</q>) is the angle down from the <m>z</m> axis, <m>\theta</m> (<q>theta</q>) is the angle counterclockwise from the <m>x</m>-axis in the <m>xy</m>-plane, and <m>\rho</m> (<q>rho</q>) is the distance from the origin. Review <xref ref="derive_spherical_coordinates">problem</xref> if you need a refresher.} -->\larsonfive{ <!-- \extrafn{See Larson 11.7:89<ndash />94, 111<ndash />114.} -->}Consider the spherical coordinates transformation as defined in
         <me>
           \vec T(\rho,\theta,\phi)=(\rho\sin\phi\cos\theta,\rho\sin\phi\sin\theta,\rho\cos\phi),
         </me>
