@@ -1,17 +1,17 @@
 
+
 <section xml:id="ch02_4_crossproduct">
   <title>The Cross Product</title>
   <objectives>
-    <title>Topical</title>
-    <ul>
-      <li>
-        <p>
-          perform the cross-product of vectors
-        </p>
-      </li>
-    </ul>
+      <title>Topical</title>
+      <ul>
+        <li>
+          <p>
+            perform the cross-product of vectors
+          </p>
+        </li>
+      </ul>
   </objectives>
-  
   <introduction>
     <p>
       The dot product gave us a way of multiplying two vectors together, but the result was a number, not a vectors. We now define the cross product, which will allow us to multiply two vectors together to give us another vector. We were able to define the dot product in all dimensions. The cross product is only defined in <m>\mathbb{R}^3</m>.
@@ -43,23 +43,20 @@
         </p>
       </introduction>
       <task>
-          <p>
-            Compute <m>\vec u\times \vec v</m> and <m>\vec v\times \vec u</m>.  How are they related?
-          </p>
+        <p>
+          Compute <m>\vec u\times \vec v</m> and <m>\vec v\times \vec u</m>.  How are they related?
+        </p>
       </task>
-
       <task>
-          <p>
-            Compute <m>\vec u \cdot (\vec u\times \vec v)</m> and <m>\vec v \cdot (\vec u\times \vec v)</m>. Explain why you get the answer you got?
-          </p>
+        <p>
+          Compute <m>\vec u \cdot (\vec u\times \vec v)</m> and <m>\vec v \cdot (\vec u\times \vec v)</m>. Explain why you get the answer you got?
+        </p>
       </task>
-
       <task>
-          <p>
-            Compute <m>\vec u \times (2\vec u)</m>.  Explain why you get the answer you got?
-          </p>
+        <p>
+          Compute <m>\vec u \times (2\vec u)</m>.  Explain why you get the answer you got?
+        </p>
       </task>
-
     </exploration>
 
     <exploration>
@@ -71,50 +68,50 @@
         </p>
       </introduction>
       <task>
-          <p>
-            Compute <m>\ii\times {2\jj}</m> and <m>{2\jj}\times {\ii}</m>.
-          </p>
+        <p>
+          Compute <m>\ii\times {2\jj}</m> and <m>{2\jj}\times {\ii}</m>.
+        </p>
       </task>
-
       <task>
-          <p>
-            Compute <m>{\ii}\times {3\kk}</m> and <m>{3\kk}\times {\ii}</m>.
-          </p>
+        <p>
+          Compute <m>{\ii}\times {3\kk}</m> and <m>{3\kk}\times {\ii}</m>.
+        </p>
       </task>
-
       <task>
-          <p>
-            Compute <m>{2\jj}\times {3\kk}</m> and <m>{3\kk}\times {2\jj}</m>.
-          </p>
+        <p>
+          Compute <m>{2\jj}\times {3\kk}</m> and <m>{3\kk}\times {2\jj}</m>.
+        </p>
       </task>
       <conclusion>
-        <p>
-          Give a geometric reason as to why some vectors above have a plus sign, and some have a minus sign.
-        </p>
+
+      <p>
+        Give a geometric reason as to why some vectors above have a plus sign, and some have a minus sign.
+      </p>
+
       </conclusion>
     </exploration>
 
     <exploration>
       <statement>
         <p>
-          <!-- \extrafn{
-          \thomasee{See 12.4: 15-18.} 
-          \stewarts{See 12.4: 29-32}
-          } -->Let <m>P=(2,0,0)</m>, <m>Q=(0,3,0)</m>, and <m>R=(0,0,4)</m>. Find a vector that orthogonal to both <m>\vec {PQ}</m> and <m>\vec {PR}</m>. Then find the area of the triangle <m>PQR</m>. Construct a 3D graph of this triangle.
+          Let <m>P=(2,0,0)</m>, <m>Q=(0,3,0)</m>, and <m>R=(0,0,4)</m>. Find a vector that orthogonal to both <m>\vec {PQ}</m> and <m>\vec {PR}</m>. Then find the area of the triangle <m>PQR</m>. Construct a 3D graph of this triangle.
         </p>
       </statement>
       <hint>
-          <p>What shape does two triangles side-by-side make?</p>
+        <p>
+          What shape does two triangles side-by-side make?
+        </p>
       </hint>
     </exploration>
-
   </subsection>
 
   <exercises>
     <title>Computational Practice</title>
     <introduction>
-       <p> These are provided to help you achieve better skills in finding basic computational answers </p>
-    </introduction>    
+      <p>
+        These are provided to help you achieve better skills in finding basic computational answers
+      </p>
+    </introduction>
     <exercise>
       <webwork source="Library/maCalcDB/setVectors3CrossProduct/ur_vc_2_1.pg" />
     </exercise>
@@ -128,6 +125,5 @@
       <webwork source="Library/maCalcDB/setVectors3CrossProduct/ur_vc_2_4.pg" />
     </exercise>
   </exercises>
-
-    
 </section>
+

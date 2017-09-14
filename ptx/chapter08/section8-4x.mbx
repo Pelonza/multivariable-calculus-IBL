@@ -1,4 +1,5 @@
 
+
 <section>
   <title>Optional: Projectile Motion</title>
   <p>
@@ -83,35 +84,45 @@
 
   </review>
 
+
+  <todo>\stewarts{You can practice finding various combinations of position, velocity and acceleration vectors with exercises: 13.4:9-18, particularly focus on 15-18}
+  \thomasee{You can practice finding position from velocity and acceleration with exercises 13.2: 11-18, and especially 13.2: 29.}
+  </todo>
+
   <exploration>
-    <p>
-      <!-- \extrafn{Watch a <url href="http://www.youtube.com/watch?v=dW0bm7cLB8E&amp;list=PL30EE81142B1ED1F0&amp;index=1&amp;feature=plpp_video">YouTube video</url>.} --><!-- \extrafn{ 
-      \thomasee{You can practice finding position from velocity and acceleration with exercises 13.2: 11-18, and especially 13.2: 29.}
-      \stewarts{You can practice finding various combinations of position, velocity and acceleration vectors with exercises: 13.4:9-18, particularly focus on 15-18}
-      } -->Suppose a projectile is fired from the point <m>(x_0,y_0)</m> with an initial velocity <m>\vec v(0)=(v_{x_0},v_{y_0})</m>, and that gravity is the only force acting on the object. This means the acceleration on the object is <m>\vec a(t) = (0,-g)</m>.
-    </p>
-      <task>
-          <p>
-            Show that the velocity at any time <m>t</m> is <m>\vec v(t) = (c_1,-gt+c_2)</m>. What are <m>c_1</m> and <m>c_2</m>? Explain
-          </p>
-      </task>
+    <introduction>
+      <p>
+        Suppose a projectile is fired from the point <m>(x_0,y_0)</m> with an initial velocity <m>\vec v(0)=(v_{x_0},v_{y_0})</m>, and that gravity is the only force acting on the object. This means the acceleration on the object is <m>\vec a(t) = (0,-g)</m>.
+      </p>
 
-      <task>
-          <p>
-            Show that the position at any time <m>t</m> is <m>\vec r(t) = (v_{x_0}t+c_3, -\frac{1}{2}gt^2+v_{y_0}t+c_4)</m>. What are <m>c_3</m> and <m>c_4</m>?
-          </p>
-      </task>
-
-      <task>
-          <p>
-            Eliminate the parameter <m>t</m> to give a Cartesian equation of the projectile's path. This will prove that the path of the particle is parabolic.
-            <hint>
-              <p>
-                Use substitution.
-              </p>
-            </hint>
-          </p>
-      </task>
+      <aside>
+        <p>
+          Watch a <url href="http://www.youtube.com/watch?v=dW0bm7cLB8E&amp;list=PL30EE81142B1ED1F0&amp;index=1&amp;feature=plpp_video">YouTube video</url>.
+        </p>
+      </aside>
+    </introduction>
+    <task>
+      <p>
+        Show that the velocity at any time <m>t</m> is <m>\vec v(t) = (c_1,-gt+c_2)</m>. What are <m>c_1</m> and <m>c_2</m>? Explain
+      </p>
+    </task>
+    <task>
+      <p>
+        Show that the position at any time <m>t</m> is <m>\vec r(t) = (v_{x_0}t+c_3, -\frac{1}{2}gt^2+v_{y_0}t+c_4)</m>. What are <m>c_3</m> and <m>c_4</m>?
+      </p>
+    </task>
+    <task>
+      <statement>
+        <p>
+          Eliminate the parameter <m>t</m> to give a Cartesian equation of the projectile's path. This will prove that the path of the particle is parabolic.
+        </p>
+      </statement>
+      <hint>
+        <p>
+          Use substitution.
+        </p>
+      </hint>
+    </task>
   </exploration>
 
   <p>
@@ -139,32 +150,38 @@
   </p>
 
   <exploration>
-    <p>
-      <!-- \extrafn{Watch a <url href="http://www.youtube.com/watch?v=a6PHAvynNWM&amp;list=PL30EE81142B1ED1F0&amp;index=2&amp;feature=plpp_video">YouTube video</url>.} -->Answer the following questions. Assume we fire a projectile from the origin, which means the acceleration, velocity, and position are
-      <me>
-        \vec a(t) = (0,-g), 
-        \vec v(t) = (v_{x_0}, -gt+ v_{y_0}),
-        \vec r(t) = (v_{x_0}t, -\frac12 gt^2+ v_{y_0}t)
-        .
-      </me>
-    </p>
-      <task>
-          <p>
-            What's the time to max height?  What's the flight time?
-          </p>
-      </task>
+    <introduction>
+      <p>
+        Answer the following questions. Assume we fire a projectile from the origin, which means the acceleration, velocity, and position are
+        <me>
+          \vec a(t) = (0,-g), 
+          \vec v(t) = (v_{x_0}, -gt+ v_{y_0}),
+          \vec r(t) = (v_{x_0}t, -\frac12 gt^2+ v_{y_0}t)
+          .
+        </me>
+      </p>
 
-      <task>
-          <p>
-            Show why the maximum height is <m>\ds y_{\max}=\frac{v_{y_0}^2}{2g}</m> and the range is <m>\ds R=\frac{2v_{x_0}v_{y_0}}{g}</m>.
-          </p>
-      </task>
-
-      <task>
-          <p>
-            If the initial speed is <m>v_0</m>, with a firing angle of <m>\alpha</m> above the horizontal, rewrite <m>v_{x_0}</m> and <m>v_{y_0}</m> in terms of <m>v_0</m> and <m>\alpha</m>, and then state the range in terms of <m>v_0</m> and <m>\alpha</m>.
-          </p>
-      </task>
+      <aside>
+        <p>
+          Watch a <url href="http://www.youtube.com/watch?v=a6PHAvynNWM&amp;list=PL30EE81142B1ED1F0&amp;index=2&amp;feature=plpp_video">YouTube video</url>.
+        </p>
+      </aside>
+    </introduction>
+    <task>
+      <p>
+        What's the time to max height?  What's the flight time?
+      </p>
+    </task>
+    <task>
+      <p>
+        Show why the maximum height is <m>\ds y_{\max}=\frac{v_{y_0}^2}{2g}</m> and the range is <m>\ds R=\frac{2v_{x_0}v_{y_0}}{g}</m>.
+      </p>
+    </task>
+    <task>
+      <p>
+        If the initial speed is <m>v_0</m>, with a firing angle of <m>\alpha</m> above the horizontal, rewrite <m>v_{x_0}</m> and <m>v_{y_0}</m> in terms of <m>v_0</m> and <m>\alpha</m>, and then state the range in terms of <m>v_0</m> and <m>\alpha</m>.
+      </p>
+    </task>
   </exploration>
 
   <p>
@@ -174,17 +191,15 @@
         The next exercise comes from your text. (See section 13.2.) Try it without reading the text. It's a fun application of the ideas above.
       </p>
     </aside>
-
   </p>
 
   <exploration>
-    <p>
-      <!-- \extrafn{This exercise was created around the opening ceremony of the Barcelona Spain Olympics.  Antonio Rebollo was the archer, but he didn't try to hit the flame at the peak of the flight. You can <url href="http://www.youtube.com/watch?v=b5gZeT4TVds">watch a YouTube video</url> of the opening ceremony by following the link.} --><!-- \extrafn{
-      \thomasee{See 13.2: 19-28 for more practice.}
-      \stewarts{See 13.4:19-36 for a variety of application exercises} 
-      } -->
-    </p>
 
+    <aside>
+      <p>
+        This exercise was created around the opening ceremony of the Barcelona Spain Olympics.  Antonio Rebollo was the archer, but he didn't try to hit the flame at the peak of the flight. You can <url href="http://www.youtube.com/watch?v=b5gZeT4TVds">watch a YouTube video</url> of the opening ceremony by following the link.
+      </p>
+    </aside>
     <p>
       An archer stands at ground level and shoots an arrow at an object which is 90 feet away in the horizontal direction and 74 ft above ground. The arrow leaves the bow at about 6 ft above ground level (not the origin).
       The archer wants the arrow to hit the target at the peak of its parabolic path.
@@ -198,3 +213,4 @@
     </hint>
   </exploration>
 </section>
+

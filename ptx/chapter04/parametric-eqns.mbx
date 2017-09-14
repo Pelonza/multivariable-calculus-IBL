@@ -1,144 +1,145 @@
 
+
 <section>
   <title>Parametric Equations</title>
   <introduction>
-    <p>
-      In middle school, you learned to write an equation of a line as <m>y=mx+b</m>. In the vector unit, we learned to write this in vector form as:
-      <me>
-        (x,y)=(1,m)t+(0,b)
-      </me>
-    </p>
+  <p>
+    In middle school, you learned to write an equation of a line as <m>y=mx+b</m>. In the vector unit, we learned to write this in vector form as:
+    <me>
+      (x,y)=(1,m)t+(0,b)
+    </me>
+  </p>
 
-    <p>
-      This style of equation is called a vector equation. It is equivalent to writing the two equations
-      <me>
-        x=1t+0,y=mt+b,
-      </me>
-      which we call the parametric equations of the line. We were able to quickly develop equations of lines in space, by just adding a third equation for <m>z</m>.
-    </p>
+  <p>
+    This style of equation is called a vector equation. It is equivalent to writing the two equations
+    <me>
+      x=1t+0,y=mt+b,
+    </me>
+    which we call the parametric equations of the line. We were able to quickly develop equations of lines in space, by just adding a third equation for <m>z</m>.
+  </p>
 
-    <p>
-      Parametric equations provide us with a way of specifying the location <m>(x,y,z)</m> of an object by giving an equation for each coordinate. We will use these equations to model motion in the plane and in space. In this section we'll focus mostly on planar curves.
-    </p>
+  <p>
+    Parametric equations provide us with a way of specifying the location <m>(x,y,z)</m> of an object by giving an equation for each coordinate. We will use these equations to model motion in the plane and in space. In this section we'll focus mostly on planar curves.
+  </p>
 
-    <definition>
-      <statement>
-        <p>
-          If each of <m>f</m> and <m>g</m> are continuous functions, then the curve in the plane defined by <m>x=f(t),y=g(t)</m> is called a parametric curve, and the equations <m>x=f(t),y=g(t)</m> are called parametric equations for the curve.
-        </p>
-      </statement>
-    </definition>
-
-    <p>
-      You can generalize this definition to 3D and beyond by just adding more variables.
-    </p>
-
-    <exploration>
-      <introduction>
-        <p>
-          By plotting points, construct graphs of the three parametric curves given below (just make a <m>t,x,y</m> table, and then plot the <m>(x,y)</m> coordinates). Place an arrow on your graph to show the direction of motion.
-        </p>
-      </introduction>
-
-      <task>
-          <p>
-            <m>x=\cos t, y=\sin t</m>, for <m>0\leq t\leq 2\pi</m>.
-          </p>
-      </task>
-
-      <task>
-          <p>
-            <m>x=\sin t, y=\cos t</m>, for <m>0\leq t\leq 2\pi</m>.
-          </p>
-      </task>
-
-      <task>
-          <p>
-            <m>x=\cos t, y=\sin t, z=t</m>, for <m>0\leq t\leq 4\pi</m>.
-          </p>
-      </task>
-    </exploration>
-
-    <exploration>
-      <introduction>
-        <p>
-          For the parametric curve <m>x=1+2\cos t, y=3+5\sin t</m>:
-        </p>
-      </introduction>
-      <task>
-          <p>
-            Plot the path traced out by the curve.
-          </p>
-      </task>
-
-      <task>
-          <p>
-            Use the trig identity <m>\cos^2t+\sin^2t=1</m> to give a Cartesian equation of the curve (an equation that only involves <m>x</m> and <m>y</m>).
-          </p>
-      </task>
-
-      <task>
-          <p>
-            What are the foci of the resulting object (it's a conic section)?
-          </p>
-      </task>
-    </exploration>
-
-    <exploration xml:id="prob_line_equation_practice">
+  <definition>
+    <statement>
       <p>
-        <!-- \extrafn{What we did in the vector unit should help here.} -->Find parametric equations for a line that passes through the points <m>(0,1,2)</m> and <m>(3,-2,4)</m>.
+        If each of <m>f</m> and <m>g</m> are continuous functions, then the curve in the plane defined by <m>x=f(t),y=g(t)</m> is called a parametric curve, and the equations <m>x=f(t),y=g(t)</m> are called parametric equations for the curve.
       </p>
-      <aside>
-        <p>
-          What we did in the vector unit should help here.
-        </p>
-      </aside>
-    </exploration>
+    </statement>
+  </definition>
 
-    <exploration>
-      <introduction>
-        <p>
-          For the parametric curve <m>\vec r(t)= (t^2+1, 2t-3)</m>:
-        </p>
-      </introduction>
-      <task>
-          <p>
-            Plot the path traced out by the curve.
-          </p>
-      </task>
+  <p>
+    You can generalize this definition to 3D and beyond by just adding more variables.
+  </p>
 
-      <task>
-        <statement>
-          <p>
-            Give a Cartesian equation of the curve (eliminate the parameter <m>t</m>)
-          </p>
-        </statement>
-        <hint>
-          <p>
-            Set up a system of equations then use substitution.
-          </p>
-        </hint>
-      </task>
+  <exploration>
+    <introduction>
+      <p>
+        By plotting points, construct graphs of the three parametric curves given below (just make a <m>t,x,y</m> table, and then plot the <m>(x,y)</m> coordinates). Place an arrow on your graph to show the direction of motion.
+      </p>
+    </introduction>
+    <task>
+      <p>
+        <m>x=\cos t, y=\sin t</m>, for <m>0\leq t\leq 2\pi</m>.
+      </p>
+    </task>
+    <task>
+      <p>
+        <m>x=\sin t, y=\cos t</m>, for <m>0\leq t\leq 2\pi</m>.
+      </p>
+    </task>
+    <task>
+      <p>
+        <m>x=\cos t, y=\sin t, z=t</m>, for <m>0\leq t\leq 4\pi</m>.
+      </p>
+    </task>
+  </exploration>
 
-      <task>
-          <p>
-            Now find the focus of the resulting curve.
-          </p>
-      </task>
-    </exploration>
+  <exploration>
+    <introduction>
+      <p>
+        For the parametric curve <m>x=1+2\cos t, y=3+5\sin t</m>:
+      </p>
+    </introduction>
+    <task>
+      <p>
+        Plot the path traced out by the curve.
+      </p>
+    </task>
+    <task>
+      <p>
+        Use the trig identity <m>\cos^2t+\sin^2t=1</m> to give a Cartesian equation of the curve (an equation that only involves <m>x</m> and <m>y</m>).
+      </p>
+    </task>
+    <task>
+      <p>
+        What are the foci of the resulting object (it's a conic section)?
+      </p>
+    </task>
+  </exploration>
 
-    <exploration>
+  <exploration xml:id="prob_line_equation_practice">
+
+    <aside>
+      <p>
+        What we did in the vector unit should help here.
+      </p>
+    </aside>
+    <p>
+      Find parametric equations for a line that passes through the points <m>(0,1,2)</m> and <m>(3,-2,4)</m>.
+    </p>
+
+    <aside>
+      <p>
+        What we did in the vector unit should help here.
+      </p>
+    </aside>
+  </exploration>
+
+  <exploration>
+    <introduction>
+      <p>
+        For the parametric curve <m>\vec r(t)= (t^2+1, 2t-3)</m>:
+      </p>
+    </introduction>
+    <task>
+      <p>
+        Plot the path traced out by the curve.
+      </p>
+    </task>
+    <task>
       <statement>
         <p>
-          Consider the parametric curve given by <m>x=\tan t, y=\sec t</m>. Plot the curve for <m>-\pi/2\lt t\lt \pi/2</m>. Give a Cartesian equation of the curve (a trig identity will help). Then find the foci of the resulting conic section.
+          Give a Cartesian equation of the curve (eliminate the parameter <m>t</m>)
         </p>
       </statement>
       <hint>
         <p>
-          this problem will probably be easier to draw if you first find the Cartesian equation, and then plot the curve.
+          Set up a system of equations then use substitution.
         </p>
       </hint>
-    </exploration>
+    </task>
+    <task>
+      <p>
+        Now find the focus of the resulting curve.
+      </p>
+    </task>
+  </exploration>
+
+  <exploration>
+    <statement>
+      <p>
+        Consider the parametric curve given by <m>x=\tan t, y=\sec t</m>. Plot the curve for <m>-\pi/2\lt t\lt \pi/2</m>. Give a Cartesian equation of the curve (a trig identity will help). Then find the foci of the resulting conic section.
+      </p>
+    </statement>
+    <hint>
+      <p>
+        this problem will probably be easier to draw if you first find the Cartesian equation, and then plot the curve.
+      </p>
+    </hint>
+  </exploration>
   </introduction>
 
   <subsection xml:id="sec_derivatives_and_tangent_lines">
@@ -165,9 +166,7 @@
     <exploration>
       <statement>
         <p>
-          <!-- \extrafn{
-          \thomasee{See page 728.}
-          } -->Show that if <m>\vec r(t) = (f(t),g(t))</m>, then the derivative is just <m>\frac{d\vec r}{dt} = (f'(t),g'(t))</m>.
+          Show that if <m>\vec r(t) = (f(t),g(t))</m>, then the derivative is just <m>\frac{d\vec r}{dt} = (f'(t),g'(t))</m>.
         </p>
       </statement>
       <hint>
@@ -190,21 +189,19 @@
         </p>
       </introduction>
       <task>
-          <p>
-            Graph the curve <m>\vec r</m>, and compute <m>\frac{d\vec r}{dt}</m> and <m>\frac{d^2\vec r}{dt^2}</m>.
-          </p>
+        <p>
+          Graph the curve <m>\vec r</m>, and compute <m>\frac{d\vec r}{dt}</m> and <m>\frac{d^2\vec r}{dt^2}</m>.
+        </p>
       </task>
-
       <task>
-          <p>
-            On your graph, draw the vectors <m>\frac{d\vec r}{dt}\left(\frac{\pi}{4}\right)</m> and <m>\frac{d^2\vec r}{dt^2}\left(\frac{\pi}{4}\right)</m> with their tail placed on the curve at <m>\vec r\left(\frac{\pi}{4}\right)</m>. These vectors represent the velocity and acceleration vectors.
-          </p>
+        <p>
+          On your graph, draw the vectors <m>\frac{d\vec r}{dt}\left(\frac{\pi}{4}\right)</m> and <m>\frac{d^2\vec r}{dt^2}\left(\frac{\pi}{4}\right)</m> with their tail placed on the curve at <m>\vec r\left(\frac{\pi}{4}\right)</m>. These vectors represent the velocity and acceleration vectors.
+        </p>
       </task>
-
       <task>
-          <p>
-            Give a vector equation of the tangent line to this curve at <m>t=\frac{\pi}{4}</m>. (You know a point and a direction vector.)
-          </p>
+        <p>
+          Give a vector equation of the tangent line to this curve at <m>t=\frac{\pi}{4}</m>. (You know a point and a direction vector.)
+        </p>
       </task>
     </exploration>
 
@@ -223,44 +220,40 @@
         </p>
       </introduction>
       <task>
-          <p>
-            Construct a graph of <m>\vec r</m> for <m>0\leq t\leq 2</m>.
-          </p>
+        <p>
+          Construct a graph of <m>\vec r</m> for <m>0\leq t\leq 2</m>.
+        </p>
       </task>
-
       <task>
-          <p>
-            If this curve represented the path of a horse running through a pasture, find the velocity of the horse at any time <m>t</m>, and then specifically at <m>t=1</m>. What is the horse's speed at <m>t=1</m>?
-          </p>
+        <p>
+          If this curve represented the path of a horse running through a pasture, find the velocity of the horse at any time <m>t</m>, and then specifically at <m>t=1</m>. What is the horse's speed at <m>t=1</m>?
+        </p>
       </task>
-
       <task>
-          <p>
-            Find a vector equation of the tangent line to <m>\vec r</m> at <m>t=1</m>.  Include this on your graph.
-          </p>
+        <p>
+          Find a vector equation of the tangent line to <m>\vec r</m> at <m>t=1</m>.  Include this on your graph.
+        </p>
       </task>
-
       <task>
-          <statement>
-            <p>
-              Show that the slope of the line is
-              <me>
-                \ds \frac{dy}{dx}\big|_{x=5} 
-                = 
-                \frac{
-                (dy/dt)\big|_{t=1}
-                }{
-                (dx/dt)\big|_{t=1}
-                }.
-              </me>            
-            </p>
-          </statement>
-          <hint>
-            <p>
-              How can you turn the direction vector, which involves <m>(dx/dt)</m> and <m>(dy/dt)</m> into a slope <m>(dy/dx)</m>?
-            </p>
-          </hint>
-
+        <statement>
+          <p>
+            Show that the slope of the line is
+            <me>
+              \ds \frac{dy}{dx}\big|_{x=5} 
+              = 
+              \frac{
+              (dy/dt)\big|_{t=1}
+              }{
+              (dx/dt)\big|_{t=1}
+              }.
+            </me>
+          </p>
+        </statement>
+        <hint>
+          <p>
+            How can you turn the direction vector, which involves <m>(dx/dt)</m> and <m>(dy/dt)</m> into a slope <m>(dy/dx)</m>?
+          </p>
+        </hint>
       </task>
     </exploration>
   </subsection>
@@ -289,9 +282,9 @@
       This requires that the speed be constant. What if the speed is not constant? Over a really small time interval <m>dt</m>, the speed is almost constant, so we can still use the idea above. The following problem will help you develop the key formula for arc length.
     </p>
 
-    <exploration><title>Derivation of the arc length formula</title>
+    <exploration>
+      <title>Derivation of the arc length formula</title>
       <introduction>
-      
         <p>
           Suppose an object moves along the path given by:
           <me>
@@ -304,12 +297,11 @@
         </p>
       </introduction>
       <task>
-          <p>
-            Show that the object's speed at any time <m>t</m> is 
-            <m>\ds\sqrt{\left(\frac{dx}{dt}\right)^2+\left(\frac{dy}{dt}\right)^2}</m>.
-          </p>
+        <p>
+          Show that the object's speed at any time <m>t</m> is 
+          <m>\ds\sqrt{\left(\frac{dx}{dt}\right)^2+\left(\frac{dy}{dt}\right)^2}</m>.
+        </p>
       </task>
-
       <task>
         <statement>
           <p>
@@ -322,11 +314,14 @@
           </p>
         </hint>
       </task>
-
       <task xml:id="arc_length_formula" >
-
+        <aside>
+          <p>
+            This is the arc length formula. Ask me in class for an alternate way to derive this formula.
+          </p>
+        </aside>
         <p>
-          Explain why the length of the path given by <m>\vec r(t)</m> for <m>a\leq t\leq b</m> is   <!-- \extrafn{This is the arc length formula. Ask me in class for an alternate way to derive this formula.} -->
+          Explain why the length of the path given by <m>\vec r(t)</m> for <m>a\leq t\leq b</m> is
           <me>
             \text{ Arc Length } =s=\int ds=\int_a^b \left|\frac{d\vec r}{dt}\right| dt=\int_a^b \sqrt{\left(\frac{dx}{dt}\right)^2+\left(\frac{dy}{dt}\right)^2}dt.
           </me>
@@ -337,7 +332,7 @@
 
     <exploration>
       <p>
-        <!-- \extrafn{\thomasee{See 11.2: 25-30}} -->Use the equation from <xref ref="arc_length_formula"></xref> to find the length of the curve <m>\ds \vec r(t) = \left(t^3,\frac{3t^2}{2}\right)</m> for <m>t\in[1,3]</m>. The notation <m>t\in[1,3]</m> means <m>1\leq t\leq 3</m>. Be prepared to show us your integration steps in class (you'll need a <m>u</m>-substitution).
+        Use the equation from <xref ref="arc_length_formula"></xref> to find the length of the curve <m>\ds \vec r(t) = \left(t^3,\frac{3t^2}{2}\right)</m> for <m>t\in[1,3]</m>. The notation <m>t\in[1,3]</m> means <m>1\leq t\leq 3</m>. Be prepared to show us your integration steps in class (you'll need a <m>u</m>-substitution).
       </p>
     </exploration>
 
@@ -346,6 +341,7 @@
         <p>
           For each curve below, set up an integral formula which would give the length, and sketch the curve. Do not worry about integrating them. <!-- \extrafn{The reason I don't want you to actually compute the integrals is that they will get ugly really fast. Try doing one in Wolfram Alpha and see what the computer gives.} -->
         </p>
+
         <aside>
           <p>
             The reason I don't want you to actually compute the integrals is that they will get ugly really fast. Try doing one in Wolfram Alpha and see what the computer gives.
@@ -353,21 +349,19 @@
         </aside>
       </introduction>
       <task>
-          <p>
-            The parabola <m>\vec p(t) = (t,t^2)</m> for <m>t\in[0,3]</m>.
-          </p>
+        <p>
+          The parabola <m>\vec p(t) = (t,t^2)</m> for <m>t\in[0,3]</m>.
+        </p>
       </task>
-
       <task>
-          <p>
-            The ellipse <m>\vec e(t) = (4\cos t,5\sin t)</m> for <m>t\in[0,2\pi]</m>.
-          </p>
+        <p>
+          The ellipse <m>\vec e(t) = (4\cos t,5\sin t)</m> for <m>t\in[0,2\pi]</m>.
+        </p>
       </task>
-
       <task>
-          <p>
-            The hyperbola <m>\vec h(t) = (\tan t,\sec t)</m> for <m>t\in[-\pi/ 4,\pi/4]</m>.
-          </p>
+        <p>
+          The hyperbola <m>\vec h(t) = (\tan t,\sec t)</m> for <m>t\in[-\pi/ 4,\pi/4]</m>.
+        </p>
       </task>
     </exploration>
   </subsection>
@@ -381,7 +375,9 @@
     </introduction>
     <exercisegroup>
       <introduction>
-        <p> Paramterizing Lines</p>
+        <p>
+          Paramterizing Lines
+        </p>
       </introduction>
       <exercise>
         <webwork source="Library/WHFreeman/Rogawski_Calculus_Early_Transcendentals_Second_Edition/11_Parametric_Equations_Polar_Coordinates_and_Conic_Sections/11.1_Parametric_Equations/11.1.23.pg"/>
@@ -389,7 +385,6 @@
       <exercise>
         <webwork source="Library/FortLewis/Calc3/17-1-Parametrized-curves/HGM5-17-1-26b-Parametrized-curves.pg"/>
       </exercise>
-
     </exercisegroup>
     <exercisegroup>
       <introduction>
@@ -404,11 +399,11 @@
         <webwork source="Library/ma123DB/set8/s10_1_5.pg" />
       </exercise>
     </exercisegroup>
-
-
     <exercisegroup>
       <introduction>
-        <p> Computing Arc Lengths -- There are two types here</p>
+        <p>
+          Computing Arc Lengths -- There are two types here
+        </p>
       </introduction>
       <exercise>
         <webwork source="Library/UCSB/Stewart5_10_2/Stewart5_10_2_41.pg" />
@@ -422,12 +417,7 @@
       <exercise>
         <webwork source="Library/UCSB/Stewart5_10_2/Stewart5_10_2_47.pg" />
       </exercise>
-
     </exercisegroup>
-
   </exercises>
-      
-
-
-
 </section>
+

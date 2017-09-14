@@ -1,42 +1,41 @@
 
+
 <section xml:id="ch01_3_systems">
   <title>Solving Systems of equations</title>
   <exploration>
     <introduction>
       <p>
-          Solve the following linear systems of equations.
+        Solve the following linear systems of equations.
       </p>
+
       <aside>
-        <p> For additional practice, make up your own systems of equations. Use \wolfA<nbsp /> or the SageCell below to check your work. </p>
+        <p>
+          For additional practice, make up your own systems of equations. Use \wolfA<nbsp /> or the SageCell below to check your work.
+        </p>
       </aside>
     </introduction>
-
     <task>
-        <p>
-          <m>\begin{cases}x+y\amp =3\\2x-y\amp =4
-          \end{cases}</m>
-        </p>
+      <p>
+        <m>\begin{cases}x+y\amp =3\\2x-y\amp =4
+        \end{cases}</m>
+      </p>
     </task>
-
     <task>
-        <p>
-          <m>\begin{cases}-x + 4y\amp =8\\3x - 12y\amp =2
-          \end{cases}</m>
-        </p>
+      <p>
+        <m>\begin{cases}-x + 4y\amp =8\\3x - 12y\amp =2
+        \end{cases}</m>
+      </p>
     </task>
-
     <conclusion>
-      <sage>
-        <input>
-          var('x y')
-          eq1 = x + 2*y == 7
-          eq2 = 2*x - 3*y == 3
-          solve([eq1,eq2],x,y)
-        </input>
-        <output>
-          [[x == (27/7), y == (11/7)]]
-        </output>
-      </sage>
+
+    <sage>
+      <input>var('x y')
+      eq1 = x + 2*y == 7
+      eq2 = 2*x - 3*y == 3
+      solve([eq1,eq2],x,y)</input>
+      <output>[[x == (27/7), y == (11/7)]]</output>
+    </sage>
+
     </conclusion>
   </exploration>
 
@@ -48,29 +47,28 @@
         \end{cases}</m>.
         Since there are more variables than equations, this suggests there is probably not just one solution, but perhaps infinitely many. One common way to deal with solving such a system is to let one variable equal <m>t</m>, and then solve for the other variables in terms of <m>t</m>. Do this three different ways.
       </p>
+
       <aside>
-        <p> 
+        <p>
           This <url href="http://www.wolframalpha.com/input/?i=Solve+x%2B2y%3D3+and+4x-y%2Bz%3D7+and+x%3Dt">link</url> will show you how to specify which variable is <m>t</m> when using Wolfram Alpha.
         </p>
       </aside>
     </introduction>
-
     <task>
-        <p>
-          If you let <m>x=t</m>, what are <m>y</m> and <m>z</m>.  Write your solution in the form <m>(x,y,z)</m> where you replace <m>x</m>, <m>y</m>, and <m>z</m> with what they are in terms of <m>t</m>.
-        </p>
+      <p>
+        If you let <m>x=t</m>, what are <m>y</m> and <m>z</m>.  Write your solution in the form <m>(x,y,z)</m> where you replace <m>x</m>, <m>y</m>, and <m>z</m> with what they are in terms of <m>t</m>.
+      </p>
     </task>
-
     <task>
-        <p>
-          If you let <m>y=t</m>, what are <m>x</m> and <m>z</m> (in terms of <m>t</m>).
-        </p>
+      <p>
+        If you let <m>y=t</m>, what are <m>x</m> and <m>z</m> (in terms of <m>t</m>).
+      </p>
     </task>
-
     <task>
-        <p>
-          If you let <m>z=t</m>, what are <m>x</m> and <m>y</m>.
-        </p>
+      <p>
+        If you let <m>z=t</m>, what are <m>x</m> and <m>y</m>.
+      </p>
     </task>
   </exploration>
 </section>
+
