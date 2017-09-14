@@ -14,8 +14,14 @@
   </p>
 
   <p>
-    The cake exercise was an example of an optimization problem where we wish to optimize a function (the volume of a box) subject to a constraint (the box has to fit inside a cake). If you are economics student, this section may be the key reason why you were asked to take multivariate calculus. In the business world, we often want to optimize something (profit, revenue, cost, utility, etc.) subject to some constraint (a limited budget, a demand curve, warehouse space, employee hours, etc.). An aerospace engineer will build the best wing that can withstand given forces. Everywhere in the engineering world, we often seek to create the <q>best</q> thing possible, subject to some outside constraints. Lagrange discovered an extremely useful method for answering this question, and today we call it <q>Lagrange Multipliers.</q> <!-- \extrafn{See Wikipedia's entry on <url href="https://en.wikipedia.org/wiki/Lagrange_multiplier">Lagrange Multipliers</url> for more background on them.} -->
+    The cake exercise was an example of an optimization problem where we wish to optimize a function (the volume of a box) subject to a constraint (the box has to fit inside a cake). If you are economics student, this section may be the key reason why you were asked to take multivariate calculus. In the business world, we often want to optimize something (profit, revenue, cost, utility, etc.) subject to some constraint (a limited budget, a demand curve, warehouse space, employee hours, etc.). An aerospace engineer will build the best wing that can withstand given forces. Everywhere in the engineering world, we often seek to create the <q>best</q> thing possible, subject to some outside constraints. Lagrange discovered an extremely useful method for answering this question, and today we call it <q>Lagrange Multipliers.</q> 
   </p>
+<aside>
+  <p> 
+    See Wikipedia's entry on <url href="https://en.wikipedia.org/wiki/Lagrange_multiplier">Lagrange Multipliers</url> for more background on them.
+  </p>
+</aside>
+
 
   <p>
     Rather than introduce Cobb-Douglass production functions (from economics) or sheer-stress calculations (from engineering), we'll work with simple examples that illustrate the key points. Sometimes silly examples carry the message across just as well.

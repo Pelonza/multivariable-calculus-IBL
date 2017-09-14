@@ -19,28 +19,46 @@
     We now extend those ideas to regions in the plane, in exactly the same way.
     For example, the average value formula in the line integral section was <m>\bar f = \dfrac{\int_C fdx}{\int_C ds}</m>.
     For double integrals, we just change <m>ds</m> to <m>dA</m>, and add an integral.
-    <!-- \extrafn{Average value formula} -->This gives the formula <m>\bar f = \dfrac{\iint_R fdA}{\iint_R dA}.</m>
+    This gives the formula <m>\bar f = \dfrac{\iint_R fdA}{\iint_R dA}.</m>
     The same substitution works on all the integrals from before.
     We now have <m>dm = \delta dA</m> instead of <m>dm=\delta ds</m>, as now density is a mass per area, instead of a mass per length.
     We obtained the arc length of a curve <m>C</m> by computing <m>s=\int_C ds</m>, as we just add up little bits of arc length.
     We can obtain the area of a region <m>R</m> by computing <m>A=\iint_R dA</m>, as we just add up little bits of area.
   </p>
+<aside>
+  <p> 
+    Average value formula
+  </p>
+</aside>
+
 
   <p>
-    The centroid of a region <m>R</m> in the plane is: <!-- \extrafn{Centroid Formula} -->
+    The centroid of a region <m>R</m> in the plane is: 
     <me>
       \left(\bar x = \frac{\iint_R x dA}{\iint_R dA}, 
       \bar y = \frac{\iint_R y dA}{\iint_R dA}\right)
     </me>
   </p>
+<aside>
+  <p> 
+    Centroid Formula
+  </p>
+</aside>
+
 
   <p>
-    <!-- \extrafn{Center of Mass Formula} -->and the center of mass is
+    and the center of mass is
     <me>
       \left(\bar x = \frac{\iint_R x  dm}{\iint_R dm}, 
       \bar y = \frac{\iint_R y dm}{\iint_R dm}\right), \text{ where \(dm=\delta dA\) } .
     </me>
   </p>
+<aside>
+  <p> 
+    Center of Mass Formula
+  </p>
+</aside>
+
 
   <p>
     One of the main reasons we are studying mass, center of mass, centroids, etc., is so that we can understand energy.

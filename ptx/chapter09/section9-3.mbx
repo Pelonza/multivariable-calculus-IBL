@@ -23,9 +23,15 @@
     <title>Gradients and Potentials</title>
     <statement>
       <p>
-        <!-- \extrafn{<url href="http://www.youtube.com/watch?v=8Tk2pEIOnwg&amp;list=PL04DF68E73B7ECD54&amp;index=9&amp;feature=plpp_video">Watch a YouTube Video</url>.} -->Let <m>\vec F</m> be a vector field. A potential for the vector field is a function <m>f</m> whose derivative equals <m>\vec F</m>. So if <m>Df=\vec F</m>, then we say that <m>f</m> is a potential for <m>\vec F</m>. When we want to emphasize that the derivative of <m>f</m> is a vector field, we call <m>Df</m> the gradient of <m>f</m> and write <m>Df = \vec \nabla f</m>.
+        Let <m>\vec F</m> be a vector field. A potential for the vector field is a function <m>f</m> whose derivative equals <m>\vec F</m>. So if <m>Df=\vec F</m>, then we say that <m>f</m> is a potential for <m>\vec F</m>. When we want to emphasize that the derivative of <m>f</m> is a vector field, we call <m>Df</m> the gradient of <m>f</m> and write <m>Df = \vec \nabla f</m>.
         <!-- \extrafn{The symbol <m>\vec \nabla f</m> is read <q>the gradient of <m>f</m></q> or <q>del f.</q>} -->If <m>\vec F</m> has a potential, then we say that <m>\vec F</m> is a gradient field.
       </p>
+<aside>
+  <p> 
+    <url href="http://www.youtube.com/watch?v=8Tk2pEIOnwg&amp;list=PL04DF68E73B7ECD54&amp;index=9&amp;feature=plpp_video">Watch a YouTube Video</url>.
+  </p>
+</aside>
+
     </statement>
   </definition>
 
@@ -205,11 +211,17 @@
     <title>The Fundamental Theorem of Line Integrals</title>
     <statement>
       <p>
-        <!-- \extrafn{<url href="http://www.youtube.com/watch?v=5ZsCN6NN3yg&amp;list=PL04DF68E73B7ECD54&amp;index=11&amp;feature=plpp_video">Watch a YouTube video</url>.} -->Suppose <m>f</m> is a continuously differentiable function, defined along some open region containing the smooth curve <m>C</m>. Let <m>\vec r(t)</m> be a parametrization of the curve <m>C</m> for <m>t\in[a,b]</m>. Then we have
+        Suppose <m>f</m> is a continuously differentiable function, defined along some open region containing the smooth curve <m>C</m>. Let <m>\vec r(t)</m> be a parametrization of the curve <m>C</m> for <m>t\in[a,b]</m>. Then we have
         <me>
           f(\vec r(b))-f(\vec r(a))=\int_a^b Df(\vec r(t))D\vec r(t)\ dt.
         </me>
       </p>
+<aside>
+  <p> 
+    <url href="http://www.youtube.com/watch?v=5ZsCN6NN3yg&amp;list=PL04DF68E73B7ECD54&amp;index=11&amp;feature=plpp_video">Watch a YouTube video</url>.
+  </p>
+</aside>
+
     </statement>
   </theorem>
 

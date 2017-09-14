@@ -32,12 +32,18 @@
         <ul>
           <li>
             <p>
-              <!-- \extrafn{We will not prove that the partial derivative expressions <m>N_x-M_y</m> and <m>M_x+N_y</m> are actually equal to the limits given here. That is best left to an advanced course.} -->The circulation density of <m>\vec F</m> at <m>(x,y)</m> we define to be
+              The circulation density of <m>\vec F</m> at <m>(x,y)</m> we define to be
               <me>
                 \frac{\partial N}{\partial x}-\frac{\partial M}{\partial y}=N_x-M_y = \lim_{a\to 0} \frac{1}{A_a}\oint_{C_a} \vec F \cdot  d\vec r = 
                 \lim_{a\to 0} \frac{1}{A_a}\oint_{C_a} Mdx+Ndy.
               </me>
             </p>
+<aside>
+  <p> 
+    We will not prove that the partial derivative expressions <m>N_x-M_y</m> and <m>M_x+N_y</m> are actually equal to the limits given here. That is best left to an advanced course.
+  </p>
+</aside>
+
           </li>
 
           <li>

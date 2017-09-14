@@ -98,9 +98,13 @@
     </task>
   </exploration>
 
-  <p>
-    <!-- \extrafn{Gauss developed and expanded many of the ideas in this section while on a map making mission for a king.  He wanted to create extremely high quality 2D images of the 3D world we are in.} -->
+  
+<aside>
+  <p> 
+    Gauss developed and expanded many of the ideas in this section while on a map making mission for a king.  He wanted to create extremely high quality 2D images of the 3D world we are in.
   </p>
+</aside>
+
 
   <p>
     We started with motion on a circle with a relatively simple speed. We then multiplied the speed by 5, and then chose a variable speed. You should have noticed that at the same point on the curve, regardless of speed, the quantities <m>\vec T</m>, <m>\dfrac{d\vec T}{ds}</m>, and <m>\left|\dfrac{d\vec T}{ds}\right|</m> remained the same. Will this pattern continue if we were to change from constant speeds to variable speeds? What if we left the path of a circle, and moved to any smooth curve? How far can we take this pattern? Is it true always? If so, then the quantities <m>\vec T</m>, <m>\dfrac{d\vec T}{ds}</m>, and <m>\left|\dfrac{d\vec T}{ds}\right|</m> are pretty important quantities that describe the curve we're on.
@@ -167,8 +171,14 @@
     <title>Radius of Curvature</title>
     <statement>
       <p>
-        <!-- \extrafn{Watch a <url href="http://www.youtube.com/watch?v=cHez5K1EWPs&amp;list=PL30EE81142B1ED1F0&amp;index=8&amp;feature=plpp_video">YouTube Video</url>.  } -->When the curvature <m>\kappa</m> of a smooth curve is nonzero, we'll define the radius of curvature, written <m>\rho</m>, to be the reciprocal <m>\rho = \dfrac{1}{\kappa}</m>. The curvature and radius of curvature are inversely related.
+        When the curvature <m>\kappa</m> of a smooth curve is nonzero, we'll define the radius of curvature, written <m>\rho</m>, to be the reciprocal <m>\rho = \dfrac{1}{\kappa}</m>. The curvature and radius of curvature are inversely related.
       </p>
+<aside>
+  <p> 
+    Watch a <url href="http://www.youtube.com/watch?v=cHez5K1EWPs&amp;list=PL30EE81142B1ED1F0&amp;index=8&amp;feature=plpp_video">YouTube Video</url>.
+  </p>
+</aside>
+
     </statement>
   </definition>
 

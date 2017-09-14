@@ -151,8 +151,14 @@
   <subsection>
     <title>Center of Mass</title>
     <p>
-      <!-- \extrafn{<url href="http://en.wikipedia.org/wiki/Center_of_mass">Wikipedia</url> has some interesting applications of center of mass.} -->The center of mass of an object is the point where the object balances. In order to calculate the <m>x</m>-coordinate of the center of mass, we average the <m>x</m>-coordinates, but we weight each <m>x</m>-coordinate with its mass. Similarly, we can calculate the <m>y</m> and <m>z</m> coordinates of the center of mass.
+      The center of mass of an object is the point where the object balances. In order to calculate the <m>x</m>-coordinate of the center of mass, we average the <m>x</m>-coordinates, but we weight each <m>x</m>-coordinate with its mass. Similarly, we can calculate the <m>y</m> and <m>z</m> coordinates of the center of mass.
     </p>
+<aside>
+  <p> 
+    <url href="http://en.wikipedia.org/wiki/Center_of_mass">Wikipedia</url> has some interesting applications of center of mass.
+  </p>
+</aside>
+
 
     <p>
       The next exercise helps us reason about the center of mass of a collection of objects. Calculating the center of mass of a collection of objects is important, for example, in astronomy when you want to calculate how two bodies orbit each other.
