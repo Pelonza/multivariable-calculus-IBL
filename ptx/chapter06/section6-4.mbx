@@ -2,24 +2,28 @@
 
 <section>
   <title>Functions of Several Variables:</title>
+  <objectives>
+    <introduction>
+      <p> 
+        In this section you will...
+      </p>
+    </introduction>
+    <ul>
+      <li>
+        <p>
+          identify the domain and range of a multivariable or vector-valued function
+        </p>
+      </li>
+
+      <li>
+        <p>
+          express curves and surfaces with parametric equations
+        </p>
+      </li>
+    </ul>
+  </objectives>
+
   <introduction>
-    <p>
-      Section Objectives:
-      <ul>
-        <li>
-          <p>
-            identify the domain and range of a multivariable or vector-valued function
-          </p>
-        </li>
-
-        <li>
-          <p>
-            express curves and surfaces with parametric equations
-          </p>
-        </li>
-      </ul>
-    </p>
-
     <p>
       In this section we'll focus on functions of the form <m>f\colon \mathbb{R}^2\to\mathbb{R}^1</m> and <m>f\colon \mathbb{R}^3\to\mathbb{R}^1</m>; we'll keep the output as a real number. In the next problem, you should notice that the input is a vector <m>(x,y)</m> and the output is a number <m>z</m>. There are two ways to graph functions of this type. The next two problems show you how.
     </p>
@@ -37,19 +41,14 @@
         <p>
           A computer chip has been disconnected from electricity and sitting in cold storage for quite some time. The chip is connected to power, and a few moments later the temperature (in Celsius) at various points <m>(x,y)</m> on the chip is measured. From these measurements, statistics is used to create a temperature function <m>T=z=f(x,y)</m> to model the temperature at any point on the chip. Suppose that this chip's temperature function is given by the equation <m>T=z=f(x,y)=9-x^2-y^2</m>. Eventually we'll be creating a 3D model of this function in this problem, so you'll need to place all your graphs on the same <m>x,y,z</m> axes. However, to begin with you may find it easier to start with several 2-D plots.
         </p>
-
-        <aside>
-          <p>
-            See <url href="http://aleph.sagemath.org/?z=eJxL06jQqdS0tdStiDPSrYwz4irIyS8xTtFI01EAyuga6xhrAlmVEJYmADAVC84">Sage</url> or 
-            <url href="http://wolfr.am/wny0IF">Wolfram Alpha</url>.
-          </p>
-        </aside>
       </introduction>
+
       <task>
         <p>
           What is the temperature at <m>(0,0)</m>, <m>(1,2)</m>, and <m>(-4,3)</m>?
         </p>
       </task>
+
       <task>
         <statement>
           <p>
@@ -62,6 +61,7 @@
           </p>
         </hint>
       </task>
+
       <task>
         <p>
           Now let <m>x=0</m>. Substitute this value into the temperature function and simplify. Plot the result. This plot should appear in the <m>yz</m> plane and be another parabola.
@@ -74,38 +74,64 @@
           If you drew the above curves in 2-D it is time to combine them. You should end up with 3 lines or a basic wire frame. To make a more complete wireframe we need to add more curves.
         </p>
       </task>
+
       <task>
-      <p>
-        State the simplified equation, then plot and label the curves for:
-      </p>
-      <task>
+        <introduction>
+          <p>
+            State the simplified equation, then plot and label the curves for:
+          </p>
+          <aside>
+            <p>
+              Note: You could have done this with <m>y</m> also.
+            </p>
+          </aside>
+        </introduction>
+
+        <task>
+          <p>
+            <m>x=-2</m>
+          </p>
+        </task>
+
+        <task>
+          <p>
+            <m>x=-1</m>
+          </p>
+        </task>
+
+        <task>
+          <p>
+            <m>x=1</m>
+          </p>
+        </task>
+
+        <task>
+          <p>
+            <m>x=2</m>
+          </p>
+        </task>
+        
+        <task>
+          <p>
+            Describe the shape. Add any extra features to your graph to convey the 3D image you are constructing.
+          </p>
+        </task>
+      </task>
+
+      <conclusion>
+        <!--  <url href="http://aleph.sagemath.org/?z=eJxL06jQqdS0tdStiDPSrYwz4irIyS8xTtFI01EAyuga6xhrAlmVEJYmADAVC84">Sage</url>  -->
         <p>
-          <m>x=-2</m>
+          See this <url href="http://wolfr.am/wny0IF">Wolfram Alpha</url> link or use the SageMathCell below to verify your answer.
         </p>
-      </task>
-      <task>
-        <p>
-          <m>x=-1</m>
-        </p>
-      </task>
-      <task>
-        <p>
-          <m>x=1</m>
-        </p>
-      </task>
-      <task>
-        <p>
-          <m>x=2</m>
-        </p>
-      </task>
-      Note: You could have done this with <m>y</m> also.
-      <task>
-        <p>
-          Describe the shape. Add any extra features to your graph to convey the 3D image you are constructing.
-        </p>
-      </task>
-      </task>
+        <sage>
+          <input>
+            f(x,y)=9-x^2-y^2
+            plot3d(f, (x,-3,3), (y,-3,3))
+          </input>
+        </sage>
+      </conclusion>
     </exploration>
+
   </subsection>
 
   <subsection>
@@ -121,14 +147,8 @@
         <p>
           We'll be using the same function <m>T=z=f(x,y)=9-x^2-y^2</m> as the previous problem. However, this time we'll construct a graph of the function by only studying places where the temperature is constant. We'll do this by creating a graph in 2D of the surface (similar to a topographical map).
         </p>
-
-        <aside>
-          <p>
-            See <url href="http://aleph.sagemath.org/?z=eJydj81qwzAQhO9-iiWXWCCHJqbQHHTtExR6KI1RnBVWWWuNVibR21fOH_Ta2-7M7PCtqy86K7NvLoddkw-7aiJO7al2GorTtLpVZcq3SW1k4HOtqiGNVK8-EZY0pDPDyTuHEUMCSZlQgB30HBLP8RoSEIbMM_Q2gCCWdcQllAb8EwSekucgm5Wq7nq36IXoCfTg0Y9LMV8veqtf9Zvefy8qcTzaaD7ijLof7WTWP5jWT_7_FpM9IsmtFpwnMu-WBPVV73wgH_DuWpmwT1205RuzVdUvSwN0NA">Sage</url> or 
-            <url href="http://wolfr.am/wny0IF">Wolfram Alpha</url>.
-          </p>
-        </aside>
       </introduction>
+
       <task>
         <statement>
           <p>
@@ -168,6 +188,22 @@
           Using your 2D plot, construct a 3D image of the function by lifting each level curve to its corresponding height.
         </p>
       </task>
+      <conclusion>
+        <!--  <url href="http://aleph.sagemath.org/?z=eJydj81qwzAQhO9-iiWXWCCHJqbQHHTtExR6KI1RnBVWWWuNVibR21fOH_Ta2-7M7PCtqy86K7NvLoddkw-7aiJO7al2GorTtLpVZcq3SW1k4HOtqiGNVK8-EZY0pDPDyTuHEUMCSZlQgB30HBLP8RoSEIbMM_Q2gCCWdcQllAb8EwSekucgm5Wq7nq36IXoCfTg0Y9LMV8veqtf9Zvefy8qcTzaaD7ijLof7WTWP5jWT_7_FpM9IsmtFpwnMu-WBPVV73wgH_DuWpmwT1205RuzVdUvSwN0NA">Sage</url>   -->
+        <p>
+          See this <url href="http://wolfr.am/wny0IF">Wolfram Alpha</url> link or use the SageMathCell below to verify your answer.
+        </p>
+        <sage>
+          <input>
+            f(x,y)=9-x^2-y^2
+            plot3d(f, (x,-3,3), (y,-3,3)).show()
+            print("We plot two different styles of contour plots so you can see some of the contour plot options.")
+            contour_plot(f,(x,-3,3),(y,-3,3), contours=[0,1,5,8,9], colorbar=True,cmap='jet').show()
+            contour_plot(f,(x,-3,3),(y,-3,3), contours=[0,1,5,8,9], labels=True, fill=False,label_inline=True, aspect_ratio=1)
+          </input>
+        </sage>
+      </conclusion>
+
     </exploration>
 
     <definition>
@@ -191,29 +227,39 @@
         <p>
           Consider the function <m>f(x,y)=x-y^2</m>.
         </p>
-
-        <aside>
-          <p>
-            See <url href="http://aleph.sagemath.org/?z=eJxL06jQqdS0rdCtjDPiKs7IL9coyMkvMU7RSNNRAErpGusYawJZlRCWpiZETXJ-Xkl-aVE8SC12lToKybmJBbbqWakl6kB2fk5-UVJikW1IUWmqTk5iUmpOMZitqQkAhh0mmg">Sage</url> or 
-            <url href="http://wolfr.am/wBOk1b">Wolfram Alpha</url>.
-          </p>
-        </aside>
       </introduction>
+
       <task>
         <p>
           Use the same process as <xref ref="prob_3dsurface_plot">problem</xref> to construct a 3D surface plot of <m>f</m>. [So just graph in 3D the curves given by <m>x=0</m> and <m>y=0</m> and then try setting <m>x</m> or <m>y</m> equal to some other constants, like <m>x=1</m>, <m>x=2</m>, <m>y=1</m>, <m>y=2</m>, etc.]
         </p>
       </task>
+
       <task>
         <p>
           Use the same process as <xref ref="prob_intro_to_contour_plots">problem</xref> to construct a contour plot of <m>f</m>. [So just graph in 2D the curves given by setting <m>z</m> equal to a few constants, like <m>z=0</m>, <m>z=1</m>, <m>z=-4</m>, etc.]
         </p>
       </task>
+
       <task>
         <p>
           Which level curve passes through the point <m>(2,2)</m>?  Draw this level curve on your contour plot.
         </p>
       </task>
+
+      <conclusion>
+        <!--  <url href="http://aleph.sagemath.org/?z=eJxL06jQqdS0rdCtjDPiKs7IL9coyMkvMU7RSNNRAErpGusYawJZlRCWpiZETXJ-Xkl-aVE8SC12lToKybmJBbbqWakl6kB2fk5-UVJikW1IUWmqTk5iUmpOMZitqQkAhh0mmg">Sage</url>  -->
+        <p>
+          See this <url href="http://wolfr.am/wBOk1b">Wolfram Alpha</url> link or use the SageMathCell below to verify your answer.
+        </p>
+        <sage>
+          <input>
+            f(x,y)=x-y^2
+            show(plot3d(f, (x,-3,3), (y,-3,3)))
+            show(contour_plot(f, (x,-3,3), (y,-3,3), cmap='jet', colorbar=True,labels=True))
+          </input>
+        </sage>
+      </conclusion>
     </exploration>
 
     <p>
@@ -234,15 +280,8 @@
         <p>
           Suppose that an explosion occurs at the origin <m>(0,0,0)</m>. Heat from the explosion starts to radiate outwards. Now suppose that a few moments after the explosion, the temperature at any point in space is given by <m>w=T(x,y,z)=100-x^2-y^2-z^2.</m>
         </p>
-
-        <aside>
-          <p>
-            See <url href="http://aleph.sagemath.org/?z=eJwrSyzSUK_QqdSpUtfkCtEAszRtDQ0MdCvijHQrgbgqzogrM7cgJzM5syS-ICe_xDhFA67Q1tJSRwHIUdA11lEw1gSyK8FsMLMKytRUAADtWRrw">Sage</url>.  
-
-            Wolfram Alpha currently does not support drawing level surfaces.  You could also use Mathematica or <url href="http://demonstrations.wolfram.com/LevelSurfacesAndQuadraticSurfaces/">Wolfram Demonstrations</url>.
-          </p>
-        </aside>
       </introduction>
+
       <task>
         <statement>
           <p>
@@ -280,6 +319,21 @@
           As you move outwards, away from the origin, what happens to your temperature?
         </p>
       </task>
+
+        <conclusion>
+          <p>
+            See Wolfram Alpha currently does not support drawing level surfaces.  You could also use Mathematica or <url href="http://demonstrations.wolfram.com/LevelSurfacesAndQuadraticSurfaces/">Wolfram Demonstrations</url>.
+          </p>
+          <!-- <url href="http://aleph.sagemath.org/?z=eJwrSyzSUK_QqdSpUtfkCtEAszRtDQ0MdCvijHQrgbgqzogrM7cgJzM5syS-ICe_xDhFA67Q1tJSRwHIUdA11lEw1gSyK8FsMLMKytRUAADtWRrw">Sage</url>. -->
+          <sage>
+            <input>
+              var('x,y,z')
+              T(x,y,z)=100-x^2-y^2-z^2
+              implicit_plot3d(T(x,y,z)==99, (x, -3, 3), (y, -3,3), (z, -3,3))
+            </input>
+          </sage>
+        </conclusion>
+
     </exploration>
 
     <todo>\larsonfive{See Larson 11.6:716.}
@@ -639,5 +693,17 @@
 
     </subsubsection>
   </subsection>
+
+
+  <!-- For 2->3 Library/Union/setMVfunctions/nm2.pg -->
+<!-- Surface matching  Library/UMN/calculusStewartET/s_12_6_21/s_12_6_21.pg
+ Library/UMN/calculusStewartET/s_14_1_23/s_14_1_23.pg
+-->
+
+<!-- Portions of sphere by limits... Library/Michigan/Chap17Sec5/Q11.pg -->
+
+<!-- Matching contour lines  Library/Michigan/Chap12Sec3/Q16.pg -->
+
+ <!-- </exercises>-->
 </section>
 
