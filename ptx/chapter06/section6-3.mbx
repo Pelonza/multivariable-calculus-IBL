@@ -173,45 +173,126 @@
     </task>
   </exploration>
 
-  <exploration>
+  <subsection>
+    <title>Summary and Challenge Exercise</title>
+
+    <exploration>
+      <introduction>
+        <p>
+          Go back to the table you started in <xref ref="prob_function_table">problem</xref>.
+        </p>
+      </introduction>
+      <task>
+        <p>
+          Add in the new problems you've completed.
+        </p>
+      </task>
+      <task>
+        <p>
+          What do you observe about the domain (<m>n</m>), co-domain (<m>m</m>) and the dimensions required for plotting?
+        </p>
+      </task>
+    </exploration>
+
+    <p>
+      In all the problems above, you should have noticed that in order to draw a function (provided you include arrows for direction, or use an animation to represent <q>time</q>), you can determine how many dimensions you need to graph a function by just summing the dimensions of the domain and codomain. This is true in general.
+    </p>
+
+    <exploration xml:id="second_parametric_surface_example">
+      <aside>
+        <p>
+          See <url href="http://aleph.sagemath.org/?z=eJxL0yjVUSjTtNUo1UrOL9Yo09RRKNUqzsyDsOKMNLkKEosSc1NLijKT4wty8ks00nQUQHoMdBRMgEo0ynQMdIy0CjI1NQFPyxVa">Sage</url> or <url href="http://wolfr.am/A90cfW">Wolfram Alpha</url>.
+        </p>
+      </aside>
+      <title>Challenge: More Parametric Surfaces</title>
+      <statement>
+        <p>
+          Consider the parametric surface <m>\vec r(u,v)=(u\cos v, u\sin v, u^2)</m> for <m>0\leq u\leq 3</m> and <m>0\leq v\leq 2 \pi</m>.
+          Construct a graph of this function. To do so, let <m>u</m> equal a constant (such as 1, 2, 3) and then graph the resulting space curve. Then let <m>v</m> equal a constant (such as 0, <m>\pi/2</m>, etc.) and graph the resulting space curve until you can visualize the surface.
+        </p>
+      </statement>
+      <hint>
+        <p>
+          Think satellite dish.
+        </p>
+      </hint>
+    </exploration>
+  </subsection>
+
+
+  <exercises>
+    <title>Computational Practice</title>
     <introduction>
       <p>
-        Go back to the table you started in <xref ref="prob_function_table">problem</xref>.
+        These are provided to help you achieve better skills in basic computational answers. Note that the content in these really covers Sections 6.1-6.3
       </p>
     </introduction>
-    <task>
-      <p>
-        Add in the new problems you've completed.
-      </p>
-    </task>
-    <task>
-      <p>
-        What do you observe about the domain (<m>n</m>), co-domain (<m>m</m>) and the dimensions required for plotting?
-      </p>
-    </task>
-  </exploration>
 
-  <p>
-    In all the problems above, you should have noticed that in order to draw a function (provided you include arrows for direction, or use an animation to represent <q>time</q>), you can determine how many dimensions you need to graph a function by just summing the dimensions of the domain and codomain. This is true in general.
-  </p>
+    <exercisegroup>
+      <introduction>
+        <p>
+          These should help you practicing identifying the domain/range and input/output values.
+        </p>
+      </introduction>
 
-  <exploration xml:id="second_parametric_surface_example">
+      <exercise>
+        <webwork source="Library/Union/setMVfunctions/nm1.pg" />
+      </exercise>
 
-    <aside>
-      <p>
-        See <url href="http://aleph.sagemath.org/?z=eJxL0yjVUSjTtNUo1UrOL9Yo09RRKNUqzsyDsOKMNLkKEosSc1NLijKT4wty8ks00nQUQHoMdBRMgEo0ynQMdIy0CjI1NQFPyxVa">Sage</url> or <url href="http://wolfr.am/A90cfW">Wolfram Alpha</url>.
-      </p>
-    </aside>
-    <title>More Parametric Surfaces</title>
-    <p>
-      Consider the parametric surface <m>\vec r(u,v)=(u\cos v, u\sin v, u^2)</m> for <m>0\leq u\leq 3</m> and <m>0\leq v\leq 2 \pi</m>.
-      Construct a graph of this function. To do so, let <m>u</m> equal a constant (such as 1, 2, 3) and then graph the resulting space curve. Then let <m>v</m> equal a constant (such as 0, <m>\pi/2</m>, etc.) and graph the resulting space curve until you can visualize the surface.
-    </p>
-    <hint>
-      <p>
-        Think satellite dish.
-      </p>
-    </hint>
-  </exploration>
+      <exercise>
+        <webwork source="Library/Union/setMVfunctions/nm2.pg" />
+      </exercise>
+
+      <exercise>
+        <webwork source="Library/Union/setMVfunctions/nm3.pg" />
+      </exercise>
+
+      <exercise>
+        <webwork source="Library/Union/setMVfunctions/system-nm1.pg" />
+      </exercise>
+
+      <exercise>
+        <webwork source="Library/Union/setMVfunctions/system-nm2.pg" />
+      </exercise>
+
+    </exercisegroup>
+
+    <exercisegroup>
+      <introduction>
+        <p>
+          These will help you practice actually computing values from multiple input/output functions.
+        </p>
+      </introduction>
+
+      <exercise>
+        <webwork source="Library/Union/setMVfunctions/an13_1_a.pg" />
+      </exercise>
+
+      <exercise>
+        <webwork source="Library/Union/setMVfunctions/an13_1_b.pg" />
+      </exercise>
+
+      <exercise>
+        <webwork source="Library/Union/setMVfunctions/an14_1_1.pg" />
+      </exercise>
+
+      <exercise>
+        <webwork source="Library/Union/setMVfunctions/an14_1_3.pg" />
+      </exercise>
+
+    </exercisegroup>
+
+  </exercises>
+
+<!-- For 2->3 Library/Union/setMVfunctions/nm2.pg -->
+<!-- Surface matching  Library/UMN/calculusStewartET/s_12_6_21/s_12_6_21.pg
+ Library/UMN/calculusStewartET/s_14_1_23/s_14_1_23.pg
+-->
+
+<!-- Portions of sphere by limits... Library/Michigan/Chap17Sec5/Q11.pg -->
+
+<!-- Matching contour lines  Library/Michigan/Chap12Sec3/Q16.pg -->
+
+ <!-- </exercises>-->
 </section>
 

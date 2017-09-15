@@ -28,7 +28,7 @@
   \thomasee{There's a lot more practice of this idea in 11.1. You'll also find more practice in 13.1: 1-8.}
   \larsonfive{See also Larson 10.2.  You can also find more practice in 12.1 and 12.3.}
   </todo>
-  <introduction>
+
     <exploration xml:id="prob_parametric_curve_in_plane">
       <introduction>
         <p>
@@ -139,9 +139,9 @@
       -->
       </conclusion>
     </exploration>
-  </introduction>
 
-  <subsection>
+
+
     <title>Summarizing</title>
     <exploration xml:id="prob_function_table">
       <p>
@@ -181,8 +181,9 @@
         Go back over the previous problems in this unit and fill in the table.
       </p>
     </exploration>
-  </subsection>
 
+
+<!--
   <exercises>
     <title>Computational Practice</title>
     <introduction>
@@ -190,8 +191,17 @@
         These are provided to help you achieve better skills in basic computational answers
       </p>
     </introduction>
+-->
+<!-- For 2->3 Library/Union/setMVfunctions/nm2.pg -->
+<!-- Surface matching  Library/UMN/calculusStewartET/s_12_6_21/s_12_6_21.pg
+ Library/UMN/calculusStewartET/s_14_1_23/s_14_1_23.pg
+-->
 
-  </exercises>
+<!-- Portions of sphere by limits... Library/Michigan/Chap17Sec5/Q11.pg -->
+
+<!-- Matching contour lines  Library/Michigan/Chap12Sec3/Q16.pg -->
+
+ <!-- </exercises>-->
 
 </section>
 
