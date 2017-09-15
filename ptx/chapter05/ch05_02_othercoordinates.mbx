@@ -234,10 +234,11 @@
   <exercises>
     <title>Computational Practice</title>
     <introduction>
-      <p> 
-        There are multiple copies of several exercises for your practice. You don't need to do them all. Do as many as it takes to get one right quickly.
+      <p>
+        These are provided to help you achieve better skills in basic computational answers
       </p>
     </introduction>
+
     <exercisegroup>
       <exercise>
         <webwork source="Library/Rochester/setVectors5Coordinates/urvc_3_7.pg" />
