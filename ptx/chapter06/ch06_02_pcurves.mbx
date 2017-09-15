@@ -142,12 +142,10 @@
 
 
 
-    <title>Summarizing</title>
+<!--    <title>Summarizing</title> -->
     <exploration xml:id="prob_function_table">
       <p>
         On a separate piece of paper (you'll be expanding this later) create a table with columns for:
-      </p>
-      <list>
         <ul>
           <li>
             <p>
@@ -175,7 +173,8 @@
             </p>
           </li>
         </ul>
-      </list>
+      </p>
+
       
       <p>
         Go back over the previous problems in this unit and fill in the table.

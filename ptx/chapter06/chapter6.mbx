@@ -24,20 +24,20 @@
       <li>
         <p>
           Describe uses for, construct graphs of, and find the domain or range of functions of several variables.
-        </p>
-        <ol>
-          <li>
-            <p>
-              For functions of the form <m>z=f(x,y)</m>, this includes both 3D surface plots and 2D level curve plots.
-            </p>
-          </li>
+          <ol>
+            <li>
+              <p>
+                For functions of the form <m>z=f(x,y)</m>, this includes both 3D surface plots and 2D level curve plots.
+              </p>
+            </li>
 
-          <li>
-            <p>
-              For functions of the form <m>w=f(x,y,z)</m>, construct plots of level surfaces.
-            </p>
-          </li>
-        </ol>
+            <li>
+              <p>
+                For functions of the form <m>w=f(x,y,z)</m>, construct plots of level surfaces.
+              </p>
+            </li>
+          </ol>
+        </p>
       </li>
 
       <li>
@@ -53,11 +53,14 @@
       </li>
     </ol>
   </objectives>
-  <xi:include  href="ch06_01_terminology.mbx" />
+
+  <xi:include  href="ch06_01_terminology.mbx" /> 
   <xi:include  href="ch06_02_pcurves.mbx" />
-  <xi:include  href="ch06_03_psurfaces.mbx" />
+  <xi:include  href="ch06_03_psurfaces.mbx" /> <!--
   <xi:include  href="section6-4.mbx" />
   <xi:include  href="section6-5.mbx" />
   <xi:include  href="sec_functionlist.mbx" />
+
+-->
 </chapter>
 
