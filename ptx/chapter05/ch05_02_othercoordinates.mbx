@@ -62,21 +62,25 @@
         <p>
           To the same axes as above, add the graphs of:
         </p>
-        <aside>
+
+      </introduction>
+      <task>
+        <statement>
           <p>
-            Use the SageMath Cells above to check your answer.
+            <m>\vec T(1,\omega), \vec T(2,\omega), \vec T(4,\omega)</m>  for <m>\omega\in[0,2\pi]</m>
           </p>
-        </aside>
+          <todo> The aside and hint really below to the introduction here. </todo>
+          <aside>
+            <p>
+              Use the SageMath Cells above to check your answer.
+            </p>
+          </aside>
+        </statement>
         <hint>
           <p>
             when you're done, you should have a bunch of parabolas and ellipses.
           </p>
         </hint>
-      </introduction>
-      <task>
-          <p>
-            <m>\vec T(1,\omega), \vec T(2,\omega), \vec T(4,\omega)</m>  for <m>\omega\in[0,2\pi]</m>
-          </p>
       </task>
 
       <task>
