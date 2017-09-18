@@ -130,8 +130,8 @@
       <tabular>
         <row>
           <cell>Cylindrical Coordinates</cell>
-          <cell>Spherical Coordinates(Math)</cell>
-          <cell>Spherical (Physics/Engineering)</cell>
+          <cell>Spherical Coordinates(Physics/Engineering)</cell>
+          <cell>Spherical (Math)</cell>
         </row>
         <row bottom="minor">
           <cell></cell>
@@ -145,14 +145,14 @@
           z=z
           \end{array}</m></cell>
           <cell><m>\begin{array}{l}
-          x=\rho\sin\theta\cos\phi\\
-          y=\rho\sin\theta\sin\phi\\
-          z=\rho\cos\theta
+          x=r\sin\theta\cos\phi\\
+          y=r\sin\theta\sin\phi\\
+          z=r\cos\theta
           \end{array}</m></cell>
           <cell><m>\begin{array}{l}
-          x=r\sin\phi\cos\theta\\
-          y=r\sin\phi\sin\theta\\
-          z=r\cos\phi
+          x=\rho\sin\phi\cos\theta\\
+          y=\rho\sin\phi\sin\theta\\
+          z=\rho\cos\phi
           \end{array}</m></cell>
         </row>
       </tabular>

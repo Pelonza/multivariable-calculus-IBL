@@ -577,7 +577,9 @@
             Recall that <m>\phi</m> (<q>phi</q>) is the angle down from the <m>z</m> axis, <m>\theta</m> (<q>theta</q>) is the angle counterclockwise from the <m>x</m>-axis in the <m>xy</m>-plane, and <m>\rho</m> (<q>rho</q>) is the distance from the origin. Review <xref ref="derive_spherical_coordinates">problem</xref> if you need a refresher.
           </p>          
         </aside>
-        
+        <p>
+          For all of the tasks below, do your best to figure out the shape BEFORE using the sage plotting. You should be able to explain (logically) why the graphs generated match the sage plots.
+        </p>
       </introduction>
       <task>
         <aside>
@@ -598,20 +600,29 @@
         </sage>
       </task>
       <task>
-        <aside>
-          <p>
-            See 
-            <url href="http://aleph.sagemath.org/?z=eJxVjrEKwzAMRPd8xZHJMioNTdf8RfZiQsCCNha2_p9WyeJuuveOQ2uouTA0C8PybomwwFlscoQfpriVFi7F-BN-9MKLLmjQKodhXD0uKvcnQdrI6MCgqabPblW2l76Lhc4xrl3GxHhEFSfnn7eZMRN9AfBbOD8">Sage</url> or 
-            <url href="http://www.wolframalpha.com/input/?i=parametric+plot+3d+%28rho+sin+%28pi%2F4%29+cos+theta%2C+rho+sin+%28pi%2F4%29+sin+theta%2C+rho+cos+%28pi%2F4%29%29+">Wolfram Alpha</url>.
-          </p>
-        </aside>
         <p>
           Let <m>\phi=\pi/4</m> and graph the resulting surface.  What do you get if <m>\phi=\pi/2</m>?
         </p>
+        <aside>
+          <p>
+            See <url href="http://www.wolframalpha.com/input/?i=parametric+plot+3d+%28rho+sin+%28pi%2F4%29+cos+theta%2C+rho+sin+%28pi%2F4%29+sin+theta%2C+rho+cos+%28pi%2F4%29%29+">Wolfram Alpha</url>.
+          </p>
+        </aside>
+        <sage>
+          <!-- <url href="http://aleph.sagemath.org/?z=eJxVjrEKwzAMRPd8xZHJMioNTdf8RfZiQsCCNha2_p9WyeJuuveOQ2uouTA0C8PybomwwFlscoQfpriVFi7F-BN-9MKLLmjQKodhXD0uKvcnQdrI6MCgqabPblW2l76Lhc4xrl3GxHhEFSfnn7eZMRN9AfBbOD8">Sage</url> -->
+          <input>
+            T(rho, phi, theta) = (rho*sin(phi)*cos(theta), rho*sin(phi)*sin(theta), rho*cos(phi))
+            print "T(phi=pi/4) is", T(phi=pi/4)
+            parametric_plot(T(phi=pi/4), (theta, 0, 2*pi), (rho, -3, 3))
+          </input>
+        </sage>
       </task>
       <task>
         <p>
           Let <m>\theta=\pi/4</m> and graph the resulting surface.  What do you get if <m>\theta=\pi/2</m>?
+        </p>
+        <p>
+          If you want to see this plotted, you can just modify the previous sage cell.
         </p>
       </task>
     </exploration>
