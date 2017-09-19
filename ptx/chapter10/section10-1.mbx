@@ -40,7 +40,7 @@
       </p>
       <hint>
         <p>
-          If you need a reminder of how to draw level curves look back at <xref ref="prob_intro_to_contour_plots">exercise</xref>
+          If you need a reminder of how to draw level curves look back at <xref ref="prob_intro_to_contour_plots"/>
         </p>
       </hint>
       <aside>
@@ -560,7 +560,7 @@
 
     <exploration>
       <p>
-        Use the process from <xref ref="prob_gradient_to_tangent_practice"></xref> to find an equation of the tangent plane to the hyperboloid of one sheet <m>1=x^2-y^2+z^2</m> at the point <m>(-3,3,1)</m>.
+        Use the process from <xref ref="prob_gradient_to_tangent_practice"/> to find an equation of the tangent plane to the hyperboloid of one sheet <m>1=x^2-y^2+z^2</m> at the point <m>(-3,3,1)</m>.
       </p>
 
       <p>

@@ -59,7 +59,7 @@
   </exploration>
 
   <p>
-    If someone gives us parametric equations for a curve in the plane, we know how to draw the curve. How do we obtain parametric equations of a given curve? In <xref ref="prob_parametric_curve_in_plane">problem</xref>, we were given the parametric equation for the path of a horse, namely <m>x=2\cos t, y=3 \sin t</m> or <m>\vec r(t)=(2\cos t,3\sin t)</m>. From those equations, we drew the path of the horse, and could have written a Cartesian equation for the path. How do we work this in reverse, namely if we had only been given the ellipse <m>\ds\frac{x^2}{4}+\frac{y^2}{9}=1</m>, could we have obtained parametric equations <m>\vec r(t)=(x(t),y(t))</m> for the curve?
+    If someone gives us parametric equations for a curve in the plane, we know how to draw the curve. How do we obtain parametric equations of a given curve? In <xref ref="prob_parametric_curve_in_plane"/>, we were given the parametric equation for the path of a horse, namely <m>x=2\cos t, y=3 \sin t</m> or <m>\vec r(t)=(2\cos t,3\sin t)</m>. From those equations, we drew the path of the horse, and could have written a Cartesian equation for the path. How do we work this in reverse, namely if we had only been given the ellipse <m>\ds\frac{x^2}{4}+\frac{y^2}{9}=1</m>, could we have obtained parametric equations <m>\vec r(t)=(x(t),y(t))</m> for the curve?
   </p>
 
   <exploration>
@@ -91,9 +91,9 @@
   </exploration>
 
   <p>
-    If someone gives us parametric equations for a surface, we can draw the surface. This is what we did in <xref ref="prob_parametric_surface_example">problems</xref> and <xref ref="second_parametric_surface_example"></xref>.
+    If someone gives us parametric equations for a surface, we can draw the surface. This is what we did in <xref ref="prob_parametric_surface_example"/> and <xref ref="second_parametric_surface_example"/>.
     How do we work backwards and obtain parametric equations for a given surface?
-    This requires that we write an equation for <m>x</m>, <m>y</m>, and <m>z</m> in terms of two input variables (<xref ref="prob_parametric_surface_example">see</xref> and <xref ref="second_parametric_surface_example"></xref> for examples).
+    This requires that we write an equation for <m>x</m>, <m>y</m>, and <m>z</m> in terms of two input variables (See <xref ref="prob_parametric_surface_example"/> and <xref ref="second_parametric_surface_example"/> for examples).
     In vector form, we need a function <m>\vec r\colon \mathbb{R}^2\to\mathbb{R}^3</m>.
     We can often use a coordinate transformation <m>\vec T\colon \mathbb{R}^3\to\mathbb{R}^3</m> to obtain a parametrization of a surface.
   </p>
@@ -110,7 +110,7 @@
   <exploration xml:id="x3d_parametric_plot">
     <introduction>
       <p>
-        Consider the surface <m>z=9-x^2-y^2</m> plotted in <xref ref="prob_3dsurface_plot">problem</xref>.
+        Consider the surface <m>z=9-x^2-y^2</m> plotted in <xref ref="prob_3dsurface_plot"/>.
       </p>
     </introduction>
     <task>
@@ -177,7 +177,7 @@
     </task>
     <conclusion>
       <p>
-        Use the SageMath Cell or <url href="http://wolframalpha.com">Wolfram Alpha</url> to plot your parametrization with your bounds (See <xref ref="x3d_parametric_plot">this problem</xref> for examples).
+        Use the SageMath Cell or <url href="http://wolframalpha.com">Wolfram Alpha</url> to plot your parametrization with your bounds (See <xref ref="x3d_parametric_plot"/> for examples).
       </p>
       <sage>
         <input>
@@ -220,7 +220,7 @@
 
       <aside>
         <p>
-          We did very similar things in <xref ref="graphing_spherical_coordinates">problem</xref>.
+          We did very similar things in <xref ref="graphing_spherical_coordinates"/>.
         </p>
       </aside>
     </introduction>
@@ -255,7 +255,7 @@
     </task>
     <conclusion>
       <p>
-        Use the SageMath Cell or <url href="http://wolframalpha.com">Wolfram Alpha</url> to plot your parametrization with your bounds (See <xref ref="x3d_parametric_plot">this problem</xref> for examples).
+        Use the SageMath Cell or <url href="http://wolframalpha.com">Wolfram Alpha</url> to plot your parametrization with your bounds (See <xref ref="x3d_parametric_plot"/> for examples).
       </p>
       <sage>
         <input>
@@ -299,7 +299,7 @@
     </task>
     <conclusion>
       <p>
-        Use the SageMath Cell or <url href="http://wolframalpha.com">Wolfram Alpha</url> to plot your parametrization with your bounds (See <xref ref="x3d_parametric_plot">this problem</xref> for examples).
+        Use the SageMath Cell or <url href="http://wolframalpha.com">Wolfram Alpha</url> to plot your parametrization with your bounds (See <xref ref="x3d_parametric_plot"/> for examples).
       </p>
       <sage>
         <input>

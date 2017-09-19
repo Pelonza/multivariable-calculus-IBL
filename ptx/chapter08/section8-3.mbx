@@ -46,7 +46,7 @@
     </task>
     <task>
       <p>
-        We need to get from a magnitude to a dot product. Look in your text for a way to relate magnitude to the dot product. See <xref ref="dot_product_facts">exercise</xref>.
+        We need to get from a magnitude to a dot product. Look in your text for a way to relate magnitude to the dot product. See <xref ref="dot_product_facts"/>.
       </p>
     </task>
     <task>
@@ -107,7 +107,7 @@
           \vec N(t) = \ds\frac{d\vec T/dt}{|d\vec T/dt|},
         </me>
         provided of course that <m>|d\vec T/dt|\neq 0</m>.
-        From <xref ref="T_and_N_are_orthogonal">exercise</xref> we know that <m>\vec T</m> and <m>\vec N</m> are orthogonal.
+        From <xref ref="T_and_N_are_orthogonal"/> we know that <m>\vec T</m> and <m>\vec N</m> are orthogonal.
       </p>
     </statement>
   </definition>

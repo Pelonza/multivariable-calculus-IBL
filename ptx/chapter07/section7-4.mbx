@@ -80,7 +80,7 @@
   <exploration xml:id="chain_rule_two">
     <introduction>
       <p>
-        In <xref ref="prob_differential_volume_of_a_cylinder">exercise</xref>, we showed that for a circular cylinder with volume <m>V=\pi r^2 h</m>, the derivative is
+        In <xref ref="prob_differential_volume_of_a_cylinder"/>, we showed that for a circular cylinder with volume <m>V=\pi r^2 h</m>, the derivative is
         <me>
           DV(r,h)=\begin{bmatrix}2\pi rh \amp  \pi r^2
           \end{bmatrix} .

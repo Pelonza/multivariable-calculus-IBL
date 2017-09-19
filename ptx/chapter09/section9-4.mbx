@@ -109,7 +109,7 @@
     </task>
     <task>
       <p>
-        The formula for <m>\bar f</m> in the previous part resembles at least one of the ways of calculating averages from <xref ref="average_value_methods">exercise</xref>.  Which ones and why?
+        The formula for <m>\bar f</m> in the previous part resembles at least one of the ways of calculating averages from <xref ref="average_value_methods"/>.  Which ones and why?
       </p>
     </task>
   </exploration>
@@ -148,7 +148,7 @@
     <task>
       <aside>
         <p>
-          See <xref ref="horse_track_chain_rule_introduction">exercise</xref>.
+          See <xref ref="horse_track_chain_rule_introduction"/>.
         </p>
       </aside>
       <p>
@@ -180,7 +180,7 @@
           <me>
             \bar f = \frac{\int_C f ds}{\int_C ds}.
           </me>
-          Connect this formula with the ways of thinking about averages from <xref ref="average_value_methods">Exercise</xref>.
+          Connect this formula with the ways of thinking about averages from <xref ref="average_value_methods"/>.
         </p>
       </statement>
       <hint>

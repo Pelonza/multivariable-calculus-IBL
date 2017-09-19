@@ -152,7 +152,7 @@
 
   <exploration>
     <p>
-      Repeat <xref ref="optimize_box_in_cake">exercise</xref>, but this time use Lagrange multipliers.
+      Repeat <xref ref="optimize_box_in_cake"/>, but this time use Lagrange multipliers.
       Find the dimensions of the rectangular box of maximum volume that fits underneath the surface <m>z=f(x,y)=9-x^2-y^2</m> for <m>z\geq 0</m>.
     </p>
     <hint>

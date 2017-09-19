@@ -16,7 +16,7 @@
     <exploration xml:id="prob_parametric_surface_example">
       <introduction>
         <p>
-          The jet from <xref ref="prob_jet_intro_for_space_curves">problem</xref> is actually accompanied by several jets flying side by side. As all the jets fly, they leave a smoke trail behind them (it's an air show). The smoke from one jet spreads outwards to mix with the neighboring jet, so that it looks like the jets are leaving a rather wide sheet of smoke behind them as they fly.
+          The jet from <xref ref="prob_jet_intro_for_space_curves"/> is actually accompanied by several jets flying side by side. As all the jets fly, they leave a smoke trail behind them (it's an air show). The smoke from one jet spreads outwards to mix with the neighboring jet, so that it looks like the jets are leaving a rather wide sheet of smoke behind them as they fly.
         </p>
 
         <p>
@@ -109,7 +109,7 @@
     <exploration>
       <introduction>
         <p>
-          Use the same set up as <xref ref="prob_jet_intro_for_space_curves">problem</xref>, namely
+          Use the same set up as <xref ref="prob_jet_intro_for_space_curves"/>, namely
           <me>
             \vec r(t)=(2\cos t, 2\sin t, t).
           </me>
@@ -152,7 +152,7 @@
     <exploration>
       <introduction>
         <p>
-          Consider the pebble from <xref ref="prob_pebble">problem</xref>. The pebble's height was given by <m>y=64-16t^2</m>. The pebble also has some horizontal velocity (it's moving at 3 ft/s to the right). If we let the origin be the base of the 64 ft building, then the position of the pebble at time <m>t</m> is given by <m>\vec r(t) = (3t, 64-16t^2)</m>.
+          Consider the pebble from <xref ref="prob_pebble"/>. The pebble's height was given by <m>y=64-16t^2</m>. The pebble also has some horizontal velocity (it's moving at 3 ft/s to the right). If we let the origin be the base of the 64 ft building, then the position of the pebble at time <m>t</m> is given by <m>\vec r(t) = (3t, 64-16t^2)</m>.
         </p>
       </introduction>
       <task>
@@ -207,7 +207,7 @@
     <exploration>
       <introduction>
         <p>
-          Go back to the table you started in <xref ref="prob_function_table">problem</xref>.
+          Go back to the table you started in <xref ref="prob_function_table"/>.
         </p>
       </introduction>
       <task>

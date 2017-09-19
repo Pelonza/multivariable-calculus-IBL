@@ -92,7 +92,7 @@
     <task>
     <aside>
       <p>
-        See <xref ref="second_partials_agree">exercise</xref>.
+        See <xref ref="second_partials_agree"/>.
       </p>
     </aside>
     <p>
@@ -239,7 +239,7 @@
     <title>Proof of the Fundamental Theorem</title>
     <p>
       Suppose <m>f(x,y)</m> is continuously differentiable, and suppose that <m>\vec r(t)</m> for <m>t\in[a,b]</m> is a parametrization of a smooth curve <m>C</m>. Prove that <m>f(\vec r(b))-f(\vec r(a)) = \int_a^b Df(\vec r(t))D\vec r(t)\ dt</m>.
-      [If you do this exercise, skip <xref ref="prob_proof_of_fundamental_thm2">exercise</xref> ]
+      [If you do this exercise, skip <xref ref="prob_proof_of_fundamental_thm2"/> ]
     </p>
   </exploration>
 

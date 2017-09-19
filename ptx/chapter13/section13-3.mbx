@@ -33,7 +33,7 @@
   <exploration>
     <introduction>
       <p>
-        Consider the exact same vector field and box as <xref ref="boxflux">exercise</xref>. We then have the vector field <m>\vec F=(x+y,y,z)</m> and <m>S</m> is the surface of the cube in the first quadrant bounded by {<m>x=2,y=3,z=5</m>}.
+        Consider the exact same vector field and box as <xref ref="boxflux"/>. We then have the vector field <m>\vec F=(x+y,y,z)</m> and <m>S</m> is the surface of the cube in the first quadrant bounded by {<m>x=2,y=3,z=5</m>}.
       </p>
     </introduction>
     <task>

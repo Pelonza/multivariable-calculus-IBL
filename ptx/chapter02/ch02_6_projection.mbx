@@ -123,7 +123,7 @@
     </p>
 
     <p>
-      Recall the set up to <xref ref="prob_force_intro">problem</xref>. We want to lower a box down a ramp (which we will assume is frictionless). Gravity exerts a force of <m>\vec F=\left\lt 0,-200\right></m> N. If we apply no other forces to this system, then gravity will do work on the box through a displacement of <m>\left\lt 6,-3\right></m> m. The work done by gravity will transfer the potential energy of the box into kinetic energy (remember that work is a transfer of energy). How much energy is transferred?
+      Recall the set up to <xref ref="prob_force_intro"/>. We want to lower a box down a ramp (which we will assume is frictionless). Gravity exerts a force of <m>\vec F=\left\lt 0,-200\right></m> N. If we apply no other forces to this system, then gravity will do work on the box through a displacement of <m>\left\lt 6,-3\right></m> m. The work done by gravity will transfer the potential energy of the box into kinetic energy (remember that work is a transfer of energy). How much energy is transferred?
     </p>
 
     <exploration xml:id="first_work_problem">

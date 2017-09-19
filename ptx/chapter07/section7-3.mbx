@@ -219,7 +219,7 @@
     </task>
     <task>
       <p>
-        The vectors above are tangent to the surface. Use them to obtain a normal vector to the tangent plane, and then given an equation of the tangent plane. (You should compare it to your equation from <xref ref="prob_tangent_plane_downbowl">exercise</xref>.)
+        The vectors above are tangent to the surface. Use them to obtain a normal vector to the tangent plane, and then given an equation of the tangent plane. (You should compare it to your equation from <xref ref="prob_tangent_plane_downbowl"/>.)
       </p>
     </task>
   </exploration>

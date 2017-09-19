@@ -243,7 +243,7 @@
   </exploration>
 
   <p>
-    <xref ref="unit6_content">Exercise</xref> is precisely the content to this chapter. We just need to add some vocabulary to make it easier to talk about what we just did. Let's introduce the vocabulary in terms of the exercise above, and then make a formal definition.
+    <xref ref="unit6_content"/> is precisely the content to this chapter. We just need to add some vocabulary to make it easier to talk about what we just did. Let's introduce the vocabulary in terms of the exercise above, and then make a formal definition.
     <ul>
       <li>
         <p>
@@ -285,7 +285,7 @@
         <ul>
           <li>
             <p>
-              The partial derivative of <m>f</m> with respect to <m>x</m> is the regular derivative of <m>f</m>, provided we hold every every input variable constant except <m>x</m>. (This is what we did in the first parts of <xref ref="prob_differential_volume_of_a_cylinder">exercises</xref> and <xref ref="prob_volumebox"></xref>.  We'll use the notations
+              The partial derivative of <m>f</m> with respect to <m>x</m> is the regular derivative of <m>f</m>, provided we hold every every input variable constant except <m>x</m>. (This is what we did in the first parts of <xref ref="prob_differential_volume_of_a_cylinder">exercises</xref> and <xref ref="prob_volumebox"/>.  We'll use the notations
               <me>
                 \frac{\partial f}{\partial x}, 
                 \frac{\partial}{\partial x}[f],
@@ -500,7 +500,7 @@
   <exploration>
     <introduction>
       <p>
-        Consider the parametric surface <m>\vec r(a,t) = (a\cos t, a\sin t, t)</m> for <m>2\leq a\leq 4</m> and <m>0\leq t\leq 4\pi</m>. We encountered this parametric surface in <xref ref="prob_parametric_surface_example"></xref> when we considered a smoke screen left by multiple jets.
+        Consider the parametric surface <m>\vec r(a,t) = (a\cos t, a\sin t, t)</m> for <m>2\leq a\leq 4</m> and <m>0\leq t\leq 4\pi</m>. We encountered this parametric surface in <xref ref="prob_parametric_surface_example"/> when we considered a smoke screen left by multiple jets.
       </p>
     </introduction>
     <task>

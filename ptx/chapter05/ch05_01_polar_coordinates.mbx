@@ -101,7 +101,7 @@
     </exploration>
 
     <p>
-      In <xref ref="prob_polar_coordinate_equations">problem</xref>, you should have obtained the equations
+      In <xref ref="prob_polar_coordinate_equations"/>, you should have obtained the equations
       <me>
         x=r\cos\theta,  y=r\sin\theta.
       </me>
@@ -192,7 +192,7 @@
         <p>
           <!-- \extrafn{
           \thomasee{See 11.3: 53-66.}
-          } -->Each of the following equations is written in the Cartesian (rectangular) coordinate system. Convert each to an equation in polar coordinates by substituting in the formulas from <xref ref="prob_polar_coordinate_equations"></xref>, and then solve for <m>r</m> so that the equation is in the form <m>r=f(\theta)</m>.
+          } -->Each of the following equations is written in the Cartesian (rectangular) coordinate system. Convert each to an equation in polar coordinates by substituting in the formulas from <xref ref="prob_polar_coordinate_equations"/>, and then solve for <m>r</m> so that the equation is in the form <m>r=f(\theta)</m>.
         </p>
       </introduction>
       <task>
@@ -219,7 +219,7 @@
         <p>
               <!-- \extrafn{
               \thomasee{See 11.3: 27-52. I strongly suggest that you do many of these as practice.}
-              } -->Each of the following equations is written in the polar coordinate system. Convert each to an equation in the Cartesian coordinates. Again, you will probably want to use the formulas from <xref ref="prob_polar_coordinate_equations"></xref>.
+              } -->Each of the following equations is written in the polar coordinate system. Convert each to an equation in the Cartesian coordinates. Again, you will probably want to use the formulas from <xref ref="prob_polar_coordinate_equations"/>.
         </p>
 
       </introduction>

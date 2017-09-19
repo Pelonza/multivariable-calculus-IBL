@@ -318,7 +318,7 @@
 
     <exploration>
       <p>
-        Use the equation from <xref ref="arc_length_formula"></xref> to find the length of the curve <m>\ds \vec r(t) = \left(t^3,\frac{3t^2}{2}\right)</m> for <m>t\in[1,3]</m>. The notation <m>t\in[1,3]</m> means <m>1\leq t\leq 3</m>. Be prepared to show us your integration steps in class (you'll need a <m>u</m>-substitution).
+        Use the equation from <xref ref="arc_length_formula"/> to find the length of the curve <m>\ds \vec r(t) = \left(t^3,\frac{3t^2}{2}\right)</m> for <m>t\in[1,3]</m>. The notation <m>t\in[1,3]</m> means <m>1\leq t\leq 3</m>. Be prepared to show us your integration steps in class (you'll need a <m>u</m>-substitution).
       </p>
     </exploration>
 

@@ -231,13 +231,13 @@
 
       <task>
         <p>
-          Use the same process as <xref ref="prob_3dsurface_plot">problem</xref> to construct a 3D surface plot of <m>f</m>. [So just graph in 3D the curves given by <m>x=0</m> and <m>y=0</m> and then try setting <m>x</m> or <m>y</m> equal to some other constants, like <m>x=1</m>, <m>x=2</m>, <m>y=1</m>, <m>y=2</m>, etc.]
+          Use the same process as <xref ref="prob_3dsurface_plot"/> to construct a 3D surface plot of <m>f</m>. [So just graph in 3D the curves given by <m>x=0</m> and <m>y=0</m> and then try setting <m>x</m> or <m>y</m> equal to some other constants, like <m>x=1</m>, <m>x=2</m>, <m>y=1</m>, <m>y=2</m>, etc.]
         </p>
       </task>
 
       <task>
         <p>
-          Use the same process as <xref ref="prob_intro_to_contour_plots">problem</xref> to construct a contour plot of <m>f</m>. [So just graph in 2D the curves given by setting <m>z</m> equal to a few constants, like <m>z=0</m>, <m>z=1</m>, <m>z=-4</m>, etc.]
+          Use the same process as <xref ref="prob_intro_to_contour_plots"/> to construct a contour plot of <m>f</m>. [So just graph in 2D the curves given by setting <m>z</m> equal to a few constants, like <m>z=0</m>, <m>z=1</m>, <m>z=-4</m>, etc.]
         </p>
       </task>
 
@@ -392,7 +392,7 @@
     <exploration>
       <introduction>
         <p>
-          Go back to the table you started in <xref ref="prob_function_table">problem</xref>.
+          Go back to the table you started in <xref ref="prob_function_table"/>.
         </p>
       </introduction>
       <task>
@@ -570,12 +570,12 @@
         </p>
 
         <p>
-          Graphing this transformation requires <m>3+3=6</m> dimensions. In this problem we'll construct parts of this graph by graphing various surfaces. We did something similar for the polar coordinate transformation in <xref ref="polar_coordinate_transformation_graph">problem</xref>.
+          Graphing this transformation requires <m>3+3=6</m> dimensions. In this problem we'll construct parts of this graph by graphing various surfaces. We did something similar for the polar coordinate transformation in <xref ref="polar_coordinate_transformation_graph"/>.
         </p>
 
         <aside>
           <p>
-            Recall that <m>\phi</m> (<q>phi</q>) is the angle down from the <m>z</m> axis, <m>\theta</m> (<q>theta</q>) is the angle counterclockwise from the <m>x</m>-axis in the <m>xy</m>-plane, and <m>\rho</m> (<q>rho</q>) is the distance from the origin. Review <xref ref="derive_spherical_coordinates">problem</xref> if you need a refresher.
+            Recall that <m>\phi</m> (<q>phi</q>) is the angle down from the <m>z</m> axis, <m>\theta</m> (<q>theta</q>) is the angle counterclockwise from the <m>x</m>-axis in the <m>xy</m>-plane, and <m>\rho</m> (<q>rho</q>) is the distance from the origin. Review <xref ref="derive_spherical_coordinates"/> if you need a refresher.
           </p>          
         </aside>
         <p>
