@@ -1,7 +1,7 @@
 
 
 <section xml:id="ch06_02_pcurves">
-  <title>Parametric Curves:</title>
+  <title>Parametric Curves</title> <!-- : <me> f\colon {\mathbb{R}}\to {\mathbb{R}}^m </me> </title> -->
   <objectives>
     <introduction>
       <p>
