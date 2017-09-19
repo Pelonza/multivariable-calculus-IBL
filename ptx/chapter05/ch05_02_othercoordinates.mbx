@@ -255,6 +255,10 @@
       <exercise>
         <webwork source="Library/Michigan/Chap16Sec5/Q05.pg" />
       </exercise>
+
+      <exercise>
+        <webwork source="Library/Michigan/Chap17Sec5/Q11.pg" />
+      </exercise>
     </exercisegroup>
 
   </exercises>

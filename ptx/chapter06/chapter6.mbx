@@ -56,11 +56,10 @@
 
   <xi:include  href="ch06_01_terminology.mbx" /> 
   <xi:include  href="ch06_02_pcurves.mbx" />
-  <xi:include  href="ch06_03_psurfaces.mbx" /> <!--
-  <xi:include  href="section6-4.mbx" />
+  <xi:include  href="ch06_03_psurfaces.mbx" />
+  <xi:include  href="ch06_sec4_severalvars.mbx" />
   <xi:include  href="section6-5.mbx" />
   <xi:include  href="sec_functionlist.mbx" />
 
--->
 </chapter>
 

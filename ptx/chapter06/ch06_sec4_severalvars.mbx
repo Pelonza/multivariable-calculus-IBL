@@ -1,6 +1,6 @@
 
 
-<section>
+<section xml:id="ch06_sec4_severalvars">
   <title>Functions of Several Variables:</title>
   <objectives>
     <introduction>
@@ -524,7 +524,8 @@
       We've already seen examples of transformations with polar, cylindrical, and spherical coordinates.
     </p>
 
-    <review>
+    <exploration>
+      <title>Review of Coordinate Transformations</title>
 
       <p>
         Consider the coordinate transformation
@@ -547,7 +548,7 @@
         </ol>
       </p>
 
-    </review>
+    </exploration>
 
     <todo>
       \larsonfive{See Larson 11.7:8994, 111114.}
@@ -663,15 +664,6 @@
         <p>
           Consider the vector field <m>\vec F(x,y)=(2x+y,x+2y)</m>. In this problem, you will construct a graph of this vector field by hand.
         </p>
-
-        <aside>
-          <p>
-            See 
-            <url href="http://aleph.sagemath.org/?z=eJxz06jQqdRUsFXQMNKq0K7UqdA20qrU5CrIyS-JL0tNLskvik_LTM1J0XDTUQAq1TU00DE00ASyK2FsTQCKaxIN">Sage</url> or
-            <url href="http://wolfr.am/y4gIgX">Wolfram Alpha</url>. 
-            The computer will shrink the largest vector down in size so it does not overlap any of the others, and then reduce the size of all the vectors accordingly.
-          </p>
-        </aside>
       </introduction>
       <task>
         <p>
@@ -688,38 +680,72 @@
           Repeat the above process for the points <m>(0,1)</m>, <m>(-1,1)</m>, <m>(-1,0)</m>, <m>(-1,-1)</m>, <m>(0,-1),</m> and <m>(1,-1)</m>. Remember, at each point draw a vector.
         </p>
       </task>
+      <conclusion>
+        <!-- <url href="http://aleph.sagemath.org/?z=eJxz06jQqdRUsFXQMNKq0K7UqdA20qrU5CrIyS-JL0tNLskvik_LTM1J0XDTUQAq1TU00DE00ASyK2FsTQCKaxIN">Sage</url> or-->
+        <p>
+            See <url href="http://wolfr.am/y4gIgX">Wolfram Alpha</url> or the cell below. 
+            The computer will shrink the largest vector down in size so it does not overlap any of the others, and then reduce the size of all the vectors accordingly.
+        </p>
+        <sage>
+          <input>
+            F(x,y) = (2*x+y,x+2*y)
+            plot_vector_field(F, (x,-10,10), (y,-10,10))            
+          </input>
+        </sage>
+      </conclusion>
     </exploration>
 
     <exploration>
-
+      <title>The Spin field</title>
       <aside>
         <p>
           Use the links above to see the computer plot this.
         </p>
       </aside>
-      <title>The Spin field</title>
       <p>
         Consider the vector field <m>\vec F(x,y)=(-y,x)</m>. Construct a graph of this vector field. Remember, the key to plotting a vector field is <q>at the point <m>(x,y)</m>, draw the vector <m>\vec F(x,y)</m> with its base at <m>(x,y)</m>.</q> Plot at least 8 vectors (a few in each quadrant), so we can see what this field is doing.
       </p>
     </exploration>
 
+    <!-- <url href="http://aleph.sagemath.org/?z=eJxz06jQqdSp0lSwVdAA0joVmlwFOfkl8WWpySX5RfFpmak5KcYpGm46CkCFusY6xpo6IIUQlkYVhKEJAOGFExs">Sage</url>  -->
     <p>
-      <url href="http://aleph.sagemath.org/?z=eJxz06jQqdSp0lSwVdAA0joVmlwFOfkl8WWpySX5RfFpmak5KcYpGm46CkCFusY6xpo6IIUQlkYVhKEJAOGFExs">Sage</url> can also help us visualize 3d vector fields, like <m>\vec F(x,y,z)=(y,z,x)</m>.
+      Sage can also help us visualize 3d vector fields, like <m>\vec F(x,y,z)=(y,z,x)</m>.
     </p>
+    <sage>
+      <input>
+        F(x,y,z) = (y,z,x)
+        plot_vector_field3d(F, (x,-3,3), (y,-3,3),(z,-3,3))        
+      </input>
+    </sage>
 
     </subsubsection>
   </subsection>
 
+  <exercises>
+    <title>Computational Practice</title>
+    <introduction>
+      <p>
+        These are provided to help you achieve better skills in basic computational answers.
+      </p>
+    </introduction>
 
-  <!-- For 2->3 Library/Union/setMVfunctions/nm2.pg -->
-<!-- Surface matching  Library/UMN/calculusStewartET/s_12_6_21/s_12_6_21.pg
- Library/UMN/calculusStewartET/s_14_1_23/s_14_1_23.pg
--->
+    <exercise>
+      <webwork source="Library/Michigan/Chap17Sec5/Q11.pg" />
+    </exercise>
 
-<!-- Portions of sphere by limits... Library/Michigan/Chap17Sec5/Q11.pg -->
+    <exercise>
+      <webwork source="Library/Michigan/Chap12Sec3/Q16.pg" />
+    </exercise>
 
-<!-- Matching contour lines  Library/Michigan/Chap12Sec3/Q16.pg -->
+    <exercise>
+      <webwork source="Library/UMN/calculusStewartET/s_12_6_21/s_12_6_21.pg" />
+    </exercise>
 
- <!-- </exercises>-->
+    <exercise>
+      <webwork source="Library/UMN/calculusStewartET/s_14_1_23/s_14_1_23.pg" />
+    </exercise>
+
+  </exercises>
+
 </section>
 
