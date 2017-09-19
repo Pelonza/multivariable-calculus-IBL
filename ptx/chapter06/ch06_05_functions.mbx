@@ -63,11 +63,13 @@
   </p>
 
   <exploration>
-    <p>
-      Give a parametrization of the straight line from <m>(a,0)</m> to <m>(0,b)</m>.
-      You can write your parametrization in the vector form <m>\vec r(t)=(?,?)</m>, or in the parametric form <m>x=?,\ y=?</m>.
-      Remember to include bounds for <m>t</m>.
-    </p>
+    <statement>
+      <p>
+        Give a parametrization of the straight line from <m>(a,0)</m> to <m>(0,b)</m>.
+        You can write your parametrization in the vector form <m>\vec r(t)=(?,?)</m>, or in the parametric form <m>x=?,\ y=?</m>.
+        Remember to include bounds for <m>t</m>.
+      </p>
+    </statement>
     <hint>
       <p>
         <xref ref="prob_line_equation_practice">Review</xref>.
@@ -188,16 +190,18 @@
   </exploration>
 
   <todo>\stewarts{
-  <me>
+  <!--<me>
     \vec T(\rho,\phi,\theta) = (\rho\sin\phi\cos \theta, \rho\sin\phi\sin \theta,\rho \cos \phi).
-  </me>
+  </me> -->
   }
   \thomasee{See 16.5: 1-16 for more practice.}
   \larsonfive{See Larson 15.5:110}
   \larsonfive{
+  <!--
   <me>
     \vec T(\rho,\theta, \phi) = (\rho\sin\phi\cos \theta, \rho\sin\phi\sin \theta,\rho \cos \phi).
   </me>
+-->
   }
   </todo>
 
