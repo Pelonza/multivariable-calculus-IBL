@@ -1,7 +1,7 @@
 
 
 <section xml:id="ch06_03_psurfaces">
-  <title>Parametric Surfaces</title> <!-- : <me f\colon {\mathbb{R}}^2\to {\mathbb{R}}^3 </me></title> -->
+  <title>Parametric Surfaces: <m> f\colon {\mathbb{R}}^2\to {\mathbb{R}}^3 </m> </title>
   <introduction>
     <p>
       We now increase the number of inputs from 1 to 2. This will allow us to graph many space curves at the same time.
