@@ -18,158 +18,162 @@
       </li>
     </ul>
   </p>
+  
+  <introduction>
 
-  <p>
-    Before we introduce multi-dimensional derivatives, let's recall the definition of a differential. If <m>y=f(x)</m> is a function, then we say the differential <m>dy</m> is the expression <m>dy=f'(x) dx</m>. We could also write this as <m>dy = \frac{dy}{dx}dx</m>. Similarly, if <m>w=g(t)</m> then we have the derivative as <m>\frac{dw}{dt}=g'(t)</m> and the differential as <m>dw=g'(t)dt</m>.
-  </p>
-
-  <observation>
-
-  <p>
-    Here's the key. Think of differential notation <m>dy=f'(x)dx</m> in the following way:
-  </p>
-
-  <em>
-  A change in the output <m>y</m> equals the derivative multiplied by  a change in the input <m>x</m>. To get <m>dy</m>, we just need the derivative times <m>dx</m>.
-  </em>
-
-  <p>
-    To get the derivative in all dimensions, we just substitute in vectors to obtain the differential notation <m>d\vec y = f'(\vec x) d\vec x</m>. The derivative is precisely the thing that tells us how to get <m>d\vec y</m> from <m>d\vec x</m>. We'll quickly see that <m>f'(\vec x)</m> must be a matrix, and then we'll start calling it <m>Df</m> instead of <m>f'</m>.
-  </p>
-
-  </observation>
-
-  <p>
-    Let's now examine some exercises you have seen before.
-  </p>
-
-  <todo>\stewarts{??}
-  \thomasee{See 3.10 for more practice.}
-  \larsonfive{See Larson ?.}
-  </todo>
-
-  <exploration xml:id="prob_differential_volume_of_a_cylinder">
-    <introduction>
-      <p>
-        The volume of a right circular cylinder is <m>V(r,h)= \pi r^2 h</m>. Imagine that each of <m>V</m>, <m>r</m>, and <m>h</m> depends on <m>t</m> (we might be collecting rain water in a can, or crushing a cylindrical concentrated juice can, etc.).
-      </p>
-    </introduction>
-    <task>
     <p>
-      Let's rewrite <m>V(r,h)</m>. For each of the following start with <m>V(r,h)=\pi r^2 h</m>
+      Before we introduce multi-dimensional derivatives, let's recall the definition of a differential. If <m>y=f(x)</m> is a function, then we say the differential <m>dy</m> is the expression <m>dy=f'(x) dx</m>. We could also write this as <m>dy = \frac{dy}{dx}dx</m>. Similarly, if <m>w=g(t)</m> then we have the derivative as <m>\frac{dw}{dt}=g'(t)</m> and the differential as <m>dw=g'(t)dt</m>.
     </p>
-    <task>
-      <p>
-        Substitute <m>r(t)</m> for <m>r</m>
-      </p>
-    </task>
-    <task>
-      <p>
-        Substitute <m>h(t)</m> for <m>h</m>
-      </p>
-    </task>
-    <task>
-      <p>
-        Now replace both <m>r</m> and <m>t</m> with <m>r(t)</m> and <m>h(t)</m> respectively
-      </p>
-    </task>
-    </task>
-    <task>
-      <p>
-        In which of the equations from part 1 does <m>h</m> NOT change as time changes?
-      </p>
-    </task>
-    <task>
-      <p>
-        If the height remains constant, what is <m>dV/dt</m> in terms of <m>dr/dt</m>? Times both sides by <m>dt</m> to obtain a formula for <m>dV</m> when <m>h</m> is constant.
-      </p>
-    </task>
-    <task>
-      <p>
-        If the radius remains constant, what is <m>dV/dt</m> in terms of <m>dh/dt</m>? What is <m>dV</m> when <m>r</m> is constant?
-      </p>
-    </task>
-    <task>
-      <p>
-        If neither the radius nor height remains constant, what is <m>dV/dt</m> in terms of <m>dh/dt</m>? Solve for <m>dV</m>.
-      </p>
-    </task>
-    <task>
-      <p>
-        Show that we can write <m>dV</m> as the matrix product
-        <me>
-          dV = \begin{bmatrix}2\pi rh\amp  \pi r^2
-          \end{bmatrix} \begin{bmatrix}dr\\dh
-          \end{bmatrix} .
-        </me>
-        How do the columns of this matrix relate to the previous portions of the exercise.
-      </p>
 
-      <aside>
-        <p>
-          The matrix <m>\begin{bmatrix}2\pi rh\amp  \pi r^2
-          \end{bmatrix}</m> is the derivative.  The columns we'll call the partial derivatives.  The partial derivatives make up the whole.
-        </p>
-      </aside>
-    </task>
-  </exploration>
+    <observation>
 
-  <exploration xml:id="prob_volumebox">
-    <introduction>
-      <p>
-        The volume of a box is <m>V(x,y,z)=xyz</m>. Imagine that each variable depends on <m>t</m>.
-      </p>
-    </introduction>
-    <task>
     <p>
-      If both <m>y</m> and <m>z</m> remain constant we only need to replace <m>x</m> with <m>x(t)</m>
+      Here's the key. Think of differential notation <m>dy=f'(x)dx</m> in the following way:
     </p>
-    <task>
-      <p>
-        State the new equation for <m>V</m>
-      </p>
-    </task>
-    <task>
-      <p>
-        What is <m>dV/dt</m>?
-      </p>
-    </task>
-    <task>
-      <p>
-        Times both sides by <m>dt</m> to obtain a formula for <m>dV</m> when all bur <m>x</m> is constant.
-      </p>
-    </task>
-    </task>
-    <task>
-      <p>
-        Repeat Part 1 for when <m>y</m> is the only non constant variable, and then for when <m>z</m> is the only non constant variable.
-      </p>
-    </task>
-    <task>
-      <p>
-        What is <m>dV/dt</m> in terms of <m>dx/dt</m>, <m>dy/dt</m>, and <m>dz/dt</m> when all three variables are not constant.
-      </p>
-    </task>
-    <task>
-      <p>
-        Show that we can write <m>dV</m> as the matrix product (fill in the blanks)
-        <me>
-          dV = \begin{bmatrix}yz\amp  ?\amp ?
-          \end{bmatrix} \begin{bmatrix}dx\\dy\\dz
-          \end{bmatrix} .
-        </me>
-        How do the columns of this matrix relate to the previous portions of the exercise.
-      </p>
 
-      <aside>
+    <em>
+    A change in the output <m>y</m> equals the derivative multiplied by  a change in the input <m>x</m>. To get <m>dy</m>, we just need the derivative times <m>dx</m>.
+    </em>
+
+    <p>
+      To get the derivative in all dimensions, we just substitute in vectors to obtain the differential notation <m>d\vec y = f'(\vec x) d\vec x</m>. The derivative is precisely the thing that tells us how to get <m>d\vec y</m> from <m>d\vec x</m>. We'll quickly see that <m>f'(\vec x)</m> must be a matrix, and then we'll start calling it <m>Df</m> instead of <m>f'</m>.
+    </p>
+
+    </observation>
+
+    <p>
+      Let's now examine some exercises you have seen before.
+    </p>
+
+    <todo>\stewarts{??}
+    \thomasee{See 3.10 for more practice.}
+    \larsonfive{See Larson ?.}
+    </todo>
+
+    <exploration xml:id="prob_differential_volume_of_a_cylinder">
+      <introduction>
         <p>
-          The matrix <m>\begin{bmatrix}yz\amp  ?\amp ?
-          \end{bmatrix}</m> is the derivative.  The columns we'll call the partial derivatives.  The partial derivatives make up the whole.
+          The volume of a right circular cylinder is <m>V(r,h)= \pi r^2 h</m>. Imagine that each of <m>V</m>, <m>r</m>, and <m>h</m> depends on <m>t</m> (we might be collecting rain water in a can, or crushing a cylindrical concentrated juice can, etc.).
         </p>
-      </aside>
-    </task>
-  </exploration>
+      </introduction>
+      <task>
+      <p>
+        Let's rewrite <m>V(r,h)</m>. For each of the following start with <m>V(r,h)=\pi r^2 h</m>
+      </p>
+      <task>
+        <p>
+          Substitute <m>r(t)</m> for <m>r</m>
+        </p>
+      </task>
+      <task>
+        <p>
+          Substitute <m>h(t)</m> for <m>h</m>
+        </p>
+      </task>
+      <task>
+        <p>
+          Now replace both <m>r</m> and <m>t</m> with <m>r(t)</m> and <m>h(t)</m> respectively
+        </p>
+      </task>
+      </task>
+      <task>
+        <p>
+          In which of the equations from part 1 does <m>h</m> NOT change as time changes?
+        </p>
+      </task>
+      <task>
+        <p>
+          If the height remains constant, what is <m>dV/dt</m> in terms of <m>dr/dt</m>? Times both sides by <m>dt</m> to obtain a formula for <m>dV</m> when <m>h</m> is constant.
+        </p>
+      </task>
+      <task>
+        <p>
+          If the radius remains constant, what is <m>dV/dt</m> in terms of <m>dh/dt</m>? What is <m>dV</m> when <m>r</m> is constant?
+        </p>
+      </task>
+      <task>
+        <p>
+          If neither the radius nor height remains constant, what is <m>dV/dt</m> in terms of <m>dh/dt</m>? Solve for <m>dV</m>.
+        </p>
+      </task>
+      <task>
+        <p>
+          Show that we can write <m>dV</m> as the matrix product
+          <me>
+            dV = \begin{bmatrix}2\pi rh\amp  \pi r^2
+            \end{bmatrix} \begin{bmatrix}dr\\dh
+            \end{bmatrix} .
+          </me>
+          How do the columns of this matrix relate to the previous portions of the exercise.
+        </p>
 
+        <aside>
+          <p>
+            The matrix <m>\begin{bmatrix}2\pi rh\amp  \pi r^2
+            \end{bmatrix}</m> is the derivative.  The columns we'll call the partial derivatives.  The partial derivatives make up the whole.
+          </p>
+        </aside>
+      </task>
+    </exploration>
+
+    <exploration xml:id="prob_volumebox">
+      <introduction>
+        <p>
+          The volume of a box is <m>V(x,y,z)=xyz</m>. Imagine that each variable depends on <m>t</m>.
+        </p>
+      </introduction>
+      <task>
+        <p>
+          If both <m>y</m> and <m>z</m> remain constant we only need to replace <m>x</m> with <m>x(t)</m>
+        </p>
+        <task>
+          <p>
+            State the new equation for <m>V</m>
+          </p>
+        </task>
+        <task>
+          <p>
+            What is <m>dV/dt</m>?
+          </p>
+        </task>
+        <task>
+          <p>
+            Times both sides by <m>dt</m> to obtain a formula for <m>dV</m> when all bur <m>x</m> is constant.
+          </p>
+        </task>
+      </task>
+      <task>
+        <p>
+          Repeat Part 1 for when <m>y</m> is the only non constant variable, and then for when <m>z</m> is the only non constant variable.
+        </p>
+      </task>
+      <task>
+        <p>
+          What is <m>dV/dt</m> in terms of <m>dx/dt</m>, <m>dy/dt</m>, and <m>dz/dt</m> when all three variables are not constant.
+        </p>
+      </task>
+      <task>
+        <p>
+          Show that we can write <m>dV</m> as the matrix product (fill in the blanks)
+          <me>
+            dV = \begin{bmatrix}yz\amp  ?\amp ?
+            \end{bmatrix} \begin{bmatrix}dx\\dy\\dz
+            \end{bmatrix} .
+          </me>
+          How do the columns of this matrix relate to the previous portions of the exercise.
+        </p>
+
+        <aside>
+          <p>
+            The matrix <m>\begin{bmatrix}yz\amp  ?\amp ?
+            \end{bmatrix}</m> is the derivative.  The columns we'll call the partial derivatives.  The partial derivatives make up the whole.
+          </p>
+        </aside>
+      </task>
+    </exploration>
+  </introduction>
+  <subsection>
+    <title>
   <p>
     Part 4 in each exercise above is the KEY idea, let me repeat, THE KEY IDEA, to the rest of this course. It all goes back to differentials. We can compute a small change in volume, if we know how much the radius and height have changed, or if we know how much the length, width, and height will change.
   </p>
@@ -187,7 +191,7 @@
         </p>
       </aside>
       <p>
-        <xref ref="prob_differential_volume_of_a_cylinder">In</xref> we showed that a change in the volume of a cylinder is approximately
+        In <xref ref="prob_differential_volume_of_a_cylinder"/> we showed that a change in the volume of a cylinder is approximately
         <me>
           dV = \begin{bmatrix}2\pi rh\amp  \pi r^2
           \end{bmatrix} \begin{bmatrix}dr\\dh
@@ -198,7 +202,7 @@
     </task>
     <task>
       <p>
-        The volume of a box is given by <m>V=xyz</m>. <xref ref="prob_volumebox">From</xref> we know the differential of the volume is <m>V=\begin{bmatrix}yz\amp  xz \amp  xy
+        The volume of a box is given by <m>V=xyz</m>. From <xref ref="prob_volumebox"/> we know the differential of the volume is <m>V=\begin{bmatrix}yz\amp  xz \amp  xy
         \end{bmatrix} \begin{bmatrix}dx\\dy\\dz
         \end{bmatrix}</m>. If the current measurements are <m>x=2</m>, <m>y=3</m>, and <m>z=5</m>, and we know that <m>dx=.01</m>, <m>dy=.02</m>, and <m>dz=.03</m>, then by about how much will the volume increase.
       </p>
