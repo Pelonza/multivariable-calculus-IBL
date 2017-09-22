@@ -29,9 +29,9 @@
     Here's the key. Think of differential notation <m>dy=f'(x)dx</m> in the following way:
   </p>
 
-  <blockquote>
+  <em>
   A change in the output <m>y</m> equals the derivative multiplied by  a change in the input <m>x</m>. To get <m>dy</m>, we just need the derivative times <m>dx</m>.
-  </blockquote>
+  </em>
 
   <p>
     To get the derivative in all dimensions, we just substitute in vectors to obtain the differential notation <m>d\vec y = f'(\vec x) d\vec x</m>. The derivative is precisely the thing that tells us how to get <m>d\vec y</m> from <m>d\vec x</m>. We'll quickly see that <m>f'(\vec x)</m> must be a matrix, and then we'll start calling it <m>Df</m> instead of <m>f'</m>.
