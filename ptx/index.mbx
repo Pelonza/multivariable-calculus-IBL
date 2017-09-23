@@ -94,6 +94,7 @@
 </latex-image-preamble>
 
 <rename element="exploration" lang="en-US">Exercise</rename>
+<rename element="project" lang="en-US">Review</rename>
 
 </docinfo>
 

@@ -2,8 +2,8 @@
 
 <section>
   <title>Tangent Planes</title>
-  <p>
-    This section will cover how to...
+  <objectives>
+    <introduction> This section will cover how to...</introduction>
     <ul>
       <li>
         <p>
@@ -11,12 +11,58 @@
         </p>
       </li>
     </ul>
-  </p>
+  </objectives>
+  
+  <introduction>
+    
+
+    <paragraphs>
+      <title>Review</title>
+      If you know that a plane passes through the point <m>(1,2,3)</m> and has normal vector <m>(4,5,6)</m>, then give an equation of the plane. See<fn>An equation of the plane is <m>4(x-1)+5(y-2)+6(y-3)=0</m>. If <m>(x,y,z)</m> is any point in the plane, then the vector <m>(x-1,y-2,z-3)</m> is a vector in the plane, and hence orthogonal to <m>(4,5,6)</m>. The dot product of these two vectors should be equal to zero, which is why the plane's equation is <m>(4,5,6)\cdot (x-1,y-2,z-3)=0</m>.</fn>for an answer.
+    </paragraphs>
+
+    
+    <exploration>
+      <introduction>
+        <p>
+          Consider again the parametric surface <m>\vec r(a,t) = (a\cos t, a\sin t, t)</m> for <m>2\leq a\leq 4</m> and <m>0\leq t\leq 4\pi</m>.
+        </p>
+        <p>
+          We'd like to obtain an equation of the tangent plane to this surface at the point <m>\vec r(3,\pi)</m>. To find a plane we need a normal (orthogonal) vector to the [tangent] plane and a point.
+        </p>
+      </introduction>
+      <task>
+        <p>
+          State the coordinates for <m>\vec r (3,\pi)</m>
+        </p>
+      </task>
+      <task>
+        <statement>
+          <p>
+            Since <m>\vec r_a (3,\pi)</m> and <m>\vec r_t (3, \pi)</m> (the two partial derivatives) are tangent to the surface they must also be in our tangent plane. So a vector orthogonal to <m>\vec r_a</m> and <m>\vec r_t</m> will be normal to the tangent plane.
+          </p>
+          <p>
+            Find this normal vector.
+          </p>
+        </statement>
+        <hint>
+          <p>
+            How do I obtain a vector orthogonal to both partial derivatives? Is it the scalar, dot, or cross product?
+          </p>
+        </hint>
+      </task>
+      <task>
+        <p>
+          Give an equation for the tangent plane.
+        </p>
+      </task>
+    </exploration>
 
   <p>
     I promised earlier in this chapter that you can obtain most of the results in multivariate calculus by replacing the <m>x</m> and <m>y</m> in <m>dy=f'dx</m> with <m>\vec x</m> and <m>\vec y</m>. The last exercise asked you to obtain a tangent plane to a parametric surface. You've never had to find a tangent plane to a function of the form <m>z=f(x,y)</m>. Let's review how to do it for functions of the form <m>y=f(x)</m>, and then generalize.
   </p>
 
+  <review>
   <exploration xml:id="prob_tangent_line1">
     <title>Tangent Lines</title>
     <introduction>
@@ -66,6 +112,7 @@
       </p>
     </task>
   </exploration>
+  </introduction>
 
   <p>
     In first semester calculus, differential notation says <m>dy=f' dx</m>. A change in the output equals the derivative times a change in the inputs. For the next exercise, the output is <m>z</m>, and input is <m>(x,y)</m>, which means differential notation says <m>dz = Df \begin{bmatrix}dx\\dy
