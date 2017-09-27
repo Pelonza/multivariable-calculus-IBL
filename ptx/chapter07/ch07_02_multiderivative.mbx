@@ -148,7 +148,7 @@
         </task>
         <task>
           <p>
-            Times both sides by <m>dt</m> to obtain a formula for <m>dV</m> when all bur <m>x</m> is constant.
+            Times both sides by <m>dt</m> to obtain a formula for <m>dV</m> when all but <m>x</m> is constant.
           </p>
         </task>
       </task>
