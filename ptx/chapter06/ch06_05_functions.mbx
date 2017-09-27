@@ -208,7 +208,7 @@
   <exploration>
     <introduction>
       <p>
-        Recall the spherical coordinate transformation as given in
+        Recall the spherical coordinate transformation as given in <xref ref="graphing_spherical_coordinates"/>.
       </p>
 
       <aside>
@@ -221,12 +221,13 @@
       <p>
         This is a function of the form <m>\vec T\colon \mathbb{R}^3\to\mathbb{R}^3</m>. If we hold one of the three inputs constant, then we have a function of the form <m>\vec r\colon \mathbb{R}^2\to\mathbb{R}^3</m>, which is a parametric surface.
       </p>
-
+<!--
       <aside>
         <p>
           We did very similar things in <xref ref="graphing_spherical_coordinates"/>.
         </p>
       </aside>
+    -->
     </introduction>
     <task>
       <p>
