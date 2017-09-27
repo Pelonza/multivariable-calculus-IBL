@@ -276,16 +276,18 @@
   </todo>
 
   <exploration>
-    <introduction>
-      <p>
-        Find parametric equations for the surface <m>x^2+z^2=9</m>.
-      </p>
+    <task>
+      <statement>
+        <p>
+          Find parametric equations for the surface <m>x^2+z^2=9</m>.
+        </p>
+      </statement>
       <hint>
         <p>
-          read the paragraph above.
+          Read the paragraph above.
         </p>
       </hint>
-    </introduction>
+    </task>
     <task>
       <p>
         What bounds should you use to obtain the portion of the surface between <m>y=-2</m> and <m>y=3</m>?

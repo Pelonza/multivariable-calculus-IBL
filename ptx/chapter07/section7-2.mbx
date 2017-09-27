@@ -2,8 +2,12 @@
 
 <section>
   <title>The (multi-dimensional) Derivative</title>
-  <p>
-    In this section we will...
+  <objectives>
+    <introduction>
+      <p>
+        In this section we will...
+      </p>
+    </introduction>
     <ul>
       <li>
         <p>
@@ -17,8 +21,8 @@
         </p>
       </li>
     </ul>
-  </p>
-  
+  </objectives>
+    
   <introduction>
 
     <p>
@@ -30,10 +34,11 @@
     <p>
       Here's the key. Think of differential notation <m>dy=f'(x)dx</m> in the following way:
     </p>
-
-    <em>
-    A change in the output <m>y</m> equals the derivative multiplied by  a change in the input <m>x</m>. To get <m>dy</m>, we just need the derivative times <m>dx</m>.
-    </em>
+    <p>
+      <em>
+      A change in the output <m>y</m> equals the derivative multiplied by  a change in the input <m>x</m>. To get <m>dy</m>, we just need the derivative times <m>dx</m>.
+      </em>
+    </p>
 
     <p>
       To get the derivative in all dimensions, we just substitute in vectors to obtain the differential notation <m>d\vec y = f'(\vec x) d\vec x</m>. The derivative is precisely the thing that tells us how to get <m>d\vec y</m> from <m>d\vec x</m>. We'll quickly see that <m>f'(\vec x)</m> must be a matrix, and then we'll start calling it <m>Df</m> instead of <m>f'</m>.
@@ -57,28 +62,31 @@
         </p>
       </introduction>
       <task>
-      <p>
-        Let's rewrite <m>V(r,h)</m>. For each of the following start with <m>V(r,h)=\pi r^2 h</m>
-      </p>
+        <introduction>
+          <p>
+            Let's rewrite <m>V(r,h)</m>. For each of the following start with <m>V(r,h)=\pi r^2 h</m>
+          </p>
+        </introduction>
+        <task>
+          <p>
+            Substitute <m>r(t)</m> for <m>r</m>
+          </p>
+        </task>
+        <task>
+          <p>
+            Substitute <m>h(t)</m> for <m>h</m>
+          </p>
+        </task>
+        <task>
+          <p>
+            Now replace both <m>r</m> and <m>t</m> with <m>r(t)</m> and <m>h(t)</m> respectively
+          </p>
+        </task>
+      </task>
+
       <task>
         <p>
-          Substitute <m>r(t)</m> for <m>r</m>
-        </p>
-      </task>
-      <task>
-        <p>
-          Substitute <m>h(t)</m> for <m>h</m>
-        </p>
-      </task>
-      <task>
-        <p>
-          Now replace both <m>r</m> and <m>t</m> with <m>r(t)</m> and <m>h(t)</m> respectively
-        </p>
-      </task>
-      </task>
-      <task>
-        <p>
-          In which of the equations from part 1 does <m>h</m> NOT change as time changes?
+          In which of the equations from part (a) does <m>h</m> NOT change as time changes?
         </p>
       </task>
       <task>
@@ -123,9 +131,11 @@
         </p>
       </introduction>
       <task>
-        <p>
-          If both <m>y</m> and <m>z</m> remain constant we only need to replace <m>x</m> with <m>x(t)</m>
-        </p>
+        <introduction>
+          <p>
+            If both <m>y</m> and <m>z</m> remain constant we only need to replace <m>x</m> with <m>x(t)</m>
+          </p>
+        </introduction>
         <task>
           <p>
             State the new equation for <m>V</m>
@@ -369,7 +379,7 @@
     </exploration>
 
     <p>
-      Please take a moment and practice computing partial and total derivatives. Your textbook has lots of examples to help you with partial derivatives. However, the textbook leaves out the actual derivative. This <url href="http://db.tt/cSeKG8XO">handwritten file (follow the link)</url> has 6 exercises, together with solutions, that you can use as extra practice for total derivatives. Please open the file before moving on.
+      Please take a moment and practice computing partial and total derivatives. Your textbook has lots of examples to help you with partial derivatives. However, the textbook leaves out the actual derivative. This <url href="https://drive.google.com/file/d/0B6Maw2KW9k9aYlBnN0p4Z3MyREk/view?usp=sharing">handwritten file (follow the link)</url> has 6 exercises, together with solutions, that you can use as extra practice for total derivatives. Please open the file before moving on.
     </p>
 
     <exploration>
@@ -452,31 +462,33 @@
         </statement>
         <hint>
           <p>
-            If you get a 2 by 2 matrix, then you're on the right track. Each partial derivative is a vector. (This one is in the <url href="http://db.tt/cSeKG8XO">handwritten file</url> with extra practice.)
+            If you get a 2 by 2 matrix, then you're on the right track. Each partial derivative is a vector. (This one is in the <url href="https://drive.google.com/file/d/0B6Maw2KW9k9aYlBnN0p4Z3MyREk/view?usp=sharing">handwritten file</url> with extra practice.)
           </p>
         </hint>
       </task>
       <task>
-      <p>
-        Consider the polar point <m>(r,\theta) = (4,\pi/2)</m>.
-      </p>
-      <task>
-        <p>
-          Compute <m>T(4,\pi/2)</m> (the Cartesian coordinate)
-        </p>
-      </task>
-      <task>
-        <statement>
+        <introduction>
           <p>
-            Compute both partial derivatives at <m>(4,\pi/2)</m>.
+            Consider the polar point <m>(r,\theta) = (4,\pi/2)</m>.
           </p>
-        </statement>
-        <hint>
+        </introduction>
+        <task>
           <p>
-            You should get a point and two vectors.
+            Compute <m>T(4,\pi/2)</m> (the Cartesian coordinate)
           </p>
-        </hint>
-      </task>
+        </task>
+        <task>
+          <statement>
+            <p>
+              Compute both partial derivatives at <m>(4,\pi/2)</m>.
+            </p>
+          </statement>
+          <hint>
+            <p>
+              You should get a point and two vectors.
+            </p>
+          </hint>
+        </task>
       <task>
         <p>
           At the point, draw both vectors.
@@ -501,8 +513,10 @@
 
     <paragraphs>
       <title>Review</title>
-      If you know that a line passes through the point <m>(1,2,3)</m> and is parallel to the vector <m>(4,5,6)</m>, give a vector equation, and parametric equations, of the line. See<fn>A vector equation is <m>\vec r(t) = (4,5,6)t+(1,2,3)</m> or <m>\vec r(t) = (4t+1, 5t+2, 6t+3)</m>.  Parametric equations for this line are 
-      <m>x=4t+1</m>, <m>y=5t+2</m>, and <m>z=6t+3</m>.</fn>for an answer.
+      <p>
+        If you know that a line passes through the point <m>(1,2,3)</m> and is parallel to the vector <m>(4,5,6)</m>, give a vector equation, and parametric equations, of the line. See<fn>A vector equation is <m>\vec r(t) = (4,5,6)t+(1,2,3)</m> or <m>\vec r(t) = (4t+1, 5t+2, 6t+3)</m>.  Parametric equations for this line are 
+        <m>x=4t+1</m>, <m>y=5t+2</m>, and <m>z=6t+3</m>.</fn>for an answer.
+      </p>
     </paragraphs>
 
   

@@ -1,7 +1,7 @@
 
 
 <section xml:id="ch06_04_severalvars">
-  <title>Functions of Several Variables: <m>f\colon {\mathbb{R}}^n\to {\mathbb{R}}</m> </title> -->
+  <title>Functions of Several Variables: <m>f\colon {\mathbb{R}}^n\to {\mathbb{R}}</m> </title>
   <objectives>
     <introduction>
       <p> 
@@ -78,13 +78,11 @@
       <task>
         <introduction>
           <p>
-            State the simplified equation, then plot and label the curves for:
+            State the simplified equation, then plot and label the curves for the values below.
           </p>
-          <aside>
-            <p>
-              Note: You could have done this with <m>y</m> also.
-            </p>
-          </aside>
+          <p>
+            Note: You could have done this with <m>y</m> also.
+          </p>
         </introduction>
 
         <task>
