@@ -189,13 +189,12 @@
 
     <p>
       We can derive an equation of an ellipse in a manner very similar to how we obtained an equation of a parabola. The following problem will walk you through this.
-
-      <aside>
-        <p>
-          We will not have time to present this problem in class. However, if you would like to complete the problem and write up your solution on the wiki, you can obtain presentation points for doing so. Let me know if you are interested.
-        </p>
-      </aside>
     </p>
+    <aside>
+      <p>
+        We will not have time to present this problem in class. However, if you would like to complete the problem and write up your solution on the wiki, you can obtain presentation points for doing so. Let me know if you are interested.
+      </p>
+    </aside>
 
     <exploration>
       <title>Optional</title>
@@ -296,14 +295,11 @@
       </task>
     </exploration>
 
-    <p>
-
-      <aside>
-        <p>
-          Ask me about the reflective properties of an ellipse in class, if I have not told you already. The following problem provides the basis to these reflective properties and is optional. If you wish to present it, let me know. I'll have you type it up prior to presenting in class.
-        </p>
-      </aside>
-    </p>
+    <aside>
+      <p>
+        Ask me about the reflective properties of an ellipse in class, if I have not told you already. The following problem provides the basis to these reflective properties and is optional. If you wish to present it, let me know. I'll have you type it up prior to presenting in class.
+      </p>
+    </aside>
 
     <exploration>
       <title>Optional</title>
@@ -328,13 +324,13 @@
 
     <p>
       We can derive an equation of a hyperbola in a manner very similar to how we obtained an equation of an ellipse. The following problem will walk you through this.
-
-      <aside>
-        <p>
-          We will not have time to present this problem in class.
-        </p>
-      </aside>
     </p>
+
+    <aside>
+      <p>
+        We will not have time to present this problem in class.
+      </p>
+    </aside>
 
     <exploration>
       <title>Optional</title>
@@ -371,21 +367,33 @@
     </p>
 
     <exploration>
-      <p>
-        Consider the hyperbola <m>\frac{x^2}{a^2}-\frac{y^2}{b^2}=1.</m> Construct a box centered at the origin with corners at <m>(a, \pm b)</m> and <m>(-a,\pm b)</m>. Draw lines through the diagonals of this box. Rewrite the equation of the hyperbola by solving for <m>y</m> and then factoring to show that as <m>x</m> gets large, the hyperbola gets really close to the lines <m>y=\pm \frac{b}{a}x</m>.
-      </p>
-      <hint>
+      <introduction>
         <p>
-          rewrite so that you obtain <m>y=\pm\frac{b}{a}x\sqrt{\text{ something } }</m>
+          Consider the hyperbola <m>\frac{x^2}{a^2}-\frac{y^2}{b^2}=1.</m> 
         </p>
-      </hint>
-      <p>
-        . These two lines are often called oblique asymptotes.
-      </p>
-
-      <p>
-        Now apply what you have just done to sketch the hyperbola <m>\frac{x^2}{25}-\frac{y^2}{9}=1</m> and give the location of the foci.
-      </p>
+      </introduction>
+      <task>
+        <statement>
+          <p>
+            Construct a box centered at the origin with corners at <m>(a, \pm b)</m> and <m>(-a,\pm b)</m>. Draw lines through the diagonals of this box. Rewrite the equation of the hyperbola by solving for <m>y</m> and then factoring to show that as <m>x</m> gets large, the hyperbola gets really close to the lines <m>y=\pm \frac{b}{a}x</m>.
+          </p>
+        </statement>
+        <hint>
+          <p>
+            rewrite so that you obtain <m>y=\pm\frac{b}{a}x\sqrt{\text{ something } }</m>
+          </p>
+        </hint>
+      </task>
+      <task>
+        <statement>
+          <p>
+            These two lines are often called oblique asymptotes.
+          </p>
+          <p>
+            Now apply what you have just done to sketch the hyperbola <m>\frac{x^2}{25}-\frac{y^2}{9}=1</m> and give the location of the foci.
+          </p>
+        </statement>
+      </task>
     </exploration>
 
     <p>
@@ -447,15 +455,12 @@
       </task>
     </exploration>
 
-    <p>
-
-      <aside>
-        <p>
-          Ask me about the reflective properties of a hyperbola in class, if I have not told you already. In particular, we can discuss lasers and long range telescopes. The following problem provides the basis to these reflective properties and is optional. If you wish to present it, let me know. I'll have you type it up prior to presenting in class.
-        </p>
-      </aside>
-    </p>
-
+    <aside>
+      <p>
+        Ask me about the reflective properties of a hyperbola in class, if I have not told you already. In particular, we can discuss lasers and long range telescopes. The following problem provides the basis to these reflective properties and is optional. If you wish to present it, let me know. I'll have you type it up prior to presenting in class.
+      </p>
+    </aside>
+    
     <exploration>
       <title>Optional</title>
       <p>
