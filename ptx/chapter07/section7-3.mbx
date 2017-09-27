@@ -1,9 +1,13 @@
 
 
-<section>
+<section xml:id="ch07_03_tangentplanes">
   <title>Tangent Planes</title>
   <objectives>
-    <introduction> This section will cover how to...</introduction>
+    <introduction> 
+      <p>
+        This section will cover how to...
+      </p>
+    </introduction>
     <ul>
       <li>
         <p>
