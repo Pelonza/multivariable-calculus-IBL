@@ -79,7 +79,7 @@
         </task>
         <task>
           <p>
-            Now replace both <m>r</m> and <m>t</m> with <m>r(t)</m> and <m>h(t)</m> respectively
+            Now replace both <m>r</m> and <m>h</m> with <m>r(t)</m> and <m>h(t)</m> respectively
           </p>
         </task>
       </task>
@@ -390,7 +390,7 @@
       </introduction>
       <task>
         <p>
-          Consider the parametric surface <m>\vec r(u,v) = (u,v,v\cos(uv))</m>. Compute both <m>\ds\frac{\partial \vec r}{\partial u}</m> and <m>\ds\frac{\partial \vec r}{\partial v}</m>. Thenm state <m>D\vec r(u,v)</m>. If you end up with a 3 by 2 matrix, you did this correctly.
+          Consider the parametric surface <m>\vec r(u,v) = (u,v,v\cos(uv))</m>. Compute both <m>\ds\frac{\partial \vec r}{\partial u}</m> and <m>\ds\frac{\partial \vec r}{\partial v}</m>. Then state <m>D\vec r(u,v)</m>. If you end up with a 3 by 2 matrix, you did this correctly.
         </p>
       </task>
       <task>

@@ -32,7 +32,7 @@
       </ol>
     </p>
   </introduction>
-  <xi:include  href="section7-1.mbx" />
+  <xi:include  href="ch07_01_intro.mbx" />
   <xi:include  href="section7-2.mbx" />
   <xi:include  href="section7-3.mbx" />
   <xi:include  href="section7-4.mbx" />
