@@ -184,12 +184,12 @@
               z-4=-4(x-2)-2(y-1).
             </me>
           </p>
+          <aside>
+            <p>
+              We'll construct a graph of <m>f</m> and it's tangent plane in class.
+            </p>
+          </aside>
         </statement>
-        <aside>
-          <p>
-            We'll construct a graph of <m>f</m> and it's tangent plane in class.
-          </p>
-        </aside>
         <hint>
           <p>
             What does differential notation tell us?
@@ -206,14 +206,16 @@
 
     <exploration>
 
-      <aside>
+      <statement>
+        <aside>
+          <p>
+            See <url href="http://aleph.sagemath.org/?z=eJx9kk-PwiAQxe_9FERNCu1oWusmXjjvfa8bNaQFJVsLAdSyn36havefuycCmfm9N28QuAdPaL9d5qusz3zut8tEO4ormJcghoOQJJmKU1c7qTrEugZpJTuXaDqcWDtAtWqVoanhTQrIyndOlwVJdE51q1zVYAFBqIAVAexhXkFJACnNauk8LRZPUQHVJ3Pmdmhihh25M7LexX4cegc3nkY3gO6sb7LuIOu3jltLK4KmKNY-ZFXgA6oPVZE0urmh9obzLszwgxbKo8Uzr50yNhE9FYtGisAhifD3ix9HxtdK_FoGp6K_5rghYB0zjsbEPgXWo7jnbasu6W9KAWF8P1LQ_xhlWLfnaQxVt6zjf0TqR2MZ7ucVye8KGfZ5Ga637X_J-9Hy1nCT1Sej20H24I4tnrzwBkmLZnETM0DPMdnhIYQ5m5DEHtQFa0DM6jDmzrDwv2gIrIRFuSEf2ELG4w">Sage</url>.
+          </p>
+        </aside>
         <p>
-          See <url href="http://aleph.sagemath.org/?z=eJx9kk-PwiAQxe_9FERNCu1oWusmXjjvfa8bNaQFJVsLAdSyn36havefuycCmfm9N28QuAdPaL9d5qusz3zut8tEO4ormJcghoOQJJmKU1c7qTrEugZpJTuXaDqcWDtAtWqVoanhTQrIyndOlwVJdE51q1zVYAFBqIAVAexhXkFJACnNauk8LRZPUQHVJ3Pmdmhihh25M7LexX4cegc3nkY3gO6sb7LuIOu3jltLK4KmKNY-ZFXgA6oPVZE0urmh9obzLszwgxbKo8Uzr50yNhE9FYtGisAhifD3ix9HxtdK_FoGp6K_5rghYB0zjsbEPgXWo7jnbasu6W9KAWF8P1LQ_xhlWLfnaQxVt6zjf0TqR2MZ7ucVye8KGfZ5Ga637X_J-9Hy1nCT1Sej20H24I4tnrzwBkmLZnETM0DPMdnhIYQ5m5DEHtQFa0DM6jDmzrDwv2gIrIRFuSEf2ELG4w">Sage</url>.
+          Let <m>f(x,y)=x^2+4xy+y^2</m>. Give an equation of the tangent plane at <m>(3,-1)</m>.
         </p>
-      </aside>
-      <p>
-        Let <m>f(x,y)=x^2+4xy+y^2</m>. Give an equation of the tangent plane at <m>(3,-1)</m>.
-      </p>
+      </statement>
       <hint>
         <p>
           Just as in the previous exercise, find <m>Df(x,y)</m>, <m>dx</m>, <m>dy</m>, and <m>dz</m>. Then use differential notation.
@@ -344,7 +346,7 @@
     <project>
       <p>
         Joe wants to to find the tangent line to <m>y=x^3</m> at <m>x=2</m>. He knows the derivative is <m>y=3x^2</m>, and when <m>x=2</m> the curve passes through <m>8</m>. So he writes an equation of the tangent line as <m>y-8=3x^2(x-2)</m>.
-        <ol type="a">
+        <ol>
           <li>
             <p>
               What's wrong?
@@ -366,16 +368,18 @@
 
     <exploration>
       <title>Tangent Plane General Formula</title>
-      <p>
-        Consider the function <m>z=f(x,y)</m>. Explain why an equation of the tangent plane to <m>f</m> at <m>(x,y)=(a,b)</m> is given by
-        <me>
-          z-f(a,b) = \frac{\partial f}{\partial x}(a,b) (x-a) +  \frac{\partial f}{\partial y}(a,b) (y-a).
-        </me>
-      </p>
-
-      <p>
-        Then give an equation of the tangent plane to <m>f(x,y) = x^2+3xy</m> at <m>(3,-1)</m>.
-      </p>
+      <statement>
+        <p>
+          Consider the function <m>z=f(x,y)</m>. Explain why an equation of the tangent plane to <m>f</m> at <m>(x,y)=(a,b)</m> is given by
+          <me>
+            z-f(a,b) = \frac{\partial f}{\partial x}(a,b) (x-a) +  \frac{\partial f}{\partial y}(a,b) (y-a).
+          </me>
+        </p>
+  
+        <p>
+          Then give an equation of the tangent plane to <m>f(x,y) = x^2+3xy</m> at <m>(3,-1)</m>.
+        </p>
+      </statement>
       <hint>
         <p>
           Use either differential notation or a parametrization. Try both ways.
@@ -383,6 +387,36 @@
       </hint>
     </exploration>
   </subsection>
+
+  <exercises>
+    <title>Computational Practice</title>
+    <introduction>
+      <p>
+        These are provided to help you achieve better skills in basic computational answers. Note that the content in these really covers Sections 6.1-6.3
+      </p>
+    </introduction>
+
+    <exercise>
+      <webwork source="Library/272/setStewart14_4/problem_1.pg" />
+    </exercise>
+
+    <exercise>
+      <webwork source="Library/272/setStewart14_4/problem_2.pg"/>
+    </exercise>
+
+    <exercise>
+      <webwork source="Library/272/setStewart14_4/problem_3.pg"/>
+    </exercise>
+
+    <exercise>
+      <webwork source="Library/272/setStewart14_4/problem_4.pg"/>
+    </exercise>
+
+    <exercise>
+      <webwork source="Library/FortLewis/Calc3/14-3-Local-linearity/HGM4-14-3-18-Local-linearity-differential.pg"/>
+    </exercise>
+
+  </exercises>
 
 
 </section>
