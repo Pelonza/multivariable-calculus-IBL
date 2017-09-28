@@ -35,7 +35,7 @@
   <xi:include  href="ch07_01_intro.mbx" />
   <xi:include  href="ch07_02_multiderivative.mbx" />
   <xi:include  href="ch07_03_tangentplanes.mbx" />
-  <xi:include  href="section7-4.mbx" />
+  <xi:include  href="ch07_04_chainrule.mbx" />
 
   <conclusion>
       <title>Wrap Up</title>
