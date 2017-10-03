@@ -62,21 +62,25 @@
         <p>
           To the same axes as above, add the graphs of:
         </p>
-        <aside>
+
+      </introduction>
+      <task>
+        <statement>
           <p>
-            Use the SageMath Cells above to check your answer.
+            <m>\vec T(1,\omega), \vec T(2,\omega), \vec T(4,\omega)</m>  for <m>\omega\in[0,2\pi]</m>
           </p>
-        </aside>
+          <todo> The aside and hint really below to the introduction here. </todo>
+          <aside>
+            <p>
+              Use the SageMath Cells above to check your answer.
+            </p>
+          </aside>
+        </statement>
         <hint>
           <p>
             when you're done, you should have a bunch of parabolas and ellipses.
           </p>
         </hint>
-      </introduction>
-      <task>
-          <p>
-            <m>\vec T(1,\omega), \vec T(2,\omega), \vec T(4,\omega)</m>  for <m>\omega\in[0,2\pi]</m>
-          </p>
       </task>
 
       <task>
@@ -126,8 +130,8 @@
       <tabular>
         <row>
           <cell>Cylindrical Coordinates</cell>
-          <cell>Spherical Coordinates(Math)</cell>
-          <cell>Spherical (Physics/Engineering)</cell>
+          <cell>Spherical Coordinates(Physics/Engineering)</cell>
+          <cell>Spherical (Math)</cell>
         </row>
         <row bottom="minor">
           <cell></cell>
@@ -141,14 +145,14 @@
           z=z
           \end{array}</m></cell>
           <cell><m>\begin{array}{l}
-          x=\rho\sin\theta\cos\phi\\
-          y=\rho\sin\theta\sin\phi\\
-          z=\rho\cos\theta
+          x=r\sin\theta\cos\phi\\
+          y=r\sin\theta\sin\phi\\
+          z=r\cos\theta
           \end{array}</m></cell>
           <cell><m>\begin{array}{l}
-          x=r\sin\phi\cos\theta\\
-          y=r\sin\phi\sin\theta\\
-          z=r\cos\phi
+          x=\rho\sin\phi\cos\theta\\
+          y=\rho\sin\phi\sin\theta\\
+          z=\rho\cos\phi
           \end{array}</m></cell>
         </row>
       </tabular>
@@ -234,10 +238,11 @@
   <exercises>
     <title>Computational Practice</title>
     <introduction>
-      <p> 
-        There are multiple copies of several exercises for your practice. You don't need to do them all. Do as many as it takes to get one right quickly.
+      <p>
+        These are provided to help you achieve better skills in basic computational answers
       </p>
     </introduction>
+
     <exercisegroup>
       <exercise>
         <webwork source="Library/Rochester/setVectors5Coordinates/urvc_3_7.pg" />
@@ -249,6 +254,10 @@
       
       <exercise>
         <webwork source="Library/Michigan/Chap16Sec5/Q05.pg" />
+      </exercise>
+
+      <exercise>
+        <webwork source="Library/Michigan/Chap17Sec5/Q11.pg" />
       </exercise>
     </exercisegroup>
 

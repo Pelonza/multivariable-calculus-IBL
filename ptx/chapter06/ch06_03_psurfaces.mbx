@@ -1,0 +1,321 @@
+
+
+<section xml:id="ch06_03_psurfaces">
+  <title>Parametric Surfaces: <m> f\colon {\mathbb{R}}^2\to {\mathbb{R}}^3 </m> </title>
+  <introduction>
+    <p>
+      We now increase the number of inputs from 1 to 2. This will allow us to graph many space curves at the same time.
+    </p>
+  </introduction>
+  
+  <subsection>
+    <title>Exploration Exercises</title>
+
+    <todo>\larsonfive{More practice in Larson 15.5:16.}
+    </todo>
+    <exploration xml:id="prob_parametric_surface_example">
+      <introduction>
+        <p>
+          The jet from <xref ref="prob_jet_intro_for_space_curves"/> is actually accompanied by several jets flying side by side. As all the jets fly, they leave a smoke trail behind them (it's an air show). The smoke from one jet spreads outwards to mix with the neighboring jet, so that it looks like the jets are leaving a rather wide sheet of smoke behind them as they fly.
+        </p>
+
+        <p>
+          The position of two of the many other jets is given by <m>\vec r_3(t)=(3\cos t, 3\sin t, t)</m> and <m>\vec r_4(t)=(4\cos t,4\sin t,t)</m>. A function which represents the smoke stream is <m>\vec r(a,t)=(a\cos t, a\sin t, t)</m> for <m>0\leq t\leq 4\pi</m> and <m>2\leq a\leq 4</m>.
+        </p>
+      </introduction>
+      <task>
+        <p>
+          What are <m>n</m> (inputs) and <m>m</m> (outputs) when we write the function <m>\vec r(a,t)=(a\cos t, a\sin t, t)</m> in the form  <m>\vec r\colon {\mathbb{R}}^n\to {\mathbb{R}}^m</m>?
+        </p>
+      </task>
+      <task>
+        <introduction>
+          <p>
+            Start by graphing the position of the three jets. For <m>t=0, \frac{\pi}{2}, \pi, \frac{3\pi}{2}</m> plot the position of each jet:
+          </p>
+        </introduction>
+        <task>
+          <p>
+            <m>\vec r_2(2,t)=(2\cos t, 2\sin t, t)</m>
+          </p>
+        </task>
+        <task>
+          <p>
+            <m>\vec r_3(3,t)=(3\cos t, 3\sin t, t)</m>
+          </p>
+        </task>
+        <task>
+          <p>
+            <m>\vec r_4(4,t)=(4\cos t, 4\sin t, t)</m>
+          </p>
+        </task>
+      </task>
+      <task>
+        <introduction>
+          <p>
+            We said in the initial problem statement that the smoke spreads and merges. So we really want to plot <m>\vec{r}(a,t)=(a\cos t, a\sin t, t)</m> for <m>2\leq a \leq 4</m> at each <m>t</m> value.
+          </p>
+        </introduction>
+        <task>
+          <p>
+            Describe how would this modify your graph from the previous part?
+          </p>
+        </task>
+        <task>
+          <p>
+            Let <m>t=0</m> and graph the curve <m>r(a,0)=(a,0,0)</m> for <m>a\in[2,4]</m>.
+          </p>
+        </task>
+        <task>
+          <p>
+            Repeat this for <m>t=\pi/2,\pi,3\pi/2</m>
+          </p>
+        </task>
+      </task>
+      <task>
+        <p>
+          Describe the resulting surface.
+        </p>
+      </task>
+      <conclusion>
+        <p>
+          Use the SageMathCell or this <url href="http://www.wolframalpha.com/input/?i=parametric+plot+3D++%28a+cos+t%2C+a+sin+t%2C+t%29+for+t+from+0+to+4+pi+and+a+from+2+to+4">Wolfram Alpha</url> link to help you visualize the surface.
+        </p>
+        <sage>
+          <input>
+            f(t, a)=(a*cos(t), a*sin(t), t)
+            parametric_plot(f, (t,0, 4*pi), (a, 2, 4))         
+          </input>
+        </sage>
+      </conclusion>
+      <!-- Original Aside.
+        <aside>
+          <p>
+            See <url href="http://aleph.sagemath.org/?z=eJxL0yjRUUjUtNVI1ErOL9Yo0QTytIoz88CsEk2ugsSixNzUkqLM5PiCnPwSjTQdBaAOAx0FE62CTKASjUQdBSMgT1OTCwBCiRSf">Sage</url> or <url href="http://www.wolframalpha.com/input/?i=parametric+plot+3D++%28a+cos+t%2C+a+sin+t%2C+t%29+for+t+from+0+to+4+pi+and+a+from+2+to+4">Wolfram Alpha</url>.
+          </p>
+        </aside>
+      -->
+    </exploration>
+
+    <p>
+      <em>Contexual Aside:</em> The function above is called a parametric surface. Parametric surfaces are formed by joining together many parametric space curves. Most of 3D computer animation is done using parametric surfaces. Woody's entire body in <em>Toy Story</em> is a collection of parametric surfaces. Car companies create computer models of vehicles using parametric surfaces, and then use those parametric surfaces to study collisions. Often the mathematics behind these models is hidden in the software program, but parametric surfaces are at the heart of just about every 3D computer model.
+    </p>
+
+    <todo>\stewarts{The text has more practice in 13.2:3-8 }
+    \thomasee{The text has more practice in 13.1: 19-22.}
+    \larsonfive{More practice in Larson 12.2:2330.}
+    </todo>
+
+    <exploration>
+      <introduction>
+        <p>
+          Use the same set up as <xref ref="prob_jet_intro_for_space_curves"/>, namely
+          <me>
+            \vec r(t)=(2\cos t, 2\sin t, t).
+          </me>
+        </p>
+
+        <p>
+          You'll need a graph of this function to complete this problem.
+        </p>
+
+        <aside>
+          <p>
+            See <xref ref="differentialtangentline">Section</xref> and <xref ref="def_velocity_acceleration">Definition</xref>.
+          </p>
+        </aside>
+      </introduction>
+      <task>
+        <p>
+          Find the first and second derivative of <m>\vec r(t)</m>. 
+
+          Note that <m>\vec{v}(t) = \vec{r}'(t)</m> and <m>\vec{a}(t)=\vec{r}''(t)</m>.
+        </p>
+      </task>
+      <task>
+        <p>
+          Compute the velocity and acceleration vectors at <m>t=\pi/2</m>. Place these vectors on your graph with their tails at the point corresponding to <m>t=\pi/2</m>.
+        </p>
+      </task>
+      <task>
+        <p>
+          Give an equation of the tangent line to this curve at <m>t=\pi/2</m>.
+        </p>
+      </task>
+    </exploration>
+
+    <todo>\stewarts{The text has more practice in 13.4:3-6}
+    \thomasee{The text has more practice in 13.1: 1-8.}
+    \larsonfive{See also Larson 12.3.}
+    </todo>
+
+    <exploration>
+      <introduction>
+        <p>
+          Consider the pebble from <xref ref="prob_pebble"/>. The pebble's height was given by <m>y=64-16t^2</m>. The pebble also has some horizontal velocity (it's moving at 3 ft/s to the right). If we let the origin be the base of the 64 ft building, then the position of the pebble at time <m>t</m> is given by <m>\vec r(t) = (3t, 64-16t^2)</m>.
+        </p>
+      </introduction>
+      <task>
+        <p>
+          What are <m>n</m> and <m>m</m> when we write this function in the form  <m>\vec r\colon {\mathbb{R}}^n\to {\mathbb{R}}^m</m>?
+        </p>
+      </task>
+      <task>
+        <p>
+          At what time does the pebble hit the ground (the height reaches zero)?
+        </p>
+      </task>
+      <task>
+        <p>
+          Construct a graph of the pebble's path from when it leaves the top of the building until it hits the ground.
+        </p>
+      </task>
+      <task>
+        <aside>
+          <p>
+            See <xref ref="differentialtangentline">Section</xref> and <xref ref="def_velocity_acceleration">Definition</xref>.
+          </p>
+        </aside>
+        <p>
+          Find the pebble's velocity and acceleration vectors at <m>t=1</m>? Draw these vectors on your graph with their base at the pebble's position at <m>t=1</m>.
+        </p>
+      </task>
+      <task>
+        <p>
+          At what speed is the pebble moving when it hits the ground?
+        </p>
+      </task>
+      <conclusion>
+        <p>
+          See <url href="http://wolfr.am/ynm3kD">Wolfram Alpha</url> or use the SageMathCell below.
+        </p>
+        <sage>
+           <!-- <url href="http://aleph.sagemath.org/?z=eJwNxksKgCAUBdB5q3Dmh2eQfWZuJXmIgpAodtt_Dg6crKC92g1IXIfdLoPb6aXz4JowSgz9aVCZhAJZt540aRL89hQRBqM0L_lDq7NR6h-iAhhm">Sage</url> -->
+          <input>
+            f(t)=(3*t, 64-16*t^2)
+            parametric_plot(f, (t,-2.5,2.5), aspect_ratio='automatic')
+          </input>
+        </sage>
+      </conclusion>
+
+    </exploration>
+  </subsection>
+
+  <subsection>
+    <title>Summary and Challenge Exercise</title>
+
+    <exploration>
+      <introduction>
+        <p>
+          Go back to the table you started in <xref ref="prob_function_table"/>.
+        </p>
+      </introduction>
+      <task>
+        <p>
+          Add in the new problems you've completed.
+        </p>
+      </task>
+      <task>
+        <p>
+          What do you observe about the domain (<m>n</m>), co-domain (<m>m</m>) and the dimensions required for plotting?
+        </p>
+      </task>
+    </exploration>
+
+    <p>
+      In all the problems above, you should have noticed that in order to draw a function (provided you include arrows for direction, or use an animation to represent <q>time</q>), you can determine how many dimensions you need to graph a function by just summing the dimensions of the domain and codomain. This is true in general.
+    </p>
+
+    <exploration xml:id="second_parametric_surface_example">
+      <title>Challenge: More Parametric Surfaces</title>
+      <statement>
+        <p>
+          Consider the parametric surface <m>\vec r(u,v)=(u\cos v, u\sin v, u^2)</m> for <m>0\leq u\leq 3</m> and <m>0\leq v\leq 2 \pi</m>.
+          Construct a graph of this function. To do so, let <m>u</m> equal a constant (such as 1, 2, 3) and then graph the resulting space curve. Then let <m>v</m> equal a constant (such as 0, <m>\pi/2</m>, etc.) and graph the resulting space curve until you can visualize the surface.
+        </p>
+        <p>
+          See <url href="http://wolfr.am/A90cfW">Wolfram Alpha</url> or plot it in the cell below. 
+        </p>
+        <sage>
+          <!-- <url href="http://aleph.sagemath.org/?z=eJxL0yjVUSjTtNUo1UrOL9Yo09RRKNUqzsyDsOKMNLkKEosSc1NLijKT4wty8ks00nQUQHoMdBRMgEo0ynQMdIy0CjI1NQFPyxVa">Sage</url> or  -->
+          <input>
+            f(u, v)=(u*cos(v), u*sin(v), u^2)
+            parametric_plot(f, (u, 0, 4), (v,0,2*pi))           
+          </input>
+        </sage>
+      </statement>
+      <hint>
+        <p>
+          Think satellite dish.
+        </p>
+      </hint>
+
+    </exploration>
+  </subsection>
+
+
+  <exercises>
+    <title>Computational Practice</title>
+    <introduction>
+      <p>
+        These are provided to help you achieve better skills in basic computational answers. Note that the content in these really covers Sections 6.1-6.3
+      </p>
+    </introduction>
+
+    <exercisegroup>
+      <introduction>
+        <p>
+          These should help you practicing identifying the domain/range and input/output values.
+        </p>
+      </introduction>
+
+      <exercise>
+        <webwork source="Library/Union/setMVfunctions/nm1.pg" />
+      </exercise>
+
+      <exercise>
+        <webwork source="Library/Union/setMVfunctions/nm2.pg" />
+      </exercise>
+
+      <exercise>
+        <webwork source="Library/Union/setMVfunctions/nm3.pg" />
+      </exercise>
+
+      <exercise>
+        <webwork source="Library/Union/setMVfunctions/system-nm1.pg" />
+      </exercise>
+
+      <exercise>
+        <webwork source="Library/Union/setMVfunctions/system-nm2.pg" />
+      </exercise>
+
+    </exercisegroup>
+
+    <exercisegroup>
+      <introduction>
+        <p>
+          These will help you practice actually computing values from multiple input/output functions.
+        </p>
+      </introduction>
+
+      <exercise>
+        <webwork source="Library/Union/setMVfunctions/an13_1_a.pg" />
+      </exercise>
+
+      <exercise>
+        <webwork source="Library/Union/setMVfunctions/an13_1_b.pg" />
+      </exercise>
+
+      <exercise>
+        <webwork source="Library/Union/setMVfunctions/an14_1_1.pg" />
+      </exercise>
+
+      <exercise>
+        <webwork source="Library/Union/setMVfunctions/an14_1_3.pg" />
+      </exercise>
+
+    </exercisegroup>
+
+  </exercises>
+</section>
+

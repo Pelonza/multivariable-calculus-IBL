@@ -1,9 +1,13 @@
 
 
-<section>
+<section xml:id="ch06_01_terminology">
   <title>Function Terminology</title>
-  <p>
-    In this section you will learn how to:
+  <objectives>
+    <introduction>
+      <p>
+        In this section you will learn how to:
+      </p>
+    </introduction>
     <ul>
       <li>
         <p>
@@ -11,7 +15,7 @@
         </p>
       </li>
     </ul>
-  </p>
+  </objectives>
 
   <p>
     A function is a set of instructions involving two sets (called the domain and codomain). A function assigns to each element of the domain <m>D</m> exactly one element in the codomain <m>R</m>. We'll often refer to the codomain <m>R</m> as the target space. We'll write
@@ -34,16 +38,6 @@
       <p>
         A pebble falls from a 64 ft tall building. Its height (in ft) above the ground <m>t</m> seconds after it drops is given by the function <m>y=f(t)=64-16t^2</m>.
       </p>
-
-      <aside>
-        <p>
-          See 
-          <url href="http://aleph.sagemath.org/?z=eJwrsS1LLNJQL1HXtOYqyMkv0TAz0TU00yqJM9JR0CjRMdAx0tQEAL5TCVo">Sage</url>
-          or 
-          <url href="http://wolfr.am/xoc07E">Wolfram Alpha</url>. 
-          Follow the links to Sage or Wolfram Alpha in all the problems below to see how to get the computer to graph the function.
-        </p>
-      </aside>
     </introduction>
     <task>
       <p>
@@ -65,6 +59,26 @@
         How many dimensions do you need to graph this function?
       </p>
     </task>
+    <conclusion>
+      <p>
+        You can use this SageMathCell to plot the function.
+      </p>
+      <sage>
+        <input>
+          t=var('t');
+          plot(64-16*t^2, (t,0,2))
+        </input>
+      </sage>
+
+      <aside>
+        <p>
+          Alternatively,  follow the links to <url href="http://wolfr.am/xoc07E">Wolfram Alpha</url> in all the problems below to see how to get the computer to graph the function.        
+        </p>
+      </aside>
+      <!-- Old URL link:
+      <url href="http://aleph.sagemath.org/?z=eJwrsS1LLNJQL1HXtOYqyMkv0TAz0TU00yqJM9JR0CjRMdAx0tQEAL5TCVo">Sage</url>
+      -->
+    </conclusion>
   </exploration>
 
   <p>

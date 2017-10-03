@@ -64,7 +64,7 @@
       </task>
       <task>
         <p>
-          Next compute the integrals given in <xref ref="prob_centroid_of_curve">exercise</xref> to find the actual centroid. Share with the class your guess, even if it was incorrect.
+          Next compute the integrals given in <xref ref="prob_centroid_of_curve"/> to find the actual centroid. Share with the class your guess, even if it was incorrect.
         </p>
       </task>
     </exploration>
@@ -122,7 +122,7 @@
     </exploration>
 
     <todo>
-      \larsonfive{See Larson 15.2:23<ndash />26 for more practice.}
+      \larsonfive{See Larson 15.2:2326 for more practice.}
     </todo>
     <exploration>
       <introduction>
@@ -142,7 +142,7 @@
       </task>
       <task>
         <p>
-          What is the total mass of the wire?  [You'll need to parametrize the line as your first step<mdash />see <xref ref="first_line_between_two_points">Exercise</xref> if you need a refresher.]
+          What is the total mass of the wire?  [You'll need to parametrize the line as your first step<mdash />see <xref ref="first_line_between_two_points"/> if you need a refresher.]
         </p>
       </task>
     </exploration>
@@ -343,7 +343,7 @@
         </p>
       </task>
       <p>
-        In <xref ref="semicircle_centroid">exercise</xref>, we showed that the centroid of the wire is <m>(\bar x, \bar y) = \left(0,\frac{2(7)}{\pi})\right)</m>. We now seek the center of mass.
+        In <xref ref="semicircle_centroid"/>, we showed that the centroid of the wire is <m>(\bar x, \bar y) = \left(0,\frac{2(7)}{\pi})\right)</m>. We now seek the center of mass.
       </p>
       <task>
       <p>

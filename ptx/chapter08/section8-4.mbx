@@ -31,7 +31,6 @@
     <me>
       \vec F = (4,-2) + (-4,-8).
     </me></fn>.
-    
   </p>
 <aside>
   <p> 
@@ -296,7 +295,7 @@
     <exploration>
       <title>Optional</title>
       <p>
-        Consider the helix <m>r(t)=(3\cos t, 3\sin t, 4t)</m>. In <xref ref="helix_example_of_T_N_and_B">exercise</xref> we found
+        Consider the helix <m>r(t)=(3\cos t, 3\sin t, 4t)</m>. In <xref ref="helix_example_of_T_N_and_B"/> we found
         <md>
           <mrow>\vec T \amp = (-\frac{3}{5}\sin t,\frac{3}{5}\cos t,\frac{4}{5})</mrow>
           <mrow>\vec N \amp = (-\cos t,-\sin t,0)</mrow>

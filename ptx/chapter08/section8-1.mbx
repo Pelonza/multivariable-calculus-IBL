@@ -141,7 +141,7 @@
     </task>
     <task>
       <p>
-        Find the length of this space curve for <m>t\in[0,2\pi]</m> using the formula in <xref ref="arc_length2"></xref>. Compute any integrals.
+        Find the length of this space curve for <m>t\in[0,2\pi]</m> using the formula in <xref ref="arc_length2"/>. Compute any integrals.
       </p>
     </task>
     <task>
@@ -223,7 +223,7 @@
   <exploration>
     <introduction>
       <p>
-        Consider again the helical space curve <m>\vec r(t)=(\cos t, \sin t, t)</m>. We've shown that <m>s(t) = t\sqrt{2}</m> in <xref ref="prob_basic_helix"></xref>.
+        Consider again the helical space curve <m>\vec r(t)=(\cos t, \sin t, t)</m>. We've shown that <m>s(t) = t\sqrt{2}</m> in <xref ref="prob_basic_helix"/>.
       </p>
     </introduction>
     <task>

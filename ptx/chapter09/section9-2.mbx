@@ -37,7 +37,7 @@
     <task>
       <aside>
         <p>
-          See <xref ref="horse_track_chain_rule_introduction">exercise</xref>
+          See <xref ref="horse_track_chain_rule_introduction"/>
         </p>
       </aside>
       <p>
@@ -100,16 +100,17 @@
 
   <p>
     Notice that this definition suggests the following four steps. These four steps are the key to computing any line integral. 
-    <ol>
-      <li>
-        <p>
-          Start by getting a parametrization <m>\vec r(t)</m> for <m>a\leq t\leq b</m> of the curve <m>C</m>.
-        </p>
 <aside>
   <p> 
     When we ask you to set up a line integral, it means that you should do steps 1<ndash />3, so that you get an integral with a single variable and with bounds that you could plug into a computer or complete by hand.
   </p>
 </aside>
+<ol>
+      <li>
+        <p>
+          Start by getting a parametrization <m>\vec r(t)</m> for <m>a\leq t\leq b</m> of the curve <m>C</m>.
+        </p>
+
 
       </li>
 
@@ -180,7 +181,7 @@
   </exploration>
 
   <todo>
-    \larsonfive{ See Larson 15.2: 1<ndash />20, 63<ndash />70.  Some exercises give you a parametrization, some expect you to come up with one on your own.}
+    \larsonfive{ See Larson 15.2: 120, 6370.  Some exercises give you a parametrization, some expect you to come up with one on your own.}
   </todo>
 
   <exploration>

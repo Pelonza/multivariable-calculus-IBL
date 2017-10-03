@@ -1,0 +1,70 @@
+
+
+<section xml:id="ch06_06_functionlist">
+  <title>Summary of Functions</title>
+  <p>
+    In this unit we've covered a lot of different function types. Be sure you can recognize each one both from its functional form and its name. The following list provides a summary of the unit.
+    <ul>
+      <li>
+        <p>
+          <m>y=f(x)</m> or <m>f\colon \mathbb{R}\to\mathbb{R}</m> (functions of a single variable)
+        </p>
+      </li>
+
+      <li>
+        <p>
+          <m>\vec r(t)=(x,y)</m> or <m>f\colon \mathbb{R}\to\mathbb{R}^2</m> (parametric curves)
+        </p>
+      </li>
+
+      <li>
+        <p>
+          <m>\vec r(t)=(x,y,z)</m> or <m>f\colon \mathbb{R}\to\mathbb{R}^3</m> (space curves)
+        </p>
+      </li>
+
+      <li>
+        <p>
+          <m>\vec r(u,v)=(x,y,z)</m> or <m>f\colon \mathbb{R}^2\to\mathbb{R}^3</m> (parametric surfaces)
+        </p>
+      </li>
+
+      <li>
+        <p>
+          <m>z=f(x,y)</m> or <m>f\colon \mathbb{R}^2\to\mathbb{R}</m> (functions of two variables)
+        </p>
+      </li>
+
+      <li>
+        <p>
+          <m>z=f(x,y,z)</m> or <m>f\colon \mathbb{R}^3\to\mathbb{R}</m> (functions of three variables)
+        </p>
+      </li>
+
+      <li>
+        <p>
+          <m>\vec T(u,v)=(x,y)</m> or <m>f\colon \mathbb{R}^2\to\mathbb{R}^2</m> (2D transformation)
+        </p>
+      </li>
+
+      <li>
+        <p>
+          <m>\vec T(u,v,w)=(x,y,z)</m> or <m>f\colon \mathbb{R}^3\to\mathbb{R}^3</m> (3D transformation)
+        </p>
+      </li>
+
+      <li>
+        <p>
+          <m>\vec F(x,y)=(M,N)</m> or <m>f\colon \mathbb{R}^2\to\mathbb{R}^2</m> (vector fields in the plane)
+        </p>
+      </li>
+
+      <li>
+        <p>
+          <m>\vec F(x,y,z)=(M,N,P)</m> or <m>f\colon \mathbb{R}^3\to\mathbb{R}^3</m> (vector fields in space)
+        </p>
+      </li>
+    </ul>
+  </p>
+</section>
+

@@ -97,7 +97,7 @@
   <example>
     <statement>
       <p>
-        This example refers back to <xref ref="diff-sphere">problem</xref>. We wanted a spherical tank of radius 3m, but due to manufacturing error the radius was slightly off. Let's now illustrate how we can use polynomials to give a first, second, and third order approximation of the volume if the radius is 3.02m instead of 3m.
+        This example refers back to <xref ref="diff-sphere"/>. We wanted a spherical tank of radius 3m, but due to manufacturing error the radius was slightly off. Let's now illustrate how we can use polynomials to give a first, second, and third order approximation of the volume if the radius is 3.02m instead of 3m.
       </p>
 
       <p>

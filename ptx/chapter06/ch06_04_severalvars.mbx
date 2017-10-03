@@ -1,25 +1,29 @@
 
 
-<section>
-  <title>Functions of Several Variables:</title>
+<section xml:id="ch06_04_severalvars">
+  <title>Functions of Several Variables: <m>f\colon {\mathbb{R}}^n\to {\mathbb{R}}</m> </title>
+  <objectives>
+    <introduction>
+      <p> 
+        In this section you will...
+      </p>
+    </introduction>
+    <ul>
+      <li>
+        <p>
+          identify the domain and range of a multivariable or vector-valued function
+        </p>
+      </li>
+
+      <li>
+        <p>
+          express curves and surfaces with parametric equations
+        </p>
+      </li>
+    </ul>
+  </objectives>
+
   <introduction>
-    <p>
-      Section Objectives:
-      <ul>
-        <li>
-          <p>
-            identify the domain and range of a multivariable or vector-valued function
-          </p>
-        </li>
-
-        <li>
-          <p>
-            express curves and surfaces with parametric equations
-          </p>
-        </li>
-      </ul>
-    </p>
-
     <p>
       In this section we'll focus on functions of the form <m>f\colon \mathbb{R}^2\to\mathbb{R}^1</m> and <m>f\colon \mathbb{R}^3\to\mathbb{R}^1</m>; we'll keep the output as a real number. In the next problem, you should notice that the input is a vector <m>(x,y)</m> and the output is a number <m>z</m>. There are two ways to graph functions of this type. The next two problems show you how.
     </p>
@@ -29,7 +33,7 @@
     <title>3-D Surface Plots</title>
 
     <todo>
-      \larsonfive{See Larson 13.1:33<ndash />40}
+      \larsonfive{See Larson 13.1:3340}
     </todo>
 
     <exploration xml:id="prob_3dsurface_plot">
@@ -37,19 +41,14 @@
         <p>
           A computer chip has been disconnected from electricity and sitting in cold storage for quite some time. The chip is connected to power, and a few moments later the temperature (in Celsius) at various points <m>(x,y)</m> on the chip is measured. From these measurements, statistics is used to create a temperature function <m>T=z=f(x,y)</m> to model the temperature at any point on the chip. Suppose that this chip's temperature function is given by the equation <m>T=z=f(x,y)=9-x^2-y^2</m>. Eventually we'll be creating a 3D model of this function in this problem, so you'll need to place all your graphs on the same <m>x,y,z</m> axes. However, to begin with you may find it easier to start with several 2-D plots.
         </p>
-
-        <aside>
-          <p>
-            See <url href="http://aleph.sagemath.org/?z=eJxL06jQqdS0tdStiDPSrYwz4irIyS8xTtFI01EAyuga6xhrAlmVEJYmADAVC84">Sage</url> or 
-            <url href="http://wolfr.am/wny0IF">Wolfram Alpha</url>.
-          </p>
-        </aside>
       </introduction>
+
       <task>
         <p>
           What is the temperature at <m>(0,0)</m>, <m>(1,2)</m>, and <m>(-4,3)</m>?
         </p>
       </task>
+
       <task>
         <statement>
           <p>
@@ -62,6 +61,7 @@
           </p>
         </hint>
       </task>
+
       <task>
         <p>
           Now let <m>x=0</m>. Substitute this value into the temperature function and simplify. Plot the result. This plot should appear in the <m>yz</m> plane and be another parabola.
@@ -74,38 +74,62 @@
           If you drew the above curves in 2-D it is time to combine them. You should end up with 3 lines or a basic wire frame. To make a more complete wireframe we need to add more curves.
         </p>
       </task>
+
       <task>
-      <p>
-        State the simplified equation, then plot and label the curves for:
-      </p>
-      <task>
+        <introduction>
+          <p>
+            State the simplified equation, then plot and label the curves for the values below.
+          </p>
+          <p>
+            Note: You could have done this with <m>y</m> also.
+          </p>
+        </introduction>
+
+        <task>
+          <p>
+            <m>x=-2</m>
+          </p>
+        </task>
+
+        <task>
+          <p>
+            <m>x=-1</m>
+          </p>
+        </task>
+
+        <task>
+          <p>
+            <m>x=1</m>
+          </p>
+        </task>
+
+        <task>
+          <p>
+            <m>x=2</m>
+          </p>
+        </task>
+        
+        <task>
+          <p>
+            Describe the shape. Add any extra features to your graph to convey the 3D image you are constructing.
+          </p>
+        </task>
+      </task>
+
+      <conclusion>
+        <!--  <url href="http://aleph.sagemath.org/?z=eJxL06jQqdS0tdStiDPSrYwz4irIyS8xTtFI01EAyuga6xhrAlmVEJYmADAVC84">Sage</url>  -->
         <p>
-          <m>x=-2</m>
+          See this <url href="http://wolfr.am/wny0IF">Wolfram Alpha</url> link or use the SageMathCell below to verify your answer.
         </p>
-      </task>
-      <task>
-        <p>
-          <m>x=-1</m>
-        </p>
-      </task>
-      <task>
-        <p>
-          <m>x=1</m>
-        </p>
-      </task>
-      <task>
-        <p>
-          <m>x=2</m>
-        </p>
-      </task>
-      Note: You could have done this with <m>y</m> also.
-      <task>
-        <p>
-          Describe the shape. Add any extra features to your graph to convey the 3D image you are constructing.
-        </p>
-      </task>
-      </task>
+        <sage>
+          <input>
+            f(x,y)=9-x^2-y^2
+            plot3d(f, (x,-3,3), (y,-3,3))
+          </input>
+        </sage>
+      </conclusion>
     </exploration>
+
   </subsection>
 
   <subsection>
@@ -113,7 +137,7 @@
     <todo>
       \stewarts{See 14.1: Examples 9-13, for more practice problems 14.1:43-50}
       \thomasee{See 14.1: 13-16 and 31-36.}
-      \larsonfive{See Larson 13.1:45<ndash />56.}
+      \larsonfive{See Larson 13.1:4556.}
     </todo>
 
     <exploration xml:id="prob_intro_to_contour_plots">
@@ -121,14 +145,8 @@
         <p>
           We'll be using the same function <m>T=z=f(x,y)=9-x^2-y^2</m> as the previous problem. However, this time we'll construct a graph of the function by only studying places where the temperature is constant. We'll do this by creating a graph in 2D of the surface (similar to a topographical map).
         </p>
-
-        <aside>
-          <p>
-            See <url href="http://aleph.sagemath.org/?z=eJydj81qwzAQhO9-iiWXWCCHJqbQHHTtExR6KI1RnBVWWWuNVibR21fOH_Ta2-7M7PCtqy86K7NvLoddkw-7aiJO7al2GorTtLpVZcq3SW1k4HOtqiGNVK8-EZY0pDPDyTuHEUMCSZlQgB30HBLP8RoSEIbMM_Q2gCCWdcQllAb8EwSekucgm5Wq7nq36IXoCfTg0Y9LMV8veqtf9Zvefy8qcTzaaD7ijLof7WTWP5jWT_7_FpM9IsmtFpwnMu-WBPVV73wgH_DuWpmwT1205RuzVdUvSwN0NA">Sage</url> or 
-            <url href="http://wolfr.am/wny0IF">Wolfram Alpha</url>.
-          </p>
-        </aside>
       </introduction>
+
       <task>
         <statement>
           <p>
@@ -168,6 +186,22 @@
           Using your 2D plot, construct a 3D image of the function by lifting each level curve to its corresponding height.
         </p>
       </task>
+      <conclusion>
+        <!--  <url href="http://aleph.sagemath.org/?z=eJydj81qwzAQhO9-iiWXWCCHJqbQHHTtExR6KI1RnBVWWWuNVibR21fOH_Ta2-7M7PCtqy86K7NvLoddkw-7aiJO7al2GorTtLpVZcq3SW1k4HOtqiGNVK8-EZY0pDPDyTuHEUMCSZlQgB30HBLP8RoSEIbMM_Q2gCCWdcQllAb8EwSekucgm5Wq7nq36IXoCfTg0Y9LMV8veqtf9Zvefy8qcTzaaD7ijLof7WTWP5jWT_7_FpM9IsmtFpwnMu-WBPVV73wgH_DuWpmwT1205RuzVdUvSwN0NA">Sage</url>   -->
+        <p>
+          See this <url href="http://wolfr.am/wny0IF">Wolfram Alpha</url> link or use the SageMathCell below to verify your answer.
+        </p>
+        <sage>
+          <input>
+            f(x,y)=9-x^2-y^2
+            plot3d(f, (x,-3,3), (y,-3,3)).show()
+            print("We plot two different styles of contour plots so you can see some of the contour plot options.")
+            contour_plot(f,(x,-3,3),(y,-3,3), contours=[0,1,5,8,9], colorbar=True,cmap='jet').show()
+            contour_plot(f,(x,-3,3),(y,-3,3), contours=[0,1,5,8,9], labels=True, fill=False,label_inline=True, aspect_ratio=1)
+          </input>
+        </sage>
+      </conclusion>
+
     </exploration>
 
     <definition>
@@ -183,7 +217,7 @@
     <title>Parametric Surfaces Continued</title>
     <todo>\stewarts{More practice is in 14.1:51-52, 55-58}
     \thomasee{More practice is in 14.1: 37-48.}
-    \larsonfive{See Larson 13.1:45<ndash />56.}
+    \larsonfive{See Larson 13.1:4556.}
     </todo>
 
     <exploration>
@@ -191,29 +225,39 @@
         <p>
           Consider the function <m>f(x,y)=x-y^2</m>.
         </p>
-
-        <aside>
-          <p>
-            See <url href="http://aleph.sagemath.org/?z=eJxL06jQqdS0rdCtjDPiKs7IL9coyMkvMU7RSNNRAErpGusYawJZlRCWpiZETXJ-Xkl-aVE8SC12lToKybmJBbbqWakl6kB2fk5-UVJikW1IUWmqTk5iUmpOMZitqQkAhh0mmg">Sage</url> or 
-            <url href="http://wolfr.am/wBOk1b">Wolfram Alpha</url>.
-          </p>
-        </aside>
       </introduction>
+
       <task>
         <p>
-          Use the same process as <xref ref="prob_3dsurface_plot">problem</xref> to construct a 3D surface plot of <m>f</m>. [So just graph in 3D the curves given by <m>x=0</m> and <m>y=0</m> and then try setting <m>x</m> or <m>y</m> equal to some other constants, like <m>x=1</m>, <m>x=2</m>, <m>y=1</m>, <m>y=2</m>, etc.]
+          Use the same process as <xref ref="prob_3dsurface_plot"/> to construct a 3D surface plot of <m>f</m>. [So just graph in 3D the curves given by <m>x=0</m> and <m>y=0</m> and then try setting <m>x</m> or <m>y</m> equal to some other constants, like <m>x=1</m>, <m>x=2</m>, <m>y=1</m>, <m>y=2</m>, etc.]
         </p>
       </task>
+
       <task>
         <p>
-          Use the same process as <xref ref="prob_intro_to_contour_plots">problem</xref> to construct a contour plot of <m>f</m>. [So just graph in 2D the curves given by setting <m>z</m> equal to a few constants, like <m>z=0</m>, <m>z=1</m>, <m>z=-4</m>, etc.]
+          Use the same process as <xref ref="prob_intro_to_contour_plots"/> to construct a contour plot of <m>f</m>. [So just graph in 2D the curves given by setting <m>z</m> equal to a few constants, like <m>z=0</m>, <m>z=1</m>, <m>z=-4</m>, etc.]
         </p>
       </task>
+
       <task>
         <p>
           Which level curve passes through the point <m>(2,2)</m>?  Draw this level curve on your contour plot.
         </p>
       </task>
+
+      <conclusion>
+        <!--  <url href="http://aleph.sagemath.org/?z=eJxL06jQqdS0rdCtjDPiKs7IL9coyMkvMU7RSNNRAErpGusYawJZlRCWpiZETXJ-Xkl-aVE8SC12lToKybmJBbbqWakl6kB2fk5-UVJikW1IUWmqTk5iUmpOMZitqQkAhh0mmg">Sage</url>  -->
+        <p>
+          See this <url href="http://wolfr.am/wBOk1b">Wolfram Alpha</url> link or use the SageMathCell below to verify your answer.
+        </p>
+        <sage>
+          <input>
+            f(x,y)=x-y^2
+            show(plot3d(f, (x,-3,3), (y,-3,3)))
+            show(contour_plot(f, (x,-3,3), (y,-3,3), cmap='jet', colorbar=True,labels=True))
+          </input>
+        </sage>
+      </conclusion>
     </exploration>
 
     <p>
@@ -226,7 +270,7 @@
 
     <todo>\stewarts{For more practice see 14.1:65-68 }
     \thomasee{You can access more problems on drawing level surfaces in 12.6:1-44 or 14.1:53-60.}
-    \larsonfive{See Larson 11.6 and 13.1:69<ndash />74, as well as 13.1, Example 6.}
+    \larsonfive{See Larson 11.6 and 13.1:6974, as well as 13.1, Example 6.}
     </todo>
 
     <exploration>
@@ -234,15 +278,8 @@
         <p>
           Suppose that an explosion occurs at the origin <m>(0,0,0)</m>. Heat from the explosion starts to radiate outwards. Now suppose that a few moments after the explosion, the temperature at any point in space is given by <m>w=T(x,y,z)=100-x^2-y^2-z^2.</m>
         </p>
-
-        <aside>
-          <p>
-            See <url href="http://aleph.sagemath.org/?z=eJwrSyzSUK_QqdSpUtfkCtEAszRtDQ0MdCvijHQrgbgqzogrM7cgJzM5syS-ICe_xDhFA67Q1tJSRwHIUdA11lEw1gSyK8FsMLMKytRUAADtWRrw">Sage</url>.  
-
-            Wolfram Alpha currently does not support drawing level surfaces.  You could also use Mathematica or <url href="http://demonstrations.wolfram.com/LevelSurfacesAndQuadraticSurfaces/">Wolfram Demonstrations</url>.
-          </p>
-        </aside>
       </introduction>
+
       <task>
         <statement>
           <p>
@@ -280,9 +317,24 @@
           As you move outwards, away from the origin, what happens to your temperature?
         </p>
       </task>
+
+        <conclusion>
+          <p>
+            See Wolfram Alpha currently does not support drawing level surfaces.  You could also use Mathematica or <url href="http://demonstrations.wolfram.com/LevelSurfacesAndQuadraticSurfaces/">Wolfram Demonstrations</url>.
+          </p>
+          <!-- <url href="http://aleph.sagemath.org/?z=eJwrSyzSUK_QqdSpUtfkCtEAszRtDQ0MdCvijHQrgbgqzogrM7cgJzM5syS-ICe_xDhFA67Q1tJSRwHIUdA11lEw1gSyK8FsMLMKytRUAADtWRrw">Sage</url>. -->
+          <sage>
+            <input>
+              var('x,y,z')
+              T(x,y,z)=100-x^2-y^2-z^2
+              implicit_plot3d(T(x,y,z)==99, (x, -3, 3), (y, -3,3), (z, -3,3))
+            </input>
+          </sage>
+        </conclusion>
+
     </exploration>
 
-    <todo>\larsonfive{See Larson 11.6:7<ndash />16.}
+    <todo>\larsonfive{See Larson 11.6:716.}
     </todo>
 
     <exploration>
@@ -290,13 +342,8 @@
         <p>
           Consider the function <m>w=f(x,y,z)=x^2+z^2</m>. This function has an input <m>y</m>, but notice that changing the input <m>y</m> does not change the output of the function. This means that when <m>y=0</m> you can draw one curve. When <m>y=1</m>, you should draw the same curve. When <m>y=2</m>, again you draw the same curve, etc.
         </p>
-
-        <aside>
-          <p>
-            See <url href="http://aleph.sagemath.org/?z=eJwrSyzSUK_QqdSpUtfkStMAszRtK-KMtKvijLgycwtyMpMzS-ILcvJLjFM04ApsTXQUgGwFXWMdBWNNILsSzAYzq6BMTQUAEvYY4A">Sage</url>.
-          </p>
-        </aside>
       </introduction>
+
       <task>
         <p>
           Draw a graph of the level surface <m>w=4</m>.
@@ -314,9 +361,17 @@
       </task>
       <conclusion>
 
-      <p>
-        This kind of graph is called a cylinder, and is important in manufacturing where you extrude an object through a hole.
-      </p>
+        <p>
+          This kind of graph is called a cylinder, and is important in manufacturing where you extrude an object through a hole.
+        </p>
+        <sage>
+          <!-- See <url href="http://aleph.sagemath.org/?z=eJwrSyzSUK_QqdSpUtfkStMAszRtK-KMtKvijLgycwtyMpMzS-ILcvJLjFM04ApsTXQUgGwFXWMdBWNNILsSzAYzq6BMTQUAEvYY4A">Sage</url>. -->
+          <input>
+            var('x,y,z')
+            T(x,y,z)=100-x^2-z^2
+            implicit_plot3d(T(x,y,z)==99, (x, -3, 3), (y, -3,3), (z, -3,3)) 
+          </input>
+        </sage>
 
       </conclusion>
     </exploration>
@@ -324,18 +379,19 @@
     <p>
       Most of our examples of function of the form <m>w=f(x,y,z)</m> can be drawn by using our knowledge about conic sections. <!-- \extrafn{
 
-      <aside>
-        <p>
-          If you feel a little lost and skipped the review unit on conic sections, now would be a good time to go back and go through it.
-        </p>
-      </aside>
+
       } -->We can graph ellipses and hyperbolas if there are only two variables. So the key idea is to set one of the variables equal to a constant and then graph the resulting curve. Repeat this with a few variables and a few constants, and you'll know what the surface is. Sometimes when you set a specific variable equal to a constant, you'll get an ellipse. If this occurs, try setting that variable equal to other constants, as ellipses are generally the easiest curves to draw.
     </p>
+    <aside>
+      <p>
+        If you feel a little lost and skipped the review unit on conic sections, now would be a good time to go back and go through it.
+      </p>
+    </aside>
 
     <exploration>
       <introduction>
         <p>
-          Go back to the table you started in <xref ref="prob_function_table">problem</xref>.
+          Go back to the table you started in <xref ref="prob_function_table"/>.
         </p>
       </introduction>
       <task>
@@ -352,7 +408,7 @@
 
     <todo>\stewarts{Remember you can find more practice in 14.1:65-68}
     \thomasee{Remember you can find more practice in 12.6:1-44 or 14.1: 53-64.}
-    \larsonfive{See Larson 11.6 and 13.1:69<ndash />74, as well as 13.1, Example 6.}
+    \larsonfive{See Larson 11.6 and 13.1:6974, as well as 13.1, Example 6.}
     </todo>
 
     <exploration>
@@ -364,11 +420,7 @@
 
         <aside>
           <p>
-            See <url href="http://aleph.sagemath.org/?z=eJwrSyzSUK_QqdSpUtfkStMAszRtK-KMdCvjjLSr4oy4MnMLcjKTM0viC3LyS4xTNOCKbA11FIBsBV1jHQVjTSC7EswGM6ugTE0FAIXAGhM">Sage</url>.
-          </p>
-
-          <p>
-            We'll have a few people present this problem.
+            We'll probably have a few people present this problem.
           </p>
         </aside>
       </introduction>
@@ -399,7 +451,23 @@
           </p>
         </hint>
       </task>
+
+      <conclusion>
+        <p>
+          Your friendly SageMathCell for plotting..
+        </p>
+        <sage>
+          <!--  See <url href="http://aleph.sagemath.org/?z=eJwrSyzSUK_QqdSpUtfkStMAszRtK-KMdCvjjLSr4oy4MnMLcjKTM0viC3LyS4xTNOCKbA11FIBsBV1jHQVjTSC7EswGM6ugTE0FAIXAGhM">Sage</url>. -->
+          <input>
+            var('x,y,z')
+            f(x,y,z)=x^2-y^2+z^2
+            implicit_plot3d(f(x,y,z)==1, (x, -3, 3), (y, -3,3), (z, -3,3))
+          </input>
+        </sage>
+      </conclusion>
+
     </exploration>
+
   </subsection>
 
   <subsection>
@@ -455,50 +523,34 @@
       We've already seen examples of transformations with polar, cylindrical, and spherical coordinates.
     </p>
 
-    <review>
+    <exploration>
+      <title>Review of Coordinate Transformations</title>
 
-    <p>
-      Consider the coordinate transformation
-      <me>
-        \vec T(r,\theta) = (r\cos\theta,r\sin\theta).
-      </me>
-      <ol>
-        <li>
-          <p>
-            Let <m>r=3</m> and then graph <m>\vec T(3,\theta)=(3\cos\theta,3\sin\theta)</m> for <m>\theta\in[0,2\pi]</m>.
-          </p>
-        </li>
+      <p>
+        Consider the coordinate transformation
+        <me>
+          \vec T(r,\theta) = (r\cos\theta,r\sin\theta).
+        </me>
+        <ol>
+          <li>
+            <p>
+              Let <m>r=3</m> and then graph <m>\vec T(3,\theta)=(3\cos\theta,3\sin\theta)</m> for <m>\theta\in[0,2\pi]</m>.
+            </p>
+          </li>
 
-        <li>
-          <p>
-            Let <m>\theta=\frac{\pi}{4}</m> and then, on the same axes as above, add the graph of 
-            <m>\vec T\left(r,\frac{\pi}{4}\right)=\left(r\frac{\sqrt 2}{2},r \frac{\sqrt 2}{2}\right)</m> for <m>r\in[0,5]</m>.
-          </p>
-        </li>
-      </ol>
-    </p>
+          <li>
+            <p>
+              Let <m>\theta=\frac{\pi}{4}</m> and then, on the same axes as above, add the graph of 
+              <m>\vec T\left(r,\frac{\pi}{4}\right)=\left(r\frac{\sqrt 2}{2},r \frac{\sqrt 2}{2}\right)</m> for <m>r\in[0,5]</m>.
+            </p>
+          </li>
+        </ol>
+      </p>
 
-    </review>
-    <todo>
-
-    <p>
-      [[removed by DF from the next exploration.  Check that it now parses correctly ]]
-      \stewarts{
-      <me>
-        \vec T(\rho,\phi,\theta)=(\rho\sin\phi\cos\theta,\rho\sin\phi\sin\theta,\rho\cos\phi),
-      </me>
-    </p>
-
-    <p>
-      <me>
-        \vec T(\rho,\phi,\theta)=(\rho\sin\phi\cos\theta,\rho\sin\phi\sin\theta,\rho\cos\phi),
-      </me>
-    </p>
-
-    </todo>
+    </exploration>
 
     <todo>
-      \larsonfive{See Larson 11.7:89<ndash />94, 111<ndash />114.}
+      \larsonfive{See Larson 11.7:8994, 111114.}
     </todo>
 
     <exploration xml:id="graphing_spherical_coordinates">
@@ -517,42 +569,60 @@
         </p>
 
         <p>
-          Graphing this transformation requires <m>3+3=6</m> dimensions. In this problem we'll construct parts of this graph by graphing various surfaces. We did something similar for the polar coordinate transformation in <xref ref="polar_coordinate_transformation_graph">problem</xref>.
+          Graphing this transformation requires <m>3+3=6</m> dimensions. In this problem we'll construct parts of this graph by graphing various surfaces. We did something similar for the polar coordinate transformation in <xref ref="polar_coordinate_transformation_graph"/>.
         </p>
 
         <aside>
           <p>
-            Recall that <m>\phi</m> (<q>phi</q>) is the angle down from the <m>z</m> axis, <m>\theta</m> (<q>theta</q>) is the angle counterclockwise from the <m>x</m>-axis in the <m>xy</m>-plane, and <m>\rho</m> (<q>rho</q>) is the distance from the origin. Review <xref ref="derive_spherical_coordinates">problem</xref> if you need a refresher.
+            Recall that <m>\phi</m> (<q>phi</q>) is the angle down from the <m>z</m> axis, <m>\theta</m> (<q>theta</q>) is the angle counterclockwise from the <m>x</m>-axis in the <m>xy</m>-plane, and <m>\rho</m> (<q>rho</q>) is the distance from the origin. Review <xref ref="derive_spherical_coordinates"/> if you need a refresher.
           </p>          
         </aside>
-        
+        <p>
+          For all of the tasks below, do your best to figure out the shape BEFORE using the sage plotting. You should be able to explain (logically) why the graphs generated match the sage plots.
+        </p>
       </introduction>
       <task>
         <aside>
           <p>
-            See <url href="http://aleph.sagemath.org/?z=eJxVjsEKhDAMRO9-xeCpKTmId__C-1JEaEBtaPP_bLMirLe8ecOQNdRcGJqFYXm3RFjgWWxyhR5T3EoLt2K8hB__wosuaNAql2FcfWiZCdJGxkODpprO3apsHz2KhUcw7jnGxJijiie_zzp3oi_jZjWn">Sage</url> or 
-            <url href="http://www.wolframalpha.com/input/?i=parametric+plot+3d+%282+sin+phi+cos+theta%2C+2+sin+phi+sin+theta%2C+2+cos+phi%29">Wolfram Alpha</url>.
+            See this <url href="http://www.wolframalpha.com/input/?i=parametric+plot+3d+%282+sin+phi+cos+theta%2C+2+sin+phi+sin+theta%2C+2+cos+phi%29">Wolfram Alpha</url> link.
           </p>
         </aside>
         <p>
           Let <m>\rho=2</m> and graph the resulting surface.  What do you get if <m>\rho = 3</m>?
         </p>
+        <sage>
+          <!-- <url href="http://aleph.sagemath.org/?z=eJxVjsEKhDAMRO9-xeCpKTmId__C-1JEaEBtaPP_bLMirLe8ecOQNdRcGJqFYXm3RFjgWWxyhR5T3EoLt2K8hB__wosuaNAql2FcfWiZCdJGxkODpprO3apsHz2KhUcw7jnGxJijiie_zzp3oi_jZjWn">Sage</url> -->
+          <input>
+            T(rho, phi, theta) = (rho*sin(phi)*cos(theta), rho*sin(phi)*sin(theta), rho*cos(phi))
+            print "T(rho=2) is", T(rho=2)
+            parametric_plot(T(rho=2), (theta, 0, 2*pi), (phi, 0, pi))
+          </input>
+        </sage>
       </task>
       <task>
-        <aside>
-          <p>
-            See 
-            <url href="http://aleph.sagemath.org/?z=eJxVjrEKwzAMRPd8xZHJMioNTdf8RfZiQsCCNha2_p9WyeJuuveOQ2uouTA0C8PybomwwFlscoQfpriVFi7F-BN-9MKLLmjQKodhXD0uKvcnQdrI6MCgqabPblW2l76Lhc4xrl3GxHhEFSfnn7eZMRN9AfBbOD8">Sage</url> or 
-            <url href="http://www.wolframalpha.com/input/?i=parametric+plot+3d+%28rho+sin+%28pi%2F4%29+cos+theta%2C+rho+sin+%28pi%2F4%29+sin+theta%2C+rho+cos+%28pi%2F4%29%29+">Wolfram Alpha</url>.
-          </p>
-        </aside>
         <p>
           Let <m>\phi=\pi/4</m> and graph the resulting surface.  What do you get if <m>\phi=\pi/2</m>?
         </p>
+        <aside>
+          <p>
+            See <url href="http://www.wolframalpha.com/input/?i=parametric+plot+3d+%28rho+sin+%28pi%2F4%29+cos+theta%2C+rho+sin+%28pi%2F4%29+sin+theta%2C+rho+cos+%28pi%2F4%29%29+">Wolfram Alpha</url>.
+          </p>
+        </aside>
+        <sage>
+          <!-- <url href="http://aleph.sagemath.org/?z=eJxVjrEKwzAMRPd8xZHJMioNTdf8RfZiQsCCNha2_p9WyeJuuveOQ2uouTA0C8PybomwwFlscoQfpriVFi7F-BN-9MKLLmjQKodhXD0uKvcnQdrI6MCgqabPblW2l76Lhc4xrl3GxHhEFSfnn7eZMRN9AfBbOD8">Sage</url> -->
+          <input>
+            T(rho, phi, theta) = (rho*sin(phi)*cos(theta), rho*sin(phi)*sin(theta), rho*cos(phi))
+            print "T(phi=pi/4) is", T(phi=pi/4)
+            parametric_plot(T(phi=pi/4), (theta, 0, 2*pi), (rho, -3, 3))
+          </input>
+        </sage>
       </task>
       <task>
         <p>
           Let <m>\theta=\pi/4</m> and graph the resulting surface.  What do you get if <m>\theta=\pi/2</m>?
+        </p>
+        <p>
+          If you want to see this plotted, you can just modify the previous sage cell.
         </p>
       </task>
     </exploration>
@@ -585,7 +655,7 @@
 
     <todo>\stewarts{See 16.1: 1-14 for more practice.}
     \thomasee{See 16.2: 39-44 for more practice.}
-    \larsonfive{See Larson 15.1:1<ndash />19.}
+    \larsonfive{See Larson 15.1:119.}
     </todo>
 
     <exploration>
@@ -593,15 +663,6 @@
         <p>
           Consider the vector field <m>\vec F(x,y)=(2x+y,x+2y)</m>. In this problem, you will construct a graph of this vector field by hand.
         </p>
-
-        <aside>
-          <p>
-            See 
-            <url href="http://aleph.sagemath.org/?z=eJxz06jQqdRUsFXQMNKq0K7UqdA20qrU5CrIyS-JL0tNLskvik_LTM1J0XDTUQAq1TU00DE00ASyK2FsTQCKaxIN">Sage</url> or
-            <url href="http://wolfr.am/y4gIgX">Wolfram Alpha</url>. 
-            The computer will shrink the largest vector down in size so it does not overlap any of the others, and then reduce the size of all the vectors accordingly.
-          </p>
-        </aside>
       </introduction>
       <task>
         <p>
@@ -618,26 +679,72 @@
           Repeat the above process for the points <m>(0,1)</m>, <m>(-1,1)</m>, <m>(-1,0)</m>, <m>(-1,-1)</m>, <m>(0,-1),</m> and <m>(1,-1)</m>. Remember, at each point draw a vector.
         </p>
       </task>
+      <conclusion>
+        <!-- <url href="http://aleph.sagemath.org/?z=eJxz06jQqdRUsFXQMNKq0K7UqdA20qrU5CrIyS-JL0tNLskvik_LTM1J0XDTUQAq1TU00DE00ASyK2FsTQCKaxIN">Sage</url> or-->
+        <p>
+            See <url href="http://wolfr.am/y4gIgX">Wolfram Alpha</url> or the cell below. 
+            The computer will shrink the largest vector down in size so it does not overlap any of the others, and then reduce the size of all the vectors accordingly.
+        </p>
+        <sage>
+          <input>
+            F(x,y) = (2*x+y,x+2*y)
+            plot_vector_field(F, (x,-10,10), (y,-10,10))            
+          </input>
+        </sage>
+      </conclusion>
     </exploration>
 
     <exploration>
-
+      <title>The Spin field</title>
       <aside>
         <p>
           Use the links above to see the computer plot this.
         </p>
       </aside>
-      <title>The Spin field</title>
       <p>
         Consider the vector field <m>\vec F(x,y)=(-y,x)</m>. Construct a graph of this vector field. Remember, the key to plotting a vector field is <q>at the point <m>(x,y)</m>, draw the vector <m>\vec F(x,y)</m> with its base at <m>(x,y)</m>.</q> Plot at least 8 vectors (a few in each quadrant), so we can see what this field is doing.
       </p>
     </exploration>
 
+    <!-- <url href="http://aleph.sagemath.org/?z=eJxz06jQqdSp0lSwVdAA0joVmlwFOfkl8WWpySX5RfFpmak5KcYpGm46CkCFusY6xpo6IIUQlkYVhKEJAOGFExs">Sage</url>  -->
     <p>
-      <url href="http://aleph.sagemath.org/?z=eJxz06jQqdSp0lSwVdAA0joVmlwFOfkl8WWpySX5RfFpmak5KcYpGm46CkCFusY6xpo6IIUQlkYVhKEJAOGFExs">Sage</url> can also help us visualize 3d vector fields, like <m>\vec F(x,y,z)=(y,z,x)</m>.
+      Sage can also help us visualize 3d vector fields, like <m>\vec F(x,y,z)=(y,z,x)</m>.
     </p>
+    <sage>
+      <input>
+        F(x,y,z) = (y,z,x)
+        plot_vector_field3d(F, (x,-3,3), (y,-3,3),(z,-3,3))        
+      </input>
+    </sage>
 
     </subsubsection>
   </subsection>
+
+  <exercises>
+    <title>Computational Practice</title>
+    <introduction>
+      <p>
+        These are provided to help you achieve better skills in basic computational answers.
+      </p>
+    </introduction>
+
+    <exercise>
+      <webwork source="Library/Michigan/Chap17Sec5/Q11.pg" />
+    </exercise>
+
+    <exercise>
+      <webwork source="Library/Michigan/Chap12Sec3/Q16.pg" />
+    </exercise>
+
+    <exercise>
+      <webwork source="Library/UMN/calculusStewartET/s_12_6_21/s_12_6_21.pg" />
+    </exercise>
+
+    <exercise>
+      <webwork source="Library/UMN/calculusStewartET/s_14_1_23/s_14_1_23.pg" />
+    </exercise>
+
+  </exercises>
+
 </section>
 

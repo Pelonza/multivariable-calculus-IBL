@@ -44,7 +44,7 @@
   </p>
 
   <p>
-    Let's start with simple review. Recall that the work done by a vector field <m>\vec F</m> through a displacement <m>\vec d</m> is the dot product <m>\vec F\cdot \vec d</m>. We saw this in <xref ref="first_work_problem">Exercise</xref>.
+    Let's start with simple review. Recall that the work done by a vector field <m>\vec F</m> through a displacement <m>\vec d</m> is the dot product <m>\vec F\cdot \vec d</m>. We saw this in <xref ref="first_work_problem"/>.
   </p>
 
   <review>
@@ -111,7 +111,7 @@
   </exploration>
 
   <p>
-    We know how to compute work when we move along a straight line. Prior to <xref ref="first_work_problem">exercise</xref> on <xref ref="first_work_problem">page</xref>, we made the following statements.
+    We know how to compute work when we move along a straight line. Prior to <xref ref="first_work_problem"/> on <xref ref="first_work_problem">page</xref>, we made the following statements.
   </p>
 
   <blockquote>
@@ -138,7 +138,7 @@
   </blockquote>
 
   <p>
-    We used the dot product to remove the first assumption, and we showed in <xref ref="first_work_problem">exercise</xref> that the work is simply the dot product
+    We used the dot product to remove the first assumption, and we showed in <xref ref="first_work_problem"/> that the work is simply the dot product
     <me>
       W=\vec F\cdot \vec r,
     </me>
