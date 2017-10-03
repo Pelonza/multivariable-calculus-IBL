@@ -81,7 +81,7 @@
     <title>Line Integral</title>
     <statement>
       <p>
-        <!-- \extrafn{The line integral is also called the path integral, contour integral, or curve integral.} -->Let <m>f</m> be a function and let <m>C</m> be a piecewise smooth curve whose parametrization is <m>\vec r(t)</m> for <m>t\in[a,b]</m>. We'll require that the composition <m>f(\vec r(t))</m> be continuous for all <m>t\in [a,b]</m>. Then we define the line integral
+        Let <m>f</m> be a function and let <m>C</m> be a piecewise smooth curve whose parametrization is <m>\vec r(t)</m> for <m>t\in[a,b]</m>. We'll require that the composition <m>f(\vec r(t))</m> be continuous for all <m>t\in [a,b]</m>. Then we define the line integral
         of <m>f</m> over <m>C</m> to be the integral
         <me>
           \int_C f ds 
@@ -89,16 +89,29 @@
           = \int_a^b f(\vec r(t))\left|\frac{d\vec r}{dt}\right|dt.
         </me>
       </p>
+<aside>
+  <p> 
+    The line integral is also called the path integral, contour integral, or curve integral.
+  </p>
+</aside>
+
     </statement>
   </definition>
 
   <p>
-    Notice that this definition suggests the following four steps. These four steps are the key to computing any line integral. <!-- \extrafn{When we ask you to set up a line integral, it means that you should do steps 13, so that you get an integral with a single variable and with bounds that you could plug into a computer or complete by hand.} -->
-    <ol>
+    Notice that this definition suggests the following four steps. These four steps are the key to computing any line integral. 
+<aside>
+  <p> 
+    When we ask you to set up a line integral, it means that you should do steps 1<ndash />3, so that you get an integral with a single variable and with bounds that you could plug into a computer or complete by hand.
+  </p>
+</aside>
+<ol>
       <li>
         <p>
           Start by getting a parametrization <m>\vec r(t)</m> for <m>a\leq t\leq b</m> of the curve <m>C</m>.
         </p>
+
+
       </li>
 
       <li>
@@ -115,8 +128,14 @@
 
       <li>
         <p>
-          <!-- \extrafn{You should use the <url href="\sagelineintegral">Sage line integral calculator</url> to check all your answers.} -->Integrate the product from the previous step. Practice doing this by hand on every exercise, unless it specifically says to use technology. Some of the integrals are impossible to do by hand.
+          Integrate the product from the previous step. Practice doing this by hand on every exercise, unless it specifically says to use technology. Some of the integrals are impossible to do by hand.
         </p>
+<aside>
+  <p> 
+    You should use the <url href="\sagelineintegral">Sage line integral calculator</url> to check all your answers.
+  </p>
+</aside>
+
       </li>
     </ol>
   </p>

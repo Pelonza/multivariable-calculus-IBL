@@ -91,13 +91,18 @@
   <theorem>
     <statement>
       <p>
-        <!-- \extrafn{Ask me in class to give you an informal picture approach that explains why 
-        <m>dxdy=rdrd\theta</m>.  
-        } -->If we use the polar coordinate transformation <m>x=r\cos\theta, y=r\sin\theta</m>, then we can switch from <m>(x,y)</m> coordinates to <m>(r,\theta)</m> coordinates if we use
+        If we use the polar coordinate transformation <m>x=r\cos\theta, y=r\sin\theta</m>, then we can switch from <m>(x,y)</m> coordinates to <m>(r,\theta)</m> coordinates if we use
         <me>
           dxdy=|r|drd\theta.
         </me>
       </p>
+<aside>
+  <p> 
+    Ask me in class to give you an informal picture approach that explains why 
+        <m>dxdy=rdrd\theta</m>.
+  </p>
+</aside>
+
 
       <p>
         The number <m>|r|</m> is called the Jacobian of <m>x</m> and <m>y</m> with respect to <m>r</m> and <m>\theta</m>. If we require all bounds for <m>r</m> to be nonnegative, we can ignore the absolute value. If <m>R_{xy}</m> is a region in the <m>xy</m> plane that corresponds to the region <m>R_{r\theta}</m> in the <m>r\theta</m> plane (where <m>r\geq 0</m>), then we can write

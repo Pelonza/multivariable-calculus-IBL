@@ -100,13 +100,19 @@
       <statement>
         <p>
           The determinant of a {<m>2\times 2</m>} matrix is the number
-          <!-- \extrafn{We use vertical bars next to a matrix to state we want the determinant, so <m>\det A = |A|</m>. } -->
+          
           <md>
             <mrow>\det\begin{bmatrix}a\amp b</mrow>
             <mrow>c\amp d\end{bmatrix} \amp =\begin{vmatrix}a\amp b</mrow>
             <mrow>c\amp d\end{vmatrix} = ad-bc.</mrow>
           </md>
         </p>
+<aside>
+  <p> 
+    We use vertical bars next to a matrix to state we want the determinant, so <m>\det A = |A|</m>.
+  </p>
+</aside>
+
 
         <p>
           The determinant of a {<m>3\times 3</m>} matrix is the number

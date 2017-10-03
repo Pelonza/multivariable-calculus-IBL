@@ -31,8 +31,13 @@
     <me>
       \vec F = (4,-2) + (-4,-8).
     </me></fn>.
-    <!-- \extrafn{This is a good time to look back over the projection section from Unit 1: <xref ref="prob_force_intro"/>} -->
   </p>
+<aside>
+  <p> 
+    This is a good time to look back over the projection section from Unit 1: <xref ref="prob_force_intro"></xref>
+  </p>
+</aside>
+
 
   </review>
 
@@ -261,11 +266,17 @@
         <p>
           Let <m>\vec r(t)</m> be a parametrization of a smooth curve <m>C</m> with unit tangent vector <m>\vec T(t)</m>.
           The derivative of <m>\vec B</m> with respect to <m>s</m> tells us how rapidly the plane containing <m>\vec T</m> and <m>\vec N</m> rotates. We'll define the torsion vector to be
-          <!-- \extrafn{Watch a <url href="http://www.youtube.com/watch?v=MVtUc2peJn0&amp;feature=bf_next&amp;list=PL30EE81142B1ED1F0&amp;lf=plpp_video">YouTube Video</url>.  } -->
+          
           <me>
             \vec \tau = \dfrac{d\vec B}{ds} = \dfrac{d\vec B/dt}{ds/dt}=\dfrac{d\vec B/dt}{|d\vec r/dt|}.
           </me>
         </p>
+<aside>
+  <p> 
+    Watch a <url href="http://www.youtube.com/watch?v=MVtUc2peJn0&amp;feature=bf_next&amp;list=PL30EE81142B1ED1F0&amp;lf=plpp_video">YouTube Video</url>.
+  </p>
+</aside>
+
 
         <p>
           The torsion <m>\tau</m>, up to a sign, is the length of this vector. We say there is positive torsion if <m>\vec \tau</m> causes a counterclockwise rotation about <m>\vec T</m> (as you look down <m>\vec T</m>), which occurs precisely when <m>\vec tau</m> and <m>\vec N</m> point in opposite directions. We can summarize this is
