@@ -47,13 +47,13 @@
     Let's start with simple review. Recall that the work done by a vector field <m>\vec F</m> through a displacement <m>\vec d</m> is the dot product <m>\vec F\cdot \vec d</m>. We saw this in <xref ref="first_work_problem"/>.
   </p>
 
-  <review>
+  <project>
 
   <p>
     An object moves from <m>A=(6,0)</m> to <m>B=(0,3)</m>. Along the way, it encounters the constant force <m>\vec F = (2,5)</m>. How much work is done by <m>\vec F</m> as the object moves from <m>A</m> to <m>B</m>? See<fn>The displacement is <m>B-A=(-6,3)</m>. The work is <m>\vec F\cdot \vec d = (2,5)\cdot(-6,3) = -12+15=3</m>.</fn>.
   </p>
 
-  </review>
+  </project>
 
   <exploration>
     <introduction>
@@ -211,13 +211,13 @@
     </statement>
   </definition>
 
-  <review>
+  <project>
 
   <p>
     Consider the curve <m>y=3x^2-5x</m> for <m>-2\leq x\leq 1</m>. Give a parametrization of this curve. See<fn>Whenever you have a function of the form <m>y=f(x)</m>, you can always use <m>x=t</m> and <m>y=f(t)</m> to parametrize the curve.  So we can use <m>\vec r(t) = (t, 3t^2-5t)</m> for <m>-2\leq t\leq 1</m> as a parametrization.</fn>.
   </p>
 
-  </review>
+  </project>
 
   <exploration>
     <introduction>
@@ -327,13 +327,13 @@
       In the exercises for the previous sections, the vector fields represented forces. However, vector fields can represent much more than just forces. The vector field might represent the flow of water down a river, or the flow of air across an airplane wing. When we think of the vector field as a velocity field, then we mights ask the question, how much of the fluid flows along our curve. Alternately, we might ask how much of the fluid flows across our curve. These two exercises lead to flow along a curve, and flux across a curve. Flow along a curve is directly related to the lift of an airplane wing (which occurs when the flow along the top of the wing is different than the flow below the wing). The flux across a curve will quickly take us to powering a wind mill as wind flows across the surface of a blade (once we hit 3D integrals).
     </p>
 
-    <review>
+    <project>
 
     <p>
       If the unit tangent vector is <m>\vec T = \dfrac{(3,4)}{5}</m>, give two unit vectors that are orthogonal to <m>\vec T</m>. See<fn>We just reverse the order and change a sign to get <m>\vec N_1 = \dfrac{(-4,3)}{5}</m> and <m>\vec N_1 = \dfrac{(4,-3)}{5}</m> as the orthogonal vectors.</fn>.
     </p>
 
-    </review>
+    </project>
 
     <exploration>
       <introduction>

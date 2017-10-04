@@ -186,22 +186,22 @@
     Now let's look at what happens if we change the speed in a nonlinear way. For simplicity, let's replace <m>t</m> with <m>t^2</m>. You could pick any other change. If you aren`t confident with your product rule, then please do the first review exercise. If you need to remember how to show vectors are orthogonal, do the second.
   </p>
 
-  <review>
+  <project>
 
   <p>
     Suppose <m>f(x) = \sin(x^2)</m>. Compute <m>f'(x)</m> and <m>f''(x)</m>. See<fn>We have <m>f'(x) = 2x\cos(x^2)</m> and <m>f''(x) = -4x^2\sin(x^2)+2\cos(x^2)</m>.</fn>.
   </p>
 
-  </review>
+  </project>
 
-  <review>
+  <project>
 
   <p>
     Show that <m>(-2,3,1)</m> and <m>(4,2,2)</m> are orthogonal. See<fn>The dot product of these two vectors is 
     <m>(-2,3,1)\cdot(4,2,2) = -8+6+2=0</m>. Because the dot product is zero, the vectors are orthogonal.</fn>.
   </p>
 
-  </review>
+  </project>
 
   <exploration>
     <introduction>

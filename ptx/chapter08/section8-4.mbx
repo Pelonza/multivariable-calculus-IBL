@@ -22,7 +22,7 @@
     Back in the vector chapter, we practiced writing a force <m>\vec F</m> as the sum of the component parallel to a displacement <m>\vec d</m> and the component orthogonal to <m>\vec d</m>. We could write this as <m>\vec F = \vec F_{|| \text{ to } \vec d} + \vec F_{\perp \text{ to } \vec d}.</m> The parallel part came from a projection. The orthogonal part came from vector subtraction. If you've forgotten how to do this, please do this review exercise.
   </p>
 
-  <review>
+  <project>
 
   <p>
     Consider the force vector <m>\vec F = (0,-10)</m>, and displacement vector <m>\vec (2,-1)</m>. Compute the projection of <m>\vec F</m> onto <m>\vec d</m>, and then write <m>\vec F</m> as the sum of a vector parallel to <m>\vec d</m> and a vector orthogonal to <m>\vec d</m>. See<fn>The projection is <m>\proj_{\vec d}\vec F = \frac{10}{5}(2,-1) = (4,-2)</m>.  This is the parallel component <m>\vec F_{|| \text{ to } \vec d} =(4,-2)</m>.  To get the orthogonal component, we know that <m>\vec F = \vec F_{|| \text{ to } \vec d} + \vec F_{\perp \text{ to } \vec d}</m>. Vector subtraction gives
@@ -39,7 +39,7 @@
 </aside>
 
 
-  </review>
+  </project>
 
   <p>
     If we throw a pebble from a 64 ft tall cliff, then we could parameterize the path after <m>t</m> seconds using <m>\vec r(t) = (3t,64-16t^2)</m>. The numbers below get rather large in a hurry, so let's use a simpler parameterization to gain understanding about the connection between <m>\vec v</m>, <m>\vec a</m>, <m>\vec T</m>, and <m>\vec N</m>. Sometimes the key to understanding is to simplify the exercise.
@@ -319,13 +319,13 @@
       In the examples above, you should have noticed that <m>\vec \tau</m> was either parallel to <m>\vec N</m> or anti-parallel to <m>\vec N</m>. Let's now show this is always the case. The key is to use the product rule on the cross product, together with some key fact about the cross product.
     </p>
 
-    <review>
+    <project>
 
     <p>
       What is the cross product of <m>(1,2,3)</m> and <m>(2,4,6)</m>? If two vectors are parallel, then what is their cross product? In particular, what is the cross product of <m>\vec N</m> and <m>\vec \kappa</m>? See<fn>The cross product of parallel vectors is always the zero vector <m>(0,0,0)</m>. This is because the area of the parallelogram formed using the parallel vectors is always zero. So all three answers are <m>(0,0,0)</m>.</fn>for an answer.
     </p>
 
-    </review>
+    </project>
 
     <exploration>
       <title>Optional</title>

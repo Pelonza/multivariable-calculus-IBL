@@ -157,7 +157,7 @@
     </me>
   </p>
 
-  <review>
+  <project>
 
   <p>
     Compute a unit vector in the direction <m>\vec{d}=\langle 1,3 \rangle</m> See<fn><m>\hat{u}=\frac{\vec{d}}{|\vec{d}|}=\frac{\langle 1,3 \rangle}{\sqrt{1^2+3^2}}=\langle \frac{1}{\sqrt{10}}, \frac{3}{\sqrt{10}} \rangle</m></fn></p>
@@ -165,7 +165,7 @@
   <p>
     If you move 1 unit in the <m>\vec{d}</m> direction from <m>(x,y)=(0,1)</m> what is the new point? See<fn><m>(x,y)+\hat{u}=\langle \frac{1}{\sqrt{10}}, 1+\frac{3}{\sqrt{10}} \rangle</m></fn></p>
 
-  </review>
+  </project>
 
   <exploration>
     <introduction>

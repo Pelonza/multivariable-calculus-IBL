@@ -140,7 +140,7 @@
     We now have the entire <m>TNB</m> frame. This gives us a moving collection of unit vectors that act like an <m>xyz</m> coordinate system. Many of you will use this frame a ton in your dynamics course. The TNB frame shows up in physical chemistry as well. A key fact to remember is that all three vectors are unit vectors, and they are each orthogonal to the other.
   </p>
 
-  <review>
+  <project>
 
   <p>
     Find the area of a parallelogram with corners <m>(0,0,0)</m>, <m>(1,0,2)</m>, and <m>(1,1,3)</m>, and <m>(2,1,5)</m>. See<fn>We find area of a parallelogram by the vectors that form the edges. Since one point is the origin (subtracting it from the 2nd and 3rd points won't change anything), we compute the cross product
@@ -149,7 +149,7 @@
     = (-2,-1,1)</m>. The magnitude of the cross product is the area <m>A = \sqrt{4+1+1}=\sqrt{6}</m>.</fn>.
   </p>
 
-  </review>
+  </project>
 
   <exploration>
     <introduction>
@@ -203,13 +203,13 @@
       You've now developed the TNB frame for describing motion. Engineers will see this again when they study dynamics. Mathematicians who study differential geometry will use these ideas as well. Any time you want to analyze the forces acting on a moving object, the TNB frame may save the day. Chemists will encounter the TNB frame briefly when they study P-chem and the motion of subatomic particles.
     </p>
 
-    <review>
+    <project>
 
     <p>
       If you are standing at <m>(2,1,-3)</m> and you wish to move 6 units in the direction of the unit vector <m>(1/3, 2/3, -2/3)</m>, where are you? See<fn>We want to start at <m>(2,1,-3)</m> and move <m>6(1/3, 2/3, -2/3) = (2,4,-4)</m>. We just add the vectors, giving <m>(4,5,-7)</m>.</fn>for an answer.
     </p>
 
-    </review>
+    </project>
 
     <exploration>
       <title>Extra Practice</title>

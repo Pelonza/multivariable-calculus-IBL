@@ -17,7 +17,7 @@
     We now want to explore how to perform <m>u</m>-substitution in high dimensions. Let's start with a review from first semester calculus.
   </p>
 
-  <review>
+  <project>
 
   <p>
     Consider the integral <m>\ds\int_{-1}^4 e^{-3x} dx</m>.
@@ -48,7 +48,7 @@
     </ol>
   </p>
 
-  </review>
+  </project>
 
   <p>
     In the exercise above, we used a change of coordinates <m>u=-3x</m>, or <m>x=-1/3 u</m>. By taking derivatives, we found that <m>dx=-\frac{1}{3}du</m>. The negative means that the orientation of the interval was reversed. The fraction <m>\frac13</m> tells us that lengths <m>dx</m> using <m>x</m> coordinates will be <m>1/3</m>rd as long as lengths <m>du</m> using <m>u</m> coordinates. When we write <m>dx = \frac{dx}{du}du</m>, the number <m>\frac{dx}{du}</m> is called the Jacobian of <m>x</m> with respect to <m>u</m>. The Jacobian tells us how lengths are altered when we change coordinate systems. We now generalize this to polar coordinates. Before we're done with this section, we'll generalize the Jacobian to any change of coordinates.
