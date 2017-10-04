@@ -321,9 +321,12 @@
   <subsection>
     <title>Practicing with the Chain Rule</title>
 
-    <todo>\stewarts{ See 14.5:1-12 for more practice. Don't use the formulas in the chapter, rather practice using matrix multiplication.  The formulas are just a way of writing matrix multiplication without writing down the matrices, and only work for functions from <m>\RR^n\to\RR</m>.  Our matrix multiplication method works for any function from <m>\RR^n\to\RR^m</m>. }
+    <todo>\stewarts{ See 14.5:1-12 for more practice. Don't use the formulas in the chapter, rather practice using matrix multiplication.  The formulas are just a way of writing matrix multiplication 
+    <!--
+      without writing down the matrices, and only work for functions from <m>\RR^n\to\RR</m>.  Our matrix multiplication method works for any function from <m>\RR^n\to\RR^m</m>. }
     \thomasee{See 14.4: 1-6 for more practice. Don't use the formulas in the chapter, rather practice using matrix multiplication.  The formulas are just a way of writing matrix multiplication without writing down the matrices, and only work for functions from <m>\RR^n\to\RR</m>.  Our matrix multiplication method works for any function from <m>\RR^n\to\RR^m</m>.}
     \larsonfive{See Larson 13.5:16 for more practice (you can check answers in the back of the book).  Don't use the formulas on pages 925930.  Instead, use matrix multiplication.  The formulas are just a way of writing matrix multiplication without writing down the matrices, and only work for functions from <m>\RR^n\to\RR</m>.  Our matrix multiplication method works for any function from <m>\RR^n\to\RR^m</m>.}
+    -->
     </todo>
 
     <exploration>
