@@ -338,7 +338,7 @@
 
       <task>
         <p>
-          Rewrite the parametric equations <m>x=2t+3</m> and <m>y=3t^2+4</m> in vector form, so we can apply the chain rule. This means you need to create a function <m>\vec r(t) = (\blank{1in}, \blank{1in})</m>.
+          Rewrite the parametric equations <m>x=2t+3</m> and <m>y=3t^2+4</m> in vector form, so we can apply the chain rule. This means you need to create a function <m>\vec r(t) = (?, ?)</m>.
         </p>
       </task>
       <task>
