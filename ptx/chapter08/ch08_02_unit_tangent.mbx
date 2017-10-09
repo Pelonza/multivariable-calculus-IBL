@@ -269,7 +269,7 @@
       </task>
       <task>
         <p>
-          Compute <m>D\vec r(t)</m> and <m>Dt(s)</m>.  You should have a 2 by 1 matrix, and a 1 by 1 matrix.
+          Compute <m>D\vec r(t)</m> and <m>Dt(s)</m>.  You should have a 3 by 1 matrix, and a 1 by 1 matrix.
         </p>
       </task>
       <task>
