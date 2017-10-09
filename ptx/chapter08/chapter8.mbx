@@ -247,7 +247,7 @@
   <xi:include  href="ch08_01_projmotion.mbx" />
   <xi:include  href="ch08_02_unit_tangent.mbx" />
   <xi:include  href="ch08_03_curvature.mbx" />
-  <xi:include  href="section8-3.mbx" />
+  <xi:include  href="ch08_04_unitnormal.mbx" />
   <xi:include  href="section8-4.mbx" />
 
 </chapter>
