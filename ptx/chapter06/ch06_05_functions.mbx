@@ -137,7 +137,7 @@
         What bounds must you place on <m>x</m> and <m>y</m> to obtain the portion of the surface above the plane <m>z=0</m>?
       </p>
     </task>
-    <task>
+    <task xml:id="general_param_3d">
       <p>
         If <m>z=f(x,y)</m> is any surface, give a parametrization of the surface (i.e., <m>x=?, y=?, z=?</m> or <m>\vec r (?,?)=(?,?,?)</m>.)
       </p>

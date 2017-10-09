@@ -237,7 +237,7 @@
     </exploration>
 
     <p>
-      We'll call <m>\ds s(t)=\int_0^t \left|\frac {d\vec r}{d\tau}\right|\ d\tau</m> the arc length parameter. It tells us how far we've have traveled after <m>t</m> seconds. We can now predict distance traveled from time elapsed. Because <m>s(t)</m> is an increasing function, we can also invert this process and give time elapsed from distance traveled. This means we could compute derivatives with respect to <m>s</m> instead of <m>t</m>.
+      We'll call <m>\ds s(t)=\int_0^t \left|\frac {d\vec r}{d\tau}\right|\ d\tau</m> the arc length parameter. It tells us how far we have traveled after <m>t</m> seconds. We can now predict distance traveled from time elapsed. Because <m>s(t)</m> is an increasing function, we can also invert this process and give time elapsed from distance traveled. This means we could compute derivatives with respect to <m>s</m> instead of <m>t</m>.
       When we take a derivative with respect to <m>s</m>, we ask how much a curve changes if we increase length by 1 unit, instead of increasing time by 1 unit. We'll write
       <me>
         \ds\frac{d\vec r}{ds} =\ds\frac{d\vec r/dt}{ds/dt} = \frac{d\vec r/dt}{|d\vec r/dt|} = \frac{\vec v}{|\vec{v}|}.
