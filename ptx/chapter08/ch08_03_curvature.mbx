@@ -337,19 +337,114 @@
     <exploration>
       <introduction>
         <p>
-          Consider the curve <m>\vec r(t) = (t, t^2)</m>. The computations get intense, so let's use a computer algebra system, such as Sage (<url href="\sageurlforcurvature">follow this link</url>) to help us. If we don't use a computer, we could spend hours on this exercise. The computer will do all the computations, and give graphs, in seconds.
+          Consider the curve <m>\vec r(t) = (t, t^2)</m>. The computations get intense, so let's use a computer algebra system, such as Sage (<url href="http://bmw.byuimath.com/dokuwiki/doku.php?id=curvature_calculator">follow this link</url>) to help us. If we don't use a computer, we could spend hours on this exercise. The computer will do all the computations, and give graphs, in seconds.
         </p>
 
         <aside>
           <p>
-            Use the <url href="\sageurlforcurvature">Sage link</url>.
+            Use the <url href="http://bmw.byuimath.com/dokuwiki/doku.php?id=curvature_calculator">Sage link</url>.
           </p>
         </aside>
       </introduction>
       <task>
         <p>
-          Use this <url href="\sageurlforcurvature">Sage link</url> to compute <m>\vec v</m>, <m>\vec a</m>, <m>\dfrac{ds}{dt}</m>, <m>\vec T</m>, <m>\dfrac{d\vec T}{dt}</m>, <m>\dfrac{d\vec T}{ds}</m>, <m>\left|\dfrac{d\vec T}{ds}\right|</m>, and the unit vector <m>\vec N</m> that is orthogonal to <m>\vec T</m>. Evaluate each at <m>t=1</m> and <m>t=\sqrt{3}/2</m> (use <q>sqrt(3)/2</q>). Record your answers in the provided table.
+          Use the SageMathCell below to compute <m>\vec v</m>, <m>\vec a</m>, <m>\dfrac{ds}{dt}</m>, <m>\vec T</m>, <m>\dfrac{d\vec T}{dt}</m>, <m>\dfrac{d\vec T}{ds}</m>, <m>\left|\dfrac{d\vec T}{ds}\right|</m>, and the unit vector <m>\vec N</m> that is orthogonal to <m>\vec T</m>. Evaluate each at <m>t=1</m> and <m>t=\sqrt{3}/2</m> (use <q>sqrt(3)/2</q>). Record your answers in the provided table.
         </p>
+        <sage>
+          <input>
+            var('t')                 ##declare the variables you'll use below.
+            r(t)=[(1*t),(1*t)^2]     ##Give a parametrization of the curve
+            tBounds=(t,-2,2)         ##State the bounds you want in your plot
+            point=1                  ##Give a t-value at which you would like to draw all vectors.
+
+            ##Computation time
+            v=diff(r,t)              #compute the velocity
+            a=diff(v,t)              #compute the acceleration
+            speed = v.norm()         #.norm() computes the length of a vector.
+            T = v/speed              #compute the unit tangent vector
+            dTdt = diff(T,t)         #compute dT/dt
+            dTds = diff(T,t)/speed   #compute dT/ds (the curvatuve vector)
+            curvature = dTds.norm()  #the curvatuve is the length of the curvatuve vector.
+            N = dTdt/dTdt.norm()     #The unit normal vector
+
+            ##Print the results.  I added .simplify_full().simplify_trig() to the end of each, so that the results will look simplified.
+            table([
+            [r"$\vec r$",r(t).simplify_full().simplify_trig()],
+            [r"$\vec v$",v(t).simplify_full().simplify_trig()],
+            [r"$\vec a$",a(t).simplify_full().simplify_trig()],
+            [r"$\frac{ds}{dt} = |\vec v| = $ speed",speed(t).simplify_full().simplify_trig()],
+            [r"$\vec T$",T(t).simplify_full().simplify_trig()],
+            [r"$\frac{d\vec T}{dt}$",dTdt(t).simplify_full().simplify_trig()],
+            [r"$\frac{d\vec T}{ds}$",dTds(t).simplify_full().simplify_trig()],
+            [r"$\left|\frac{d\vec T}{ds}\right| = \kappa $",curvature(t).simplify_full().simplify_trig()],
+            [r"$\vec N$",N(t).simplify_full().simplify_trig()],
+            ])
+
+
+            ##Print the results.  I added .simplify_full().simplify_trig() to the end of each, so that the results will look simplified.
+            print "At the time t = ",point, " we have the following:"
+            table([
+            [r"$\vec r$",r(point).simplify_full().simplify_trig()],
+            [r"$\vec v$",v(point).simplify_full().simplify_trig()],
+            [r"$\vec a$",a(point).simplify_full().simplify_trig()],
+            [r"$\frac{ds}{dt} = |\vec v| = $ speed",speed(point).simplify_full().simplify_trig()],
+            [r"$\vec T$",T(point).simplify_full().simplify_trig()],
+            [r"$\frac{d\vec T}{dt}$",dTdt(point).simplify_full().simplify_trig()],
+            [r"$\frac{d\vec T}{ds}$",dTds(point).simplify_full().simplify_trig()],
+            [r"$\left|\frac{d\vec T}{ds}\right| = \kappa $",curvature(point).simplify_full().simplify_trig()],
+            [r"$\vec N$",N(point).simplify_full().simplify_trig()],
+            ])
+
+            ##Now let's make a graph
+            p=parametric_plot(r,tBounds)                                        #this draws the curve
+            p+=plot(vector(r(point)), width=4, color='gray')
+            p+=plot(vector(v(point)), start=r(point), width=4, color='red')
+            p+=plot(vector(a(point)), start=r(point), width=4, color='green')
+            p+=plot(vector(T(point).simplify_full().simplify_trig()), start=r(point), width=4, color='black')
+            p+=plot(vector(N(point).simplify_full().simplify_trig()), start=r(point), width=4, color='purple')
+            p+=plot(vector(dTdt(point).simplify_full().simplify_trig()), start=r(point), width=4, color='yellow')
+            p+=plot(vector(dTds(point).simplify_full().simplify_trig()), start=r(point), width=4, color='blue')
+
+            print "Here's a plot of r, with the vectors v and a drawn at a point."
+            print "gray-dashed = r, red = v, green = a, black = T, yellow = dT/dt, blue = dT/ds, purple=N"
+
+            show(p)
+
+            radiusOfCurvature=1/curvature(point)                    #compute the radius of curvature
+            centerOfCurvature=r(point)+radiusOfCurvature*N(point)   #compute the center of curvature
+
+            table([
+            [r"$\rho$",radiusOfCurvature.simplify_full().simplify_trig()],
+            [r"center of curvature", centerOfCurvature.simplify_full().simplify_trig()],
+            ])
+
+            #Draw the circle of curvature on top of everything else.
+            p+=parametric_plot(
+                vector(centerOfCurvature.simplify_full().simplify_trig())
+                +radiusOfCurvature.simplify_full().simplify_trig()
+                *( vector(T(point).simplify_full().simplify_trig())*cos(t)
+                  +vector(N(point).simplify_full().simplify_trig())*sin(t))
+                ,(t,0,2*pi),color='gray')
+            show(p)
+
+            print "If you are in 3D, then this will compute B and dB/ds for you. Otherwise, you'll get a lot of errors."
+
+            B=T.cross_product(N)
+            dBds = B.diff(t)/speed
+
+            table([
+            [r"$N(t)$",B(t).simplify_full().simplify_trig()],
+            [r"$B(t)$",B(t).simplify_full().simplify_trig()],
+            [r"$\frac{d\vec B}{ds}(t)$", dBds(t).simplify_full().simplify_trig()],
+            [r"$\left|\frac{d\vec B}{ds}(t)\right|$", dBds(t).norm().simplify_full().simplify_trig()],
+            ["",r"Remember to compare $\vec N$ and $d\vec B/ds$ to determine torsion"],
+            [r"$N(point)$",N(point).simplify_full().simplify_trig()],
+            [r"$B(point)$",B(point).simplify_full().simplify_trig()],
+            [r"$\frac{d\vec B}{ds}(point)$", dBds(point).simplify_full().simplify_trig()],
+            [r"$\left|\frac{d\vec B}{ds}(point)\right|$", dBds(point).norm().simplify_full().simplify_trig()],
+            ])
+          </input>
+        </sage>
       </task>
       <task>
         <p>
@@ -368,33 +463,22 @@
           
         <table>
           <caption>Comparison of Curvature Values for different curves</caption>
-          <tabular>
-            <row bottom="minor">
-              <cell></cell>
-              <cell></cell>
-              <cell></cell>
-              <cell></cell>
-              <cell></cell>
-            </row>
+          <tabular bottom="minor" right = "minor" halign="center">
             <row>
-              <cell>\multirow{2}{*}{Value}</cell>
+              <cell>Function:</cell>
               <cell><m>\vec r(t)=(t,t^2)</m></cell>
+              <cell><m>\vec r(t)=(t,t^2)</m></cell>
+              <cell><m>\vec r(t)=(2t,(2t)^2)</m></cell>
               <cell><m>\vec r(t)=(2t,(2t)^2)</m></cell>
             </row>
             <row>
-              <cell></cell>
+              <cell>Value: </cell>
               <cell><nbsp /><nbsp /> <nbsp /><nbsp /> at <m>t=1</m> <nbsp /><nbsp /> <nbsp /><nbsp /></cell>
               <cell><nbsp /><nbsp /> at <m>t=\sqrt3/2</m><nbsp /><nbsp /> <nbsp /><nbsp /></cell>
               <cell><nbsp /><nbsp /> <nbsp /><nbsp /> at <m>t=1/2</m><nbsp /><nbsp /> <nbsp /><nbsp /></cell>
               <cell><nbsp /><nbsp /> at <m>t=?</m><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /> <nbsp /><nbsp /></cell>
             </row>
-            <row bottom="minor">
-              <cell></cell>
-              <cell></cell>
-              <cell></cell>
-              <cell></cell>
-              <cell></cell>
-            </row>
+            
             <row>
               <cell><m>\vec r</m></cell>
               <cell><m>(1,1)</m></cell>
@@ -402,13 +486,7 @@
               <cell><m>(1,1)</m></cell>
               <cell><m>(3/4,3/4)</m></cell>
             </row>
-            <row bottom="minor">
-              <cell></cell>
-              <cell></cell>
-              <cell></cell>
-              <cell></cell>
-              <cell></cell>
-            </row>
+            
             <row>
               <cell><m>\vec v</m></cell>
               <cell><m>(1,2)</m></cell>
@@ -416,13 +494,7 @@
               <cell></cell>
               <cell></cell>
             </row>
-            <row bottom="minor">
-              <cell></cell>
-              <cell></cell>
-              <cell></cell>
-              <cell></cell>
-              <cell></cell>
-            </row>
+            
             <row>
               <cell><m>\vec a</m></cell>
               <cell><m>(0,2)</m></cell>
@@ -430,13 +502,7 @@
               <cell></cell>
               <cell></cell>
             </row>
-            <row bottom="minor">
-              <cell></cell>
-              <cell></cell>
-              <cell></cell>
-              <cell></cell>
-              <cell></cell>
-            </row>
+            
             <row>
               <cell><m>\frac{ds}{dt}</m></cell>
               <cell><m>\sqrt{5}</m></cell>
@@ -444,13 +510,7 @@
               <cell></cell>
               <cell></cell>
             </row>
-            <row bottom="minor">
-              <cell></cell>
-              <cell></cell>
-              <cell></cell>
-              <cell></cell>
-              <cell></cell>
-            </row>
+            
             <row>
               <cell><m>\vec T</m></cell>
               <cell><m>(\frac{\sqrt{5}}{5},\frac{2\sqrt{5}}{5})</m></cell>
@@ -458,13 +518,7 @@
               <cell></cell>
               <cell></cell>
             </row>
-            <row bottom="minor">
-              <cell></cell>
-              <cell></cell>
-              <cell></cell>
-              <cell></cell>
-              <cell></cell>
-            </row>
+            
             <row>
               <cell><m>\frac{d\vec T}{dt}</m></cell>
               <cell><m>(-\frac{4\sqrt{5}}{25},\frac{2\sqrt{5}}{25})</m></cell>
@@ -472,13 +526,7 @@
               <cell></cell>
               <cell></cell>
             </row>
-            <row bottom="minor">
-              <cell></cell>
-              <cell></cell>
-              <cell></cell>
-              <cell></cell>
-              <cell></cell>
-            </row>
+            
             <row>
               <cell><m>\vec\kappa=\frac{d\vec T}{ds}</m></cell>
               <cell><m>(-\frac{4}{25},\frac{2}{25})</m></cell>
@@ -486,13 +534,7 @@
               <cell></cell>
               <cell></cell>
             </row>
-            <row bottom="minor">
-              <cell></cell>
-              <cell></cell>
-              <cell></cell>
-              <cell></cell>
-              <cell></cell>
-            </row>
+            
             <row>
               <cell><m>\kappa=\left|\frac{d\vec T}{ds}\right|</m></cell>
               <cell><m>\frac{2\sqrt{5}}{25}</m></cell>
@@ -500,13 +542,7 @@
               <cell></cell>
               <cell></cell>
             </row>
-            <row bottom="minor">
-              <cell></cell>
-              <cell></cell>
-              <cell></cell>
-              <cell></cell>
-              <cell></cell>
-            </row>
+            
             <row>
               <cell><m>\vec N</m></cell>
               <cell><m>(-\frac{2\sqrt{5}}{5},\frac{1\sqrt{5}}{5})</m></cell>
@@ -514,13 +550,7 @@
               <cell></cell>
               <cell></cell>
             </row>
-            <row bottom="minor">
-              <cell></cell>
-              <cell></cell>
-              <cell></cell>
-              <cell></cell>
-              <cell></cell>
-            </row>
+            
           </tabular>
         </table>        
       </task>
