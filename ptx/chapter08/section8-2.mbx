@@ -364,6 +364,10 @@
       <task>
         <p>
           How are <m>\vec T</m> and <m>\vec N</m> related?  Conjecture a pattern.
+        </p>
+          
+        <table>
+          <caption>Comparison of Curvature Values for different curves</caption>
           <tabular>
             <row bottom="minor">
               <cell></cell>
@@ -518,7 +522,7 @@
               <cell></cell>
             </row>
           </tabular>
-        </p>
+        </table>        
       </task>
     </exploration>
 
@@ -560,5 +564,33 @@
       </task>
     </exploration>
   </subsection>
+
+  <exercises>
+    <title>Computational Practice</title>
+    <introduction>
+      <p>
+        These are provided to help you achieve better skills in basic computational answers.
+      </p>
+    </introduction>
+
+    <exercise>
+      <webwork source="Library/272/setStewart13_3/problem_4.pg" />
+    </exercise>
+
+    <exercise>
+      <webwork source="Library/272/setStewart13_3/problem_5.pg" />
+    </exercise>
+
+    <exercise>
+      <webwork source="Library/272/setStewart13_3/problem_6.pg" />
+    </exercise>
+
+    <exercise>
+      <webwork source="Library/272/setStewart13_3/problem_7.pg" />
+    </exercise>
+
+  </exercises>
+
+  
 </section>
 
