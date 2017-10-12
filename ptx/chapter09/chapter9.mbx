@@ -2,47 +2,54 @@
 
 <chapter xmlns:xi="http://www.w3.org/2001/XInclude" >
   <title>Line Integrals</title>
+  <objectives>
+    <introduction>
+      <p>
+        This unit covers the following ideas.
+      </p>
+    </introduction>
+
+  <!--
+        <aside>
+          <p>
+            In preparation for the concept checks and exam, make sure you have a review packet containing examples that explain and illustrate the following concepts.
+          </p>
+        </aside>
+        <aside>
+          <p>
+            In preparation for the quiz and exam, make sure you have a lesson plan containing examples that explain and illustrate the following concepts.
+          </p>
+        </aside>
+    -->
+    <ol>
+      <li>
+        <p>
+          Describe how to integrate a function along a curve. Use line integrals to find the area of a sheet of metal with height <m>z=f(x,y)</m> above a curve <m>\vec r(t)=\left(x,y\right)</m> and the average value of a function along a curve.
+        </p>
+      </li>
+
+      <li>
+        <p>
+          Find the following geometric properties of a curve: centroid, mass, center of mass, inertia, and radii of gyration.
+        </p>
+      </li>
+
+      <li>
+        <p>
+          Compute the work (flow, circulation) and flux of a vector field along and across piecewise smooth curves.
+        </p>
+      </li>
+
+      <li>
+        <p>
+          Determine if a field is a gradient field (hence conservative), and use the fundamental theorem of line integrals to simplify work calculations.
+        </p>
+      </li>
+    </ol>
+
+  </objectives>
+
   <introduction>
-    <p>
-      This unit covers the following ideas.
-
-      <aside>
-        <p>
-          In preparation for the concept checks and exam, make sure you have a review packet containing examples that explain and illustrate the following concepts.
-        </p>
-      </aside>
-      <aside>
-        <p>
-          In preparation for the quiz and exam, make sure you have a lesson plan containing examples that explain and illustrate the following concepts.
-        </p>
-      </aside>
-      <ol>
-        <li>
-          <p>
-            Describe how to integrate a function along a curve. Use line integrals to find the area of a sheet of metal with height <m>z=f(x,y)</m> above a curve <m>\vec r(t)=\left(x,y\right)</m> and the average value of a function along a curve.
-          </p>
-        </li>
-
-        <li>
-          <p>
-            Find the following geometric properties of a curve: centroid, mass, center of mass, inertia, and radii of gyration.
-          </p>
-        </li>
-
-        <li>
-          <p>
-            Compute the work (flow, circulation) and flux of a vector field along and across piecewise smooth curves.
-          </p>
-        </li>
-
-        <li>
-          <p>
-            Determine if a field is a gradient field (hence conservative), and use the fundamental theorem of line integrals to simplify work calculations.
-          </p>
-        </li>
-      </ol>
-    </p>
-
     <p>
       <xref ref="line_integral_summary">Table</xref> contains a summary of the key ideas for this chapter.
     </p>
@@ -155,8 +162,9 @@
       </ul>
     </p>
 
-    <p>
 
+<todo> These need to be checked and/or updated. </todo>
+<!--
       <aside>
         <p>
           If you would like homework exercises from the text that line up with the ideas we are studying, please use the following tables.
@@ -376,6 +384,9 @@
       </row>
     </tabular>
   </introduction>
+  -->
+  </introduction>
+  
   <xi:include  href="section9-1.mbx" />
   <xi:include  href="section9-2.mbx" />
   <xi:include  href="section9-3.mbx" />
