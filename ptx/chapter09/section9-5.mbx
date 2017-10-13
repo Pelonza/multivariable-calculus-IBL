@@ -1,6 +1,4 @@
-
-
-<section>
+<section xml:id="ch09_05_physicalproperties">
   <title>Applications: Physical Properties</title>
   <introduction>
     <p>
@@ -10,6 +8,7 @@
 
   <subsection>
     <title>Centroids</title>
+    
     <definition>
       <title>Centroid</title>
       <statement>
@@ -20,16 +19,6 @@
     </definition>
 
     <exploration xml:id="prob_centroid_of_curve">
-
-      <aside>
-        <p>
-          <url href="http://www.youtube.com/watch?v=t7T0MzfgV0Q&amp;list=PL04DF68E73B7ECD54&amp;index=5&amp;feature=plpp_video">Watch a YouTube video.</url>
-        </p>
-
-        <p>
-          These are the formulas for the centroid.
-        </p>
-      </aside>
       <title>Centroid</title>
       <p>
         Notice the word <q>average</q> in the definition of the centroid. Use the concept of average value to explain why the coordinates of the centroid are
@@ -44,6 +33,15 @@
       <p>
         Notice that the denominator in each case is just the arc length <m>s=\int_C ds</m>.
       </p>
+      <aside>
+        <p>
+          <url href="http://www.youtube.com/watch?v=t7T0MzfgV0Q&amp;list=PL04DF68E73B7ECD54&amp;index=5&amp;feature=plpp_video">Watch a YouTube video.</url>
+        </p>
+
+        <p>
+          These are the formulas for the centroid.
+        </p>
+      </aside>
     </exploration>
 
     <exploration xml:id="prob_semicircle_centroid">
@@ -51,16 +49,18 @@
         <p>
           Let <m>C</m> be the semicircular arc <m>\vec r(t)=(a\cos t, a\sin t)</m> for <m>t\in[0,\pi]</m>.
         </p>
+      </introduction>
+      <task>
+        <statement>
+          <p>
+            Without doing any computations, make an educated guess for the centroid <m>(\bar x, \bar y)</m> of this arc.
+          </p>
+        </statement>        
         <hint>
           <p>
             A picture of this will help
           </p>
         </hint>
-      </introduction>
-      <task>
-        <p>
-          Without doing any computations, make an educated guess for the centroid <m>(\bar x, \bar y)</m> of this arc.
-        </p>
       </task>
       <task>
         <p>
@@ -72,33 +72,29 @@
 
   <subsection>
     <title>Mass</title>
+
     <p>
       Density is generally a mass per unit volume. However, when talking about a curve or wire, as in this chapter, it's simpler to let density be the mass per unit length. Sometimes an object is made out of a composite material, and the density of the object is different at different places in the object. For example, we might have a straight wire where one end is steel and the other end is nickel. In the middle, the wire slowly transitions from being all steel to all nickel. The centroid is the midpoint of the wire. However, since nickel has a higher density than steel, the balance point (the center of mass) would not be at the midpoint of the wire, but would be closer to the denser and heavier nickel end. In this sub-section, we'll develop formulas for the mass and in the next sub-section formulas for the center of mass of such a wire. Such composite materials are engineered all the time (though probably not our example wire).
-
-      <aside>
-        <p>
-          In future mechanical engineering courses, you would learn how to determine the density <m>\delta</m> (mass per unit length) at each point on such a composite wire.
-        </p>
-      </aside>
-      <aside>
-        <p>
-          In future mechanical engineering courses, you may would learn how to determine the density <m>\delta</m> (mass per unit length) at each point on such a composite wire.
-        </p>
-      </aside>
     </p>
+
+    <aside>
+      <p>
+        In future mechanical engineering courses, you would learn how to determine the density <m>\delta</m> (mass per unit length) at each point on such a composite wire.
+      </p>
+    </aside>
 
     <exploration xml:id="mass_of_curve">
       <title>Mass</title>
       <introduction>
         <p>
           Suppose a wire <m>C</m> has the parameterization <m>\vec r(t)</m> for <m>t\in[a,b]</m>. Suppose the wire's density at a point <m>(x,y,z)</m> on the wire is given by the function <m>\delta(x,y,z)</m>.
-
-          <aside>
-            <p>
-              You'll learn to calculate this function in a future class. For the purposes of our class, we'll just assume we know what <m>\delta(x,y,z)</m> is.
-            </p>
-          </aside>
         </p>
+
+        <aside>
+          <p>
+            You'll learn to calculate this function in a future class. For the purposes of our class, we'll just assume we know what <m>\delta(x,y,z)</m> is.
+          </p>
+        </aside>
 
         <aside>
           <p>
@@ -181,36 +177,38 @@
         </p>
       </task>
       <task>
-      <p>
-        Now suppose the mass of the object at point <m>P_1</m> is 2 kg, and the mass of the object at point <m>P_2</m> is 5 kg.
-      </p>
-      <task>
-        <p>
-          Make a hypothesis (no calculations) about if the center of mass will be closer to <m>P_1</m> or <m>P_2</m>?
-        </p>
-      </task>
-      <task>
-        <p>
-          Give a physical reason for your answer before doing any computations.
-        </p>
-      </task>
-      <task>
-        <statement>
+        <introduction>
           <p>
-            Now find the center of mass <m>(\bar x, \bar y, \bar z)</m> of the two points.
+            Now suppose the mass of the object at point <m>P_1</m> is 2 kg, and the mass of the object at point <m>P_2</m> is 5 kg.
           </p>
-        </statement>
-        <aside>
+        </introduction>
+        <task>
           <p>
-            You should get <m>\bar x= \frac{2x_1+5x_2}{2+5}</m>.
+            Make a hypothesis (no calculations) about if the center of mass will be closer to <m>P_1</m> or <m>P_2</m>?
           </p>
-        </aside>
-        <hint>
+        </task>
+        <task>
           <p>
-            Think of it as a weighted average. If you are still stuck, see the margin
+            Give a physical reason for your answer before doing any computations.
           </p>
-        </hint>
-      </task>
+        </task>
+        <task>
+          <statement>
+            <p>
+              Now find the center of mass <m>(\bar x, \bar y, \bar z)</m> of the two points.
+            </p>
+            <aside>
+              <p>
+                You should get <m>\bar x= \frac{2x_1+5x_2}{2+5}</m>.
+              </p>
+            </aside>
+          </statement>
+          <hint>
+            <p>
+              Think of it as a weighted average. If you are still stuck, see the margin
+            </p>
+          </hint>
+        </task>
       </task>
     </exploration>
 
@@ -338,40 +336,50 @@
         </p>
       </task>
       <task>
-        <p>
-          Where is the wire heavier, at <m>(7,0)</m> or <m>(0,7)</m>? [Compute <m>\delta</m> at both.]
-        </p>
-      </task>
-      <p>
-        In <xref ref="semicircle_centroid"/>, we showed that the centroid of the wire is <m>(\bar x, \bar y) = \left(0,\frac{2(7)}{\pi})\right)</m>. We now seek the center of mass.
-      </p>
-      <task>
-      <p>
-        Before computing:
-      </p>
-      <task>
-        <p>
-          Will <m>\bar x</m> change? Will <m>\bar y</m> change?
-        </p>
-      </task>
-      <task>
-        <p>
-          How will each change?
-        </p>
-      </task>
-      <task>
         <statement>
           <p>
-            Explain.
+            Where is the wire heavier, at <m>(7,0)</m> or <m>(0,7)</m>?
           </p>
         </statement>
         <hint>
           <p>
-            Read the three paragraphs before this exercise!
+            Compute <m>\delta</m> at both.
           </p>
         </hint>
       </task>
+      <task>
+        <introduction>
+          <p>
+            In <xref ref="semicircle_centroid"/>, we showed that the centroid of the wire is <m>(\bar x, \bar y) = \left(0,\frac{2(7)}{\pi})\right)</m>. We now seek the center of mass.
+          </p>
+          <p>
+            Before computing:
+          </p>
+        </introduction>
+        <task>
+          <p>
+            Will <m>\bar x</m> change? Will <m>\bar y</m> change?
+          </p>
+        </task>
+        <task>
+          <p>
+            How will each change?
+          </p>
+        </task>
+        <task>
+          <statement>
+            <p>
+              Explain.
+            </p>
+          </statement>
+          <hint>
+            <p>
+              Read the three paragraphs before this exercise!
+            </p>
+          </hint>
+        </task>
       </task>
+
       <task>
         <p>
           Set up the integrals needed to find the center of mass. Then use technology to compute the integrals. Give an exact answer (involving fractions), rather than a numerical approximation.
@@ -385,45 +393,5 @@
     </exploration>
   </subsection>
 
-  <subsection>
-    <!-- Comment out the wrap-ups! -->
-
-    <!--
-
-    <aside>
-      <title>Wrap Up</title>
-      <p>
-        Once you have finished the problems in this \chaptername and feel comfortable with the ideas, create a short one page lesson plan that contains examples of the key ideas.  You will get a chance to teach from this lesson plan prior to taking the exam. Then log on to Brainhoney and download the quiz. Once you have taken the quiz, you can upload your work back to brainhoney and then download the key to see how you did. If you still need to work on mastering some of the ideas, please do so and then demonstrate your mastery though the quiz corrections.
-      </p>
-    </aside>
-    -->
-    <title>Wrap Up</title>
-    <p>
-      This concludes the \chaptername .  Look at the objectives at the beginning of the unit . Can you now do all the things you were promised? 
-      <!-- \instructor{TeX files for these are included in a separate folder in the GitHub Project} -->
-      <!-- \note{Those files should be cleaned up an generalized, i.e. remove specific instructor/course number from them. Possibly also make a master tex file to compile them all} -->
-
-      <em>Review Guide Creation</em>
-
-
-      Your assignment: organize what you've learned into a small collection of examples that illustrates the key concepts. I'll call this your unit<nbsp />review guide. I'll provide you with a template which includes the unit's key concepts from the objectives at the beginning. Once you finish your review guide, scan it into a PDF document (use any scanner on campus or photo software) and upload it to Gradescope. <!-- \instructor{Gradescope is a cool grading platform! \url{www.gradescope.com} } --> 
-
-
-      As you create this review guide, consider the following:
-      <ul>
-        <li>
-          <p>
-            Before each Celebration of Knowledge <!-- \instructor{This is just an exam} --> we will devote a class period to review. With well created lesson plans, you will have 4-8 pages(for 2-4 Chapters) to review for each, instead of 50-100 problems.
-          </p>
-        </li>
-
-        <li>
-          <p>
-            Think ahead 2-5 years. If you make these lesson plans correctly, you'll be able to look back at your lesson plans for this semester. In about 20-25 pages, you can have the entire course summarized and easy for you to recall.
-          </p>
-        </li>
-      </ul>
-    </p>
-  </subsection>
 </section>
 
