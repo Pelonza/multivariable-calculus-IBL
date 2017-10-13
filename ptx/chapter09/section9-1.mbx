@@ -1,33 +1,35 @@
 
 
-<section>
+<section xml:id="ch09_01_workflux1">
   <title>Work, Flow, Circulation, and Flux</title>
-  <introduction>
-  <ul>
-    <li>
-      <p>
-        Define and practice a more general calculation for Work
-      </p>
-    </li>
-
-    <li>
-      <p>
-        Practice applications of vector calculus
-      </p>
-    </li>
-  </ul>
-  <p>
-    Now that we can describe motion, let's turn our attention to the work done by a vector field as we move through the field. Work is a transfer of energy.
+  <objectives>
     <ul>
       <li>
         <p>
-          A tornado picks might pick up a couch, and applies forces to the couch as the couch swirls around the center. Work transfers the energy from the tornado to then couch, giving the cough it's kinetic energy.
+          Define and practice a more general calculation for Work
         </p>
       </li>
 
       <li>
         <p>
-          When an object falls, gravity does work on the object. The work done by gravity converts potential energy to kinetic energy.
+          Practice applications of vector calculus
+        </p>
+      </li>
+    </ul>
+  </objectives>
+  <introduction>
+  <p>
+    Now that we can describe motion, let's turn our attention to the work done by a vector field as we move through the field. Work is a transfer of energy. Here are a few examples:
+    <ul>
+      <li>
+        <p>
+          A tornado picks up a couch, and applies forces to the couch as the couch swirls around the center. Work transfers the energy from the tornado to the couch, giving the couch it's kinetic energy.
+        </p>
+      </li>
+
+      <li>
+        <p>
+          When an object falls gravity does work on the object. The work done by gravity converts potential energy to kinetic energy.
         </p>
       </li>
 
@@ -47,18 +49,23 @@
     Let's start with simple review. Recall that the work done by a vector field <m>\vec F</m> through a displacement <m>\vec d</m> is the dot product <m>\vec F\cdot \vec d</m>. We saw this in <xref ref="first_work_problem"/>.
   </p>
 
-  <review>
-
-  <p>
-    An object moves from <m>A=(6,0)</m> to <m>B=(0,3)</m>. Along the way, it encounters the constant force <m>\vec F = (2,5)</m>. How much work is done by <m>\vec F</m> as the object moves from <m>A</m> to <m>B</m>? See<fn>The displacement is <m>B-A=(-6,3)</m>. The work is <m>\vec F\cdot \vec d = (2,5)\cdot(-6,3) = -12+15=3</m>.</fn>.
-  </p>
-
-  </review>
+  <project>
+    <statement>
+      <p>
+        An object moves from <m>A=(6,0)</m> to <m>B=(0,3)</m>. Along the way, it encounters the constant force <m>\vec F = (2,5)</m>. How much work is done by <m>\vec F</m> as the object moves from <m>A</m> to <m>B</m>?
+      </p>
+    </statement>
+    <solution>
+      <p>
+        The displacement is <m>B-A=(-6,3)</m>. The work is <m>\vec F\cdot \vec d = (2,5)\cdot(-6,3) = -12+15=3</m>.
+      </p>
+    </solution>
+  </project>
 
   <exploration>
     <introduction>
       <p>
-        An object moves from <m>A=(6,0)</m> to <m>B=(0,3)</m>. A parametrization of the objects path is <m>\vec r(t) = (-6,3)t+(6,0)</m> for <m>0\leq t\leq 1</m>. We are going to investigate what happens under a non-constant force.
+        An object moves from <m>A=(6,0)</m> to <m>B=(0,3)</m>. A parametrization of the object's path is <m>\vec r(t) = (-6,3)t+(6,0)</m> for <m>0\leq t\leq 1</m>. We are going to investigate what happens under a non-constant force.
       </p>
     </introduction>
     <task>
@@ -81,32 +88,42 @@
       </p>
     </task>
     <task>
-    <aside>
-      <p>
-        You can visualize what's happening in this exercise as follows.  Attach a clothesline between the points (maybe representing two trees in your backyard).  Put a cub scout space derby ship on the clothesline.  Then the wind starts to blow.  As the ship moves along the clothesline, the wind changes direction.
-      </p>
-    </aside>
-    <p>
-      Suppose that the force constantly changes as we move along the curve. At <m>t</m>, we'll assume we encountered the force <m>F(t) = (2,5+2t)</m>.
-    </p>
-    <task>
-      <p>
-        Find <m>\ds W=\int \vec F\cdot d\vec r = \int_0^{0.5} (2,5+2t)\cdot (-6,3)dt.</m>
-        How does this compare to part (1)?
-      </p>
+      <introduction>
+        <p>
+          Suppose that the force constantly changes as we move along the curve. At <m>t</m>, we'll assume we encountered the force <m>F(t) = (2,5+2t)</m>.
+        </p>
+        <aside>
+          <p>
+            You can visualize what's happening in this exercise as follows.  Attach a clothesline between the points (maybe representing two trees in your backyard).  Put a cub scout space derby ship on the clothesline.  Then the wind starts to blow.  As the ship moves along the clothesline, the wind changes direction.
+          </p>
+        </aside>
+      </introduction>
+
+      <task>
+        <p>
+          Find <m>\ds W=\int \vec F\cdot d\vec r = \int_0^{0.5} (2,5+2t)\cdot (-6,3)dt.</m>
+          How does this compare to part (1)?
+        </p>
+      </task>
+      <task>
+        <p>
+          Find <m>\ds W=\int \vec F\cdot d\vec r = \int_0^1 (2,5+2t)\cdot (-6,3)dt.</m>
+          How does this compare to part (3)?
+        </p>
+      </task>
     </task>
     <task>
-      <p>
-        Find <m>\ds W=\int \vec F\cdot d\vec r = \int_0^1 (2,5+2t)\cdot (-6,3)dt.</m>
-        How does this compare to part (3)?
-      </p>
-    </task>
-    </task>
-    <task>
-      <p>
-        Explain why the total work done by this force along the path is 
-        <m>\ds W=\int \vec F\cdot d\vec r</m>. [What does <m>\vec{F} \cdot d\vec{r}</m> represent?]
-      </p>
+      <statement>
+        <p>
+          Explain why the total work done by this force along the path is 
+          <m>\ds W=\int \vec F\cdot d\vec r</m>. 
+        </p>
+      </statement>
+      <hint>
+        <p>
+          What does <m>\vec{F} \cdot d\vec{r}</m> represent?
+        </p>
+      </hint>
     </task>
   </exploration>
 
@@ -115,26 +132,28 @@
   </p>
 
   <blockquote>
-  If a force <m>F</m> acts through a displacement <m>d</m>, then the most basic definition of work is <m>W=Fd</m>, the product of the force and the displacement.  This basic definition has a few assumptions.
-  <ul>
-    <li>
-      <p>
-        The force <m>F</m> must act in the same direction as the displacement.
-      </p>
-    </li>
+    <p>
+      If a force <m>F</m> acts through a displacement <m>d</m>, then the most basic definition of work is <m>W=Fd</m>, the product of the force and the displacement.  This basic definition has a few assumptions.
+      <ul>
+        <li>
+          <p>
+            The force <m>F</m> must act in the same direction as the displacement.
+          </p>
+        </li>
 
-    <li>
-      <p>
-        The force <m>F</m> must be constant throughout the  displacement.
-      </p>
-    </li>
+        <li>
+          <p>
+            The force <m>F</m> must be constant throughout the  displacement.
+          </p>
+        </li>
 
-    <li>
-      <p>
-        The displacement must be in a straight line.
-      </p>
-    </li>
-  </ul>
+        <li>
+          <p>
+            The displacement must be in a straight line.
+          </p>
+        </li>
+      </ul>
+    </p>
   </blockquote>
 
   <p>
@@ -211,13 +230,19 @@
     </statement>
   </definition>
 
-  <review>
+  <project>
+    <statement>
+      <p>
+        Consider the curve <m>y=3x^2-5x</m> for <m>-2\leq x\leq 1</m>. Give a parametrization of this curve.
+      </p>
+    </statement>
+    <solution>
+      <p>
+        Whenever you have a function of the form <m>y=f(x)</m>, you can always use <m>x=t</m> and <m>y=f(t)</m> to parametrize the curve.  So we can use <m>\vec r(t) = (t, 3t^2-5t)</m> for <m>-2\leq t\leq 1</m> as a parametrization.
+      </p>
+    </solution>
 
-  <p>
-    Consider the curve <m>y=3x^2-5x</m> for <m>-2\leq x\leq 1</m>. Give a parametrization of this curve. See<fn>Whenever you have a function of the form <m>y=f(x)</m>, you can always use <m>x=t</m> and <m>y=f(t)</m> to parametrize the curve.  So we can use <m>\vec r(t) = (t, 3t^2-5t)</m> for <m>-2\leq t\leq 1</m> as a parametrization.</fn>.
-  </p>
-
-  </review>
+  </project>
 
   <exploration>
     <introduction>
@@ -310,30 +335,38 @@
 
   <subsection>
     <title>Flow <ampersand /> Flux</title>
-    <ul>
-      <li>
-        <p>
-          Define and practice how to find `flux'
-        </p>
-      </li>
+    <objectives>
+      <ul>
+        <li>
+          <p>
+            Define and practice how to find `flux'
+          </p>
+        </li>
 
-      <li>
-        <p>
-          Practice applications of vector calculus
-        </p>
-      </li>
-    </ul>
+        <li>
+          <p>
+            Practice applications of vector calculus
+          </p>
+        </li>
+      </ul>
+    </objectives>
+
     <p>
       In the exercises for the previous sections, the vector fields represented forces. However, vector fields can represent much more than just forces. The vector field might represent the flow of water down a river, or the flow of air across an airplane wing. When we think of the vector field as a velocity field, then we mights ask the question, how much of the fluid flows along our curve. Alternately, we might ask how much of the fluid flows across our curve. These two exercises lead to flow along a curve, and flux across a curve. Flow along a curve is directly related to the lift of an airplane wing (which occurs when the flow along the top of the wing is different than the flow below the wing). The flux across a curve will quickly take us to powering a wind mill as wind flows across the surface of a blade (once we hit 3D integrals).
     </p>
 
-    <review>
-
-    <p>
-      If the unit tangent vector is <m>\vec T = \dfrac{(3,4)}{5}</m>, give two unit vectors that are orthogonal to <m>\vec T</m>. See<fn>We just reverse the order and change a sign to get <m>\vec N_1 = \dfrac{(-4,3)}{5}</m> and <m>\vec N_1 = \dfrac{(4,-3)}{5}</m> as the orthogonal vectors.</fn>.
-    </p>
-
-    </review>
+    <project>
+      <statement>
+        <p>
+          If the unit tangent vector is <m>\vec T = \dfrac{(3,4)}{5}</m>, give two unit vectors that are orthogonal to <m>\vec T</m>.
+        </p>
+      </statement>
+      <solution>
+        <p>
+           We just reverse the order and change a sign to get <m>\vec N_1 = \dfrac{(-4,3)}{5}</m> and <m>\vec N_1 = \dfrac{(4,-3)}{5}</m> as the orthogonal vectors.
+        </p>
+      </solution>
+    </project>
 
     <exploration>
       <introduction>
@@ -366,12 +399,12 @@
           <p>
             We know that <m>\vec T = \dfrac{(dx, dy)}{\sqrt{(dx)^2+(dy)^2}}</m>.  Suppose <m>\vec n</m> is a unit normal vector to the curve. Give two options for <m>\vec n</m>.
           </p>
+          <aside>
+            <p>
+              Watch a  <url href="http://www.youtube.com/watch?v=5DNdI72XEYY&amp;list=PL04DF68E73B7ECD54&amp;index=4&amp;feature=plpp_video">YouTube video</url> about flux.
+            </p>
+          </aside>
         </statement>
-        <aside>
-          <p>
-            Watch a  <url href="http://www.youtube.com/watch?v=5DNdI72XEYY&amp;list=PL04DF68E73B7ECD54&amp;index=4&amp;feature=plpp_video">YouTube video</url> about flux.
-          </p>
-        </aside>
         <hint>
           <p>
             Look at the review exercise.
@@ -409,7 +442,7 @@
           </p>
         </aside>
         <p>
-          Compute the work <m>\ds W= \int_C (M,N)\cdot (dx,dy)</m> and show that is equals zero. (Can you give a reason why it should be zero?)
+          Compute the work <m>\ds W= \int_C (M,N)\cdot (dx,dy)</m> and show that it equals zero. (Can you give a reason why it should be zero?)
         </p>
       </task>
       <task>
@@ -515,21 +548,21 @@
           <p>
             If you haven't yet, please watch the YouTube videos for
             <ul>
-              <task>
+              <li>
                 <p>
                   <url href="http://www.youtube.com/watch?v=9TGZIIpEaHw&amp;list=PL04DF68E73B7ECD54&amp;index=2&amp;feature=plpp_video">work</url>,
                 </p>
-              </task>
-              <task>
+              </li>
+              <li>
                 <p>
                   <url href="http://www.youtube.com/watch?v=6WcN36FbeWc&amp;list=PL04DF68E73B7ECD54">flow and circulation</url>, and
                 </p>
-              </task>
-              <task>
+              </li>
+              <li>
                 <p>
                   <url href="http://www.youtube.com/watch?v=5DNdI72XEYY&amp;list=PL04DF68E73B7ECD54&amp;index=4&amp;feature=plpp_video">flux</url>.
                 </p>
-              </task>
+              </li>
             </ul>
           </p>
         </aside>
@@ -539,33 +572,37 @@
           Use Sage or WolframAlpha to construct a plot of <m>\vec F</m>.
         </p>
       </task>
-      <p>
-        When you construct a plot of this vector field, you should notice that it causes objects to spin outwards in the clockwise direction. Suppose an object moves counterclockwise around a circle <m>C</m> of radius 3 that is centered at the origin. (You'll need to parametrize the curve.)
-      </p>
       <task>
-        <p>
-          Should the circulation of <m>\vec F</m> along <m>C</m> be positive or negative?  Make a guess, and then compute the circulation <m>\oint_C Mdx+Ndy</m>.
-        </p>
-      </task>
-      <task>
-        <p>
-          Whether your guess was right or wrong, explain why you made the guess.
-        </p>
-      </task>
-      <task>
-        <p>
-          Should the flux of <m>\vec F</m> across <m>C</m> be positive or negative? Make a guess, and then actually compute the flux <m>\oint_C Mdy-Ndx</m>.
-        </p>
-      </task>
-      <task>
-        <p>
-          Whether your guess was right or wrong, explain why you made the guess.
-        </p>
-      </task>
-      <task>
-        <p>
-          Please use this <url href="\sageworkfluxurl">Sage link</url> to check both computations.
-        </p>
+        <introduction>
+          <p>
+            When you construct a plot of this vector field, you should notice that it causes objects to spin outwards in the clockwise direction. Suppose an object moves counterclockwise around a circle <m>C</m> of radius 3 that is centered at the origin. (You'll need to parametrize the curve.) Answer the following questions:
+          </p>
+        </introduction>
+        <task>
+          <p>
+            Should the circulation of <m>\vec F</m> along <m>C</m> be positive or negative?  Make a guess, and then compute the circulation <m>\oint_C Mdx+Ndy</m>.
+          </p>
+        </task>
+        <task>
+          <p>
+            Whether your guess was right or wrong, explain why you made the guess.
+          </p>
+        </task>
+        <task>
+          <p>
+            Should the flux of <m>\vec F</m> across <m>C</m> be positive or negative? Make a guess, and then actually compute the flux <m>\oint_C Mdy-Ndx</m>.
+          </p>
+        </task>
+        <task>
+          <p>
+            Whether your guess was right or wrong, explain why you made the guess.
+          </p>
+        </task>
+        <task>
+          <p>
+            Please use this <url href="\sageworkfluxurl">Sage link</url> to check both computations.
+          </p>
+        </task>
       </task>
     </exploration>
 

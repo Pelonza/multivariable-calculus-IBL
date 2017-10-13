@@ -387,7 +387,7 @@
   -->
   </introduction>
   
-  <xi:include  href="section9-1.mbx" />
+  <xi:include  href="ch09_01_workflux1.mbx" />
   <xi:include  href="section9-2.mbx" />
   <xi:include  href="section9-3.mbx" />
   <xi:include  href="section9-4.mbx" />
