@@ -324,6 +324,7 @@
       We'll often use the notation <m>(\bar x, \bar y,\bar z)</m> to talk about both the centroid and the center of mass. If no density is given in a exercise, then <m>(\bar x, \bar y,\bar z)</m> is the centroid. If a density is provided, then <m>(\bar x, \bar y,\bar z)</m> refers to the center of mass. If the density is constant, it doesn't matter (the centroid and center of mass are the same, which is what the seesaw exercise showed).
     </p>
 
+    <todo> Make CHALLENGE </todo>
     <exploration>
       <introduction>
         <p>
