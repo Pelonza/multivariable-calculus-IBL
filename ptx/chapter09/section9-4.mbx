@@ -1,6 +1,4 @@
-
-
-<section>
+<section xml:id="ch09_04_average">
   <title>Applications: Average Value</title>
   <p>
     In the final two sections, we will examine several additional applications of line-integrals. The first is finding average values. The concept of averaging values together has many applications. In first-semester calculus, we saw how to generalize the concept of averaging numbers together to get an average value of a function. We'll review both of these concepts. In the next section we'll generalize average value to calculate centroids and center of mass.
@@ -16,46 +14,45 @@
       <p>
         Compute the average by adding 11 numbers together and dividing by the number of scores.  Write down the whole computation before doing any arithmetic.
       </p>
-    </task>
-    <aside>
-      <p>
-        <m>\bar s=\frac{\sum \text{ values } }{\text{ number of values } }</m>
-      </p>
+      <aside>
+        <p>
+          <m>\bar s=\frac{\sum \text{ values } }{\text{ number of values } }</m>
+        </p>
     </aside>
+    </task>
+
     <task>
       <p>
         Compute the numerator of the fraction in the previous part by multiplying each score by how many times it occurs, rather than adding it in the sum that many times.  Again, write down the calculation for <m>\bar s</m> before doing any arithmetic.
       </p>
-    </task>
-    <aside>
-      <p>
-        <m>\bar s=\frac{\sum (\text{ value } \cdot\text{ weight } )}{\sum \text{ weight } }</m>}
-      </p>
-    </aside>
+      <aside>
+        <p>
+          <m>\bar s=\frac{\sum (\text{ value } \cdot\text{ weight } )}{\sum \text{ weight } }</m>}
+        </p>
+      </aside>
+    </task>      
     <task>
       <p>
         Compute <m>\bar s</m> by splitting up the fraction in the previous part into the sum of four numbers.  This is called a <q>weighted average</q> because we are multiplying each score value by a weight.
       </p>
+      <aside>
+        <p>
+          <m>\bar s=\sum (\text{ value } \cdot\text{ (\% of stuff) } )=\sum (\text{ value }  \cdot \frac{\text{ weight } }{\text{ \# of values } } )</m>}
+        </p>
+      </aside>
     </task>
-    <aside>
-      <p>
-        <m>\bar s=\sum (\text{ value } \cdot\text{ (\% of stuff) } )=\sum (\text{ value }  \cdot \frac{\text{ weight } }{\text{ \# of values } } )</m>}
-      </p>
-    </aside>
+  
     <task>
       <p>
         Another way of thinking about the average <m>\bar s</m> is that <m>\bar s</m> is the number so that if all 11 scores were the same value <m>\bar s</m>, you'd have the same sum of scores.  Write this way of thinking about these computations by taking the formulas for <m>\bar s</m> in the first two parts and multiplying both sides by the denominator.
       </p>
+      <aside>
+        <p>
+          <m>\text{ (number of values) } \bar s = \sum \text{ values }</m>
+          <m>(\sum \text{ weight } )\bar s = \sum (\text{ value } \cdot\text{ weight } )</m>}
+        </p>
+      </aside>
     </task>
-    <conclusion>
-
-    <aside>
-      <p>
-        <m>\text{ (number of values) } \bar s = \sum \text{ values }</m>
-        <m>(\sum \text{ weight } )\bar s = \sum (\text{ value } \cdot\text{ weight } )</m>}
-      </p>
-    </aside>
-    </conclusion>
   </exploration>
 
   <p>
@@ -131,19 +128,21 @@
       </aside>
     </introduction>
     <task>
-    <p>
-      Draw the surface <m>f</m> in 3D.
-    </p>
-    <task>
-      <p>
-        Add to your drawing the curve <m>C</m> in the <m>xy</m> plane.
-      </p>
-    </task>
-    <task>
-      <p>
-        Next draw the sheet whose area is given by the integral <m>\int_C f ds</m>.
-      </p>
-    </task>
+      <introduction>
+        <p>
+          Draw the surface <m>f</m> in 3D.
+        </p>
+      </introduction>
+      <task>
+        <p>
+          Add to your drawing the curve <m>C</m> in the <m>xy</m> plane.
+        </p>
+      </task>
+      <task>
+        <p>
+          Next draw the sheet whose area is given by the integral <m>\int_C f ds</m>.
+        </p>
+      </task>
     </task>
     <task>
       <aside>
@@ -156,11 +155,10 @@
       </p>
     </task>
     <task>
-      <statement>
+      <introduction>
         <p>
           We'd like to find a constant height <m>\bar f</m> so that the area under <m>f</m>, above <m>C</m>, is the same as area under <m>\bar f</m>, above <m>C</m>. This height <m>\bar f</m> is called the average value of <m>f</m> along <m>C</m>.
         </p>
-
         <aside>
           <p>
             Please read 
@@ -168,26 +166,27 @@
             <url href="https://www.lds.org/scriptures/nt/luke/3.5?lang=eng#4">Luke 3:5</url>. These scriptures should help you remember how to find average value.
           </p>
         </aside>
-        <aside>
+      </introduction>
+      <task>
+        <statement>
           <p>
-            Please read 
-            <url href="https://www.lds.org/scriptures/ot/isa/40.4?lang=eng#3">Isaiah 40:4</url> and
-            <url href="https://www.lds.org/scriptures/nt/luke/3.5?lang=eng#4">Luke 3:5</url>. These scriptures should help you remember how to find average value.
+            Explain why the average value of <m>f</m> along <m>C</m> is
+            <me>
+              \bar f = \frac{\int_C f ds}{\int_C ds}.
+            </me>
           </p>
-        </aside>
+        </statement>
+        <hint>
+          <p>
+            The area under <m>\bar f</m> above <m>C</m> is <m>\int_C \bar f ds</m>. The area under <m>f</m> above <m>C</m> is <m>\int_C f ds</m>. Set them equal and solve for <m>\bar f</m>.
+          </p>
+        </hint>
+      </task>
+      <task>
         <p>
-          Explain why the average value of <m>f</m> along <m>C</m> is
-          <me>
-            \bar f = \frac{\int_C f ds}{\int_C ds}.
-          </me>
           Connect this formula with the ways of thinking about averages from <xref ref="average_value_methods"/>.
-        </p>
-      </statement>
-      <hint>
-        <p>
-          The area under <m>\bar f</m> above <m>C</m> is <m>\int_C \bar f ds</m>. The area under <m>f</m> above <m>C</m> is <m>\int_C f ds</m>. Set them equal and solve for <m>\bar f</m>.
-        </p>
-      </hint>
+        </p>      
+      </task>
     </task>
     <task>
       <aside>
@@ -212,19 +211,26 @@
         What are the temperatures at <m>t=0</m>, <m>t=\pi/2</m>, <m>t=\pi</m>, <m>t=3\pi/2</m> and <m>t=2\pi</m>?
       </p>
     </task>
-    <p>
-      You should notice the temperature is constantly changing.
-    </p>
+
     <task>
-      <p>
-        Make a guess as to what the average temperature is (share with the class why you made the guess you made<mdash />it's OK if you're wrong).
-      </p>
-    </task>
-    <task>
-      <p>
-        Next compute the average temperature of the wire using the integral formula from the previous exercises. (You can do all these computations by hand.)
-      </p>
+      <introduction>
+        <p>
+          You should notice the temperature is constantly changing.
+        </p>
+      </introduction>
+      <task>
+        <p>
+          Make a guess as to what the average temperature is (share with the class why you made the guess you made<mdash />it's OK if you're wrong).
+        </p>
+      </task>
+      <task>
+        <p>
+          Next compute the average temperature of the wire using the integral formula from the previous exercises. (You can do all these computations by hand.)
+        </p>
+      </task>
     </task>
   </exploration>
+
+
 </section>
 
