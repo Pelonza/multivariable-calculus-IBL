@@ -390,7 +390,7 @@
   <xi:include  href="ch09_01_workflux1.mbx" />
   <xi:include  href="ch09_02_lineintegrals.mbx" />
   <xi:include  href="ch09_03_lineintegrals2.mbx" />
-  <xi:include  href="section9-4.mbx" />
+  <xi:include  href="ch09_04_average.mbx" />
   <xi:include  href="section9-5.mbx" />
 </chapter>
 
