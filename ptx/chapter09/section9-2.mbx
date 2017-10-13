@@ -1,184 +1,198 @@
 
 
-<section>
+<section xml:id="ch09_02_lineintegrals">
   <title>Area and the Line-Integral</title>
-  <ul>
-    <li>
-      <p>
-        motive, and practice performing line-integrals
-      </p>
-    </li>
-  </ul>
-  <p>
-    In first semester calculus, we learned that the area under a function <m>f(x)</m> above the <m>x</m>-axis is given by <m>A = \int_a^b f(x) dx</m>. The quantity <m>dA= f(x) dx</m> represents a small bit of area whose length is <m>dx</m> and whose height is <m>f(x)</m>. To get the total area, we just added up the little bits of area, which is why
-    <me>
-      A=\int dA = \int_a^b f(x) dx.
-    </me>
-  </p>
-
-  <exploration>
-    <introduction>
-      <p>
-        Consider the surface in space that is below the function
-        <m>f(x,y)=9-x^2-y^2</m> and above the curve <m>C</m> parametrized by
-        <m>\vec r(t)=(2\cos t, 3\sin t)</m> for <m>t\in[0,2\pi]</m>. Think of this region as a metal plate that has been stood up with its base on <m>C</m> where the height above each spot is given by <m>z=f(x,y)</m>.
-      </p>
-
-      <aside>
-        <p>
-          <url href="http://www.youtube.com/watch?v=sYsMcqtXBrc&amp;list=PL04DF68E73B7ECD54&amp;index=1&amp;feature=plpp_video">Watch a YouTube video.</url>
-        </p>
-
-        <p>
-          See <url href="http://aleph.sagemath.org/?z=eJx1j8EOgyAQRO98hTeBroniqQe-pFFjECupFQJro39ftPXQxN5mknk7sz1dYGXymi21yNZaEE-RSSq4siEqSEoezBQVI-jb6a4lRchBcGcY8UU0c4xv0C2vINlFUcHMe8o3Ezk1-5durENjpyA7o5AqO1ovU6-7FHAw6jHpEGT5zQbpWt8-NXqjGjdapHtRHtd8NgDnP0fZ5RQoGPzJkzBojSc1B0Dn-GRxjA-XPf8GnQ5jSA">Sage</url> for a picture of this sheet.
-        </p>
-      </aside>
-    </introduction>
-    <task>
-      <aside>
-        <p>
-          See <xref ref="horse_track_chain_rule_introduction"/>
-        </p>
-      </aside>
-      <p>
-        Draw the curve <m>C</m> in the <m>xy</m>-plane.
-      </p>
-    </task>
-    <task>
-      <p>
-        If we cut the curve up into lots of tiny bits, explain why the length of each bit is approximately
-        <me>
-          ds=\sqrt{(-2\sin t)^2+(3\cos t)^2}dt.
-        </me>
-      </p>
-    </task>
-    <task>
-      <p>
-        Explain why the area of the metal sheet that lies above <m>C</m> and under <m>f</m> is given by the integral
-        <me>
-          \sigma = \int_C f ds = \int_0^{2\pi}(9-(2\cos t)^2-(3\sin t)^2)\sqrt{(-2\sin t)^2+(3\cos t)^2}dt.
-        </me>
-        You'll need to explain why a little bit of surface area equals <m>d\sigma =fds</m>.
-      </p>
-    </task>
-    <task>
-      <aside>
-        <p>
-          This  <url href="\sagelineintegral">Sage worksheet</url> will compute the integral.
-        </p>
-      </aside>
-      <p>
-        Find the surface area of the metal sheet. [Use technology to do this integral.]
-      </p>
-    </task>
-  </exploration>
-
-  <p>
-    Our results from the exercise above suggest the following definition.
-  </p>
-
-  <definition>
-    <title>Line Integral</title>
-    <statement>
-      <p>
-        Let <m>f</m> be a function and let <m>C</m> be a piecewise smooth curve whose parametrization is <m>\vec r(t)</m> for <m>t\in[a,b]</m>. We'll require that the composition <m>f(\vec r(t))</m> be continuous for all <m>t\in [a,b]</m>. Then we define the line integral
-        of <m>f</m> over <m>C</m> to be the integral
-        <me>
-          \int_C f ds 
-          = \int_a^b f(\vec r(t))\frac{ds}{dt}dt
-          = \int_a^b f(\vec r(t))\left|\frac{d\vec r}{dt}\right|dt.
-        </me>
-      </p>
-<aside>
-  <p> 
-    The line integral is also called the path integral, contour integral, or curve integral.
-  </p>
-</aside>
-
-    </statement>
-  </definition>
-
-  <p>
-    Notice that this definition suggests the following four steps. These four steps are the key to computing any line integral. 
-<aside>
-  <p> 
-    When we ask you to set up a line integral, it means that you should do steps 1<ndash />3, so that you get an integral with a single variable and with bounds that you could plug into a computer or complete by hand.
-  </p>
-</aside>
-<ol>
+  <objectives>
+    <ul>
       <li>
         <p>
-          Start by getting a parametrization <m>\vec r(t)</m> for <m>a\leq t\leq b</m> of the curve <m>C</m>.
+          motivate and practice performing line-integrals
         </p>
-
-
       </li>
+    </ul>
+  </objectives>
 
-      <li>
+  <introduction>
+    <p>
+      In first semester calculus, we learned that the area under a function <m>f(x)</m> above the <m>x</m>-axis is given by <m>A = \int_a^b f(x) dx</m>. The quantity <m>dA= f(x) dx</m> represents a small bit of area whose length is <m>dx</m> and whose height is <m>f(x)</m>. To get the total area, we just added up the little bits of area, which is why
+      <me>
+        A=\int dA = \int_a^b f(x) dx.
+      </me>
+    </p>
+
+    <exploration>
+      <introduction>
         <p>
-          Find the speed by computing the velocity <m>\dfrac{d\vec r}{dt}</m> and then the speed <m>\left|\dfrac{d\vec r}{dt}\right|</m>.
+          Consider the surface in space that is below the function
+          <m>f(x,y)=9-x^2-y^2</m> and above the curve <m>C</m> parametrized by
+          <m>\vec r(t)=(2\cos t, 3\sin t)</m> for <m>t\in[0,2\pi]</m>. Think of this region as a metal plate that has been stood up with its base on <m>C</m> where the height above each spot is given by <m>z=f(x,y)</m>.
         </p>
-      </li>
 
-      <li>
+        <aside>
+          <p>
+            <url href="http://www.youtube.com/watch?v=sYsMcqtXBrc&amp;list=PL04DF68E73B7ECD54&amp;index=1&amp;feature=plpp_video">Watch a YouTube video.</url>
+          </p>
+
+          <p>
+            See <url href="http://aleph.sagemath.org/?z=eJx1j8EOgyAQRO98hTeBroniqQe-pFFjECupFQJro39ftPXQxN5mknk7sz1dYGXymi21yNZaEE-RSSq4siEqSEoezBQVI-jb6a4lRchBcGcY8UU0c4xv0C2vINlFUcHMe8o3Ezk1-5durENjpyA7o5AqO1ovU6-7FHAw6jHpEGT5zQbpWt8-NXqjGjdapHtRHtd8NgDnP0fZ5RQoGPzJkzBojSc1B0Dn-GRxjA-XPf8GnQ5jSA">Sage</url> for a picture of this sheet.
+          </p>
+        </aside>
+      </introduction>
+      <task>
+        <aside>
+          <p>
+            See <xref ref="horse_track_chain_rule_introduction"/>
+          </p>
+        </aside>
         <p>
-          Multiply <m>f</m> by the speed, and replace each <m>x</m>, <m>y</m>, and/or <m>z</m> with what it equals in terms of <m>t</m>.
+          Draw the curve <m>C</m> in the <m>xy</m>-plane.
         </p>
-      </li>
-
-      <li>
+      </task>
+      <task>
         <p>
-          Integrate the product from the previous step. Practice doing this by hand on every exercise, unless it specifically says to use technology. Some of the integrals are impossible to do by hand.
+          If we cut the curve up into lots of tiny bits, explain why the length of each bit is approximately
+          <me>
+            ds=\sqrt{(-2\sin t)^2+(3\cos t)^2}dt.
+          </me>
         </p>
-<aside>
-  <p> 
-    You should use the <url href="\sagelineintegral">Sage line integral calculator</url> to check all your answers.
-  </p>
-</aside>
+      </task>
+      <task>
+        <p>
+          Explain why the area of the metal sheet that lies above <m>C</m> and under <m>f</m> is given by the integral
+          <me>
+            \sigma = \int_C f ds = \int_0^{2\pi}(9-(2\cos t)^2-(3\sin t)^2)\sqrt{(-2\sin t)^2+(3\cos t)^2}dt.
+          </me>
+          You'll need to explain why a little bit of surface area equals <m>d\sigma =fds</m>.
+        </p>
+      </task>
+      <task>
+        <aside>
+          <p>
+            This  <url href="\sagelineintegral">Sage worksheet</url> will compute the integral.
+          </p>
+        </aside>
+        <p>
+          Find the surface area of the metal sheet. [Use technology to do this integral.]
+        </p>
+      </task>
+    </exploration>
 
-      </li>
-    </ol>
-  </p>
+    <p>
+      Our results from the exercise above suggest the following definition.
+    </p>
 
-  <exploration>
+    <definition>
+      <title>Line Integral</title>
+      <statement>
+        <p>
+          Let <m>f</m> be a function and let <m>C</m> be a piecewise smooth curve whose parametrization is <m>\vec r(t)</m> for <m>t\in[a,b]</m>. We'll require that the composition <m>f(\vec r(t))</m> be continuous for all <m>t\in [a,b]</m>. Then we define the line integral
+          of <m>f</m> over <m>C</m> to be the integral
+          <me>
+            \int_C f ds 
+            = \int_a^b f(\vec r(t))\frac{ds}{dt}dt
+            = \int_a^b f(\vec r(t))\left|\frac{d\vec r}{dt}\right|dt.
+          </me>
+        </p>
+        <aside>
+          <p> 
+            The line integral is also called the path integral, contour integral, or curve integral.
+          </p>
+        </aside>
+      </statement>
+    </definition>
 
     <aside>
-      <p>
-        <url href="\sagelineintegral">Check your answer with Sage.</url>
+      <p> 
+        When we ask you to set up a line integral, it means that you should do steps 1<ndash />3, so that you get an integral with a single variable and with bounds that you could plug into a computer or complete by hand.
       </p>
     </aside>
     <p>
-      Let <m>f(x,y,z)=x^2+y^2-2z</m> and let <m>C</m> be two coils of the helix <m>\vec r(t)=(3\cos t, 3\sin t, 4t)</m>, starting at <m>t=0</m>. Remember that the parametrization means <m>x=3\cos t</m>, <m>y=3\sin t</m>, and <m>z=4t</m>. Compute <m>\int_Cf ds</m>. [You will have to find the end bound yourself. How much time passes to go around two coils?]
+      Notice that this definition suggests the following four steps. These four steps are the key to computing any line integral. 
+      <ol>
+        <li>
+          <p>
+            Start by getting a parametrization <m>\vec r(t)</m> for <m>a\leq t\leq b</m> of the curve <m>C</m>.
+          </p>
+        </li>
+
+        <li>
+          <p>
+            Find the speed by computing the velocity <m>\dfrac{d\vec r}{dt}</m> and then the speed <m>\left|\dfrac{d\vec r}{dt}\right|</m>.
+          </p>
+        </li>
+
+        <li>
+          <p>
+            Multiply <m>f</m> by the speed, and replace each <m>x</m>, <m>y</m>, and/or <m>z</m> with what it equals in terms of <m>t</m>.
+          </p>
+        </li>
+
+        <li>
+          <p>
+            Integrate the product from the previous step. Practice doing this by hand on every exercise, unless it specifically says to use technology. Some of the integrals are impossible to do by hand.
+          </p>
+          <aside>
+            <p> 
+              You should use the <url href="\sagelineintegral">Sage line integral calculator</url> to check all your answers.
+            </p>
+          </aside>
+
+        </li>
+      </ol>
     </p>
-  </exploration>
+  </introduction>
 
-  <exploration>
+  <subsection>
+    <title>Exploring the Line-Integral</title>
 
-    <aside>
+    <exploration>
+      <statement>
+        <aside>
+          <p>
+            <url href="\sagelineintegral">Check your answer with Sage.</url>
+          </p>
+        </aside>
+        <p>
+          Let <m>f(x,y,z)=x^2+y^2-2z</m> and let <m>C</m> be two coils of the helix <m>\vec r(t)=(3\cos t, 3\sin t, 4t)</m>, starting at <m>t=0</m>. Remember that the parametrization means <m>x=3\cos t</m>, <m>y=3\sin t</m>, and <m>z=4t</m>. Compute <m>\int_Cf ds</m>. [You will have to find the end bound yourself.]
+        </p>
+      </statement>
+      <hint>
+        <p>
+          How much time passes to go around two coils?]
+        </p>
+      </hint>
+    </exploration>
+
+    <exploration>
+      <todo> CHALLENGE </todo>
+      <aside>
+        <p>
+          <url href="\sagelineintegral">Check your answer with Sage.</url>
+        </p>
+      </aside>
       <p>
-        <url href="\sagelineintegral">Check your answer with Sage.</url>
+        Consider the function <m>f(x,y)=3xy+2</m>. Let <m>C</m> be a circle of radius 4 centered at the origin. Compute <m>\int_C fds</m>. [You'll have to come up with your own parametrization.]
       </p>
-    </aside>
-    <p>
-      Consider the function <m>f(x,y)=3xy+2</m>. Let <m>C</m> be a circle of radius 4 centered at the origin. Compute <m>\int_C fds</m>. [You'll have to come up with your own parametrization.]
-    </p>
-  </exploration>
+    </exploration>
 
-  <exploration>
-
-    <aside>
-      <p>
-        If you've forgotten how to parametrize line segments, <xref ref="prob_line_equation_practice">see</xref>.
-      </p>
-
-      <p>
-        <url href="\sagelineintegral">Check your answer with Sage.</url>
-      </p>
-    </aside>
-    <p>
-      Let <m>f(x,y,z)=x^2+3yz</m>. Let <m>C</m> be the straight line segment from <m>(1,0,0)</m> to <m>(0,4,5)</m>. Compute <m>\int_C f ds</m>.
-    </p>
-  </exploration>
+    <todo> CHALLENGE </todo>
+    <exploration>
+      <statement>
+        <aside>
+          <p>
+            <url href="\sagelineintegral">Check your answer with Sage.</url>
+          </p>
+        </aside>
+        <p>
+          Let <m>f(x,y,z)=x^2+3yz</m>. Let <m>C</m> be the straight line segment from <m>(1,0,0)</m> to <m>(0,4,5)</m>. Compute <m>\int_C f ds</m>.
+        </p>
+      </statement>
+      <hint>
+        <p>
+          If you've forgotten how to parametrize line segments, <xref ref="prob_line_equation_practice">see</xref>.
+        </p>
+      </hint>
+    </exploration>
 
   <todo>
     \larsonfive{ See Larson 15.2: 120, 6370.  Some exercises give you a parametrization, some expect you to come up with one on your own.}
@@ -194,11 +208,14 @@
         <p>
           <xref ref="prob_parametric_curve_in_plane">See</xref> if you forgot how to parametrize plane curves.
         </p>
+      </aside>
 
+      <aside>
         <p>
           <url href="\sagelineintegral">Check your answer with Sage.</url>
         </p>
       </aside>
+
     </introduction>
     <task>
       <p>
@@ -236,7 +253,7 @@
     </me>
     while the formula for flux is
     <me>
-      \Phi=\int_C (\vec F\cdot \vec n)ds =\int_C (M,N)\cdot(dy,-dx) =  \int_C Mdy+Ndx.
+      \Phi=\int_C (\vec F\cdot \vec n)ds =\int_C (M,N)\cdot(dy,-dx) =  \int_C Mdy-Ndx.
     </me>
   </p>
 
@@ -312,5 +329,6 @@
   <p>
     Ask me in class to change the vector fields above, and examine what happens with different vectors fields. In particular, it's possible to have any combination of values for circulation and flux. We'll be able to use technology to rapidly compute many values.
   </p>
+</subsection>
 </section>
 
