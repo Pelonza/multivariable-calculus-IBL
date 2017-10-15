@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"ob",
+				"objectives"
+			],
+			[
 				"intro",
 				"introduction"
 			],
@@ -27,88 +31,25 @@
 			"file": "index.mbx",
 			"settings":
 			{
-				"buffer_size": 5416,
+				"buffer_size": 5478,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "chapter02/ch02_2_dotproduct.mbx",
+			"file": "chapter07/chapter7.mbx",
 			"settings":
 			{
-				"buffer_size": 7447,
+				"buffer_size": 3465,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "review_matrices.mbx",
+			"file": "chapter07/ch07_03_tangentplanes.mbx",
 			"settings":
 			{
-				"buffer_size": 10358,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "chapter01/ch01_3_systems.mbx",
-			"settings":
-			{
-				"buffer_size": 2252,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "sec_functionlist.mbx",
-			"settings":
-			{
-				"buffer_size": 4264,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "chapter02/chapter2main.mbx",
-			"settings":
-			{
-				"buffer_size": 3675,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "chapter02/ch02_6_projection.mbx",
-			"settings":
-			{
-				"buffer_size": 7665,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "chapter02/ch02_5_crossplanes.mbx",
-			"settings":
-			{
-				"buffer_size": 4487,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "chapter02/ch02_4_crossproduct.mbx",
-			"settings":
-			{
-				"buffer_size": 4959,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "frontmatter.ptx",
-			"settings":
-			{
-				"buffer_size": 6421,
+				"buffer_size": 16045,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -178,15 +119,78 @@
 	},
 	"expanded_folders":
 	[
-		"/C/Users/Karl/Documents/GitHub/multivariable-calculus-IBL/ptx",
-		"/C/Users/Karl/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter01",
-		"/C/Users/Karl/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter02"
+		"/C/Users/kschmit1/Documents/GitHub/multivariable-calculus-IBL/ptx",
+		"/C/Users/kschmit1/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter02",
+		"/C/Users/kschmit1/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter03",
+		"/C/Users/kschmit1/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter04",
+		"/C/Users/kschmit1/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter05",
+		"/C/Users/kschmit1/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter06",
+		"/C/Users/kschmit1/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter07",
+		"/C/Users/kschmit1/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter09",
+		"/C/Users/kschmit1/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter11",
+		"/C/Users/kschmit1/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter13"
 	],
 	"file_history":
 	[
-		"/C/Users/Karl/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter02/ch02_1_vectors.mbx",
+		"/C/Users/kschmit1/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter07/section7-3.mbx",
+		"/C/Users/kschmit1/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter07/ch07_02_multiderivative.mbx",
+		"/C/Users/kschmit1/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter03/section3-1.mbx",
+		"/C/Users/kschmit1/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter06/ch06_04_severalvars.mbx",
+		"/C/Users/kschmit1/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter06/ch06_05_functions.mbx",
+		"/C/Users/kschmit1/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter07/section7-2.mbx",
+		"/C/Users/kschmit1/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter07/section7-1.mbx",
+		"/C/Users/kschmit1/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter06/ch06_03_psurfaces.mbx",
+		"/C/Users/kschmit1/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter06/ch06_02_pcurves.mbx",
+		"/C/Users/kschmit1/Documents/GitHub/multivariable-calculus-IBL/ptx/index.mbx",
+		"/C/Users/kschmit1/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter01/ch01_5_taylorseries.mbx",
+		"/C/Users/kschmit1/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter02/ch02_1_vectors.mbx",
+		"/C/Users/kschmit1/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter02/ch02_2_dotproduct.mbx",
+		"/C/Users/kschmit1/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter02_old/ch02_1_vectors.mbx",
+		"/C/Users/kschmit1/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter02_old/ch02_2_dotproduct.mbx",
+		"/C/Users/kschmit1/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter04/parametric-eqns.mbx",
+		"/C/Users/kschmit1/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter04_old/section4-1.mbx",
+		"/C/Users/kschmit1/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter05/ch05_01_polar_coordinates.mbx",
+		"/C/Users/kschmit1/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter08/section8-1.mbx",
+		"/C/Users/kschmit1/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter08/section8-4.mbx",
+		"/C/Users/kschmit1/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter10/section10-1.mbx",
+		"/C/Users/kschmit1/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter06/chapter6.mbx",
+		"/C/Users/kschmit1/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter07/section7-4.mbx",
+		"/C/Users/kschmit1/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter08/section8-3.mbx",
+		"/C/Users/kschmit1/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter09/section9-1.mbx",
+		"/C/Users/kschmit1/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter09/section9-2.mbx",
+		"/C/Users/kschmit1/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter09/section9-3.mbx",
+		"/C/Users/kschmit1/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter09/section9-4.mbx",
+		"/C/Users/kschmit1/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter09/section9-5.mbx",
+		"/C/Users/kschmit1/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter10/section10-3.mbx",
+		"/C/Users/kschmit1/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter12/section12-2.mbx",
+		"/C/Users/kschmit1/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter13/section13-3.mbx",
+		"/C/Users/kschmit1/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter02/ch02_6_projection.mbx",
+		"/C/Users/kschmit1/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter02_old/section2-6.mbx",
+		"/C/Users/kschmit1/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter05/ch05_02_othercoordinates.mbx",
+		"/C/Users/kschmit1/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter06/ch06_06_functionlist.mbx",
+		"/C/Users/kschmit1/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter06/section6-5.mbx",
+		"/C/Users/kschmit1/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter06/ch06_sec4_severalvars.mbx",
+		"/C/Users/kschmit1/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter06/section6-4.mbx",
+		"/C/Users/kschmit1/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter06/ch06_01_terminology.mbx",
+		"/C/Users/kschmit1/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter06/section6-3.mbx",
+		"/C/Users/kschmit1/Documents/GitHub/multivariable-calculus-IBL/ptx/frontmatter.ptx",
+		"/C/Users/kschmit1/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter06/section6-2.mbx",
+		"/C/Users/kschmit1/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter04/chapter4.mbx",
+		"/C/Users/kschmit1/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter05/chapter5.mbx",
+		"/C/Users/kschmit1/Documents/GitHub/multivariable-calculus-IBL/ptx/index.tex",
+		"/C/Users/kschmit1/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter05/section5-1.mbx",
+		"/C/Users/kschmit1/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter13/section13-1.mbx",
+		"/C/Users/kschmit1/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter02/ch02_4_crossproduct.mbx",
+		"/C/Users/kschmit1/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter02/ch02_5_crossplanes.mbx",
+		"/C/Users/kschmit1/Documents/GitHub/multivariable-calculus-IBL/ptx/review_matrices.mbx",
+		"/C/Users/kschmit1/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter01/ch01_1_calc1review.mbx",
+		"/C/Users/kschmit1/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter01/ch01_2_differentials.mbx",
+		"/C/Users/kschmit1/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter02/chapter2main.mbx",
+		"/C/Users/kschmit1/Documents/GitHub/multivariable-calculus-IBL/ptx/sec_functionlist.mbx",
+		"/C/Users/kschmit1/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter01/ch01_3_systems.mbx",
 		"/C/Users/Karl/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter02/ch02_4_crossproduct.mbx",
 		"/C/Users/Karl/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter01/ch01main.mbx",
+		"/C/Users/Karl/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter02/ch02_1_vectors.mbx",
 		"/C/Users/Karl/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter01/ch01_5_taylorseries.mbx",
 		"/C/Users/Karl/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter01/ch01_1_calc1review.mbx",
 		"/C/Users/Karl/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter02_new/ch02_1_vectors.mbx",
@@ -246,7 +250,7 @@
 	],
 	"find":
 	{
-		"height": 26.0
+		"height": 23.0
 	},
 	"find_in_files":
 	{
@@ -261,6 +265,19 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"aside",
+			"hint",
+			"></xref>",
+			"</xref>",
+			">*</xref>",
+			">Exercise</xref>",
+			">problem</xref>",
+			"problem</xref>",
+			"</xref>",
+			"space_curve",
+			"<ndash />",
+			"Larson",
+			"<!--",
 			"project",
 			"</insight>",
 			"<insight>",
@@ -281,6 +298,8 @@
 		"regex": false,
 		"replace_history":
 		[
+			"/>",
+			"",
 			"exploration",
 			"</aside>",
 			"<aside>",
@@ -300,7 +319,7 @@
 	"groups":
 	[
 		{
-			"selected": 9,
+			"selected": 2,
 			"sheets":
 			[
 				{
@@ -309,7 +328,7 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 5416,
+						"buffer_size": 5478,
 						"regions":
 						{
 						},
@@ -327,259 +346,19 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 5,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "chapter02/ch02_2_dotproduct.mbx",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 7447,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								7389,
-								7389
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/MBXTools/mbx.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 3564.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 4,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "review_matrices.mbx",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 10358,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								7950,
-								7950
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/MBXTools/mbx.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 2376.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 7,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "chapter01/ch01_3_systems.mbx",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2252,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								926,
-								926
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/MBXTools/mbx.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 8,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "sec_functionlist.mbx",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 4264,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/MBXTools/mbx.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 9,
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "chapter02/chapter2main.mbx",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 3675,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								3649,
-								3649
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/MBXTools/mbx.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 750.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 6,
-					"type": "text"
-				},
-				{
-					"buffer": 6,
-					"file": "chapter02/ch02_6_projection.mbx",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 7665,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								7653,
-								7653
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/MBXTools/mbx.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 3522.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 7,
-					"file": "chapter02/ch02_5_crossplanes.mbx",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 4487,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								4122,
-								3941
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/MBXTools/mbx.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 1746.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 8,
-					"file": "chapter02/ch02_4_crossproduct.mbx",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 4959,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								2048,
-								2048
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/MBXTools/mbx.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 1998.0,
+						"translation.y": 1170.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
 					"type": "text"
 				},
 				{
-					"buffer": 9,
-					"file": "frontmatter.ptx",
-					"semi_transient": true,
+					"buffer": 1,
+					"file": "chapter07/chapter7.mbx",
+					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 6421,
+						"buffer_size": 3465,
 						"regions":
 						{
 						},
@@ -592,11 +371,42 @@
 						],
 						"settings":
 						{
-							"syntax": "Packages/XML/XML.sublime-syntax",
-							"translate_tabs_to_spaces": false
+							"syntax": "Packages/MBXTools/mbx.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 162.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "chapter07/ch07_03_tangentplanes.mbx",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 16045,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								6864,
+								6864
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/MBXTools/mbx.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 2438.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -607,7 +417,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 26.0
+		"height": 23.0
 	},
 	"input":
 	{
@@ -644,7 +454,7 @@
 	"project": "multivariable_ptx.sublime-project",
 	"replace":
 	{
-		"height": 48.0
+		"height": 42.0
 	},
 	"save_all_on_build": true,
 	"select_file":

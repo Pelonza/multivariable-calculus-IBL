@@ -91,7 +91,7 @@
     We're now ready to discuss double integrals. Just as single integrals gave us the area under a function over an interval, double integrals will give us the volume under a function, above a region in the plane. We'll introduce double integrals by looking at cross sections of a solid. You did this in first semester calculus, but you always used geometric shapes, for which we know the area, to create the cross sections. Let's start with a review of this idea, and then jump into double integrals.
   </p>
 
-  <review>
+  <project>
 
   <p>
     Consider the parabola <m>z=9-x^2</m> for <m>0\leq x\leq 3</m>. Revolve this parabola half way around the <m>z</m>-axis, and compute the volume of the solid that is inside the paraboloid and above the <m>xy</m>-plane. Do so by considering horizontal semicircular cross sections. See<fn>The area of each cross section is the area of a semicircle, which is <m>A=\frac{1}{2}\pi r^2 = \frac12 \pi x^2</m> as the radius is <m>x</m>. We thicken each cross section up by multiplying by <m>dz</m>, the height of each circular disc. Since the height has a <m>dz</m>, we replace <m>x</m> with <m>x=\sqrt{9-z}</m> in the area formula to get a little bit of volume as <m>dV = \frac{1}{2}\pi (\sqrt{9-z})^2 dz</m>.  The <m>z</m> values range from <m>0</m> to <m>9</m>, which means the volume of the solid is the integral
@@ -104,7 +104,7 @@
     </me></fn>.
   </p>
 
-  </review>
+  </project>
 
   <p>
     Let's now consider the exact same solid, but instead of cutting horizontally, let's cut the object vertically. The first exercise has you cut the solid up using slices that are parallel to the <m>x</m>-axis (so keeping <m>y</m> constant). The next has you repeat the exercise, but this time using vertical slices that are parallel to the <m>y</m>-axis (so keeping <m>x</m> constant). The idea is exactly the same. Just find the area of a slice, thicken it up (using <m>dx</m> or <m>dy</m>), and then integrate.
