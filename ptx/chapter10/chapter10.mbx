@@ -229,7 +229,7 @@
   -->
   
   <xi:include  href="ch10_01_gradient.mbx" />
-  <xi:include  href="section10-2.mbx" />
+  <xi:include  href="ch10_02_2nd_derivative.mbx" />
   <xi:include  href="section10-3.mbx" />
 </chapter>
 
