@@ -230,7 +230,7 @@
   
   <xi:include  href="ch10_01_gradient.mbx" />
   <xi:include  href="ch10_02_2nd_derivative.mbx" />
-  <xi:include  href="section10-3.mbx" />
+  <xi:include  href="ch10_03_lagrange.mbx" />
 
   <conclusion>
       <title>Wrap Up</title>
