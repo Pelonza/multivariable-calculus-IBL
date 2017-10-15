@@ -295,7 +295,7 @@
         </p>
 
         <p>
-          Here are the steps to compute the direction derivative:
+          Here are the steps to compute the directional derivative:
           <ol>
             <li>
               <p>
@@ -431,7 +431,7 @@
           </p>
         </aside>
         <p>
-          Create you own topographical map to illustrate the ideas above. Just make sure your map has a section with some contours that are closely packed together, and some that are far apart, as well as a contour that intersects itself. Then on your topographical map, please add a few gradient vectors, where you emphasize which ones are long, and which ones are short. Show us how to find a peak, as well as what the gradient vector would be at the peak.
+          Create your own topographical map to illustrate the ideas above. Just make sure your map has a section with some contours that are closely packed together, and some that are far apart, as well as a contour that intersects itself. Then on your topographical map, please add a few gradient vectors, where you emphasize which ones are long, and which ones are short. Show us how to find a peak, as well as what the gradient vector would be at the peak.
         </p>
       </task>
     </exploration>
