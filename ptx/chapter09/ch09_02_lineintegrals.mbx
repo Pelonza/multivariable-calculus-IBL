@@ -74,6 +74,48 @@
         <p>
           Find the surface area of the metal sheet. [Use technology to do this integral.]
         </p>
+        <sage>
+          <input>
+            ##The code below will find the surface area of a surface that lies below f(x,y) and above the curve r(t) in the xy plane.  
+            f(x,y)=9-x^2-y^2
+            r(t)=(2*cos(t), 3*sin(t))
+            trange=(t,0,2*pi)
+
+            ds=r.diff(t).norm()
+            dA=f(x=r(t)[0],y=r(t)[1])*ds(t)
+
+            # Let's make a function right off to evaluate an integral over this curve.  
+            #We'll use a numerical integral, because sometimes we might not be able to get an exact integral.
+            def line_integral(integrand):
+                return RR(numerical_integral(integrand, trange[1], trange[2])[0])
+
+            A = line_integral(dA(t))
+
+
+            show(table([
+            [r"$f(x,y)$",f(x,y)],
+            [r"$\vec r(t)$",r(t)],
+            [r"$d\vec r(t)/dt$",r.diff(t)(t)],
+            [r"$ds$",ds(t)],
+            [r"$d\sigma=f ds$",dA(t)],
+            [r"$Surface Area = \sigma =\int_C f ds$",A],
+            ]))
+
+
+
+
+            #This section makes the plot of a the surface.
+            r1(t,u)=(r(t)[0], r(t)[1],u*f(x=r(t)[0],y=r(t)[1]))
+            curve_options=dict(color='red',thickness=3)
+            curves=parametric_plot(r1(t,0), trange,**curve_options)+parametric_plot(r1(t,1),trange,**curve_options)
+            sheet=parametric_plot(r1,trange,(u,0,1))
+            show(curves+sheet)
+
+            #If the integral is doable, then this will give the integral. 
+            html("If the integral can be computed exactly by Sage, then it will eventually show up below.  Otherwise, you'll get a huge list of errors.")
+            integrate(dA(t), trange)
+          </input>
+        </sage>
       </task>
     </exploration>
 
@@ -155,12 +197,58 @@
         <p>
           Let <m>f(x,y,z)=x^2+y^2-2z</m> and let <m>C</m> be two coils of the helix <m>\vec r(t)=(3\cos t, 3\sin t, 4t)</m>, starting at <m>t=0</m>. Remember that the parametrization means <m>x=3\cos t</m>, <m>y=3\sin t</m>, and <m>z=4t</m>. Compute <m>\int_Cf ds</m>. [You will have to find the end bound yourself.]
         </p>
+        <p> 
+          You can check your answer with the SageCell below.
+        </p>
+        <sage>
+          <input>
+            ##The code below will find the surface area of a surface that lies below f(x,y) and above the curve r(t) in the xy plane.  
+            f(x,y)=9-x^2-y^2
+            r(t)=(2*cos(t), 3*sin(t))
+            trange=(t,0,2*pi)
+
+            ds=r.diff(t).norm()
+            dA=f(x=r(t)[0],y=r(t)[1])*ds(t)
+
+            # Let's make a function right off to evaluate an integral over this curve.  
+            #We'll use a numerical integral, because sometimes we might not be able to get an exact integral.
+            def line_integral(integrand):
+                return RR(numerical_integral(integrand, trange[1], trange[2])[0])
+
+            A = line_integral(dA(t))
+
+
+            show(table([
+            [r"$f(x,y)$",f(x,y)],
+            [r"$\vec r(t)$",r(t)],
+            [r"$d\vec r(t)/dt$",r.diff(t)(t)],
+            [r"$ds$",ds(t)],
+            [r"$d\sigma=f ds$",dA(t)],
+            [r"$Surface Area = \sigma =\int_C f ds$",A],
+            ]))
+
+
+
+
+            #This section makes the plot of a the surface.
+            r1(t,u)=(r(t)[0], r(t)[1],u*f(x=r(t)[0],y=r(t)[1]))
+            curve_options=dict(color='red',thickness=3)
+            curves=parametric_plot(r1(t,0), trange,**curve_options)+parametric_plot(r1(t,1),trange,**curve_options)
+            sheet=parametric_plot(r1,trange,(u,0,1))
+            show(curves+sheet)
+
+            #If the integral is doable, then this will give the integral. 
+            html("If the integral can be computed exactly by Sage, then it will eventually show up below.  Otherwise, you'll get a huge list of errors.")
+            integrate(dA(t), trange)
+          </input>
+        </sage>
       </statement>
       <hint>
         <p>
-          How much time passes to go around two coils?]
+          How much time passes to go around two coils?
         </p>
       </hint>
+
     </exploration>
 
     <exploration>
@@ -173,6 +261,51 @@
       <p>
         Consider the function <m>f(x,y)=3xy+2</m>. Let <m>C</m> be a circle of radius 4 centered at the origin. Compute <m>\int_C fds</m>. [You'll have to come up with your own parametrization.]
       </p>
+      <p> 
+        You can check your answer with the SageCell below.
+      </p>
+      <sage>
+        <input>
+          ##The code below will find the surface area of a surface that lies below f(x,y) and above the curve r(t) in the xy plane.  
+          f(x,y)=9-x^2-y^2
+          r(t)=(2*cos(t), 3*sin(t))
+          trange=(t,0,2*pi)
+
+          ds=r.diff(t).norm()
+          dA=f(x=r(t)[0],y=r(t)[1])*ds(t)
+
+          # Let's make a function right off to evaluate an integral over this curve.  
+          #We'll use a numerical integral, because sometimes we might not be able to get an exact integral.
+          def line_integral(integrand):
+              return RR(numerical_integral(integrand, trange[1], trange[2])[0])
+
+          A = line_integral(dA(t))
+
+
+          show(table([
+          [r"$f(x,y)$",f(x,y)],
+          [r"$\vec r(t)$",r(t)],
+          [r"$d\vec r(t)/dt$",r.diff(t)(t)],
+          [r"$ds$",ds(t)],
+          [r"$d\sigma=f ds$",dA(t)],
+          [r"$Surface Area = \sigma =\int_C f ds$",A],
+          ]))
+
+
+
+
+          #This section makes the plot of a the surface.
+          r1(t,u)=(r(t)[0], r(t)[1],u*f(x=r(t)[0],y=r(t)[1]))
+          curve_options=dict(color='red',thickness=3)
+          curves=parametric_plot(r1(t,0), trange,**curve_options)+parametric_plot(r1(t,1),trange,**curve_options)
+          sheet=parametric_plot(r1,trange,(u,0,1))
+          show(curves+sheet)
+
+          #If the integral is doable, then this will give the integral. 
+          html("If the integral can be computed exactly by Sage, then it will eventually show up below.  Otherwise, you'll get a huge list of errors.")
+          integrate(dA(t), trange)
+        </input>
+      </sage>
     </exploration>
 
     <todo> CHALLENGE </todo>
@@ -186,6 +319,51 @@
         <p>
           Let <m>f(x,y,z)=x^2+3yz</m>. Let <m>C</m> be the straight line segment from <m>(1,0,0)</m> to <m>(0,4,5)</m>. Compute <m>\int_C f ds</m>.
         </p>
+        <p> 
+          You can check your answer with the SageCell below.
+        </p>
+        <sage>
+          <input>
+            ##The code below will find the surface area of a surface that lies below f(x,y) and above the curve r(t) in the xy plane.  
+            f(x,y)=9-x^2-y^2
+            r(t)=(2*cos(t), 3*sin(t))
+            trange=(t,0,2*pi)
+
+            ds=r.diff(t).norm()
+            dA=f(x=r(t)[0],y=r(t)[1])*ds(t)
+
+            # Let's make a function right off to evaluate an integral over this curve.  
+            #We'll use a numerical integral, because sometimes we might not be able to get an exact integral.
+            def line_integral(integrand):
+                return RR(numerical_integral(integrand, trange[1], trange[2])[0])
+
+            A = line_integral(dA(t))
+
+
+            show(table([
+            [r"$f(x,y)$",f(x,y)],
+            [r"$\vec r(t)$",r(t)],
+            [r"$d\vec r(t)/dt$",r.diff(t)(t)],
+            [r"$ds$",ds(t)],
+            [r"$d\sigma=f ds$",dA(t)],
+            [r"$Surface Area = \sigma =\int_C f ds$",A],
+            ]))
+
+
+
+
+            #This section makes the plot of a the surface.
+            r1(t,u)=(r(t)[0], r(t)[1],u*f(x=r(t)[0],y=r(t)[1]))
+            curve_options=dict(color='red',thickness=3)
+            curves=parametric_plot(r1(t,0), trange,**curve_options)+parametric_plot(r1(t,1),trange,**curve_options)
+            sheet=parametric_plot(r1,trange,(u,0,1))
+            show(curves+sheet)
+
+            #If the integral is doable, then this will give the integral. 
+            html("If the integral can be computed exactly by Sage, then it will eventually show up below.  Otherwise, you'll get a huge list of errors.")
+            integrate(dA(t), trange)
+          </input>
+        </sage>
       </statement>
       <hint>
         <p>
@@ -244,6 +422,50 @@
         Use technology to compute <m>\int_C fds</m> to get a numeric answer.  Was your answer the sign that you determined above?
       </p>
     </task>
+    <conclusion>
+      <sage>
+        <input>
+          ##The code below will find the surface area of a surface that lies below f(x,y) and above the curve r(t) in the xy plane.  
+          f(x,y)=9-x^2-y^2
+          r(t)=(2*cos(t), 3*sin(t))
+          trange=(t,0,2*pi)
+
+          ds=r.diff(t).norm()
+          dA=f(x=r(t)[0],y=r(t)[1])*ds(t)
+
+          # Let's make a function right off to evaluate an integral over this curve.  
+          #We'll use a numerical integral, because sometimes we might not be able to get an exact integral.
+          def line_integral(integrand):
+              return RR(numerical_integral(integrand, trange[1], trange[2])[0])
+
+          A = line_integral(dA(t))
+
+
+          show(table([
+          [r"$f(x,y)$",f(x,y)],
+          [r"$\vec r(t)$",r(t)],
+          [r"$d\vec r(t)/dt$",r.diff(t)(t)],
+          [r"$ds$",ds(t)],
+          [r"$d\sigma=f ds$",dA(t)],
+          [r"$Surface Area = \sigma =\int_C f ds$",A],
+          ]))
+
+
+
+
+          #This section makes the plot of a the surface.
+          r1(t,u)=(r(t)[0], r(t)[1],u*f(x=r(t)[0],y=r(t)[1]))
+          curve_options=dict(color='red',thickness=3)
+          curves=parametric_plot(r1(t,0), trange,**curve_options)+parametric_plot(r1(t,1),trange,**curve_options)
+          sheet=parametric_plot(r1,trange,(u,0,1))
+          show(curves+sheet)
+
+          #If the integral is doable, then this will give the integral. 
+          html("If the integral can be computed exactly by Sage, then it will eventually show up below.  Otherwise, you'll get a huge list of errors.")
+          integrate(dA(t), trange)
+        </input>
+      </sage>      
+    </conclusion>
   </exploration>
 
   <p>
@@ -286,8 +508,62 @@
     <task>
       <p>
         Now find the counterclockwise circulation (work) done by <m>\vec F</m> along <m>C</m>.  You'll have three separate calculations, one for each side. We'll do the flux computation in class. 
-        Check your work on each piece with the <url href="\sageworkfluxurl">Sage calculator</url>.
+        Check your work on each piece with the <url href="\sageworkfluxurl">Sage calculator</url> or in the cell below.
       </p>
+      <sage>
+        <input>
+          var('x,y,t')
+          F=vector([-y,x])
+          #F=vector([2*x+y,-x+2*y]) #Uncomment this line for a different field.
+          r=vector([5*cos(t), 5*sin(t)])
+          tstart=0
+          tend=2*pi
+
+          vector_field_bounds = ((x,-6,6), (y,-6,6))
+
+
+          # Let's make a function right off to evaluate an integral over this curve.
+          def line_integral(integrand):
+              return RR(numerical_integral((integrand).subs(x=r[0], y=r[1]), tstart, tend)[0])
+
+          dr=diff(r,t)
+          dW=F(x=r[0], y=r[1])*dr # Multiplying two vectors together gives the dot product
+          W=line_integral(dW)
+
+          nds(t) = (dr[1], -dr[0])
+          dFlux=F(x=r[0], y=r[1])*nds
+          Flux=line_integral(dFlux)
+
+
+          # TABLE
+          show(table([
+          [r"$\vec F(x,y)$", F],
+          [r"$\vec r(t)$", r],
+          [r"$t$ range", (t, tstart, tend)],
+          [r"$d\vec r$", dr],
+          [r"$\vec F(\vec r(t))$", F(x=r[0], y=r[1])],
+          [r"$dW=\vec F \cdot d\vec r$", dW],
+          [r"$W=\int dW=\int \vec F \cdot d\vec r$", W],
+          [r"$\vec n ds$", nds(t)],
+          [r"$dFlux=F\cdot n ds = M dy - N dx$", dFlux(t)],
+          [r"Flux=$\int dFlux=\int F\cdot n ds = \int Mdy-Ndx$", Flux]
+          ]))
+
+          # PLOT
+          @interact
+          def _(state=["flow","flux"]):
+              p=plot_vector_field(F, *vector_field_bounds)
+              p+= parametric_plot(r, (t, tstart, tend),thickness=3)
+              if state=="flow":
+                  for i in srange(tstart, tend, (tend-tstart)/18):
+                      p += arrow(r(t=i), (r+ .5*dr)(t=i),color='red')
+              elif state=="flux":
+                  for i in srange(tstart, tend, (tend-tstart)/18):
+                      p += arrow(r(t=i), (r+ .5*nds)(t=i),color='green')
+              
+              show(p, aspect_ratio=1)
+        </input>
+      </sage>
     </task>
   </exploration>
 
@@ -296,7 +572,69 @@
       <p>
         Consider the vector field <m>\vec F=(2x-y,x)</m>. Let <m>C</m> be the curve that starts at <m>(-2,0)</m>, follows a straight line to <m>(1,3)</m>, and then back to <m>(-2,0)</m> along the parabola <m>y=4-x^2</m>.
       </p>
+      <p>
+        The first cell plots this vector field (same as link in margin). The second provides the Work-Flux calculations. Save those for checking your work after the exercise.
+      </p>
+      <sage>
+        <input>
+          F(x,y)=(2*x-y,x)
+          plot_vector_field(F,(x,-2,1),(y,0,4))+line([[-2,0],[1,3]],thickness=2)+plot(4-x^2,(x,-2,1),thickness=2)
+        </input>
+      </sage>
+      <sage>
+        <input>
+          var('x,y,t')
+          F=vector([-y,x])
+          #F=vector([2*x+y,-x+2*y]) #Uncomment this line for a different field.
+          r=vector([5*cos(t), 5*sin(t)])
+          tstart=0
+          tend=2*pi
 
+          vector_field_bounds = ((x,-6,6), (y,-6,6))
+
+
+          # Let's make a function right off to evaluate an integral over this curve.
+          def line_integral(integrand):
+              return RR(numerical_integral((integrand).subs(x=r[0], y=r[1]), tstart, tend)[0])
+
+          dr=diff(r,t)
+          dW=F(x=r[0], y=r[1])*dr # Multiplying two vectors together gives the dot product
+          W=line_integral(dW)
+
+          nds(t) = (dr[1], -dr[0])
+          dFlux=F(x=r[0], y=r[1])*nds
+          Flux=line_integral(dFlux)
+
+
+          # TABLE
+          show(table([
+          [r"$\vec F(x,y)$", F],
+          [r"$\vec r(t)$", r],
+          [r"$t$ range", (t, tstart, tend)],
+          [r"$d\vec r$", dr],
+          [r"$\vec F(\vec r(t))$", F(x=r[0], y=r[1])],
+          [r"$dW=\vec F \cdot d\vec r$", dW],
+          [r"$W=\int dW=\int \vec F \cdot d\vec r$", W],
+          [r"$\vec n ds$", nds(t)],
+          [r"$dFlux=F\cdot n ds = M dy - N dx$", dFlux(t)],
+          [r"Flux=$\int dFlux=\int F\cdot n ds = \int Mdy-Ndx$", Flux]
+          ]))
+
+          # PLOT
+          @interact
+          def _(state=["flow","flux"]):
+              p=plot_vector_field(F, *vector_field_bounds)
+              p+= parametric_plot(r, (t, tstart, tend),thickness=3)
+              if state=="flow":
+                  for i in srange(tstart, tend, (tend-tstart)/18):
+                      p += arrow(r(t=i), (r+ .5*dr)(t=i),color='red')
+              elif state=="flux":
+                  for i in srange(tstart, tend, (tend-tstart)/18):
+                      p += arrow(r(t=i), (r+ .5*nds)(t=i),color='green')
+              
+              show(p, aspect_ratio=1)
+        </input>
+      </sage>
       <aside>
         <p>
           See <url href="http://aleph.sagemath.org/?z=eJxNjEEOQDAUBfdO8j-vSZWtrUs0ZUFFo0FopL09VmwnM9NSROKGVB5FQuRs91voLzuE7egnZ_1ILR5HKJQMSpComQvvVktaP1Qa6BKVMQizG5bVnmejuHg3VIvYqa_-CzduCCO3">Sage</url>. Think of an airplane wing as you solve this exercise.
@@ -316,7 +654,7 @@
       </statement>
       <hint>
         <p>
-          You should get integer values along both parts. Check your work with <url href="\sageworkfluxurl">Sage</url>, but make sure you show us how to do the integrals by hand.
+          You should get integer values along both parts. Check your work with <url href="\sageworkfluxurl">Sage</url> or the cells above, but make sure you show us how to do the integrals by hand.
         </p>
       </hint>
     </task>
@@ -330,5 +668,37 @@
     Ask me in class to change the vector fields above, and examine what happens with different vectors fields. In particular, it's possible to have any combination of values for circulation and flux. We'll be able to use technology to rapidly compute many values.
   </p>
 </subsection>
+
+  <exercises>
+    <title>Computational Practice</title>
+    <introduction>
+      <p>
+        These are provided to help you achieve better skills in basic computational answers.
+      </p>
+    </introduction>
+
+    <exercise>
+      <webwork source="Library/Michigan/Chap18Sec1/Q21.pg" />
+    </exercise>
+
+    <exercise>
+      <webwork source="Library/Hope/Multi2/11-06-Scalar-line-integrals/Scalar-line-integral-04.pg" />
+    </exercise>
+
+    <exercise>
+      <webwork source="Library/FortLewis/Calc3/18-2-Line-integrals-parametrized/HGM4-18-2-00-Line-integrals-parametrized.pg" />
+    </exercise>
+
+    <exercise>
+      <webwork source="Library/FortLewis/Calc3/18-2-Line-integrals-parametrized/HGM4-18-2-08a-Line-integrals-parametrized.pg" />
+    </exercise>
+
+    <exercise>
+      <webwork source="Library/FortLewis/Calc3/18-1-Idea-of-line-integrals/HGM5-18-1-09-Line-integrals.pg" />
+    </exercise>
+
+
+  </exercises>
+
 </section>
 

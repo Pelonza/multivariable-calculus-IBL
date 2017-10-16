@@ -24,9 +24,13 @@
       <title>Gradients and Potentials</title>
       <statement>
         <p>
-          Let <m>\vec F</m> be a vector field. A potential for the vector field is a function <m>f</m> whose derivative equals <m>\vec F</m>. So if <m>Df=\vec F</m>, then we say that <m>f</m> is a potential for <m>\vec F</m>. When we want to emphasize that the derivative of <m>f</m> is a vector field, we call <m>Df</m> the gradient of <m>f</m> and write <m>Df = \vec \nabla f</m>.
-          <!-- \extrafn{The symbol <m>\vec \nabla f</m> is read <q>the gradient of <m>f</m></q> or <q>del f.</q>} -->If <m>\vec F</m> has a potential, then we say that <m>\vec F</m> is a gradient field.
+          Let <m>\vec F</m> be a vector field. A potential for the vector field is a function <m>f</m> whose derivative equals <m>\vec F</m>. So if <m>Df=\vec F</m>, then we say that <m>f</m> is a potential for <m>\vec F</m>. When we want to emphasize that the derivative of <m>f</m> is a vector field, we call <m>Df</m> the gradient of <m>f</m> and write <m>Df = \vec \nabla f</m>. If <m>\vec F</m> has a potential, then we say that <m>\vec F</m> is a gradient field.
         </p>
+        <aside>
+          <p>
+            The symbol <m>\vec \nabla f</m> is read <q>the gradient of <m>f</m></q> or <q>del f.</q>
+          </p>
+        </aside>
         <aside>
           <p> 
             <url href="http://www.youtube.com/watch?v=8Tk2pEIOnwg&amp;list=PL04DF68E73B7ECD54&amp;index=9&amp;feature=plpp_video">Watch a YouTube Video</url>.
@@ -451,5 +455,31 @@
       </p>
     </exploration>
   </subsection>
+
+  <exercises>
+    <title>Computational Practice</title>
+    <introduction>
+      <p>
+        These are provided to help you achieve better skills in basic computational answers.
+      </p>
+    </introduction>
+
+    <exercise>
+      <webwork source="Library/FortLewis/Calc3/18-1-Idea-of-line-integrals/HGM4-18-1-02-Line-integrals.pg" />
+    </exercise>
+
+    <exercise>
+      <webwork source="Library/FortLewis/Calc3/18-3-Gradient-fields/HGM4-18-3-04a-Gradient-fields.pg" />
+    </exercise>
+
+    <exercise>
+      <webwork source="Library/FortLewis/Calc3/18-3-Gradient-fields/HGM4-18-3-11-Gradient-fields.pg" />
+    </exercise>
+
+    <exercise>
+      <webwork source="Library/272/setStewart16_3/ur_vc_12_3.pg" />
+    </exercise>
+
+  </exercises>
 </section>
 

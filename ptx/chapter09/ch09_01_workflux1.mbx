@@ -249,7 +249,9 @@
       <p>
         Consider the parabolic curve <m>y=4-x^2</m> for <m>-1\leq x\leq 2</m>, and the vector field <m>\vec F(x,y) = (2x+y,-x)</m>.
       </p>
-
+      <p>
+        You can use the SageMath Cell at the end of this exercise, or in the link in the aside to check your work. But attempt the exercise first, as you will be expected to compute these yourself on the exam/final.
+      </p>
       <aside>
         <p>
           Please use this <url href="\sageworkurl">Sage link</url> to check your work.
@@ -293,6 +295,39 @@
         In general, if you traverse along a path backwards, how much work is done?
       </p>
     </task>
+    <conclusion>
+      <sage>
+        <input>
+          var('t','x','y')      #Define your variables
+          r(t) = (t,4-t^2)      #State your parametrization  
+          bounds = (t,-1,2)     #Give bounds for the parametrization
+          F(x,y) = (2*x+y,-x)   #State the vector field
+          xbounds = (x,-1,2)    #These bounds are useful if you want to make a good plot.
+          ybounds = (y,0,4)    #These bounds are useful if you want to make a good plot.
+
+          dr = r.diff(t)        #Compute the derivative
+          dW=F(*r(t)).dot_product(dr(t)) #Find a little bit of work.  The code r[0] gives the first component, and r[1] gives the second. 
+          W=integrate(dW,bounds)
+
+          pretty_print(html("""The work done by $F=%s$ along the curve r=$%s$ 
+               over the bounds $%s$ is $%s$"""%tuple(map(latex, [F(x,y), r(t), bounds, W]))))
+          show(table([
+          [r"$\vec r(t)$", "$(x,y)$", r(t)],
+          [r"$d\vec r$", "$(dx,dy)$", dr(t)],
+          ["$F(x,y)$", F(x,y), F(*r(t))],
+          ["$M$", F(x,y)[0], F(*r(t))[0]],
+          ["$N$", F(x,y)[1], F(*r(t))[1]],
+          [r"$dW=F\cdot d\vec r$", "$Mdx+Ndy$", dW],
+          [r"$W=\int_C F\cdot d\vec r$",W,W]
+          ]
+          ))
+
+          p=parametric_plot(r(t),bounds)
+          p+=plot_vector_field(F,xbounds,ybounds)
+          show(p)
+        </input>
+      </sage>
+    </conclusion>
   </exploration>
 
   <exploration>
@@ -318,8 +353,39 @@
         </p>
       </aside>
       <p>
-        Compute the work done by <m>\vec F</m> to move an object along the straight line path from <m>(-1,3)</m> to <m>(2,0)</m>. Check your answer with <url href="\sageworkurl">Sage</url>.
+        Compute the work done by <m>\vec F</m> to move an object along the straight line path from <m>(-1,3)</m> to <m>(2,0)</m>. Check your answer with <url href="\sageworkurl">Sage</url> or the SageMath Cell below.
       </p>
+      <sage>
+        <input>
+          var('t','x','y')      #Define your variables
+          r(t) = (t,4-t^2)      #State your parametrization  
+          bounds = (t,-1,2)     #Give bounds for the parametrization
+          F(x,y) = (2*x+y,-x)   #State the vector field
+          xbounds = (x,-1,2)    #These bounds are useful if you want to make a good plot.
+          ybounds = (y,0,4)    #These bounds are useful if you want to make a good plot.
+
+          dr = r.diff(t)        #Compute the derivative
+          dW=F(*r(t)).dot_product(dr(t)) #Find a little bit of work.  The code r[0] gives the first component, and r[1] gives the second. 
+          W=integrate(dW,bounds)
+
+          pretty_print(html("""The work done by $F=%s$ along the curve r=$%s$ 
+               over the bounds $%s$ is $%s$"""%tuple(map(latex, [F(x,y), r(t), bounds, W]))))
+          show(table([
+          [r"$\vec r(t)$", "$(x,y)$", r(t)],
+          [r"$d\vec r$", "$(dx,dy)$", dr(t)],
+          ["$F(x,y)$", F(x,y), F(*r(t))],
+          ["$M$", F(x,y)[0], F(*r(t))[0]],
+          ["$N$", F(x,y)[1], F(*r(t))[1]],
+          [r"$dW=F\cdot d\vec r$", "$Mdx+Ndy$", dW],
+          [r"$W=\int_C F\cdot d\vec r$",W,W]
+          ]
+          ))
+
+          p=parametric_plot(r(t),bounds)
+          p+=plot_vector_field(F,xbounds,ybounds)
+          show(p)
+        </input>
+      </sage>
     </task>
     <task>
       <p>
@@ -436,14 +502,21 @@
         </p>
       </task>
       <task>
-        <aside>
+        <statement>
+          <aside>
+            <p>
+              See <url href="\sageworkurl">Sage</url> for the work calculation.
+            </p>
+          </aside>
           <p>
-            See <url href="\sageworkurl">Sage</url> for the work calculation.
+            Compute the work <m>\ds W= \int_C (M,N)\cdot (dx,dy)</m> and show that it equals zero. (Can you give a reason why it should be zero?). 
           </p>
-        </aside>
-        <p>
-          Compute the work <m>\ds W= \int_C (M,N)\cdot (dx,dy)</m> and show that it equals zero. (Can you give a reason why it should be zero?)
-        </p>
+        </statement>
+        <hint>
+          <p>
+            If you are struggling, you can go back and use one of the sage cells above to help.
+          </p>
+        </hint>
       </task>
       <task>
         <p>
@@ -454,12 +527,46 @@
       <task>
         <aside>
           <p>
-            See <url href="\sagefluxurl">Sage</url> for the flux computation
+            See 
           </p>
         </aside>
         <p>
           If we want flux to measure the flow of a vector field outwards across a curve, then the flux of this vector field should be positive.  Which vector, <m>(dy,-dx)</m> or <m>(-dy,dx)</m>,  should we choose above for <m>n</m>.
         </p>
+        <p>
+          You can use <url href="\sagefluxurl">this Sage webpage</url> for the flux computation or the cell below.
+        </p>
+        <sage>
+          <input>
+            var('t','x','y')                #Define your variables
+            r(t) = (5*cos(t),5*sin(t))      #State your parametrization  
+            bounds = (t,0,2*pi)             #Give bounds for the parametrization
+            F(x,y) = (3*x,3*y)              #State the vector field
+            xbounds = (x,-6,6)              #These bounds are useful if you want to make a good plot.
+            ybounds = (y,-6,6)              #These bounds are useful if you want to make a good plot.
+
+            dr = diff(r,t)                  #Compute the derivative
+            nds = vector((dr[1],-dr[0]))    #Get the normal vector by swapping the order and changing the sign.
+
+            dFlux=F(x=r[0],y=r[1]).dot_product(nds(t)) #Find a little bit of Flux. We dot F and nds 
+            Flux=integrate(dFlux,bounds)    #Integrate a little bit of flux.
+
+            print "The flux of F=",F(x,y), " across the curve r=",r(t), " over the bounds ", bounds," is ", Flux
+            print ""
+            print "r = (x,y) = ", r(t)
+            print "dr = (dx,dy) = ", dr(t)
+            print "nds = (dy,-dx) = ", nds(t)
+            print "F = (M,N) = ", F(x,y)
+            print "F in terms of t = ", F(x=r[0],y=r[1])
+            print "dFlux = F.nds = Mdy-Ndx = ",dFlux
+            print "W = integrate F.dr = ", Flux
+
+            p=parametric_plot(r(t),bounds)
+            p+=plot_vector_field(F,xbounds,ybounds)
+            show(p)
+          </input>
+        </sage>
+
       </task>
       <task>
         <statement>
@@ -479,23 +586,7 @@
       <title>Flow, Circulation, and Flux</title>
       <statement>
         <p>
-          <!-- \extrafn{
-          <ul>
-            <li>
-              <p>
-                Watch a YouTube video about 
-                <url href="http://www.youtube.com/watch?v=6WcN36FbeWc&amp;list=PL04DF68E73B7ECD54">flow and circulation.</url>
-              </p>
-            </li>
-
-            <li>
-              <p>
-                Watch a 
-                <url href="http://www.youtube.com/watch?v=5DNdI72XEYY&amp;list=PL04DF68E73B7ECD54&amp;index=4&amp;feature=plpp_video">YouTube video </url> about flux.
-              </p>
-            </li>
-          </ul>
-          } -->Suppose <m>C</m> is a smooth curve with parametrization <m>\vec r(t)=(x,y)</m>. Suppose that <m>\vec F(x,y)</m> is a vector field that represents the velocity of some fluid (like water or air).
+          Suppose <m>C</m> is a smooth curve with parametrization <m>\vec r(t)=(x,y)</m>. Suppose that <m>\vec F(x,y)</m> is a vector field that represents the velocity of some fluid (like water or air).
           <ul>
             <li>
               <p>
@@ -535,6 +626,16 @@
             </li>
           </ul>
         </p>
+        <aside>
+          <p>
+            Watch a YouTube video about <url href="http://www.youtube.com/watch?v=6WcN36FbeWc&amp;list=PL04DF68E73B7ECD54">flow and circulation.</url>
+          </p>
+        </aside>
+        <aside>
+          <p>
+            Watch a <url href="http://www.youtube.com/watch?v=5DNdI72XEYY&amp;list=PL04DF68E73B7ECD54&amp;index=4&amp;feature=plpp_video">YouTube video </url> about flux.
+          </p>
+        </aside>          
       </statement>
     </definition>
 
@@ -571,7 +672,19 @@
         <p>
           Use Sage or WolframAlpha to construct a plot of <m>\vec F</m>.
         </p>
+        <sage>
+          <input>
+            var('t','x','y')                #Define your variables
+            F(x,y) = (3*x,3*y)              #State the vector field
+            xbounds = (x,-6,6)              #These bounds are useful if you want to make a good plot.
+            ybounds = (y,-6,6)              #These bounds are useful if you want to make a good plot.
+
+            p=plot_vector_field(F,xbounds,ybounds)
+            show(p)
+          </input>
+        </sage>
       </task>
+
       <task>
         <introduction>
           <p>
@@ -600,8 +713,62 @@
         </task>
         <task>
           <p>
-            Please use this <url href="\sageworkfluxurl">Sage link</url> to check both computations.
+            Please use this <url href="\sageworkfluxurl">Sage link</url> or the cell below to check both computations.
           </p>
+          <sage>
+            <input>
+              var('x,y,t')
+              F=vector([-y,x])
+              #F=vector([2*x+y,-x+2*y]) #Uncomment this line for a different field.
+              r=vector([5*cos(t), 5*sin(t)])
+              tstart=0
+              tend=2*pi
+
+              vector_field_bounds = ((x,-6,6), (y,-6,6))
+
+
+              # Let's make a function right off to evaluate an integral over this curve.
+              def line_integral(integrand):
+                  return RR(numerical_integral((integrand).subs(x=r[0], y=r[1]), tstart, tend)[0])
+
+              dr=diff(r,t)
+              dW=F(x=r[0], y=r[1])*dr # Multiplying two vectors together gives the dot product
+              W=line_integral(dW)
+
+              nds(t) = (dr[1], -dr[0])
+              dFlux=F(x=r[0], y=r[1])*nds
+              Flux=line_integral(dFlux)
+
+
+              # TABLE
+              show(table([
+              [r"$\vec F(x,y)$", F],
+              [r"$\vec r(t)$", r],
+              [r"$t$ range", (t, tstart, tend)],
+              [r"$d\vec r$", dr],
+              [r"$\vec F(\vec r(t))$", F(x=r[0], y=r[1])],
+              [r"$dW=\vec F \cdot d\vec r$", dW],
+              [r"$W=\int dW=\int \vec F \cdot d\vec r$", W],
+              [r"$\vec n ds$", nds(t)],
+              [r"$dFlux=F\cdot n ds = M dy - N dx$", dFlux(t)],
+              [r"Flux=$\int dFlux=\int F\cdot n ds = \int Mdy-Ndx$", Flux]
+              ]))
+
+              # PLOT
+              @interact
+              def _(state=["flow","flux"]):
+                  p=plot_vector_field(F, *vector_field_bounds)
+                  p+= parametric_plot(r, (t, tstart, tend),thickness=3)
+                  if state=="flow":
+                      for i in srange(tstart, tend, (tend-tstart)/18):
+                          p += arrow(r(t=i), (r+ .5*dr)(t=i),color='red')
+                  elif state=="flux":
+                      for i in srange(tstart, tend, (tend-tstart)/18):
+                          p += arrow(r(t=i), (r+ .5*nds)(t=i),color='green')
+                  
+                  show(p, aspect_ratio=1)
+            </input>
+          </sage>
         </task>
       </task>
     </exploration>
@@ -610,5 +777,31 @@
       We'll tackle more work, flow, circulation, and flux exercises, as we proceed through this unit.
     </p>
   </subsection>
+
+  <exercises>
+    <title>Computational Practice</title>
+    <introduction>
+      <p>
+        These are provided to help you achieve better skills in basic computational answers.
+      </p>
+    </introduction>
+
+    <exercise>
+      <webwork source="Library/272/setStewart16_2/UR_VC_11_6.pg" />
+    </exercise>
+
+    <exercise>
+      <webwork source="Library/272/setStewart16_3/ur_vc_12_2.pg" />
+    </exercise>
+
+    <exercise>
+      <webwork source="Library/FortLewis/Calc3/19-1-Idea-of-flux/HGM4-19-1-01a-Idea-of-flux/HGM4-19-1-01a-Idea-of-flux.pg" />
+    </exercise>
+
+    <exercise>
+      <webwork source="Library/FortLewis/Calc3/19-1-Idea-of-flux/HGM4-19-1-03a-Idea-of-flux/HGM4-19-1-03a-Idea-of-flux.pg" />
+    </exercise>
+
+  </exercises>
 </section>
 

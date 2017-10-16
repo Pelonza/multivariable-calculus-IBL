@@ -197,6 +197,48 @@
       <p>
         Use a computer to evaluate the integrals <m>\int_C f ds</m> and <m>\int_C ds</m>, and then give an approximation to the average value of <m>f</m> along <m>C</m>. Is your average value between the maximum and minimum of <m>f</m> along <m>C</m>? Why should it be?
       </p>
+      <sage>
+        <input>
+          ##The code below will find the surface area of a surface that lies below f(x,y) and above the curve r(t) in the xy plane.  
+          f(x,y)=9-x^2-y^2
+          r(t)=(2*cos(t), 3*sin(t))
+          trange=(t,0,2*pi)
+
+          ds=r.diff(t).norm()
+          dA=f(x=r(t)[0],y=r(t)[1])*ds(t)
+
+          # Let's make a function right off to evaluate an integral over this curve.  
+          #We'll use a numerical integral, because sometimes we might not be able to get an exact integral.
+          def line_integral(integrand):
+              return RR(numerical_integral(integrand, trange[1], trange[2])[0])
+
+          A = line_integral(dA(t))
+
+
+          show(table([
+          [r"$f(x,y)$",f(x,y)],
+          [r"$\vec r(t)$",r(t)],
+          [r"$d\vec r(t)/dt$",r.diff(t)(t)],
+          [r"$ds$",ds(t)],
+          [r"$d\sigma=f ds$",dA(t)],
+          [r"$Surface Area = \sigma =\int_C f ds$",A],
+          ]))
+
+
+
+
+          #This section makes the plot of a the surface.
+          r1(t,u)=(r(t)[0], r(t)[1],u*f(x=r(t)[0],y=r(t)[1]))
+          curve_options=dict(color='red',thickness=3)
+          curves=parametric_plot(r1(t,0), trange,**curve_options)+parametric_plot(r1(t,1),trange,**curve_options)
+          sheet=parametric_plot(r1,trange,(u,0,1))
+          show(curves+sheet)
+
+          #If the integral is doable, then this will give the integral. 
+          html("If the integral can be computed exactly by Sage, then it will eventually show up below.  Otherwise, you'll get a huge list of errors.")
+          integrate(dA(t), trange)
+        </input>
+      </sage>
     </task>
   </exploration>
 
