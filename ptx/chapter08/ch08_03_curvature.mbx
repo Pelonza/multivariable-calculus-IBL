@@ -368,7 +368,7 @@
             N = dTdt/dTdt.norm()     #The unit normal vector
 
             ##Print the results.  I added .simplify_full().simplify_trig() to the end of each, so that the results will look simplified.
-            table([
+            pretty_print(table([
             [r"$\vec r$",r(t).simplify_full().simplify_trig()],
             [r"$\vec v$",v(t).simplify_full().simplify_trig()],
             [r"$\vec a$",a(t).simplify_full().simplify_trig()],
@@ -378,12 +378,12 @@
             [r"$\frac{d\vec T}{ds}$",dTds(t).simplify_full().simplify_trig()],
             [r"$\left|\frac{d\vec T}{ds}\right| = \kappa $",curvature(t).simplify_full().simplify_trig()],
             [r"$\vec N$",N(t).simplify_full().simplify_trig()],
-            ])
+            ]))
 
 
             ##Print the results.  I added .simplify_full().simplify_trig() to the end of each, so that the results will look simplified.
             print "At the time t = ",point, " we have the following:"
-            table([
+            pretty_print(table([
             [r"$\vec r$",r(point).simplify_full().simplify_trig()],
             [r"$\vec v$",v(point).simplify_full().simplify_trig()],
             [r"$\vec a$",a(point).simplify_full().simplify_trig()],
@@ -393,7 +393,7 @@
             [r"$\frac{d\vec T}{ds}$",dTds(point).simplify_full().simplify_trig()],
             [r"$\left|\frac{d\vec T}{ds}\right| = \kappa $",curvature(point).simplify_full().simplify_trig()],
             [r"$\vec N$",N(point).simplify_full().simplify_trig()],
-            ])
+            ]))
 
             ##Now let's make a graph
             p=parametric_plot(r,tBounds)                                        #this draws the curve
@@ -413,10 +413,10 @@
             radiusOfCurvature=1/curvature(point)                    #compute the radius of curvature
             centerOfCurvature=r(point)+radiusOfCurvature*N(point)   #compute the center of curvature
 
-            table([
+            pretty_print(table([
             [r"$\rho$",radiusOfCurvature.simplify_full().simplify_trig()],
             [r"center of curvature", centerOfCurvature.simplify_full().simplify_trig()],
-            ])
+            ]))
 
             #Draw the circle of curvature on top of everything else.
             p+=parametric_plot(
@@ -432,7 +432,7 @@
             B=T.cross_product(N)
             dBds = B.diff(t)/speed
 
-            table([
+            pretty_print(table([
             [r"$N(t)$",B(t).simplify_full().simplify_trig()],
             [r"$B(t)$",B(t).simplify_full().simplify_trig()],
             [r"$\frac{d\vec B}{ds}(t)$", dBds(t).simplify_full().simplify_trig()],
@@ -442,7 +442,7 @@
             [r"$B(point)$",B(point).simplify_full().simplify_trig()],
             [r"$\frac{d\vec B}{ds}(point)$", dBds(point).simplify_full().simplify_trig()],
             [r"$\left|\frac{d\vec B}{ds}(point)\right|$", dBds(point).norm().simplify_full().simplify_trig()],
-            ])
+            ]))
           </input>
         </sage>
       </task>
