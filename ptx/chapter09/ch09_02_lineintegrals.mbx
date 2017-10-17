@@ -92,7 +92,7 @@
             A = line_integral(dA(t))
 
 
-            show(table([
+            pretty_print(table([
             [r"$f(x,y)$",f(x,y)],
             [r"$\vec r(t)$",r(t)],
             [r"$d\vec r(t)/dt$",r.diff(t)(t)],
@@ -112,7 +112,7 @@
             show(curves+sheet)
 
             #If the integral is doable, then this will give the integral. 
-            html("If the integral can be computed exactly by Sage, then it will eventually show up below.  Otherwise, you'll get a huge list of errors.")
+            pretty_print("If the integral can be computed exactly by Sage, then it will eventually show up below.  Otherwise, you'll get a huge list of errors.")
             integrate(dA(t), trange)
           </input>
         </sage>
@@ -218,7 +218,7 @@
             A = line_integral(dA(t))
 
 
-            show(table([
+            pretty_print(table([
             [r"$f(x,y)$",f(x,y)],
             [r"$\vec r(t)$",r(t)],
             [r"$d\vec r(t)/dt$",r.diff(t)(t)],
@@ -238,7 +238,7 @@
             show(curves+sheet)
 
             #If the integral is doable, then this will give the integral. 
-            html("If the integral can be computed exactly by Sage, then it will eventually show up below.  Otherwise, you'll get a huge list of errors.")
+            pretty_print("If the integral can be computed exactly by Sage, then it will eventually show up below.  Otherwise, you'll get a huge list of errors.")
             integrate(dA(t), trange)
           </input>
         </sage>
@@ -282,7 +282,7 @@
           A = line_integral(dA(t))
 
 
-          show(table([
+          pretty_print(table([
           [r"$f(x,y)$",f(x,y)],
           [r"$\vec r(t)$",r(t)],
           [r"$d\vec r(t)/dt$",r.diff(t)(t)],
@@ -302,7 +302,7 @@
           show(curves+sheet)
 
           #If the integral is doable, then this will give the integral. 
-          html("If the integral can be computed exactly by Sage, then it will eventually show up below.  Otherwise, you'll get a huge list of errors.")
+          pretty_print("If the integral can be computed exactly by Sage, then it will eventually show up below.  Otherwise, you'll get a huge list of errors.")
           integrate(dA(t), trange)
         </input>
       </sage>
@@ -340,7 +340,7 @@
             A = line_integral(dA(t))
 
 
-            show(table([
+            pretty_print(table([
             [r"$f(x,y)$",f(x,y)],
             [r"$\vec r(t)$",r(t)],
             [r"$d\vec r(t)/dt$",r.diff(t)(t)],
@@ -360,7 +360,7 @@
             show(curves+sheet)
 
             #If the integral is doable, then this will give the integral. 
-            html("If the integral can be computed exactly by Sage, then it will eventually show up below.  Otherwise, you'll get a huge list of errors.")
+            pretty_print("If the integral can be computed exactly by Sage, then it will eventually show up below.  Otherwise, you'll get a huge list of errors.")
             integrate(dA(t), trange)
           </input>
         </sage>
@@ -441,7 +441,7 @@
           A = line_integral(dA(t))
 
 
-          show(table([
+          pretty_print(table([
           [r"$f(x,y)$",f(x,y)],
           [r"$\vec r(t)$",r(t)],
           [r"$d\vec r(t)/dt$",r.diff(t)(t)],
@@ -461,7 +461,7 @@
           show(curves+sheet)
 
           #If the integral is doable, then this will give the integral. 
-          html("If the integral can be computed exactly by Sage, then it will eventually show up below.  Otherwise, you'll get a huge list of errors.")
+          pretty_print("If the integral can be computed exactly by Sage, then it will eventually show up below.  Otherwise, you'll get a huge list of errors.")
           integrate(dA(t), trange)
         </input>
       </sage>      
@@ -536,7 +536,7 @@
 
 
           # TABLE
-          show(table([
+          pretty_print(table([
           [r"$\vec F(x,y)$", F],
           [r"$\vec r(t)$", r],
           [r"$t$ range", (t, tstart, tend)],
@@ -607,7 +607,7 @@
 
 
           # TABLE
-          show(table([
+          pretty_print(table([
           [r"$\vec F(x,y)$", F],
           [r"$\vec r(t)$", r],
           [r"$t$ range", (t, tstart, tend)],
