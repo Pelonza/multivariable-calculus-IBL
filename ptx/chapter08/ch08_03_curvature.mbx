@@ -620,10 +620,20 @@
     </exercise>
 
     <exercise>
+      <introduction>
+        <p>
+          The answer to <m>\kappa(1)</m> is incorrect. Ask me in class to work it out.
+        </p>
+      </introduction>
       <webwork source="Library/272/setStewart13_3/problem_6.pg" />
     </exercise>
 
     <exercise>
+      <introduction>
+        <p>
+          The answer to <m>\kappa(1)</m> is incorrect. Ask me in class to work it out.
+        </p>
+      </introduction>      
       <webwork source="Library/272/setStewart13_3/problem_7.pg" />
     </exercise>
 
