@@ -260,7 +260,7 @@
       </task>
       <task>
         <p>
-          Because <m>\vec r (t)</m> includes periodic trig functinos at <m>(0,3)</m> we could have <m>t^2 = \frac{\pi}{2}</m>, <m>t^2=2\pi+frac{\pi}{2}</m> or <m>t^2=2\pi k + \frac{\pi}{2}</m> for any integer <m>k</m>.
+          Because <m>\vec r (t)</m> includes periodic trig functinos at <m>(0,3)</m> we could have <m>t^2 = \frac{\pi}{2}</m>, <m>t^2=2\pi+\frac{\pi}{2}</m> or <m>t^2=2\pi k + \frac{\pi}{2}</m> for any integer <m>k</m>.
         </p>
         <p>
           Show that <m>\vec T</m> is the same at <m>(0,3)</m>, regardless of what time we pass through <m>(0,3)</m>.
