@@ -296,7 +296,7 @@
     </tabular>
 
   -->
-  <xi:include  href="section11-1.mbx" />
+  <xi:include  href="ch11_01_doubleints.mbx" />
   <xi:include  href="section11-2.mbx" />
   <xi:include  href="section11-3.mbx" />
   <xi:include  href="section11-4.mbx" />
