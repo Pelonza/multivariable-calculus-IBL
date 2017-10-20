@@ -296,7 +296,6 @@
     </tabular>
 
   -->
-  </introduction>
   <xi:include  href="section11-1.mbx" />
   <xi:include  href="section11-2.mbx" />
   <xi:include  href="section11-3.mbx" />
