@@ -254,7 +254,7 @@
       </p>
       <aside>
         <p>
-          Please use this <url href="\sageworkurl">Sage link</url> to check your work.
+          Please use this <url href="http://bmw.byuimath.com/dokuwiki/doku.php?id=work_calculator">Sage link</url> to check your work.
         </p>
       </aside>
     </introduction>
@@ -282,7 +282,7 @@
     </task>
     <task>
       <p>
-        Compute the work done by <m>\vec F</m> to move an object along the parabola from <m>(-1,3)</m> to <m>(2,0)</m> (i.e. compute <m>\int _C Mdx+Ndy</m>). Check your answer with <url href="\sageworkurl">Sage</url>.
+        Compute the work done by <m>\vec F</m> to move an object along the parabola from <m>(-1,3)</m> to <m>(2,0)</m> (i.e. compute <m>\int _C Mdx+Ndy</m>). Check your answer with <url href="http://bmw.byuimath.com/dokuwiki/doku.php?id=work_calculator">Sage</url>.
       </p>
     </task>
     <task>
@@ -353,7 +353,7 @@
         </p>
       </aside>
       <p>
-        Compute the work done by <m>\vec F</m> to move an object along the straight line path from <m>(-1,3)</m> to <m>(2,0)</m>. Check your answer with <url href="\sageworkurl">Sage</url> or the SageMath Cell below.
+        Compute the work done by <m>\vec F</m> to move an object along the straight line path from <m>(-1,3)</m> to <m>(2,0)</m>. Check your answer with <url href="http://bmw.byuimath.com/dokuwiki/doku.php?id=work_calculator">Sage</url> or the SageMath Cell below.
       </p>
       <sage>
         <input>
@@ -505,7 +505,7 @@
         <statement>
           <aside>
             <p>
-              See <url href="\sageworkurl">Sage</url> for the work calculation.
+              See <url href="http://bmw.byuimath.com/dokuwiki/doku.php?id=work_calculator">Sage</url> for the work calculation.
             </p>
           </aside>
           <p>
@@ -534,7 +534,7 @@
           If we want flux to measure the flow of a vector field outwards across a curve, then the flux of this vector field should be positive.  Which vector, <m>(dy,-dx)</m> or <m>(-dy,dx)</m>,  should we choose above for <m>n</m>.
         </p>
         <p>
-          You can use <url href="\sagefluxurl">this Sage webpage</url> for the flux computation or the cell below.
+          You can use <url href="http://bmw.byuimath.com/dokuwiki/doku.php?id=flux_calculator">this Sage webpage</url> for the flux computation or the cell below.
         </p>
         <sage>
           <input>
@@ -713,7 +713,7 @@
         </task>
         <task>
           <p>
-            Please use this <url href="\sageworkfluxurl">Sage link</url> or the cell below to check both computations.
+            Please use this <url href="http://bmw.byuimath.com/dokuwiki/doku.php?id=both_flux_and_work">Sage link</url> or the cell below to check both computations.
           </p>
           <sage>
             <input>

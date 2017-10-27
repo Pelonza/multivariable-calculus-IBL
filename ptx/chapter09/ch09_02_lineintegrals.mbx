@@ -508,7 +508,7 @@
     <task>
       <p>
         Now find the counterclockwise circulation (work) done by <m>\vec F</m> along <m>C</m>.  You'll have three separate calculations, one for each side. We'll do the flux computation in class. 
-        Check your work on each piece with the <url href="\sageworkfluxurl">Sage calculator</url> or in the cell below.
+        Check your work on each piece with the <url href="http://bmw.byuimath.com/dokuwiki/doku.php?id=both_flux_and_work">Sage calculator</url> or in the cell below.
       </p>
       <sage>
         <input>
@@ -654,7 +654,7 @@
       </statement>
       <hint>
         <p>
-          You should get integer values along both parts. Check your work with <url href="\sageworkfluxurl">Sage</url> or the cells above, but make sure you show us how to do the integrals by hand.
+          You should get integer values along both parts. Check your work with <url href="http://bmw.byuimath.com/dokuwiki/doku.php?id=both_flux_and_work">Sage</url> or the cells above, but make sure you show us how to do the integrals by hand.
         </p>
       </hint>
     </task>

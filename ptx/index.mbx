@@ -84,7 +84,7 @@
 
 <xi:include href="./chapter07/chapter7.mbx" />
 
-<xi:include href="./chapter08/chapter8.mbx" /> <!--
+<xi:include href="./chapter08/chapter8.mbx" /> 
 
 <xi:include href="./chapter09/chapter9.mbx" />
 
@@ -96,7 +96,7 @@
 
 <xi:include href="./chapter13/chapter13.mbx" />
 
--->
+<!---->
 
 <backmatter>
 
