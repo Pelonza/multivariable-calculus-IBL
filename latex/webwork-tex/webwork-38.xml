@@ -1,0 +1,19 @@
+<webwork-tex seed="123567890">
+<preamble>
+
+			
+%%% BEGIN PROBLEM PREAMBLE
+
+</preamble>
+<statement>
+The function
+\[f(s,t,u) = \left(t+u,u+s,s+t\right)\]
+has \mbox{\parbox[t]{3ex}{\hrulefill}} inputs and \mbox{\parbox[t]{3ex}{\hrulefill}} outputs.  Thus it is of
+the form
+\[f\colon  {\bf R}^n \to {\bf R}^m\]
+where \(n\) = \mbox{\parbox[t]{3ex}{\hrulefill}} and \(m\) = \mbox{\parbox[t]{3ex}{\hrulefill}}.
+
+
+
+</statement>
+</webwork-tex>

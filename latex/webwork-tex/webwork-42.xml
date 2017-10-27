@@ -1,0 +1,27 @@
+<webwork-tex seed="123567890">
+<preamble>
+
+			
+%%% BEGIN PROBLEM PREAMBLE
+
+</preamble>
+<statement>
+Suppose \(f(x,y)=\left(x^{2}-y^{2},2xy,x^{3}\right)\).  Compute the following values:
+\par 
+
+\par\bgroup\advance\leftskip by 2em 
+
+\par\begin{tabular}{rcl}
+\(f(6,5)\)&amp;=&amp;\ \mbox{\parbox[t]{17.5ex}{\hrulefill}}\\ \noalign{\kern 0pt}
+\(f(5,6)\)&amp;=&amp;\ \mbox{\parbox[t]{17.5ex}{\hrulefill}}\\ \noalign{\kern 0pt}
+\(f(0,5)\)&amp;=&amp;\ \mbox{\parbox[t]{17.5ex}{\hrulefill}}\\ \noalign{\kern 0pt}
+\(f(t^2,6t)\)&amp;=&amp;\ \mbox{\parbox[t]{17.5ex}{\hrulefill}}\\ \noalign{\kern 0pt}
+\(f(s+t,s-t)\)&amp;=&amp;\ \mbox{\parbox[t]{17.5ex}{\hrulefill}}\\ \noalign{\kern 0pt}
+\end{tabular}
+
+\par\egroup 
+
+
+
+</statement>
+</webwork-tex>

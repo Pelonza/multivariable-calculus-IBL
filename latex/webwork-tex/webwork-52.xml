@@ -1,0 +1,27 @@
+<webwork-tex seed="123567890">
+<preamble>
+
+			
+%%% BEGIN PROBLEM PREAMBLE
+
+</preamble>
+<statement>
+Find the partial derivative indicated.
+Assume the variables are restricted to a domain on
+which the function is defined.
+\leavevmode\\\relax 
+\(\frac{\partial}{\partial x} (x^{3}e^{\sqrt{5xy}}) =\) \mbox{\parbox[t]{32.5ex}{\hrulefill}}
+
+
+
+</statement>
+<solution>
+\par \par {\bf Solution: }\par  SOLUTION \par 
+
+\[\frac{\partial}{\partial x} (x^{3}e^{\sqrt{5xy}}) = 3x^{2}e^{\sqrt{5xy}}+x^{3}e^{\sqrt{5xy}}\frac{1}{2\sqrt{5xy}}\cdot 5y\ln\!\left(e\right).\]
+
+
+
+\par 
+</solution>
+</webwork-tex>

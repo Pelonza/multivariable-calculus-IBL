@@ -1,0 +1,19 @@
+<webwork-tex seed="123567890">
+<preamble>
+
+			
+%%% BEGIN PROBLEM PREAMBLE
+
+</preamble>
+<statement>
+\par 
+Find the length of the curve
+\(x=e^t-t,\;\;y=4e^{t/2},\;\;-8 \le t \le 3.\)
+
+\par 
+Length = \mbox{\parbox[t]{12.5ex}{\hrulefill}}
+
+
+
+</statement>
+</webwork-tex>

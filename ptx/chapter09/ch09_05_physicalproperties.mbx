@@ -351,7 +351,7 @@
       <task>
         <introduction>
           <p>
-            In <xref ref="semicircle_centroid"/>, we showed that the centroid of the wire is <m>(\bar x, \bar y) = \left(0,\frac{2(7)}{\pi})\right)</m>. We now seek the center of mass.
+            In <xref ref="prob_semicircle_centroid"/>, we showed that the centroid of the wire is <m>(\bar x, \bar y) = \left(0,\frac{2(7)}{\pi})\right)</m>. We now seek the center of mass.
           </p>
           <p>
             Before computing:

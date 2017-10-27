@@ -1,0 +1,48 @@
+<webwork-tex seed="123567890">
+<preamble>
+
+			
+%%% BEGIN PROBLEM PREAMBLE
+
+</preamble>
+<statement>
+Determine whether each of the following vector
+fields \(\vec{F}\) is path independent (conservative) or
+not.  If it is path independent, enter a potential 
+function for it, that is, a function \(f(x,y)\) so that
+\(\nabla f = \vec{F}\).  If it is path dependent, enter
+{\it NONE.}   
+\leavevmode\\\relax 
+\leavevmode\\\relax 
+(a) If \(\vec{F}(x,y) = (x + 5) \vec{i} + (6 y + 2) \vec{j}\), then 
+\leavevmode\\\relax 
+\(f(x,y)\) = \mbox{\parbox[t]{20ex}{\hrulefill}}
+\leavevmode\\\relax 
+\leavevmode\\\relax 
+(b) If \(\vec{F}(x,y) = (6 x + 5 y)\vec{i} + (5 x + 5 y)\vec{j}\), then 
+\leavevmode\\\relax 
+\(f(x,y)\) = \mbox{\parbox[t]{20ex}{\hrulefill}}
+\leavevmode\\\relax 
+\leavevmode\\\relax 
+(c) If \(\vec{F}(x,y) = \langle -3 y, 3x \rangle\), then 
+\leavevmode\\\relax 
+\(f(x,y)\) = \mbox{\parbox[t]{20ex}{\hrulefill}}
+\leavevmode\\\relax 
+\leavevmode\\\relax 
+(d) If \(\vec{F}(x,y) = \langle 3 x^2 - y^2, -2xy \rangle\), then 
+\leavevmode\\\relax 
+\(f(x,y)\) = \mbox{\parbox[t]{20ex}{\hrulefill}}
+\leavevmode\\\relax 
+\leavevmode\\\relax 
+(e) If \(\vec{F}(x,y) = \displaystyle \frac{2 y}{x+5} \vec{i} + 2 \ln(x+5) \vec{j}\), then 
+\leavevmode\\\relax 
+\(f(x,y)\) = \mbox{\parbox[t]{20ex}{\hrulefill}}
+\leavevmode\\\relax 
+\leavevmode\\\relax 
+(f) If \(\vec{F}(x,y) = 3 y \sin(xy) \vec{i} + 3 x \sin(xy)\vec{j}\), then 
+\leavevmode\\\relax 
+\(f(x,y)\) = \mbox{\parbox[t]{20ex}{\hrulefill}}
+
+
+</statement>
+</webwork-tex>

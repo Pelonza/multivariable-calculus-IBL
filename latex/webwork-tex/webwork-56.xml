@@ -1,0 +1,20 @@
+<webwork-tex seed="123567890">
+<preamble>
+
+			
+%%% BEGIN PROBLEM PREAMBLE
+
+</preamble>
+<statement>
+\leavevmode\\\relax 
+
+Find an equation of the tangent plane to the surface
+\(z = 3 x^2 + 3 y^2 + 3 x  - 3 y  - 1\) at the point (4, 5, 119).
+\leavevmode\\\relax 
+\(z =\)\mbox{\parbox[t]{30ex}{\hrulefill}}
+
+\par 
+
+
+</statement>
+</webwork-tex>

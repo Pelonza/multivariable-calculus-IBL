@@ -1,0 +1,22 @@
+<webwork-tex seed="123567890">
+<preamble>
+
+			
+%%% BEGIN PROBLEM PREAMBLE
+
+</preamble>
+<statement>
+An unevenly heated metal plate has temperature \(T(x,y)\)
+in degrees Celsius at a point \((x,y)\).  If 
+\(T(2,1) = 146\), \(T_x \, (2,1) = 9\),
+and \(T_y \, (2,1) = -13\), estimate the temperature
+at the point \((2.05,0.95)\).   
+\leavevmode\\\relax 
+\leavevmode\\\relax 
+\(T(2.05,0.95) \approx\) \mbox{\parbox[t]{20ex}{\hrulefill}}.  
+Please include {\bf \underline{units}} in your answer.
+
+
+
+</statement>
+</webwork-tex>

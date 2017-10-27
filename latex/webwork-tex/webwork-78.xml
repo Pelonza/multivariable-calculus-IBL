@@ -1,0 +1,74 @@
+<webwork-tex seed="123567890">
+<preamble>
+
+			
+%%% BEGIN PROBLEM PREAMBLE
+
+</preamble>
+<statement>
+Consider the vector field \(\vec{F}\) shown in the figure below
+together with the paths \(C_1\), \(C_2\), and \(C_3\).
+\par 
+\begin{center} 
+\includegraphics[width=0.25\linewidth]{webwork-tex/webwork-78-image-1.png}
+
+\leavevmode\\\relax 
+{\it ({\bf Note:} For the vector field, vectors are shown with a
+dot at the {\bf tail} of the vector.)} 
+\end{center} 
+\par 
+Arrange the line integrals \(\int_{C_1} \vec{F} \cdot d\vec{r}\),
+\(\int_{C_2} \vec{F} \cdot d\vec{r}\) and
+\(\int_{C_3} \vec{F} \cdot d\vec{r}\) in ascending
+order:
+\par 
+
+\par\vtop{\def\bitem{\hbox\bgroup\indent\strut\textbullet\ \ignorespaces}\let\eitem=\egroup
+\bitem \text{?}\eitem
+\bitem \text{integral on C1}\eitem
+\bitem \text{integral on C2}\eitem
+\bitem \text{integral on C3}\eitem
+\vskip3pt}
+ \(&lt;\)
+
+\par\vtop{\def\bitem{\hbox\bgroup\indent\strut\textbullet\ \ignorespaces}\let\eitem=\egroup
+\bitem \text{?}\eitem
+\bitem \text{integral on C1}\eitem
+\bitem \text{integral on C2}\eitem
+\bitem \text{integral on C3}\eitem
+\vskip3pt}
+ \(&lt;\)
+
+\par\vtop{\def\bitem{\hbox\bgroup\indent\strut\textbullet\ \ignorespaces}\let\eitem=\egroup
+\bitem \text{?}\eitem
+\bitem \text{integral on C1}\eitem
+\bitem \text{integral on C2}\eitem
+\bitem \text{integral on C3}\eitem
+\vskip3pt}
+.
+
+
+
+</statement>
+<solution>
+\par \par {\bf Solution: }\par  SOLUTION \par 
+
+We can work out the relative sizes of the line integrals by seeing
+which curves move in the same direction of the vectors, which move
+in the opposite direction, and which move perpendicular.  In the first
+case, the integral will be positive, in the second, negative, and in
+the third, zero.  Thus, we see that
+\(\int_{C_1}\vec F\cdot d\vec r &gt; 0\), because the curve moves from left to right, in the same direction as the vector field.
+
+\par 
+By similar logic, we note that both of \(\int_{C1}\vec F\cdot d\vec r\) and \(\int_{C2}\vec F\cdot d\vec r\) are positive.  However, because \(C_1\) has a smaller component pointing in the same direction as the vector field, the integral on \(C_1\) is larger than that on \(C_2\).\par 
+
+Applying this logic to each of the curves, we find that
+\[\int_{C_{3}}\vec F\cdot\vec r &lt;
+   \int_{C_{2}}\vec F\cdot\vec r &lt;
+   \int_{C_{1}}\vec F\cdot\vec r.\]
+
+
+\par 
+</solution>
+</webwork-tex>

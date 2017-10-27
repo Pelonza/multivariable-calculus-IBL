@@ -1,0 +1,22 @@
+<webwork-tex seed="123567890">
+<preamble>
+
+			
+%%% BEGIN PROBLEM PREAMBLE
+
+</preamble>
+<statement>
+Let \(z = \sqrt{5x+5y}\).  Then:
+\par 
+
+The rate of change in \(z\) at \((5,1)\) as we change \(x\)
+but hold \(y\) fixed is \mbox{\parbox[t]{7.5ex}{\hrulefill}}, and
+\par 
+
+The rate of change in \(z\) at \((5,1)\) as we change \(y\)
+but hold \(x\) fixed is \mbox{\parbox[t]{7.5ex}{\hrulefill}}.
+
+
+
+</statement>
+</webwork-tex>

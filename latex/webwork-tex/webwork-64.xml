@@ -1,0 +1,48 @@
+<webwork-tex seed="123567890">
+<preamble>
+
+			
+%%% BEGIN PROBLEM PREAMBLE
+
+</preamble>
+<statement>
+\leavevmode\\\relax 
+
+Match the parametric equations with the graphs labeled A - F.  As
+always, you may click on the thumbnail image to produce a larger image
+in a new window (sometimes exactly on top of the old one).
+
+\par 
+
+     
+\par\begin{enumerate}
+\item[\mbox{\parbox[t]{3ex}{\hrulefill}}1.] \(x = \cos t, y = \sin t, z = \ln t\)
+\item[\mbox{\parbox[t]{3ex}{\hrulefill}}2.] \(x = \cos t, y = \sin t, z = \sin 5t\)
+\item[\mbox{\parbox[t]{3ex}{\hrulefill}}3.] \(x = \sin 3t \cos t, y = \sin 3t \sin t, z = t\)
+\item[\mbox{\parbox[t]{3ex}{\hrulefill}}4.] \(x=\cos 4t, y = t, z = \sin 4t\)
+\item[\mbox{\parbox[t]{3ex}{\hrulefill}}5.] \(x = t^2 - 2, y = t^3, z = t^4 + 1\)
+\item[\mbox{\parbox[t]{3ex}{\hrulefill}}6.] \(x = t, y = 1/(1+t^2), z = t^2\)
+\end{enumerate}
+
+     
+\par\smallskip\begin{center}\begin{tabular}{|c|c|c|c|c|c|} \hline
+\includegraphics[width=0.2\linewidth]{webwork-tex/webwork-64-image-1.png}
+&amp;\includegraphics[width=0.2\linewidth]{webwork-tex/webwork-64-image-2.png}
+&amp;\includegraphics[width=0.2\linewidth]{webwork-tex/webwork-64-image-3.png}
+&amp;\includegraphics[width=0.2\linewidth]{webwork-tex/webwork-64-image-4.png}
+&amp;\includegraphics[width=0.2\linewidth]{webwork-tex/webwork-64-image-5.png}
+&amp;\includegraphics[width=0.2\linewidth]{webwork-tex/webwork-64-image-6.png}
+\\ \hline 
+ A 
+&amp; B 
+&amp; C 
+&amp; D 
+&amp; E 
+&amp; F 
+\\ \hline 
+\end {tabular}\end{center}\par\smallskip
+
+
+
+</statement>
+</webwork-tex>

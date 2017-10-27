@@ -1,0 +1,31 @@
+<webwork-tex seed="123567890">
+<preamble>
+
+			
+%%% BEGIN PROBLEM PREAMBLE
+
+</preamble>
+<statement>
+What do the following equations represent in \(R^3\)?
+\leavevmode\\\relax  Match the two sets of letters:
+
+\par 
+a. a vertical plane
+\leavevmode\\\relax 
+b. a horizontal plane
+\leavevmode\\\relax 
+c. a plane which is neither vertical nor horizontal
+\leavevmode\\\relax 
+
+\leavevmode\\\relax  \mbox{\parbox[t]{3ex}{\hrulefill}} A. \(9x + 9y = 9\)
+
+
+\leavevmode\\\relax  \mbox{\parbox[t]{3ex}{\hrulefill}} B. \(x = -8\)
+
+\leavevmode\\\relax  \mbox{\parbox[t]{3ex}{\hrulefill}} C. \(y = -3\)
+
+\leavevmode\\\relax  \mbox{\parbox[t]{3ex}{\hrulefill}} D. \(z = 5\)
+
+
+</statement>
+</webwork-tex>

@@ -1,0 +1,28 @@
+<webwork-tex seed="123567890">
+<preamble>
+
+			
+%%% BEGIN PROBLEM PREAMBLE
+
+</preamble>
+<statement>
+Find a vector parametrization of the curve \(x = -2 z^2\) 
+in the xz-plane.  Use \(t\) as the 
+parameter in your answer.
+\leavevmode\\\relax 
+\leavevmode\\\relax 
+\(\vec{r}(t) =\) \mbox{\parbox[t]{15ex}{\hrulefill}}
+
+
+</statement>
+<solution>
+\par \par {\bf Solution: }\par  SOLUTION: \leavevmode\\\relax  \leavevmode\\\relax 
+Since the curve is in the \(xz\)- plane, it must be \(y = 0\). 
+Letting \(z = t\) yields \(x = -2t^{2}\).
+\leavevmode\\\relax 
+Thus a vector parametrization of the curve is 
+\[\vec{r}(t) = \langle -2t^{2}, 0, t \rangle\]
+
+\par 
+</solution>
+</webwork-tex>

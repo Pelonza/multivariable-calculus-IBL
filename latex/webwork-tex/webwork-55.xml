@@ -1,0 +1,21 @@
+<webwork-tex seed="123567890">
+<preamble>
+
+			
+%%% BEGIN PROBLEM PREAMBLE
+
+</preamble>
+<statement>
+\leavevmode\\\relax 
+Find the equation of the tangent plane to the surface
+\leavevmode\\\relax 
+\(z = 9x^2 + 8y^2 + 9 xy\)
+at the point \((-1, 2, 23)\).
+\leavevmode\\\relax 
+    \(z =\) \mbox{\parbox[t]{20ex}{\hrulefill}}
+
+\par 
+
+
+</statement>
+</webwork-tex>

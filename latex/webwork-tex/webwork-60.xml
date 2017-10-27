@@ -1,0 +1,30 @@
+<webwork-tex seed="123567890">
+<preamble>
+
+			
+%%% BEGIN PROBLEM PREAMBLE
+
+</preamble>
+<statement>
+    Use the chain rule to find \(\frac{dz}{dt}\), where 
+\[z = x^2 y + x y^2,\quad  x = 5 + t^4,\quad y = 5 - t^6\]
+\leavevmode\\\relax 
+First the pieces:
+\leavevmode\\\relax  
+\leavevmode\\\relax 
+\(\frac{\partial z}{\partial x} =\) \mbox{\parbox[t]{15ex}{\hrulefill}}
+\leavevmode\\\relax 
+\(\frac{\partial z}{\partial y} =\) \mbox{\parbox[t]{15ex}{\hrulefill}}
+\leavevmode\\\relax 
+\(\frac{dx}{dt} =\) \mbox{\parbox[t]{15ex}{\hrulefill}}
+\leavevmode\\\relax 
+\(\frac{dy}{dt} =\) \mbox{\parbox[t]{15ex}{\hrulefill}}
+\leavevmode\\\relax  
+\leavevmode\\\relax 
+End result (in terms of just \(t\)):
+\leavevmode\\\relax 
+\(\frac{dz}{dt} =\) \mbox{\parbox[t]{30ex}{\hrulefill}}
+
+
+</statement>
+</webwork-tex>

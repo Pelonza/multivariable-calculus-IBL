@@ -1,0 +1,24 @@
+<webwork-tex seed="123567890">
+<preamble>
+
+			
+%%% BEGIN PROBLEM PREAMBLE
+
+</preamble>
+<statement>
+\par 
+Let \(\bf F\) be the radial force field \(\mathbf{F} = x\mathbf i + y\mathbf j\).  Find
+the work done by this force along the following two curves, both which go from
+(0, 0) to (10, 100).  (Compare your answers!)
+\par 
+A.  If \(C_1\) is the parabola: \(x = t, \ y = t^2, \ 0 \leq t \leq 10\),
+then \(\displaystyle \int_{C_1} \mathbf{F} \cdot \, d\mathbf{r} =\)
+\mbox{\parbox[t]{15ex}{\hrulefill}}
+\par 
+B.  If \(C_2\) is the straight line segment: \(x = 10 t^2, \ y = 100 t^2, \ 0
+\leq t \leq 1\), then \(\displaystyle \int_{C_2} \mathbf F \cdot \, d\mathbf{r} =\) 
+\mbox{\parbox[t]{15ex}{\hrulefill}}
+
+
+</statement>
+</webwork-tex>

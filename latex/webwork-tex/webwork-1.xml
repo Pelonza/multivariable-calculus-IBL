@@ -1,0 +1,43 @@
+<webwork-tex seed="123567890">
+<preamble>
+
+			
+%%% BEGIN PROBLEM PREAMBLE
+
+</preamble>
+<statement>
+Which is traveling faster, a car whose velocity vector is
+\(30\vec i + 35\vec j\), or a car whose velocity vector is
+\(40\vec i\), assuming that the units are the same for
+both directions?
+\leavevmode\\\relax 
+
+\par\vtop{\def\bitem{\hbox\bgroup\indent\strut\textbullet\ \ignorespaces}\let\eitem=\egroup
+\bitem \text{?}\eitem
+\bitem \text{the first car}\eitem
+\bitem \text{the second car}\eitem
+\vskip3pt}
+ is the faster car.
+\par 
+At what speed is the faster car traveling?
+\leavevmode\\\relax 
+speed = \mbox{\parbox[t]{12.5ex}{\hrulefill}}
+
+
+
+</statement>
+<solution>
+\par \par {\bf Solution: }\par  SOLUTION \par 
+
+We need to calculate the length of each vector to find the speeds of
+the two cars:
+\[|| 30\vec i + 35\vec j || = \sqrt{30^2 + 35^2} = \sqrt{2125}
+    \approx 46.098\]
+and
+\[|| 40\vec i || = \sqrt{40^2} = 40.\]
+So the first car is faster.
+
+
+\par 
+</solution>
+</webwork-tex>

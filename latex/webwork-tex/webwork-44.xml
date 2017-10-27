@@ -1,0 +1,24 @@
+<webwork-tex seed="123567890">
+<preamble>
+
+			
+%%% BEGIN PROBLEM PREAMBLE
+
+</preamble>
+<statement>
+Suppose \(f(x,y)=xy+7\).  Compute the following values:
+\par 
+
+\par\bgroup\advance\leftskip by 2em 
+
+\par\begin{tabular}{rcl}
+\(f(x+6y,x-6y)\)&amp;=&amp;\ \mbox{\parbox[t]{12.5ex}{\hrulefill}}\\ \noalign{\kern 0pt}
+\(f(xy,6x^2y^3)\)&amp;=&amp;\ \mbox{\parbox[t]{12.5ex}{\hrulefill}}\\ \noalign{\kern 0pt}
+\end{tabular}
+
+\par\egroup 
+
+
+
+</statement>
+</webwork-tex>

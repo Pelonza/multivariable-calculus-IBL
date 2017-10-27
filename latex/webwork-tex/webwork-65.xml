@@ -1,0 +1,30 @@
+<webwork-tex seed="123567890">
+<preamble>
+
+			
+%%% BEGIN PROBLEM PREAMBLE
+
+</preamble>
+<statement>
+\par 
+For the given position vectors \(\mathbf{r}(t)\) compute the unit tangent  
+vector \(\mathbf{T}(t)\) for the given value of \(t\) . 
+\par 
+
+ A) \(\textrm{Let }\mathbf{r}(t)= (\cos 5t,\sin 5t )\). \leavevmode\\\relax 
+ Then \(\mathbf{T}(\frac{\pi}{4})\)= ( \mbox{\parbox[t]{7.5ex}{\hrulefill}} ,
+ \mbox{\parbox[t]{7.5ex}{\hrulefill}} ) \leavevmode\\\relax  \leavevmode\\\relax 
+
+ B)  \(\textrm{Let } \mathbf{r}(t)= (t^2,t^3)\). \leavevmode\\\relax 
+ Then \(\mathbf{T}(5)\)= ( \mbox{\parbox[t]{10ex}{\hrulefill}} , \mbox{\parbox[t]{10ex}{\hrulefill}} ) \leavevmode\\\relax  
+ 
+ C) \(\textrm{Let } \mathbf{r}(t)= e^{5t}\mathbf{i}+ e^{-5t}\mathbf{j}+
+  t\mathbf{k}\). \leavevmode\\\relax 
+ Then \(\mathbf{T}(5)\)=
+  \mbox{\parbox[t]{6.5ex}{\hrulefill}} \(\mathbf{i}+\) \mbox{\parbox[t]{6.5ex}{\hrulefill}}\(\mathbf{j}+\)
+  \mbox{\parbox[t]{6.5ex}{\hrulefill}} \(\mathbf{k}\) .
+ \leavevmode\\\relax 
+
+
+</statement>
+</webwork-tex>

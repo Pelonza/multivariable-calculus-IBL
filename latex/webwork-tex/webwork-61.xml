@@ -1,0 +1,23 @@
+<webwork-tex seed="123567890">
+<preamble>
+
+			
+%%% BEGIN PROBLEM PREAMBLE
+
+</preamble>
+<statement>
+\leavevmode\\\relax 
+
+Let \(W(s,t) = F(u(s,t), v(s,t))\) where
+\[u(1,0) = 8, u_s(1,0) = 7, u_t(1,0) = 8\]
+\[v(1,0) = -7, v_s(1,0) = -2, v_t(1,0) = 4\]
+\[F_u(8, -7) = 7, F_v(8, -7) = 5\]
+\leavevmode\\\relax 
+\(W_s(1,0) =\) \mbox{\parbox[t]{10ex}{\hrulefill}}
+\(W_t(1,0) =\) \mbox{\parbox[t]{10ex}{\hrulefill}}
+
+\par 
+
+
+</statement>
+</webwork-tex>

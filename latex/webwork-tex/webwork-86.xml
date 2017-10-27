@@ -1,0 +1,24 @@
+<webwork-tex seed="123567890">
+<preamble>
+
+			
+%%% BEGIN PROBLEM PREAMBLE
+
+</preamble>
+<statement>
+Consider the vector field \(\mathbf{F} \left( x, y, z \right) = \left( 5 z+ 5 y\right)
+\mathbf{i} + \left( 5 z+ 5 x \right) \mathbf{j} + \left( 5 y+ 5 x \right)
+\mathbf{k}\).
+\par 
+a) Find a function \(f\) such that \(\mathbf{F} = \nabla f\) and 
+\(f(0,0,0) = 0\).
+\leavevmode\\\relax 
+\(f(x,y,z) =\) \mbox{\parbox[t]{20ex}{\hrulefill}}
+\par 
+b) Suppose C is any curve from \(\left( 0, 0, 0 \right)\) to \(\left( 1, 1, 1 \right).\) 
+Use part a) to compute the line integral \(\int_{C} \mathbf{F} \cdot d\mathbf{r}\).
+ \leavevmode\\\relax \mbox{\parbox[t]{20ex}{\hrulefill}}
+
+
+</statement>
+</webwork-tex>

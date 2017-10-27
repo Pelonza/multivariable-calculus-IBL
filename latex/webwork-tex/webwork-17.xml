@@ -1,0 +1,18 @@
+<webwork-tex seed="123567890">
+<preamble>
+
+			
+%%% BEGIN PROBLEM PREAMBLE
+
+</preamble>
+<statement>
+\par 
+A woman exerts a horizontal force of 10 pounds on a box as she pushes it up a
+ramp that is 9 feet long and inclined at an angle of 30 degrees above the
+horizontal.
+\par  Find the work done on the box.
+\par  Work: \mbox{\parbox[t]{20ex}{\hrulefill}} ft-lb
+
+
+</statement>
+</webwork-tex>

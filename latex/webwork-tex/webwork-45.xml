@@ -1,0 +1,63 @@
+<webwork-tex seed="123567890">
+<preamble>
+
+			
+%%% BEGIN PROBLEM PREAMBLE
+
+</preamble>
+<statement>
+For a sphere parameterized using the spherical coordinates
+\(\theta\) and \(\phi\), describe in words the part of the sphere
+given by the restrictions
+\[\pi/6 \leq\theta\le \pi/4 \quad 0\le\phi\leq \pi/2\]
+and
+\[\pi/2 \leq\theta\le 2\pi/3 \quad 0\le\phi\leq \pi/2.\]
+Then pick the figures below that match the surfaces you described.
+\leavevmode\\\relax 
+\(\pi/6 \leq\theta\le \pi/4 \quad 0\le\phi\leq \pi/2\) :
+[\text{?}/\text{1}/\text{2}/\text{3}/\text{4}/\text{5}/\text{6}/\text{7}/\text{8}]
+\leavevmode\\\relax 
+\(\pi/2 \leq\theta\le 2\pi/3 \quad 0\le\phi\leq \pi/2\) :
+[\text{?}/\text{1}/\text{2}/\text{3}/\text{4}/\text{5}/\text{6}/\text{7}/\text{8}]
+\par 
+\begin{center} 
+{\it (Click on any graph to see a larger version.)} 
+\leavevmode\\\relax 
+
+\par\smallskip\begin{center}\begin{tabular}{|c|c|c|c|c|c|c|c|} \hline
+
+{\bf 1.} &amp;\includegraphics[width=0.2\linewidth]{webwork-tex/webwork-45-image-1.png}
+ &amp;\ \ {\bf 2.} &amp;\includegraphics[width=0.2\linewidth]{webwork-tex/webwork-45-image-2.png}
+ &amp;\ \ {\bf 3.} &amp;\includegraphics[width=0.2\linewidth]{webwork-tex/webwork-45-image-3.png}
+ &amp;\ \ {\bf 4.} &amp;\includegraphics[width=0.2\linewidth]{webwork-tex/webwork-45-image-4.png}
+ \\ \hline 
+
+{\bf 5.} &amp;\includegraphics[width=0.2\linewidth]{webwork-tex/webwork-45-image-5.png}
+ &amp;\ \ {\bf 6.} &amp;\includegraphics[width=0.2\linewidth]{webwork-tex/webwork-45-image-6.png}
+ &amp;\ \ {\bf 7.} &amp;\includegraphics[width=0.2\linewidth]{webwork-tex/webwork-45-image-7.png}
+ &amp;\ \ {\bf 8.} &amp;\includegraphics[width=0.2\linewidth]{webwork-tex/webwork-45-image-8.png}
+ \\ \hline 
+
+
+\end {tabular}\end{center}\par\smallskip
+
+\end{center} 
+
+
+
+</statement>
+<solution>
+\par \par {\bf Solution: }\par  SOLUTION \par 
+
+The restrictions
+\(\pi/6 \leq\theta\le \pi/4 \quad 0\le\phi\leq \pi/2\) :
+correspond to 4.
+\leavevmode\\\relax \leavevmode\\\relax 
+The restrictions
+\(\pi/2 \leq\theta\le 2\pi/3 \quad 0\le\phi\leq \pi/2\) :
+correspond to 5. 
+
+
+\par 
+</solution>
+</webwork-tex>

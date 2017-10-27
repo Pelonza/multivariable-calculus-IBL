@@ -1,0 +1,30 @@
+<webwork-tex seed="123567890">
+<preamble>
+
+			
+%%% BEGIN PROBLEM PREAMBLE
+
+</preamble>
+<statement>
+Consider the equation:
+\[x = \frac{s\!\left(1+t\right)}{1-u^{2}}.\]
+This equation represents a function
+\[f\colon {\bf R}^n \to {\bf R}^m\]
+where \(n\) = \mbox{\parbox[t]{3ex}{\hrulefill}} and \(m\) = \mbox{\parbox[t]{3ex}{\hrulefill}}.
+\par 
+
+\par\medskip{\kern 0pt\vbox{\halign{#\hfil&amp;&amp;\kern 1em #\hfil
+\cr
+The input variables are&amp; \mbox{\parbox[t]{5ex}{\hrulefill}}.
+\cr
+The output variables are&amp; \mbox{\parbox[t]{5ex}{\hrulefill}}.
+\cr}}\kern 0pt}\medskip
+
+{\it  {\small 
+(List the variable names separated by commas.)
+} } 
+
+
+
+</statement>
+</webwork-tex>

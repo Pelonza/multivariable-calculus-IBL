@@ -1,0 +1,25 @@
+<webwork-tex seed="123567890">
+<preamble>
+
+			
+%%% BEGIN PROBLEM PREAMBLE
+
+</preamble>
+<statement>
+For the curve given by 
+ \(r(t) = \langle 8 t, e^{7 t}, e^{-7 t} \rangle\),
+
+\par  
+Find the derivative \leavevmode\\\relax 
+\(r'(t) = \langle\) \mbox{\parbox[t]{10ex}{\hrulefill}}, \mbox{\parbox[t]{10ex}{\hrulefill}}, \mbox{\parbox[t]{10ex}{\hrulefill}} \(\rangle\)
+\par 
+Find the second derivative \leavevmode\\\relax 
+\(r''(t) = \langle\) \mbox{\parbox[t]{10ex}{\hrulefill}}, \mbox{\parbox[t]{10ex}{\hrulefill}}, \mbox{\parbox[t]{10ex}{\hrulefill}} \(\rangle\)
+\par 
+Find the curvature at \(t = 0\) \leavevmode\\\relax 
+ \(\kappa (0) =\)  \mbox{\parbox[t]{20ex}{\hrulefill}} 
+
+
+
+</statement>
+</webwork-tex>

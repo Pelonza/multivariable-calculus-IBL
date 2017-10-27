@@ -1,0 +1,30 @@
+<webwork-tex seed="123567890">
+<preamble>
+
+			
+%%% BEGIN PROBLEM PREAMBLE
+
+</preamble>
+<statement>
+Find the partial derivatives indicated
+Assume the variables are restricted to a domain on
+which the function is defined.
+\[z = x^{8}+5^{y}+x^{y}.\]
+
+\(z_x =\) \mbox{\parbox[t]{17.5ex}{\hrulefill}}
+\leavevmode\\\relax 
+\(z_y =\) \mbox{\parbox[t]{17.5ex}{\hrulefill}}
+
+
+
+
+</statement>
+<solution>
+\par \par {\bf Solution: }\par  SOLUTION \par 
+
+\[z_x = 8x^{7}+yx^{y-1}, z_y = 1.60944\cdot 5^{y}+x^{y}\ln\!\left(x\right).\]
+
+
+\par 
+</solution>
+</webwork-tex>

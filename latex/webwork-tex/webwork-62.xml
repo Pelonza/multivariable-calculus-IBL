@@ -1,0 +1,23 @@
+<webwork-tex seed="123567890">
+<preamble>
+
+			
+%%% BEGIN PROBLEM PREAMBLE
+
+</preamble>
+<statement>
+\leavevmode\\\relax 
+
+Let 
+\[w = 5xy + 4yz + 5xz, x = st, y = e^{st}, z = t^2\]
+Compute \leavevmode\\\relax 
+\(\displaystyle \frac{\partial w}{\partial s}(-4, -1) =\) 
+\mbox{\parbox[t]{30ex}{\hrulefill}}
+\leavevmode\\\relax 
+\(\displaystyle \frac{\partial w}{\partial t}(-4, -1) =\) 
+\mbox{\parbox[t]{30ex}{\hrulefill}}
+\par 
+
+
+</statement>
+</webwork-tex>

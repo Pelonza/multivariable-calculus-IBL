@@ -1,0 +1,22 @@
+<webwork-tex seed="123567890">
+<preamble>
+
+			
+%%% BEGIN PROBLEM PREAMBLE
+
+</preamble>
+<statement>
+\leavevmode\\\relax 
+
+Find the linearization of the function 
+\(f(x,y) = \sqrt{214 - 5 x^2 - 5 y^2}\) at the point (5, -4).
+\leavevmode\\\relax 
+\(L(x,y) =\) \mbox{\parbox[t]{30ex}{\hrulefill}}
+\leavevmode\\\relax 
+Use the linear approximation to estimate the value of 
+    \(f(4.9, -3.9)\) = \mbox{\parbox[t]{20ex}{\hrulefill}}
+\par 
+
+
+</statement>
+</webwork-tex>

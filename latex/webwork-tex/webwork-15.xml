@@ -1,0 +1,21 @@
+<webwork-tex seed="123567890">
+<preamble>
+
+			
+%%% BEGIN PROBLEM PREAMBLE
+
+</preamble>
+<statement>
+Find an equation of the plane through the point (5, 4, 5) and parallel to the
+plane 
+\(-4\!x  - 1\!y + 3\!z = 4\).  Do this problem in the standard way or WebWork may not recognize
+a correct answer.
+\par 
+\mbox{\parbox[t]{3ex}{\hrulefill}} x + 
+\mbox{\parbox[t]{3ex}{\hrulefill}} y + 
+\mbox{\parbox[t]{3ex}{\hrulefill}} z = 
+\mbox{\parbox[t]{7.5ex}{\hrulefill}}
+
+
+</statement>
+</webwork-tex>

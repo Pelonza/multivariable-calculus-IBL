@@ -1,0 +1,41 @@
+<webwork-tex seed="123567890">
+<preamble>
+
+			
+%%% BEGIN PROBLEM PREAMBLE
+
+</preamble>
+<statement>
+Find the line integral with respect to arc length 
+\(\displaystyle \int_C (3 x + 4 y) ds\), where \(C\) is
+the line segment in the \(xy\)-plane with endpoints \(P = \left(8,0\right)\) 
+and \(Q = \left(0,9\right)\).
+\leavevmode\\\relax 
+\leavevmode\\\relax 
+(a) Find a vector parametric equation \(\vec{r}(t)\) for the line 
+segment \(C\) so that points \(P\) and \(Q\) correspond
+to \(t = 0\) and \(t = 1\), respectively.  
+\leavevmode\\\relax 
+\(\vec{r}(t) =\) \mbox{\parbox[t]{15ex}{\hrulefill}}
+\leavevmode\\\relax 
+\leavevmode\\\relax 
+(b) Using the parametrization in part (a), the line
+integral with respect to arc length is
+\leavevmode\\\relax 
+\(\displaystyle \int_C (3 x + 4 y) ds = \int_a^b\)
+\mbox{\parbox[t]{20ex}{\hrulefill}}
+\(dt\)
+\leavevmode\\\relax 
+with limits of integration 
+\(a =\) \mbox{\parbox[t]{5ex}{\hrulefill}} and
+\(b =\) \mbox{\parbox[t]{5ex}{\hrulefill}}
+\leavevmode\\\relax 
+\leavevmode\\\relax 
+(c) Evaluate the line integral with respect to arc length in part (b).
+\leavevmode\\\relax 
+\(\displaystyle \int_C (3 x + 4 y) ds =\) 
+\mbox{\parbox[t]{20ex}{\hrulefill}}
+
+
+</statement>
+</webwork-tex>

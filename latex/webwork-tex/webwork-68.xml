@@ -1,0 +1,25 @@
+<webwork-tex seed="123567890">
+<preamble>
+
+			
+%%% BEGIN PROBLEM PREAMBLE
+
+</preamble>
+<statement>
+For the curve given by 
+ \(r(t) = \langle 8 \sin(t), 4 t, -8 \cos(t) \rangle\),
+
+\par  
+Find the unit tangent \leavevmode\\\relax 
+\(T(t) = \langle\) \mbox{\parbox[t]{10ex}{\hrulefill}}, \mbox{\parbox[t]{10ex}{\hrulefill}}, \mbox{\parbox[t]{10ex}{\hrulefill}} \(\rangle\)
+\par 
+Find the unit normal \leavevmode\\\relax 
+\(N(t) = \langle\) \mbox{\parbox[t]{10ex}{\hrulefill}}, \mbox{\parbox[t]{10ex}{\hrulefill}}, \mbox{\parbox[t]{10ex}{\hrulefill}} \(\rangle\)
+\par 
+Find the curvature \leavevmode\\\relax 
+ \(\kappa (t) =\)  \mbox{\parbox[t]{15ex}{\hrulefill}} 
+
+
+
+</statement>
+</webwork-tex>
