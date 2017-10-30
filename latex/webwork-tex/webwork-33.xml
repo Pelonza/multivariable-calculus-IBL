@@ -1,0 +1,26 @@
+<webwork-tex seed="123567890">
+<preamble>
+
+			
+%%% BEGIN PROBLEM PREAMBLE
+
+</preamble>
+<statement>
+Find an equation for the paraboloid \(z = x^{2}+y^{2}\) in spherical
+coordinates.  (Enter rho, phi and theta for \(\rho\), \(\phi\)
+and \(\theta\), respectively.)
+\leavevmode\\\relax 
+equation: \mbox{\parbox[t]{27.5ex}{\hrulefill}}
+
+
+
+</statement>
+<solution>
+\par \par {\bf Solution: }\par  SOLUTION \par 
+
+The paraboloid has equation \(rho = \frac{\cos\!\left(phi\right)}{\sin^{2}\!\left(phi\right)}\).
+
+
+\par 
+</solution>
+</webwork-tex>

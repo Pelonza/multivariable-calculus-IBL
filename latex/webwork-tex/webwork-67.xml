@@ -1,0 +1,25 @@
+<webwork-tex seed="123567890">
+<preamble>
+
+			
+%%% BEGIN PROBLEM PREAMBLE
+
+</preamble>
+<statement>
+\leavevmode\\\relax 
+    Let \(\mathbf{c}_1(t) = (e^{5t}, \sin(4t), 5t^3)\), and
+\(\mathbf{c}_2(t) = (e^{-4t}, \cos(-t), 3t^3)\)
+\par 
+\(\displaystyle \frac{d}{dt}\left[ \mathbf{c}_1(t) \cdot  \mathbf{c}_2(t)\right]  =\)\mbox{\parbox[t]{30ex}{\hrulefill}}
+\leavevmode\\\relax 
+\(\displaystyle \frac{d}{dt}\left[ \mathbf{c}_1(t) \times  \mathbf{c}_2(t)\right]  =\)
+    \mbox{\parbox[t]{30ex}{\hrulefill}}\(\mathbf{i}\ +\)
+\leavevmode\\\relax 
+\(\hspace{1.15in}\)    \mbox{\parbox[t]{30ex}{\hrulefill}}\(\mathbf{j}\ +\)
+\leavevmode\\\relax 
+\(\hspace{1.15in}\)  \mbox{\parbox[t]{30ex}{\hrulefill}}\(\mathbf{k}\)
+\leavevmode\\\relax 
+
+
+</statement>
+</webwork-tex>

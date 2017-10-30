@@ -1,0 +1,47 @@
+<webwork-tex seed="123567890">
+<preamble>
+
+			
+%%% BEGIN PROBLEM PREAMBLE
+
+</preamble>
+<statement>
+Suppose \(\vec{F}(x,y) = -y \vec{i} + x \vec{j}\) 
+and \(C\) is the line segment from point 
+\(P = \left(5,0\right)\) to \(Q = \left(0,2\right)\). 
+\leavevmode\\\relax 
+\leavevmode\\\relax 
+(a) Find a vector parametric equation \(\vec{r}(t)\) for the line 
+segment \(C\) so that points \(P\) and \(Q\) correspond
+to \(t = 0\) and \(t = 1\), respectively.  
+\leavevmode\\\relax 
+\(\vec{r}(t) =\) \mbox{\parbox[t]{20ex}{\hrulefill}}
+\leavevmode\\\relax 
+\leavevmode\\\relax 
+(b) Using the parametrization in part (a), the line
+integral of \(\vec{F}\) along \(C\) is
+\leavevmode\\\relax 
+\(\displaystyle \int_C \vec{F} \cdot d \vec{r} = \int_a^b \vec{F}(\vec{r}(t)) \cdot \vec{r}\,'(t) \, dt = \int_a^b\)
+\mbox{\parbox[t]{20ex}{\hrulefill}}
+\(dt\)
+\leavevmode\\\relax 
+with limits of integration 
+\(a =\) \mbox{\parbox[t]{5ex}{\hrulefill}} and
+\(b =\) \mbox{\parbox[t]{5ex}{\hrulefill}}
+\leavevmode\\\relax 
+\leavevmode\\\relax 
+(c) Evaluate the line integral in part (b).
+\leavevmode\\\relax 
+\mbox{\parbox[t]{10ex}{\hrulefill}}
+\leavevmode\\\relax 
+\leavevmode\\\relax 
+(d) What is the line integral of \(\vec{F}\) 
+around the clockwise-oriented triangle 
+with corners at the origin, \(P\), and \(Q\)?  
+Hint: Sketch the vector field and the triangle.  
+\leavevmode\\\relax 
+\mbox{\parbox[t]{10ex}{\hrulefill}}
+
+
+</statement>
+</webwork-tex>

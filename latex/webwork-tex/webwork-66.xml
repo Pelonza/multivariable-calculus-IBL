@@ -1,0 +1,24 @@
+<webwork-tex seed="123567890">
+<preamble>
+
+			
+%%% BEGIN PROBLEM PREAMBLE
+
+</preamble>
+<statement>
+\leavevmode\\\relax 
+
+Find the unit tangent vector at the indicated point of the vector function\leavevmode\\\relax 
+
+\[\mathbf{r}(t) = e^{19 t}\cos t \,\mathbf i + 
+    e^{19 t}\sin t \,\mathbf j + e^{19 t} \,\mathbf k\]
+
+\(\mathbf T(\pi/2) = \langle\)
+\mbox{\parbox[t]{12.5ex}{\hrulefill}},
+\mbox{\parbox[t]{12.5ex}{\hrulefill}},
+\mbox{\parbox[t]{12.5ex}{\hrulefill}} \(\rangle\)
+\par 
+
+
+</statement>
+</webwork-tex>

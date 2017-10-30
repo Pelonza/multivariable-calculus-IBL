@@ -1,0 +1,21 @@
+<webwork-tex seed="123567890">
+<preamble>
+
+			
+%%% BEGIN PROBLEM PREAMBLE
+
+</preamble>
+<statement>
+If \(\mathbf{a} = \mathbf{i} + \mathbf{j} + 5 \mathbf{k}\)  
+and \(\mathbf{b} = \mathbf{i} + \mathbf{j} + 5 \mathbf{k}\)
+\leavevmode\\\relax 
+Compute the cross product \(\bf{a} \times \bf{b}\).
+\leavevmode\\\relax  \leavevmode\\\relax 
+\(\bf{a} \times \bf{b}=\)\mbox{\parbox[t]{3ex}{\hrulefill}} \(\bf{i}\) + 
+\mbox{\parbox[t]{3ex}{\hrulefill}} \(\bf{j}\) + 
+\mbox{\parbox[t]{3ex}{\hrulefill}} \(\bf{k}\)
+
+
+
+</statement>
+</webwork-tex>

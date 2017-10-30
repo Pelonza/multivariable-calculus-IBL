@@ -155,7 +155,7 @@
       Let's look at some physical examples involving motion and temperature, and try to connect what we know should happen to what the chain rule states.
     </p>
 
-    <exploration xml:id="prob_horse_track_chain">
+    <exploration xml:id="horse_track_chain_rule_introduction">
       <introduction>
         <p>
           Consider <m>f(x,y)=9-x^2-y^2</m> and <m>\vec r(t)=(2\cos t, 3\sin t)</m>. Imagine the following scenario. A horse runs around outside in the cold. The horse's position at time <m>t</m> is given parametrically by the elliptical path <m>\vec r(t)</m>. The function <m>T=f(x,y)</m> gives the temperature of the air at any point <m>(x,y)</m>.

@@ -1,0 +1,25 @@
+<webwork-tex seed="123567890">
+<preamble>
+
+			
+%%% BEGIN PROBLEM PREAMBLE
+
+</preamble>
+<statement>
+Suppose \(f(t)=\left(5t-t^{2},4-t\right)\).  Compute the following values:
+\par 
+
+\par\bgroup\advance\leftskip by 2em 
+
+\par\begin{tabular}{rcl}
+\(f(5)\)&amp;=&amp;\ \mbox{\parbox[t]{12.5ex}{\hrulefill}}\\ \noalign{\kern 0pt}
+\(f(-5)\)&amp;=&amp;\ \mbox{\parbox[t]{12.5ex}{\hrulefill}}\\ \noalign{\kern 0pt}
+\(f(1-s)\)&amp;=&amp;\ \mbox{\parbox[t]{12.5ex}{\hrulefill}}\\ \noalign{\kern 0pt}
+\end{tabular}
+
+\par\egroup 
+
+
+
+</statement>
+</webwork-tex>

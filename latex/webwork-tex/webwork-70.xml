@@ -1,0 +1,25 @@
+<webwork-tex seed="123567890">
+<preamble>
+
+			
+%%% BEGIN PROBLEM PREAMBLE
+
+</preamble>
+<statement>
+For the curve given by 
+ \(r(t) = \langle 8 t, -7 t,1 + 7 t^2 \rangle\),
+
+\par  
+Find the derivative \leavevmode\\\relax 
+\(r'(t) = \langle\) \mbox{\parbox[t]{10ex}{\hrulefill}}, \mbox{\parbox[t]{10ex}{\hrulefill}}, \mbox{\parbox[t]{10ex}{\hrulefill}} \(\rangle\)
+\par 
+Find the second derivative \leavevmode\\\relax 
+\(r''(t) = \langle\) \mbox{\parbox[t]{10ex}{\hrulefill}}, \mbox{\parbox[t]{10ex}{\hrulefill}}, \mbox{\parbox[t]{10ex}{\hrulefill}} \(\rangle\)
+\par 
+Find the curvature at \(t = 1\) \leavevmode\\\relax 
+ \(\kappa (1) =\)  \mbox{\parbox[t]{20ex}{\hrulefill}} 
+
+
+
+</statement>
+</webwork-tex>

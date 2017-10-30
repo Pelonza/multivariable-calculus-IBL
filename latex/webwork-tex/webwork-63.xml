@@ -1,0 +1,47 @@
+<webwork-tex seed="123567890">
+<preamble>
+
+			
+%%% BEGIN PROBLEM PREAMBLE
+
+</preamble>
+<statement>
+A bison is charging across the plain one morning.  His
+path takes him to location \((x,y)\) at time \(t\), 
+where \(x\) and \(y\) are functions of \(t\), and 
+north is in the direction of increasing \(y\).  The 
+temperature is always colder farther north.  As time 
+passes, the sun rises in the sky, sending out more heat,
+and a cold front blows in from the east.  At time \(t\)
+the air temperature \(H\) near the bison is given by
+\(H = f(x,y,t)\).  The chain rule expresses the 
+derivative \(dH / dt\) as a sum of three terms:
+\leavevmode\\\relax 
+\[\frac{dH}{dt} 
+= 
+\frac{\partial f}{\partial x} \frac{\partial x}{\partial t}
++
+\frac{\partial f}{\partial y} \frac{\partial y}{\partial t}
++
+\frac{\partial f}{\partial t}.\]
+\leavevmode\\\relax 
+Identify the term that gives the contribution to the 
+change in temperature experienced by the bison that is
+due to:
+\leavevmode\\\relax 
+\par\medskip\hbox{\qquad\vtop{\advance\hsize by -3em 
+\par\begin{enumerate}
+\item[\fbox{?}1.] The coming cold front
+\item[\fbox{?}2.] The rising sun
+\item[\fbox{?}3.] The bison's change in latitude
+\end{enumerate}
+}}\medskip\hbox{\qquad\vtop{\advance\hsize by -3em \begin{enumerate}
+\item[A.] \(\displaystyle \frac{\partial f}{\partial y} \frac{\partial y}{\partial t}\) \leavevmode\\\relax 
+\item[B.] \(\displaystyle \frac{\partial f}{\partial x} \frac{\partial x}{\partial t}\) \leavevmode\\\relax 
+\item[C.] \(\displaystyle \frac{\partial f}{\partial t}\) \leavevmode\\\relax 
+\end{enumerate}
+}}\medskip
+
+
+</statement>
+</webwork-tex>

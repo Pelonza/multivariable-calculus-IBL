@@ -1,0 +1,34 @@
+<webwork-tex seed="123567890">
+<preamble>
+
+			
+%%% BEGIN PROBLEM PREAMBLE
+
+</preamble>
+<statement>
+Determine whether the flux of the vector field 
+\(\vec{F}(x,y,z) = z \vec{i}\) through each surface is positive,
+negative, or zero.  In each case, the orientation
+of the surface is indicated by the gray normal 
+vector.  
+\par 
+\begin{center}
+\par\medskip\centerline{\kern 0pt\vbox{\halign{#\hfil&amp;&amp;\kern 1em #\hfil\cr
+\hfil \includegraphics[width=0.3\linewidth]{webwork-tex/webwork-76-image-1.png}
+&amp;\hfil \includegraphics[width=0.3\linewidth]{webwork-tex/webwork-76-image-2.png}
+&amp;\hfil \includegraphics[width=0.3\linewidth]{webwork-tex/webwork-76-image-3.png}
+\cr
+\hfil \fbox{?}&amp;\hfil \fbox{?}&amp;\hfil \fbox{?}\vadjust{\kern 6pt}
+\cr
+\hfil \includegraphics[width=0.3\linewidth]{webwork-tex/webwork-76-image-4.png}
+&amp;\hfil \includegraphics[width=0.3\linewidth]{webwork-tex/webwork-76-image-5.png}
+&amp;\hfil  \cr
+\hfil \fbox{?}&amp;\hfil \fbox{?}&amp;\hfil  \cr}}\kern 0pt}\medskip
+
+\leavevmode\\\relax 
+(Click and drag to rotate)
+\end{center}
+
+
+</statement>
+</webwork-tex>

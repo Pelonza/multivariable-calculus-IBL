@@ -1,0 +1,28 @@
+<webwork-tex seed="123567890">
+<preamble>
+
+			
+%%% BEGIN PROBLEM PREAMBLE
+
+</preamble>
+<statement>
+Suppose \(f(x,y)=xy^{2}+7\).  Compute the following values:
+\par 
+
+\par\bgroup\advance\leftskip by 2em 
+
+\par\begin{tabular}{rcl}
+\(f(4,5)\)&amp;=&amp;\ \mbox{\parbox[t]{12.5ex}{\hrulefill}}\\ \noalign{\kern 0pt}
+\(f(5,4)\)&amp;=&amp;\ \mbox{\parbox[t]{12.5ex}{\hrulefill}}\\ \noalign{\kern 0pt}
+\(f(0,0)\)&amp;=&amp;\ \mbox{\parbox[t]{12.5ex}{\hrulefill}}\\ \noalign{\kern 0pt}
+\(f(-1,5)\)&amp;=&amp;\ \mbox{\parbox[t]{12.5ex}{\hrulefill}}\\ \noalign{\kern 0pt}
+\(f(t,2t)\)&amp;=&amp;\ \mbox{\parbox[t]{12.5ex}{\hrulefill}}\\ \noalign{\kern 0pt}
+\(f(uv,u-v)\)&amp;=&amp;\ \mbox{\parbox[t]{12.5ex}{\hrulefill}}\\ \noalign{\kern 0pt}
+\end{tabular}
+
+\par\egroup 
+
+
+
+</statement>
+</webwork-tex>

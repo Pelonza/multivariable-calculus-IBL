@@ -1,0 +1,20 @@
+<webwork-tex seed="123567890">
+<preamble>
+
+			
+%%% BEGIN PROBLEM PREAMBLE
+
+</preamble>
+<statement>
+If C is the curve given by \(\mathbf{r} \left( t \right) = \left( 1 + 5 \sin t
+\right) \mathbf{i} + \left( 1 + 5 \sin^{2} t \right) \mathbf{j} + \left( 1 + 5
+\sin^{3} t \right) \mathbf{k}\), \(0 \leq t \leq \frac{\pi}{2}\) and {\bf  F
+} is the radial vector field \(\mathbf{F} \left( x, y, z \right) = x
+\mathbf{i} + y \mathbf{j} + z \mathbf{k}\), compute the work done by {\bf  F
+} on a particle moving along C.
+  \par 
+\mbox{\parbox[t]{20ex}{\hrulefill}}
+
+
+</statement>
+</webwork-tex>

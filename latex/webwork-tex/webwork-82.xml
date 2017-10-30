@@ -1,0 +1,18 @@
+<webwork-tex seed="123567890">
+<preamble>
+
+			
+%%% BEGIN PROBLEM PREAMBLE
+
+</preamble>
+<statement>
+Sketch the vector field \(\vec{F}(x,y) = x \vec{i} + y \vec{j}\) and
+calculate the line integral of \(\vec{F}\) along  
+the line segment from \(\left(5,9\right)\) to \(\left(9,9\right) .\)
+\leavevmode\\\relax 
+\mbox{\parbox[t]{15ex}{\hrulefill}}
+
+
+
+</statement>
+</webwork-tex>

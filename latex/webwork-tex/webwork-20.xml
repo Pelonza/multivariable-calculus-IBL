@@ -1,0 +1,19 @@
+<webwork-tex seed="123567890">
+<preamble>
+
+			
+%%% BEGIN PROBLEM PREAMBLE
+
+</preamble>
+<statement>
+Write the parametric equations \leavevmode\\\relax \leavevmode\\\relax 
+
+\[x = 5 t-t^3 , \quad  y = 8-5 t\] 
+
+in the given Cartesian form. \leavevmode\\\relax 
+\leavevmode\\\relax  
+\(x =\) \mbox{\parbox[t]{12.5ex}{\hrulefill}}
+
+
+</statement>
+</webwork-tex>

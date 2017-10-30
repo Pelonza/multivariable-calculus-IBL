@@ -1,0 +1,32 @@
+<webwork-tex seed="123567890">
+<preamble>
+
+			
+%%% BEGIN PROBLEM PREAMBLE
+
+</preamble>
+<statement>
+Suppose \(\vec{F}(x,y) = (x + 5) \vec{i} + (6 y + 2) \vec{j}\).  
+Use the fundamental theorem of line integrals
+to calculate the following.
+\leavevmode\\\relax 
+\leavevmode\\\relax 
+(a) The line integral of \(\vec{F}\) along the
+line segment \(C\) from the point \(P = (1,0)\) 
+to the point \(Q = (3,1)\).
+\leavevmode\\\relax 
+\(\displaystyle \int_C \vec{F} \cdot d\vec{r}\) =
+\mbox{\parbox[t]{15ex}{\hrulefill}}
+\leavevmode\\\relax 
+\leavevmode\\\relax 
+(b) The line integral of \(\vec{F}\) along the 
+triangle \(C\) from the origin to the point 
+\(P = (1,0)\) to the point 
+\(Q = (3,1)\) and back to the origin.
+\leavevmode\\\relax 
+\(\displaystyle \int_C \vec{F} \cdot d\vec{r}\) =
+\mbox{\parbox[t]{15ex}{\hrulefill}}
+
+
+</statement>
+</webwork-tex>

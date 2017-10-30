@@ -1,0 +1,31 @@
+<webwork-tex seed="123567890">
+<preamble>
+
+			
+%%% BEGIN PROBLEM PREAMBLE
+
+</preamble>
+<statement>
+\par\medskip\hbox{\qquad\vtop{\advance\hsize by -3em Give inequalities for \(r\) and \(\theta\) which
+describe the region in the figure in polar coordinates. 
+The arc shown is circular, and the region extends indefinitely in the
+\(y\)-direction.  The labeled points along the \(x\)-axis are
+\(x = 3\) and \(x = 6\).\leavevmode\\\relax \leavevmode\\\relax (Write {\bf infinity} to indicate
+a boundary at infinity, and enter {\bf t} for
+\(\theta\) if necessary.)\leavevmode\\\relax \leavevmode\\\relax \mbox{\parbox[t]{7.5ex}{\hrulefill}} \(\le r \le\) \mbox{\parbox[t]{7.5ex}{\hrulefill}}\leavevmode\\\relax \mbox{\parbox[t]{7.5ex}{\hrulefill}} \(\le \theta \le\) \mbox{\parbox[t]{7.5ex}{\hrulefill}}}}\medskip\hbox{\qquad\vtop{\advance\hsize by -3em \begin{center} \includegraphics[width=0.7\linewidth]{webwork-tex/webwork-27-image-1.png}
+\leavevmode\\\relax {\it (Click on the graph for a larger version.)} \end{center} }}\medskip
+
+
+</statement>
+<solution>
+\par \par {\bf Solution: }\par  SOLUTION \par 
+
+The circular arc has equation \(r=3\), for \(0\le\theta\le{\pi\over2}\).
+The vertical line \(x=6\) has polar equation \(r\cos\theta=6\), or
+\(r=6/\cos\theta\).  So the region is described by
+\(0\le\theta\le\pi/2\) and \(3\le r\le 6/\cos\theta\).
+
+
+\par 
+</solution>
+</webwork-tex>

@@ -77,9 +77,17 @@
         </p>
       </task>
       <task>
-        <p>
-          If we still want to evaluate at the time corresponding to the point <m>(0,3)</m>, what is <m>t=</m>?. \begin{hint}It should be smaller than <m>\frac{\pi}{2}</m>
-        </p>
+        <statement>
+          <p>
+            If we still want to evaluate at the time corresponding to the point <m>(0,3)</m>, what is <m>t=</m>?.
+          </p>
+        </statement>
+        <hint>
+          <p>
+            It should be smaller than <m>\frac{\pi}{2}</m>
+          </p>
+        </hint>
+
       </task>
       <task>
         <p>
@@ -126,7 +134,7 @@
   <definition xml:id="def_curvature">
     <statement>
       <p>
-        Curvature <m>\kappa</m> and The Curvature Vector <m>\vec \kappa</m>\end{hint} Let <m>\vec r(t)</m> be a smooth curve (so that <m>\vec v</m> is never zero).
+        Curvature <m>\kappa</m> and The Curvature Vector <m>\vec \kappa</m>Let <m>\vec r(t)</m> be a smooth curve (so that <m>\vec v</m> is never zero).
         <ul>
           <li>
             <p>
@@ -252,7 +260,7 @@
       </task>
       <task>
         <p>
-          Because <m>\vec r (t)</m> includes periodic trig functinos at <m>(0,3)</m> we could have <m>t^2 = \frac{\pi}{2}</m>, <m>t^2=2\pi+frac{\pi}{2}</m> or <m>t^2=2\pi k + \frac{\pi}{2}</m> for any integer <m>k</m>.
+          Because <m>\vec r (t)</m> includes periodic trig functinos at <m>(0,3)</m> we could have <m>t^2 = \frac{\pi}{2}</m>, <m>t^2=2\pi+\frac{\pi}{2}</m> or <m>t^2=2\pi k + \frac{\pi}{2}</m> for any integer <m>k</m>.
         </p>
         <p>
           Show that <m>\vec T</m> is the same at <m>(0,3)</m>, regardless of what time we pass through <m>(0,3)</m>.
@@ -368,7 +376,7 @@
             N = dTdt/dTdt.norm()     #The unit normal vector
 
             ##Print the results.  I added .simplify_full().simplify_trig() to the end of each, so that the results will look simplified.
-            table([
+            pretty_print(table([
             [r"$\vec r$",r(t).simplify_full().simplify_trig()],
             [r"$\vec v$",v(t).simplify_full().simplify_trig()],
             [r"$\vec a$",a(t).simplify_full().simplify_trig()],
@@ -378,12 +386,12 @@
             [r"$\frac{d\vec T}{ds}$",dTds(t).simplify_full().simplify_trig()],
             [r"$\left|\frac{d\vec T}{ds}\right| = \kappa $",curvature(t).simplify_full().simplify_trig()],
             [r"$\vec N$",N(t).simplify_full().simplify_trig()],
-            ])
+            ]))
 
 
             ##Print the results.  I added .simplify_full().simplify_trig() to the end of each, so that the results will look simplified.
             print "At the time t = ",point, " we have the following:"
-            table([
+            pretty_print(table([
             [r"$\vec r$",r(point).simplify_full().simplify_trig()],
             [r"$\vec v$",v(point).simplify_full().simplify_trig()],
             [r"$\vec a$",a(point).simplify_full().simplify_trig()],
@@ -393,7 +401,7 @@
             [r"$\frac{d\vec T}{ds}$",dTds(point).simplify_full().simplify_trig()],
             [r"$\left|\frac{d\vec T}{ds}\right| = \kappa $",curvature(point).simplify_full().simplify_trig()],
             [r"$\vec N$",N(point).simplify_full().simplify_trig()],
-            ])
+            ]))
 
             ##Now let's make a graph
             p=parametric_plot(r,tBounds)                                        #this draws the curve
@@ -413,10 +421,10 @@
             radiusOfCurvature=1/curvature(point)                    #compute the radius of curvature
             centerOfCurvature=r(point)+radiusOfCurvature*N(point)   #compute the center of curvature
 
-            table([
+            pretty_print(table([
             [r"$\rho$",radiusOfCurvature.simplify_full().simplify_trig()],
             [r"center of curvature", centerOfCurvature.simplify_full().simplify_trig()],
-            ])
+            ]))
 
             #Draw the circle of curvature on top of everything else.
             p+=parametric_plot(
@@ -432,7 +440,7 @@
             B=T.cross_product(N)
             dBds = B.diff(t)/speed
 
-            table([
+            pretty_print(table([
             [r"$N(t)$",B(t).simplify_full().simplify_trig()],
             [r"$B(t)$",B(t).simplify_full().simplify_trig()],
             [r"$\frac{d\vec B}{ds}(t)$", dBds(t).simplify_full().simplify_trig()],
@@ -442,7 +450,7 @@
             [r"$B(point)$",B(point).simplify_full().simplify_trig()],
             [r"$\frac{d\vec B}{ds}(point)$", dBds(point).simplify_full().simplify_trig()],
             [r"$\left|\frac{d\vec B}{ds}(point)\right|$", dBds(point).norm().simplify_full().simplify_trig()],
-            ])
+            ]))
           </input>
         </sage>
       </task>
@@ -612,10 +620,20 @@
     </exercise>
 
     <exercise>
+      <introduction>
+        <p>
+          The answer to <m>\kappa(1)</m> is incorrect. Ask me in class to work it out.
+        </p>
+      </introduction>
       <webwork source="Library/272/setStewart13_3/problem_6.pg" />
     </exercise>
 
     <exercise>
+      <introduction>
+        <p>
+          The answer to <m>\kappa(1)</m> is incorrect. Ask me in class to work it out.
+        </p>
+      </introduction>      
       <webwork source="Library/272/setStewart13_3/problem_7.pg" />
     </exercise>
 

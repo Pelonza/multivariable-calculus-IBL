@@ -1,0 +1,51 @@
+<webwork-tex seed="123567890">
+<preamble>
+
+			
+%%% BEGIN PROBLEM PREAMBLE
+
+</preamble>
+<statement>
+Determine whether the line integral of each 
+vector field (in blue) along the  
+oriented path (in red) is positive, negative, or zero.  
+\leavevmode\\\relax 
+\leavevmode\\\relax 
+\begin{center}
+\par\medskip\centerline{\kern 0pt\vbox{\halign{#\hfil&amp;&amp;\kern 1em #\hfil\cr
+\hfil \includegraphics[width=0.31\linewidth]{webwork-tex/webwork-83-image-1.png}
+&amp;\hfil \includegraphics[width=0.31\linewidth]{webwork-tex/webwork-83-image-2.png}
+&amp;\hfil \includegraphics[width=0.31\linewidth]{webwork-tex/webwork-83-image-3.png}
+\cr
+\hfil \fbox{?}&amp;\hfil \fbox{?}&amp;\hfil \fbox{?}\vadjust{\kern 6pt}
+\cr
+\hfil \includegraphics[width=0.31\linewidth]{webwork-tex/webwork-83-image-4.png}
+&amp;\hfil \includegraphics[width=0.31\linewidth]{webwork-tex/webwork-83-image-5.png}
+&amp;\hfil \includegraphics[width=0.31\linewidth]{webwork-tex/webwork-83-image-6.png}
+\cr
+\hfil \fbox{?}&amp;\hfil \fbox{?}&amp;\hfil \fbox{?}\cr}}\kern 0pt}\medskip
+\leavevmode\\\relax (Click on a graph to enlarge it)
+\end{center}
+
+
+</statement>
+<solution>
+\par \par {\bf Solution: }\par  SOLUTION \leavevmode\\\relax  \leavevmode\\\relax 
+1. The line integral along the curve in the first quadrant is counterbalanced by
+the line integral in the third quadrant. Similarly for the line integrals in the second
+and fourth quadrant. Thus the total line integral is zero. \leavevmode\\\relax  \leavevmode\\\relax 
+2. The line integral is zero along the vertical and horizontal segments, since the
+vectors are perpendicular to the segments. The vectors along the slanted segment generally 
+point in same direction of the curve. Thus the line integral is positive. \leavevmode\\\relax  \leavevmode\\\relax 
+3. The line integral is zero along the vertical and horizontal segments, 
+since the vectors are perpendicular to the segments. The vectors along the larger circle
+(with larger magnitude than the vectors along the smaller circle) generally point in opposite direction of the curve. Thus the line integral is negative . \leavevmode\\\relax  \leavevmode\\\relax 
+4. The vectors are perpendicular to the circles, thus the line integral
+along the circles is zero. The line integrals along the orizontal and vertical segments counterbalance one another since they have opposite signs. Thus the total line integral is zero . \leavevmode\\\relax  \leavevmode\\\relax 
+5. The vectors are perpendicular to the line segments of the curve. Thus the line integral is zero . \leavevmode\\\relax  \leavevmode\\\relax 
+6. Vectors with larger magnitude generally point in the same 
+direction of the curve. Thus the line integral is positive . 
+
+\par 
+</solution>
+</webwork-tex>

@@ -1,0 +1,27 @@
+<webwork-tex seed="123567890">
+<preamble>
+
+			
+%%% BEGIN PROBLEM PREAMBLE
+
+</preamble>
+<statement>
+Find an equation for the plane \(y = 5\)
+in cylindrical coordinates.  (Type theta for \(\theta\) in your answer.)
+
+\par 
+equation: \mbox{\parbox[t]{27.5ex}{\hrulefill}}
+
+
+
+</statement>
+<solution>
+\par \par {\bf Solution: }\par  SOLUTION \par 
+
+The plane has equation \(r = \frac{5}{\sin\!\left(theta\right)}\).
+
+
+
+\par 
+</solution>
+</webwork-tex>

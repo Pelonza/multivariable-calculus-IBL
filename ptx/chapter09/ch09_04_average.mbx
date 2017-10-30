@@ -7,7 +7,7 @@
   <exploration xml:id="average_value_methods">
     <introduction>
       <p>
-        Suppose a class takes a test and there are three scores of 70, five scores of 85, one score of 90, and two scores of 95. We will calculate the average class score, <m>\bar s</m>, four different ways to emphasize four ways of thinking about the averages. We are emphasizing the pattern of the calculations in this exercise, rather than the final answer, so it is important to write out each calculation completely in the form <m>\bar s = \blank{1cm}</m> before calculating the number <m>\bar s</m>.
+        Suppose a class takes a test and there are three scores of 70, five scores of 85, one score of 90, and two scores of 95. We will calculate the average class score, <m>\bar s</m>, four different ways to emphasize four ways of thinking about the averages. We are emphasizing the pattern of the calculations in this exercise, rather than the final answer, so it is important to write out each calculation completely in the form <m>\bar s = ?</m> before calculating the number <m>\bar s</m>.
       </p>
     </introduction>
     <task>
@@ -37,7 +37,7 @@
       </p>
       <aside>
         <p>
-          <m>\bar s=\sum (\text{ value } \cdot\text{ (\% of stuff) } )=\sum (\text{ value }  \cdot \frac{\text{ weight } }{\text{ \# of values } } )</m>}
+          <m>\bar s=\sum (\text{ value } \cdot\text{ (% of stuff) } )=\sum (\text{ value }  \cdot \frac{\text{ weight } }{\text{ # of values } } )</m>}
         </p>
       </aside>
     </task>
@@ -215,7 +215,7 @@
           A = line_integral(dA(t))
 
 
-          show(table([
+          pretty_print(table([
           [r"$f(x,y)$",f(x,y)],
           [r"$\vec r(t)$",r(t)],
           [r"$d\vec r(t)/dt$",r.diff(t)(t)],
@@ -235,7 +235,7 @@
           show(curves+sheet)
 
           #If the integral is doable, then this will give the integral. 
-          html("If the integral can be computed exactly by Sage, then it will eventually show up below.  Otherwise, you'll get a huge list of errors.")
+          pretty_print("If the integral can be computed exactly by Sage, then it will eventually show up below.  Otherwise, you'll get a huge list of errors.")
           integrate(dA(t), trange)
         </input>
       </sage>

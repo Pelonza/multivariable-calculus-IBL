@@ -1,0 +1,41 @@
+<webwork-tex seed="123567890">
+<preamble>
+
+			
+%%% BEGIN PROBLEM PREAMBLE
+
+</preamble>
+<statement>
+Suppose \(\vec{F}(x,y) = \langle 2y, -\sin(y) \rangle\) 
+and \(C\) is the circle of radius \(9\) centered at
+the origin oriented counterclockwise. 
+\leavevmode\\\relax 
+\leavevmode\\\relax 
+(a) Find a vector parametric equation \(\vec{r}(t)\) for the 
+circle \(C\) that starts at the point \((9,0)\) and 
+travels around the circle once counterclockwise for 
+\(0 \leq t \leq 2\pi\).  
+\leavevmode\\\relax 
+\(\vec{r}(t) =\) \mbox{\parbox[t]{20ex}{\hrulefill}}
+\leavevmode\\\relax 
+\leavevmode\\\relax 
+(b) Using your parametrization in part (a), set up an 
+integral for calculating the circulation of \(\vec{F}\) 
+around \(C\).
+\leavevmode\\\relax 
+\(\displaystyle \int_C \vec{F} \cdot d \vec{r} = \int_a^b \vec{F}(\vec{r}(t)) \cdot \vec{r}\,'(t) \, dt = \int_a^b\)
+\mbox{\parbox[t]{20ex}{\hrulefill}}
+\(dt\)
+\leavevmode\\\relax 
+with limits of integration 
+\(a =\) \mbox{\parbox[t]{5ex}{\hrulefill}} and
+\(b =\) \mbox{\parbox[t]{5ex}{\hrulefill}}
+\leavevmode\\\relax 
+\leavevmode\\\relax 
+(c) Find the circulation of \(\vec{F}\) around \(C\).
+\leavevmode\\\relax 
+Circulation = \mbox{\parbox[t]{10ex}{\hrulefill}}
+
+
+</statement>
+</webwork-tex>

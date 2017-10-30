@@ -1,0 +1,19 @@
+<webwork-tex seed="123567890">
+<preamble>
+
+			
+%%% BEGIN PROBLEM PREAMBLE
+
+</preamble>
+<statement>
+\par 
+Find the length of the spiraling polar curve
+\leavevmode\\\relax  \(r = 7 e^{6 \theta}\)
+\leavevmode\\\relax 
+\leavevmode\\\relax  From 0 to \(2 \pi\) .
+\leavevmode\\\relax 
+\leavevmode\\\relax  The length is \mbox{\parbox[t]{25ex}{\hrulefill}}
+
+
+</statement>
+</webwork-tex>

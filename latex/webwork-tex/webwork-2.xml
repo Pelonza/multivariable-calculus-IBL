@@ -1,0 +1,17 @@
+<webwork-tex seed="123567890">
+<preamble>
+
+			
+%%% BEGIN PROBLEM PREAMBLE
+
+</preamble>
+<statement>
+\par 
+What is the distance from the point (10, 9, 9) to the xz-plane?
+\leavevmode\\\relax 
+Distance = \mbox{\parbox[t]{10ex}{\hrulefill}}
+\leavevmode\\\relax 
+
+
+</statement>
+</webwork-tex>

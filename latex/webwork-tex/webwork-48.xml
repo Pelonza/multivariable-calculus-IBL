@@ -1,0 +1,41 @@
+<webwork-tex seed="123567890">
+<preamble>
+
+			
+%%% BEGIN PROBLEM PREAMBLE
+
+</preamble>
+<statement>
+Match each function with one of the graphs below.
+\par  
+\par\medskip\centerline{\kern 0pt\vbox{\halign{#\hfil&amp;&amp;\kern 1em #\hfil\cr
+\hfil \includegraphics[width=0.275\linewidth]{webwork-tex/webwork-48-image-1.png}
+&amp;\hfil \includegraphics[width=0.275\linewidth]{webwork-tex/webwork-48-image-2.png}
+&amp;\hfil \includegraphics[width=0.275\linewidth]{webwork-tex/webwork-48-image-3.png}
+\cr
+\hfil {\bf  A }&amp;\hfil {\bf  B }&amp;\hfil {\bf  C }\vadjust{\kern 6pt}
+\cr
+\hfil \includegraphics[width=0.275\linewidth]{webwork-tex/webwork-48-image-4.png}
+&amp;\hfil \includegraphics[width=0.275\linewidth]{webwork-tex/webwork-48-image-5.png}
+&amp;\hfil \includegraphics[width=0.275\linewidth]{webwork-tex/webwork-48-image-6.png}
+\cr
+\hfil {\bf  D }&amp;\hfil {\bf  E }&amp;\hfil {\bf  F }\vadjust{\kern 6pt}
+\cr}}\kern 0pt}\medskip
+
+\par 
+\par\hrulefill\par 
+
+\par\begin{enumerate}
+\advance\leftskip by 2em\item[\mbox{\parbox[t]{3ex}{\hrulefill}} 1.] \(f(x,y) = y^2+1\)
+\item[\mbox{\parbox[t]{3ex}{\hrulefill}} 2.] \(f(x,y) = \sqrt{4x^2+y^2}\)
+\item[\mbox{\parbox[t]{3ex}{\hrulefill}} 3.] \(f(x,y) = 1+ y\)
+\item[\mbox{\parbox[t]{3ex}{\hrulefill}} 4.] \(f(x,y) = \sqrt{4-4x^2-y^2}\)
+\end{enumerate}
+
+\par\hrulefill\par 
+{\bf  Note: } {\it  You can click on the graphs to enlarge the images.} 
+\par\hrulefill\par 
+
+
+</statement>
+</webwork-tex>

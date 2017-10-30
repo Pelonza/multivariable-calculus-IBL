@@ -1,0 +1,85 @@
+<webwork-tex seed="123567890">
+<preamble>
+
+			
+%%% BEGIN PROBLEM PREAMBLE
+
+</preamble>
+<statement>
+Match the surfaces {\bf (a)} - {\bf (f)} below
+with the contour diagrams {\bf (1)} - {\bf (6)} below
+those.
+\leavevmode\\\relax 
+\begin{center} 
+
+\par\smallskip\begin{center}\begin{tabular}{|c|c|c|c|c|c|} \hline
+
+{\bf (a)} &amp;\includegraphics[width=0.2\linewidth]{webwork-tex/webwork-46-image-1.png}
+ &amp;{\bf (b)} &amp;\includegraphics[width=0.2\linewidth]{webwork-tex/webwork-46-image-2.png}
+ &amp;{\bf (c)} &amp;\includegraphics[width=0.2\linewidth]{webwork-tex/webwork-46-image-3.png}
+ \\ \hline 
+
+{\bf (d)} &amp;\includegraphics[width=0.2\linewidth]{webwork-tex/webwork-46-image-4.png}
+ &amp;{\bf (e)} &amp;\includegraphics[width=0.2\linewidth]{webwork-tex/webwork-46-image-5.png}
+ &amp;{\bf (f)} &amp;\includegraphics[width=0.2\linewidth]{webwork-tex/webwork-46-image-6.png}
+ \\ \hline 
+
+
+\end {tabular}\end{center}\par\smallskip
+
+\end{center} 
+\par 
+{\bf (a)} Surface (a) matches contour [\text{?}/\text{1}/\text{2}/\text{3}/\text{4}/\text{5}/\text{6}]
+\leavevmode\\\relax 
+{\bf (b)} Surface (b) matches contour [\text{?}/\text{1}/\text{2}/\text{3}/\text{4}/\text{5}/\text{6}]
+\leavevmode\\\relax 
+{\bf (c)} Surface (c) matches contour [\text{?}/\text{1}/\text{2}/\text{3}/\text{4}/\text{5}/\text{6}]
+\leavevmode\\\relax 
+{\bf (d)} Surface (d) matches contour [\text{?}/\text{1}/\text{2}/\text{3}/\text{4}/\text{5}/\text{6}]
+\leavevmode\\\relax 
+{\bf (e)} Surface (e) matches contour [\text{?}/\text{1}/\text{2}/\text{3}/\text{4}/\text{5}/\text{6}]
+\leavevmode\\\relax 
+{\bf (f)} Surface (f) matches contour [\text{?}/\text{1}/\text{2}/\text{3}/\text{4}/\text{5}/\text{6}]
+\par 
+\begin{center} 
+
+\par\smallskip\begin{center}\begin{tabular}{|c|c|c|c|c|c|} \hline
+
+{\bf (1)} &amp;\includegraphics[width=0.2\linewidth]{webwork-tex/webwork-46-image-7.png}
+ &amp;{\bf (2)} &amp;\includegraphics[width=0.2\linewidth]{webwork-tex/webwork-46-image-8.png}
+ &amp;{\bf (3)} &amp;\includegraphics[width=0.2\linewidth]{webwork-tex/webwork-46-image-9.png}
+ \\ \hline 
+
+{\bf (4)} &amp;\includegraphics[width=0.2\linewidth]{webwork-tex/webwork-46-image-10.png}
+ &amp;{\bf (5)} &amp;\includegraphics[width=0.2\linewidth]{webwork-tex/webwork-46-image-11.png}
+ &amp;{\bf (6)} &amp;\includegraphics[width=0.2\linewidth]{webwork-tex/webwork-46-image-12.png}
+ \\ \hline 
+
+
+\end {tabular}\end{center}\par\smallskip
+
+\end{center} 
+
+
+
+</statement>
+<solution>
+\par \par {\bf Solution: }\par  SOLUTION \par 
+
+{\bf (a)} 6
+\leavevmode\\\relax 
+{\bf (b)} 3
+\leavevmode\\\relax 
+{\bf (c)} 4
+\leavevmode\\\relax 
+{\bf (d)} 2
+\leavevmode\\\relax 
+{\bf (e)} 5
+\leavevmode\\\relax 
+{\bf (f)} 1
+\leavevmode\\\relax 
+
+
+\par 
+</solution>
+</webwork-tex>

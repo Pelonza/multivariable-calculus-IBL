@@ -50,14 +50,28 @@
       </introduction>
       <task>
         <statement>
+          <p>
+            Compute <m>\vec \nabla f(x,y)</m>.  Then draw both <m>\vec \nabla f</m> and several level curves of <m>f</m> on the same axes.
+          </p>
+          <sage>
+            <input>
+              f(x,y)=9-x^2-y^2
+              Df(x,y)=(-2*x, -2*y)
+              #f(x,y)=2*x-y
+              #Df(x,y)=(x, -y)
+              #f(x,y)=sin(x)*cos(y)
+              #Df(x,y)=(cos(x)*cos(y), -sin(x)*sin(y))
+
+              p=contour_plot(f,(x,-3,3),(y,-3,3),fill=False,cmap='jet',colorbar=True)
+              p+=plot_vector_field(Df, (x,-3,3),(y,-3,3))
+              p.show(aspect_ratio=1)
+            </input>
+          </sage>
           <aside>
             <p>
               See <url href="http://aleph.sagemath.org/?z=eJxljLEOwiAURXe-oltBHybSyeFtjV_gXIIIEYM-QqmWvxejm8vNyc3J8XyFKvAg10nJOik2-u_Dpdqs0LWtgrGElh6FlqxTpMI9NEkOMAjg9Qc-xIhHE2cH9m4S9jdXerAUKZ9NxlNenGBpi5-AfjpbKGsfXLzw0UP312vubr7Si5s5NVlnUwLhXrwBPnA2AQ">Sage</url>.  You can modify these commands to help in the plots below too.
             </p>
           </aside>
-          <p>
-            Compute <m>\vec \nabla f(x,y)</m>.  Then draw both <m>\vec \nabla f</m> and several level curves of <m>f</m> on the same axes.
-          </p>
         </statement>
         <hint>
           <p>
@@ -79,7 +93,7 @@
       </task>
       <task>
         <p>
-          Compute <m>\vec \nabla h(x,y)</m>. Then use the SageMath Cell below to plot the function and the gradient.
+          Compute <m>\vec \nabla h(x,y)</m>. Then use the SageMath Cell above to plot the function and the gradient.
         </p>
       </task>
       <task>

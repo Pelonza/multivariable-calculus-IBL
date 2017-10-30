@@ -1,0 +1,34 @@
+<webwork-tex seed="123567890">
+<preamble>
+
+			
+%%% BEGIN PROBLEM PREAMBLE
+
+</preamble>
+<statement>
+Find the partial derivatives indicated.
+Assume the variables are restricted to a domain on 
+which the function is defined.
+
+\[z = \left(x^{5}+x-y\right)^{7}.\]
+
+\(\frac{\partial z}{\partial x} =\) \mbox{\parbox[t]{17.5ex}{\hrulefill}}
+\leavevmode\\\relax 
+\(\frac{\partial z}{\partial y} =\) \mbox{\parbox[t]{17.5ex}{\hrulefill}}
+
+
+
+</statement>
+<solution>
+\par \par {\bf Solution: }\par  SOLUTION \par 
+
+\[\frac{\partial z}{\partial x}=\frac{\partial}{\partial
+  x}\left[\left(x^{5}+x-y\right)^{7}\right] = 7\!\left(x^{5}+x-y\right)^{6}\!\left(5x^{4}+1\right).\]
+
+\[\frac{\partial z}{\partial y}=\frac{\partial}{\partial 
+  y}\left[\left(x^{5}+x-y\right)^{7}\right] = -7\!\left(x^{5}+x-y\right)^{6}.\]
+
+
+\par 
+</solution>
+</webwork-tex>

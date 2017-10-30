@@ -1,0 +1,31 @@
+<webwork-tex seed="123567890">
+<preamble>
+
+			
+%%% BEGIN PROBLEM PREAMBLE
+
+</preamble>
+<statement>
+\par 
+Which is a parametric equation for the curve \(y = 9-2x\)?
+\par 
+
+\begin{itemize}
+\item{A. \(c(t) = \left(9t,2t\right)\)}
+\item{B. \(c(t) = \left(t,2+t\right)\)}
+\item{C. \(c(t) = \left(t,9+t\right)\)}
+\item{D. \(c(t) = \left(t,9-2t\right)\)}
+
+\end{itemize}
+
+
+
+</statement>
+<solution>
+\par \par {\bf Solution: }\par 
+\par {\bf Solution: }
+This is a line through \(P = (0, 9)\) with slope \(m = - 2\).  Using the parametric representation of a line, we obtain \(c(t) = \left(t,9-2t\right)\).
+
+\par 
+</solution>
+</webwork-tex>

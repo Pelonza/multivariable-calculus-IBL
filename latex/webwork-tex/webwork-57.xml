@@ -1,0 +1,20 @@
+<webwork-tex seed="123567890">
+<preamble>
+
+			
+%%% BEGIN PROBLEM PREAMBLE
+
+</preamble>
+<statement>
+\leavevmode\\\relax 
+
+Find the linearization of the function 
+\(z = x \sqrt{y}\) at the point (8, 4).
+\leavevmode\\\relax 
+\(L(x,y) =\) \mbox{\parbox[t]{30ex}{\hrulefill}}
+
+\par 
+
+
+</statement>
+</webwork-tex>
