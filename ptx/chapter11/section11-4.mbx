@@ -1,9 +1,11 @@
-
-
-<section>
+<section xml:id="ch11_04_jacobian">
   <title>Switching Coordinates: The Generalized Jacobian</title>
-  <p>
-    In this section you will learn how to...
+  <objectives>
+    <introduction>
+      <p>
+        In this section you will learn how to...
+      </p>
+    </introduction>
     <ul>
       <li>
         <p>
@@ -11,7 +13,7 @@
         </p>
       </li>
     </ul>
-  </p>
+  </objectives>
 
   <p>
     To find the Jacobian of the transformation <m>\vec T(u,v)=(x(u,v), y(u,v))</m>, we first find the derivative of <m>\vec T</m>. This is a square matrix, so it has a determinant, which should give us information about area. As the determinant may be positive or negative, we then take the absolute value to obtain the Jacobian. Formally:
@@ -25,11 +27,11 @@
           J(u,v) = \frac{\partial (x,y)}{\partial (u,v)} = |\det(D\vec T(u,v))|.
         </me>
       </p>
-<aside>
-  <p> 
-    For a tongue twister, say <q>the absolute value of the determinant of the derivative</q> ten times really fast.
-  </p>
-</aside>
+      <aside>
+        <p> 
+          For a tongue twister, say <q>the absolute value of the determinant of the derivative</q> ten times really fast.
+        </p>
+      </aside>
 
     </statement>
   </definition>
@@ -168,17 +170,6 @@
   </exploration>
 
   <exploration>
-
-    <aside>
-    <p>
-
-      <aside>
-        <p>
-          This is problem 7 in section 15.8.
-        </p>
-      </aside>
-    </p>
-    </aside>
     <p>
       Use the transformation <m>u=3x+2y</m> and <m>v=x+4y</m> to evaluate the integral
       <me>
