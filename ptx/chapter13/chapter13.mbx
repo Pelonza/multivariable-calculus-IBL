@@ -34,9 +34,9 @@
       </li>
     </ol>
   </objectives>
-  
+
   <xi:include  href="ch13_01_tripleints.mbx" />
-  <xi:include  href="section13-2.mbx" />
+  <xi:include  href="ch13_02_3djacobian.mbx" />
   <xi:include  href="section13-3.mbx" />
 
 
