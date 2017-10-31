@@ -300,7 +300,7 @@
   <xi:include  href="ch11_02_appdoubleint.mbx" />
   <xi:include  href="ch11_03_coordsswitch.mbx" />
   <xi:include  href="ch11_04_jacobian.mbx" />
-  <xi:include  href="section11-5.mbx" />
+  <xi:include  href="ch11_05_greensthm.mbx" />
 
   <conclusion>
       <title>Wrap Up</title>
