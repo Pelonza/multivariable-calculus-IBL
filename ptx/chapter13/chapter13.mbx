@@ -20,12 +20,11 @@
           Explain how to change coordinate systems in integration, with an emphasis on cylindrical, and spherical coordinates. Explain what the Jacobian of a transformation is, and how to use it.
         </p>
       </li>
-
-      <li>
+      <aside>
         <p>
-          Use triple integrals to find physical quantities such as center of mass, radii of gyration, etc. for solid regions.
+          You can also use triple integrals to find physical quantities such as center of mass, radii of gyration, etc. for solid regions.
         </p>
-      </li>
+      </aside>
 
       <li>
         <p>
@@ -37,7 +36,7 @@
 
   <xi:include  href="ch13_01_tripleints.mbx" />
   <xi:include  href="ch13_02_3djacobian.mbx" />
-  <xi:include  href="section13-3.mbx" />
+  <xi:include  href="ch13_03_divtheorem.mbx" />
 
 
   <conclusion>
