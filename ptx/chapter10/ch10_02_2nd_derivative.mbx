@@ -325,5 +325,46 @@
       </task>
     </exploration>
   </subsection>
+
+  <exercises>
+    <title>Computational Practice</title>
+    <introduction>
+      <p>
+        These are provided to help you achieve better skills in basic computational answers.
+      </p>
+    </introduction>
+
+    <exercise>
+      <webwork source="Library/FortLewis/Calc3/14-7-Second-order-partials/HGM4-14-7-01-Second-order-partials.pg"/>
+    </exercise>
+
+    <exercise>
+      <webwork source="Library/FortLewis/Calc3/14-7-Second-order-partials/HGM4-14-7-24-Second-order-partials/HGM4-14-7-24-Second-order-partials.pg" />
+    </exercise>
+
+    <exercise>
+      <webwork source="Library/FortLewis/Calc3/14-7-Second-order-partials/HGM4-14-7-28-Second-order-partials/HGM4-14-7-28-Second-order-partials.pg" />
+    </exercise>
+
+    <exercise>
+      <webwork source="Library/FortLewis/Calc3/18-3-Gradient-fields/HGM4-18-3-04b-Gradient-fields.pg"/>
+    </exercise>
+
+    <exercise>
+      <webwork source="Library/FortLewis/Calc3/18-3-Gradient-fields/HGM4-18-3-04c-Gradient-fields.pg"/>
+    </exercise>
+    
+    <exercise>
+      <webwork source="Library/272/setStewart14_7/problem_1.pg"/>
+    </exercise>
+
+    <exercise>
+      <webwork source="Library/272/setStewart14_7/problem_2.pg"/>
+    </exercise>
+
+    <exercise>
+      <webwork source="Library/272/setStewart14_7/problem_6.pg"/>
+    </exercise>
+
 </section>
 

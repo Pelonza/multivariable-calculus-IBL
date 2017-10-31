@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"state",
+				"statement"
+			],
+			[
 				"ob",
 				"objectives"
 			],
@@ -31,64 +35,25 @@
 			"file": "index.mbx",
 			"settings":
 			{
-				"buffer_size": 3546,
+				"buffer_size": 3538,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"contents": "Package Control Messages\n========================\n\nSublimeLinter\n-------------\n\n  SublimeLinter 3.10.0\n  ---------------------\n  \n  The new ComposerLinter subclass has been created, if you maintain or use a linter that uses Composer to install the dependency. Consider having that linter use ComposerLinter to get added\n  benifits!\n  \n  JRuby <http://jruby.org/> support has been added! Any linter that uses the RubyLinter subclass will have search for jruby if no other ruby executable is found.\n  \n  You may have also noted SublimeLinter run a little faster lately. That's because in the last update we switched to the new usage of the async eventlisteners. You shouldn't see any negative effects but if you do please reach out to use in our Issue Tracker <https://github.com/SublimeLinter/SublimeLinter3/issues>\n  \n  Thank you for the continued support of SublimeLinter! We are extremely appreciative of your usage, support, and contributions.\n",
+			"file": "chapter10/ch10_02_2nd_derivative.mbx",
 			"settings":
 			{
-				"buffer_size": 947,
-				"line_ending": "Windows",
-				"name": "Package Control Messages",
-				"read_only": true,
-				"scratch": true
-			}
-		},
-		{
-			"file": "chapter08/chapter8.mbx",
-			"settings":
-			{
-				"buffer_size": 8592,
+				"buffer_size": 16061,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"contents": "Searching 117 files for \"<sage>\"\n\nC:\\Users\\kschmit1\\Documents\\GitHub\\multivariable-calculus-IBL\\ptx\\review_matrices.mbx:\n   66      </p>\n   67  \n   68:     <sage>\n   69        <input>A = matrix([[1,3,4]])\n   70        B = matrix([[7,2],[1,3],[-2,0]])\n\nC:\\Users\\kschmit1\\Documents\\GitHub\\multivariable-calculus-IBL\\ptx\\chapter01\\ch01_3_systems.mbx:\n   29      <conclusion>\n   30  \n   31:     <sage>\n   32        <input>var('x y')\n   33        eq1 = x + 2*y == 7\n\nC:\\Users\\kschmit1\\Documents\\GitHub\\multivariable-calculus-IBL\\ptx\\chapter05\\ch05_02_othercoordinates.mbx:\n   24            You can use the following SageMath Cell to check your answer.\n   25          </p>\n   26:         <sage>\n   27            <input>\n   28              T(a,omega)=(a*cos(omega), a^2*sin(omega))\n   ..\n   48            Again, you can use the SageMath Cell to check your answer. Notice that you can add the two plots together to superimpose them on each other.\n   49          </p>\n   50:         <sage>\n   51            <input>\n   52              T(a,omega)=(a*cos(omega), a^2*sin(omega))\n\nC:\\Users\\kschmit1\\Documents\\GitHub\\multivariable-calculus-IBL\\ptx\\chapter06\\ch06_01_terminology.mbx:\n   64          You can use this SageMathCell to plot the function.\n   65        </p>\n   66:       <sage>\n   67          <input>\n   68            t=var('t');\n\nC:\\Users\\kschmit1\\Documents\\GitHub\\multivariable-calculus-IBL\\ptx\\chapter06\\ch06_02_pcurves.mbx:\n   65            Use the SageMathCell below, or this <url href=\"http://wolfr.am/wAkR8l\">Wolfram Alpha</url> link to plot the functions.\n   66          </p>\n   67:         <sage>\n   68            <input>\n   69              t=var('t')\n   ..\n  125            Use the SageMathCell below, or this <url href=\"http://www.wolframalpha.com/input/?i=parametric+plot+3D++%282+cos+t%2C+2+sin+t%2C+t%29+for+t+from+0+to+4+pi\">Wolfram Alpha</url> link to plot the functions.\n  126          </p>\n  127:         <sage>\n  128            <input>\n  129              f(t)=(2*cos(t), 2*sin(t), t)\n\nC:\\Users\\kschmit1\\Documents\\GitHub\\multivariable-calculus-IBL\\ptx\\chapter06\\ch06_03_psurfaces.mbx:\n   82            Use the SageMathCell or this <url href=\"http://www.wolframalpha.com/input/?i=parametric+plot+3D++%28a+cos+t%2C+a+sin+t%2C+t%29+for+t+from+0+to+4+pi+and+a+from+2+to+4\">Wolfram Alpha</url> link to help you visualize the surface.\n   83          </p>\n   84:         <sage>\n   85            <input>\n   86              f(t, a)=(a*cos(t), a*sin(t), t)\n   ..\n  190            See <url href=\"http://wolfr.am/ynm3kD\">Wolfram Alpha</url> or use the SageMathCell below.\n  191          </p>\n  192:         <sage>\n  193             <!-- <url href=\"http://aleph.sagemath.org/?z=eJwNxksKgCAUBdB5q3Dmh2eQfWZuJXmIgpAodtt_Dg6crKC92g1IXIfdLoPb6aXz4JowSgz9aVCZhAJZt540aRL89hQRBqM0L_lDq7NR6h-iAhhm\">Sage</url> -->\n  194            <input>\n  ...\n  237            See <url href=\"http://wolfr.am/A90cfW\">Wolfram Alpha</url> or plot it in the cell below. \n  238          </p>\n  239:         <sage>\n  240            <!-- <url href=\"http://aleph.sagemath.org/?z=eJxL0yjVUSjTtNUo1UrOL9Yo09RRKNUqzsyDsOKMNLkKEosSc1NLijKT4wty8ks00nQUQHoMdBRMgEo0ynQMdIy0CjI1NQFPyxVa\">Sage</url> or  -->\n  241            <input>\n\nC:\\Users\\kschmit1\\Documents\\GitHub\\multivariable-calculus-IBL\\ptx\\chapter06\\ch06_04_severalvars.mbx:\n  122            See this <url href=\"http://wolfr.am/wny0IF\">Wolfram Alpha</url> link or use the SageMathCell below to verify your answer.\n  123          </p>\n  124:         <sage>\n  125            <input>\n  126              f(x,y)=9-x^2-y^2\n  ...\n  192            See this <url href=\"http://wolfr.am/wny0IF\">Wolfram Alpha</url> link or use the SageMathCell below to verify your answer.\n  193          </p>\n  194:         <sage>\n  195            <input>\n  196              f(x,y)=9-x^2-y^2\n  ...\n  251            See this <url href=\"http://wolfr.am/wBOk1b\">Wolfram Alpha</url> link or use the SageMathCell below to verify your answer.\n  252          </p>\n  253:         <sage>\n  254            <input>\n  255              f(x,y)=x-y^2\n  ...\n  324            </p>\n  325            <!-- <url href=\"http://aleph.sagemath.org/?z=eJwrSyzSUK_QqdSpUtfkCtEAszRtDQ0MdCvijHQrgbgqzogrM7cgJzM5syS-ICe_xDhFA67Q1tJSRwHIUdA11lEw1gSyK8FsMLMKytRUAADtWRrw\">Sage</url>. -->\n  326:           <sage>\n  327              <input>\n  328                var('x,y,z')\n  ...\n  365            This kind of graph is called a cylinder, and is important in manufacturing where you extrude an object through a hole.\n  366          </p>\n  367:         <sage>\n  368            <!-- See <url href=\"http://aleph.sagemath.org/?z=eJwrSyzSUK_QqdSpUtfkStMAszRtK-KMtKvijLgycwtyMpMzS-ILcvJLjFM04ApsTXQUgGwFXWMdBWNNILsSzAYzq6BMTQUAEvYY4A\">Sage</url>. -->\n  369            <input>\n  ...\n  457            Your friendly SageMathCell for plotting..\n  458          </p>\n  459:         <sage>\n  460            <!--  See <url href=\"http://aleph.sagemath.org/?z=eJwrSyzSUK_QqdSpUtfkStMAszRtK-KMdCvjjLSr4oy4MnMLcjKTM0viC3LyS4xTNOCKbA11FIBsBV1jHQVjTSC7EswGM6ugTE0FAIXAGhM\">Sage</url>. -->\n  461            <input>\n  ...\n  591            Let <m>\\rho=2</m> and graph the resulting surface.  What do you get if <m>\\rho = 3</m>?\n  592          </p>\n  593:         <sage>\n  594            <!-- <url href=\"http://aleph.sagemath.org/?z=eJxVjsEKhDAMRO9-xeCpKTmId__C-1JEaEBtaPP_bLMirLe8ecOQNdRcGJqFYXm3RFjgWWxyhR5T3EoLt2K8hB__wosuaNAql2FcfWiZCdJGxkODpprO3apsHz2KhUcw7jnGxJijiie_zzp3oi_jZjWn\">Sage</url> -->\n  595            <input>\n  ...\n  609            </p>\n  610          </aside>\n  611:         <sage>\n  612            <!-- <url href=\"http://aleph.sagemath.org/?z=eJxVjrEKwzAMRPd8xZHJMioNTdf8RfZiQsCCNha2_p9WyeJuuveOQ2uouTA0C8PybomwwFlscoQfpriVFi7F-BN-9MKLLmjQKodhXD0uKvcnQdrI6MCgqabPblW2l76Lhc4xrl3GxHhEFSfnn7eZMRN9AfBbOD8\">Sage</url> -->\n  613            <input>\n  ...\n  686              The computer will shrink the largest vector down in size so it does not overlap any of the others, and then reduce the size of all the vectors accordingly.\n  687          </p>\n  688:         <sage>\n  689            <input>\n  690              F(x,y) = (2*x+y,x+2*y)\n  ...\n  711        Sage can also help us visualize 3d vector fields, like <m>\\vec F(x,y,z)=(y,z,x)</m>.\n  712      </p>\n  713:     <sage>\n  714        <input>\n  715          F(x,y,z) = (y,z,x)\n\nC:\\Users\\kschmit1\\Documents\\GitHub\\multivariable-calculus-IBL\\ptx\\chapter06\\ch06_05_functions.mbx:\n   49          Use the SageMath Cell below to plot your vector fields. Note: The current input is NOT the same as the field above, modify it to reflect the fields you found.\n   50        </p>\n   51:       <sage>\n   52          <!--<url href=\"http://aleph.sagemath.org/?z=eJxz06jQqdSp0lSwVdAA0joVmlwFOfkl8WWpySX5RfFpmak5KcYpGm46CkCFusY6xpo6IIUQlkYVhKEJAOGFExs\">Sage</url> -->\n   53          <input>\n   ..\n  147          Use <url href=\"http://wolfr.am/zk2KTu\">Wolfram Alpha</url> or the SageMath cell below to plot the parameterizations.\n  148        </p>\n  149:       <sage>\n  150          <!-- <url href=\"http://aleph.sagemath.org/?z=eJwL0ajQqdSp0lSwVYCyuAqKMvNKFJRCNKpsK7QrNRUyi5V0FGA8roLEosTc1JKizOT4gpz8Eg2YhA5Iv66xjjGIVQlhaQIALhka5w\">Sage</url> -->\n  151          <input>\n  ...\n  182          Use the SageMath Cell or <url href=\"http://wolframalpha.com\">Wolfram Alpha</url> to plot your parametrization with your bounds (See <xref ref=\"x3d_parametric_plot\"/> for examples).\n  183        </p>\n  184:       <sage>\n  185          <input>\n  186          </input>\n  ...\n  263          Use the SageMath Cell or <url href=\"http://wolframalpha.com\">Wolfram Alpha</url> to plot your parametrization with your bounds (See <xref ref=\"x3d_parametric_plot\"/> for examples).\n  264        </p>\n  265:       <sage>\n  266          <input>\n  267          </input>\n  ...\n  309          Use the SageMath Cell or <url href=\"http://wolframalpha.com\">Wolfram Alpha</url> to plot your parametrization with your bounds (See <xref ref=\"x3d_parametric_plot\"/> for examples).\n  310        </p>\n  311:       <sage>\n  312          <input>\n  313          </input>\n\nC:\\Users\\kschmit1\\Documents\\GitHub\\multivariable-calculus-IBL\\ptx\\chapter08\\ch08_03_curvature.mbx:\n  351            Use the SageMathCell below to compute <m>\\vec v</m>, <m>\\vec a</m>, <m>\\dfrac{ds}{dt}</m>, <m>\\vec T</m>, <m>\\dfrac{d\\vec T}{dt}</m>, <m>\\dfrac{d\\vec T}{ds}</m>, <m>\\left|\\dfrac{d\\vec T}{ds}\\right|</m>, and the unit vector <m>\\vec N</m> that is orthogonal to <m>\\vec T</m>. Evaluate each at <m>t=1</m> and <m>t=\\sqrt{3}/2</m> (use <q>sqrt(3)/2</q>). Record your answers in the provided table.\n  352          </p>\n  353:         <sage>\n  354            <input>\n  355              var('t')                 ##declare the variables you'll use below.\n\nC:\\Users\\kschmit1\\Documents\\GitHub\\multivariable-calculus-IBL\\ptx\\chapter08\\ch08_04_unitnormal.mbx:\n  268        </task>\n  269        <conclusion>\n  270:         <sage>\n  271            <input>\n  272              var('t')                 ##declare the variables you'll use below.\n\nC:\\Users\\kschmit1\\Documents\\GitHub\\multivariable-calculus-IBL\\ptx\\chapter08\\ch08_05_t_n_applications.mbx:\n  326          </p>\n  327        </aside>\n  328:       <sage>\n  329          <input>\n  330            var('t')                 ##declare the variables you'll use below.\n\nC:\\Users\\kschmit1\\Documents\\GitHub\\multivariable-calculus-IBL\\ptx\\chapter09\\ch09_01_workflux1.mbx:\n  297      </task>\n  298      <conclusion>\n  299:       <sage>\n  300          <input>\n  301            var('t','x','y')      #Define your variables\n  ...\n  356          Compute the work done by <m>\\vec F</m> to move an object along the straight line path from <m>(-1,3)</m> to <m>(2,0)</m>. Check your answer with <url href=\"\\sageworkurl\">Sage</url> or the SageMath Cell below.\n  357        </p>\n  358:       <sage>\n  359          <input>\n  360            var('t','x','y')      #Define your variables\n  ...\n  537            You can use <url href=\"\\sagefluxurl\">this Sage webpage</url> for the flux computation or the cell below.\n  538          </p>\n  539:         <sage>\n  540            <input>\n  541              var('t','x','y')                #Define your variables\n  ...\n  673            Use Sage or WolframAlpha to construct a plot of <m>\\vec F</m>.\n  674          </p>\n  675:         <sage>\n  676            <input>\n  677              var('t','x','y')                #Define your variables\n  ...\n  716              Please use this <url href=\"\\sageworkfluxurl\">Sage link</url> or the cell below to check both computations.\n  717            </p>\n  718:           <sage>\n  719              <input>\n  720                var('x,y,t')\n\nC:\\Users\\kschmit1\\Documents\\GitHub\\multivariable-calculus-IBL\\ptx\\chapter09\\ch09_02_lineintegrals.mbx:\n   75            Find the surface area of the metal sheet. [Use technology to do this integral.]\n   76          </p>\n   77:         <sage>\n   78            <input>\n   79              ##The code below will find the surface area of a surface that lies below f(x,y) and above the curve r(t) in the xy plane.  \n   ..\n  201            You can check your answer with the SageCell below.\n  202          </p>\n  203:         <sage>\n  204            <input>\n  205              ##The code below will find the surface area of a surface that lies below f(x,y) and above the curve r(t) in the xy plane.  \n  ...\n  265          You can check your answer with the SageCell below.\n  266        </p>\n  267:       <sage>\n  268          <input>\n  269            ##The code below will find the surface area of a surface that lies below f(x,y) and above the curve r(t) in the xy plane.  \n  ...\n  323            You can check your answer with the SageCell below.\n  324          </p>\n  325:         <sage>\n  326            <input>\n  327              ##The code below will find the surface area of a surface that lies below f(x,y) and above the curve r(t) in the xy plane.  \n  ...\n  424      </task>\n  425      <conclusion>\n  426:       <sage>\n  427          <input>\n  428            ##The code below will find the surface area of a surface that lies below f(x,y) and above the curve r(t) in the xy plane.  \n  ...\n  511          Check your work on each piece with the <url href=\"\\sageworkfluxurl\">Sage calculator</url> or in the cell below.\n  512        </p>\n  513:       <sage>\n  514          <input>\n  515            var('x,y,t')\n  ...\n  576          The first cell plots this vector field (same as link in margin). The second provides the Work-Flux calculations. Save those for checking your work after the exercise.\n  577        </p>\n  578:       <sage>\n  579          <input>\n  580            F(x,y)=(2*x-y,x)\n  ...\n  582          </input>\n  583        </sage>\n  584:       <sage>\n  585          <input>\n  586            var('x,y,t')\n\nC:\\Users\\kschmit1\\Documents\\GitHub\\multivariable-calculus-IBL\\ptx\\chapter09\\ch09_04_average.mbx:\n  198          Use a computer to evaluate the integrals <m>\\int_C f ds</m> and <m>\\int_C ds</m>, and then give an approximation to the average value of <m>f</m> along <m>C</m>. Is your average value between the maximum and minimum of <m>f</m> along <m>C</m>? Why should it be?\n  199        </p>\n  200:       <sage>\n  201          <input>\n  202            ##The code below will find the surface area of a surface that lies below f(x,y) and above the curve r(t) in the xy plane.  \n\n42 matches across 14 files\n\n\nSearching 117 files for \"\\begin{hint}\"\n\nC:\\Users\\kschmit1\\Documents\\GitHub\\multivariable-calculus-IBL\\ptx\\index.tex:\n 3940  \\begin{enumerate}[font=\\bfseries,label=(\\alph*),ref=\\alph*]\n 3941  \\item\\label{task-408} Replace \\(t\\) with \\(5t\\) and compute \\(\\vec v\\), \\(\\vec a\\), \\(\\vec T\\), \\(\\dfrac{d\\vec T}{dt}\\), \\(\\dfrac{d\\vec T}{ds}\\), and \\(\\left|\\dfrac{d\\vec T}{ds}\\right|\\).%\n 3942: \\item\\label{task-409} If we still want to evaluate at the time corresponding to the point \\((0,3)\\), what is \\(t=\\)?. \\begin{hint}It should be smaller than \\(\\frac{\\pi}{2}\\)%\n 3943  \\item\\label{task-410} Replace \\(t\\) with \\(\\omega t\\) and find \\(\\vec v\\), \\(\\vec a\\), \\(\\vec T\\), \\(\\dfrac{d\\vec T}{dt}\\), \\(\\dfrac{d\\vec T}{ds}\\), and \\(\\left|\\dfrac{d\\vec T}{ds}\\right|\\).%\n 3944  \\item\\label{task-411} Explain why we should evaluate at \\(t=\\frac{\\pi}{2\\omega}\\) for the point \\((0,3)\\).%\n\nC:\\Users\\kschmit1\\Documents\\GitHub\\multivariable-calculus-IBL\\ptx\\chapter08\\ch08_03_curvature.mbx:\n   79        <task>\n   80          <p>\n   81:           If we still want to evaluate at the time corresponding to the point <m>(0,3)</m>, what is <m>t=</m>?. \\begin{hint}It should be smaller than <m>\\frac{\\pi}{2}</m>\n   82          </p>\n   83        </task>\n\nC:\\Users\\kschmit1\\Documents\\GitHub\\multivariable-calculus-IBL\\ptx\\ptx_latex\\index.tex:\n 4134  \\end{task}\n 4135  \\begin{task}[]\\label{task-409}\n 4136: If we still want to evaluate at the time corresponding to the point \\((0,3)\\), what is \\(t=\\)?. \\begin{hint}It should be smaller than \\(\\frac{\\pi}{2}\\)%\n 4137  \\end{task}\n 4138  \\begin{task}[]\\label{task-410}\n\n3 matches across 3 files\n\n\nSearching 117 files for \"\\sageworkurl\"\n\nC:\\Users\\kschmit1\\Documents\\GitHub\\multivariable-calculus-IBL\\ptx\\index.mbx:\n    8  \\newcommand{\\sageurlforcurvature}{http://bmw.byuimath.com/dokuwiki/doku.php?id=curvature_calculator}\n    9  \\newcommand{\\uday}{ \\LARGE Day \\theunitday \\normalsize \\flushleft \\stepcounter{unitday} }\n   10: \\newcommand{\\sageworkurl}{http://bmw.byuimath.com/dokuwiki/doku.php?id=work_calculator}\n   11  \\newcommand{\\sagefluxurl}{http://bmw.byuimath.com/dokuwiki/doku.php?id=flux_calculator}\n   12  \\newcommand{\\sageworkfluxurl}{http://bmw.byuimath.com/dokuwiki/doku.php?id=both_flux_and_work}\n\nC:\\Users\\kschmit1\\Documents\\GitHub\\multivariable-calculus-IBL\\ptx\\index.tex:\n  328  \\newcommand{\\sageurlforcurvature}{http://bmw.byuimath.com/dokuwiki/doku.php?id=curvature_calculator}\n  329  \\newcommand{\\uday}{ \\LARGE Day \\theunitday \\normalsize \\flushleft \\stepcounter{unitday} }\n  330: \\newcommand{\\sageworkurl}{http://bmw.byuimath.com/dokuwiki/doku.php?id=work_calculator}\n  331  \n  332  \\newcommand{\\sagefluxurl}{http://bmw.byuimath.com/dokuwiki/doku.php?id=flux_calculator}\n  ...\n 4469  \\item\\label{task-476} What are \\(M\\) and \\(N\\) in terms of \\(t\\)? Use \\(\\vec r (t)\\) and substitution%\n 4470  %\n 4471: \\item\\label{task-477} Compute the work done by \\(\\vec F\\) to move an object along the parabola from \\((-1,3)\\) to \\((2,0)\\) (i.e. compute \\(\\int _C Mdx+Ndy\\)). Check your answer with \\href{\\\\sageworkurl}{Sage}.%\n 4472  \\item\\label{task-478} How much work is done by \\(\\vec F\\) to move an object along the parabola from \\((2,0)\\) to \\((-1,3)\\).%\n 4473  \\item\\label{task-479} In general, if you traverse along a path backwards, how much work is done?%\n ....\n 4479  \\item\\label{task-480} Give a parametrization \\(\\vec r(t)\\) of the straight line curve that starts at \\((-1,3)\\) and ends at \\((2,0)\\). The opening exercise of this chapter shows you the key to parameterizing a straight line segment.  Make sure you give bounds for \\(t\\).%\n 4480  \\item\\label{task-481} Compute \\(d\\vec r\\) and state \\(dx\\) and \\(dy\\). What are \\(M\\) and \\(N\\) in terms of \\(t\\)?%\n 4481: \\item\\label{task-482} Compute the work done by \\(\\vec F\\) to move an object along the straight line path from \\((-1,3)\\) to \\((2,0)\\). Check your answer with \\href{\\\\sageworkurl}{Sage}.  %\n 4482  \\item\\label{task-483} Optional (we'll discuss this in class if you don't have it).  How much work does it take to go along the closed path that starts at \\((2,0)\\), follows the parabola \\(y=4-x^2\\) to \\((-3,1)\\), and then returns to \\((2,0)\\) along a straight line. Show that this total work is \\(W=-9\\).%\n 4483  \\end{enumerate}\n\nC:\\Users\\kschmit1\\Documents\\GitHub\\multivariable-calculus-IBL\\ptx\\chapter09\\ch09_01_workflux1.mbx:\n  255        <aside>\n  256          <p>\n  257:           Please use this <url href=\"\\sageworkurl\">Sage link</url> to check your work.\n  258          </p>\n  259        </aside>\n  ...\n  283      <task>\n  284        <p>\n  285:         Compute the work done by <m>\\vec F</m> to move an object along the parabola from <m>(-1,3)</m> to <m>(2,0)</m> (i.e. compute <m>\\int _C Mdx+Ndy</m>). Check your answer with <url href=\"\\sageworkurl\">Sage</url>.\n  286        </p>\n  287      </task>\n  ...\n  354        </aside>\n  355        <p>\n  356:         Compute the work done by <m>\\vec F</m> to move an object along the straight line path from <m>(-1,3)</m> to <m>(2,0)</m>. Check your answer with <url href=\"\\sageworkurl\">Sage</url> or the SageMath Cell below.\n  357        </p>\n  358        <sage>\n  ...\n  506            <aside>\n  507              <p>\n  508:               See <url href=\"\\sageworkurl\">Sage</url> for the work calculation.\n  509              </p>\n  510            </aside>\n\nC:\\Users\\kschmit1\\Documents\\GitHub\\multivariable-calculus-IBL\\ptx\\ptx_latex\\index.tex:\n  330  \\newcommand{\\sageurlforcurvature}{http://bmw.byuimath.com/dokuwiki/doku.php?id=curvature_calculator}\n  331  \\newcommand{\\uday}{ \\LARGE Day \\theunitday \\normalsize \\flushleft \\stepcounter{unitday} }\n  332: \\newcommand{\\sageworkurl}{http://bmw.byuimath.com/dokuwiki/doku.php?id=work_calculator}\n  333  \n  334  \\newcommand{\\sagefluxurl}{http://bmw.byuimath.com/dokuwiki/doku.php?id=flux_calculator}\n  ...\n 4781  \\end{task}\n 4782  \\begin{task}[]\\label{task-477}\n 4783: Compute the work done by \\(\\vec F\\) to move an object along the parabola from \\((-1,3)\\) to \\((2,0)\\) (i.e. compute \\(\\int _C Mdx+Ndy\\)). Check your answer with \\href{\\\\sageworkurl}{Sage}.%\n 4784  \\end{task}\n 4785  \\begin{task}[]\\label{task-478}\n ....\n 4799  \\end{task}\n 4800  \\begin{task}[]\\label{task-482}\n 4801: Compute the work done by \\(\\vec F\\) to move an object along the straight line path from \\((-1,3)\\) to \\((2,0)\\). Check your answer with \\href{\\\\sageworkurl}{Sage}.  %\n 4802  \\end{task}\n 4803  \\begin{task}[]\\label{task-483}\n\n11 matches across 4 files\n",
+			"file": "chapter10/ch10_01_gradient.mbx",
 			"settings":
 			{
-				"buffer_size": 19743,
-				"line_ending": "Windows",
-				"name": "Find Results",
-				"scratch": true
-			}
-		},
-		{
-			"file": "chapter09/ch09_01_workflux1.mbx",
-			"settings":
-			{
-				"buffer_size": 31984,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "chapter09/ch09_02_lineintegrals.mbx",
-			"settings":
-			{
-				"buffer_size": 26783,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "chapter09/ch09_04_average.mbx",
-			"settings":
-			{
-				"buffer_size": 10946,
+				"buffer_size": 23696,
 				"line_ending": "Windows"
 			}
 		}
@@ -158,51 +123,42 @@
 	"expanded_folders":
 	[
 		"/C/Users/kschmit1/Documents/GitHub/multivariable-calculus-IBL/ptx",
-		"/C/Users/kschmit1/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter02",
-		"/C/Users/kschmit1/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter03",
-		"/C/Users/kschmit1/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter04",
-		"/C/Users/kschmit1/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter05",
-		"/C/Users/kschmit1/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter06",
-		"/C/Users/kschmit1/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter07",
-		"/C/Users/kschmit1/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter08",
 		"/C/Users/kschmit1/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter09",
+		"/C/Users/kschmit1/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter10",
 		"/C/Users/kschmit1/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter11",
+		"/C/Users/kschmit1/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter12",
 		"/C/Users/kschmit1/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter13"
 	],
 	"file_history":
 	[
-		"/C/Users/kschmit1/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter07/ch07_02_multiderivative.mbx",
-		"/C/Users/kschmit1/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter07/ch07_04_chainrule.mbx",
-		"/C/Users/kschmit1/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter09/ch09_04_average.mbx",
+		"/C/Users/kschmit1/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter13/chapter13.mbx",
 		"/C/Users/kschmit1/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter09/ch09_02_lineintegrals.mbx",
-		"/C/Users/kschmit1/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter08/ch08_03_curvature.mbx",
-		"/C/Users/kschmit1/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter08/ch08_04_unitnormal.mbx",
-		"/C/Users/kschmit1/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter08/ch08_05_t_n_applications.mbx",
-		"/C/Users/kschmit1/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter06/ch06_03_psurfaces.mbx",
-		"/C/Users/kschmit1/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter06/ch06_02_pcurves.mbx",
-		"/C/Users/kschmit1/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter06/ch06_01_terminology.mbx",
-		"/C/Users/kschmit1/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter08/ch08_02_unit_tangent.mbx",
-		"/C/Users/kschmit1/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter05/ch05_02_othercoordinates.mbx",
-		"/C/Users/kschmit1/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter08/section8-4.mbx",
-		"/C/Users/kschmit1/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter08/section8-3.mbx",
-		"/C/Users/kschmit1/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter08/section8-2.mbx",
-		"/C/Users/kschmit1/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter07/ch07_03_tangentplanes.mbx",
-		"/C/Users/kschmit1/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter06/ch06_05_functions.mbx",
-		"/C/Users/kschmit1/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter08/section8-1.mbx",
-		"/C/Users/kschmit1/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter08/ch08_01_projmotion.mbx",
-		"/C/Users/kschmit1/Documents/GitHub/multivariable-calculus-IBL/ptx/index.mbx",
-		"/C/Users/kschmit1/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter09/section9-1.mbx",
-		"/C/Users/kschmit1/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter09/section9-3.mbx",
-		"/C/Users/kschmit1/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter10/section10-1.mbx",
-		"/C/Users/kschmit1/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter10/section10-2.mbx",
-		"/C/Users/kschmit1/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter11/section11-1.mbx",
+		"/C/Users/kschmit1/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter10/ch10_01_gradient.mbx",
+		"/C/Users/kschmit1/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter13/section13-3.mbx",
+		"/C/Users/kschmit1/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter13/section13-2.mbx",
+		"/C/Users/kschmit1/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter13/section13-1.mbx",
+		"/C/Users/kschmit1/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter12/chapter12.mbx",
+		"/C/Users/kschmit1/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter12/section12-3.mbx",
+		"/C/Users/kschmit1/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter12/section12-2.mbx",
+		"/C/Users/kschmit1/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter12/section12-1.mbx",
+		"/C/Users/kschmit1/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter11/chapter11.mbx",
+		"/C/Users/kschmit1/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter11/section11-5.mbx",
+		"/C/Users/kschmit1/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter11/section11-4.mbx",
 		"/C/Users/kschmit1/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter11/section11-3.mbx",
+		"/C/Users/kschmit1/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter11/section11-2.mbx",
+		"/C/Users/kschmit1/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter11/section11-1.mbx",
 		"/C/Users/kschmit1/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter07/chapter7.mbx",
+		"/C/Users/kschmit1/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter07/ch07_03_tangentplanes.mbx",
 		"/C/Users/kschmit1/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter07/section7-3.mbx",
+		"/C/Users/kschmit1/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter07/ch07_02_multiderivative.mbx",
 		"/C/Users/kschmit1/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter03/section3-1.mbx",
 		"/C/Users/kschmit1/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter06/ch06_04_severalvars.mbx",
+		"/C/Users/kschmit1/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter06/ch06_05_functions.mbx",
 		"/C/Users/kschmit1/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter07/section7-2.mbx",
 		"/C/Users/kschmit1/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter07/section7-1.mbx",
+		"/C/Users/kschmit1/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter06/ch06_03_psurfaces.mbx",
+		"/C/Users/kschmit1/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter06/ch06_02_pcurves.mbx",
+		"/C/Users/kschmit1/Documents/GitHub/multivariable-calculus-IBL/ptx/index.mbx",
 		"/C/Users/kschmit1/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter01/ch01_5_taylorseries.mbx",
 		"/C/Users/kschmit1/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter02/ch02_1_vectors.mbx",
 		"/C/Users/kschmit1/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter02/ch02_2_dotproduct.mbx",
@@ -211,20 +167,26 @@
 		"/C/Users/kschmit1/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter04/parametric-eqns.mbx",
 		"/C/Users/kschmit1/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter04_old/section4-1.mbx",
 		"/C/Users/kschmit1/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter05/ch05_01_polar_coordinates.mbx",
+		"/C/Users/kschmit1/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter08/section8-1.mbx",
+		"/C/Users/kschmit1/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter08/section8-4.mbx",
+		"/C/Users/kschmit1/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter10/section10-1.mbx",
 		"/C/Users/kschmit1/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter06/chapter6.mbx",
 		"/C/Users/kschmit1/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter07/section7-4.mbx",
+		"/C/Users/kschmit1/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter08/section8-3.mbx",
+		"/C/Users/kschmit1/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter09/section9-1.mbx",
 		"/C/Users/kschmit1/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter09/section9-2.mbx",
+		"/C/Users/kschmit1/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter09/section9-3.mbx",
 		"/C/Users/kschmit1/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter09/section9-4.mbx",
 		"/C/Users/kschmit1/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter09/section9-5.mbx",
 		"/C/Users/kschmit1/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter10/section10-3.mbx",
-		"/C/Users/kschmit1/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter12/section12-2.mbx",
-		"/C/Users/kschmit1/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter13/section13-3.mbx",
 		"/C/Users/kschmit1/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter02/ch02_6_projection.mbx",
 		"/C/Users/kschmit1/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter02_old/section2-6.mbx",
+		"/C/Users/kschmit1/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter05/ch05_02_othercoordinates.mbx",
 		"/C/Users/kschmit1/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter06/ch06_06_functionlist.mbx",
 		"/C/Users/kschmit1/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter06/section6-5.mbx",
 		"/C/Users/kschmit1/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter06/ch06_sec4_severalvars.mbx",
 		"/C/Users/kschmit1/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter06/section6-4.mbx",
+		"/C/Users/kschmit1/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter06/ch06_01_terminology.mbx",
 		"/C/Users/kschmit1/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter06/section6-3.mbx",
 		"/C/Users/kschmit1/Documents/GitHub/multivariable-calculus-IBL/ptx/frontmatter.ptx",
 		"/C/Users/kschmit1/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter06/section6-2.mbx",
@@ -232,7 +194,6 @@
 		"/C/Users/kschmit1/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter05/chapter5.mbx",
 		"/C/Users/kschmit1/Documents/GitHub/multivariable-calculus-IBL/ptx/index.tex",
 		"/C/Users/kschmit1/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter05/section5-1.mbx",
-		"/C/Users/kschmit1/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter13/section13-1.mbx",
 		"/C/Users/kschmit1/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter02/ch02_4_crossproduct.mbx",
 		"/C/Users/kschmit1/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter02/ch02_5_crossplanes.mbx",
 		"/C/Users/kschmit1/Documents/GitHub/multivariable-calculus-IBL/ptx/review_matrices.mbx",
@@ -297,16 +258,15 @@
 		"/C/Users/kschmit1/Documents/GitHub/IntroductoryDataScienceBook/README.md",
 		"/C/Users/kschmit1/Documents/GitHub/IntroductoryDataScienceBook/frontmatter.ptx",
 		"/C/Users/kschmit1/Documents/GitHub/IntroductoryDataScienceBook/chapter1.ptx",
-		"/C/Users/kschmit1/Documents/GitHub/IntroductoryDataScienceBook/main.xml",
-		"/C/Users/kschmit1/AppData/Roaming/Sublime Text 3/Packages/User/SublimeGit.sublime-settings"
+		"/C/Users/kschmit1/Documents/GitHub/IntroductoryDataScienceBook/main.xml"
 	],
 	"find":
 	{
-		"height": 23.0
+		"height": 72.0
 	},
 	"find_in_files":
 	{
-		"height": 104.0,
+		"height": 109.0,
 		"where_history":
 		[
 			""
@@ -317,15 +277,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
-			"\\sageworkfluxurl",
-			"\\sagefluxurl",
-			"\\sageworkurl",
-			"html",
-			"show",
-			"html",
-			"\\begin{hint}",
-			"<sage>",
-			"review>",
+			"subsection",
+			"angular",
 			"aside",
 			"hint",
 			"></xref>",
@@ -359,11 +312,6 @@
 		"regex": false,
 		"replace_history":
 		[
-			"http://bmw.byuimath.com/dokuwiki/doku.php?id=both_flux_and_work",
-			"http://bmw.byuimath.com/dokuwiki/doku.php?id=flux_calculator",
-			"http://bmw.byuimath.com/dokuwiki/doku.php?id=work_calculator",
-			"pretty_print",
-			"project>",
 			"/>",
 			"",
 			"exploration",
@@ -385,7 +333,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -394,15 +342,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3546,
+						"buffer_size": 3538,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								663,
-								726
+								3437,
+								3437
 							]
 						],
 						"settings":
@@ -412,413 +360,27 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 455.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 947,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								947,
-								947
-							]
-						],
-						"settings":
-						{
-							"auto_indent": false,
-							"syntax": "Packages/Text/Plain text.tmLanguage",
-							"tab_width": 2,
-							"word_wrap": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "chapter08/chapter8.mbx",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 8592,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								8592,
-								8592
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/MBXTools/mbx.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 6,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 19743,
-						"regions":
-						{
-							"match":
-							{
-								"flags": 112,
-								"regions":
-								[
-									[
-										156,
-										162
-									],
-									[
-										391,
-										397
-									],
-									[
-										682,
-										688
-									],
-									[
-										974,
-										980
-									],
-									[
-										1267,
-										1273
-									],
-									[
-										1595,
-										1601
-									],
-									[
-										1919,
-										1925
-									],
-									[
-										2378,
-										2384
-									],
-									[
-										2609,
-										2615
-									],
-									[
-										2981,
-										2987
-									],
-									[
-										3472,
-										3478
-									],
-									[
-										3720,
-										3726
-									],
-									[
-										3968,
-										3974
-									],
-									[
-										4269,
-										4275
-									],
-									[
-										4514,
-										4520
-									],
-									[
-										4832,
-										4838
-									],
-									[
-										5202,
-										5208
-									],
-									[
-										5532,
-										5538
-									],
-									[
-										6018,
-										6024
-									],
-									[
-										6223,
-										6229
-									],
-									[
-										6590,
-										6596
-									],
-									[
-										6952,
-										6958
-									],
-									[
-										7394,
-										7400
-									],
-									[
-										7681,
-										7687
-									],
-									[
-										7968,
-										7974
-									],
-									[
-										8567,
-										8573
-									],
-									[
-										8848,
-										8854
-									],
-									[
-										9128,
-										9134
-									],
-									[
-										9398,
-										9404
-									],
-									[
-										9751,
-										9757
-									],
-									[
-										10006,
-										10012
-									],
-									[
-										10233,
-										10239
-									],
-									[
-										10510,
-										10516
-									],
-									[
-										10814,
-										10820
-									],
-									[
-										11098,
-										11104
-									],
-									[
-										11376,
-										11382
-									],
-									[
-										11656,
-										11662
-									],
-									[
-										11893,
-										11899
-									],
-									[
-										12228,
-										12234
-									],
-									[
-										12507,
-										12513
-									],
-									[
-										12635,
-										12641
-									],
-									[
-										13101,
-										13107
-									],
-									[
-										13807,
-										13819
-									],
-									[
-										14436,
-										14448
-									],
-									[
-										14783,
-										14795
-									],
-									[
-										15265,
-										15277
-									],
-									[
-										15840,
-										15852
-									],
-									[
-										16341,
-										16353
-									],
-									[
-										17181,
-										17193
-									],
-									[
-										17725,
-										17737
-									],
-									[
-										18057,
-										18069
-									],
-									[
-										18336,
-										18348
-									],
-									[
-										18517,
-										18529
-									],
-									[
-										18930,
-										18942
-									],
-									[
-										19346,
-										19358
-									],
-									[
-										19636,
-										19648
-									]
-								],
-								"scope": ""
-							}
-						},
-						"selection":
-						[
-							[
-								14924,
-								14924
-							]
-						],
-						"settings":
-						{
-							"detect_indentation": false,
-							"line_numbers": false,
-							"output_tag": 3,
-							"result_base_dir": "",
-							"result_file_regex": "^([^ \t].*):$",
-							"result_line_regex": "^ +([0-9]+):",
-							"scroll_past_end": true,
-							"syntax": "Packages/Default/Find Results.hidden-tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 3901.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 5,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "chapter09/ch09_01_workflux1.mbx",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 31984,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								28843,
-								28859
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/MBXTools/mbx.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 9015.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "chapter09/ch09_02_lineintegrals.mbx",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 26783,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								25323,
-								25339
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/MBXTools/mbx.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 8170.0,
+						"translation.y": 1267.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 2,
 					"type": "text"
 				},
 				{
-					"buffer": 6,
-					"file": "chapter09/ch09_04_average.mbx",
-					"semi_transient": true,
+					"buffer": 1,
+					"file": "chapter10/ch10_02_2nd_derivative.mbx",
+					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 10946,
+						"buffer_size": 16061,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								16048,
+								16048
 							]
 						],
 						"settings":
@@ -828,10 +390,40 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 11620.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 4,
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "chapter10/ch10_01_gradient.mbx",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 23696,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								22334,
+								23682
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/MBXTools/mbx.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 19802.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
 					"type": "text"
 				}
 			]
@@ -839,11 +431,11 @@
 	],
 	"incremental_find":
 	{
-		"height": 21.0
+		"height": 41.0
 	},
 	"input":
 	{
-		"height": 34.0
+		"height": 41.0
 	},
 	"layout":
 	{
@@ -876,7 +468,7 @@
 	"project": "multivariable_ptx.sublime-project",
 	"replace":
 	{
-		"height": 42.0
+		"height": 75.0
 	},
 	"save_all_on_build": true,
 	"select_file":
