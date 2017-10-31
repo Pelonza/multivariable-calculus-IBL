@@ -625,7 +625,8 @@
         These are provided to help you achieve better skills in basic computational answers.
       </p>
     </introduction>
-
+<!--
+These are line-integral problems and should probably be in 9-3!
     <exercise>
       <webwork source="Library/272/setStewart16_3/ur_vc_12_2.pg"/>
     </exercise>
@@ -642,6 +643,8 @@
       <webwork source="Library/272/setStewart16_3/ur_vc_12_14.pg"/>
     </exercise>
 
+-->
+
     <exercise>
       <webwork source="Library/272/setStewart16_1/ur_vc_11_2.pg"/>
     </exercise>
@@ -655,7 +658,15 @@
     </exercise>
 
     <exercise>
+      <webwork source="Library/272/setStewart14_6/problem_4.pg"/>
+    </exercise>
+
+    <exercise>
       <webwork source="Library/272/setStewart14_6/ur_vc_6_12.pg"/>
+    </exercise>
+
+    <exercise>
+      <webwork source="Library/272/setStewart14_6/ur_vc_6_14.pg"/>
     </exercise>
 
     <exercise>

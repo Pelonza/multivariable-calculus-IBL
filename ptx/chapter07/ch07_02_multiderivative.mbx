@@ -662,6 +662,10 @@
       <webwork source="Library/Union/setMVderivatives/an14_3_3.pg" />
     </exercise>
 
+    <exercise>
+      <webwork source="Library/FortLewis/Calc3/14-7-Second-order-partials/HGM4-14-7-06-Second-order-partials.pg" />
+    </exercise>
+
   </exercises>
     
 

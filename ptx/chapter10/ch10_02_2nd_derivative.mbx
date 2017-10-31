@@ -366,5 +366,9 @@
       <webwork source="Library/272/setStewart14_7/problem_6.pg"/>
     </exercise>
 
+    <exercise>
+      <webwork source="Library/272/setStewart14_7/problem_8.pg"/>
+    </exercise>
+
 </section>
 

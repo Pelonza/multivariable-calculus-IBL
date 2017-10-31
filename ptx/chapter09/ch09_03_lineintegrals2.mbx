@@ -480,6 +480,10 @@
       <webwork source="Library/272/setStewart16_3/ur_vc_12_3.pg" />
     </exercise>
 
+    <exercise>
+      <webwork source="Library/272/setStewart16_3/ur_vc_12_1.pg" />
+    </exercise>
+
   </exercises>
 </section>
 
