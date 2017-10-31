@@ -37,7 +37,7 @@
 
   <xi:include  href="ch12_01_surfaceintegrals.mbx" />
   <xi:include  href="ch12_02_divcurl.mbx" />
-  <xi:include  href="section12-3.mbx" /> 
+  <xi:include  href="ch12_03_stokesthm.mbx" /> 
 
 
   <conclusion>
