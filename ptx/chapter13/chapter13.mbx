@@ -13,6 +13,11 @@
         <p>
           Explain how to setup and compute triple integrals, as well as how to interchange the bounds of integration. Use these ideas to find area and volume.
         </p>
+        <aside>
+          <p>
+            You can also use triple integrals to find physical quantities such as center of mass, radii of gyration, etc. for solid regions.
+          </p>
+        </aside>
       </li>
 
       <li>
@@ -20,12 +25,6 @@
           Explain how to change coordinate systems in integration, with an emphasis on cylindrical, and spherical coordinates. Explain what the Jacobian of a transformation is, and how to use it.
         </p>
       </li>
-      <aside>
-        <p>
-          You can also use triple integrals to find physical quantities such as center of mass, radii of gyration, etc. for solid regions.
-        </p>
-      </aside>
-
       <li>
         <p>
           Explain how to use the Divergence theorem to compute the flux of a vector fields out of a closed surface.
