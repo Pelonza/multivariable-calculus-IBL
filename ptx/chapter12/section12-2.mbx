@@ -1,24 +1,26 @@
-
-
-<section>
+<section xml:id="ch12_02_divcurl">
   <title>Two Vector Operators: Curl and Div</title>
-  <introduction>
-    <p>
-      After completing this section you should...
-      <ul>
-        <li>
-          <p>
-            Be able to compute the curl and divergence for 2-D and 3-D vector-functions
-          </p>
-        </li>
+  <objectives>
+    <introduction>
+      <p>
+        After completing this section you should...
+      </p>
+    </introduction>
+    <ul>
+      <li>
+        <p>
+          Be able to compute the curl and divergence for 2-D and 3-D vector-functions
+        </p>
+      </li>
 
-        <li>
-          <p>
-            Be able to visualize and sketch vector fields with these properties.
-          </p>
-        </li>
-      </ul>
-    </p>
+      <li>
+        <p>
+          Be able to visualize and sketch vector fields with these properties.
+        </p>
+      </li>
+    </ul>
+  </objectives>
+  <introduction>
 
     <p>
       We are going to take a short aside now to define two operators: the curl and the divergence. These operators provide insight into how vector fields are behaving and have direct applications to understanding circulation, flux and flow. We'll come back to those applications once we are comfortable with computing each operation.
@@ -51,9 +53,22 @@
       <introduction>
         <p>
           For each vector field:
+          <ol>
+            <li>
+              <p>
+                sketch a plot (you can graph it in Sage or WolframAlpha first)
+              </p>
+            </li>
+            <li>
+              <p>
+                find the divergence
+              </p>
+            </li>
+          </ol>
         </p>
-      </introduction>
-      <task>
+        <p>
+          [Suggestion: Leave space after each sub-exercise for another computation (the curl).]
+        </p>
         <aside>
           <p>
             See 
@@ -61,18 +76,12 @@
             <url href="http://wolfr.am/y4gIgX">Wolfram Alpha</url> to plot the vector fields
           </p>
         </aside>
-        <p>
-          sketch a plot (you can graph it in Sage or WolframAlpha first)
-        </p>
-      </task>
-      <task>
-        <p>
-          find the divergence
-        </p>
-      </task>
-      <p>
-        [Suggestion: Leave space after each sub-exercise for another computation (the curl).]
-      </p>
+        <sage>
+          <input>
+            #Stuff
+          </input>
+        </sage>
+      </introduction>
       <task>
         <p>
           <m>\vec{F}(x,y)=(x,y)</m>
@@ -94,11 +103,9 @@
         </p>
       </task>
       <conclusion>
-
-      <p>
-        Can you make a general statement about how a 2-D vector field looks for it to have non-zero divergence?
-      </p>
-
+        <p>
+          Can you make a general statement about how a 2-D vector field looks for it to have non-zero divergence?
+        </p>
       </conclusion>
     </exploration>
 
@@ -109,7 +116,10 @@
     <exploration xml:id="x3d_div">
       <introduction>
         <p>
-          Compute the divergence for each of the following vector fields. [Suggestion: Again leave space]
+          Compute the divergence for each of the following vector fields.
+        </p>
+        <p>
+          [Suggestion: Again leave space]
         </p>
       </introduction>
       <task>
@@ -185,13 +195,8 @@
         </p>
 
         <p>
-          Find the curl
+          Find the curl for each vector field:
         </p>
-
-        <p>
-          for each vector field:
-        </p>
-
         <aside>
           <p>
             See <url href="http://mathinsight.org/curl_components">MathInsight.org</url> for a really nice animation of the curl of a vector field.
