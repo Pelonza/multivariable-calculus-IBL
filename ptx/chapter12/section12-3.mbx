@@ -40,7 +40,7 @@
   <exploration>
     <introduction>
       <p>
-        Consider the vector field <m>\vec F = (2z,3y,-4x)</m>. Let <m>C</m> be the disc <m>x^2+z^2\leq 9</m> in the plane <m>y=2</m>. Let <m>C</m> be the boundary of this disc, so the circle <m>x^2+z^2=9</m> in the plane <m>y=2</m>. The curve <m>C</m> is oriented in the counterclockwise direction when looked at from the origin.
+        Consider the vector field <m>\vec F = (2z,3y,-4x)</m>. Let <m>S</m> be the disc <m>x^2+z^2\leq 9</m> in the plane <m>y=2</m>. Let <m>C</m> be the boundary of this disc, so the circle <m>x^2+z^2=9</m> in the plane <m>y=2</m>. The curve <m>C</m> is oriented in the counterclockwise direction when looked at from the origin.
       </p>
     </introduction>
     <task>

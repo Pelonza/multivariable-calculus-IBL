@@ -161,6 +161,7 @@
         <mrow>\frac{\partial}{\partial x}\amp \frac{\partial}{\partial y}\amp \frac{\partial}{\partial z}</mrow>
         <mrow>M\amp N\amp P
         \end{bmatrix}</mrow>
+        <mrow>\amp = \left(\frac{\partial}{\partial y}P-\frac{\partial}{\partial z}N,-(\frac{\partial}{\partial x}P-\frac{\partial}{\partial z}M),\frac{\partial}{\partial x}N-\frac{\partial}{\partial y}M\right)</mrow>
         <mrow>\amp = \left(\frac{\partial}{\partial y}P-\frac{\partial}{\partial z}N,\frac{\partial}{\partial z}M-\frac{\partial}{\partial x}P,\frac{\partial}{\partial x}N-\frac{\partial}{\partial y}M\right)</mrow>
       </md>
     </p>
