@@ -459,29 +459,25 @@
       </p>
     </introduction>
 
-    <todo> Add webwork exercises! </todo>
-
-    <!--
     <exercise>
-      <webwork source="Library/Michigan/Chap18Sec1/Q21.pg" />
+      <webwork source="Library/272/setStewart15_1/problem_11.pg" />
     </exercise>
 
     <exercise>
-      <webwork source="Library/Hope/Multi2/11-06-Scalar-line-integrals/Scalar-line-integral-04.pg" />
+      <webwork source="Library/272/setStewart15_1/problem_11.pg" />
     </exercise>
 
     <exercise>
-      <webwork source="Library/FortLewis/Calc3/18-2-Line-integrals-parametrized/HGM4-18-2-00-Line-integrals-parametrized.pg" />
+      <webwork source="Library/272/setStewart15_2/problem_5.pg" />
     </exercise>
 
     <exercise>
-      <webwork source="Library/FortLewis/Calc3/18-2-Line-integrals-parametrized/HGM4-18-2-08a-Line-integrals-parametrized.pg" />
+      <webwork source="Library/ASU-topics/setCalculus/stef/stef15_3p2.pg" />
     </exercise>
 
     <exercise>
-      <webwork source="Library/FortLewis/Calc3/18-1-Idea-of-line-integrals/HGM5-18-1-09-Line-integrals.pg" />
+      <webwork source="Library/Michigan/Chap16Sec2/Q35.pg" />
     </exercise>
-  -->
 
   </exercises>
 

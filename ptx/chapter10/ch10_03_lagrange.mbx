@@ -174,5 +174,27 @@
     </exploration>
   </subsection>
 
+  <exercises>
+    <title>Computational Practice</title>
+    <introduction>
+      <p>
+        These are provided to help you achieve better skills in basic computational answers.
+      </p>
+    </introduction>
+
+    <exercise>
+      <webwork source="Library/272/setStewart14_7/ur_vc_7_12.pg"/>
+    </exercise>
+
+    <exercise>
+      <webwork source="Library/UMN/calculusStewartET/s_14_8_3.pg" />
+    </exercise>
+
+    <exercise>
+      <webwork source="Library/WHFreeman/Rogawski_Calculus_Early_Transcendentals_Second_Edition/14_Differentiation_in_Several_Variables/14.8_Lagrange_Multipliers-_Optimizing_with_a_Constraint/14.8.11.pg" />
+    </exercise>
+
+   </exercises>
+
 </section>
 

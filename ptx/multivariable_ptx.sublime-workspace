@@ -4,10 +4,6 @@
 		"selected_items":
 		[
 			[
-				"state",
-				"statement"
-			],
-			[
 				"ob",
 				"objectives"
 			],
@@ -41,20 +37,32 @@
 			}
 		},
 		{
-			"file": "chapter10/ch10_02_2nd_derivative.mbx",
+			"file": "chapter11/ch11_01_doubleints.mbx",
 			"settings":
 			{
-				"buffer_size": 16061,
+				"buffer_size": 22546,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "chapter10/ch10_01_gradient.mbx",
+			"file": "chapter11/ch11_03_coordsswitch.mbx",
 			"settings":
 			{
-				"buffer_size": 23696,
+				"buffer_size": 8414,
+				"encoding": "UTF-8",
 				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "Package Control Messages\n========================\n\nSublimeLinter\n-------------\n\n  SublimeLinter 3.10.0\n  ---------------------\n  \n  The new ComposerLinter subclass has been created, if you maintain or use a linter that uses Composer to install the dependency. Consider having that linter use ComposerLinter to get added\n  benifits!\n  \n  JRuby <http://jruby.org/> support has been added! Any linter that uses the RubyLinter subclass will have search for jruby if no other ruby executable is found.\n  \n  You may have also noted SublimeLinter run a little faster lately. That's because in the last update we switched to the new usage of the async eventlisteners. You shouldn't see any negative effects but if you do please reach out to use in our Issue Tracker <https://github.com/SublimeLinter/SublimeLinter3/issues>\n  \n  Thank you for the continued support of SublimeLinter! We are extremely appreciative of your usage, support, and contributions.\n",
+			"settings":
+			{
+				"buffer_size": 947,
+				"line_ending": "Windows",
+				"name": "Package Control Messages",
+				"read_only": true,
+				"scratch": true
 			}
 		}
 	],
@@ -123,42 +131,59 @@
 	"expanded_folders":
 	[
 		"/C/Users/kschmit1/Documents/GitHub/multivariable-calculus-IBL/ptx",
+		"/C/Users/kschmit1/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter02",
+		"/C/Users/kschmit1/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter03",
+		"/C/Users/kschmit1/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter04",
+		"/C/Users/kschmit1/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter05",
+		"/C/Users/kschmit1/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter06",
+		"/C/Users/kschmit1/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter07",
+		"/C/Users/kschmit1/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter08",
 		"/C/Users/kschmit1/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter09",
 		"/C/Users/kschmit1/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter10",
 		"/C/Users/kschmit1/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter11",
-		"/C/Users/kschmit1/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter12",
 		"/C/Users/kschmit1/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter13"
 	],
 	"file_history":
 	[
-		"/C/Users/kschmit1/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter13/chapter13.mbx",
-		"/C/Users/kschmit1/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter09/ch09_02_lineintegrals.mbx",
+		"/C/Users/kschmit1/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter10/ch10_03_lagrange.mbx",
+		"/C/Users/kschmit1/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter10/ch10_02_2nd_derivative.mbx",
+		"/C/Users/kschmit1/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter09/ch09_04_average.mbx",
 		"/C/Users/kschmit1/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter10/ch10_01_gradient.mbx",
-		"/C/Users/kschmit1/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter13/section13-3.mbx",
-		"/C/Users/kschmit1/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter13/section13-2.mbx",
-		"/C/Users/kschmit1/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter13/section13-1.mbx",
-		"/C/Users/kschmit1/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter12/chapter12.mbx",
-		"/C/Users/kschmit1/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter12/section12-3.mbx",
-		"/C/Users/kschmit1/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter12/section12-2.mbx",
-		"/C/Users/kschmit1/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter12/section12-1.mbx",
-		"/C/Users/kschmit1/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter11/chapter11.mbx",
-		"/C/Users/kschmit1/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter11/section11-5.mbx",
-		"/C/Users/kschmit1/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter11/section11-4.mbx",
-		"/C/Users/kschmit1/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter11/section11-3.mbx",
+		"/C/Users/kschmit1/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter09/ch09_05_physicalproperties.mbx",
+		"/C/Users/kschmit1/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter08/chapter8.mbx",
+		"/C/Users/kschmit1/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter09/ch09_02_lineintegrals.mbx",
+		"/C/Users/kschmit1/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter09/ch09_01_workflux1.mbx",
 		"/C/Users/kschmit1/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter11/section11-2.mbx",
-		"/C/Users/kschmit1/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter11/section11-1.mbx",
-		"/C/Users/kschmit1/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter07/chapter7.mbx",
-		"/C/Users/kschmit1/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter07/ch07_03_tangentplanes.mbx",
-		"/C/Users/kschmit1/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter07/section7-3.mbx",
 		"/C/Users/kschmit1/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter07/ch07_02_multiderivative.mbx",
-		"/C/Users/kschmit1/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter03/section3-1.mbx",
-		"/C/Users/kschmit1/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter06/ch06_04_severalvars.mbx",
-		"/C/Users/kschmit1/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter06/ch06_05_functions.mbx",
-		"/C/Users/kschmit1/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter07/section7-2.mbx",
-		"/C/Users/kschmit1/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter07/section7-1.mbx",
+		"/C/Users/kschmit1/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter07/ch07_04_chainrule.mbx",
+		"/C/Users/kschmit1/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter08/ch08_03_curvature.mbx",
+		"/C/Users/kschmit1/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter08/ch08_04_unitnormal.mbx",
+		"/C/Users/kschmit1/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter08/ch08_05_t_n_applications.mbx",
 		"/C/Users/kschmit1/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter06/ch06_03_psurfaces.mbx",
 		"/C/Users/kschmit1/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter06/ch06_02_pcurves.mbx",
+		"/C/Users/kschmit1/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter06/ch06_01_terminology.mbx",
+		"/C/Users/kschmit1/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter08/ch08_02_unit_tangent.mbx",
+		"/C/Users/kschmit1/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter05/ch05_02_othercoordinates.mbx",
+		"/C/Users/kschmit1/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter08/section8-4.mbx",
+		"/C/Users/kschmit1/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter08/section8-3.mbx",
+		"/C/Users/kschmit1/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter08/section8-2.mbx",
+		"/C/Users/kschmit1/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter07/ch07_03_tangentplanes.mbx",
+		"/C/Users/kschmit1/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter06/ch06_05_functions.mbx",
+		"/C/Users/kschmit1/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter08/section8-1.mbx",
+		"/C/Users/kschmit1/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter08/ch08_01_projmotion.mbx",
 		"/C/Users/kschmit1/Documents/GitHub/multivariable-calculus-IBL/ptx/index.mbx",
+		"/C/Users/kschmit1/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter09/section9-1.mbx",
+		"/C/Users/kschmit1/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter09/section9-3.mbx",
+		"/C/Users/kschmit1/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter10/section10-1.mbx",
+		"/C/Users/kschmit1/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter10/section10-2.mbx",
+		"/C/Users/kschmit1/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter11/section11-1.mbx",
+		"/C/Users/kschmit1/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter11/section11-3.mbx",
+		"/C/Users/kschmit1/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter07/chapter7.mbx",
+		"/C/Users/kschmit1/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter07/section7-3.mbx",
+		"/C/Users/kschmit1/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter03/section3-1.mbx",
+		"/C/Users/kschmit1/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter06/ch06_04_severalvars.mbx",
+		"/C/Users/kschmit1/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter07/section7-2.mbx",
+		"/C/Users/kschmit1/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter07/section7-1.mbx",
 		"/C/Users/kschmit1/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter01/ch01_5_taylorseries.mbx",
 		"/C/Users/kschmit1/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter02/ch02_1_vectors.mbx",
 		"/C/Users/kschmit1/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter02/ch02_2_dotproduct.mbx",
@@ -167,26 +192,20 @@
 		"/C/Users/kschmit1/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter04/parametric-eqns.mbx",
 		"/C/Users/kschmit1/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter04_old/section4-1.mbx",
 		"/C/Users/kschmit1/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter05/ch05_01_polar_coordinates.mbx",
-		"/C/Users/kschmit1/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter08/section8-1.mbx",
-		"/C/Users/kschmit1/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter08/section8-4.mbx",
-		"/C/Users/kschmit1/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter10/section10-1.mbx",
 		"/C/Users/kschmit1/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter06/chapter6.mbx",
 		"/C/Users/kschmit1/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter07/section7-4.mbx",
-		"/C/Users/kschmit1/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter08/section8-3.mbx",
-		"/C/Users/kschmit1/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter09/section9-1.mbx",
 		"/C/Users/kschmit1/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter09/section9-2.mbx",
-		"/C/Users/kschmit1/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter09/section9-3.mbx",
 		"/C/Users/kschmit1/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter09/section9-4.mbx",
 		"/C/Users/kschmit1/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter09/section9-5.mbx",
 		"/C/Users/kschmit1/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter10/section10-3.mbx",
+		"/C/Users/kschmit1/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter12/section12-2.mbx",
+		"/C/Users/kschmit1/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter13/section13-3.mbx",
 		"/C/Users/kschmit1/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter02/ch02_6_projection.mbx",
 		"/C/Users/kschmit1/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter02_old/section2-6.mbx",
-		"/C/Users/kschmit1/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter05/ch05_02_othercoordinates.mbx",
 		"/C/Users/kschmit1/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter06/ch06_06_functionlist.mbx",
 		"/C/Users/kschmit1/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter06/section6-5.mbx",
 		"/C/Users/kschmit1/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter06/ch06_sec4_severalvars.mbx",
 		"/C/Users/kschmit1/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter06/section6-4.mbx",
-		"/C/Users/kschmit1/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter06/ch06_01_terminology.mbx",
 		"/C/Users/kschmit1/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter06/section6-3.mbx",
 		"/C/Users/kschmit1/Documents/GitHub/multivariable-calculus-IBL/ptx/frontmatter.ptx",
 		"/C/Users/kschmit1/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter06/section6-2.mbx",
@@ -194,6 +213,7 @@
 		"/C/Users/kschmit1/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter05/chapter5.mbx",
 		"/C/Users/kschmit1/Documents/GitHub/multivariable-calculus-IBL/ptx/index.tex",
 		"/C/Users/kschmit1/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter05/section5-1.mbx",
+		"/C/Users/kschmit1/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter13/section13-1.mbx",
 		"/C/Users/kschmit1/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter02/ch02_4_crossproduct.mbx",
 		"/C/Users/kschmit1/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter02/ch02_5_crossplanes.mbx",
 		"/C/Users/kschmit1/Documents/GitHub/multivariable-calculus-IBL/ptx/review_matrices.mbx",
@@ -252,21 +272,15 @@
 		"/C/Users/Karl/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter09/section9-3.mbx",
 		"/C/Users/Karl/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter09/section9-1.mbx",
 		"/C/Users/Karl/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter08/section8-2.mbx",
-		"/C/Users/Karl/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter08/section8-1.mbx",
-		"/C/Users/Karl/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter07/section7-3.mbx",
-		"/C/Users/Karl/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter06/section6-3.mbx",
-		"/C/Users/kschmit1/Documents/GitHub/IntroductoryDataScienceBook/README.md",
-		"/C/Users/kschmit1/Documents/GitHub/IntroductoryDataScienceBook/frontmatter.ptx",
-		"/C/Users/kschmit1/Documents/GitHub/IntroductoryDataScienceBook/chapter1.ptx",
-		"/C/Users/kschmit1/Documents/GitHub/IntroductoryDataScienceBook/main.xml"
+		"/C/Users/Karl/Documents/GitHub/multivariable-calculus-IBL/ptx/chapter08/section8-1.mbx"
 	],
 	"find":
 	{
-		"height": 72.0
+		"height": 23.0
 	},
 	"find_in_files":
 	{
-		"height": 109.0,
+		"height": 104.0,
 		"where_history":
 		[
 			""
@@ -277,8 +291,17 @@
 		"case_sensitive": false,
 		"find_history":
 		[
-			"subsection",
-			"angular",
+			"Radii of Gyration",
+			"sage",
+			"\\sageworkfluxurl",
+			"\\sagefluxurl",
+			"\\sageworkurl",
+			"html",
+			"show",
+			"html",
+			"\\begin{hint}",
+			"<sage>",
+			"review>",
 			"aside",
 			"hint",
 			"></xref>",
@@ -312,6 +335,11 @@
 		"regex": false,
 		"replace_history":
 		[
+			"http://bmw.byuimath.com/dokuwiki/doku.php?id=both_flux_and_work",
+			"http://bmw.byuimath.com/dokuwiki/doku.php?id=flux_calculator",
+			"http://bmw.byuimath.com/dokuwiki/doku.php?id=work_calculator",
+			"pretty_print",
+			"project>",
 			"/>",
 			"",
 			"exploration",
@@ -333,7 +361,7 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 2,
 			"sheets":
 			[
 				{
@@ -349,8 +377,8 @@
 						"selection":
 						[
 							[
-								3437,
-								3437
+								3438,
+								3438
 							]
 						],
 						"settings":
@@ -360,7 +388,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1267.0,
+						"translation.y": 455.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 2,
@@ -368,19 +396,19 @@
 				},
 				{
 					"buffer": 1,
-					"file": "chapter10/ch10_02_2nd_derivative.mbx",
+					"file": "chapter11/ch11_01_doubleints.mbx",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 16061,
+						"buffer_size": 22546,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								16048,
-								16048
+								22532,
+								21806
 							]
 						],
 						"settings":
@@ -390,40 +418,70 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 11620.0,
+						"translation.y": 6045.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "chapter11/ch11_03_coordsswitch.mbx",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 8414,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								8385,
+								8385
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/MBXTools/mbx.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 2514.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
 					"type": "text"
 				},
 				{
-					"buffer": 2,
-					"file": "chapter10/ch10_01_gradient.mbx",
-					"semi_transient": true,
+					"buffer": 3,
+					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 23696,
+						"buffer_size": 947,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								22334,
-								23682
+								947,
+								947
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/MBXTools/mbx.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
+							"auto_indent": false,
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_width": 2,
+							"word_wrap": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 19802.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 3,
 					"type": "text"
 				}
 			]
@@ -431,11 +489,11 @@
 	],
 	"incremental_find":
 	{
-		"height": 41.0
+		"height": 21.0
 	},
 	"input":
 	{
-		"height": 41.0
+		"height": 34.0
 	},
 	"layout":
 	{
@@ -468,7 +526,7 @@
 	"project": "multivariable_ptx.sublime-project",
 	"replace":
 	{
-		"height": 75.0
+		"height": 42.0
 	},
 	"save_all_on_build": true,
 	"select_file":
