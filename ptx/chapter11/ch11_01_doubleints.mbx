@@ -367,6 +367,58 @@
         </aside>
         <sage>
           <input>
+            var('x,y,t')
+
+            outer_bounds=(x,-2,3)       #Should always be constants
+            inner_bounds=(y,x^2-4,x+2)  #Can involve functions
+
+            f(x,y)=y+4           #This might be density (if you need mass), or it might be height (if you want to find volume). 
+                                 #It can also represent many other things.
+
+            in1=inner_bounds[1]
+            in2=inner_bounds[2]
+            if inner_bounds[0]==y:
+                inner_integral=integrate(f(x,y),y).subs(y=in2)-integrate(f(x,y),y).subs(y=in1)
+            else:
+                inner_integral=integrate(f(x,y),x).subs(x=in2)-integrate(f(x,y),x).subs(x=in1)
+            inner_integral_unevaluated=integrate(f(x,y),inner_bounds[0])
+            outer_integral=integrate(inner_integral,outer_bounds)
+            outer_integral_unevaluated=integrate(inner_integral,outer_bounds[0])
+
+            pretty_print(table([
+            ["Outer Bounds",outer_bounds],
+            ["Inner Bounds",inner_bounds],
+            [r"Integrand $f(x,y)$",f(x,y)],
+            ["Inner Integral before evaluating",inner_integral_unevaluated],
+            ["Inner Integral",inner_integral],
+            ["Outer Integral before evaluating",outer_integral_unevaluated],
+            ["Outer Integral",outer_integral],
+            ]))
+
+
+            html("The plot below shows you the region over which you are integrating. You'll integrate from red to blue.")  
+            if inner_bounds[0]==y: 
+                p=parametric_plot((x,inner_bounds[1]),outer_bounds,color='red')
+                p+=parametric_plot((x,inner_bounds[2]),outer_bounds,color='blue')
+                xv(j)=j/8*outer_bounds[1]+(1-j/8)*outer_bounds[2]
+                p+=sum(parametric_plot((xv(j), t*inner_bounds[2].subs(x=xv(j))+(1-t)*inner_bounds[1].subs(x=xv(j))),(t,0,1),color='black') for j in [0..8])
+            else:
+                p=parametric_plot((inner_bounds[1],y),outer_bounds,color='red')
+                p+=parametric_plot((inner_bounds[2],y),outer_bounds,color='blue')
+                yv(j)=j/8*outer_bounds[1]+(1-j/8)*outer_bounds[2]
+                p+=sum(parametric_plot((t*inner_bounds[2].subs(y=yv(j))+(1-t)*inner_bounds[1].subs(y=yv(j)),yv(j)),(t,0,1),color='black') for j in [0..8])
+            show(p)
+
+
+            #print "Here is a 3D plot of the region, fully shaded."
+            #rep=t*inner_bounds[2]+(1-t)*inner_bounds[1]
+            #r=vector((x,y,0))
+            #if inner_bounds[0]==y: 
+            #    r=r.subs(y = rep) 
+            #else: 
+            #    r=r.subs(x = rep)
+            #p=parametric_plot(r,outer_bounds,(t,0,1))
+            #show(p)
           </input>
         </sage>
       </introduction>
