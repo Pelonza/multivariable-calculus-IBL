@@ -81,5 +81,31 @@
       </p>
     </exploration>
   </subsection>
+
+  <exercises>
+    <title>Computational Practice</title>
+    <introduction>
+      <p>
+        These are provided to help you achieve better skills in basic computational answers.
+      </p>
+    </introduction>
+
+    <exercise>
+      <webwork source="Library/FortLewis/Calc3/20-2-Divergence-theorem/HGM4-20-2-CYU-01-Divergence-theorem.pg" />
+    </exercise>
+
+    <exercise>
+      <webwork source="Library/Michigan/Chap19Sec2/Q09.pg" />
+    </exercise>
+
+    <exercise>
+      <webwork source="Library/FortLewis/Calc3/20-2-Divergence-theorem/HGM4-20-2-00-Divergence-theorem.pg" />
+    </exercise>
+
+    <exercise>
+      <webwork source="Library/FortLewis/Calc3/20-2-Divergence-theorem/HGM5-20-2-33-Divergence-theorem.pg" />
+    </exercise>
+
+  </exercises>
 </section>
 

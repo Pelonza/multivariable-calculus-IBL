@@ -268,5 +268,32 @@
     -->
 
   </subsection>
+
+  <exercises>
+    <title>Computational Practice</title>
+    <introduction>
+      <p>
+        These are provided to help you achieve better skills in basic computational answers.
+      </p>
+    </introduction>
+
+    <exercise>
+      <webwork source="Library/FortLewis/Calc3/16-3-Triple-integrals/HGM4-16-3-21-Triple-integrals.pg" />
+    </exercise>
+
+    <exercise>
+      <webwork source="Library/272/setStewart15_7/ur_vc_10_7.pg" />
+    </exercise>
+
+    <exercise>
+      <webwork source="Library/272/setStewart15_7/ur_vc_10_8.pg" />
+    </exercise>
+
+    <exercise>
+      <webwork source="Library/272/setStewart15_7/ur_vc_10_6.pg" />
+    </exercise>
+
+  </exercises>
+
 </section>
 

@@ -266,15 +266,17 @@
       <webwork source="Library/Michigan/Chap16Sec7/Q17.pg" />
     </exercise>
 
-<!--    <exercise>
-      <webwork source="Library/Michigan/Chap16Sec7/Q21.pg" />
+    <exercise>
+      <webwork source="Library/FortLewis/Calc3/16-5-Cylindrical-integrals/HGM5-16-5-08-Cylindrical-integrals.pg" />
     </exercise>
 
     <exercise>
-      <webwork source="Library/Michigan/Chap16Sec7/Q23.pg" />
+      <webwork source="Library/FortLewis/Calc3/16-5-Spherical-integrals/HGM4-16-5-04-Spherical-integrals.pg" />
     </exercise>
 
--->
+    <exercise>
+      <webwork source="Library/FortLewis/Calc3/16-5-Spherical-integrals/HGM5-16-5-34-Spherical-integrals.pg" />
+    </exercise>
 
   </exercises>
 </section>
