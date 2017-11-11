@@ -249,4 +249,32 @@
       </p>
     </exploration>
   </subsection>
+
+  <exercises>
+    <title>Computational Practice</title>
+    <introduction>
+      <p>
+        These are provided to help you achieve better skills in basic computational answers.
+      </p>
+    </introduction>
+
+    <exercise>
+      <webwork source="Library/Michigan/Chap16Sec7/Q05.pg" />
+    </exercise>
+
+    <exercise>
+      <webwork source="Library/Michigan/Chap16Sec7/Q17.pg" />
+    </exercise>
+
+<!--    <exercise>
+      <webwork source="Library/Michigan/Chap16Sec7/Q21.pg" />
+    </exercise>
+
+    <exercise>
+      <webwork source="Library/Michigan/Chap16Sec7/Q23.pg" />
+    </exercise>
+
+-->
+
+  </exercises>
 </section>
