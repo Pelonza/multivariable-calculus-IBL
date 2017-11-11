@@ -87,7 +87,7 @@
           </p>
         </hint>
       </task>
-      <task>
+<!--       <task>
         <p>
           Set up an integral to give the moment of inertia about the <m>y</m>-axis if <m>\delta=5</m>. Note that <m>z=0</m> in the <m>xy</m>-plane.
         </p>
@@ -96,7 +96,7 @@
         <p>
           Set up an integral to give the <m>R_x</m> if the density is <m>\delta(x,y)=xy^2</m>.
         </p>
-      </task>
+      </task> -->
     </exploration>
 
     <exploration>

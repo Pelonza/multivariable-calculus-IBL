@@ -212,6 +212,31 @@
     </exploration>
   </subsection>
 
+  <exercises>
+    <title>Computational Practice</title>
+    <introduction>
+      <p>
+        These are provided to help you achieve better skills in basic computational answers.
+      </p>
+    </introduction>
+
+    <exercise>
+      <webwork source="Library/272/setStewart16_4/ur_vc_12_6.pg" />
+    </exercise>
+
+    <exercise>
+      <webwork source="Library/272/setStewart16_4/ur_vc_12_7.pg" />
+    </exercise>
+
+    <exercise>
+      <webwork source="Library/FortLewis/Calc3/18-4-Greens-theorem/HGM4-18-4-17-Greens-theorem.pg" />
+    </exercise>
+
+    <exercise>
+      <webwork source="Library/Rochester/setVectorCalculus2/ur_vc_12_6.pg" />
+    </exercise>
+
+  </exercises>
 
 </section>
 
