@@ -271,5 +271,43 @@
       </task>
     </exploration>
   </subsection>
+
+  <exercises>
+    <title>Computational Practice</title>
+    <introduction>
+      <p>
+        These are provided to help you achieve better skills in basic computational answers.
+      </p>
+    </introduction>
+
+    <exercise>
+      <webwork source="Library/FortLewis/Calc3/20-1-Idea-of-divergence/HGM4-20-1-03-Divergence.pg" />
+    </exercise>
+
+    <exercise>
+      <webwork source="Library/FortLewis/Calc3/20-1-Idea-of-divergence/HGM4-20-1-09-Divergence.pg" />
+    </exercise>
+
+    <exercise>
+      <webwork source="Library/FortLewis/Calc3/20-1-Idea-of-divergence/HGM4-20-1-22-Divergence.pg" />
+    </exercise>
+
+    <exercise>
+      <webwork source="Library/FortLewis/Calc3/20-3-Curl/HGM4-20-3-08-Curl.pg" />
+    </exercise>
+
+    <exercise>
+      <webwork source="Library/FortLewis/Calc3/20-3-Curl/HGM4-20-3-10-Curl.pg" />
+    </exercise>
+
+    <exercise>
+      <webwork source="Library/FortLewis/Calc3/20-3-Curl/HGM4-20-3-14-Curl.pg" />
+    </exercise>
+
+    <exercise>
+      <webwork source="Library/272/setStewart16_5/problem_1.pg" />
+    </exercise>
+
+  </exercises>
 </section>
 
